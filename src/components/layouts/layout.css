@@ -1,0 +1,21 @@
+body {
+    background: #eee;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header-row, #footer-row {
+    flex-shrink: 0;
+}
+
+#content-row {
+    flex-grow: 1;
+}
+
+#content {
+    background: #fff;
+}
