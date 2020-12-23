@@ -13,8 +13,8 @@ const HeaderBar = () => (
             <Navbar.Collapse id="navi" className="justify-content-end">
                 <Nav defaultActiveKey="/">
                     <Nav.Link href="/">Etusivu</Nav.Link>
-                    <Nav.Link href="#foo">Kilta</Nav.Link>
-                    <Nav.Link href="#bar">Yhteystiedot</Nav.Link>
+                    <Nav.Link href="/kilta">Kilta</Nav.Link>
+                    <Nav.Link href="/yhteystiedot">Yhteystiedot</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
