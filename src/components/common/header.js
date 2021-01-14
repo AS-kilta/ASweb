@@ -3,7 +3,7 @@ import { Nav, Navbar, Container } from "react-bootstrap"
 
 import "./header.css"
 
-export default function HeaderBar({navData, location}) {
+export default function HeaderBar( {navData, location} ) {
     return (
         <Navbar variant="dark" expand="lg" id="navbar-top">
             <Container className="w-responsive">
@@ -14,8 +14,8 @@ export default function HeaderBar({navData, location}) {
                 <Navbar.Collapse id="navi" className="justify-content-end">
                     <Nav>
                         {navData.map( (entry) => {
-                            return (location.startsWith(entry.link) && entry.link !== "/") ||
-                                (location === "/" && entry.link === "/")
+                            return (location.startsWith(entry.link) && entry.link !== "/")
+                                || (location === "/" && entry.link === "/")
                                     ? (<Nav.Link href={entry.link} active>{entry.name}</Nav.Link>)
                                     : (<Nav.Link href={entry.link}>{entry.name}</Nav.Link>)
                         })}

@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layouts/layout.js"
 
-export default function Template({location, data}) {
+export default function Template( {location, data} ) {
     const { markdownRemark } = data;
     const { frontmatter, html } = markdownRemark;
 

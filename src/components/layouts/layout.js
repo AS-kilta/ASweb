@@ -7,7 +7,7 @@ import Footer from "../common/footer.js"
 
 import "./layout.css"
 
-export default function Layout({ location, children }) {
+export default function Layout( {location, children} ) {
     return (
         <StaticQuery
             query={graphql`
