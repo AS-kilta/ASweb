@@ -16,8 +16,8 @@ export default function HeaderBar( {navData, location} ) {
                         {navData.map( (entry) => {
                             return (location.startsWith(entry.link) && entry.link !== "/")
                                 || (location === "/" && entry.link === "/")
-                                    ? (<Nav.Link href={entry.link} active>{entry.name}</Nav.Link>)
-                                    : (<Nav.Link href={entry.link}>{entry.name}</Nav.Link>)
+                                    ? (<Nav.Link href={entry.link} active>{entry.title}</Nav.Link>)
+                                    : (<Nav.Link href={entry.link}>{entry.title}</Nav.Link>)
                         })}
                     </Nav>
                 </Navbar.Collapse>

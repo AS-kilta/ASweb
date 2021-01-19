@@ -2,21 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `AS Web`,
     description: `Something *very* quick and dirty.`,
-    author: `@gatsbyjs`,
-    navigation: [
-      {
-        "name": "Etusivu",
-        "link": "/"
-      },
-      {
-        "name": "Kilta",
-        "link": "/kilta"
-      },
-      {
-        "name": "Yhteystiedot",
-        "link": "/yhteystiedot"
-      }
-    ]
+    author: `aivansama`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -48,6 +34,13 @@ module.exports = {
         name: 'pages'
       }
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`
+      }
+    }
   ],
 }

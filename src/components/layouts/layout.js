@@ -11,21 +11,23 @@ export default function Layout( {location, children} ) {
     return (
         <StaticQuery
             query={graphql`
-                query {
-                    site {
-                        siteMetadata {
-                            navigation {
-                                name
-                                link
+                query getNaviData {
+                    allNaviYaml {
+                        edges {
+                            node {
+                                content {
+                                    link
+                                    title
+                                }
                             }
                         }
                     }
                 }
             `}
-            render={res => (
+            render={data => (
                 <Container className="p-0" id="container" fluid>
                 <Row className="m-0" id="header-row">
-                    <Col className="p-0"><HeaderBar navData={res.site.siteMetadata.navigation} location={location.pathname} /></Col>
+                    <Col className="p-0"><HeaderBar navData={data.allNaviYaml.edges[0].node.content} location={location.pathname} /></Col>
                 </Row>
                 <Row className="m-0" id="content-row">
                     <Col className="p-0">
