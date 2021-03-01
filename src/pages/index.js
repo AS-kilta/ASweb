@@ -3,8 +3,8 @@ import Layout from "../components/layouts/layout.js"
 
 export default function IndexPage( {location} ) {
   return (
-    <Layout location={location}>
-      <h1>Content</h1>
+    <Layout location={location} title="Content">
+      <p>Lorem ipsum dolor sit amet.</p>
     </Layout>
   )
 }

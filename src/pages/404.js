@@ -3,8 +3,8 @@ import Layout from "../components/layouts/layout.js"
 
 export default function Error404( {location} ) {
   return (
-    <Layout location={location}>
-      <h1>404 - Not Found :/</h1>
+    <Layout location={location} title="404 - Not Found :/" is404>
+      <p>Back to <a href="/">Home</a>.</p>
     </Layout>
   )
 }

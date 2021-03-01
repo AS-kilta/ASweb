@@ -8,9 +8,8 @@ export default function Template( {location, data} ) {
     const { frontmatter, html } = markdownRemark;
 
     return (
-        <Layout location={location}>
+        <Layout location={location} title={frontmatter.title}>
             <article className="post">
-                <h1 className="post-title">{frontmatter.title}</h1>
                 <div 
                     className="post-content"
                     dangerouslySetInnerHTML={{ __html: html }} />

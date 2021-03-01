@@ -7,7 +7,7 @@ import Footer from "../common/footer.js"
 
 import "./layout.css"
 
-export default function Layout( {location, children} ) {
+export default function Layout( {location, title, children, is404=false} ) {
     return (
         <StaticQuery
             query={graphql`
@@ -18,6 +18,10 @@ export default function Layout( {location, children} ) {
                                 content {
                                     link
                                     title
+                                    subnavi {
+                                        title
+                                        link
+                                    }
                                 }
                             }
                         }
@@ -27,7 +31,7 @@ export default function Layout( {location, children} ) {
             render={data => (
                 <Container className="p-0" id="container" fluid>
                 <Row className="m-0" id="header-row">
-                    <Col className="p-0"><HeaderBar navData={data.allNaviYaml.edges[0].node.content} location={location.pathname} /></Col>
+                    <Col className="p-0"><HeaderBar navData={data.allNaviYaml.edges[0].node.content} location={location.pathname} title={title} is404={is404} /></Col>
                 </Row>
                 <Row className="m-0" id="content-row">
                     <Col className="p-0">

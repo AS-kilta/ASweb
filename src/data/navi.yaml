@@ -4,5 +4,8 @@
       link: "/"
     - title: "Kilta"
       link: "/kilta"
+      subnavi:
+        - title: "Hallitus"
+          link: "/kilta/hallitus"
     - title: "Yhteystiedot"
       link: "/yhteystiedot"
