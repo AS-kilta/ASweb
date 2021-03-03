@@ -7,7 +7,7 @@ import Footer from "../common/footer.js"
 
 import "./layout.css"
 
-export default function Layout( {location, title, children, is404=false} ) {
+export default function Layout( {context, title, children} ) {
     return (
         <StaticQuery
             query={graphql`
@@ -16,11 +16,23 @@ export default function Layout( {location, title, children, is404=false} ) {
                         edges {
                             node {
                                 content {
-                                    link
-                                    title
+                                    title {
+                                        fi
+                                        en
+                                    }
+                                    link {
+                                        fi
+                                        en
+                                    }
                                     subnavi {
-                                        title
-                                        link
+                                        title {
+                                            fi
+                                            en
+                                        }
+                                        link {
+                                            fi
+                                            en
+                                        }
                                     }
                                 }
                             }
@@ -31,7 +43,7 @@ export default function Layout( {location, title, children, is404=false} ) {
             render={data => (
                 <Container className="p-0" id="container" fluid>
                 <Row className="m-0" id="header-row">
-                    <Col className="p-0"><HeaderBar navData={data.allNaviYaml.edges[0].node.content} location={location.pathname} title={title} is404={is404} /></Col>
+                    <Col className="p-0"><HeaderBar data={data.allNaviYaml.edges[0].node.content} slug={context.slug} title={title} lang={context.langKey} /></Col>
                 </Row>
                 <Row className="m-0" id="content-row">
                     <Col className="p-0">

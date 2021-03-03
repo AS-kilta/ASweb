@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Nav, Navbar, Container, Jumbotron } from "react-bootstrap"
 
 import "./header.css"
@@ -14,14 +14,31 @@ function compareUrl(urlarr1, urlarr2) {
 }
 
 function tokenize(url) {
+    if (url.match(/\/$/))
+        url = url.slice(0, -1);
     let ret = url.split("/");
     ret.shift();
     return ret;
 }
 
-export default function HeaderBar( {navData, location, title, is404} ) {
-    let subnavi;
-    let locarray = tokenize(location);
+function removeLangFromArr(arr, lang) {
+    if (arr[0] === lang)
+        arr.shift();
+    if (arr.length === 0)
+        arr[0] = "";
+}
+
+export default function HeaderBar( {data, slug, title, lang} ) {
+    const [linkToTranslation, setLinkToTranslation] = useState(null);
+    let foreignLink, subnavi;
+    let foreignLang = lang === "fi" ? "en" : "fi";
+    let locarray = tokenize(slug);
+    removeLangFromArr(locarray, lang);
+
+    useEffect(() => {
+        setLinkToTranslation(foreignLink);
+        }, [foreignLink]);
+
     return (
         <>
             <Navbar variant="dark" expand="lg" id="navbar-top">
@@ -32,14 +49,21 @@ export default function HeaderBar( {navData, location, title, is404} ) {
                     <Navbar.Toggle aria-controls="navi" />
                     <Navbar.Collapse id="navi" className="justify-content-end">
                         <Nav>
-                            {navData.map( (entry) => {
-                                let linkarray = tokenize(entry.link);
-                                if (compareUrl(locarray, linkarray) >= 0 && entry.subnavi && !is404)
+                            {data.map( (entry) => {
+                                let linkarray = tokenize(entry.link[0][`${lang}`]);
+                                removeLangFromArr(linkarray, lang);
+                                if (compareUrl(locarray, linkarray) >= 0 && entry.subnavi)
                                     subnavi = entry.subnavi;
-                                return compareUrl(locarray, linkarray) >= 0 && !is404
-                                        ? (<Nav.Link href={entry.link} active>{entry.title}</Nav.Link>)
-                                        : (<Nav.Link href={entry.link}>{entry.title}</Nav.Link>)
+                                if (compareUrl(locarray, linkarray) === 0)
+                                    foreignLink = entry.link[0][`${foreignLang}`];
+                                return compareUrl(locarray, linkarray) >= 0
+                                    ? (<Nav.Link href={entry.link[0][`${lang}`]} active>{entry.title[0][`${lang}`]}</Nav.Link>)
+                                    : (<Nav.Link href={entry.link[0][`${lang}`]}>{entry.title[0][`${lang}`]}</Nav.Link>)
                             })}
+                            { lang === "fi"
+                                ? (<Nav.Link href={linkToTranslation || "/en"}>In English</Nav.Link>)
+                                : (<Nav.Link href={linkToTranslation || "/"}>Suomeksi</Nav.Link>)
+                            }
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
@@ -49,10 +73,13 @@ export default function HeaderBar( {navData, location, title, is404} ) {
                 { subnavi && 
                 <Nav className="justify-content-center">
                     {subnavi.map( (entry) => {
-                        let linkarray = tokenize(entry.link);
+                        let linkarray = tokenize(entry.link[0][`${lang}`]);
+                        removeLangFromArr(linkarray, lang);
+                        if (compareUrl(locarray, linkarray) === 0)
+                            foreignLink = entry.link[0][`${foreignLang}`];
                         return compareUrl(locarray, linkarray) === 0
-                            ? (<Nav.Link href={entry.link} active>{entry.title}</Nav.Link>)
-                            : (<Nav.Link href={entry.link}>{entry.title}</Nav.Link>)
+                            ? (<Nav.Link href={entry.link[0][`${lang}`]} active>{entry.title[0][`${lang}`]}</Nav.Link>)
+                            : (<Nav.Link href={entry.link[0][`${lang}`]}>{entry.title[0][`${lang}`]}</Nav.Link>)
                     })}
                 </Nav>
                 }

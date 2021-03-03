@@ -35,12 +35,22 @@ module.exports = {
       }
     },
     `gatsby-transformer-remark`,
+    `gatsby-transformer-javascript-frontmatter`,
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/data`
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-i18n`,
+      options: {
+        langKeyDefault: 'fi',
+        langKeyForNull: 'fi',
+        prefixDefault: false,
+        useLangKeyLayout: false,
+      },
+    },
   ],
 }

@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/layouts/layout.js"
 
-export default function IndexPage( {location} ) {
+export default function IndexPage( {pageContext} ) {
   return (
-    <Layout location={location} title="Content">
+    <Layout context={pageContext} title="Home">
       <p>Lorem ipsum dolor sit amet.</p>
     </Layout>
   )

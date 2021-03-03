@@ -1,11 +1,27 @@
 - name: "Main navigation"
   content:
-    - title: "Etusivu"
-      link: "/"
-    - title: "Kilta"
-      link: "/kilta"
+    - title:
+        - fi: "Etusivu"
+          en: "Home"
+      link:
+        - fi: "/"
+          en: "/en"
+    - title:
+        - fi: "Kilta"
+          en: "Guild"
+      link:
+        - fi: "/kilta"
+          en: "/en/guild"
       subnavi:
-        - title: "Hallitus"
-          link: "/kilta/hallitus"
-    - title: "Yhteystiedot"
-      link: "/yhteystiedot"
+        - title:
+            - fi: "Hallitus"
+              en: "Board"
+          link:
+            - fi: "/kilta/hallitus"
+              en: "/en/guild/board"
+    - title:
+        - fi: "Yhteystiedot"
+          en: "Contact"
+      link:
+        - fi: "/yhteystiedot"
+          en: "/en/contact"

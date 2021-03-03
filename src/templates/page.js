@@ -3,12 +3,12 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layouts/layout.js"
 
-export default function Template( {location, data} ) {
+export default function PageTemplate( {pageContext, data} ) {
     const { markdownRemark } = data;
     const { frontmatter, html } = markdownRemark;
 
     return (
-        <Layout location={location} title={frontmatter.title}>
+        <Layout context={pageContext} title={frontmatter.title}>
             <article className="post">
                 <div 
                     className="post-content"
