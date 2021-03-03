@@ -1,35 +1,37 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "asweb",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "New website for AS",
+  "version": "1.0.0",
+  "author": "Jyri Kolu <jyri.kolu@gmail.com> et al.",
   "dependencies": {
-    "bootstrap": "^4.5.3",
-    "gatsby": "^2.30.3",
-    "gatsby-image": "^2.9.0",
+    "bootstrap": "^4.6.0",
+    "gatsby": "^3.0.0",
+    "gatsby-image": "^3.0.0",
     "gatsby-plugin-i18n": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.10.0",
-    "gatsby-plugin-offline": "^3.8.0",
-    "gatsby-plugin-react-helmet": "^3.8.0",
-    "gatsby-plugin-sharp": "^2.12.2",
-    "gatsby-source-filesystem": "^2.9.1",
-    "gatsby-transformer-javascript-frontmatter": "^2.10.0",
-    "gatsby-transformer-remark": "^2.14.0",
-    "gatsby-transformer-sharp": "^2.10.1",
-    "gatsby-transformer-yaml": "^2.9.0",
+    "gatsby-plugin-manifest": "^3.0.0",
+    "gatsby-plugin-offline": "^4.0.0",
+    "gatsby-plugin-react-helmet": "^4.0.0",
+    "gatsby-plugin-sharp": "^3.0.0",
+    "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-transformer-javascript-frontmatter": "^3.0.0",
+    "gatsby-transformer-remark": "^3.0.0",
+    "gatsby-transformer-sharp": "^3.0.0",
+    "gatsby-transformer-yaml": "^3.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.14.0",
-    "react-bootstrap": "^1.4.3",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.1",
+    "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "typescript": "^4.1.3"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "^2.2.1"
   },
   "keywords": [
-    "gatsby"
+    "AS",
+    "web",
+    "ASweb"
   ],
   "license": "0BSD",
   "scripts": {
@@ -43,9 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jyrge/ASweb"
   }
 }
