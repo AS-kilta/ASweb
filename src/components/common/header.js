@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { Nav, Navbar, Container, Jumbotron } from "react-bootstrap"
+import { Nav, Navbar, Container } from "react-bootstrap"
 
 import "./header.css"
 
@@ -28,9 +28,9 @@ function removeLangFromArr(arr, lang) {
         arr[0] = "";
 }
 
-export default function HeaderBar( {data, slug, title, lang} ) {
+export default function HeaderBar( {data, slug, lang} ) {
     const [linkToTranslation, setLinkToTranslation] = useState(null);
-    let foreignLink, subnavi;
+    let foreignLink;
     let foreignLang = lang === "fi" ? "en" : "fi";
     let locarray = tokenize(slug);
     removeLangFromArr(locarray, lang);
@@ -52,13 +52,31 @@ export default function HeaderBar( {data, slug, title, lang} ) {
                             {data.map( (entry) => {
                                 let linkarray = tokenize(entry.link[0][`${lang}`]);
                                 removeLangFromArr(linkarray, lang);
-                                if (compareUrl(locarray, linkarray) >= 0 && entry.subnavi)
-                                    subnavi = entry.subnavi;
                                 if (compareUrl(locarray, linkarray) === 0)
                                     foreignLink = entry.link[0][`${foreignLang}`];
-                                return compareUrl(locarray, linkarray) >= 0
-                                    ? (<Nav.Link href={entry.link[0][`${lang}`]} active>{entry.title[0][`${lang}`]}</Nav.Link>)
-                                    : (<Nav.Link href={entry.link[0][`${lang}`]}>{entry.title[0][`${lang}`]}</Nav.Link>)
+                                if (entry.subnavi)
+                                    return (
+                                        <li className="dropdown">
+                                            {compareUrl(locarray, linkarray) >= 0
+                                                ? (<a className="nav-link dropdown-toggle active" href={entry.link[0][`${lang}`]} data-toggle="dropdown" aria-expanded="false">{entry.title[0][`${lang}`]}</a>)
+                                                : (<a className="nav-link dropdown-toggle" href={entry.link[0][`${lang}`]} data-toggle="dropdown" aria-expanded="false">{entry.title[0][`${lang}`]}</a>)}
+                                            <div className="dropdown-menu">
+                                                { entry.subnavi.map( ( entry ) => {
+                                                    let linkarray = tokenize(entry.link[0][`${lang}`]);
+                                                    removeLangFromArr(linkarray, lang);
+                                                    if (compareUrl(locarray, linkarray) === 0)
+                                                        foreignLink = entry.link[0][`${foreignLang}`];
+                                                    return compareUrl(locarray, linkarray) === 0
+                                                        ? (<a className="dropdown-item active" href={entry.link[0][`${lang}`]}>{entry.title[0][`${lang}`]}</a>)
+                                                        : (<a className="dropdown-item" href={entry.link[0][`${lang}`]}>{entry.title[0][`${lang}`]}</a>)
+                                                }) }
+                                            </div>
+                                        </li>
+                                    )
+                                else
+                                    return compareUrl(locarray, linkarray) >= 0
+                                        ? (<Nav.Link href={entry.link[0][`${lang}`]} active>{entry.title[0][`${lang}`]}</Nav.Link>)
+                                        : (<Nav.Link href={entry.link[0][`${lang}`]}>{entry.title[0][`${lang}`]}</Nav.Link>)
                             })}
                             { lang === "fi"
                                 ? (<Nav.Link href={linkToTranslation || "/en"}>In English</Nav.Link>)
@@ -68,22 +86,6 @@ export default function HeaderBar( {data, slug, title, lang} ) {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <Jumbotron className="text-center">
-                { title && <h1>{title}</h1> }
-                { subnavi && 
-                <Nav className="justify-content-center">
-                    {subnavi.map( (entry) => {
-                        let linkarray = tokenize(entry.link[0][`${lang}`]);
-                        removeLangFromArr(linkarray, lang);
-                        if (compareUrl(locarray, linkarray) === 0)
-                            foreignLink = entry.link[0][`${foreignLang}`];
-                        return compareUrl(locarray, linkarray) === 0
-                            ? (<Nav.Link href={entry.link[0][`${lang}`]} active>{entry.title[0][`${lang}`]}</Nav.Link>)
-                            : (<Nav.Link href={entry.link[0][`${lang}`]}>{entry.title[0][`${lang}`]}</Nav.Link>)
-                    })}
-                </Nav>
-                }
-            </Jumbotron>
         </>
     )
 }
