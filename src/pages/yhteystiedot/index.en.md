@@ -1,7 +1,6 @@
 ---
 slug: "/en/contact"
 title: "Contact Information"
-lang: "en"
 template: page
 ---
 

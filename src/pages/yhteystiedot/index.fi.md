@@ -1,7 +1,6 @@
 ---
 slug: "/yhteystiedot"
 title: "Yhteystiedot"
-lang: "fi"
 template: page
 ---
 

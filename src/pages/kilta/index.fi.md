@@ -1,7 +1,6 @@
 ---
 slug: "/kilta"
 title: "Kilta"
-lang: "fi"
 template: page
 ---
 

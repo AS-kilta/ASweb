@@ -2,9 +2,9 @@
 
 ## Technologies
 
-* Gatsby 3 & React 17
-* react-bootstrap 1.5.1
-* Bootstrap 4.6
+- Gatsby 3 & React 17
+- react-bootstrap 1.5.1
+- Bootstrap 4.6
 
 and various other plugins, packages etc. as dependencies
 
@@ -38,7 +38,7 @@ Run development build and start temporary Web server by running
 gatsby develop
 ```
 
-The website is now accessible at http://localhost:8000. You can edit the code with your favourite text editor 
+The website is now accessible at http://localhost:8000. You can edit the code with your favourite text editor
 (please don't use Notepad...); the development server watches file changes and rebuilds the site automatically.
 
 And finally, nauti spagetista!

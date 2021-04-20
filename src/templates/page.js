@@ -1,18 +1,19 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Layout from "../components/layouts/layout.js"
 
-export default function PageTemplate( {pageContext, data} ) {
-    const { markdownRemark } = data;
-    const { frontmatter, html } = markdownRemark;
+export default function PageTemplate({ pageContext, data }) {
+    const { mdx } = data
+    const { frontmatter, body } = mdx
 
     return (
         <Layout context={pageContext} title={frontmatter.title}>
             <article className="post">
-                <div 
-                    className="post-content"
-                    dangerouslySetInnerHTML={{ __html: html }} />
+                <div className="post-content">
+                    <MDXRenderer>{body}</MDXRenderer>
+                </div>
             </article>
         </Layout>
     )
@@ -20,8 +21,8 @@ export default function PageTemplate( {pageContext, data} ) {
 
 export const pageQuery = graphql`
     query($slug: String!) {
-        markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-            html
+        mdx(frontmatter: { slug: { eq: $slug } }) {
+            body
             frontmatter {
                 slug
                 title

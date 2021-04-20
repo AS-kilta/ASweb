@@ -28,28 +28,24 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
+        name: "pages",
+      },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.md`, `.mdx`],
+      },
+    },
     `gatsby-transformer-javascript-frontmatter`,
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/data`
-      }
-    },
-    {
-      resolve: `gatsby-plugin-i18n`,
-      options: {
-        langKeyDefault: 'fi',
-        langKeyForNull: 'fi',
-        prefixDefault: false,
-        useLangKeyLayout: false,
+        path: `${__dirname}/src/data`,
       },
     },
   ],

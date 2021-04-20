@@ -1,7 +1,6 @@
 ---
 slug: "/en/guild"
 title: "Guild"
-lang: "en"
 template: page
 ---
 

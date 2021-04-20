@@ -7,7 +7,7 @@ export default function Footer() {
         <Navbar bg="dark" variant="dark">
             <Container className="mt-3 justify-content-center">
                 <h1 id="partners-title">Partners</h1>
-            </Container> 
+            </Container>
         </Navbar>
     )
 }
