@@ -1,5 +1,6 @@
 ---
 slug: "/en/contact"
+translation: "/yhteystiedot"
 title: "Contact Information"
 template: page
 ---

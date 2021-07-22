@@ -1,5 +1,5 @@
 body {
-    background: #eee;
+    margin: 0;
 }
 
 #container {
@@ -8,14 +8,42 @@ body {
     min-height: 100vh;
 }
 
-#header-row, #footer-row {
+#navbar-top, #footer {
     flex-shrink: 0;
 }
 
-#content-row {
+#content {
     flex-grow: 1;
 }
 
 #content {
     background: #fff;
+}
+
+@media all and (min-width: 992px) {
+
+    #content {
+        margin: 0 15%;
+        padding: 20px;
+    }
+
+    #jumbotron {
+        padding: 20px 15%;
+        text-align: center;
+    }
+
+}
+
+@media all and (max-width: 991px) {
+
+    #content {
+        margin: 0;
+        padding: 10px;
+    }
+
+    #jumbotron {
+        padding: 20px;
+        text-align: center;
+    }
+
 }

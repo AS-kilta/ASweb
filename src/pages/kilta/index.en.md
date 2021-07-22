@@ -1,5 +1,6 @@
 ---
 slug: "/en/guild"
+translation: "/kilta"
 title: "Guild"
 template: page
 ---

@@ -1,0 +1,128 @@
+.navi-item a, .subnavi-item a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgba(255,255,255,.75);
+}
+
+.navi-item a:hover, .subnavi-item a:hover,
+.navi-item.active > a, .subnavi-item.active a,
+.dropdown:hover a.dropdown-link, .menu-toggle {
+    color: rgba(255,255,255,1);
+}
+
+.navi {
+    display: flex;
+}
+
+#navbar-top {
+    background: #620062;
+    position: static;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#navbar-collapse {
+    display: flex;
+}
+
+@media all and (min-width: 992px) {
+
+    .navi {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #navbar-collapse {
+        flex-direction: row;
+    }
+
+    .navi-item, .subnavi-item, .navbar-logo {
+        padding: 15px;
+    }
+
+    .dropdown {
+        float: left;
+        margin: 0;
+    }
+
+    .dropdown:hover .subnavi {
+        display: block;
+    }
+
+    .subnavi {
+        display: none;
+        position: absolute;
+        background-color: #620062;
+    }
+
+    .subnavi a {
+        float: none;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+    
+}
+
+@media all and (max-width: 991px) {
+
+    .navi {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .navbar-logo, .menu-toggle {
+        padding: 5px;
+    }
+
+    #navbar-collapse {
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        order: 2;
+    }
+
+    #navbar-collapse.show {
+        display: block;
+    }
+
+    #navbar-top.expanded {
+        height: 100vh;
+        overflow-y: scroll;
+    }
+
+    #navbar-top.expanded::-webkit-scrollbar {
+        display: none;
+    }
+
+    .navi div a {
+        display: block;
+        padding: 15px 5px;
+    }
+
+    .menu-toggle {
+        order: 1;
+        font-size: 45px;
+    }
+
+    .navi-item {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .active .navi-item {
+        display: block;
+    }
+
+    .hideoverflow {
+        overflow: hidden;
+    }
+
+}

@@ -1,4 +1,25 @@
+#footer {
+    background: rgb(48, 48, 48);
+    text-align: center;
+}
+
 #partners-title {
     color: #fff;
-    font-variant: small-caps
+    font-variant: small-caps;
+}
+
+@media all and (min-width: 992px) {
+
+    #footer {
+        padding: 20px 15%;
+    }
+
+}
+
+@media all and (max-width: 991px) {
+
+    #footer {
+        padding: 20px;
+    }
+
 }

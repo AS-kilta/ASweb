@@ -15,6 +15,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             }
             frontmatter {
               slug
+              translation
               template
             }
           }
@@ -52,6 +53,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {
         slug: node.frontmatter.slug,
         lang: node.fields.lang,
+        translation: node.frontmatter.translation
       },
     })
   })
