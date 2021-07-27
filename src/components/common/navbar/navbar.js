@@ -73,7 +73,11 @@ export default function Navbar({ context }) {
                                 />
                             </a>
                         </div>
-                        <div id="navbar-collapse" className={ navExpanded ? "show" : "" } onClick={ () => hideNav() }>
+                        <div
+                            id="navbar-collapse"
+                            className={ navExpanded ? "show" : "" }
+                            onClick={ () => hideNav() }
+                        >
                             {data.allNaviYaml.edges[0].node.content.map(entry => {
                                 let linkarray = tokenize(entry.link[0][`${context.lang}`])
                                 removeLangFromArr(linkarray, context.lang)
@@ -82,14 +86,12 @@ export default function Navbar({ context }) {
                                         <Subnavi context={context} entry={entry} locarray={locarray} linkarray={linkarray} />
                                     )
                                 else
-                                    return compareUrl(locarray, linkarray) >= 0 ? (
-                                        <div className="navi-item active">
-                                            <a href={entry.link[0][`${context.lang}`]}>
-                                                {entry.title[0][`${context.lang}`]}
-                                            </a>
-                                        </div>
-                                    ) : (
-                                        <div className="navi-item">
+                                    return (
+                                        <div 
+                                            className={compareUrl(locarray, linkarray) >= 0
+                                                ? "navi-item active"
+                                                : "navi-item"}
+                                        >
                                             <a href={entry.link[0][`${context.lang}`]}>
                                                 {entry.title[0][`${context.lang}`]}
                                             </a>

@@ -20,16 +20,12 @@ export default function Subnavi({ context, entry, locarray, linkarray }) {
                 {entry.subnavi.map(entry => {
                     let linkarray = tokenize(entry.link[0][`${context.lang}`])
                     removeLangFromArr(linkarray, context.lang)
-                    return compareUrl(locarray, linkarray) === 0 ? (
-                        <div className="subnavi-item active">
-                            <a
-                                href={entry.link[0][`${context.lang}`]}
-                            >
-                                {entry.title[0][`${context.lang}`]}
-                            </a>
-                        </div>
-                    ) : (
-                        <div className="subnavi-item">
+                    return (
+                        <div 
+                            className={compareUrl(locarray, linkarray) === 0
+                                ? "subnavi-item active"
+                                : "subnavi-item"}
+                        >
                             <a
                                 href={entry.link[0][`${context.lang}`]}
                             >
