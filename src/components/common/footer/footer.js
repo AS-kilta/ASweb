@@ -1,11 +1,11 @@
 import React from "react"
 
-import "./footer.css"
+import * as style from "./footer.module.scss"
 
 export default function Footer() {
     return (
-        <div id="footer">
-            <h1 id="partners-title">Partners</h1>
+        <div id={style.footer}>
+            <h1 id={style.partnersTitle}>Partners</h1>
         </div>
     )
 }

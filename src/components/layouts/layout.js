@@ -3,16 +3,16 @@ import React from "react"
 import Navbar from "../common/navbar/navbar.js"
 import Footer from "../common/footer/footer.js"
 
-import "./layout.css"
+import * as style from "./layout.module.scss"
 
 export default function Layout({ context, title, children }) {
     return (
-        <div id="container">
+        <div id={style.container}>
             <Navbar context={context} />
-            <div id="jumbotron">
+            <div id={style.jumbotron}>
                 {title && <h1>{title}</h1>}
             </div>
-            <div id="content">
+            <div id={style.content}>
                 {children}
             </div>
             <Footer />

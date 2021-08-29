@@ -7,20 +7,20 @@ import Subnavi from "./subnavi.js"
 
 import { compareUrl, tokenize, removeLangFromArr } from "./helpers/helpers.js"
 
-import "./navbar.css"
+import * as style from "./navbar.module.scss"
 
 export default function Navbar({ context }) {
     const [navExpanded, expandNav] = useState(false)
 
     const toggleNav = () => {
         navExpanded
-            ? document.body.classList.remove("hideoverflow")
-            : document.body.classList.add("hideoverflow")
+            ? document.body.classList.remove(style.hideoverflow)
+            : document.body.classList.add(style.hideoverflow)
         expandNav(!navExpanded)
     }
 
     const hideNav = () => {
-        document.body.classList.remove("hideoverflow")
+        document.body.classList.remove(style.hideoverflow)
         expandNav(false)
     }
 
@@ -60,9 +60,9 @@ export default function Navbar({ context }) {
                 }
             `}
             render={data => (
-                <div id="navbar-top" className={ navExpanded ? "expanded" : "" }>
-                    <div className="navi">
-                        <div className="navbar-logo">
+                <div id={style.navbarTop} className={ navExpanded ? style.expanded : "" }>
+                    <div className={style.navi}>
+                        <div className={style.navbarLogo}>
                             <a href={ context.lang === "fi" ? "/" : "/en" }>
                                 <StaticImage
                                     src="../../../images/aswhite.png"
@@ -74,8 +74,8 @@ export default function Navbar({ context }) {
                             </a>
                         </div>
                         <div
-                            id="navbar-collapse"
-                            className={ navExpanded ? "show" : "" }
+                            id={style.navbarCollapse}
+                            className={ navExpanded ? style.show : "" }
                             onClick={ () => hideNav() }
                         >
                             {data.allNaviYaml.edges[0].node.content.map(entry => {
@@ -89,8 +89,8 @@ export default function Navbar({ context }) {
                                     return (
                                         <div 
                                             className={compareUrl(locarray, linkarray) >= 0
-                                                ? "navi-item active"
-                                                : "navi-item"}
+                                                ? `${style.naviItem} ${style.active}`
+                                                : `${style.naviItem}`}
                                         >
                                             <a href={entry.link[0][`${context.lang}`]}>
                                                 {entry.title[0][`${context.lang}`]}
@@ -98,7 +98,7 @@ export default function Navbar({ context }) {
                                         </div>
                                     )
                             })}
-                            <div className="navi-item">
+                            <div className={style.naviItem}>
                                 {context.lang === "fi" ? (
                                     <a href={context.translation || "/en"}>
                                         In English
@@ -110,7 +110,7 @@ export default function Navbar({ context }) {
                                 )}
                             </div>
                         </div>
-                        <div className="menu-toggle" onClick={toggleNav}>
+                        <div className={style.menuToggle} onClick={toggleNav}>
                             <FaBars />
                         </div>
                     </div>

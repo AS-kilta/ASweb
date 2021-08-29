@@ -14,6 +14,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        additionalData: `@use "src/styles/_variables" as *;`
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

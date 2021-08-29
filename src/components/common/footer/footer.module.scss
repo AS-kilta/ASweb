@@ -1,14 +1,14 @@
 #footer {
-    background: rgb(48, 48, 48);
+    background: $secondary-accent-color;
     text-align: center;
 }
 
-#partners-title {
+#partnersTitle {
     color: #fff;
     font-variant: small-caps;
 }
 
-@media all and (min-width: 992px) {
+@media all and (min-width: $breakpoint-mobile + 1) {
 
     #footer {
         padding: 20px 15%;
@@ -16,7 +16,7 @@
 
 }
 
-@media all and (max-width: 991px) {
+@media all and (max-width: $breakpoint-mobile) {
 
     #footer {
         padding: 20px;

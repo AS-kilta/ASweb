@@ -14,13 +14,10 @@ body {
 
 #content {
     flex-grow: 1;
-}
-
-#content {
     background: #fff;
 }
 
-@media all and (min-width: 992px) {
+@media all and (min-width: $breakpoint-mobile + 1) {
 
     #content {
         margin: 0 15%;
@@ -34,7 +31,7 @@ body {
 
 }
 
-@media all and (max-width: 991px) {
+@media all and (max-width: $breakpoint-mobile) {
 
     #content {
         margin: 0;

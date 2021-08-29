@@ -3,8 +3,7 @@
 ## Technologies
 
 - Gatsby 3 & React 17
-- react-bootstrap 1.5.1
-- Bootstrap 4.6
+- Sass 1.36
 
 and various other plugins, packages etc. as dependencies
 
