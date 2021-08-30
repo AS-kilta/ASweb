@@ -17,6 +17,22 @@ body {
     background: #fff;
 }
 
+#jumbotron {
+
+    .separator {
+        width: 3em;
+        border-top: 3px solid $main-accent-color;
+        margin: 2em auto;
+    }
+
+    .lead {
+        font-size: 15px;
+        font-style: italic;
+        margin: 0 10%;
+    }
+
+}
+
 @media all and (min-width: $breakpoint-mobile + 1) {
 
     #content {

@@ -2,6 +2,7 @@
 slug: "/yhteystiedot"
 translation: "/en/contact"
 title: "Yhteystiedot"
+lead: "Ingressi eli johdate on tekstin, kuten esimerkiksi sanomalehtiartikkelin, alussa otsikon jälkeinen mutta varsinaista leipätekstiä edeltävä johdatteleva teksti. Ingressin tarkoitus on kertoa otsikkoa syvemmin, mitä juttu sisältää. Hyvä ingressi toimii yleiskuvauksena ja houkuttelee lukijan lukemaan kirjoituksen."
 template: page
 ---
 

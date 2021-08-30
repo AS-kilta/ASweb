@@ -9,7 +9,7 @@ export default function PageTemplate({ pageContext, data }) {
     const { frontmatter, body } = mdx
 
     return (
-        <Layout context={pageContext} title={frontmatter.title}>
+        <Layout context={pageContext} title={frontmatter.title} lead={frontmatter.lead}>
             <article className="post">
                 <div className="post-content">
                     <MDXRenderer>{body}</MDXRenderer>
@@ -26,6 +26,7 @@ export const pageQuery = graphql`
             frontmatter {
                 slug
                 title
+                lead
             }
         }
     }

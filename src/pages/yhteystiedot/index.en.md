@@ -2,6 +2,7 @@
 slug: "/en/contact"
 translation: "/yhteystiedot"
 title: "Contact Information"
+lead: "A lead paragraph (sometimes shortened to lead; in the United States sometimes spelled lede) is the opening paragraph of an article, essay, book chapter, or other written work that summarizes its main ideas. Styles vary widely among the different types and genres of publications, from journalistic news-style leads to a more encyclopaedic variety."
 template: page
 ---
 
