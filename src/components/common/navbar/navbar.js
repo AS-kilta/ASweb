@@ -83,7 +83,13 @@ export default function Navbar({ context }) {
                                 removeLangFromArr(linkarray, context.lang)
                                 if (entry.subnavi)
                                     return (
-                                        <Subnavi context={context} entry={entry} locarray={locarray} linkarray={linkarray} />
+                                        <Subnavi
+                                            context={context}
+                                            entry={entry}
+                                            locarray={locarray}
+                                            linkarray={linkarray}
+                                            key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
+                                        />
                                     )
                                 else
                                     return (
@@ -91,6 +97,7 @@ export default function Navbar({ context }) {
                                             className={compareUrl(locarray, linkarray) >= 0
                                                 ? `${style.naviItem} ${style.active}`
                                                 : `${style.naviItem}`}
+                                            key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
                                         >
                                             <a href={entry.link[0][`${context.lang}`]}>
                                                 {entry.title[0][`${context.lang}`]}

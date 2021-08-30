@@ -27,6 +27,7 @@ export default function Subnavi({ context, entry, locarray, linkarray }) {
                             className={compareUrl(locarray, linkarray) === 0
                                 ? `${style.subnaviItem} ${style.active}`
                                 : `${style.subnaviItem}`}
+                            key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
                         >
                             <a
                                 href={entry.link[0][`${context.lang}`]}
