@@ -2,14 +2,14 @@
 
 ## Technologies
 
-- Gatsby 3 & React 17
+- Gatsby 4 & React 17
 - Sass 1.36
 
 and various other plugins, packages etc. as dependencies
 
 ## How to run (development build)
 
-Make sure that you have Git, Node.js >= 12.13.0 & npm installed.
+Make sure that you have Git, Node.js >= 14.15.0 & npm installed.
 
 Install gatsby-cli globally (you may need root privileges), if you haven't already.
 
