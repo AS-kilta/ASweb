@@ -68,8 +68,8 @@ export default function Navbar({ context }) {
                                     src="../../../images/aswhite.png"
                                     alt="Aivan Sama"
                                     layout="constrained"
-                                    width={53}
-                                    height={40}
+                                    width={40}
+                                    height={29}
                                 />
                             </a>
                         </div>
