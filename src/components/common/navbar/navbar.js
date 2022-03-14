@@ -79,31 +79,33 @@ export default function Navbar({ context }) {
                             onClick={ () => hideNav() }
                         >
                             {data.allNaviYaml.edges[0].node.content.map(entry => {
-                                let linkarray = tokenize(entry.link[0][`${context.lang}`])
-                                removeLangFromArr(linkarray, context.lang)
-                                if (entry.subnavi)
-                                    return (
-                                        <Subnavi
-                                            context={context}
-                                            entry={entry}
-                                            locarray={locarray}
-                                            linkarray={linkarray}
-                                            key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
-                                        />
-                                    )
-                                else
-                                    return (
-                                        <div 
-                                            className={compareUrl(locarray, linkarray) >= 0
-                                                ? `${style.naviItem} ${style.active}`
-                                                : `${style.naviItem}`}
-                                            key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
-                                        >
-                                            <a href={entry.link[0][`${context.lang}`]}>
-                                                {entry.title[0][`${context.lang}`]}
-                                            </a>
-                                        </div>
-                                    )
+                                if (entry.title[0][`${context.lang}`] !== "" && entry.link[0][`${context.lang}`] !== "") {
+                                    let linkarray = tokenize(entry.link[0][`${context.lang}`])
+                                    removeLangFromArr(linkarray, context.lang)
+                                    if (entry.subnavi)
+                                        return (
+                                            <Subnavi
+                                                context={context}
+                                                entry={entry}
+                                                locarray={locarray}
+                                                linkarray={linkarray}
+                                                key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
+                                            />
+                                        )
+                                    else
+                                        return (
+                                            <div 
+                                                className={compareUrl(locarray, linkarray) >= 0
+                                                    ? `${style.naviItem} ${style.active}`
+                                                    : `${style.naviItem}`}
+                                                key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
+                                            >
+                                                <a href={entry.link[0][`${context.lang}`]}>
+                                                    {entry.title[0][`${context.lang}`]}
+                                                </a>
+                                            </div>
+                                        )
+                                }
                             })}
                             <div className={style.naviItem}>
                                 {context.lang === "fi" ? (

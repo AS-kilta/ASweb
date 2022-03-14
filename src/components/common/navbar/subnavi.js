@@ -20,22 +20,24 @@ export default function Subnavi({ context, entry, locarray, linkarray }) {
             </a>
             <div className={style.subnavi}>
                 {entry.subnavi.map(entry => {
-                    let linkarray = tokenize(entry.link[0][`${context.lang}`])
-                    removeLangFromArr(linkarray, context.lang)
-                    return (
-                        <div 
-                            className={compareUrl(locarray, linkarray) === 0
-                                ? `${style.subnaviItem} ${style.active}`
-                                : `${style.subnaviItem}`}
-                            key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
-                        >
-                            <a
-                                href={entry.link[0][`${context.lang}`]}
+                    if (entry.title[0][`${context.lang}`] !== "" && entry.link[0][`${context.lang}`] !== "") {
+                        let linkarray = tokenize(entry.link[0][`${context.lang}`])
+                        removeLangFromArr(linkarray, context.lang)
+                        return (
+                            <div 
+                                className={compareUrl(locarray, linkarray) === 0
+                                    ? `${style.subnaviItem} ${style.active}`
+                                    : `${style.subnaviItem}`}
+                                key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
                             >
-                                {entry.title[0][`${context.lang}`]}
-                            </a>
-                        </div>
-                    )
+                                <a
+                                    href={entry.link[0][`${context.lang}`]}
+                                >
+                                    {entry.title[0][`${context.lang}`]}
+                                </a>
+                            </div>
+                        )
+                    }
                 })}
             </div>
         </div>
