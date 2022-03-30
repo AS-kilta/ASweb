@@ -8,7 +8,7 @@
     font-variant: small-caps;
 }
 
-@media all and (min-width: $breakpoint-mobile + 1) {
+@media all and (min-width: $breakpoint-mobile) {
 
     #footer {
         padding: 20px 15%;

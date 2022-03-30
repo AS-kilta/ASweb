@@ -3,5 +3,5 @@ slug: "/kilta/hallitus"
 translation: "/en/guild/board"
 title: "Hallitus"
 lead: ""
-template: page
+template: article
 ---

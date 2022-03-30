@@ -7,6 +7,11 @@
     color: rgba(255,255,255,.75);
 }
 
+.naviItem a, .subnaviItem a, .navbarLogo a {
+    display: inline-block;
+    width: 100%;
+}
+
 .naviItem a:hover, .subnaviItem a:hover,
 .naviItem.active > a, .subnaviItem.active a,
 .dropdown:hover a.dropdownLink, .menuToggle {
@@ -29,7 +34,7 @@
     display: flex;
 }
 
-@media all and (min-width: $breakpoint-mobile + 1) {
+@media all and (min-width: $breakpoint-mobile) {
 
     .navi {
         flex-wrap: nowrap;
@@ -40,7 +45,7 @@
         flex-direction: row;
     }
 
-    .naviItem, .subnaviItem, .navbarLogo {
+    .naviItem a, .subnaviItem a, .navbarLogo a {
         padding: 15px;
     }
 

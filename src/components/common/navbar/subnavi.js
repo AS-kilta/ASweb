@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import { compareUrl, tokenize, removeLangFromArr } from "./helpers/helpers.js"
 
@@ -6,21 +7,32 @@ import * as style from "./navbar.module.scss"
 
 export default function Subnavi({ context, entry, locarray, linkarray }) {
 
+    let isLocal = entry.link[0][`${context.lang}`].startsWith("/")
+
     return (
         <div 
             className={compareUrl(locarray, linkarray) >= 0 
                 ? `${style.dropdown} ${style.naviItem} ${style.active}`
                 : `${style.dropdown} ${style.naviItem}`}
         >
-            <a
-                className={style.dropdownLink}
-                href={entry.link[0][`${context.lang}`]}
-            >
-                {entry.title[0][`${context.lang}`]}
-            </a>
+            {isLocal ? (
+                <Link className={style.dropdownLink}
+                    to={entry.link[0][`${context.lang}`]}
+                >
+                    {entry.title[0][`${context.lang}`]}
+                </Link>
+            ) : (
+                <a
+                    className={style.dropdownLink}
+                    href={entry.link[0][`${context.lang}`]}
+                >
+                    {entry.title[0][`${context.lang}`]}
+                </a>
+            )}
             <div className={style.subnavi}>
                 {entry.subnavi.map(entry => {
                     if (entry.title[0][`${context.lang}`] !== "" && entry.link[0][`${context.lang}`] !== "") {
+                        let isLocal = entry.link[0][`${context.lang}`].startsWith("/")
                         let linkarray = tokenize(entry.link[0][`${context.lang}`])
                         removeLangFromArr(linkarray, context.lang)
                         return (
@@ -30,14 +42,18 @@ export default function Subnavi({ context, entry, locarray, linkarray }) {
                                     : `${style.subnaviItem}`}
                                 key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
                             >
-                                <a
-                                    href={entry.link[0][`${context.lang}`]}
-                                >
-                                    {entry.title[0][`${context.lang}`]}
-                                </a>
+                                { isLocal ? (
+                                    <Link to={entry.link[0][`${context.lang}`]}>
+                                        {entry.title[0][`${context.lang}`]}
+                                    </Link>
+                                ) : (
+                                    <a href={entry.link[0][`${context.lang}`]}>
+                                        {entry.title[0][`${context.lang}`]}
+                                    </a>
+                                )}
                             </div>
                         )
-                    }
+                    } else return (null)
                 })}
             </div>
         </div>

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#navbar-top, #footer {
+    flex-shrink: 0;
+}
+
+#content {
+    flex-grow: 1;
+    background: #fff;
+}
+
+@media all and (min-width: $breakpoint-mobile) {
+
+    #content {
+        margin: 0 15%;
+        padding: 20px;
+    }
+
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+
+    #content {
+        margin: 0;
+        padding: 10px;
+    }
+
+}

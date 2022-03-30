@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FaBars } from "react-icons/fa"
+import { Link } from "gatsby"
 
 import Subnavi from "./subnavi.js"
 
@@ -63,7 +64,7 @@ export default function Navbar({ context }) {
                 <div id={style.navbarTop} className={ navExpanded ? style.expanded : "" }>
                     <div className={style.navi}>
                         <div className={style.navbarLogo}>
-                            <a href={ context.lang === "fi" ? "/" : "/en" }>
+                            <Link to={ context.lang === "fi" ? "/" : "/en" }>
                                 <StaticImage
                                     src="../../../images/aswhite.png"
                                     alt="Aivan Sama"
@@ -71,7 +72,7 @@ export default function Navbar({ context }) {
                                     width={40}
                                     height={29}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div
                             id={style.navbarCollapse}
@@ -92,7 +93,8 @@ export default function Navbar({ context }) {
                                                 key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
                                             />
                                         )
-                                    else
+                                    else {
+                                        let isLocal = entry.link[0][`${context.lang}`].startsWith("/")
                                         return (
                                             <div 
                                                 className={compareUrl(locarray, linkarray) >= 0
@@ -100,22 +102,29 @@ export default function Navbar({ context }) {
                                                     : `${style.naviItem}`}
                                                 key={entry.title[0][`${context.lang}`] + "-" + entry.link[0][`${context.lang}`]}
                                             >
-                                                <a href={entry.link[0][`${context.lang}`]}>
-                                                    {entry.title[0][`${context.lang}`]}
-                                                </a>
+                                                { isLocal ? (
+                                                    <Link to={entry.link[0][`${context.lang}`]}>
+                                                        {entry.title[0][`${context.lang}`]}
+                                                    </Link>
+                                                ) : (
+                                                    <a href={entry.link[0][`${context.lang}`]}>
+                                                        {entry.title[0][`${context.lang}`]}
+                                                    </a>
+                                                )}
                                             </div>
                                         )
-                                }
+                                    }
+                                } else return (null)
                             })}
                             <div className={style.naviItem}>
                                 {context.lang === "fi" ? (
-                                    <a href={context.translation || "/en"}>
+                                    <Link to={context.translation || "/en"}>
                                         In English
-                                    </a>
+                                    </Link>
                                     ) : (
-                                    <a href={context.translation || "/"}>
+                                    <Link to={context.translation || "/"}>
                                         Suomeksi
-                                    </a>
+                                    </Link>
                                 )}
                             </div>
                         </div>

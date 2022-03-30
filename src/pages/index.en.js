@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layouts/layout.js"
+import CustomLayout from "../components/layouts/custom/custom.js"
 
 export const frontmatter = {
     title: "Home",
@@ -8,8 +8,8 @@ export const frontmatter = {
 
 export default function IndexPage({ pageContext }) {
     return (
-        <Layout context={pageContext} title="Home">
+        <CustomLayout context={pageContext}>
             <p>Lorem ipsum dolor sit amet.</p>
-        </Layout>
+        </CustomLayout>
     )
 }
