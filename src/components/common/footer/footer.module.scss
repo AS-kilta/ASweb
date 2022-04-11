@@ -1,11 +1,12 @@
 #footer {
-    background: $secondary-accent-color;
+    background: $natural-black;
     text-align: center;
 }
 
 #partnersTitle {
     color: #fff;
-    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 @media all and (min-width: $breakpoint-mobile) {

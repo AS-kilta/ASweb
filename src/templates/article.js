@@ -9,7 +9,7 @@ export default function Article({ pageContext, data }) {
     const { frontmatter, body } = mdx
 
     return (
-        <NormalLayout context={pageContext} title={frontmatter.title} lead={frontmatter.lead}>
+        <NormalLayout context={pageContext} title={frontmatter.title} lead={frontmatter.lead} background={frontmatter.background}>
             <article className="post">
                 <div className="post-content">
                     <MDXRenderer>{body}</MDXRenderer>
@@ -27,6 +27,7 @@ export const pageQuery = graphql`
                 slug
                 title
                 lead
+                background
             }
         }
     }

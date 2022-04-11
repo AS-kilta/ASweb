@@ -6,11 +6,11 @@ import Footer from "../../common/footer/footer.js"
 
 import * as style from "./normal.module.scss"
 
-export default function NormalLayout({ context, title, lead, children }) {
+export default function NormalLayout({ context, title, lead, background, children }) {
     return (
         <div id={style.container}>
             <Navbar context={context} />
-            <Jumbotron title={title} lead={lead} />
+            <Jumbotron title={title} lead={lead} background={background} />
             <div id={style.content}>
                 {children}
             </div>

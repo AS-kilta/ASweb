@@ -23,9 +23,8 @@
 }
 
 #navbarTop {
-    background: $main-accent-color;
-    position: static;
-    left: 0;
+    background: $as-violet-1;
+    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -45,8 +44,12 @@
         flex-direction: row;
     }
 
-    .naviItem a, .subnaviItem a, .navbarLogo a {
+    .naviItem a, .subnaviItem a {
         padding: 15px;
+    }
+
+    .navbarLogo a {
+        margin: 10px 20px;
     }
 
     .dropdown {
@@ -61,7 +64,7 @@
     .subnavi {
         display: none;
         position: absolute;
-        background-color: $main-accent-color;
+        background-color: $as-violet-1;
 
         a {
             float: none;
@@ -82,7 +85,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        height: 100%;
 
         div a {
             display: block;
@@ -91,7 +93,9 @@
     }
 
     .navbarLogo, .menuToggle {
-        padding: 5px;
+        margin: 3px;
+        display: flex;
+        align-items: center;
     }
 
     #navbarCollapse {
@@ -109,6 +113,7 @@
     #navbarTop.expanded {
         height: 100vh;
         overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     #navbarTop.expanded::-webkit-scrollbar {

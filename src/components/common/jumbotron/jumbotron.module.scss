@@ -1,15 +1,21 @@
 #jumbotron {
 
-    .separator {
-        width: 3em;
-        border-top: 3px solid $main-accent-color;
-        margin: 2em auto;
+    background: $as-violet-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .mainTitle {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $natural-white;
     }
 
     .lead {
         font-size: 15px;
-        font-style: italic;
-        margin: 0 10%;
+        margin: 2% 20%;
+        color: $natural-white
     }
 
 }
@@ -18,6 +24,7 @@
 
     #jumbotron {
         padding: 20px 15%;
+        min-height: 15vh;
         text-align: center;
     }
 
@@ -27,6 +34,7 @@
 
     #jumbotron {
         padding: 20px;
+        min-height: 20vh;
         text-align: center;
     }
 

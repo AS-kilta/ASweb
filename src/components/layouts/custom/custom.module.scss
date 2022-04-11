@@ -19,18 +19,12 @@ body {
 
 @media all and (min-width: $breakpoint-mobile) {
 
-    #content {
-        margin: 0 15%;
-        padding: 20px;
-    }
+    // TODO: add styles for desktop version here
 
 }
 
 @media all and (max-width: $breakpoint-mobile) {
 
-    #content {
-        margin: 0;
-        padding: 10px;
-    }
+    // TODO: add styles for mobile version here
 
 }
