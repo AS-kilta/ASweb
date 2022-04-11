@@ -1,0 +1,16 @@
+// Export Sass variables to use them in JSX
+
+:export {
+    asViolet1: $as-violet-1;
+    asViolet2: $as-violet-2;
+    asViolet3: $as-violet-3;
+
+    naturalWhite: $natural-white;
+    naturalBlack: $natural-black;
+
+    fontHeading: $font-heading;
+    fontBody: $font-body;
+
+    breakpointMobile: $breakpoint-mobile;
+    breakpointTablet: $breakpoint-tablet;
+}

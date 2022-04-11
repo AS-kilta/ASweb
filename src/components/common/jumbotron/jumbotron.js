@@ -2,17 +2,18 @@ import React from "react"
 
 import * as style from "./jumbotron.module.scss"
 
+import * as sassVars from "../../../styles/_exports.module.scss"
+
 export default function Jumbotron({ title, lead, background }) {
-    console.log(background)
     return (
         <div
             id={style.jumbotron}
             style={
                 background ?
                     {
-                        background: `url(${background}) rgba(110, 64, 119, 0.5)`,
+                        background: `url(${background}) ${sassVars.asViolet1}`,
                         backgroundSize: "cover",
-                        backgroundBlendMode: "multiply"
+                        backgroundBlendMode: "soft-light"
                     } : null
             }
         >
