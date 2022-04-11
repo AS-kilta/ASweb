@@ -114,3 +114,18 @@ exports.onCreatePage = async ({ page, graphql, actions }) => {
     if (page.path.match(re)) deletePage(page)
   })
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MdxFrontmatter {
+      slug: String!
+      translation: String
+      title: String!
+      lead: String
+      background: String
+      template: String!
+    }
+  `
+  createTypes(typeDefs)
+}

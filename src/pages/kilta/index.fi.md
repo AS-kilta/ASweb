@@ -2,7 +2,6 @@
 slug: "/kilta"
 translation: "/en/guild"
 title: "Kilta"
-lead: ""
 template: article
 ---
 
