@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { FaBars } from "react-icons/fa"
+import { GoThreeBars } from "react-icons/go"
 import { Link } from "gatsby"
 
 import Subnavi from "./subnavi.js"
@@ -80,7 +80,7 @@ export default function Navbar({ context }) {
                             onClick={ () => hideNav() }
                         >
                             {data.allNaviYaml.edges[0].node.content.map(entry => {
-                                if (entry.title[0][`${context.lang}`] !== "" && entry.link[0][`${context.lang}`] !== "") {
+                                if (entry.title[0][`${context.lang}`] && entry.link[0][`${context.lang}`]) {
                                     let linkarray = tokenize(entry.link[0][`${context.lang}`])
                                     removeLangFromArr(linkarray, context.lang)
                                     if (entry.subnavi)
@@ -129,7 +129,7 @@ export default function Navbar({ context }) {
                             </div>
                         </div>
                         <div className={style.menuToggle} onClick={toggleNav}>
-                            <FaBars />
+                            <GoThreeBars />
                         </div>
                     </div>
                 </div>

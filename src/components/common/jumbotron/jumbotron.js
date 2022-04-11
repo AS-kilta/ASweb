@@ -9,12 +9,11 @@ export default function Jumbotron({ title, lead, background }) {
         <div
             id={style.jumbotron}
             style={
-                background ?
-                    {
-                        background: `url(${background}) ${sassVars.asViolet1}`,
-                        backgroundSize: "cover",
-                        backgroundBlendMode: "soft-light"
-                    } : null
+                background && {
+                    background: `url(${background}) ${sassVars.asViolet1}`,
+                    backgroundSize: "cover",
+                    backgroundBlendMode: "soft-light"
+                }
             }
         >
             {title && <h1 className={style.mainTitle}>{title}</h1>}

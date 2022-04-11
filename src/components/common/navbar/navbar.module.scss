@@ -9,7 +9,6 @@
 
 .naviItem a, .subnaviItem a, .navbarLogo a {
     display: inline-block;
-    width: 100%;
 }
 
 .naviItem a:hover, .subnaviItem a:hover,
@@ -20,6 +19,13 @@
 
 .navi {
     display: flex;
+}
+
+.subnavi {
+    div a {
+        font-weight: 400;
+        text-transform: none;
+    }
 }
 
 #navbarTop {
@@ -33,6 +39,10 @@
     display: flex;
 }
 
+.dropdownLink svg {
+    vertical-align: text-top;
+}
+
 @media all and (min-width: $breakpoint-mobile) {
 
     .navi {
@@ -44,8 +54,12 @@
         flex-direction: row;
     }
 
-    .naviItem a, .subnaviItem a {
+    .naviItem a {
         padding: 15px;
+    }
+
+    .subnaviItem a {
+        padding: 10px;
     }
 
     .navbarLogo a {
@@ -54,6 +68,7 @@
 
     .dropdown {
         float: left;
+        position: relative;
         margin: 0;
     }
 
@@ -64,10 +79,12 @@
     .subnavi {
         display: none;
         position: absolute;
+        left: 15px;
         background-color: $as-violet-1;
 
-        a {
-            float: none;
+        div a {
+            font-size: 15px;
+            text-align: left;
         }
 
     }
@@ -89,7 +106,21 @@
         div a {
             display: block;
             padding: 15px 5px;
+            font-size: 18px;
         }
+    }
+
+    .naviItem a:hover, .subnaviItem a:hover,
+    .naviItem.active > a, .subnaviItem.active a {
+        background: $accent-violet-1;
+    }
+
+    .subnavi {
+
+        div a {
+            font-size: 15px;
+        }
+
     }
 
     .navbarLogo, .menuToggle {

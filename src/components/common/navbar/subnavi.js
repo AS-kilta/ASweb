@@ -5,6 +5,8 @@ import { compareUrl, tokenize, removeLangFromArr } from "./helpers/helpers.js"
 
 import * as style from "./navbar.module.scss"
 
+import { IoMdArrowDropdown } from "react-icons/io"
+
 export default function Subnavi({ context, entry, locarray, linkarray }) {
 
     let isLocal = entry.link[0][`${context.lang}`].startsWith("/")
@@ -20,6 +22,7 @@ export default function Subnavi({ context, entry, locarray, linkarray }) {
                     to={entry.link[0][`${context.lang}`]}
                 >
                     {entry.title[0][`${context.lang}`]}
+                    <IoMdArrowDropdown />
                 </Link>
             ) : (
                 <a
@@ -27,11 +30,12 @@ export default function Subnavi({ context, entry, locarray, linkarray }) {
                     href={entry.link[0][`${context.lang}`]}
                 >
                     {entry.title[0][`${context.lang}`]}
+                    <IoMdArrowDropdown />
                 </a>
             )}
             <div className={style.subnavi}>
                 {entry.subnavi.map(entry => {
-                    if (entry.title[0][`${context.lang}`] !== "" && entry.link[0][`${context.lang}`] !== "") {
+                    if (entry.title[0][`${context.lang}`] && entry.link[0][`${context.lang}`]) {
                         let isLocal = entry.link[0][`${context.lang}`].startsWith("/")
                         let linkarray = tokenize(entry.link[0][`${context.lang}`])
                         removeLangFromArr(linkarray, context.lang)
