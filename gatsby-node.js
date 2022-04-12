@@ -3,6 +3,8 @@ const path = require("path")
 const langs = ["en", "fi"]
 const defaultLang = "fi"
 
+// Create pages from Markdown, parse frontmatter from JS pages
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   const res = await graphql(`
@@ -30,6 +32,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             }
             frontmatter {
               slug
+              translation
             }
             node {
               relativeDirectory
@@ -59,6 +62,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   })
   res.data.allJavascriptFrontmatter.edges.forEach(({ node }) => {
     const page = path.basename(node.fileAbsolutePath)
+    console.log(node.frontmatter)
     createPage({
       path: node.frontmatter.slug,
       component: require.resolve(
@@ -69,10 +73,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {
         slug: node.frontmatter.slug,
         lang: node.fields.lang,
+        translation: node.frontmatter.translation
       },
     })
   })
 }
+
+// Parse lang codes from file names for i18n
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
@@ -85,6 +92,8 @@ exports.onCreateNode = ({ node, actions }) => {
     createNodeField({ node, name: `lang`, value: lang })
   }
 }
+
+// Handle localized 404 page
 
 exports.onCreatePage = async ({ page, graphql, actions }) => {
   const { createPage, deletePage } = actions
@@ -115,6 +124,8 @@ exports.onCreatePage = async ({ page, graphql, actions }) => {
   })
 }
 
+// Define types for MdxFrontmatter (including optional fields)
+
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
   const typeDefs = `
@@ -128,4 +139,15 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `
   createTypes(typeDefs)
+}
+
+// Ignore CSS ordering warnings, as CSS modules are being used
+
+exports.onCreateWebpackConfig = ({ stage, getConfig, actions }) => {
+  if (stage === "develop" || stage === "build-javascript") {
+    const config = getConfig();
+    const plugin = config.plugins.find( (el) => el.constructor.name === "MiniCssExtractPlugin" );
+    if (plugin) plugin.options.ignoreOrder = true;
+    actions.replaceWebpackConfig(config);
+  }
 }
