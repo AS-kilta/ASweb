@@ -1,18 +1,48 @@
 #footer {
     background: $natural-black;
-    text-align: center;
+    color: $natural-white;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #partnersTitle {
-    color: #fff;
-    text-transform: uppercase;
     font-weight: 400;
+}
+
+#contact {
+    padding: 10px;
+}
+
+#partners {
+    padding: 10px;
+}
+
+#some {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    a {
+        display: inline-block;
+        font-size: 25px;
+        color: $natural-white;
+        padding: 0 5px;
+    }
 }
 
 @media all and (min-width: $breakpoint-mobile) {
 
     #footer {
         padding: 20px 15%;
+        flex-direction: row;
+    }
+
+    #content {
+        margin: 0 20%;
     }
 
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { GoThreeBars } from "react-icons/go"
+import { BsList } from "react-icons/bs"
 import { Link } from "gatsby"
 
 import Subnavi from "./subnavi.js"
@@ -129,7 +129,7 @@ export default function Navbar({ context }) {
                             </div>
                         </div>
                         <div className={style.menuToggle} onClick={toggleNav}>
-                            <GoThreeBars />
+                            <BsList />
                         </div>
                     </div>
                 </div>

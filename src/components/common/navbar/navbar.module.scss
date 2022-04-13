@@ -4,7 +4,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    color: rgba(255,255,255,.75);
+    color: transparentize($color: $natural-white, $amount: 0.25);
 }
 
 .naviItem a, .subnaviItem a, .navbarLogo a {
@@ -14,7 +14,7 @@
 .naviItem a:hover, .subnaviItem a:hover,
 .naviItem.active > a, .subnaviItem.active a,
 .dropdown:hover a.dropdownLink, .menuToggle {
-    color: rgba(255,255,255,1);
+    color: $natural-white;
 }
 
 .navi {
