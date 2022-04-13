@@ -1,7 +1,7 @@
 import React from "react"
 
-import Navbar from "../../common/navbar/navbar.js"
-import Footer from "../../common/footer/footer.js"
+import Navbar from "@src/components/common/navbar/navbar.js"
+import Footer from "@src/components/common/footer/footer.js"
 
 import * as style from "./custom.module.scss"
 

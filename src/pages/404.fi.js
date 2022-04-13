@@ -1,5 +1,5 @@
 import React from "react"
-import NormalLayout from "../components/layouts/normal/normal.js"
+import NormalLayout from "@src/components/layouts/normal/normal.js"
 
 export default function Error404({ pageContext }) {
     return (

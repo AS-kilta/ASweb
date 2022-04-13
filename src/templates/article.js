@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import NormalLayout from "../components/layouts/normal/normal.js"
+import NormalLayout from "@src/components/layouts/normal/normal.js"
 
 export default function Article({ pageContext, data }) {
     const { mdx } = data

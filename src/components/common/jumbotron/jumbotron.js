@@ -2,7 +2,7 @@ import React from "react"
 
 import * as style from "./jumbotron.module.scss"
 
-import * as sassVars from "../../../styles/_exports.module.scss"
+import * as sassVars from "@src/styles/_exports.module.scss"
 
 export default function Jumbotron({ title, lead, background }) {
     return (

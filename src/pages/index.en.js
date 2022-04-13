@@ -1,6 +1,6 @@
 import React from "react"
-import CustomLayout from "../components/layouts/custom/custom.js"
-import Jumbotron from "../components/common/jumbotron/jumbotron.js"
+import CustomLayout from "@src/components/layouts/custom/custom.js"
+import Jumbotron from "@src/components/common/jumbotron/jumbotron.js"
 
 export const frontmatter = {
     title: "Home",
