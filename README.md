@@ -17,10 +17,10 @@ Install gatsby-cli globally (you may need root privileges), if you haven't alrea
 npm i -g gatsby-cli
 ```
 
-Clone this repository and change into the directory.
+Clone this repository and change into the directory (or fork it first and then clone the fork).
 
 ```
-git clone https://github.com/jyrge/ASweb.git
+git clone https://github.com/AS-kilta/ASweb.git
 
 cd ASweb
 ```
