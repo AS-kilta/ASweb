@@ -1,8 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `AS Web`,
-    description: `New website for AS`,
-    author: `Jyri Kolu <jyri.kolu@gmail.com> et al.`,
+    title: {
+      fi: "Automaatio- ja systeemitekniikan kilta",
+      en: "Guild of Automation and Systems Technology"
+    },
+    description: {
+      fi: "AS:n uudet nettisivut",
+      en: "New website for AS"
+    },
+    author: `AS`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

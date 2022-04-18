@@ -123,7 +123,7 @@ exports.onCreatePage = async ({ page, graphql, actions }) => {
   })
 }
 
-// Define types for MdxFrontmatter (including optional fields)
+// Customize GraphQL schema
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
@@ -135,6 +135,14 @@ exports.createSchemaCustomization = ({ actions }) => {
       lead: String
       background: String
       template: String!
+    }
+    type SiteSiteMetadata {
+      title: TranslatedMetadata!
+      description: TranslatedMetadata!
+      author: String
+    }
+    type TranslatedMetadata {
+      ${langs.map( lang => lang + ": String!\n" ).join("").slice(0, -1)}
     }
   `
   createTypes(typeDefs)
