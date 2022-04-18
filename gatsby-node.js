@@ -98,7 +98,7 @@ exports.onCreatePage = async ({ page, graphql, actions }) => {
   const { createPage, deletePage } = actions
 
   // Check for localized 404 pages
-  if (page.path.match(/404\.[a-z]{2}\/$/)) {
+  if (page.path.match(/\/404\.[a-z]{2}\/$/)) {
     const oldPage = { ...page }
     // Extract the lang code from path
     const langCode = page.path.split(`.`)[1].replace(/\/$/, "")
@@ -107,9 +107,9 @@ exports.onCreatePage = async ({ page, graphql, actions }) => {
     deletePage(oldPage)
     createPage({
       ...page,
-      path: langCode === defaultLang ? `/404` : `/${langCode}/404`,
+      path: langCode === defaultLang ? `/404.html` : `/${langCode}/404.html`,
       context: {
-        slug: langCode === defaultLang ? `/404` : `/${langCode}/404`,
+        slug: langCode === defaultLang ? `/404.html` : `/${langCode}/404.html`,
         lang: `${langCode}`,
       },
     })
