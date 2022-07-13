@@ -7,11 +7,21 @@
 
 and various other plugins, packages etc. as dependencies
 
-## How to run (development build)
+## How to set up development environment
 
-Make sure that you have Git, Node.js >= 14.15.0 & npm installed.
+Install the latest LTS release of Node.js (currently 16.16.0 LTS). Git is required for version management.
 
-Install gatsby-cli globally (you may need root privileges), if you haven't already.
+**Windows**
+
+Download installation package from https://nodejs.org and run it.
+
+**Linux & macOS**
+
+The easiest way to install and switch between node versions is to use nvm script (https://github.com/nvm-sh/nvm). Follow to installation instructions in README to install the tool and use it to install node.
+
+**After installing node**
+
+Install gatsby-cli globally (you may need root privileges).
 
 ```
 npm i -g gatsby-cli
@@ -31,13 +41,14 @@ Install dependencies with
 npm i
 ```
 
-Run development build and start temporary Web server by running
+## How to run (development build)
+
+In project directory, run development build and start temporary Web server by running
 
 ```
 gatsby develop
 ```
 
-The website is now accessible at http://localhost:8000. You can edit the code with your favourite text editor
-(please don't use Notepad...); the development server watches file changes and rebuilds the site automatically.
+The website is now accessible at http://localhost:8000. The development server watches file changes and rebuilds the site automatically, if changes are made in files.
 
 And finally, nauti spagetista!
