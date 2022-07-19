@@ -1,12 +1,6 @@
 import React from "react"
-import CustomLayout from "@src/components/layouts/custom/custom.js"
+import CustomLayout from "@src/components/layouts/custom/custom-layout.js"
 import Jumbotron from "@src/components/common/jumbotron/jumbotron.js"
-
-export const frontmatter = {
-    title: "Etusivu",
-    slug: "/",
-    translation: "/en"
-}
 
 export default function IndexPage({ pageContext }) {
     return (

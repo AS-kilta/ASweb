@@ -117,11 +117,11 @@ export default function Navbar({ context }) {
                     })}
                     <div className={style.naviItem}>
                         {context.lang === "fi" ? (
-                            <Link to={context.translation || "/en"}>
+                            <Link to={context.translation || `/en${context.slug}`}>
                                 In English
                             </Link>
                             ) : (
-                            <Link to={context.translation || "/"}>
+                            <Link to={context.translation || context.slug.substring(3)}>
                                 Suomeksi
                             </Link>
                         )}
