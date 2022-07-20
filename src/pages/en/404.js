@@ -1,12 +1,12 @@
 import React from "react"
-import NormalLayout from "@src/components/layouts/normal/normal.js"
+import PageLayout from "@src/components/layouts/page/page-layout.js"
 
 export default function Error404({ pageContext }) {
     return (
-        <NormalLayout context={pageContext} title="404 - Not Found :/">
+        <PageLayout context={pageContext} title="404 - Not Found :/">
             <p>
                 Back to <a href="/en">Home</a>.
             </p>
-        </NormalLayout>
+        </PageLayout>
     )
 }
