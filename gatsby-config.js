@@ -51,9 +51,11 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.md`, `.mdx`],
+        defaultLayouts: {
+          default: require.resolve(`./src/components/layouts/page/article-layout.js`)
+        }
       },
     },
-    `gatsby-transformer-javascript-frontmatter`,
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,

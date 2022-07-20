@@ -10,18 +10,18 @@
         - fi: "Kilta"
           en: "Guild"
       link:
-        - fi: "/kilta"
+        - fi: "/guild"
           en: "/en/guild"
       subnavi:
         - title:
             - fi: "Hallitus"
               en: "Board"
           link:
-            - fi: "/kilta/hallitus"
+            - fi: "/guild/board"
               en: "/en/guild/board"
     - title:
         - fi: "Yhteystiedot"
           en: "Contact"
       link:
-        - fi: "/yhteystiedot"
+        - fi: "/contact"
           en: "/en/contact"
