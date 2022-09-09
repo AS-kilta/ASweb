@@ -9,7 +9,7 @@ import { IoMdArrowDropdown } from "react-icons/io"
 
 export default function Subnavi({ pageContext, entry, locarray, linkarray }) {
 
-    let isLocal = entry.link[0][`${pageContext.lang}`].startsWith("/")
+    let isLocal = entry.link[0][pageContext.lang].startsWith("/")
 
     return (
         <div 
@@ -19,40 +19,40 @@ export default function Subnavi({ pageContext, entry, locarray, linkarray }) {
         >
             {isLocal ? (
                 <Link className={style.dropdownLink}
-                    to={entry.link[0][`${pageContext.lang}`]}
+                    to={entry.link[0][pageContext.lang]}
                 >
-                    {entry.title[0][`${pageContext.lang}`]}
+                    {entry.title[0][pageContext.lang]}
                     <IoMdArrowDropdown />
                 </Link>
             ) : (
                 <a
                     className={style.dropdownLink}
-                    href={entry.link[0][`${pageContext.lang}`]}
+                    href={entry.link[0][pageContext.lang]}
                 >
-                    {entry.title[0][`${pageContext.lang}`]}
+                    {entry.title[0][pageContext.lang]}
                     <IoMdArrowDropdown />
                 </a>
             )}
             <div className={style.subnavi}>
                 {entry.subnavi.map(entry => {
-                    if (entry.title[0][`${pageContext.lang}`] && entry.link[0][`${pageContext.lang}`]) {
-                        let isLocal = entry.link[0][`${pageContext.lang}`].startsWith("/")
-                        let linkarray = tokenize(entry.link[0][`${pageContext.lang}`])
+                    if (entry.title[0][pageContext.lang] && entry.link[0][pageContext.lang]) {
+                        let isLocal = entry.link[0][pageContext.lang].startsWith("/")
+                        let linkarray = tokenize(entry.link[0][pageContext.lang])
                         removeLangFromArr(linkarray, pageContext.lang)
                         return (
                             <div 
                                 className={compareUrl(locarray, linkarray) === 0
                                     ? `${style.subnaviItem} ${style.active}`
                                     : `${style.subnaviItem}`}
-                                key={entry.title[0][`${pageContext.lang}`] + "-" + entry.link[0][`${pageContext.lang}`]}
+                                key={entry.title[0][pageContext.lang] + "-" + entry.link[0][pageContext.lang]}
                             >
                                 { isLocal ? (
-                                    <Link to={entry.link[0][`${pageContext.lang}`]}>
-                                        {entry.title[0][`${pageContext.lang}`]}
+                                    <Link to={entry.link[0][pageContext.lang]}>
+                                        {entry.title[0][pageContext.lang]}
                                     </Link>
                                 ) : (
-                                    <a href={entry.link[0][`${pageContext.lang}`]}>
-                                        {entry.title[0][`${pageContext.lang}`]}
+                                    <a href={entry.link[0][pageContext.lang]}>
+                                        {entry.title[0][pageContext.lang]}
                                     </a>
                                 )}
                             </div>

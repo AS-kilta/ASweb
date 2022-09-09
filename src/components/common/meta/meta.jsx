@@ -23,7 +23,7 @@ export default function Meta({ pageContext, title }) {
 
     return (
         <Helmet>
-            <title>{`${title ? title + " | " : ""}${data.site.siteMetadata.title[`${pageContext.lang}`]}`}</title>
+            <title>{`${title ? title + " | " : ""}${data.site.siteMetadata.title[pageContext.lang]}`}</title>
         </Helmet>
     )
 }

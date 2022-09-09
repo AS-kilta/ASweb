@@ -78,8 +78,8 @@ export default function Navbar({ pageContext }) {
                     onClick={ () => hideNav() }
                 >
                     {data.allNaviYaml.edges[0].node.content.map(entry => {
-                        if (entry.title[0][`${pageContext.lang}`] && entry.link[0][`${pageContext.lang}`]) {
-                            let linkarray = tokenize(entry.link[0][`${pageContext.lang}`])
+                        if (entry.title[0][pageContext.lang] && entry.link[0][pageContext.lang]) {
+                            let linkarray = tokenize(entry.link[0][pageContext.lang])
                             removeLangFromArr(linkarray, pageContext.lang)
                             if (entry.subnavi)
                                 return (
@@ -88,25 +88,25 @@ export default function Navbar({ pageContext }) {
                                         entry={entry}
                                         locarray={locarray}
                                         linkarray={linkarray}
-                                        key={entry.title[0][`${pageContext.lang}`] + "-" + entry.link[0][`${pageContext.lang}`]}
+                                        key={entry.title[0][pageContext.lang] + "-" + entry.link[0][pageContext.lang]}
                                     />
                                 )
                             else {
-                                let isLocal = entry.link[0][`${pageContext.lang}`].startsWith("/")
+                                let isLocal = entry.link[0][pageContext.lang].startsWith("/")
                                 return (
                                     <div 
                                         className={compareUrl(locarray, linkarray) >= 0
                                             ? `${style.naviItem} ${style.active}`
                                             : `${style.naviItem}`}
-                                        key={entry.title[0][`${pageContext.lang}`] + "-" + entry.link[0][`${pageContext.lang}`]}
+                                        key={entry.title[0][pageContext.lang] + "-" + entry.link[0][pageContext.lang]}
                                     >
                                         { isLocal ? (
-                                            <Link to={entry.link[0][`${pageContext.lang}`]}>
-                                                {entry.title[0][`${pageContext.lang}`]}
+                                            <Link to={entry.link[0][pageContext.lang]}>
+                                                {entry.title[0][pageContext.lang]}
                                             </Link>
                                         ) : (
-                                            <a href={entry.link[0][`${pageContext.lang}`]}>
-                                                {entry.title[0][`${pageContext.lang}`]}
+                                            <a href={entry.link[0][pageContext.lang]}>
+                                                {entry.title[0][pageContext.lang]}
                                             </a>
                                         )}
                                     </div>
