@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-export default function Meta({ context, title }) {
+export default function Meta({ pageContext, title }) {
     const data = useStaticQuery(graphql`
         query getSiteMetadata {
             site {
@@ -23,7 +23,7 @@ export default function Meta({ context, title }) {
 
     return (
         <Helmet>
-            <title>{`${title ? title + " | " : ""}${data.site.siteMetadata.title[`${context.lang}`]}`}</title>
+            <title>{`${title ? title + " | " : ""}${data.site.siteMetadata.title[pageContext.lang]}`}</title>
         </Helmet>
     )
 }

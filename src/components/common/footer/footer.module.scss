@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 #partnersTitle {
@@ -36,21 +37,20 @@
 
 @media all and (min-width: $breakpoint-mobile) {
 
-    #footer {
-        padding: 20px 15%;
-        flex-direction: row;
-    }
-
     #content {
-        margin: 0 20%;
+        margin: 0 auto;
+        width: 70%;
+        max-width: 1000px;
     }
 
 }
 
 @media all and (max-width: $breakpoint-mobile) {
 
-    #footer {
-        padding: 20px;
+    #content {
+        margin: 0 auto;
+        flex-direction: column;
+        max-width: 700px;
     }
 
 }

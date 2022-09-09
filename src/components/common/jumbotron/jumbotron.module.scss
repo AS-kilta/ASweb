@@ -14,9 +14,10 @@
     }
 
     .lead {
+        font-family: $font-heading;
         font-size: 15px;
         margin: 2% 20%;
-        color: $natural-white
+        color: $natural-white;
     }
 
 }
