@@ -1,5 +1,4 @@
 import React from "react"
-import "./src/styles/main.scss"
 
 import PageLayoutMdx from "@src/components/layouts/page-layout-mdx.jsx"
 

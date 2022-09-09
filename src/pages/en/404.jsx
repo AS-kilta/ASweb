@@ -1,9 +1,9 @@
 import React from "react"
-import PageLayout from "@src/components/layouts/page/page-layout.js"
+import PageLayout from "@src/components/layouts/page-layout.jsx"
 
 export default function Error404({ pageContext }) {
     return (
-        <PageLayout context={pageContext} title="404 - Not Found :/">
+        <PageLayout pageContext={pageContext} title="404 - Not Found :/">
             <p>
                 Back to <a href="/en">Home</a>.
             </p>
