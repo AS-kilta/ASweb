@@ -1,15 +1,7 @@
-body {
-    margin: 0;
-}
-
 #container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-#navbar-top, #footer {
-    flex-shrink: 0;
 }
 
 #content {
@@ -20,7 +12,9 @@ body {
 @media all and (min-width: $breakpoint-mobile) {
 
     #content {
-        margin: 0 15%;
+        margin: 0 auto;
+        width: 70%;
+        max-width: 1200px;
         padding: 20px;
     }
 
@@ -29,8 +23,9 @@ body {
 @media all and (max-width: $breakpoint-mobile) {
 
     #content {
-        margin: 0;
-        padding: 10px;
+        margin: 0 auto;
+        max-width: 700px;
+        padding: 20px;
     }
 
 }
