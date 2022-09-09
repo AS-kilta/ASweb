@@ -50,6 +50,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type MdxFrontmatter {
       title: String!
+      layout: String
       lead: String
       background: String
     }

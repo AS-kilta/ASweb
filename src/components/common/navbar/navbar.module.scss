@@ -1,7 +1,7 @@
 .naviItem a, .subnaviItem a {
     font-size: 16px;
     font-family: $font-heading;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     color: transparentize($color: $natural-white, $amount: 0.25);
@@ -19,12 +19,9 @@
 
 .navi {
     display: flex;
-}
 
-.subnavi {
     div a {
-        font-weight: 400;
-        text-transform: none;
+        display: block;
     }
 }
 
@@ -85,6 +82,8 @@
         div a {
             font-size: 15px;
             text-align: left;
+            text-transform: uppercase;
+            font-weight: 700;
         }
 
     }
@@ -104,7 +103,6 @@
         align-items: center;
 
         div a {
-            display: block;
             padding: 15px 5px;
             font-size: 18px;
         }
@@ -112,6 +110,10 @@
 
     .naviItem a:hover, .subnaviItem a:hover,
     .naviItem.active > a, .subnaviItem.active a {
+        background: $accent-violet-2;
+    }
+
+    .naviItem.active > .subnavi {
         background: $accent-violet-1;
     }
 
@@ -119,6 +121,8 @@
 
         div a {
             font-size: 15px;
+            font-weight: 400;
+            text-transform: none;
         }
 
     }
