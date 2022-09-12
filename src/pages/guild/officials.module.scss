@@ -1,0 +1,42 @@
+$bg-color: $as-violet-3;
+
+.officials_section {
+  text-align: center;
+
+  h2 {
+    background-color: $bg-color;
+    padding: 0.75em;
+    margin-bottom: 0;
+  }
+}
+
+.officials_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.official_container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.leader {
+  background-color: $bg-color;
+}
+
+.image_container {
+  --size: 10rem;
+
+  overflow: hidden;
+  border-radius: var(--size);
+  width: var(--size);
+  height: var(--size);
+  margin: 1rem;
+
+  img {
+    width: var(--size);
+    height: var(--size);
+  }
+}
