@@ -1,4 +1,16 @@
-export const officialsData = [
+interface Official {
+    name: string;
+    title: string;
+    image?: string;
+    leader?: boolean;
+}
+
+interface Committee {
+    name: string;
+    members: Official[];
+}
+
+export const officialsData : Committee[] = [
     {
         name: "Fuksitoimikunta",
         members: [
