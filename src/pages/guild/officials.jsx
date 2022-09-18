@@ -8,10 +8,11 @@ import { officialsData } from "@src/data/officials"
 
 function OfficialCard({official}) {
   const leader = official.leader ? style.leader : ''
+  const imgSrc = official.image ?? "https://as.fi/static/toimijat/aebaej_placeholder.png"
   return (
     <div className={`${style.official_container} ${leader}`} >
       <div className={style.image_container}>
-        <img src="https://as.fi/static/toimijat/aebaej_placeholder.png" alt="" />
+        <img src={imgSrc} alt="" />
       </div>
       <div className={style.name}>{official.name}</div>
       <div className={style.title}>{official.title}</div>
