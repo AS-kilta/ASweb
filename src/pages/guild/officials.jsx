@@ -23,8 +23,8 @@ function OfficialCard({official}) {
       <div className={style.image_container}>
         <img src="https://as.fi/static/toimijat/aebaej_placeholder.png" alt="" />
       </div>
-      <div>{official.name}</div>
-      <div>{official.title}</div>
+      <div className={style.name}>{official.name}</div>
+      <div className={style.title}>{official.title}</div>
   </div>
   )
 }

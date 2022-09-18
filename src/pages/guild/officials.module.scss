@@ -4,8 +4,11 @@ $bg-color: $as-violet-3;
   text-align: center;
 
   h2 {
+    font-size: 2rem;
+    font-weight: 400;
     background-color: $bg-color;
-    padding: 0.75em;
+    padding: 0.5em;
+    margin-top: 2em;
     margin-bottom: 0;
   }
 }
@@ -18,25 +21,29 @@ $bg-color: $as-violet-3;
 }
 
 .official_container {
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: center;
+  flex-basis: 10rem;
 }
 
 .leader {
   background-color: $bg-color;
 }
 
+.title {
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
 .image_container {
   --size: 10rem;
-
-  overflow: hidden;
-  border-radius: var(--size);
   width: var(--size);
   height: var(--size);
-  margin: 1rem;
-
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1rem auto;
+  
   img {
-    width: var(--size);
-    height: var(--size);
+    width: 100%;
   }
 }
