@@ -1,11 +1,11 @@
-interface Official {
+export interface Official {
     name: string;
     title: string;
     image?: string;
     leader?: boolean;
 }
 
-interface Committee {
+export interface Committee {
     name: string;
     members: Official[];
 }

@@ -1,12 +1,13 @@
 import React from "react"
+import type { PageProps } from "gatsby"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
 
 import * as style from "./officials.module.scss"
-import { officialsData } from "@src/data/officials"
+import {officialsData, type Committee, type Official } from "../../../src/data/officials"
 
 
 
-function OfficialCard({official}) {
+const OfficialCard: React.FC<{official:Official}> = ({official}) => {
   const leader = official.leader ? style.leader : ''
   const imgSrc = official.image ?? "https://as.fi/static/toimijat/aebaej_placeholder.png"
   return (
@@ -20,7 +21,7 @@ function OfficialCard({official}) {
   )
 }
 
-function CommitteeSection({committee}) {
+const CommitteeSection: React.FC<{committee:Committee}> = ({committee}) => {
   const {name, members} = committee;
   return (
     <div className={style.officials_section}>
@@ -32,7 +33,7 @@ function CommitteeSection({committee}) {
   )
 }
 
-export default function Officials({ pageContext }) {
+const Officials: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout pageContext={pageContext} title="Toimihenkilöt">
       {officialsData.map(committee =>
@@ -41,3 +42,5 @@ export default function Officials({ pageContext }) {
     </PageLayout>
   )
 }
+
+export default Officials;
