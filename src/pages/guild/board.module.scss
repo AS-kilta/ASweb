@@ -1,0 +1,35 @@
+.board {
+  max-width: 1000px;
+  margin-block: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+  text-align: center;
+  line-height: 1.6em;
+
+  & > * {
+    flex: 0 1 400px;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.image_container {
+  --size: 14rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1rem auto;
+  
+  img {
+    width: 100%;
+  }
+}
