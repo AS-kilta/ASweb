@@ -24,6 +24,8 @@ $bg-color: $as-violet-3;
   padding: 1.5rem;
   text-align: center;
   flex-basis: 10rem;
+
+  --profile-img-size: 10rem;
 }
 
 .leader {
@@ -33,17 +35,4 @@ $bg-color: $as-violet-3;
 .title {
   font-size: 0.9em;
   opacity: 0.7;
-}
-
-.image_container {
-  --size: 10rem;
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 1rem auto;
-  
-  img {
-    width: 100%;
-  }
 }

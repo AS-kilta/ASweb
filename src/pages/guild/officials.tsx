@@ -1,20 +1,17 @@
 import React from "react"
 import type { PageProps } from "gatsby"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
-
+import ProfileImg from "../../components/profiles/ProfileImg"
 import * as style from "./officials.module.scss"
 import {officialsData, type Committee, type Official } from "../../../src/data/officials"
 
 
-
 const OfficialCard: React.FC<{official:Official}> = ({official}) => {
   const leader = official.leader ? style.leader : ''
-  const imgSrc = official.image ?? "https://as.fi/static/toimijat/aebaej_placeholder.png"
+
   return (
     <div className={`${style.official_container} ${leader}`} >
-      <div className={style.image_container}>
-        <img src={imgSrc} alt="" />
-      </div>
+      <ProfileImg src={official.image}/>
       <div className={style.name}>{official.name}</div>
       <div className={style.title}>{official.title}</div>
   </div>
@@ -23,6 +20,7 @@ const OfficialCard: React.FC<{official:Official}> = ({official}) => {
 
 const CommitteeSection: React.FC<{committee:Committee}> = ({committee}) => {
   const {name, members} = committee;
+
   return (
     <div className={style.officials_section}>
       <h2 id="name">{name}</h2>
