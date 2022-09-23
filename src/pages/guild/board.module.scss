@@ -13,23 +13,12 @@
   & > * {
     flex: 0 1 400px;
   }
+
+  --profile-img-size: 14rem;
 }
 
 .title {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 700;
-}
-
-.image_container {
-  --size: 14rem;
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 1rem auto;
-  
-  img {
-    width: 100%;
-  }
 }

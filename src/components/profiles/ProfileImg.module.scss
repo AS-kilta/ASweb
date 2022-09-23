@@ -1,0 +1,11 @@
+.profile_img {
+  width: var(--profile-img-size, 10rem);
+  height: var(--profile-img-size, 10rem);
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1rem auto;
+  
+  img {
+    width: 100%;
+  }
+}
