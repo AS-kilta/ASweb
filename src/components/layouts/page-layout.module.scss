@@ -7,25 +7,6 @@
 #content {
     flex-grow: 1;
     background: $natural-white;
-}
-
-@media all and (min-width: $breakpoint-mobile) {
-
-    #content {
-        margin: 0 auto;
-        width: 70%;
-        max-width: 1200px;
-        padding: 20px;
-    }
-
-}
-
-@media all and (max-width: $breakpoint-mobile) {
-
-    #content {
-        margin: 0 auto;
-        max-width: 700px;
-        padding: 20px;
-    }
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
