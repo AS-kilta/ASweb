@@ -1,0 +1,53 @@
+.article_card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  column-gap: 3rem;
+  --profile-img-size: 13rem;
+
+  .card_content {
+    flex: 1 1 20ch;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .quote {
+    max-width: 40ch;
+    margin: 1em 0;
+    line-height: 1.5;
+    font-style: italic;
+    
+    &::before,
+    &::after {
+      font-size: 4em;
+      opacity: 0.3;
+      line-height: 0;
+      vertical-align: bottom;
+    }
+
+    &::before {
+      content: open-quote;
+      margin-right: 1rem;
+    }
+
+    &::after {
+      content: close-quote;
+    }
+  }
+
+  .name {
+    font-weight: 700;
+  }
+}
+
+.flex_reverse {
+  flex-direction: row-reverse;
+}
