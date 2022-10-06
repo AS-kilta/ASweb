@@ -1,4 +1,4 @@
-export function compareUrl(urlarr1, urlarr2) {
+export function compareUrl(urlarr1: string[], urlarr2: string[]): number {
     let count = 0
     let maxlen = urlarr1.length > urlarr2.length ? urlarr2.length : urlarr1.length
     let isSameLength = urlarr1.length === urlarr2.length
@@ -6,14 +6,14 @@ export function compareUrl(urlarr1, urlarr2) {
     return count === 0 ? -1 : count === maxlen && isSameLength ? 0 : count
 }
 
-export function tokenize(url) {
+export function tokenize(url: string): string[] {
     if (url.match(/\/$/)) url = url.slice(0, -1)
     let ret = url.split("/")
     ret.shift()
     return ret
 }
 
-export function removeLangFromArr(arr, lang) {
+export function removeLangFromArr(arr: string[], lang: string): void {
     if (arr[0] === lang) arr.shift()
     if (arr.length === 0) arr[0] = ""
 }
