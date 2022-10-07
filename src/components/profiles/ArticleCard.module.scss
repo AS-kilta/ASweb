@@ -3,8 +3,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-  column-gap: 3rem;
+  column-gap: 2rem;
   --profile-img-size: 13rem;
 
   .card_content {
@@ -31,6 +30,7 @@
       opacity: 0.3;
       line-height: 0;
       vertical-align: bottom;
+      pointer-events: none;
     }
 
     &::before {
