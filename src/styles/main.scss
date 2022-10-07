@@ -44,3 +44,20 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     text-decoration: none;
 }
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    max-width: 70ch;
+    line-height: 1.6;
+}
+
+.full-width-bg {
+    box-sizing: border-box;
+    width: 100vw;
+    padding-inline: calc((100vw - 100%) / 2);
+    margin-inline: calc((100vw - 100%) / -2);
+}
