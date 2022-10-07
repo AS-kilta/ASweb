@@ -1,0 +1,65 @@
+.colored_block {
+  // Split and move to main
+  color: white;
+  background-color: $as-violet-1;
+  padding-block: 1.5em;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.intro, .testimonials {
+  flex: 1 1 40ch;
+}
+
+.testimonials > * {
+  margin-bottom: 2rem;
+}
+
+.major {
+  margin-block: 6rem;
+  gap: 2rem;
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h3, h4 {
+    font-weight: 400;
+    margin: 1.2em 0 0.3em;
+    border-bottom: 3px solid;
+    padding-bottom: 0.2em;
+  }
+}
+
+.course_examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  & > * {
+    flex: 1 1 25ch;
+  }
+
+  dt {
+    margin: 0 0 0.5em;
+    font-weight: 700;
+  }
+  dd {
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.find_more {
+  display: block;
+  max-width: max-content;
+  margin: 2rem auto;
+}
