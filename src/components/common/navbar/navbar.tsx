@@ -205,7 +205,6 @@ interface SubnaviProps {
 }
 
 const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location }) => {
-
     return (
         <div className={style.subnavi}>
             {entry.map(entry => {
@@ -228,7 +227,6 @@ const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location }) => {
             })}
         </div>
     )
-
 }
 
 interface NavbarProps {
@@ -253,7 +251,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
     }
 
     return (
-        <div id={style.navbarTop} className={ navExpanded && style.expanded }>
+        <div id={style.navbarTop} className={`${navExpanded ? style.expanded : ""}`}>
             <div className={style.navi}>
                 <SiteLogo lang={lang} />
                 <NavCollapse 
