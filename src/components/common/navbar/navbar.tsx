@@ -24,28 +24,6 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
     )
 }
 
-interface LangSwitcherProps {
-    lang: string,
-    slug: string,
-    translation?: string
-}
-
-const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) => {
-    return (
-        <div className={style.naviItem}>
-            {lang === "fi" ? (
-                <Link to={translation || `/en${slug}`}>
-                    In English
-                </Link>
-                ) : (
-                <Link to={translation || slug.substring(3)}>
-                    Suomeksi
-                </Link>
-            )}
-        </div>
-    )
-}
-
 interface NaviItemProps {
     dropdown?: boolean,
     subnavi?: boolean,
@@ -79,12 +57,59 @@ const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnavi, local, active, t
     )
 }
 
-interface NavCollapseProps {
+interface LangSwitcherProps {
     lang: string,
     slug: string,
-    translation?: string,
-    isExpanded: boolean,
-    hideNavi: () => void
+    translation?: string
+}
+
+const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) => {
+    let link, title: string
+    if (lang === "fi") {
+        link = `/en${slug}`
+        title = "In English"
+    } else {
+        link = slug.substring(3)
+        title = "Suomeksi"
+    }
+    return (
+        <NaviItem
+            local
+            title={title}
+            link={translation || link}
+        />
+    )
+}
+
+interface SubnaviProps {
+    lang: string,
+    entry: SubnaviData[],
+    location: string[],
+}
+
+const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location }) => {
+    return (
+        <div className={style.subnavi}>
+            {entry.map(entry => {
+                if (entry.title[lang] && entry.link[lang]) {
+                    let link_arr: string[] = tokenize(entry.link[lang])
+                    removeLangFromArr(link_arr, lang)
+                    let isLocal: boolean = entry.link[lang].startsWith("/")
+                    let isActive: boolean = compareUrl(location, link_arr) === 0
+                    return (
+                        <NaviItem
+                            subnavi
+                            local={isLocal}
+                            active={isActive}
+                            title={entry.title[lang]}
+                            link={entry.link[lang]}
+                            key={entry.title[lang] + "-" + entry.link[lang]}
+                        />
+                    )
+                } else return (null)
+            })}
+        </div>
+    )
 }
 
 // Types for navigation data scheme
@@ -112,8 +137,16 @@ interface NaviDataScheme {
     }
 }
 
+interface NavCollapseProps {
+    lang: string,
+    slug: string,
+    translation?: string,
+    isExpanded: boolean,
+    hideNavi: () => void
+}
+
 const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded, hideNavi }) => {
-    let location = tokenize(slug)
+    let location: string[] = tokenize(slug)
     removeLangFromArr(location, lang)
 
     const data: NaviDataScheme = useStaticQuery(graphql`
@@ -154,10 +187,10 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
             {data.allNaviYaml.edges.map(entry => entry.node)
                 .map(entry => {
                     if (entry.title[lang] && entry.link[lang]) {
-                        let link_arr = tokenize(entry.link[lang])
+                        let link_arr: string[] = tokenize(entry.link[lang])
                         removeLangFromArr(link_arr, lang)
-                        let isActive = compareUrl(location, link_arr) >= 0
-                        let isLocal = entry.link[lang].startsWith("/")
+                        let isActive: boolean = compareUrl(location, link_arr) >= 0
+                        let isLocal: boolean = entry.link[lang].startsWith("/")
                         if (entry.subnavi)
                             return (
                                 <NaviItem
@@ -198,37 +231,6 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
     )
 }
 
-interface SubnaviProps {
-    lang: string,
-    entry: SubnaviData[],
-    location: string[],
-}
-
-const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location }) => {
-    return (
-        <div className={style.subnavi}>
-            {entry.map(entry => {
-                if (entry.title[lang] && entry.link[lang]) {
-                    let link_arr = tokenize(entry.link[lang])
-                    removeLangFromArr(link_arr, lang)
-                    let isLocal = entry.link[lang].startsWith("/")
-                    let isActive = compareUrl(location, link_arr) === 0
-                    return (
-                        <NaviItem
-                            subnavi
-                            local={isLocal}
-                            active={isActive}
-                            title={entry.title[lang]}
-                            link={entry.link[lang]}
-                            key={entry.title[lang] + "-" + entry.link[lang]}
-                        />
-                    )
-                } else return (null)
-            })}
-        </div>
-    )
-}
-
 interface NavbarProps {
     lang: string,
     slug: string,
@@ -238,14 +240,14 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
     const [navExpanded, expandNav] = useState(false)
 
-    const toggleNav = () => {
+    const toggleNav = (): void => {
         navExpanded
             ? document.body.classList.remove(style.hideoverflow)
             : document.body.classList.add(style.hideoverflow)
         expandNav(!navExpanded)
     }
 
-    const hideNav = () => {
+    const hideNav = (): void => {
         document.body.classList.remove(style.hideoverflow)
         expandNav(false)
     }
