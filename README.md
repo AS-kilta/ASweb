@@ -3,6 +3,7 @@
 ## Technologies
 
 - Gatsby 4 & React 17
+- TypeScript 4.1
 - Sass 1.36
 
 and various other plugins, packages etc. as dependencies
