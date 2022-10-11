@@ -1,11 +1,11 @@
 import React from "react"
 import CustomLayout from "@src/components/layouts/custom-layout.jsx"
-import Jumbotron from "@src/components/common/jumbotron/jumbotron.jsx"
+import Hero from "@src/components/common/hero/hero"
 
 export default function IndexPage({ pageContext }) {
     return (
         <CustomLayout pageContext={pageContext}>
-            <Jumbotron title="Guild of Automation and Systems Technology" />
+            <Hero title="Guild of Automation and Systems Technology" />
             <p>Lorem ipsum dolor sit amet.</p>
         </CustomLayout>
     )
