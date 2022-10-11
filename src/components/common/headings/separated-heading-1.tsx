@@ -2,7 +2,7 @@ import React from "react"
 
 import * as sassVars from "@src/styles/_exports.module.scss"
 
-export default function SeparatedHeading1({ id, children }) {
+const SeparatedHeading1: React.FC<{id: string, children: React.ReactNode}> = ({ id, children }) => {
     return (
         <div style={{margin: "40px 0"}}>
             <h1 id={id} className="pageHeading1">{children}</h1>
@@ -10,3 +10,5 @@ export default function SeparatedHeading1({ id, children }) {
         </div>
     )
 }
+
+export default SeparatedHeading1

@@ -4,7 +4,7 @@ import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 
 import PageLayout from "./page-layout.jsx"
-import SeparatedHeading1 from "@src/components/common/headings/separated-heading-1.jsx"
+import SeparatedHeading1 from "@src/components/common/headings/separated-heading-1"
 
 import { createSlug } from "./helpers/slugger.js"
 

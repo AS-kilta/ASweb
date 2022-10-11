@@ -1,15 +1,15 @@
 import React from "react"
 
-import Meta from "@src/components/common/meta/meta.jsx"
+import Meta from "@src/components/common/meta/meta"
 import Navbar from "@src/components/common/navbar/navbar"
-import Footer from "@src/components/common/footer/footer.jsx"
+import Footer from "@src/components/common/footer/footer"
 
 import * as style from "./custom-layout.module.scss"
 
 export default function CustomLayout({ pageContext, children }) {
     return (
         <div id={style.container}>
-            <Meta pageContext={pageContext} />
+            <Meta lang={pageContext.lang} />
             <Navbar
                 lang={pageContext.lang}
                 slug={pageContext.slug}
@@ -18,7 +18,7 @@ export default function CustomLayout({ pageContext, children }) {
             <div id={style.content}>
                 {children}
             </div>
-            <Footer />
+            <Footer lang={pageContext.lang} />
         </div>
     )
 }
