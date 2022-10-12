@@ -1,4 +1,58 @@
 const path = require("path")
+const { createFilePath } = require(`gatsby-source-filesystem`)
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `Mdx`) {
+    const slug = createFilePath({ node, getNode, basePath: `mdx-pages` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
+}
+
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  const { createPage } = actions
+
+  const result = await graphql(`
+    query {
+      allMdx {
+        nodes {
+          id
+          frontmatter {
+            title
+            layout
+            lead
+            background
+          }
+          fields {
+            slug
+          }
+          internal {
+            contentFilePath
+          }
+        }
+      }
+    }
+  `)
+
+  if (result.errors) {
+    reporter.panicOnBuild('Error loading MDX result', result.errors)
+  }
+
+  const mdxPages = result.data.allMdx.nodes
+
+  mdxPages.forEach(node => {
+    const layout = node.frontmatter.layout ? node.frontmatter.layout : "page"
+    createPage({
+      path: node.fields.slug,
+      component: path.resolve(`src/templates/${layout}.tsx`) + `?__contentFilePath=${node.internal.contentFilePath}`,
+      context: { id: node.id },
+    })
+  })
+}
 
 // Add page context, handle localized 404
 
