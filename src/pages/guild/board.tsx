@@ -1,5 +1,6 @@
 import React from "react"
-import type { PageProps } from "gatsby"
+import type { HeadFC, HeadProps, PageProps } from "gatsby"
+import Meta from "@src/components/common/meta/meta"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
 import ProfileImg from "../../components/profiles/ProfileImg"
 import * as style from "./board.module.scss"
@@ -33,4 +34,8 @@ const Officials: React.FC<PageProps> = ({ pageContext }) => {
   )
 }
 
-export default Officials;
+export default Officials
+
+export const Head: HeadFC<HeadProps> = () => (
+  <Meta lang="fi" title="Hallitus" />
+)
