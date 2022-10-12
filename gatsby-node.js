@@ -1,6 +1,8 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+// Create slug for MDX pages from file path, pass lang as node field
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `Mdx`) {
@@ -18,6 +20,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
+
+// Create MDX pages programmatically
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
