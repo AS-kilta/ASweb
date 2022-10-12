@@ -1,5 +1,9 @@
-export function createSlug(title, slugs) {
-    let slug = title.toLowerCase()
+export interface Slugs {
+    [key:string]: number
+}
+
+export function createSlug(title: string, slugs: Slugs) {
+    let slug: string = title.toLowerCase()
         .normalize("NFD")
         .replace(/[^a-z0-9 ]/g, "")
         .replace(" ", "-")

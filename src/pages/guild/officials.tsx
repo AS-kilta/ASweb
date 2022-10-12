@@ -1,6 +1,7 @@
 import React from "react"
-import type { PageProps } from "gatsby"
+import type { HeadFC, HeadProps, PageProps } from "gatsby"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
+import Meta from "@src/components/common/meta/meta"
 import ProfileImg from "../../components/profiles/ProfileImg"
 import * as style from "./officials.module.scss"
 import {officialsData, type Committee, type Official } from "../../../src/data/officials"
@@ -41,4 +42,8 @@ const Officials: React.FC<PageProps> = ({ pageContext }) => {
   )
 }
 
-export default Officials;
+export default Officials
+
+export const Head: HeadFC<HeadProps> = () => (
+  <Meta lang="fi" title="Toimihenkilöt" />
+)
