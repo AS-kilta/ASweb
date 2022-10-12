@@ -1,7 +1,9 @@
 import React from "react"
+import type { HeadFC, HeadProps, PageProps } from "gatsby"
+import Meta from "@src/components/common/meta/meta"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
 
-export default function Error404({ pageContext }) {
+const Error404: React.FC<PageProps> = ({ pageContext }) => {
     return (
         <PageLayout pageContext={pageContext} title="404 - Sivua ei löydy :/">
             <p>
@@ -10,3 +12,9 @@ export default function Error404({ pageContext }) {
         </PageLayout>
     )
 }
+
+export default Error404
+
+export const Head: HeadFC<HeadProps> = () => (
+    <Meta lang="fi" title="404" />
+)

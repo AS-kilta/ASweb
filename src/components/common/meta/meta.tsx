@@ -1,30 +1,56 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Meta: React.FC<{lang: string, title?: string}> = ({ lang, title }) => {
-    const data = useStaticQuery(graphql`
+interface MetaProps {
+    lang: string,
+    title?: string,
+    description?: string
+}
+
+interface SiteMetadataScheme {
+    site: {
+        siteMetadata: {
+            author: string,
+            description: TranslatedEntry,
+            title: TranslatedEntry
+        }
+    }
+}
+
+interface SeoData {
+    title: string,
+    description: string
+}
+
+const Meta: React.FC<MetaProps> = ({ lang, title, description }) => {
+    const data: SiteMetadataScheme = useStaticQuery(graphql`
         query getSiteMetadata {
             site {
-            siteMetadata {
-                author
-                description {
-                    en
-                    fi
+                siteMetadata {
+                    author
+                    description {
+                        en
+                        fi
+                    }
+                    title {
+                        en
+                        fi
+                    }
                 }
-                title {
-                    en
-                    fi
-                }
-            }
             }
         }
     `)
 
+    const seoData: SeoData = {
+        title: `${title ? title + " | " : ""}${data.site.siteMetadata.title[lang]}`,
+        description: description ?? data.site.siteMetadata.description[lang]
+    }
+    
     return (
-        <Helmet>
-            <title>{`${title ? title + " | " : ""}${data.site.siteMetadata.title[lang]}`}</title>
-        </Helmet>
+        <>
+            <title>{seoData.title}</title>
+            <meta name="description" content={seoData.description} />
+        </>
     )
 }
 

@@ -1,9 +1,9 @@
 import React from "react"
-import type { PageProps } from "gatsby"
+import type { HeadFC, HeadProps, PageProps } from "gatsby"
+import Meta from "@src/components/common/meta/meta"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
 import ArticleCard from "../../components/profiles/ArticleCard"
 import * as style from "./abit.module.scss"
-
 
 const Abit: React.FC<PageProps> = ({ pageContext }) => {
   return (
@@ -24,4 +24,8 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
   )
 }
 
-export default Abit;
+export default Abit
+
+export const Head: HeadFC<HeadProps> = () => (
+  <Meta lang="fi" title="Abeille" />
+)

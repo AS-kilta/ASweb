@@ -5,10 +5,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `mdx-pages` })
+    const lang = slug.split("/")[1] === "en" ? "en" : "fi"
     createNodeField({
       node,
       name: `slug`,
       value: slug,
+    })
+    createNodeField({
+      node,
+      name: `lang`,
+      value: lang
     })
   }
 }
