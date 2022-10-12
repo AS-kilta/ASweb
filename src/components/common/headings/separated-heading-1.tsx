@@ -2,7 +2,7 @@ import React from "react"
 
 import * as sassVars from "@src/styles/_exports.module.scss"
 
-const SeparatedHeading1: React.FC<{id: string, children: React.ReactNode}> = ({ id, children }) => {
+const SeparatedHeading1: React.FC<{id: string, children?: React.ReactNode}> = ({ id, children }) => {
     return (
         <div style={{margin: "40px 0"}}>
             <h1 id={id} className="pageHeading1">{children}</h1>
