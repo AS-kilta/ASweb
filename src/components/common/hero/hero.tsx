@@ -6,8 +6,8 @@ import * as sassVars from "@src/styles/_exports.module.scss"
 
 interface HeroProps {
     title: string,
-    lead: string,
-    background: string
+    lead?: string,
+    background?: string
 }
 
 const Hero: React.FC<HeroProps> = ({ title, lead, background }) => {

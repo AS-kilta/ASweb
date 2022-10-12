@@ -1,23 +1,30 @@
 import React from "react"
 import { graphql } from "gatsby"
-import type { PageProps } from "gatsby"
+import type { HeadFC, HeadProps, PageProps } from "gatsby"
 
 import { MDXProvider } from "@mdx-js/react"
 
 import PageLayout from "@src/components/layouts/page-layout.jsx"
 import SeparatedHeading1 from "@src/components/common/headings/separated-heading-1"
+import Meta from "@src/components/common/meta/meta"
 
 import { createSlug } from "./helpers/slugger"
 import type { Slugs } from "./helpers/slugger" 
 
-interface Props extends PageProps {
-  data: {
-    mdx: {
-      frontmatter: {
-        [key:string]: string;
-      }
+interface DataProps {
+  mdx: {
+    fields: {
+      lang: string
     }
-  }
+    frontmatter: {
+      [key:string]: string;
+    }
+  },
+  pageContext: any
+}
+
+interface Props extends PageProps {
+  data: DataProps
 }
 
 const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
@@ -46,6 +53,9 @@ const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
 export const query = graphql`
   query($id: String!) {
     mdx(id: { eq: $id }) {
+      fields {
+        lang
+      }
       frontmatter {
         title
         lead
@@ -56,3 +66,7 @@ export const query = graphql`
 `
 
 export default PageTemplate
+
+export const Head: HeadFC<DataProps> = props => (
+  <Meta lang={props.data.mdx.fields.lang} title={props.data.mdx.frontmatter.title} />
+)
