@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram, BsGithub } from "react-icons/bs"
 
 import * as style from "./footer.module.scss"
 
-export default function Footer() {
+const Footer: React.FC<{lang: string}> = ({ lang }) => {
     return (
         <div id={style.footer}>
             <div id={style.content}>
@@ -33,3 +33,5 @@ export default function Footer() {
         </div>
     )
 }
+
+export default Footer

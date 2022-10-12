@@ -1,4 +1,4 @@
-#jumbotron {
+#hero {
 
     background: $as-violet-1;
     display: flex;
@@ -24,7 +24,7 @@
 
 @media all and (min-width: $breakpoint-mobile) {
 
-    #jumbotron {
+    #hero {
         padding: 20px 15%;
         min-height: 15vh;
         text-align: center;
@@ -34,7 +34,7 @@
 
 @media all and (max-width: $breakpoint-mobile) {
 
-    #jumbotron {
+    #hero {
         padding: 20px;
         min-height: 20vh;
         text-align: center;
