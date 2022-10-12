@@ -114,10 +114,6 @@ const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location }) => {
 
 // Types for navigation data scheme
 
-interface TranslatedEntry {
-    [key:string]: string;
-}
-
 interface SubnaviData {
     title: TranslatedEntry,
     link: TranslatedEntry
