@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import type { HeadFC, HeadProps, PageProps } from "gatsby"
+import type { HeadFC, PageProps } from "gatsby"
 
 import { MDXProvider } from "@mdx-js/react"
 
