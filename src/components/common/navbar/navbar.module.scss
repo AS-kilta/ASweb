@@ -41,6 +41,16 @@
     vertical-align: text-top;
 }
 
+@keyframes simpleYScale {
+    0% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
 @media all and (min-width: $breakpoint-mobile) {
 
     .navi {
@@ -50,6 +60,10 @@
 
     #navbarCollapse {
         flex-direction: row;
+    }
+
+    .subnaviItem {
+        min-width: 125px;
     }
 
     .naviItem a {
@@ -78,7 +92,10 @@
         display: none;
         position: absolute;
         left: 15px;
-        background-color: $as-violet-1;
+        background-color: $accent-violet-1;
+        box-shadow: 1px 1px 10px -5px $natural-black;
+        animation: simpleYScale 100ms ease-in-out forwards;
+        transform-origin: top center;
 
         div a {
             font-size: 15px;
@@ -144,6 +161,8 @@
 
     #navbarCollapse.show {
         display: block;
+        animation: simpleYScale 200ms ease-in-out forwards;
+        transform-origin: top center;
     }
 
     #navbarTop.expanded {
