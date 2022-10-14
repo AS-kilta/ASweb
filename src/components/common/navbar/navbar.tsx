@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { BsList } from "react-icons/bs"
+import { BsList, BsX } from "react-icons/bs"
 import { IoMdArrowDropdown } from "react-icons/io"
 
 import { compareUrl, tokenize, removeLangFromArr } from "./helpers"
@@ -36,18 +36,21 @@ interface NaviItemProps {
 }
 
 const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnavi, local, active, title, link, key, children }) => {
+    const divClasses = `${subnavi ? style.subnaviItem : style.naviItem}${active ? " " + style.active : ""}${dropdown ? " " + style.dropdown : ""}`
+    const linkClasses = dropdown ? style.dropdownLink : ""
+
     return (
         <div 
-            className={`${subnavi ? style.subnaviItem : style.naviItem}${active ? " " + style.active : ""}${dropdown ? " " + style.dropdown : ""}`}
+            className={divClasses}
             key={key}
         >
             {local ? (
-                <Link to={link}>
+                <Link className={linkClasses} to={link}>
                     {title}
                     {dropdown && <IoMdArrowDropdown />}
                 </Link>
             ) : (
-                <a href={link}>
+                <a className={linkClasses} href={link}>
                     {title}
                     {dropdown && <IoMdArrowDropdown />}
                 </a>
@@ -260,7 +263,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
                     hideNavi={hideNav}
                 />
                 <div className={style.menuToggle} onClick={toggleNav}>
-                    <BsList />
+                    {navExpanded ? <BsX /> : <BsList />}
                 </div>
             </div>
         </div>
