@@ -1,29 +1,33 @@
 #footer {
     background: $natural-black;
     color: $natural-white;
+    font-family: $font-heading;
+    font-size: 16px;
+
+    a {
+        color: #fff;
+    }
 }
 
 #content {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 0;
 }
 
-#partnersTitle {
-    font-weight: 400;
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
-#contact {
-    padding: 10px;
-}
-
-#partners {
-    padding: 10px;
+#contact, #partners, #links {
+    flex-shrink: 0;
 }
 
 #some {
     display: flex;
+    gap: 10px;
     flex-wrap: nowrap;
     justify-content: flex-start;
 
@@ -31,26 +35,81 @@
         display: inline-block;
         font-size: 25px;
         color: $natural-white;
-        padding: 0 5px;
     }
+}
+
+#links {
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+#sponsors {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.sponsor {
+    display: block;
 }
 
 @media all and (min-width: $breakpoint-mobile) {
 
     #content {
         margin: 0 auto;
-        width: 70%;
-        max-width: 1000px;
+        width: 80%;
+        max-width: 1400px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    #contact {
+        max-width: 20%;
+    }
+
+    #links {
+        max-width: 20%;
+    }
+    
+    #partners {
+        max-width: 60%;
     }
 
 }
 
 @media all and (max-width: $breakpoint-mobile) {
 
+    #footer {
+        text-align: center;
+    }
+
     #content {
         margin: 0 auto;
         flex-direction: column;
-        max-width: 700px;
+        max-width: 90%;
+    }
+
+    #contact {
+        order: 2;
+    }
+
+    #partners {
+        order: 1;
+    }
+
+    #links {
+        order: 3;
+    }
+
+    #some {
+        justify-content: center;
     }
 
 }
