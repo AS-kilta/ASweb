@@ -1,0 +1,16 @@
+.snapwidget {
+    --max-width: 1000px;
+    position: relative;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    padding-top: calc(min(var(--max-width), 100%) + (3 * 135px));
+
+    iframe {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        overflow: hidden;
+    }
+}
