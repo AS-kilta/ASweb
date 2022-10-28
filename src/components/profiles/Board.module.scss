@@ -7,7 +7,6 @@
   justify-content: space-around;
   gap: 2rem;
 
-  text-align: center;
   line-height: 1.6em;
 
   & > * {
@@ -15,10 +14,4 @@
   }
 
   --profile-img-size: 14rem;
-}
-
-.title {
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  font-weight: 700;
 }

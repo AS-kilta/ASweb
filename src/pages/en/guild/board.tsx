@@ -10,7 +10,7 @@ interface Props extends PageProps {
 
 const BoardPage: React.FC<Props> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title="Hallitus">
+    <PageLayout pageContext={pageContext} title="Board">
       <Board lang={pageContext.lang} />
     </PageLayout>
   )
@@ -19,5 +19,5 @@ const BoardPage: React.FC<Props> = ({ pageContext }) => {
 export default BoardPage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Hallitus" />
+  <Meta lang="en" title="Board" />
 )
