@@ -14,8 +14,9 @@ export interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
     const customStyle: React.CSSProperties = background ? {
         background: `url(${background}) ${sassVars.asViolet1}`,
-        backgroundSize: 'cover',
-        backgroundBlendMode: "soft-light"
+        backgroundSize: "cover",
+        backgroundBlendMode: "soft-light",
+        height: "20rem"
     } : {}
 
     if ( heroHeight == "short" ) {
