@@ -1,5 +1,5 @@
 import React from "react"
-import type { HeadFC, HeadProps, PageProps } from "gatsby"
+import type { HeadFC, HeadProps } from "gatsby"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
 import Meta from "@src/components/common/meta/meta"
 import ProfileImg from "../../components/profiles/ProfileImg"
