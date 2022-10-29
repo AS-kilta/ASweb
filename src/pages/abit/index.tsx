@@ -1,5 +1,5 @@
 import React from "react"
-import type { HeadFC, HeadProps, PageProps } from "gatsby"
+import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/meta/meta"
 import PageLayout from "@src/components/layouts/page-layout.jsx"
 import ArticleCard from "../../components/profiles/ArticleCard"
