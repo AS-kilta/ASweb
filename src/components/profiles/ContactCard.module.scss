@@ -1,0 +1,23 @@
+.title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.icon_field {
+    margin-left: -1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_card {
+    a {
+        color: $accent-violet-1;
+        text-decoration: none;
+    }
+
+    text-align: center;
+}

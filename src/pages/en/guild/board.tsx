@@ -7,7 +7,7 @@ import PageLayout from "@src/components/layouts/page-layout.jsx"
 
 const BoardPage: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title="Hallitus">
+    <PageLayout pageContext={pageContext} title="Board">
       <Board lang={pageContext.lang} />
     </PageLayout>
   )
@@ -16,5 +16,5 @@ const BoardPage: React.FC<PageProps> = ({ pageContext }) => {
 export default BoardPage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Hallitus" />
+  <Meta lang="en" title="Board" />
 )
