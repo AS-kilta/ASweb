@@ -66,7 +66,7 @@ const EventList: React.FC<{number: number, lang: string}> = ({ number=5, lang="f
                 const datetimeOptions = event.fullDay
                     ? dateOptions : { ...dateOptions, ...timeOptions};
                 return (
-                    <li>
+                    <li key={event.start.toString + event.summary}>
                         <div className={style.date}>{event.start.getDate()}.{event.start.getMonth()}.</div>
                         <div>
                             <div className={style.summary}>{event.summary}</div>

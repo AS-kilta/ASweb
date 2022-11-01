@@ -55,7 +55,7 @@ const Board: React.FC<{lang: string}> = ({ lang }) => {
                     title: member.node.title[lang],
                     description: member.node.description[lang]
                 }
-                return <ContactCard data={contactData} />
+                return <ContactCard key={member.node.name} data={contactData} />
             })}
         </div>
     )
