@@ -36,7 +36,7 @@ const Sponsors: React.FC = () => {
     return (
         <div id={style.sponsors}>
             {data.allSponsorsYaml.edges.map(entry =>
-                <a className={style.sponsor} href={entry.node.link}>
+                <a className={style.sponsor} key={entry.node.name} href={entry.node.link}>
                     <img src={entry.node.picture} alt={entry.node.name} width={100} />
                 </a>
             )}
