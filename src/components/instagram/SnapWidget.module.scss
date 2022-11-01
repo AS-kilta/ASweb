@@ -6,6 +6,7 @@
     padding-top: calc(min(var(--max-width), 100%) + (3 * 135px));
 
     iframe {
+        box-sizing: content-box;
         position: absolute;
         bottom: 0;
         width: 100%;
