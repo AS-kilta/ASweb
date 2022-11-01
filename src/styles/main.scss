@@ -36,6 +36,14 @@ h1, h2, h3, h4, h5 {
     font-weight: 400;
 }
 
+ul, ol, dl {
+    line-height: 1.5;
+
+    li:not(:last-child) {
+        margin-bottom: 1em;
+    }
+}
+
 .rounded-button {
     padding: 0.5em 1em;
     border-radius: 1rem;
