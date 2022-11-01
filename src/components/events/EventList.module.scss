@@ -1,17 +1,14 @@
 .event_list {
   list-style: none;
-  padding: 2rem;
+  padding: 0;
   margin: 0;
 
-  li {
+  .eventListItem {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 1.5rem;
     margin-bottom: 2rem;
-    &:last-child .description {
-        margin-bottom: 0px;
-    }
   }
 
   p {
