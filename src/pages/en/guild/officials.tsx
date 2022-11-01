@@ -6,7 +6,7 @@ import Officials from "@src/components/profiles/Officials"
 
 const OfficialsPage: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title="Toimihenkilöt">
+    <PageLayout pageContext={pageContext} title="Officials">
       <Officials lang={pageContext.lang} />
     </PageLayout>
   )
@@ -15,5 +15,5 @@ const OfficialsPage: React.FC<PageProps> = ({ pageContext }) => {
 export default OfficialsPage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Toimihenkilöt" />
+  <Meta lang="en" title="Officials" />
 )
