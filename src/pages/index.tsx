@@ -5,6 +5,7 @@ import CustomLayout from "@src/components/layouts/CustomLayout"
 import Hero from "@src/components/common/Hero"
 import SnapWidget from "@src/components/instagram/SnapWidget"
 import EventList from "@src/components/events/EventList"
+import * as style from './index.module.scss'
 
 import heroimg from "../images/images/20201029195159-eef0d345-xx.jpg"
 import pohina1 from "../images/images/20210916110956-5b58846e-xx.jpg"
@@ -23,7 +24,10 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             </div>
             <div className="even-columns">
                 <img className="pöhinä-img no-mobile" src={pohina1} alt="" />
-                <EventList number={5} lang={pageContext.lang} />
+                <div className={style.eventsContainer}>
+                    <h2>Tapahtumat</h2>
+                    <EventList number={5} lang={pageContext.lang} />
+                </div>
             </div>
             <SnapWidget />
         </CustomLayout>
