@@ -35,15 +35,12 @@ interface NaviItemProps {
     children?: React.ReactNode
 }
 
-const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnavi, local, active, title, link, key, children }) => {
+const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnavi, local, active, title, link, children }) => {
     const divClasses = `${subnavi ? style.subnaviItem : style.naviItem}${active ? " " + style.active : ""}${dropdown ? " " + style.dropdown : ""}`
     const linkClasses = dropdown ? style.dropdownLink : ""
 
     return (
-        <div 
-            className={divClasses}
-            key={key}
-        >
+        <div className={divClasses}>
             {local ? (
                 <Link className={linkClasses} to={link}>
                     {title}
@@ -204,7 +201,6 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
                                         lang={lang}
                                         entry={entry.subnavi}
                                         location={location}
-                                        key={entry.title[lang] + "-" + entry.link[lang]}
                                     />
                                 </NaviItem>
                             )
