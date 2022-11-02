@@ -4,9 +4,17 @@ import Navbar from "@src/components/common/navbar/navbar"
 import Hero from "@src/components/common/hero/hero"
 import Footer from "@src/components/common/footer/footer"
 
-import * as style from "./page-layout.module.scss"
+import * as style from "./PageLayout.module.scss"
 
-export default function PageLayout({ pageContext, title, lead, background, children }) {
+interface Props {
+    pageContext: PageProps["pageContext"],
+    title: string,
+    lead?: string,
+    background?: string,
+    children?: React.ReactNode
+}
+
+const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, children }) => {
     return (
         <div id={style.container}>
             <Navbar 
@@ -22,3 +30,5 @@ export default function PageLayout({ pageContext, title, lead, background, child
         </div>
     )
 }
+
+export default PageLayout

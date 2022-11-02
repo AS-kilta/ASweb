@@ -1,7 +1,7 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/meta/meta"
-import CustomLayout from "@src/components/layouts/custom-layout.jsx"
+import CustomLayout from "@src/components/layouts/CustomLayout"
 import Hero from "@src/components/common/hero/hero"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {

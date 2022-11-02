@@ -3,9 +3,14 @@ import React from "react"
 import Navbar from "@src/components/common/navbar/navbar"
 import Footer from "@src/components/common/footer/footer"
 
-import * as style from "./custom-layout.module.scss"
+import * as style from "./CustomLayout.module.scss"
 
-export default function CustomLayout({ pageContext, children }) {
+interface Props {
+    pageContext: PageProps["pageContext"],
+    children?: React.ReactNode
+}
+
+const CustomLayout: React.FC<Props> = ({ pageContext, children }) => {
     return (
         <div id={style.container}>
             <Navbar
@@ -20,3 +25,5 @@ export default function CustomLayout({ pageContext, children }) {
         </div>
     )
 }
+
+export default CustomLayout
