@@ -4,7 +4,7 @@ import type { HeadFC } from "gatsby"
 
 import { MDXProvider } from "@mdx-js/react"
 
-import PageLayout from "@src/components/layouts/page-layout.jsx"
+import PageLayout from "@src/components/layouts/PageLayout"
 import SeparatedHeading1 from "@src/components/common/headings/separated-heading-1"
 import Meta from "@src/components/common/meta/meta"
 

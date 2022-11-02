@@ -1,6 +1,6 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
-import PageLayout from "@src/components/layouts/page-layout.jsx"
+import PageLayout from "@src/components/layouts/PageLayout"
 import Meta from "@src/components/common/meta/meta"
 import Officials from "@src/components/profiles/Officials"
 
