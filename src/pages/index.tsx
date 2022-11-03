@@ -1,8 +1,8 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
-import Meta from "@src/components/common/meta/meta"
-import CustomLayout from "@src/components/layouts/custom-layout.jsx"
-import Hero from "@src/components/common/hero/hero"
+import Meta from "@src/components/common/Meta"
+import CustomLayout from "@src/components/layouts/CustomLayout"
+import Hero from "@src/components/common/Hero"
 import SnapWidget from "@src/components/instagram/SnapWidget"
 import EventList from "@src/components/events/EventList"
 

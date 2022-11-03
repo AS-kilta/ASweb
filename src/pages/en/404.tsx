@@ -1,7 +1,7 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
-import Meta from "@src/components/common/meta/meta"
-import PageLayout from "@src/components/layouts/page-layout.jsx"
+import Meta from "@src/components/common/Meta"
+import PageLayout from "@src/components/layouts/PageLayout"
 
 const Error404: React.FC<PageProps> = ({ pageContext }) => {
     return (

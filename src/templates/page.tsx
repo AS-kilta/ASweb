@@ -4,9 +4,9 @@ import type { HeadFC } from "gatsby"
 
 import { MDXProvider } from "@mdx-js/react"
 
-import PageLayout from "@src/components/layouts/page-layout.jsx"
-import SeparatedHeading1 from "@src/components/common/headings/separated-heading-1"
-import Meta from "@src/components/common/meta/meta"
+import PageLayout from "@src/components/layouts/PageLayout"
+import SeparatedHeading1 from "@src/components/common/SeparatedHeading1"
+import Meta from "@src/components/common/Meta"
 
 import { createSlug } from "./helpers/slugger"
 import type { Slugs } from "./helpers/slugger" 

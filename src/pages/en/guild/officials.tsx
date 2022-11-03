@@ -1,7 +1,7 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
-import PageLayout from "@src/components/layouts/page-layout.jsx"
-import Meta from "@src/components/common/meta/meta"
+import PageLayout from "@src/components/layouts/PageLayout"
+import Meta from "@src/components/common/Meta"
 import Officials from "@src/components/profiles/Officials"
 
 const OfficialsPage: React.FC<PageProps> = ({ pageContext }) => {
