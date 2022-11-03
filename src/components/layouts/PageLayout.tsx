@@ -1,8 +1,8 @@
 import React from "react"
 
-import Navbar from "@src/components/common/navbar/navbar"
-import Hero from "@src/components/common/hero/hero"
-import Footer from "@src/components/common/footer/footer"
+import Navbar from "@src/components/common/Navbar"
+import Hero from "@src/components/common/Hero"
+import Footer from "@src/components/common/Footer"
 
 import * as style from "./PageLayout.module.scss"
 

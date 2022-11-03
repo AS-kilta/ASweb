@@ -1,7 +1,7 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Board from "@src/components/profiles/Board"
-import Meta from "@src/components/common/meta/meta"
+import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
 
 

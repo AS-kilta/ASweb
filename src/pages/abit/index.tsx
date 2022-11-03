@@ -1,6 +1,6 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
-import Meta from "@src/components/common/meta/meta"
+import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
 import ArticleCard from "../../components/profiles/ArticleCard"
 import * as style from "./abit.module.scss"

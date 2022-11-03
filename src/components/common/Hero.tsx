@@ -1,6 +1,6 @@
 import React from "react"
 
-import * as style from "./hero.module.scss"
+import * as style from "./Hero.module.scss"
 
 import * as sassVars from "@src/styles/_exports.module.scss"
 
