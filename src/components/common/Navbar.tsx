@@ -6,14 +6,14 @@ import { IoMdArrowDropdown } from "react-icons/io"
 
 import { compareUrl, tokenize, removeLangFromArr } from "./helpers"
 
-import * as style from "./navbar.module.scss"
+import * as style from "./Navbar.module.scss"
 
 const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
     return (
         <div className={style.navbarLogo}>
             <Link to={ lang === "fi" ? "/" : "/en" }>
                 <StaticImage
-                    src="../../../images/aswhite.png"
+                    src="../../images/aswhite.png"
                     alt="Aivan Sama"
                     layout="constrained"
                     width={40}

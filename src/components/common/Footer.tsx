@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { BsFacebook, BsInstagram, BsGithub } from "react-icons/bs"
 
-import * as style from "./footer.module.scss"
+import * as style from "./Footer.module.scss"
 
 interface SponsorData {
     node: {
