@@ -76,6 +76,11 @@ const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link,
         expandSubnavi(false)
     }
 
+    const toggleOnEnter = (e: React.KeyboardEvent): void => {
+        if (e.key === "Enter")
+            toggleSubnavi()
+    }
+
     return (
         <NaviItem
             dropdown
@@ -86,15 +91,15 @@ const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link,
             onMouseEnter={toggleSubnavi}
             onMouseLeave={hideSubnavi}
         >
+            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi} onKeyDown={toggleOnEnter}>
+                {subnaviExpanded ? <BsDash /> : <BsPlus />}
+            </a>
             <Subnavi
                 lang={lang}
                 entry={subnaviData}
                 location={location}
                 expanded={subnaviExpanded}
             />
-            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi}>
-                {subnaviExpanded ? <BsDash /> : <BsPlus />}
-            </a>
         </NaviItem>
     )
 }
