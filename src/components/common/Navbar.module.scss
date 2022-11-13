@@ -110,6 +110,7 @@
     .subnavi {
         position: absolute;
         left: -15px;
+        top: 48px;
         background-color: $accent-violet-1;
         box-shadow: 1px 1px 10px -5px $natural-black;
         animation: simpleYScale 100ms ease-in-out forwards;
@@ -150,12 +151,13 @@
 
     .dropdownToggle {
         position: absolute;
-        font-size: 30px;
         width: 50px;
-        line-height: 48px;
         height: 48px;
         top: 0;
         right: 0;
+        svg {
+            font-size: 15px;
+        }
     }
 
     .naviItem a:hover, .subnaviItem a:hover,

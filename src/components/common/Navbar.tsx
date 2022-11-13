@@ -25,20 +25,34 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
 }
 
 interface NaviItemProps {
-    subnavi?: boolean,
+    dropdown?: boolean,
+    subnaviData?: SubnaviData[],
+    subnaviItem?: boolean,
     local?: boolean,
     active?: boolean,
+    lang?: string,
+    location?: string[],
     title: string,
     link: string,
     key?: string,
     children?: React.ReactNode
 }
 
-const NaviItem: React.FC<NaviItemProps> = ({ subnavi, local, active, title, link, children }) => {
-    const divClasses = `${subnavi ? style.subnaviItem : style.naviItem}${active ? " " + style.active : ""}`
+const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviData, subnaviItem, local, active, lang, location, title, link, children }) => {
+    const [subnaviExpanded, expandSubnavi] = useState(false)
+
+    const toggleSubnavi = (): void => {
+        expandSubnavi(!subnaviExpanded)
+    }
+
+    const hideSubnavi = (): void => {
+        expandSubnavi(false)
+    }
+
+    const divClasses = `${subnaviItem ? style.subnaviItem : style.naviItem} ${active ? style.active : ""} ${dropdown ? style.dropdown : ""}`
 
     return (
-        <div className={divClasses}>
+        <div className={divClasses} onMouseEnter={dropdown ? toggleSubnavi : undefined} onMouseLeave={dropdown ? hideSubnavi : undefined}>
             {local ? (
                 <Link to={link}>
                     {title}
@@ -47,6 +61,19 @@ const NaviItem: React.FC<NaviItemProps> = ({ subnavi, local, active, title, link
                 <a href={link}>
                     {title}
                 </a>
+            )}
+            {dropdown && (
+                <>
+                    <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi}>
+                        <IoMdArrowDropdown />
+                    </a>
+                    <Subnavi
+                        lang={lang ?? ""}
+                        entry={subnaviData ?? []}
+                        location={location ?? []}
+                        expanded={subnaviExpanded}
+                    />
+                </>
             )}
             {children}
         </div>
@@ -81,46 +108,32 @@ interface SubnaviProps {
     lang: string,
     entry: SubnaviData[],
     location: string[],
+    expanded: boolean
 }
 
-const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location }) => {
-    const [subnaviExpanded, expandSubnavi] = useState(false)
-
-    const toggleSubnavi = (): void => {
-        expandSubnavi(!subnaviExpanded)
-    }
-
-    const hideSubnavi = (): void => {
-        expandSubnavi(false)
-    }
-
-    const subnaviClasses = `${style.subnavi} ${subnaviExpanded ? style.showDropdown : ""}`
+const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location, expanded }) => {
+    const subnaviClasses = `${style.subnavi} ${expanded ? style.showDropdown : ""}`
 
     return (
-        <div className={style.dropdown} onMouseEnter={toggleSubnavi} onMouseLeave={hideSubnavi}>
-            <div className={style.dropdownToggle} onClick={toggleSubnavi}>
-                <IoMdArrowDropdown />
-            </div>
-            <div className={subnaviClasses}>
-                {entry.map(entry => {
-                    if (entry.title[lang] && entry.link[lang]) {
-                        let link_arr: string[] = tokenize(entry.link[lang])
-                        removeLangFromArr(link_arr, lang)
-                        let isLocal: boolean = entry.link[lang].startsWith("/")
-                        let isActive: boolean = compareUrl(location, link_arr) === 0
-                        return (
-                            <NaviItem
-                                subnavi
-                                local={isLocal}
-                                active={isActive}
-                                title={entry.title[lang]}
-                                link={entry.link[lang]}
-                                key={entry.title[lang] + "-" + entry.link[lang]}
-                            />
-                        )
-                    } else return (null)
-                })}
-            </div>
+        <div className={subnaviClasses}>
+            {entry.map(entry => {
+                if (entry.title[lang] && entry.link[lang]) {
+                    let link_arr: string[] = tokenize(entry.link[lang])
+                    removeLangFromArr(link_arr, lang)
+                    let isLocal: boolean = entry.link[lang].startsWith("/")
+                    let isActive: boolean = compareUrl(location, link_arr) === 0
+                    return (
+                        <NaviItem
+                            subnaviItem
+                            local={isLocal}
+                            active={isActive}
+                            title={entry.title[lang]}
+                            link={entry.link[lang]}
+                            key={entry.title[lang] + "-" + entry.link[lang]}
+                        />
+                    )
+                } else return (null)
+            })}
         </div>
     )
 }
@@ -201,18 +214,16 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
                         if (entry.subnavi)
                             return (
                                 <NaviItem
+                                    dropdown
                                     local={isLocal}
                                     active={isActive}
+                                    lang={lang}
+                                    location={location}
+                                    subnaviData={entry.subnavi}
                                     key={entry.title[lang] + "-" + entry.link[lang]}
                                     title={entry.title[lang]}
                                     link={entry.link[lang]}
-                                >
-                                    <Subnavi
-                                        lang={lang}
-                                        entry={entry.subnavi}
-                                        location={location}
-                                    />
-                                </NaviItem>
+                                />
                             )
                         else {
                             return (
