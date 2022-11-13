@@ -25,7 +25,6 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
 }
 
 interface NaviItemProps {
-    dropdown?: boolean,
     subnavi?: boolean,
     local?: boolean,
     active?: boolean,
@@ -35,21 +34,18 @@ interface NaviItemProps {
     children?: React.ReactNode
 }
 
-const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnavi, local, active, title, link, children }) => {
-    const divClasses = `${subnavi ? style.subnaviItem : style.naviItem}${active ? " " + style.active : ""}${dropdown ? " " + style.dropdown : ""}`
-    const linkClasses = dropdown ? style.dropdownLink : ""
+const NaviItem: React.FC<NaviItemProps> = ({ subnavi, local, active, title, link, children }) => {
+    const divClasses = `${subnavi ? style.subnaviItem : style.naviItem}${active ? " " + style.active : ""}`
 
     return (
         <div className={divClasses}>
             {local ? (
-                <Link className={linkClasses} to={link}>
+                <Link to={link}>
                     {title}
-                    {dropdown && <IoMdArrowDropdown />}
                 </Link>
             ) : (
-                <a className={linkClasses} href={link}>
+                <a href={link}>
                     {title}
-                    {dropdown && <IoMdArrowDropdown />}
                 </a>
             )}
             {children}
@@ -88,26 +84,43 @@ interface SubnaviProps {
 }
 
 const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location }) => {
+    const [subnaviExpanded, expandSubnavi] = useState(false)
+
+    const toggleSubnavi = (): void => {
+        expandSubnavi(!subnaviExpanded)
+    }
+
+    const hideSubnavi = (): void => {
+        expandSubnavi(false)
+    }
+
+    const subnaviClasses = `${style.subnavi} ${subnaviExpanded ? style.showDropdown : ""}`
+
     return (
-        <div className={style.subnavi}>
-            {entry.map(entry => {
-                if (entry.title[lang] && entry.link[lang]) {
-                    let link_arr: string[] = tokenize(entry.link[lang])
-                    removeLangFromArr(link_arr, lang)
-                    let isLocal: boolean = entry.link[lang].startsWith("/")
-                    let isActive: boolean = compareUrl(location, link_arr) === 0
-                    return (
-                        <NaviItem
-                            subnavi
-                            local={isLocal}
-                            active={isActive}
-                            title={entry.title[lang]}
-                            link={entry.link[lang]}
-                            key={entry.title[lang] + "-" + entry.link[lang]}
-                        />
-                    )
-                } else return (null)
-            })}
+        <div className={style.dropdown} onMouseEnter={toggleSubnavi} onMouseLeave={hideSubnavi}>
+            <div className={style.dropdownToggle} onClick={toggleSubnavi}>
+                <IoMdArrowDropdown />
+            </div>
+            <div className={subnaviClasses}>
+                {entry.map(entry => {
+                    if (entry.title[lang] && entry.link[lang]) {
+                        let link_arr: string[] = tokenize(entry.link[lang])
+                        removeLangFromArr(link_arr, lang)
+                        let isLocal: boolean = entry.link[lang].startsWith("/")
+                        let isActive: boolean = compareUrl(location, link_arr) === 0
+                        return (
+                            <NaviItem
+                                subnavi
+                                local={isLocal}
+                                active={isActive}
+                                title={entry.title[lang]}
+                                link={entry.link[lang]}
+                                key={entry.title[lang] + "-" + entry.link[lang]}
+                            />
+                        )
+                    } else return (null)
+                })}
+            </div>
         </div>
     )
 }
@@ -137,11 +150,10 @@ interface NavCollapseProps {
     lang: string,
     slug: string,
     translation?: string,
-    isExpanded: boolean,
-    hideNavi: () => void
+    isExpanded: boolean
 }
 
-const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded, hideNavi }) => {
+const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded }) => {
     let location: string[] = tokenize(slug)
     removeLangFromArr(location, lang)
 
@@ -178,7 +190,6 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
         <div
             id={style.navbarCollapse}
             className={ isExpanded ? style.show : "" }
-            onClick={hideNavi}
         >
             {data.allNaviYaml.edges.map(entry => entry.node)
                 .map(entry => {
@@ -190,7 +201,6 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
                         if (entry.subnavi)
                             return (
                                 <NaviItem
-                                    dropdown
                                     local={isLocal}
                                     active={isActive}
                                     key={entry.title[lang] + "-" + entry.link[lang]}
@@ -241,11 +251,12 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
             : document.body.classList.add(style.hideoverflow)
         expandNav(!navExpanded)
     }
-
+    /*
     const hideNav = (): void => {
         document.body.classList.remove(style.hideoverflow)
         expandNav(false)
     }
+    */
 
     return (
         <div id={style.navbarTop} className={`${navExpanded ? style.expanded : ""}`}>
@@ -256,7 +267,6 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
                     slug={slug}
                     translation={translation}
                     isExpanded={navExpanded}
-                    hideNavi={hideNav}
                 />
                 <div className={style.menuToggle} onClick={toggleNav}>
                     {navExpanded ? <BsX /> : <BsList />}

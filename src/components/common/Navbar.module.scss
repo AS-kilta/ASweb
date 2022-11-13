@@ -11,9 +11,17 @@
     display: inline-block;
 }
 
+.dropdownToggle {
+    color: transparentize($color: $natural-white, $amount: 0.25);
+
+    svg {
+        vertical-align: middle;
+    }
+}
+
 .naviItem a:hover, .subnaviItem a:hover,
 .naviItem.active > a, .subnaviItem.active a,
-.dropdown:hover a.dropdownLink, .menuToggle {
+.dropdown:hover > .dropdownToggle, .menuToggle {
     color: $natural-white;
 }
 
@@ -23,6 +31,14 @@
     div a {
         display: block;
     }
+}
+
+.subnavi {
+    display: none;
+}
+
+.subnavi.showDropdown {
+    display: block;
 }
 
 #navbarTop {
@@ -35,10 +51,6 @@
 
 #navbarCollapse {
     display: flex;
-}
-
-.dropdownLink svg {
-    vertical-align: text-top;
 }
 
 @keyframes simpleYScale {
@@ -66,6 +78,11 @@
         min-width: 125px;
     }
 
+    .naviItem {
+        display: flex;
+        flex-direction: row;
+    }
+
     .naviItem a {
         padding: 15px;
     }
@@ -84,14 +101,15 @@
         margin: 0;
     }
 
-    .dropdown:hover .subnavi {
-        display: block;
+    .dropdownToggle {
+        padding: 10px 5px;
+        font-size: 20px;
+        min-height: 100%;
     }
 
     .subnavi {
-        display: none;
         position: absolute;
-        left: 15px;
+        left: -15px;
         background-color: $accent-violet-1;
         box-shadow: 1px 1px 10px -5px $natural-black;
         animation: simpleYScale 100ms ease-in-out forwards;
@@ -124,6 +142,20 @@
             padding: 15px 5px;
             font-size: 18px;
         }
+    }
+
+    .naviItem {
+        position: relative;
+    }
+
+    .dropdownToggle {
+        position: absolute;
+        font-size: 30px;
+        width: 50px;
+        line-height: 48px;
+        height: 48px;
+        top: 0;
+        right: 0;
     }
 
     .naviItem a:hover, .subnaviItem a:hover,
