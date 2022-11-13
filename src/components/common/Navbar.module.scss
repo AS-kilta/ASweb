@@ -1,10 +1,17 @@
+$not-focused: transparentize($color: $natural-white, $amount: 0.25);
+
 .naviItem a, .subnaviItem a {
     font-size: 16px;
     font-family: $font-heading;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    color: transparentize($color: $natural-white, $amount: 0.25);
+    color: $not-focused;
+}
+
+.naviItem {
+    display: flex;
+    flex-direction: row;
 }
 
 .naviItem a, .subnaviItem a, .navbarLogo a {
@@ -12,10 +19,14 @@
 }
 
 .dropdownToggle {
-    color: transparentize($color: $natural-white, $amount: 0.25);
+    padding: 0 !important;
+    align-items: center;
+    color: $not-focused;
 
     svg {
-        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        margin: auto;
     }
 }
 
@@ -78,11 +89,6 @@
         min-width: 125px;
     }
 
-    .naviItem {
-        display: flex;
-        flex-direction: row;
-    }
-
     .naviItem a {
         padding: 15px;
     }
@@ -105,6 +111,10 @@
         padding: 10px 5px;
         font-size: 20px;
         min-height: 100%;
+
+        svg {
+            font-size: 30px;
+        }
     }
 
     .subnavi {
@@ -133,31 +143,30 @@
 
 @media all and (max-width: $breakpoint-mobile) {
 
+    #navbarLogo, .menuToggle {
+        padding: 5px;
+    }
+
     .navi {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-
-        div a {
-            padding: 15px 5px;
-            font-size: 18px;
-        }
-    }
-
-    .naviItem {
-        position: relative;
     }
 
     .dropdownToggle {
-        position: absolute;
-        width: 50px;
-        height: 48px;
-        top: 0;
-        right: 0;
-        svg {
-            font-size: 15px;
-        }
+        order: 1;
+        flex-grow: 0 !important;
+        padding: 0 !important;
+        flex-basis: 70px;
+        border-left: solid 1px transparentize($color: $natural-white, $amount: 0.5);
+    }
+
+    .naviItem a, .subnaviItem a {
+        font-size: 18px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 10px;
     }
 
     .naviItem a:hover, .subnaviItem a:hover,
@@ -170,13 +179,15 @@
     }
 
     .subnavi {
-
         div a {
             font-size: 15px;
             font-weight: 400;
             text-transform: none;
         }
 
+        width: 100%;
+        flex-direction: column;
+        order: 2;
     }
 
     .navbarLogo, .menuToggle {
@@ -216,12 +227,13 @@
 
     .naviItem {
         width: 100%;
-        text-align: center;
-        display: block;
-    }
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
-    .active .naviItem {
-        display: block;
+        a {
+            flex-grow: 1;
+        }
     }
 
     .hideoverflow {
