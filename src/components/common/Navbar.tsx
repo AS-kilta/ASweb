@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { BsList, BsX } from "react-icons/bs"
-import { IoMdArrowDropdown } from "react-icons/io"
+import { BsPlus, BsDash } from "react-icons/bs"
 
 import { compareUrl, tokenize, removeLangFromArr } from "./helpers"
 
@@ -86,15 +86,15 @@ const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link,
             onMouseEnter={toggleSubnavi}
             onMouseLeave={hideSubnavi}
         >
-            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi}>
-                <IoMdArrowDropdown />
-            </a>
             <Subnavi
                 lang={lang}
                 entry={subnaviData}
                 location={location}
                 expanded={subnaviExpanded}
             />
+            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi}>
+                {subnaviExpanded ? <BsDash /> : <BsPlus />}
+            </a>
         </NaviItem>
     )
 }
