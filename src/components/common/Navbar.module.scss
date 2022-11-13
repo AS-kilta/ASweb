@@ -19,7 +19,7 @@
     }
 }
 
-.naviItem a:hover, .subnaviItem a:hover,
+.naviItem:hover > a, .subnaviItem:hover > a,
 .naviItem.active > a, .subnaviItem.active a,
 .dropdown:hover > .dropdownToggle, .menuToggle {
     color: $natural-white;
