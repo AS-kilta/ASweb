@@ -24,21 +24,48 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
     )
 }
 
-interface NaviItemProps {
-    dropdown?: boolean,
-    subnaviData?: SubnaviData[],
-    subnaviItem?: boolean,
+interface CommonNaviItemProps {
     local?: boolean,
     active?: boolean,
-    lang?: string,
-    location?: string[],
     title: string,
     link: string,
-    key?: string,
+    key?: string
+}
+
+interface NaviItemProps extends CommonNaviItemProps {
+    dropdown?: boolean,
+    subnaviItem?: boolean,
+    onMouseEnter?: () => void,
+    onMouseLeave?: () => void,
     children?: React.ReactNode
 }
 
-const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviData, subnaviItem, local, active, lang, location, title, link, children }) => {
+const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviItem, local, active, title, link, onMouseEnter, onMouseLeave, children }) => {
+    const divClasses = `${subnaviItem ? style.subnaviItem : style.naviItem} ${active ? style.active : ""} ${dropdown ? style.dropdown : ""}`
+
+    return (
+        <div className={divClasses} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            {local ? (
+                <Link to={link}>
+                    {title}
+                </Link>
+            ) : (
+                <a href={link}>
+                    {title}
+                </a>
+            )}
+            {children}
+        </div>
+    )
+}
+
+interface NaviDropdownProps extends CommonNaviItemProps {
+    subnaviData: SubnaviData[],
+    lang: string,
+    location: string[]
+}
+
+const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link, subnaviData, lang, location }) => {
     const [subnaviExpanded, expandSubnavi] = useState(false)
 
     const toggleSubnavi = (): void => {
@@ -49,34 +76,26 @@ const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviData, subnaviItem,
         expandSubnavi(false)
     }
 
-    const divClasses = `${subnaviItem ? style.subnaviItem : style.naviItem} ${active ? style.active : ""} ${dropdown ? style.dropdown : ""}`
-
     return (
-        <div className={divClasses} onMouseEnter={dropdown ? toggleSubnavi : undefined} onMouseLeave={dropdown ? hideSubnavi : undefined}>
-            {local ? (
-                <Link to={link}>
-                    {title}
-                </Link>
-            ) : (
-                <a href={link}>
-                    {title}
-                </a>
-            )}
-            {dropdown && (
-                <>
-                    <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi}>
-                        <IoMdArrowDropdown />
-                    </a>
-                    <Subnavi
-                        lang={lang ?? ""}
-                        entry={subnaviData ?? []}
-                        location={location ?? []}
-                        expanded={subnaviExpanded}
-                    />
-                </>
-            )}
-            {children}
-        </div>
+        <NaviItem
+            dropdown
+            local={local}
+            active={active}
+            title={title}
+            link={link}
+            onMouseEnter={toggleSubnavi}
+            onMouseLeave={hideSubnavi}
+        >
+            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi}>
+                <IoMdArrowDropdown />
+            </a>
+            <Subnavi
+                lang={lang}
+                entry={subnaviData}
+                location={location}
+                expanded={subnaviExpanded}
+            />
+        </NaviItem>
     )
 }
 
@@ -213,8 +232,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
                         let isLocal: boolean = entry.link[lang].startsWith("/")
                         if (entry.subnavi)
                             return (
-                                <NaviItem
-                                    dropdown
+                                <NaviDropdown
                                     local={isLocal}
                                     active={isActive}
                                     lang={lang}
