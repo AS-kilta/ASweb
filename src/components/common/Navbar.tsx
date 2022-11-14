@@ -1,10 +1,8 @@
 import React, { useState } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { BsList, BsX } from "react-icons/bs"
-import { BsPlus, BsDash } from "react-icons/bs"
+import { BsList, BsX, BsPlus, BsDash } from "react-icons/bs"
 
-import { compareUrl, tokenize, removeLangFromArr } from "./helpers"
 
 import * as style from "./Navbar.module.scss"
 
