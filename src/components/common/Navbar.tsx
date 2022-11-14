@@ -25,11 +25,8 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
 }
 
 interface CommonNaviItemProps {
-    local?: boolean,
-    active?: boolean,
     title: string,
     link: string,
-    key?: string
 }
 
 interface NaviItemProps extends CommonNaviItemProps {
@@ -40,13 +37,14 @@ interface NaviItemProps extends CommonNaviItemProps {
     children?: React.ReactNode
 }
 
-const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviItem, local, active, title, link, onMouseEnter, onMouseLeave, children }) => {
-    const divClasses = `${subnaviItem ? style.subnaviItem : style.naviItem} ${active ? style.active : ""} ${dropdown ? style.dropdown : ""}`
+const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviItem, title, link, onMouseEnter, onMouseLeave, children }) => {
+    const divClasses = `${subnaviItem ? style.subnaviItem : style.naviItem} ${dropdown ? style.dropdown : ""}`
+    const local = link.startsWith("/")
 
     return (
         <div className={divClasses} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             {local ? (
-                <Link to={link}>
+                <Link activeClassName={style.active} to={link}>
                     {title}
                 </Link>
             ) : (
@@ -62,10 +60,9 @@ const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviItem, local, activ
 interface NaviDropdownProps extends CommonNaviItemProps {
     subnaviData: SubnaviData[],
     lang: string,
-    location: string[]
 }
 
-const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link, subnaviData, lang, location }) => {
+const NaviDropdown: React.FC<NaviDropdownProps> = ({ title, link, subnaviData, lang }) => {
     const [subnaviExpanded, expandSubnavi] = useState(false)
 
     const toggleSubnavi = (): void => {
@@ -90,8 +87,6 @@ const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link,
     return (
         <NaviItem
             dropdown
-            local={local}
-            active={active}
             title={title}
             link={link}
             onMouseEnter={toggleSubnavi}
@@ -103,7 +98,6 @@ const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link,
             <Subnavi
                 lang={lang}
                 entry={subnaviData}
-                location={location}
                 expanded={subnaviExpanded}
             />
         </NaviItem>
@@ -127,7 +121,6 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
     }
     return (
         <NaviItem
-            local
             title={title}
             link={translation || link}
         />
@@ -137,26 +130,19 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
 interface SubnaviProps {
     lang: string,
     entry: SubnaviData[],
-    location: string[],
     expanded: boolean
 }
 
-const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, location, expanded }) => {
+const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, expanded }) => {
     const subnaviClasses = `${style.subnavi} ${expanded ? style.showDropdown : ""}`
 
     return (
         <div className={subnaviClasses}>
             {entry.map(entry => {
                 if (entry.title[lang] && entry.link[lang]) {
-                    let link_arr: string[] = tokenize(entry.link[lang])
-                    removeLangFromArr(link_arr, lang)
-                    let isLocal: boolean = entry.link[lang].startsWith("/")
-                    let isActive: boolean = compareUrl(location, link_arr) === 0
                     return (
                         <NaviItem
                             subnaviItem
-                            local={isLocal}
-                            active={isActive}
                             title={entry.title[lang]}
                             link={entry.link[lang]}
                             key={entry.title[lang] + "-" + entry.link[lang]}
@@ -198,8 +184,6 @@ interface NavCollapseProps {
 }
 
 const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded, hideNav }) => {
-    let location: string[] = tokenize(slug)
-    removeLangFromArr(location, lang)
 
     const data: NaviDataScheme = useStaticQuery(graphql`
         query getNaviData {
@@ -239,17 +223,10 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
             {data.allNaviYaml.edges.map(entry => entry.node)
                 .map(entry => {
                     if (entry.title[lang] && entry.link[lang]) {
-                        let link_arr: string[] = tokenize(entry.link[lang])
-                        removeLangFromArr(link_arr, lang)
-                        let isActive: boolean = compareUrl(location, link_arr) >= 0
-                        let isLocal: boolean = entry.link[lang].startsWith("/")
                         if (entry.subnavi)
                             return (
                                 <NaviDropdown
-                                    local={isLocal}
-                                    active={isActive}
                                     lang={lang}
-                                    location={location}
                                     subnaviData={entry.subnavi}
                                     key={entry.title[lang] + "-" + entry.link[lang]}
                                     title={entry.title[lang]}
@@ -259,8 +236,6 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
                         else {
                             return (
                                 <NaviItem
-                                    local={isLocal}
-                                    active={isActive}
                                     key={entry.title[lang] + "-" + entry.link[lang]}
                                     title={entry.title[lang]}
                                     link={entry.link[lang]}
