@@ -91,10 +91,15 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
     #navbarCollapse {
         flex-direction: row;
+        align-items: center;
     }
 
     .naviLink {
         padding: 15px;
+    }
+
+    .naviLink:has(+ .dropdownToggle)  {
+        padding-right: 0.2rem;
     }
 
     .navbarLogo a {
@@ -102,7 +107,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
     }
 
     .dropdownToggle {
-        padding: 10px 5px;
+        padding-right: 10px;
         font-size: 20px;
         min-height: 100%;
 
