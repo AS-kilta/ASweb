@@ -31,7 +31,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 }
 
 .naviItem:hover > a, .subnaviItem:hover > a,
-.naviItem.active > a, .subnaviItem.active a,
+.naviItem .active, .subnaviItem .active,
 .dropdown:hover > .dropdownToggle, .menuToggle {
     color: $natural-white;
 }
@@ -170,11 +170,11 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
     }
 
     .naviItem a:hover, .subnaviItem a:hover,
-    .naviItem.active > a, .subnaviItem.active a {
+    .naviItem .active, .subnaviItem .active {
         background: $accent-violet-2;
     }
 
-    .naviItem.active > .subnavi {
+    .naviItem .active {
         background: $accent-violet-1;
     }
 
