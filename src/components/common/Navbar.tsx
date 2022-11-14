@@ -22,83 +22,44 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
     )
 }
 
-interface CommonNaviItemProps {
+interface NaviLinkProps {
     title: string,
     link: string,
 }
 
-interface NaviItemProps extends CommonNaviItemProps {
-    dropdown?: boolean,
-    subnaviItem?: boolean,
-    onMouseEnter?: () => void,
-    onMouseLeave?: () => void,
-    children?: React.ReactNode
-}
-
-const NaviItem: React.FC<NaviItemProps> = ({ dropdown, subnaviItem, title, link, onMouseEnter, onMouseLeave, children }) => {
-    const divClasses = `${subnaviItem ? style.subnaviItem : style.naviItem} ${dropdown ? style.dropdown : ""}`
+const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
     const local = link.startsWith("/")
 
     return (
-        <div className={divClasses} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-            {local ? (
-                <Link activeClassName={style.active} to={link}>
-                    {title}
-                </Link>
-            ) : (
-                <a href={link}>
-                    {title}
-                </a>
-            )}
-            {children}
-        </div>
+        <>
+            {local
+                ? <Link className={style.naviLink} activeClassName={style.active} to={link}>{title}</Link>
+                : <a className={style.naviLink} href={link}>{title}</a>
+            }
+        </>
     )
 }
 
-interface NaviDropdownProps extends CommonNaviItemProps {
-    subnaviData: SubnaviData[],
-    lang: string,
+interface NaviItemProps {
+    entry: NaviData
+    lang: string
 }
 
-const NaviDropdown: React.FC<NaviDropdownProps> = ({ title, link, subnaviData, lang }) => {
-    const [subnaviExpanded, expandSubnavi] = useState(false)
-
-    const toggleSubnavi = (): void => {
-        expandSubnavi(!subnaviExpanded)
-    }
-
-    const hideSubnavi = (): void => {
-        expandSubnavi(false)
-    }
-
-    const toggleOnEnter = (e: React.KeyboardEvent): void => {
-        if (e.key === "Enter")
-            toggleSubnavi()
-    }
-
-    const toggleOnClick = (e: React.MouseEvent): void => {
-        // Prevent collapsing navigation while toggling subnavi in mobile menu.
-        e.stopPropagation()
-        toggleSubnavi()
-    }
+const NaviItem: React.FC<NaviItemProps> = ({ entry, lang }) => {
+    const title = entry.title[lang]
+    const link = entry.link[lang]
 
     return (
-        <NaviItem
-            dropdown
-            title={title}
-            link={link}
-            onMouseEnter={toggleSubnavi}
-            onMouseLeave={hideSubnavi}
-        >
-            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleOnClick} onKeyDown={toggleOnEnter}>
-                {subnaviExpanded ? <BsDash /> : <BsPlus />}
-            </a>
+        <div className={style.naviItem}>
+            <NaviLink
+                title={title}
+                link={link}
+                />
             <Subnavi
+                data={entry.subnavi}
                 lang={lang}
-                entry={subnaviData}
-                expanded={subnaviExpanded}
-            />
-        </NaviItem>
+                />
+        </div>
     )
 }
 
@@ -117,38 +78,61 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
         link = slug.substring(3)
         title = "Suomeksi"
     }
+
     return (
-        <NaviItem
-            title={title}
-            link={translation || link}
-        />
+        <div className={style.naviItem}>
+            <NaviLink
+                title={title}
+                link={translation || link}
+                />
+        </div>
     )
 }
 
 interface SubnaviProps {
+    data?: SubnaviData[],
     lang: string,
-    entry: SubnaviData[],
-    expanded: boolean
 }
 
-const Subnavi: React.FC<SubnaviProps> = ({ lang, entry, expanded }) => {
+const Subnavi: React.FC<SubnaviProps> = ({ lang, data }) => {
+    const [expanded, setExpanded] = useState(false)
+
+    const toggleSubnavi = () => {
+        setExpanded(!expanded)
+    }
+
+    const toggleOnEnter = (e: React.KeyboardEvent): void => {
+        if (e.key === "Enter")
+            toggleSubnavi()
+    }
+
+    if (!data) {
+        return null
+    }
+
     const subnaviClasses = `${style.subnavi} ${expanded ? style.showDropdown : ""}`
 
     return (
-        <div className={subnaviClasses}>
-            {entry.map(entry => {
-                if (entry.title[lang] && entry.link[lang]) {
+        <>
+            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi} onKeyDown={toggleOnEnter}>
+                {expanded ? <BsDash /> : <BsPlus />}
+            </a>
+            <div className={subnaviClasses}>
+                {data.map(entry => {
+                    if (!entry.title[lang] || !entry.link[lang]) {
+                        return null;
+                    }
+
                     return (
-                        <NaviItem
-                            subnaviItem
+                        <NaviLink
                             title={entry.title[lang]}
                             link={entry.link[lang]}
                             key={entry.title[lang] + "-" + entry.link[lang]}
                         />
                     )
-                } else return (null)
-            })}
-        </div>
+                })}
+            </div>
+        </>
     )
 }
 
@@ -160,16 +144,18 @@ interface SubnaviData {
 }
 
 interface NaviData {
-    node: {
-        title: TranslatedEntry,
-        link: TranslatedEntry,
-        subnavi?: SubnaviData[]
-    }
+    title: TranslatedEntry,
+    link: TranslatedEntry,
+    subnavi?: SubnaviData[]
 }
 
 interface NaviDataScheme {
     allNaviYaml: {
-        edges: NaviData[]
+        edges: [
+            {
+                node: NaviData
+            }
+        ]
     }
 }
 
@@ -216,30 +202,20 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
         <div
             id={style.navbarCollapse}
             className={ isExpanded ? style.show : "" }
-            onClick={hideNav}
         >
-            {data.allNaviYaml.edges.map(entry => {
-                if (entry.node.title[lang] && entry.node.link[lang]) {
-                    if (entry.node.subnavi)
-                        return (
-                            <NaviDropdown
-                                lang={lang}
-                                subnaviData={entry.node.subnavi}
-                                key={entry.node.title[lang] + "-" + entry.node.link[lang]}
-                                title={entry.node.title[lang]}
-                                link={entry.node.link[lang]}
-                            />
-                        )
-                    else {
-                        return (
-                            <NaviItem
-                                key={entry.node.title[lang] + "-" + entry.node.link[lang]}
-                                title={entry.node.title[lang]}
-                                link={entry.node.link[lang]}
-                            />
-                        )
+            {data.allNaviYaml.edges
+                .map(edge => {
+                    const entry = edge.node;
+                    if (!entry.title[lang] || !entry.link[lang]) {
+                        return (null);
                     }
-                } else return (null)
+                    return (
+                        <NaviItem
+                            entry={entry}
+                            lang={lang}
+                            key={entry.title[lang] + "-" + entry.link[lang]}
+                        />
+                    )
             })}
             <LangSwitcher
                 lang={lang}
