@@ -218,25 +218,24 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
             className={ isExpanded ? style.show : "" }
             onClick={hideNav}
         >
-            {data.allNaviYaml.edges.map(entry => entry.node)
-                .map(entry => {
-                    if (entry.title[lang] && entry.link[lang]) {
-                        if (entry.subnavi)
+            {data.allNaviYaml.edges.map(entry => {
+                    if (entry.node.title[lang] && entry.node.link[lang]) {
+                        if (entry.node.subnavi)
                             return (
                                 <NaviDropdown
                                     lang={lang}
-                                    subnaviData={entry.subnavi}
-                                    key={entry.title[lang] + "-" + entry.link[lang]}
-                                    title={entry.title[lang]}
-                                    link={entry.link[lang]}
+                                    subnaviData={entry.node.subnavi}
+                                    key={entry.node.title[lang] + "-" + entry.node.link[lang]}
+                                    title={entry.node.title[lang]}
+                                    link={entry.node.link[lang]}
                                 />
                             )
                         else {
                             return (
                                 <NaviItem
-                                    key={entry.title[lang] + "-" + entry.link[lang]}
-                                    title={entry.title[lang]}
-                                    link={entry.link[lang]}
+                                    key={entry.node.title[lang] + "-" + entry.node.link[lang]}
+                                    title={entry.node.title[lang]}
+                                    link={entry.node.link[lang]}
                                 />
                             )
                         }
