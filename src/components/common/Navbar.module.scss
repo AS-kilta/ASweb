@@ -235,9 +235,4 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
             flex-grow: 1;
         }
     }
-
-    .hideoverflow {
-        overflow: hidden;
-    }
-
 }
