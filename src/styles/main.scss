@@ -75,3 +75,7 @@ p {
     padding-inline: calc((100vw - 100%) / 2);
     margin-inline: calc((100vw - 100%) / -2);
 }
+
+.hideoverflow {
+    overflow: hidden;
+}
