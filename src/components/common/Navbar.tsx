@@ -81,6 +81,12 @@ const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link,
             toggleSubnavi()
     }
 
+    const toggleOnClick = (e: React.MouseEvent): void => {
+        // Prevent collapsing navigation while toggling subnavi in mobile menu.
+        e.stopPropagation()
+        toggleSubnavi()
+    }
+
     return (
         <NaviItem
             dropdown
@@ -91,7 +97,7 @@ const NaviDropdown: React.FC<NaviDropdownProps> = ({ local, active, title, link,
             onMouseEnter={toggleSubnavi}
             onMouseLeave={hideSubnavi}
         >
-            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi} onKeyDown={toggleOnEnter}>
+            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleOnClick} onKeyDown={toggleOnEnter}>
                 {subnaviExpanded ? <BsDash /> : <BsPlus />}
             </a>
             <Subnavi
@@ -187,10 +193,11 @@ interface NavCollapseProps {
     lang: string,
     slug: string,
     translation?: string,
-    isExpanded: boolean
+    isExpanded: boolean,
+    hideNav: () => void
 }
 
-const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded }) => {
+const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded, hideNav }) => {
     let location: string[] = tokenize(slug)
     removeLangFromArr(location, lang)
 
@@ -227,6 +234,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
         <div
             id={style.navbarCollapse}
             className={ isExpanded ? style.show : "" }
+            onClick={hideNav}
         >
             {data.allNaviYaml.edges.map(entry => entry.node)
                 .map(entry => {
@@ -281,16 +289,15 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
 
     const toggleNav = (): void => {
         navExpanded
-            ? document.body.classList.remove(style.hideoverflow)
-            : document.body.classList.add(style.hideoverflow)
+            ? document.body.classList.remove("hideoverflow")
+            : document.body.classList.add("hideoverflow")
         expandNav(!navExpanded)
     }
-    /*
+
     const hideNav = (): void => {
-        document.body.classList.remove(style.hideoverflow)
+        document.body.classList.remove("hideoverflow")
         expandNav(false)
     }
-    */
 
     return (
         <div id={style.navbarTop} className={`${navExpanded ? style.expanded : ""}`}>
@@ -301,6 +308,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
                     slug={slug}
                     translation={translation}
                     isExpanded={navExpanded}
+                    hideNav={hideNav}
                 />
                 <div className={style.menuToggle} onClick={toggleNav}>
                     {navExpanded ? <BsX /> : <BsList />}
