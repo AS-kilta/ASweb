@@ -219,27 +219,27 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
             onClick={hideNav}
         >
             {data.allNaviYaml.edges.map(entry => {
-                    if (entry.node.title[lang] && entry.node.link[lang]) {
-                        if (entry.node.subnavi)
-                            return (
-                                <NaviDropdown
-                                    lang={lang}
-                                    subnaviData={entry.node.subnavi}
-                                    key={entry.node.title[lang] + "-" + entry.node.link[lang]}
-                                    title={entry.node.title[lang]}
-                                    link={entry.node.link[lang]}
-                                />
-                            )
-                        else {
-                            return (
-                                <NaviItem
-                                    key={entry.node.title[lang] + "-" + entry.node.link[lang]}
-                                    title={entry.node.title[lang]}
-                                    link={entry.node.link[lang]}
-                                />
-                            )
-                        }
-                    } else return (null)
+                if (entry.node.title[lang] && entry.node.link[lang]) {
+                    if (entry.node.subnavi)
+                        return (
+                            <NaviDropdown
+                                lang={lang}
+                                subnaviData={entry.node.subnavi}
+                                key={entry.node.title[lang] + "-" + entry.node.link[lang]}
+                                title={entry.node.title[lang]}
+                                link={entry.node.link[lang]}
+                            />
+                        )
+                    else {
+                        return (
+                            <NaviItem
+                                key={entry.node.title[lang] + "-" + entry.node.link[lang]}
+                                title={entry.node.title[lang]}
+                                link={entry.node.link[lang]}
+                            />
+                        )
+                    }
+                } else return (null)
             })}
             <LangSwitcher
                 lang={lang}
@@ -272,21 +272,19 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
     }
 
     return (
-        <div id={style.navbarTop} className={`${navExpanded ? style.expanded : ""}`}>
-            <div className={style.navi}>
-                <SiteLogo lang={lang} />
-                <NavCollapse 
-                    lang={lang}
-                    slug={slug}
-                    translation={translation}
-                    isExpanded={navExpanded}
-                    hideNav={hideNav}
-                />
-                <div className={style.menuToggle} onClick={toggleNav}>
-                    {navExpanded ? <BsX /> : <BsList />}
-                </div>
+        <nav id={style.navbarTop} className={navExpanded ? style.expanded : ""}>
+            <SiteLogo lang={lang} />
+            <NavCollapse 
+                lang={lang}
+                slug={slug}
+                translation={translation}
+                isExpanded={navExpanded}
+                hideNav={hideNav}
+            />
+            <div className={style.menuToggle} onClick={toggleNav}>
+                {navExpanded ? <BsX /> : <BsList />}
             </div>
-        </div>
+        </nav>
     )
 }
 
