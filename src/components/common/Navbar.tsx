@@ -1,15 +1,26 @@
-import React, { useState } from "react"
+import React, { useState, useContext, createContext } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { BsList, BsX, BsPlus, BsDash } from "react-icons/bs"
 
-
 import * as style from "./Navbar.module.scss"
 
+// Create context for navi callbacks (avoid prop drilling)
+
+interface INaviContext {
+    navExpanded: boolean,
+    toggleNav: () => void,
+    hideNav: () => void
+}
+
+const NaviContext = createContext<INaviContext | undefined>(undefined)
+
 const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
+    const naviCtx = useContext(NaviContext)
+
     return (
         <div className={style.navbarLogo}>
-            <Link to={ lang === "fi" ? "/" : "/en" }>
+            <Link onClick={naviCtx?.hideNav} to={ lang === "fi" ? "/" : "/en" }>
                 <StaticImage
                     src="../../images/aswhite.png"
                     alt="Aivan Sama"
@@ -28,13 +39,14 @@ interface NaviLinkProps {
 }
 
 const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
+    const naviCtx = useContext(NaviContext)
     const local = link.startsWith("/")
 
     return (
         <>
             {local
-                ? <Link className={style.naviLink} activeClassName={style.active} to={link}>{title}</Link>
-                : <a className={style.naviLink} href={link}>{title}</a>
+                ? <Link onClick={naviCtx?.hideNav} className={style.naviLink} activeClassName={style.active} to={link}>{title}</Link>
+                : <a onClick={naviCtx?.hideNav} className={style.naviLink} href={link}>{title}</a>
             }
         </>
     )
@@ -163,11 +175,10 @@ interface NavCollapseProps {
     lang: string,
     slug: string,
     translation?: string,
-    isExpanded: boolean,
-    hideNav: () => void
+    isExpanded: boolean
 }
 
-const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded, hideNav }) => {
+const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded }) => {
 
     const data: NaviDataScheme = useStaticQuery(graphql`
         query getNaviData {
@@ -247,19 +258,26 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
         expandNav(false)
     }
 
+    const ctx: INaviContext = {
+        navExpanded: navExpanded,
+        toggleNav: toggleNav,
+        hideNav: hideNav
+    }
+
     return (
         <nav id={style.navbarTop} className={navExpanded ? style.expanded : ""}>
-            <SiteLogo lang={lang} />
-            <NavCollapse 
-                lang={lang}
-                slug={slug}
-                translation={translation}
-                isExpanded={navExpanded}
-                hideNav={hideNav}
-            />
-            <div className={style.menuToggle} onClick={toggleNav}>
-                {navExpanded ? <BsX /> : <BsList />}
-            </div>
+            <NaviContext.Provider value={ctx}>
+                <SiteLogo lang={lang} />
+                <NavCollapse 
+                    lang={lang}
+                    slug={slug}
+                    translation={translation}
+                    isExpanded={navExpanded}
+                />
+                <div className={style.menuToggle} onClick={toggleNav}>
+                    {navExpanded ? <BsX /> : <BsList />}
+                </div>
+            </NaviContext.Provider>
         </nav>
     )
 }
