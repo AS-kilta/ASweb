@@ -79,7 +79,7 @@ exports.onCreatePage = async ({ page, graphql, actions }) => {
   const lang = page.path.split("/")[1] === "en" ? "en" : "fi"
   let pagePath = page.path
   // Handle localized 404
-  if (page.path.match(/\/404\/$/)) {
+  if (page.path.match(/\/404$/)) {
     pagePath = lang === "fi" ? `/404.html` : `/${lang}/404.html`
     page.matchPath = `/${lang}/*`
   }

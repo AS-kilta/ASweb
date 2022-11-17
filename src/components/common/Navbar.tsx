@@ -87,7 +87,7 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
         link = `/en${slug}`
         title = "In English"
     } else {
-        link = slug.substring(3)
+        link = slug.substring(3) || "/"
         title = "Suomeksi"
     }
 

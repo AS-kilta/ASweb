@@ -10,6 +10,7 @@ module.exports = {
     },
     author: `AS`,
   },
+  trailingSlash: "never",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
