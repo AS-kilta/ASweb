@@ -1,5 +1,5 @@
 import React from "react"
-import ProfileImg from "./ProfileImg"
+import DynamicProfileImg from "./DynamicProfileImg"
 import * as style from "./ContactCard.module.scss"
 import { BsTelephoneFill, BsEnvelope, BsTelegram } from "react-icons/bs"
 
@@ -9,14 +9,15 @@ export interface ContactInfo {
     email: string,
     phone: string,
     telegram: string,
-    picture?: string,
-    description?: string
+    picture: string,
+    description?: string,
+    localImage: DynamicImageData
 }
 
 const ContactCard: React.FC<{data: ContactInfo}> = ({data}) => {
     return (
       <div className={style.contact_card}>
-        <ProfileImg src={data.picture} />
+        <DynamicProfileImg data={data.localImage} alt={data.name} />
         <div className={style.title}>{data.title}</div>
         <div>{data.name}</div>
         <div className={style.icon_field}>
