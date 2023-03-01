@@ -26,6 +26,20 @@ module.exports = {
         additionalData: `@use "src/styles/_variables" as *;`
       }
     },
+    {
+      resolve: `gatsby-plugin-remote-images`,
+      options: {
+        nodeType: 'BoardYaml',
+        imagePath: 'picture',
+      }
+    },
+    {
+      resolve: `gatsby-plugin-remote-images`,
+      options: {
+        nodeType: 'OfficialsYaml',
+        imagePath: 'members[].picture',
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

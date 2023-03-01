@@ -1,4 +1,5 @@
 import { PageProps as GatsbyPageProps } from 'gatsby'
+import { IGatsbyImageData } from 'gatsby-plugin-image'
 import React from 'react';
 
 interface CustomPageProps {
@@ -26,5 +27,13 @@ declare global {
     
     interface TranslatedEntry {
         [key:string]: string;
+    }
+
+    // Type for image data for dynamic images
+
+    interface DynamicImageData {
+        childImageSharp: {
+            gatsbyImageData: IGatsbyImageData;
+        }
     }
 }
