@@ -1,12 +1,10 @@
-$not-focused: transparentize($color: $natural-white, $amount: 0.25);
-
 .naviLink {
     font-size: 16px;
-    font-family: $font-heading;
+    font-family: var(--font-heading);
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    color: $not-focused;
+    color: var(--natural-white);
 }
 
 .naviItem {
@@ -19,7 +17,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
 .dropdownToggle {
     align-items: center;
-    color: $not-focused;
+    color: var(--natural-white);
 
     svg {
         width: 100%;
@@ -30,7 +28,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
 .naviLink:hover, .naviLink.active,
 .dropdownToggle:hover {
-    color: $natural-white;
+    text-decoration: underline; 
 }
 
 .navi {
@@ -42,7 +40,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
 .subnavi {
     display: none;
-    background-color: $accent-violet-1;
+    background-color: var(--accent-violet-1);
     animation: simpleYScale 100ms ease-out forwards;
     transform-origin: top center;
     
@@ -56,7 +54,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 }
 
 #navbarTop {
-    background: $as-violet-1;
+    background: var(--as-violet-1);
     position: sticky;
     top: 0;
     width: 100%;
@@ -119,7 +117,6 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
     .subnavi {
         position: absolute;
         top: 100%;
-        box-shadow: 1px 1px 10px -5px $natural-black;
 
         .naviLink {
             font-size: 15px;
@@ -146,7 +143,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
         flex-grow: 0;
         flex-basis: 75px;
         padding-inline: 1rem;
-        border-left: solid 2px transparentize($color: $natural-white, $amount: 0.5);
+        border-left: solid 2px rgba(var(--natural-white) , 0.5);
     }
 
     .naviItem {
@@ -162,7 +159,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
     .naviLink:hover,
     .naviLink.active {
-        background: $accent-violet-2;
+        background: var(--accent-violet-2);
     }
 
     .subnavi {
@@ -182,7 +179,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
     .menuToggle {
         order: 1;
         font-size: 45px;
-        color: $natural-white;
+        color: var(--natural-white);
     }
     
     .navbarLogo, .menuToggle {

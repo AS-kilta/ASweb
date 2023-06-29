@@ -29,7 +29,7 @@ const OfficialCard: React.FC<{lang: string, official: Member}> = ({lang, officia
     return (
         <div className={`${style.official_container} ${leader}`} >
             <ProfileImg src={official.picture}/>
-            <div className={style.name}>{official.name}</div>
+            <div>{official.name}</div>
             {official.title.map(title => <div key={title[lang]} className={style.title}>{title[lang]}</div>)}
         </div>
     )

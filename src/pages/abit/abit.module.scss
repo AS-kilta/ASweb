@@ -1,7 +1,7 @@
 .colored_block {
   // Split and move to main
   color: white;
-  background-color: $as-violet-1;
+  background-color: var(--as-violet-1);
   padding-block: 1.5em;
   text-align: center;
 }

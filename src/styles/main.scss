@@ -9,13 +9,13 @@
   }
 
 body {
-    background: $natural-white;
-    font-family: $font-body;
+    background: var(--natural-white);
+    font-family: var(--font-body);
     font-size: 18px;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: $font-heading;
+    font-family: var(--font-heading);
 }
 
 .pageHeading1, .pageHeading2, .pageHeading3, .pageHeading4 {
@@ -54,7 +54,7 @@ ul, ol, dl {
     padding: 0.5em 1em;
     border-radius: 1rem;
     color: white;
-    background-color: $as-violet-1;
+    background-color: var(--as-violet-1);
     font-weight: 700;
     text-decoration: none;
 }

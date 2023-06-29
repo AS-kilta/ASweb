@@ -14,7 +14,7 @@ body {
 
 #content {
     flex-grow: 1;
-    background: $natural-white;
+    background: var(--natural-white);
 }
 
 @media all and (min-width: $breakpoint-mobile) {
