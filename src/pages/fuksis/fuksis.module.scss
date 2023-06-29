@@ -1,0 +1,103 @@
+.major {
+  margin-block: 6rem;
+  gap: 2rem;
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h3, h4 {
+    font-weight: 400;
+    margin: 1.2em 0 0.3em;
+    border-bottom: 3px solid;
+    padding-bottom: 0.2em;
+  }
+}
+
+.board {
+  max-width: 1000px;
+  margin-block: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+  line-height: 1.6em;
+
+  & > * {
+    flex: 0 1 400px;
+  }
+
+  --profile-img-size: 30rem;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  }
+
+.badge {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #000;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.badgeText {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.colored_block {
+  width: 20rem;
+  color: white;
+  background-color: $as-violet-2;
+  padding-block: 1.5em;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.list {
+  width: 20rem;
+  line-height: 0.1rem;
+  font-size: 1.2rem;
+}
+
+li {
+  margin-top: -0.5rem;
+}
+
+.badgeLink, .badgeLink:visited {
+  color: white;
+}
+
+.link, .link:visited {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
