@@ -1,18 +1,22 @@
 import React from "react"
+import { GatsbyImage } from "gatsby-plugin-image"
 import * as style from "./ProfileImg.module.scss"
 
 interface ProfileImgProps {
-  src?: string;
+  src?: string | DynamicImageData;
   alt?: string;
 }
 
 const ProfileImg: React.FC<ProfileImgProps> = ({src, alt}) => {
-  const imgSrc = src ?? "https://as.fi/static/toimijat/aebaej_placeholder.png";
-  const altText = alt ?? "";
+  const imgSrc: string | DynamicImageData = src ?? "https://as.fi/static/toimijat/aebaej_placeholder.png";
+  const altText: string = alt ?? "";
   
   return (
     <div className={style.profile_img}>
-      <img src={imgSrc} alt={altText} />
+      { (typeof imgSrc === "string")
+          ? <img src={imgSrc} alt={altText} />
+          : <GatsbyImage image={imgSrc.childImageSharp.gatsbyImageData} alt={alt ?? ""} />
+      }
     </div>
   )
 }
