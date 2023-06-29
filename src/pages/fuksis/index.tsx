@@ -11,7 +11,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         title: 'fuksikapteeni',
         name: 'Leevi Hormaluoma',
         email: 'fuksikapteenit@as.fi',
-        phone: '+3580000000',
+        phone: '+358 400366690',
         telegram: '@pelleevi'
     };
 
@@ -19,7 +19,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         title: 'fuksikapteeni',
         name: 'Tuomas Nykänen',
         email: 'fuksikapteenit@as.fi',
-        phone: '+3580000000',
+        phone: '+358 440160401',
         telegram: '@Ykanen'
     };
 
