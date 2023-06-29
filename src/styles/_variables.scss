@@ -1,26 +1,28 @@
 // Global Sass variables
+:root {
 
 // THEME COLORS
 //
 
-$as-violet-1: #6e4077;
-$as-violet-2: #ab88bf;
-$as-violet-3: #c3afdc;
+--as-violet-1: #6e4077;
+--as-violet-2: #ab88bf;
+--as-violet-3: #c3afdc;
 
-$natural-white: #f9faf3;
-$natural-black: #1b1b1b;
+--natural-white: #f9faf3;
+--natural-black: #1b1b1b;
 
-$accent-violet-1: #814b8b;
-$accent-violet-2: #9757a3;
+--accent-violet-1: #814b8b;
+--accent-violet-2: #9757a3;
 
-$arduino-blue: #008184;
+--arduino-blue: #008184;
 
 // FONTS
 //
 
-$font-heading: "Montserrat";
-$font-body: "Open Sans";
+--font-heading: "Montserrat";
+--font-body: "Open Sans";
 
+}
 
 // BREAKPOINTS
 //

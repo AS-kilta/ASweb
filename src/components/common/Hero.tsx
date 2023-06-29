@@ -2,8 +2,6 @@ import React from "react"
 
 import * as style from "./Hero.module.scss"
 
-import * as sassVars from "@src/styles/_exports.module.scss"
-
 interface HeroProps {
     title: string,
     lead?: string,
@@ -12,7 +10,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ title, lead, background }) => {
     const backgroundStyle: React.CSSProperties = background ? {
-        background: `url(${background}) ${sassVars.asViolet1}`,
+        background: `url(${background}) var(--as-violet-1)`,
         backgroundSize: "cover",
         backgroundBlendMode: "soft-light"
     } : {}
