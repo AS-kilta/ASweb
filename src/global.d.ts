@@ -35,5 +35,6 @@ declare global {
         childImageSharp: {
             gatsbyImageData: IGatsbyImageData;
         }
+        url?: string;
     }
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
-import DynamicProfileImg from "@src/components/profiles/DynamicProfileImg"
+import ProfileImg from "@src/components/profiles/ProfileImg"
 import * as style from "./Officials.module.scss"
 
 interface Member {
@@ -25,11 +25,11 @@ interface OfficialsData {
     }
 }
 
-const OfficialCard: React.FC<{lang: string, official: Member, image: DynamicImageData}> = ({lang, official, image}) => {
+const OfficialCard: React.FC<{lang: string, official: Member, image?: DynamicImageData}> = ({lang, official, image}) => {
     const leader = official.leader ? style.leader : ''
     return (
         <div className={`${style.official_container} ${leader}`} >
-            <DynamicProfileImg data={image} alt={official.name} />
+            <ProfileImg src={image} alt={official.name} />
             <div className={style.name}>{official.name}</div>
             {official.title.map(title => <div key={title[lang]} className={style.title}>{title[lang]}</div>)}
         </div>
@@ -42,7 +42,7 @@ const CommitteeSection: React.FC<{lang: string, committee: Committee}> = ({lang,
         <div className={style.officials_section}>
             <h2 id="name">{name[lang]}</h2>
             <div className={style.officials_list}>
-                {members.map((official, i) => <OfficialCard key={official.name} lang={lang} image={localImage[i]} official={official} />)}
+                {members.map((official) => <OfficialCard key={official.name} lang={lang} image={localImage.filter(img => official.picture === img.url)[0]} official={official} />)}
             </div>
         </div>
     )
@@ -74,6 +74,7 @@ const Officials: React.FC<{lang: string}> = ({ lang }) => {
                                     placeholder: BLURRED
                                 )
                             }
+                            url
                         }
                     }
                 }
