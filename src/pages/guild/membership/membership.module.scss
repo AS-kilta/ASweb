@@ -1,0 +1,26 @@
+.text {
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
+  
+  h1 {
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .colored_block {
+    width: 20rem;
+    color: white;
+    background-color: $as-violet-2;
+    padding-block: 1.5em;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  .list {
+    width: 20rem;
+    line-height: 0.1rem;
+    font-size: 1.2rem;
+  }
+  
