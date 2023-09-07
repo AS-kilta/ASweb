@@ -31,6 +31,7 @@ module.exports = {
       options: {
         nodeType: 'BoardYaml',
         imagePath: 'picture',
+        silent: true,
       }
     },
     {
@@ -38,6 +39,7 @@ module.exports = {
       options: {
         nodeType: 'OfficialsYaml',
         imagePath: 'members[].picture',
+        silent: true,
       }
     },
     `gatsby-transformer-sharp`,
