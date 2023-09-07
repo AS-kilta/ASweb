@@ -11,8 +11,9 @@ interface BoardMember {
         email: string,
         phone: string,
         telegram: string,
-        picture?: string,
-        description: TranslatedEntry
+        picture: string,
+        description: TranslatedEntry,
+        localImage: DynamicImageData
     }
 }
 
@@ -40,6 +41,14 @@ const Board: React.FC<{lang: string}> = ({ lang }) => {
                         description {
                             fi
                             en
+                        }
+                        localImage {
+                            childImageSharp {
+                                gatsbyImageData(
+                                    width: 1000
+                                    placeholder: BLURRED
+                                )
+                            }
                         }
                     }
                 }
