@@ -127,5 +127,5 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
 export default Fuksis
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Abeille" />
+  <Meta lang="fi" title="Fukseille" />
 )
