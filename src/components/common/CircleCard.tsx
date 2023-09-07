@@ -8,7 +8,7 @@ interface CCard {
 }
 
 const CircleCard: React.FC<CCard> = ( {title, link, targetSelf} ) => {
-    var target = "_blank";
+    let target = "_blank";
     if ( targetSelf )
         target = "_self";
 
