@@ -2,7 +2,7 @@
 
 ## Technologies
 
-- Gatsby 4 & React 17
+- Gatsby 5 & React 18
 - TypeScript 4.1
 - Sass 1.36
 
