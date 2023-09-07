@@ -5,6 +5,7 @@ import * as style from "./fuksis.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
 import ContactCard from "@src/components/profiles/ContactCard"
 import SeparatedHeading1 from "@src/components/common/SeparatedHeading1"
+import CircleCard from "@src/components/common/CircleCard"
 
 const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
     const data1 = {
@@ -23,22 +24,6 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         telegram: '@Ykanen'
     };
 
-  const Badge: React.FC<{title: string, link?: string, targetSelf?: boolean}> = ( {title, link, targetSelf} ) => {
-    var target = "_blank";
-    if ( targetSelf )
-        target = "_self";
-
-    return(
-        <circle className={style.badge}>
-            <text className={style.badgeText}>
-                <a href={link} target={target} className={style.badgeLink}>
-                    {title}
-                </a>
-            </text>
-        </circle>
-    )
-  }
-
   return (
     <PageLayout pageContext={pageContext} title='Fuksina killassa' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight='60'>
         <div className={style.board}>
@@ -51,17 +36,17 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         </SeparatedHeading1>
 
         <div className={style.table}>
-            <Badge title='Ota opiskelupaikka vastaan'/>
-            <Badge title='Ilmoittaudu läsnäolevaksi'/>
-            <Badge title='Liity killan jäseneksi' link='https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587'/>
-            <Badge title='Hae opiskelijakorttia' link="https://www.frank.fi/opiskelijakortti/"/>
+            <CircleCard title='Ota opiskelupaikka vastaan'/>
+            <CircleCard title='Ilmoittaudu läsnäolevaksi'/>
+            <CircleCard title='Liity killan jäseneksi' link='https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587'/>
+            <CircleCard title='Hae opiskelijakorttia' link="https://www.frank.fi/opiskelijakortti/"/>
             <circle className={style.badge}>
                 <text className={style.badgeText}>
                     Hae asuntoa <a href="https://domo.ayy.fi" target="_blank" className={style.badgeLink}> AYY:ltä </a> tai <a href="https://hoas.fi" target="_blank" className={style.badgeLink}> HOASilta</a></text>
             </circle>
-            <Badge title='Hae opintotukea' link="https://www.kela.fi/opintotuki"/>
-            <Badge title='Hanki matkakortti' link="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti"/>
-            <Badge title='Liity AS-fuksien Telegram-ryhmään' link="./fuksis#Telegram" targetSelf={true}/>
+            <CircleCard title='Hae opintotukea' link="https://www.kela.fi/opintotuki"/>
+            <CircleCard title='Hanki matkakortti' link="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti"/>
+            <CircleCard title='Liity AS-fuksien Telegram-ryhmään' link="./fuksis#Telegram" targetSelf={true}/>
         </div>
 
         <SeparatedHeading1 id="Telegram">
