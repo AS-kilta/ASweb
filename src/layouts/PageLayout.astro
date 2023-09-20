@@ -1,0 +1,37 @@
+---
+import Navbar from "../components/common/Navbar"
+import Hero from "../components/common/Hero"
+import Footer from "../components/common/Footer"
+
+import style from "./PageLayout.module.scss"
+import type { Language } from "../data/translations"
+
+interface Props {
+    title: string,
+    lead?: string,
+    background?: string,
+}
+const { title, lead, background } = Astro.props.frontmatter || Astro.props;
+const lang: Language = Astro.url.pathname.startsWith("/en/") ? "en" : "fi"
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AS - {title}</title>
+    <link rel="icon" href="/favicon.png" />
+  </head>
+  <body id={style.container} >
+      <Navbar 
+          lang={lang}
+          slug={Astro.url.pathname}
+          client:load
+      />
+      <Hero title={title} lead={lead} background={background} />
+      <div id={style.content}>
+          <slot />
+      </div>
+      <Footer lang={lang} />
+  </body>
+</html>

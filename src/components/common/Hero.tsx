@@ -1,8 +1,8 @@
 import React from "react"
 
-import * as style from "./Hero.module.scss"
+import style from "./Hero.module.scss"
 
-import * as sassVars from "@src/styles/_exports.module.scss"
+import * as sassVars from "src/styles/_exports.module.scss"
 
 interface HeroProps {
     title: string,
@@ -23,10 +23,7 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background }) => {
             style={backgroundStyle}
         >
             {title && <h1 className={style.mainTitle}>{title}</h1>}
-            {lead &&
-            <>
-                <p className={style.lead}>{lead}</p>
-            </>}
+            {lead && <p className={style.lead}>{lead}</p>}
         </div>
     )
 }

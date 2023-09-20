@@ -1,0 +1,19 @@
+---
+import styles from "./ProfileImg.module.scss"
+
+interface Props {
+  src?: string;
+  alt?: string;
+  size?: number;
+}
+
+const {
+  src = "https://as.fi/static/toimijat/aebaej_placeholder.png",
+  alt = "",
+  size = 160,
+} = Astro.props
+---
+
+<div class={styles.profile_img}>
+  <img src={src} alt={alt} height={size} width={size} />
+</div>

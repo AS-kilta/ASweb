@@ -1,0 +1,16 @@
+---
+import ContactCard from "./ContactCard.astro"
+import style from "./Board.module.scss"
+
+import boardData from "../../data/board"
+---
+
+<div class={style.board}>
+    {boardData.map(member => 
+        <ContactCard data={{
+            ...member,
+            title: member.title["fi"] ?? "",
+            description: member.description["fi"]
+        }} />
+    )}
+</div>

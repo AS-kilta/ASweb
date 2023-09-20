@@ -1,0 +1,10 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import SnapWidget from "../components/instagram/SnapWidget.astro"
+import EventList from "../components/events/EventList"
+
+---
+<PageLayout title="Automaatio- ja systeemitekniikan kilta">
+    <EventList number={5} lang="fi" client:load/>
+    <SnapWidget />
+</PageLayout>

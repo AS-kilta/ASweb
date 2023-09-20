@@ -1,0 +1,37 @@
+---
+import ProfileImg from "./ProfileImg.astro"
+import style from "./ContactCard.module.scss"
+import { BsTelephoneFill, BsEnvelope, BsTelegram } from "react-icons/bs"
+
+interface Props {
+    data: {
+        title: string,
+        name: string,
+        email: string,
+        phone: string,
+        telegram: string,
+        description?: string,
+        image: string
+    }
+}
+const { data } = Astro.props
+---
+
+<div class={style.contact_card}>
+<ProfileImg src={data.image} alt={data.name} size={240}/>
+<div class={style.title}>{data.title}</div>
+<div>{data.name}</div>
+<div class={style.icon_field}>
+    <BsEnvelope />
+    <a href={`mailto:${data.email}`}>{data.email}</a>
+</div>
+<div class={style.icon_field}>
+    <BsTelephoneFill />
+    <a href={`tel:${data.phone.replace(/\s+/g, "")}`}>{data.phone}</a>
+</div>
+<div class={style.icon_field}>
+    <BsTelegram />
+    <a href={`https://t.me/${data.telegram}`}>{data.telegram}</a>
+</div>
+{data.description && <p>{data.description}</p>}
+</div>

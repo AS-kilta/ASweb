@@ -1,9 +1,10 @@
 import React, { useState, useContext, createContext } from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import { BsList, BsX, BsPlus, BsDash } from "react-icons/bs"
 
-import * as style from "./Navbar.module.scss"
+import style from "./Navbar.module.scss"
+import asLogo from "../../images/aswhite.png"
+import NaviData from "../../data/navi"
+import type { Language } from "../../data/translations"
 
 // Create context for navi callbacks (avoid prop drilling)
 
@@ -20,15 +21,14 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
 
     return (
         <div className={style.navbarLogo}>
-            <Link onClick={naviCtx?.hideNav} to={ lang === "fi" ? "/" : "/en" }>
-                <StaticImage
-                    src="../../images/aswhite.png"
+            <a onClick={naviCtx?.hideNav} href={ lang === "fi" ? "/" : "/en" }>
+                <img
+                    src={asLogo.src}
                     alt="Aivan Sama"
-                    layout="constrained"
                     width={40}
                     height={29}
                 />
-            </Link>
+            </a>
         </div>
     )
 }
@@ -43,17 +43,16 @@ const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
     const local = link.startsWith("/")
 
     return (
-        <>
-            {local
-                ? <Link onClick={naviCtx?.hideNav} className={style.naviLink} activeClassName={style.active} to={link}>{title}</Link>
-                : <a onClick={naviCtx?.hideNav} className={style.naviLink} href={link}>{title}</a>
-            }
-        </>
+        <a onClick={naviCtx?.hideNav}
+            className={local ? style.naviLink : style.naviLink + " " + style.active}
+            href={link}>
+            {title}
+        </a>
     )
 }
 
 interface NaviItemProps {
-    entry: NaviData
+    entry: typeof NaviData
     lang: string
 }
 
@@ -148,31 +147,8 @@ const Subnavi: React.FC<SubnaviProps> = ({ lang, data }) => {
     )
 }
 
-// Types for navigation data scheme
-
-interface SubnaviData {
-    title: TranslatedEntry,
-    link: TranslatedEntry
-}
-
-interface NaviData {
-    title: TranslatedEntry,
-    link: TranslatedEntry,
-    subnavi?: SubnaviData[]
-}
-
-interface NaviDataScheme {
-    allNaviYaml: {
-        edges: [
-            {
-                node: NaviData
-            }
-        ]
-    }
-}
-
 interface NavCollapseProps {
-    lang: string,
+    lang: Language,
     slug: string,
     translation?: string,
     isExpanded: boolean
@@ -180,53 +156,24 @@ interface NavCollapseProps {
 
 const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded }) => {
 
-    const data: NaviDataScheme = useStaticQuery(graphql`
-        query getNaviData {
-            allNaviYaml {
-                edges {
-                    node {
-                        title {
-                            fi
-                            en
-                        }
-                        link {
-                            fi
-                            en
-                        }
-                        subnavi {
-                            title {
-                                fi
-                                en
-                            }
-                            link {
-                                fi
-                                en
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    `)
+    const data = NaviData;
 
     return (
         <div
             id={style.navbarCollapse}
             className={ isExpanded ? style.show : "" }
         >
-            {data.allNaviYaml.edges
-                .map(edge => {
-                    const entry = edge.node;
-                    if (!entry.title[lang] || !entry.link[lang]) {
-                        return (null);
-                    }
-                    return (
-                        <NaviItem
-                            entry={entry}
-                            lang={lang}
-                            key={entry.title[lang] + "-" + entry.link[lang]}
-                        />
-                    )
+            {data.map(entry => {
+                if (!entry.title[lang] || !entry.link[lang]) {
+                    return (null);
+                }
+                return (
+                    <NaviItem
+                        entry={entry}
+                        lang={lang}
+                        key={entry.title[lang] + "-" + entry.link[lang]}
+                    />
+                )
             })}
             <LangSwitcher
                 lang={lang}
@@ -238,7 +185,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
 }
 
 interface NavbarProps {
-    lang: string,
+    lang: Language,
     slug: string,
     translation?: string
 }

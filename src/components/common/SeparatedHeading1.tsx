@@ -1,6 +1,6 @@
 import React from "react"
 
-import * as sassVars from "@src/styles/_exports.module.scss"
+import * as sassVars from "src/styles/_exports.module.scss"
 
 const SeparatedHeading1: React.FC<{id: string, children?: React.ReactNode}> = ({ id, children }) => {
     return (

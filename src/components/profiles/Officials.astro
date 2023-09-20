@@ -1,0 +1,31 @@
+---
+import ProfileImg from "./ProfileImg.astro"
+import style from "./Officials.module.scss"
+import officialsData from "../../data/officials"
+import type { Member, Committee } from "../../data/officials"
+import type { Language } from "../../data/translations"
+
+interface Props {
+    lang: Language
+}
+const { lang } = Astro.props
+
+const officialStyle = (official: Member) => `${style.official_container} ${official.leader ? style.leader : ""}`
+---
+
+{officialsData.map(committee => 
+    <div class={style.officials_section}>
+        <h2 id="name">{committee.name[lang]}</h2>
+        <div class={style.officials_list}>
+
+            {committee.members.map(official => 
+                <div class={officialStyle(official)} >
+                    <ProfileImg src={official.picture} alt={official.name} />
+                    <div class={style.name}>{official.name}</div>
+                    {official.title.map(title => <div class={style.title}>{title[lang]}</div>)}
+                </div>
+            )}
+            
+        </div>
+    </div>
+)}

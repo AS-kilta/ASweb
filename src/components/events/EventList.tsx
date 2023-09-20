@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react"
-import * as style from "./EventList.module.scss"
+import style from "./EventList.module.scss"
 
 const getStartDate = () => (new Date()).toISOString()
 

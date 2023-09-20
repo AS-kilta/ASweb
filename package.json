@@ -1,52 +1,28 @@
 {
-  "name": "asweb",
-  "private": true,
-  "description": "New website for AS",
-  "version": "1.0.0",
-  "author": "AS",
-  "engines": {
-    "node": "18.x"
+  "name": "asweb-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.1.3",
-    "gatsby": "^5.12.4",
-    "gatsby-plugin-image": "^3.12.0",
-    "gatsby-plugin-manifest": "^5.12.0",
-    "gatsby-plugin-mdx": "^5.12.0",
-    "gatsby-plugin-offline": "^6.12.0",
-    "gatsby-plugin-remote-images": "^3.6.6",
-    "gatsby-plugin-sass": "^6.12.0",
-    "gatsby-plugin-sharp": "^5.12.0",
-    "gatsby-source-filesystem": "^5.12.0",
-    "gatsby-transformer-sharp": "^5.12.0",
-    "gatsby-transformer-yaml": "^5.12.0",
-    "prop-types": "^15.7.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.2.0",
-    "sass": "^1.36.0",
-    "typescript": "^4.1.3"
+    "@astrojs/mdx": "^1.0.3",
+    "@astrojs/react": "^3.0.2",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^3.0.12",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.11.0",
+    "sass": "^1.66.1"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
-  },
-  "keywords": [
-    "AS",
-    "web",
-    "ASweb"
-  ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jyrge/ASweb"
+    "typescript-plugin-css-modules": "^5.0.1"
   }
 }

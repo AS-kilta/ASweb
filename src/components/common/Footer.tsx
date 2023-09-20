@@ -1,43 +1,15 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import { BsFacebook, BsInstagram, BsGithub } from "react-icons/bs"
+import SponsorData from "../../data/sponsors"
 
-import * as style from "./Footer.module.scss"
-
-interface SponsorData {
-    node: {
-        name: string,
-        link: string,
-        picture: string
-    }
-}
-
-interface SponsorDataScheme {
-    allSponsorsYaml: {
-        edges: SponsorData[]
-    }
-}
+import style from "./Footer.module.scss"
 
 const Sponsors: React.FC = () => {
-    const data: SponsorDataScheme = useStaticQuery(graphql`
-        query getSponsorData {
-            allSponsorsYaml {
-                edges {
-                    node {
-                        name
-                        link
-                        picture
-                    }
-                }
-            }
-        }
-    `)
-
     return (
         <div id={style.sponsors}>
-            {data.allSponsorsYaml.edges.map(entry =>
-                <a className={style.sponsor} key={entry.node.name} href={entry.node.link}>
-                    <img src={entry.node.picture} alt={entry.node.name} width={100} />
+            {SponsorData.map(sponsor =>
+                <a className={style.sponsor} key={sponsor.name} href={sponsor.link}>
+                    <img src={sponsor.picture} alt={sponsor.name} width={100} />
                 </a>
             )}
         </div>

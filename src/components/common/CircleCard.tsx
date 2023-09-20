@@ -1,5 +1,5 @@
 import React from "react";
-import * as style from "./CircleCard.module.scss"
+import style from "./CircleCard.module.scss"
 
 interface CCard {
     title:       string,

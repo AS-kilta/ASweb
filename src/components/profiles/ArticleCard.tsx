@@ -1,6 +1,6 @@
 import React from "react"
-import * as style from "./ArticleCard.module.scss"
-import ProfileImg from "./ProfileImg"
+import style from "./ArticleCard.module.scss"
+import ProfileImg from "./ProfileImg.astro"
 
 
 const ArticleCard: React.FC<{name: string, image: string, quote: string, link: string, reverse?: boolean}> = ({ name, image, quote, link, reverse })=> {
