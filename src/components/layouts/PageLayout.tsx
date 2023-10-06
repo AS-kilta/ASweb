@@ -23,7 +23,7 @@ const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, her
                 slug={pageContext.slug}
                 translation={pageContext.translation}
             />
-            <Hero title={title} lead={lead} background={background} height={heroHeight} />
+            <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
             <div id={style.content}>
                 {children}
             </div>
