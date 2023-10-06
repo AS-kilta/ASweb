@@ -11,10 +11,11 @@ interface Props {
     title: string,
     lead?: string,
     background?: string,
-    children?: React.ReactNode
+    children?: React.ReactNode,
+    heroHeight?: string
 }
 
-const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, children }) => {
+const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, heroHeight, children }) => {
     return (
         <div id={style.container}>
             <Navbar 
@@ -22,7 +23,7 @@ const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, chi
                 slug={pageContext.slug}
                 translation={pageContext.translation}
             />
-            <Hero title={title} lead={lead} background={background} />
+            <Hero title={title} lead={lead} background={background} height={heroHeight} />
             <div id={style.content}>
                 {children}
             </div>
