@@ -54,10 +54,18 @@
   }
 }
 
-h1 {
+.heading1 {
   font-weight: 500;
-  font-size: 35px;
-  text-align: center;
+  font-size: 40px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.heading2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .colored_block {
@@ -73,10 +81,6 @@ h1 {
   width: 20rem;
   line-height: 0.1rem;
   font-size: 1.2rem;
-}
-
-li {
-  margin-top: -0.5rem;
 }
 
 .badgeLink, .badgeLink:visited {
