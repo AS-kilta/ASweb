@@ -2,7 +2,7 @@
 
 ## Technologies
 
-- Gatsby 4 & React 17
+- Gatsby 5 & React 18
 - TypeScript 4.1
 - Sass 1.36
 
@@ -10,7 +10,7 @@ and various other plugins, packages etc. as dependencies
 
 ## How to set up development environment
 
-Install the latest LTS release of Node.js (currently 16.16.0 LTS). Git is required for version management.
+Install Node 18.x.x or higher. Git is required for version management.
 
 **Windows**
 

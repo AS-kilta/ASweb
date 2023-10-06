@@ -9,14 +9,15 @@ export interface ContactInfo {
     email: string,
     phone: string,
     telegram: string,
-    picture?: string,
-    description?: string
+    picture: string,
+    description?: string,
+    localImage: DynamicImageData
 }
 
 const ContactCard: React.FC<{data: ContactInfo}> = ({data}) => {
     return (
       <div className={style.contact_card}>
-        <ProfileImg src={data.picture} />
+        <ProfileImg src={data.localImage} alt={data.name} />
         <div className={style.title}>{data.title}</div>
         <div>{data.name}</div>
         <div className={style.icon_field}>
