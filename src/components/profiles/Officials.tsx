@@ -14,7 +14,8 @@ interface Member {
 interface Committee {
     node: {
         name: TranslatedEntry,
-        members: Member[]
+        members: Member[],
+        localImage: DynamicImageData[]
     }
 }
 
@@ -24,11 +25,11 @@ interface OfficialsData {
     }
 }
 
-const OfficialCard: React.FC<{lang: string, official: Member}> = ({lang, official}) => {
+const OfficialCard: React.FC<{lang: string, official: Member, image?: DynamicImageData}> = ({lang, official, image}) => {
     const leader = official.leader ? style.leader : ''
     return (
         <div className={`${style.official_container} ${leader}`} >
-            <ProfileImg src={official.picture}/>
+            <ProfileImg src={image} alt={official.name} />
             <div className={style.name}>{official.name}</div>
             {official.title.map(title => <div key={title[lang]} className={style.title}>{title[lang]}</div>)}
         </div>
@@ -36,12 +37,12 @@ const OfficialCard: React.FC<{lang: string, official: Member}> = ({lang, officia
 }
 
 const CommitteeSection: React.FC<{lang: string, committee: Committee}> = ({lang, committee}) => {
-    const {name, members}: {name: TranslatedEntry, members: Member[]} = committee.node;
+    const {name, members, localImage}: {name: TranslatedEntry, members: Member[], localImage: DynamicImageData[]} = committee.node;
     return (
         <div className={style.officials_section}>
             <h2 id="name">{name[lang]}</h2>
             <div className={style.officials_list}>
-                {members.map(official => <OfficialCard key={official.name} lang={lang} official={official} />)}
+                {members.map((official) => <OfficialCard key={official.name} lang={lang} image={localImage.filter(img => official.picture === img.url)[0]} official={official} />)}
             </div>
         </div>
     )
@@ -65,6 +66,15 @@ const Officials: React.FC<{lang: string}> = ({ lang }) => {
                                 en
                             }
                             leader
+                        }
+                        localImage {
+                            childImageSharp {
+                                gatsbyImageData(
+                                    width: 1000
+                                    placeholder: BLURRED
+                                )
+                            }
+                            url
                         }
                     }
                 }

@@ -45,6 +45,19 @@
   link:
     fi: "/fuksis"
     en: "/en/fuksis"
+  subnavi:
+    - title:
+        fi: "Fuksiopas"
+        en: "Fuksiguide"
+      link:
+        fi: "/fuksis/fuksiguide"
+        en: "/en/fuksis/fuksiguide"
+    - title:
+        fi: "Teekkarikulttuuri"
+        en: "Teekkariculture"
+      link:
+        fi: "/fuksis/teekkariculture"
+        en: "/en/fuksis/teekkariculture"
 - title:
     fi: "Yrityksille"
     en: "Corporate Relations"
