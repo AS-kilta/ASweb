@@ -1,0 +1,19 @@
+.textDiv {
+  align-content: center;
+  width: 100%;
+  margin-block: 2rem;
+  font-size: 1.2rem;
+}
+
+.coloredBlock {
+  display: block;
+  width: 28rem;
+  height: 8rem;
+  color: white;
+  background-color: $as-violet-1;
+  padding-block: 2.5rem;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
