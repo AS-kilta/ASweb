@@ -15,15 +15,15 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
     return (
         <CustomLayout pageContext={pageContext}>
             <Hero title="Automaatio- ja systeemitekniikan kilta" background={heroimg}/>
-            <div className="even-columns">
-                <div className="pöhinä-text">
+            <div className={`even-columns ${style.frontpagebox}`}>
+                <div>
                     <h2>Mikä AS?</h2>
                     <p>AS on opiskelijajärjestö, joka yhdistää Aalto-yliopiston opiskelijoilta monelta eri alalta. Kiltaamme kuuluu Automaation ja robotiikan, Informaatioteknologian ja Digital Systems and Designin sekä niitä lähellä olevien tutkinto-ohjelmien opiskelijoita. Kilta järjestää jäsenilleen vapaa-ajan toimintaa, valvoo heidän etuaan opintoihin liittyvissä asioissa ja ylläpitää suhteita alan yrityksiin.</p>
                 </div>
-                <img className="pöhinä-img" src={festival} alt="" />
+                <img src={festival} alt="" />
             </div>
-            <div className="even-columns">
-                <img className="pöhinä-img no-mobile" src={pohina1} alt="" />
+            <div className={`even-columns ${style.frontpagebox}`}>
+                <img className="no-mobile" src={pohina1} alt="" />
                 <div className={style.eventsContainer}>
                     <h2>Tapahtumat</h2>
                     <EventList number={5} lang={pageContext.lang} />
