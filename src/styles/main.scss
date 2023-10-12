@@ -50,6 +50,10 @@ ul, ol, dl {
     }
 }
 
+p {
+    line-height: 1.6;
+}
+
 .rounded-button {
     display: block;
     width: fit-content;
@@ -64,11 +68,6 @@ ul, ol, dl {
 .columns {
     display: flex;
     flex-wrap: wrap;
-}
-
-p {
-    max-width: 70ch;
-    line-height: 1.6;
 }
 
 .full-width-bg {
