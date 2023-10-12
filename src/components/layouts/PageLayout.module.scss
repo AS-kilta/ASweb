@@ -11,6 +11,13 @@
 #content {
     flex-grow: 1;
     background: $natural-white;
-    max-width: 1200px;
+    
     width: calc(100% - 4rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    :where(& > *) {
+        max-width: 900px
+    }
 }
