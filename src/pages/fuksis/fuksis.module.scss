@@ -1,26 +1,15 @@
-.board {
-  max-width: 1000px;
-  margin-block: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
-  gap: 2rem;
-
-  line-height: 1.6em;
-
-  & > * {
-    flex: 0 1 400px;
-  }
-
-  --profile-img-size: 30rem;
-}
-
 .table {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 8rem;
+}
+
+.board {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
 }
 
 .badge {
@@ -42,18 +31,6 @@
   text-align: center;
 }
 
-.text {
-  margin-top: 1rem;
-  gap: 1rem;
-  & > * {
-    flex: 1 1 25ch;
-  }
-  dd {
-    margin: 0;
-    line-height: 1.5;
-  }
-}
-
 .heading1 {
   font-weight: 500;
   font-size: 40px;
@@ -64,7 +41,7 @@
 .heading2 {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -100,14 +77,4 @@
   margin-right: 0;
   margin-left: auto;
   margin-bottom: 2vh;
-}
-
-.right {
-  width: 1200px;
-  margin-left: auto;
-}
-
-.pageHeading1 {
-  font-size: 3px;
-  font-weight: 500;
 }

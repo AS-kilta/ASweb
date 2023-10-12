@@ -12,7 +12,7 @@ interface Props {
     lead?: string,
     background?: string,
     children?: React.ReactNode,
-    heroHeight?: string
+    heroHeight?: "short" | "tall"
 }
 
 const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, heroHeight, children }) => {
