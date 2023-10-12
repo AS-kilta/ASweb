@@ -7,7 +7,7 @@ import SeparatedHeading1 from "@src/components/common/SeparatedHeading1"
 
 const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title='Teekkarikulttuuri' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight='60'>
+    <PageLayout pageContext={pageContext} title='Teekkarikulttuuri' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight='tall'>
 
         <h1 id='haalarit' className={style.heading1}>Haalarit</h1>
 
