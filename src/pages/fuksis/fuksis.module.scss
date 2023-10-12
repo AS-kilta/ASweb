@@ -73,9 +73,8 @@
 
 .rounded {
   display: block;
-  width: 11rem;
+  max-width: fit-content;
   font-size: 1.5rem;
-  margin-right: 0;
   margin-left: auto;
-  margin-bottom: 2vh;
+  margin-block: 2rem;
 }
