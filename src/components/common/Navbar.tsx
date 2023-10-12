@@ -26,7 +26,7 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
                     alt="Aivan Sama"
                     layout="constrained"
                     width={40}
-                    height={29}
+                    height={40}
                 />
             </Link>
         </div>
