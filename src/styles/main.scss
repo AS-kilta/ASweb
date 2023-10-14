@@ -82,13 +82,6 @@ p {
     flex-wrap: wrap;
 }
 
-.full-width-bg {
-    box-sizing: border-box;
-    width: 100vw;
-    padding-inline: calc((100vw - 100%) / 2);
-    margin-inline: calc((100vw - 100%) / -2);
-}
-
 .hideoverflow {
     overflow: hidden;
 }

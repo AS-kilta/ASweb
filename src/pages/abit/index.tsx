@@ -15,7 +15,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
         <p>Tällä tulevaisuuden opiskelualalla työllistyminen opintojen jälkeen on lähes taattu. Monet opiskelijat hakeutuvatkin alan työpaikkoihin jo opintojensa aikana.</p>
       </div>
       
-      <h3 className={style.colored_block + " full-width-bg"}>AS-killan alla on 3 eri hakukohdetta</h3>
+      <h3 className={style.full_width_bg}>AS-killan alla on 3 eri hakukohdetta</h3>
       
       <section className={style.major}>
         <h3>Automaatio ja robotiikka</h3>

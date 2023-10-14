@@ -1,9 +1,12 @@
-.colored_block {
-  // Split and move to main
+.full_width_bg {
+  box-sizing: border-box;
+  max-width: unset;
+  padding-block: 1em;
+
+  text-align: center;
   color: white;
   background-color: $as-violet-1;
-  padding-block: 1.5em;
-  text-align: center;
+  box-shadow: 10rem 0 0 0 $as-violet-1, -10rem 0 0 0 $as-violet-1
 }
 
 .columns {
