@@ -1,15 +1,13 @@
 .eventsContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
 }
 
 .frontpagebox {
+    max-width: 1600px;
+
     & > :not(img) {
-        text-align: center;
         padding: 3rem;
         margin-inline: auto;
-        align-self: center;
     }
 
     h2 {
