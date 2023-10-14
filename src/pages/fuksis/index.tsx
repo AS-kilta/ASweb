@@ -2,6 +2,7 @@ import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import * as style from "./fuksis.module.scss"
+import * as boardStyle from "../../components/profiles/Board.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
 import ContactCard from "@src/components/profiles/ContactCard"
 import SeparatedHeading1 from "@src/components/common/SeparatedHeading1"
@@ -13,7 +14,8 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         name: 'Leevi Hormaluoma',
         email: 'fuksikapteenit@as.fi',
         phone: '+358 400366690',
-        telegram: '@pelleevi'
+        telegram: '@pelleevi',
+        localImage: 'https://as.fi/static/toimijat/2023/leevi_hormaluoma.jpg',
     };
 
     const data2 = {
@@ -21,19 +23,20 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         name: 'Tuomas Nykänen',
         email: 'fuksikapteenit@as.fi',
         phone: '+358 440160401',
-        telegram: '@Ykanen'
+        telegram: '@Ykanen',
+        localImage: 'https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg',
     };
 
+    const styleCard= {"--profile-img-size": "22rem"} as React.CSSProperties;
+
   return (
-    <PageLayout pageContext={pageContext} title='Fuksina killassa' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight='60'>
-        <div className={style.board}>
+    <PageLayout pageContext={pageContext} title='Fuksina killassa' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight='tall'>
+        <div style={styleCard} className={style.board + ' ' + boardStyle.board}>
             <ContactCard data={data1}/>
             <ContactCard data={data2}/>
         </div>
 
-        <SeparatedHeading1 id="1">
-            Ennen opintojen alkua
-        </SeparatedHeading1>
+        <SeparatedHeading1 id="1">Ennen opintojen alkua</SeparatedHeading1>
 
         <div className={style.table}>
             <CircleCard title='Ota opiskelupaikka vastaan'/>
@@ -49,32 +52,30 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <CircleCard title='Liity AS-fuksien Telegram-ryhmään' link="./fuksis#Telegram" targetSelf={true}/>
         </div>
 
-        <SeparatedHeading1 id="Telegram">
-            Telegram
-        </SeparatedHeading1>
-        <div className={style.text}>
+        <h2 className={style.heading2} id="Telegram">Telegram</h2>
+        <div>
             <p>Otaniemen käytetyin sovellus kommunikaatioon ja tiedotukseen. Telegram, kavereiden kesken ”tg”, on ehdottomasti Otaniemen teekkarin tärkein sovellus. Perustoiminnoiltaan se muistuttaa mitä tahansa viestisovellusta, mutta sen lisäominaisuudet ovat valloittaneet teekkareiden sydämet. Se sisältää esimerkiksi stickereitä, ja toimii myös netissä tai koneella!</p>
             <p>Telegramia käytetään myös oleellisena osana fuksien tiedotuksessa ja toivotaankin, että kaikki fuksit liittyisivät AS-fukseille tarkoitettuun Telegram-ryhmään <a href="https://bit.ly/fuksit23" className={style.link}>bit.ly/fuksit23</a> ja DSD-fuksit myös DSD-fuksien omaan Telegram-ryhmään <a href="https://bit.ly/DSDfuksis23" className={style.link}>bit.ly/DSDfuksis23</a></p>
         </div>
 
-        <SeparatedHeading1 id="Kilta">
+        <h2 className={style.heading2} id="Kilta">
             Kilta ja fuksit
-        </SeparatedHeading1>
-        <div className={style.text}>
+        </h2>
+        <div>
             <p>AS-kilta on AYY:n alainen erityisasemayhdistys, joka yhdistää Automaatio ja Robotiikan, Informaatioteknologian sekä Digital Systems and Design pääaineiden opiskelijoita. Kiltaan saattaa kuulua myös muiden koulutusohjelmien opiskelijoita, joita kiinnostaa AS:n toiminta. Kilta järjestää jäsenilleen monipuolista ohjelmaa, valvoo heidän etujaan korkeakoulun toimielimissä ja tekee yhteistyötä muiden opiskelijayhdistyksien ja yrityksien kanssa.</p>
             <p>AS-kilta vastaanottaa vuosittain noin 200 fuksia, joiden integroitumisesta kiltaan huolehtii killan fuksikapteenit, apunaan Masters and International Student Captain, ISO-pomo ja Tosi-ISOt. Yhdessä nämä muodostavat killan fuksitoimikunnan, ASPU:n.</p>
             <p>ASPU:n apuna toimii vielä suuri joukko ISOja, joiden tehtäviin kuuluu tutustuttaa fuksit ensimmäisinä päivinä kampukseen ja opiskelijaelämään, sekä järjestävät vuoden mittaan fuksiryhmilleen ajanvietettä.</p>
         </div>
 
-        <SeparatedHeading1 id="Fuksipistekortti">
+        <h2 className={style.heading2} id="Fuksipistekortti">
             Fuksipistekortti
-        </SeparatedHeading1>
-        <div className={style.text}>
+        </h2>
+        <div>
             <p>Fuksipistekorttiin tarpeeksi pisteitä kerännyt fuksi on oikeutettu teekkarilakin saamiseen mahdollisesti järjestettävänä Wappuna. Pisteitä kertyy useasta kategoriasta, joista mainittakoon esimerkiksi teekkarikulttuuriin tutustuminen, opintoaiheiset tapahtumat sekä erilaiset vapaaehtoistoimet killan parissa ja muualla. Pistekorttia täyttäessä on hieno mahdollisuus tutustua kaikkeen siihen, mitä Aalto-yliopisto, AYY, killat ja Otaniemi opiskelijoille tarjoavat.</p>
             <p>Pistekortit jaetaan orientaatioviikon ensimmäisenä päivänä. Mikäli fuksi ei pääse paikalle, saa hän pistekortin kippareilta myöhemmin kysymällä. Pistekorttiin tehdyt merkinnät hyväksyvät kipparit, ja heiltä voi aina tilaisuuden tullen kysellä pisteistä. Pisteistä ei kannata stressata, sillä asioista innostumalla niitä tuntuu tulevan vähän joka suunnasta!</p>
         </div>
 
-        <h1>Hyödyllisiä linkkejä</h1>
+        <SeparatedHeading1 id='linkkeja' className={style.heading2}>Hyödyllisiä linkkejä</SeparatedHeading1>
 
         <div className={style.table}>
             <div className={style.list}>

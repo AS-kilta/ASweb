@@ -51,6 +51,8 @@ ul, ol, dl {
 }
 
 .rounded-button {
+    display: block;
+    width: fit-content;
     padding: 0.5em 1em;
     border-radius: 1rem;
     color: white;
@@ -78,4 +80,9 @@ p {
 
 .hideoverflow {
     overflow: hidden;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
 }
