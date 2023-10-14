@@ -72,6 +72,11 @@ p {
     line-height: 1.6;
 }
 
+main a {
+    font-weight: bold;
+    color: inherit;
+}
+
 .rounded-button {
     display: block;
     width: fit-content;
