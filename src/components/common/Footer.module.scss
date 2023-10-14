@@ -2,7 +2,6 @@
     background: $natural-black;
     color: $natural-white;
     font-family: $font-heading;
-    font-size: 16px;
 
     a {
         color: #fff;
@@ -11,14 +10,15 @@
 
 #content {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 
 .title {
     text-transform: uppercase;
     font-weight: 700;
+    margin-block: 0.5em 1em;
 }
 
 #contact, #partners, #links {
@@ -48,7 +48,7 @@
 
 #sponsors {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
