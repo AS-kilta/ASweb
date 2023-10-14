@@ -5,7 +5,6 @@ import * as style from "./fuksis.module.scss"
 import * as boardStyle from "../../components/profiles/Board.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
 import ContactCard from "@src/components/profiles/ContactCard"
-import SeparatedHeading1 from "@src/components/common/SeparatedHeading1"
 import CircleCard from "@src/components/common/CircleCard"
 
 const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
@@ -36,7 +35,9 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <ContactCard data={data2}/>
         </div>
 
-        <SeparatedHeading1 id="1">Ennen opintojen alkua</SeparatedHeading1>
+        <h2 className="underline" id="1">
+            Ennen opintojen alkua
+        </h2>
 
         <div className={style.table}>
             <CircleCard title='Ota opiskelupaikka vastaan'/>
@@ -52,13 +53,15 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <CircleCard title='Liity AS-fuksien Telegram-ryhmään' link="./fuksis#Telegram" targetSelf={true}/>
         </div>
 
-        <h2 className={style.heading2} id="Telegram">Telegram</h2>
+        <h2 className="underline" id="Telegram">
+            Telegram
+        </h2>
         <div>
             <p>Otaniemen käytetyin sovellus kommunikaatioon ja tiedotukseen. Telegram, kavereiden kesken ”tg”, on ehdottomasti Otaniemen teekkarin tärkein sovellus. Perustoiminnoiltaan se muistuttaa mitä tahansa viestisovellusta, mutta sen lisäominaisuudet ovat valloittaneet teekkareiden sydämet. Se sisältää esimerkiksi stickereitä, ja toimii myös netissä tai koneella!</p>
             <p>Telegramia käytetään myös oleellisena osana fuksien tiedotuksessa ja toivotaankin, että kaikki fuksit liittyisivät AS-fukseille tarkoitettuun Telegram-ryhmään <a href="https://bit.ly/fuksit23" className={style.link}>bit.ly/fuksit23</a> ja DSD-fuksit myös DSD-fuksien omaan Telegram-ryhmään <a href="https://bit.ly/DSDfuksis23" className={style.link}>bit.ly/DSDfuksis23</a></p>
         </div>
 
-        <h2 className={style.heading2} id="Kilta">
+        <h2 className="underline" id="Kilta">
             Kilta ja fuksit
         </h2>
         <div>
@@ -67,7 +70,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <p>ASPU:n apuna toimii vielä suuri joukko ISOja, joiden tehtäviin kuuluu tutustuttaa fuksit ensimmäisinä päivinä kampukseen ja opiskelijaelämään, sekä järjestävät vuoden mittaan fuksiryhmilleen ajanvietettä.</p>
         </div>
 
-        <h2 className={style.heading2} id="Fuksipistekortti">
+        <h2 className="underline" id="Fuksipistekortti">
             Fuksipistekortti
         </h2>
         <div>
@@ -75,7 +78,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <p>Pistekortit jaetaan orientaatioviikon ensimmäisenä päivänä. Mikäli fuksi ei pääse paikalle, saa hän pistekortin kippareilta myöhemmin kysymällä. Pistekorttiin tehdyt merkinnät hyväksyvät kipparit, ja heiltä voi aina tilaisuuden tullen kysellä pisteistä. Pisteistä ei kannata stressata, sillä asioista innostumalla niitä tuntuu tulevan vähän joka suunnasta!</p>
         </div>
 
-        <SeparatedHeading1 id='linkkeja' className={style.heading2}>Hyödyllisiä linkkejä</SeparatedHeading1>
+        <h2 id='linkkeja'>Hyödyllisiä linkkejä</h2>
 
         <div className={style.table}>
             <div className={style.list}>
