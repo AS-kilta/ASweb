@@ -8,7 +8,7 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout pageContext={pageContext} title="Fuksi 2023" lead="Fuksiopas sisältää kaiken, mitä sinun tarvitsee tietää tulevasta opiskelijaelämästä ja AS-killasta.">
       <div style={{width: "100%"}}>
-        <a className={style.rounded + " rounded-button"}
+        <a style={{marginBlock: "1rem"}} className="rounded-button"
           target="_blank" href="https://drive.google.com/file/d/14Ew0gsN5HKbIRWwXVne50ICVLe5d35TC/view?usp=sharing">
             Lataa PDF
         </a>
