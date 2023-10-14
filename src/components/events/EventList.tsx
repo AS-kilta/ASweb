@@ -66,7 +66,7 @@ const EventList: React.FC<{number: number, lang: string}> = ({ number=5, lang="f
             : { ...dateOptions, ...timeOptions};
         return (
             <li className={style.eventListItem}>
-                <div className={style.date}>{event.start.getDate()}.{event.start.getMonth()}.</div>
+                <div className={style.date}>{event.start.getDate()}.{event.start.getMonth()+1}.</div>
                 <div>
                     <div className={style.summary}>{event.summary}</div>
                     <time>{event.start.toLocaleString(lang, datetimeOptions)}</time>
