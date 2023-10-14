@@ -38,12 +38,7 @@ const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
           background={background}
           heroHeight={heroHeight}
       >
-          <MDXProvider components={{
-              h1: (props) => <h1 {...props} id={createSlug(props.children as string, slugs)} className="pageHeading1 underline"/>,
-              h2: (props) => <h2 {...props} id={createSlug(props.children as string, slugs)} className="pageHeading2" />,
-              h3: (props) => <h3 {...props} id={createSlug(props.children as string, slugs)} className="pageHeading3" />,
-              h4: (props) => <h4 {...props} id={createSlug(props.children as string, slugs)} className="pageHeading4" />
-          }}>
+          <MDXProvider>
               {children}
           </MDXProvider>
       </PageLayout>
