@@ -13,11 +13,9 @@
     background: $natural-white;
     
     width: calc(100% - 4rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     :where(& > *) {
-        max-width: 900px
+        max-width: 900px;
+        margin-inline: auto;
     }
 }
