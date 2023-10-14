@@ -14,11 +14,9 @@ const CircleCard: React.FC<CCard> = ( {title, link, targetSelf} ) => {
 
     return(
         <circle className={style.badge}>
-            <text className={style.badgeText}>
-                <a href={link} target={target} className={style.badgeLink}>
-                    {title}
-                </a>
-            </text>
+            <a href={link} target={target}>
+                {title}
+            </a>
         </circle>
     )
 }
