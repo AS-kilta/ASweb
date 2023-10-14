@@ -80,7 +80,7 @@ const Footer: React.FC<{lang: string}> = ({ lang }) => {
         <div id={style.footer}>
             <div id={style.content}>
                 <div id={style.contact}>
-                    <h1 className={style.title}>{translations.contact[lang]}</h1>
+                    <div className={style.title}>{translations.contact[lang]}</div>
                     <p>Automaatio- ja systeemitekniikan kilta ry<br />
                     PL 15500<br />
                     00076 Aalto</p>
@@ -100,7 +100,7 @@ const Footer: React.FC<{lang: string}> = ({ lang }) => {
                     </div>
                 </div>
                 <div id={style.links}>
-                    <h1 className={style.title}>{translations.links[lang]}</h1>
+                    <div className={style.title}>{translations.links[lang]}</div>
                     <div>
                         <a href="https://forum.as.fi">{translations.forum[lang]}</a>
                         <a href="https://ilmo.as.fi">{translations.ilmo[lang]}</a>
@@ -108,7 +108,7 @@ const Footer: React.FC<{lang: string}> = ({ lang }) => {
                     </div>
                 </div>
                 <div id={style.partners}>
-                    <h1 className={style.title}>AS Partners</h1>
+                    <div className={style.title}>AS Partners</div>
                     <Sponsors />
                 </div>
             </div>
