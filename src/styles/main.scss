@@ -79,6 +79,16 @@ main a {
     color: inherit;
   }
 
+.button-reset {
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
 .rounded-button {
     display: block;
     width: fit-content;
