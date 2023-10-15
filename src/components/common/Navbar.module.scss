@@ -16,7 +16,6 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
     justify-content: space-between;
 }
 
-
 .dropdownToggle {
     align-items: center;
     color: $not-focused;
@@ -65,6 +64,12 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
     div a {
         display: block;
+    }
+
+    ul, li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -160,8 +165,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
         padding: 10px 20px;
     }
 
-    .naviLink:hover,
-    .naviLink.active {
+    .naviLink:hover {
         background: $accent-violet-2;
     }
 
@@ -198,7 +202,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
         padding-inline: calc((100% - 500px) / 2);
         order: 2;
     
-        animation: simpleYScale 150ms ease-out forwards;
+        animation: simpleYScale 100ms ease-out forwards;
         transform-origin: top center;
     }
     
