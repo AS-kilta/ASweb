@@ -1,0 +1,20 @@
+.logo {
+    max-width: 20rem;
+    max-height: 20rem;
+    padding: 2rem;
+    margin-inline: auto;
+}
+
+.logo g {
+    animation: spin linear 20s infinite;
+    transform-origin: center
+}
+
+@keyframes spin {
+    0 {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
