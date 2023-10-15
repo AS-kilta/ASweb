@@ -8,8 +8,8 @@ import EventList from "@src/components/events/EventList"
 import * as style from './index.module.scss'
 
 import heroimg from "../images/images/20201029195159-eef0d345-xx.jpg"
-import pohina1 from "../images/images/20210916110956-5b58846e-xx.jpg"
-import festival from "../images/images/20210916111426-b9d67578-xx.jpg"
+import pohina1 from "../images/images/karkki_kalle.jpg"
+import festival from "../images/images/20210917174935-70c53c15-xx.jpg"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
     return (
