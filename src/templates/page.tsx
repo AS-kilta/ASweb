@@ -5,7 +5,6 @@ import type { HeadFC } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 
 import PageLayout from "@src/components/layouts/PageLayout"
-import SeparatedHeading1 from "@src/components/common/SeparatedHeading1"
 import Meta from "@src/components/common/Meta"
 
 import { createSlug } from "./helpers/slugger"
@@ -28,7 +27,7 @@ interface Props extends PageProps {
 }
 
 const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
-  const { title, lead, background } = data.mdx.frontmatter
+  const { title, lead, background, heroHeight } = data.mdx.frontmatter
   const slugs: Slugs = {}
 
   return (
@@ -37,13 +36,9 @@ const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
           title={title}
           lead={lead}
           background={background}
+          heroHeight={heroHeight}
       >
-          <MDXProvider components={{
-              h1: (props) => <SeparatedHeading1 {...props} id={createSlug(props.children as string, slugs)} />,
-              h2: (props) => <h2 {...props} id={createSlug(props.children as string, slugs)} className="pageHeading2" />,
-              h3: (props) => <h3 {...props} id={createSlug(props.children as string, slugs)} className="pageHeading3" />,
-              h4: (props) => <h4 {...props} id={createSlug(props.children as string, slugs)} className="pageHeading4" />
-          }}>
+          <MDXProvider>
               {children}
           </MDXProvider>
       </PageLayout>
@@ -60,6 +55,7 @@ export const query = graphql`
         title
         lead
         background
+        heroHeight
       }
     }
   }

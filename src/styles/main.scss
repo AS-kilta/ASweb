@@ -16,31 +16,51 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: $font-heading;
+    margin-bottom: 0.5em;
 }
 
-.pageHeading1, .pageHeading2, .pageHeading3, .pageHeading4 {
-    text-align: center;
-}
-
-.pageHeading1 {
-    font-size: 35px;
+h1 {
+    font-size: 4rem;
     font-weight: 500;
 }
 
-.pageHeading2 {
-    font-size: 25px;
+h2 {
+    font-size: 3rem;
     font-weight: 400;
 }
 
-.pageHeading3 {
-    font-size: 20px;
-    font-weight: 400;
+h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
 }
 
-.pageHeading4 {
-    font-size: 20px;
-    font-weight: 400;
+h4 {
+    font-size: 2rem;
+    font-weight: 300;
 }
+
+.underline-decorator {
+    width: fit-content;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        background: purple;
+        height: 0.08em;
+        width: 100%;
+        inset-inline: 0;
+        bottom: -0.3em;
+        max-width: 7rem;
+        margin-inline: auto;
+    }
+}
+
+.underline {
+    margin: 1.2em 0 0.5em;
+    border-bottom: 3px solid;
+    padding-bottom: 0.2em;
+  }
 
 ul, ol, dl {
     line-height: 1.5;
@@ -50,9 +70,20 @@ ul, ol, dl {
     }
 }
 
+p {
+    line-height: 1.6;
+}
+
+main a {
+    font-weight: bold;
+    color: inherit;
+  }
+
 .rounded-button {
-    padding: 0.5em 1em;
-    border-radius: 1rem;
+    display: block;
+    width: fit-content;
+    padding: 1em 1.5em;
+    border-radius: 9999px;
     color: white;
     background-color: $as-violet-1;
     font-weight: 700;
@@ -64,18 +95,11 @@ ul, ol, dl {
     flex-wrap: wrap;
 }
 
-p {
-    max-width: 70ch;
-    line-height: 1.6;
-}
-
-.full-width-bg {
-    box-sizing: border-box;
-    width: 100vw;
-    padding-inline: calc((100vw - 100%) / 2);
-    margin-inline: calc((100vw - 100%) / -2);
-}
-
 .hideoverflow {
     overflow: hidden;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
 }

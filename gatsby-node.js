@@ -32,10 +32,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         nodes {
           id
           frontmatter {
-            title
             layout
-            lead
-            background
           }
           fields {
             slug
@@ -117,6 +114,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       layout: String
       lead: String
       background: String
+      heroHeight: String
     }
   `
   createTypes(typeDefs)

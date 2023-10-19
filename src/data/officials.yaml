@@ -2,877 +2,911 @@
     fi: "Fuksitoimikunta"
     en: "Fuksi Committee"
   members:
-    - name: "Joonas Törmälä"
+    - name: "Leevi Hormaluoma"
       title:
         - fi: "Fuksikapteeni"
           en: "Fuksi Captain"
-      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
+      picture: "https://as.fi/static/toimijat/2023/leevi_hormaluoma.jpg"
       leader: true
-    - name: "Arttu Pahta"
+    - name: "Tuomas Nykänen"
       title:
         - fi: "Fuksikapteeni"
           en: "Fuksi Captain"
-        - fi: "Tosi ISOpomo"
-          en: "Great ISO Boss"
-      picture: "https://as.fi/static/toimijat/2022/arttu_pahta.jpg"
+      picture: "https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg"
       leader: true
-    - name: "Kalle Rantala"
+    - name: "Anthony Reineck"
       title:
-        - fi: "SuurFuksikapteeni"
-          en: "Great Fuksi Captain"
-      picture: "https://as.fi/static/toimijat/2022/kalle_rantala.jpg"
-    - name: "Veera Ihalainen"
+        - fi: "Master's and International Student Captain (MISC)"
+          en: "Master's and International Student Captain (MISC)"
+      picture: "https://as.fi/static/toimijat/2023/anthony_reineck.jpg"
+    - name: "Maria Saranpää"
       title:
-        - fi: "SuurFuksikapteeni"
-          en: "Great Fuksi Captain"
-      picture: "https://as.fi/static/toimijat/2021/veera_ihalainen.jpg"
-    - name: "Veeti Kahilainen"
+        - fi: "ISOpomo"
+          en: "ISOboss"
+      picture: "https://as.fi/static/toimijat/2023/maria_saranpaa.jpg"
+    - name: "Beatriz Glaser"
       title:
-        - fi: "Senior Master's and International Student Captain (Old)"
-          en: "Senior Master's and International Student Captain (Old)"
-      picture: "https://as.fi/static/toimijat/2021/veeti_kahilainen.jpg"
-    - name: "Axel Åberg"
-      title:
-        - fi: "Tosi-ISO"
-          en: "ReallyISO"
-      picture: "https://as.fi/static/toimijat/2022/axel_aberg.jpg"
-    - name: "Lotta Makkonen"
+        - fi: "DSDeputy"
+          en: "DSDeputy"
+      picture: "https://as.fi/static/toimijat/2022/beatriz_glaser.jpg"
+    - name: "Mimi Määttä"
       title:
         - fi: "Tosi-ISO"
-          en: "ReallyISO"
-      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
-    - name: "Katarina Pichna"
+          en: "Really ISO"
+      picture: "https://as.fi/static/toimijat/2023/mimi_maatta_2.jpg"
+    - name: "Tiitus Mustajoki"
       title:
         - fi: "Tosi-ISO"
-          en: "ReallyISO"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+          en: "Really ISO"
+      picture: "https://as.fi/static/toimijat/2023/tiitus_mustajoki.jpg"
     - name: "Pessi Lyytikäinen"
       title:
         - fi: "Tosi-ISO"
-          en: "ReallyISO"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Erkka Multanen"
+          en: "Really ISO"
+      picture: "https://as.fi/static/toimijat/2023/pessi_lyytikainen_2.jpg"
+    - name: "Mikko Vanhanen"
       title:
         - fi: "Tosi-ISO"
-          en: "ReallyISO"
-      picture: "https://as.fi/static/toimijat/2022/erkka_multanen.jpg"
+          en: "Really ISO"
+      picture: "https://as.fi/static/toimijat/2023/mikko_vanhanen.jpg"
+    - name: "Sophia Lee"
+      title:
+        - fi: "Tosi-ISO"
+          en: "Really ISO"
+      picture: "https://as.fi/static/toimijat/2023/sophia_lee.jpg"
+
+    - name: "Arttu Pahta"
+      title:
+        - fi: "SuurFuksikapteeni"
+          en: "Great Fuksi Captain"
+      picture: "https://as.fi/static/toimijat/2022/arttu_pahta.jpg"
+    - name: "Joonas Törmälä"
+      title:
+        - fi: "SuurFuksikapteeni"
+          en: "Great Fuksi Captain"
+      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
+    - name: "Oskari Helosuo"
+      title:
+        - fi: "Senior Executive Master's and International Student Captain (SEMISC)"
+          en: "Senior Executive Master's and International Student Captain (SEMISC)"
+      picture: "https://as.fi/static/toimijat/2023/oskari_helosuo.jpg"
+    - name: "Leevi Hormaluoma"
+      title:
+        - fi: "IIIIISOpomo"
+          en: "IIIIISO Boss"
+      picture: "https://as.fi/static/toimijat/2023/leevi_hormaluoma_2.jpg"
+    - name: "Lotta Makkonen"
+      title:
+        - fi: "Himo-ISO"
+          en: "REALLY ISO"
+      picture: "https://as.fi/static/toimijat/2023/lotta_makkonen.jpg"
+    - name: "Katarina Pichna"
+      title:
+        - fi: "Himo-ISO"
+          en: "REALLY ISO"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Pessi Lyytikäinen"
+      title:
+        - fi: "Himo-ISO"
+          en: "REALLY ISO"
+      picture: "https://as.fi/static/toimijat/2023/pessi_lyytikainen_2.jpg"
+    - name: "Erkka Multanen"
+      title:
+        - fi: "Himo-ISO"
+          en: "REALLY ISO"
+      picture: "https://as.fi/static/toimijat/2023/erkka_multanen.jpg"
 
 - name:
     fi: "Opintotoimikunta"
     en: "Study Committee"
   members:
-    - name: "Pinja Mäkeläinen"
+    - name: "Maria Salmensaari"
       title:
         - fi: "Opintomestari"
           en: "Master of Studies"
-      picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/maria_salmensaari.jpg"
       leader: true
-    - name: "Juho Määttä"
+    - name: "Emil Huttunen"
+      title:
+        - fi: "Hallopedi"
+          en: "Halloped"
+      picture: "https://as.fi/static/toimijat/2022/emil_huttunen.jpg"
+    - name: "Panu Tamminen"
+      title:
+        - fi: "Hallopedi"
+          en: "Halloped"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Elias Haarnoja"
+      title:
+        - fi: "Hallopedi"
+          en: "Halloped"
+      picture: "https://as.fi/static/toimijat/2022/elias_haarnoja.jpg"
+    - name: "Akseli Konttas"
+      title:
+        - fi: "Hallopedi"
+          en: "Halloped"
+      picture: "https://as.fi/static/toimijat/2023/akseli_konttas.jpg"
+    - name: "Arttu Pahta"
+      title:
+        - fi: "Hallopedi"
+          en: "Halloped"
+      picture: "https://as.fi/static/toimijat/2023/arttu_pahta_2.jpg"
+    - name: "Joonas Törmälä"
+      title:
+        - fi: "Hallopedi"
+          en: "Halloped"
+      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
+    - name: "Apollo Ailus"
+      title:
+        - fi: "Hallopedi"
+          en: "Halloped"
+      picture: "https://as.fi/static/toimijat/2023/apollo_ailus.jpg"
+    - name: "Mikaela Rautavirta"
+      title:
+        - fi: "Absintti"
+          en: "Absinth"
+      picture: "https://as.fi/static/toimijat/2023/mikaela_rautavirta.jpg"
+    - name: "Miikka Joutsela"
+      title:
+        - fi: "Absintti"
+          en: "Absinth"
+      picture: "https://as.fi/static/toimijat/2023/miikka_joutsela.jpg"
+    - name: "Apollo Ailus"
+      title:
+        - fi: "Absintti"
+          en: "Absinth"
+      picture: "https://as.fi/static/toimijat/2023/apollo_ailus.jpg"
+    - name: "Iida Jauhola"
       title:
         - fi: "Automaatti"
           en: "Automaton"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Juho Kerminen"
+      picture: "https://as.fi/static/toimijat/2023/iida_jauhola_2.jpg"
+    - name: "Onni Bernström"
       title:
         - fi: "Informaatti"
           en: "Informant"
-      picture: "https://as.fi/static/toimijat/2022/juho_kerminen.jpg"
-    - name: "Apollo Ailus"
+      picture: "https://as.fi/static/toimijat/2023/onni_bernstrom.jpg"
+    - name: "Hajiba Legrara"
       title:
         - fi: "DSDeetti"
           en: "DSDent"
-      picture: "https://as.fi/static/toimijat/2022/apollo_ailus.jpg"
-    - name: "Khanh Nguyen"
-      title:
-        - fi: "DSDeetti"
-          en: "DSDent"
-      picture: "https://as.fi/static/toimijat/2022/khanh_nguyen.jpg"
-    - name: "Santeri Sipilä"
+      picture: "https://as.fi/static/toimijat/2023/hajiba_legrara.jpg"
+    - name: "Meri Hiipakka"
       title:
         - fi: "Maisteri-informaatti"
           en: "Master's Informant"
-        - fi: "Opintowanhus"
-          en: "Opintowanhus"
-      picture: "https://as.fi/static/toimijat/2021/santeri_sipila.jpg"
-    - name: "Lasse Wittke"
+      picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
+    - name: "Tapani Pärssinen"
       title:
         - fi: "Maisteri-automaatti"
           en: "Master's Automaton"
-      picture: "https://as.fi/static/toimijat/2022/lasse_wittke.jpg"
-    - name: "Henri Toivola"
+      picture: "https://as.fi/static/toimijat/2020/tapani_parssinen.jpg"
+    - name: "Pinja Mäkeläinen"
       title:
-        - fi: "SAS-yhdyshenkilö"
-          en: "SAS contact person"
-      picture: "https://as.fi/static/toimijat/2021/henri_toivola.jpg"
-
-- name:
-    fi: "Abitoimikunta"
-    en: "Abitoimikunta"
-  members:
-    - name: "Nadja Jensen"
-      title:
-        - fi: "Abimarkkinointivastaava"
-          en: "Abimarkkinointivastaava"
-      picture: "https://as.fi/static/toimijat/2022/nadja_jensen.jpg"
-      leader: true
-    - name: "Aaro Saastamoinen"
-      title:
-        - fi: "Abisintti"
-          en: "Abisintti"
-      picture: "https://as.fi/static/toimijat/2022/aaro_saastamoinen.jpg"
-    - name: "Veera Ihalainen"
-      title:
-        - fi: "Abisintti"
-          en: "Abisintti"
-      picture: "https://as.fi/static/toimijat/2021/veera_ihalainen.jpg"
-    - name: "Emil Huttunen"
-      title:
-        - fi: "Abisintti"
-          en: "Abisintti"
-      picture: "https://as.fi/static/toimijat/2022/emil_huttunen.jpg"
-    - name: "Sakari Ropponen"
-      title:
-        - fi: "Abisintti"
-          en: "Abisintti"
-      picture: "https://as.fi/static/toimijat/2022/sakari_ropponen.jpg"
+        - fi: "Opintowanhus"
+          en: "Opintowanhus"
+      picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
 
 - name:
     fi: "Kulttuuritoimikunta"
     en: "Cultural Affairs Committee"
   members:
-    - name: "Juha Lehto"
+    - name: "Lotta Makkonen"
       title:
         - fi: "Kulttuurimestari"
           en: "Master of Culture"
-      picture: "https://as.fi/static/toimijat/2022/juha_lehto.jpg"
+      picture: "https://as.fi/static/toimijat/2023/lotta_makkonen.jpg"
       leader: true
-    - name: "Joonas Törmälä"
-      title:
-        - fi: "Kulttuuriartesaani"
-          en: "Culture artisan"
-      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
-    - name: "Elias Haarnoja"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/elias_haarnoja.jpg"
-    - name: "Rosa Phan"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/rosa_phan.jpg"
-    - name: "Lotta Makkonen"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
-    - name: "Sannina Honkaharju"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/sannina_honkaharju.jpg"
     - name: "Jaakko Heikkinen"
       title:
-        - fi: "Kulttuurikisälli"
+        - fi: "Kultsi"
           en: "Cultural Journeyperson"
       picture: "https://as.fi/static/toimijat/2021/jaakko_heikkinen.jpg"
-    - name: "Tuomas Nykänen"
+    - name: "Ariana Marta"
       title:
-        - fi: "Kulttuurikisälli"
+        - fi: "Kultsi"
           en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/tuomas_nykanen.jpg"
-    - name: "Peetu Vuorela"
+      picture: "https://as.fi/static/toimijat/2023/ariana_marta.jpg"
+    - name: "Kiira Metsoila"
       title:
-        - fi: "Kulttuurikisälli"
+        - fi: "Kultsi"
           en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/peetu_vuorela.jpg"
+      picture: "https://as.fi/static/toimijat/2023/kiira_metsoila_2.jpg"
+    - name: "Antti Tiusanen"
+      title:
+        - fi: "Kultsi"
+          en: "Cultural Journeyperson"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Aleksanteri Pitkenin"
+      title:
+        - fi: "Kultsi"
+          en: "Cultural Journeyperson"
+      picture: "https://as.fi/static/toimijat/2023/aleksanteri_pitkenin.jpg"
+    - name: "Joonas Törmälä"
+      title:
+        - fi: "Kultsi"
+          en: "Cultural Journeyperson"
+      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
+    - name: "Pinja Mäkeläinen"
+      title:
+        - fi: "Kultsi"
+          en: "Cultural Journeyperson"
+      picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
+    - name: "Elias Haarnoja"
+      title:
+        - fi: "Kultsi"
+          en: "Cultural Journeyperson"
+      picture: "https://as.fi/static/toimijat/2022/elias_haarnoja.jpg"
     - name: "Mohammad Shahidul"
       title:
-        - fi: "Kulttuurikisälli"
+        - fi: "Kultsi"
           en: "Cultural Journeyperson"
       picture: "https://as.fi/static/toimijat/2022/mohammad_shahidul.jpg"
-    - name: "Emilia Kuisma"
+    - name: "Paavo Nissinen"
       title:
-        - fi: "Kulttuurikisälli"
+        - fi: "Kultsi"
           en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2021/emilia_kuisma.jpg"
-    - name: "Veeti Kahilainen"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Nia Lehtonen"
       title:
-        - fi: "Kulttuurikisälli"
+        - fi: "Kultsi"
           en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2021/veeti_kahilainen.jpg"
-    - name: "Marcell Berta"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/marcel_berta.jpg"
-    - name: "Mimi Määttä"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/mimi_maatta.jpg"
-    - name: "Beatriz Glaser"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/beatriz_glaser.jpg"
-    - name: "Elina Leiniö"
-      title:
-        - fi: "Kulttuurikisälli"
-          en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/elina_leinio.jpg"
+      picture: "https://as.fi/static/toimijat/2022/nia_lehtonen.jpg"
     - name: "Laura Häkkinen"
       title:
-        - fi: "Kulttuurikisälli"
+        - fi: "Kultsi"
           en: "Cultural Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/laura_hakkinen.jpg"
-    - name: "Vesta Kulomaa"
+      picture: "https://as.fi/static/toimijat/2023/laura_hakkinen.jpg"
+    - name: "Roope Järvinen"
       title:
-        - fi: "Seniilisihteeri"
-          en: "Senile Secretary"
-      picture: "https://as.fi/static/toimijat/2021/vesta_kulomaa.jpg"
+        - fi: "Wappuministeri"
+          en: "Wappu Minister"
+      picture: "https://as.fi/static/toimijat/2022/roope_jarvinen.jpg"
+    - name: "Ville Hakoniemi"
+      title:
+        - fi: "Wappuministeri"
+          en: "Wappu Minister"
+      picture: "https://as.fi/static/toimijat/2021/ville_hakoniemi.jpg"
+    - name: "Mikko Hokkanen"
+      title:
+        - fi: "Jäykkäranne"
+          en: "Jäykkäranne"
+      picture: "https://as.fi/static/toimijat/2019/mikko_hokkanen_19.jpg"
 
 - name:
     fi: "Liikuntatoimikunta"
     en: "Sports Committee"
   members:
-    - name: "Ville Hakoniemi"
+    - name: "Elias Haarnoja"
       title:
         - fi: "Liikuntavastaava"
           en: "Master of Sports"
-      picture: "https://as.fi/static/toimijat/2021/ville_hakoniemi.jpg"
+      picture: "https://as.fi/static/toimijat/2022/elias_haarnoja.jpg"
       leader: true
     - name: "Mohammad Shahidul"
       title:
         - fi: "Liikkuja"
           en: "Sports Manager"
       picture: "https://as.fi/static/toimijat/2022/mohammad_shahidul.jpg"
-    - name: "Tõnis Pärtel"
+    - name: "Akseli Leino"
       title:
         - fi: "Liikkuja"
           en: "Sports Manager"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Leevi Hormaluoma"
+      picture: "https://as.fi/static/toimijat/2023/akseli_leino.jpg"
+    - name: "Meri Hildén"
       title:
         - fi: "Liikkuja"
           en: "Sports Manager"
-      picture: "https://as.fi/static/toimijat/2022/leevi_hormaluoma.jpg"
+      picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
     - name: "Aleksi Palomäki"
       title:
         - fi: "Liikkuja"
           en: "Sports Manager"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+      picture: "https://as.fi/static/toimijat/2023/aleksi_palomaki.jpg"
+    - name: "Iida Jauhola"
+      title:
+        - fi: "Liikkuja"
+          en: "Sports Manager"
+      picture: "https://as.fi/static/toimijat/2023/iida_jauhola_2.jpg"
+    - name: "Jenny Ruokolainen"
+      title:
+        - fi: "Liikkuja"
+          en: "Sports Manager"
+      picture: "https://as.fi/static/toimijat/2023/jenny_ruokolainen.jpg"
+    - name: "Meri Hiipakka"
+      title:
+        - fi: "Liikkuja"
+          en: "Sports Manager"
+      picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
+    - name: "Miikka Joutsela"
+      title:
+        - fi: "Liikkuja"
+          en: "Sports Manager"
+      picture: "https://as.fi/static/toimijat/2023/miikka_joutsela.jpg"
+    - name: "Joonas Törmälä"
+      title:
+        - fi: "Liikkuja"
+          en: "Sports Manager"
+      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
 
 - name:
     fi: "Huvitoimikunta"
     en: "Entertainment Committee"
   members:
-    - name: "Kiira Metsoila"
-      title:
-        - fi: "Isäntä"
-          en: "Host"
-      picture: "https://as.fi/static/toimijat/2022/kiira_metsoila_uusi.jpg"
-      leader: true
-    - name: "Jimi Oksman"
+    - name: "Elina Leiniö"
       title:
         - fi: "Emäntä"
           en: "Hostess"
-      picture: "https://as.fi/static/toimijat/2022/jimi_oksman.jpg"
+      picture: "https://as.fi/static/toimijat/2023/elina_leinio.jpg"
       leader: true
-    - name: "Juuso Määttä"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/juuso_maatta.jpg"
-    - name: "Lotta Makkonen"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
-    - name: "Elias Erke"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2021/elias_erke.jpg"
-    - name: "Elina Leiniö"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/elina_leinio.jpg"
-    - name: "Axel Åberg"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/axel_aberg.jpg"
-    - name: "Laura Häkkinen"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/laura_hakkinen.jpg"
-    - name: "Arttu Pahta" 
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/arttu_pahta.jpg"
-    - name: "Akseli Konttas"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/akseli_konttas.jpg"
-    - name: "Veera Ihalainen"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2021/veera_ihalainen.jpg"
-    - name: "Rosa Phan"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/rosa_phan.jpg"
-    - name: "Jaakko Heikkinen"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2021/jaakko_heikkinen.jpg"
-    - name: "Petteri Lahkela"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/petteri_lahkela.jpg"
-    - name: "Tõnis Pärtel"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Sannina Honkaharju"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/sannina_honkaharju.jpg"
-    - name: "Aaro Saastamoinen"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/aaro_saastamoinen.jpg"
     - name: "Emilia Kuisma"
       title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2021/emilia_kuisma.jpg"
-    - name: "Maria Salmensaari"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Maria Saranpää"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Nia Lehtonen"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/nia_lehtonen.jpg"
+        - fi: "Isäntä"
+          en: "Host"
+      picture: "https://as.fi/static/toimijat/2023/emilia_kuisma.jpg"
+      leader: true
     - name: "Onni Bernström"
       title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/onni_bernstrom.jpg"
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/onni_bernstrom.jpg"
+    - name: "Laura Häkkinen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/laura_hakkinen.jpg"
+    - name: "Iida Jauhola"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/iida_jauhola_2.jpg"
+    - name: "Emilia Junnonen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/emilia_junnonen.jpg"
+    - name: "Eeva Järvenpää"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/eeva_jarvenpaa.jpg"
+    - name: "Leena Jääskeläinen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/leena_jaaskelainen.jpg"
+    - name: "Viivi-Maari Kallinen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2021/viivi-maari_kallinen.jpg"
+    - name: "Janina Kemppainen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/janina_kemppainen.jpg"
+    - name: "Leila Lavonen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/leila_lavonen.jpg"
+    - name: "Nia Lehtonen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2022/nia_lehtonen.jpg"
+    - name: "Pessi Lyytikäinen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/pessi_lyytikainen_2.jpg"
+    - name: "Ariana Marta"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/ariana_marta.jpg"
+    - name: "Erkka Multanen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/erkka_multanen.jpg"
+    - name: "Pinja Mäkeläinen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
+    - name: "Paavo Nissinen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Arttu Pahta"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/arttu_pahta_2.jpg"
+    - name: "Tõnis Pärtel"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/tonis_partel.jpg"
+    - name: "Aleksanteri Pitkenin"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/aleksanteri_pitkenin.jpg"
+    - name: "Antti Tiusanen"
+      title:
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
     - name: "Annina Toimela"
       title:
-        - fi: "MinIEn"
-          en: "MinIEn"
+        - fi: "MinIEns"
+          en: "MinIEns"
       picture: "https://as.fi/static/toimijat/2022/annina_toimela.jpg"
-    - name: "Beatriz Glaser"
+    - name: "Mikko Vanhanen"
       title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/beatriz_glaser.jpg"
-    - name: "Kabir Bissessar"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/kabir_bissessar.jpg"
-    - name: "Apollo Ailus"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/apollo_ailus.jpg"
-    - name: "Linda Åström"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/linda_astrom.jpg"
-    - name: "Susanna Vilkka"
-      title:
-        - fi: "MinIEn"
-          en: "MinIEn"
-      picture: "https://as.fi/static/toimijat/2022/susanna_vilkka.jpg"
+        - fi: "MinIEns"
+          en: "MinIEns"
+      picture: "https://as.fi/static/toimijat/2023/mikko_vanhanen.jpg"
 
 - name:
     fi: "Lukkaritoimikunta"
     en: "Song Leader Committee"
   members:
-    - name: "Jenna Kerkkänen"
+    - name: "Kalle Rantala"
       title:
         - fi: "Lukkarimestari"
           en: "Master Song Leader"
-      picture: "https://as.fi/static/toimijat/2020/jenna_kerkkanen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/kalle_rantala.jpg"
       leader: true
-    - name: "Apollo Ailus"
+    - name: "Erkka Multanen"
       title:
         - fi: "Lukkari"
           en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/apollo_ailus.jpg"
-    - name: "Onni Bernström"
+      picture: "https://as.fi/static/toimijat/2023/erkka_multanen.jpg"
+    - name: "Tiitus Mustajoki"
       title:
         - fi: "Lukkari"
           en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/onni_bernstrom.jpg"
+      picture: "https://as.fi/static/toimijat/2023/tiitus_mustajoki.jpg"
+    - name: "Aaro Saastamoinen"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2023/aaro_saastamoinen.jpg"
+    - name: "Henrik Starck"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2023/henrik_starck.jpg"
+    - name: "Tõnis Pärtel"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2023/tonis_partel.jpg"
+    - name: "Ariana Marta"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2023/ariana_marta.jpg"
+    - name: "Marcell Berta"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2021/marcell_berta.jpg"
+    - name: "Juho Komulainen"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2023/juho_komulainen.jpg"
+    - name: "Verneri Hakkarainen"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2023/verneri_hakkarainen.jpg"
+    - name: "Roope Järvinen"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2022/roope_jarvinen.jpg"
+    - name: "Jenna Kerkkänen"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/2020/jenna_kerkkanen.jpg"
+    - name: "Patrick Linnanen"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
     - name: "Ville Hakoniemi"
       title:
         - fi: "Lukkari"
           en: "Song Leader"
       picture: "https://as.fi/static/toimijat/2021/ville_hakoniemi.jpg"
-    - name: "Aku Heinonen"
+    - name: "Apollo Ailus"
       title:
         - fi: "Lukkari"
           en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2021/aku_heinonen.jpg"
-    - name: "Juho Kerminen"
+      picture: "https://as.fi/static/toimijat/2023/apollo_ailus.jpg"
+    - name: "Fernanda Jokinen"
       title:
         - fi: "Lukkari"
           en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/juho_kerminen.jpg"
-    - name: "Ville Lähteenkorva"
-      title:
-        - fi: "Lukkari"
-          en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/ville_lahteenkorva.jpg"
-    - name: "Erkka Multanen"
-      title:
-        - fi: "Lukkari"
-          en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/erkka_multanen.jpg"
-    - name: "Tuomas Nykänen"
-      title:
-        - fi: "Lukkari"
-          en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/tuomas_nykanen.jpg"
-    - name: "Arttu Rintala"
-      title:
-        - fi: "Lukkari"
-          en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/arttu_rintala.jpg"
-    - name: "Axel Åberg"
-      title:
-        - fi: "Lukkari"
-          en: "Song Leader"
-      picture: "https://as.fi/static/toimijat/2022/axel_aberg.jpg"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
 
 - name:
     fi: "ASkitoimikunta"
     en: "ASki Committee"
   members:
-    - name: "Sakari Ropponen"
+    - name: "Meri Hildén"
       title:
         - fi: "ASkimestari"
-          en: "ASkimaster"
-      picture: "https://as.fi/static/toimijat/2022/sakari_ropponen.jpg"
+          en: "ASkiMaster"
+      picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
       leader: true
-    - name: "Akseli Konttas"
+    - name: "Veera Ihalainen"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2022/akseli_konttas.jpg"
-    - name: "Tiia-Maria Hyvönen"
+      picture: "https://as.fi/static/toimijat/2021/veera_ihalainen.jpg"
+    - name: "Lotta Makkonen"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2020/tiia_hyvonen.jpg"
-    - name: "Emil Huttunen"
+      picture: "https://as.fi/static/toimijat/2023/lotta_makkonen.jpg"
+    - name: "Joonas Törmälä"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2022/emil_huttunen.jpg"
-    - name: "Marcell Berta"
+      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
+    - name: "Elina Leiniö"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2022/marcel_berta.jpg"
-    - name: "Jakob Sjöblom"
+      picture: "https://as.fi/static/toimijat/2023/elina_leinio.jpg"
+    - name: "Emil Lintunen"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2022/jakob_sjoblom.jpg"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
     - name: "Juho Kerminen"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
       picture: "https://as.fi/static/toimijat/2022/juho_kerminen.jpg"
-    - name: "Zhibin Yan"
+    - name: "Jimi Oksman"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2022/zhibin_yan.jpg"
+      picture: "https://as.fi/static/toimijat/2023/jimi_oksman.jpg"
     - name: "Pinja Mäkeläinen"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
       picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
-    - name: "Henri Toivola"
+    - name: "Meri Hiipakka"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2021/henri_toivola.jpg"
-    - name: "Veeti Kahilainen"
+      picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
+    - name: "Zhibin Yan"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2021/veeti_kahilainen.jpg"
-    - name: "Mohammad Shahidul"
+      picture: "https://as.fi/static/toimijat/2020/zhibin_yan.jpg"
+    - name: "Janina Kemppainen"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2022/mohammad_shahidul.jpg"
-    - name: "Mimi Määttä"
+      picture: "https://as.fi/static/toimijat/2023/janina_kemppainen.jpg"
+    - name: "Eeva Järvenpää"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "https://as.fi/static/toimijat/2022/mimi_maatta.jpg"
-    - name: "Taavi Oja"
+      picture: "https://as.fi/static/toimijat/2023/eeva_jarvenpaa.jpg"
+    - name: "Elias Haarnoja"
       title:
-        - fi: "Takapihajumala"
-          en: "Backyard God"
-      picture: "https://as.fi/static/toimijat/2021/taavi_oja.jpg"
+        - fi: "ASkivahti"
+          en: "ASki Guardian"
+      picture: "https://as.fi/static/toimijat/2022/elias_haarnoja.jpg"
+    - name: "Kiira Metsoila"
+      title:
+        - fi: "Vakooja"
+          en: "Vakooja"
+      picture: "https://as.fi/static/toimijat/2023/kiira_metsoila_2.jpg"
 
 - name:
     fi: "Yrityssuhdetoimikunta"
     en: "Corporate Relations Committee"
   members:
-    - name: "Roope Järvinen"
+    - name: "Lucas Käldström"
       title:
         - fi: "Yrityssuhdevastaava"
           en: "Head of Corporate Relations"
-      picture: "https://as.fi/static/toimijat/2022/roope_jarvinen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg"
       leader: true
-    - name: "Aino Valkama"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2022/aino_valkama.jpg"
-    - name: "Santeri Sipilä"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2021/santeri_sipila.jpg"
-    - name: "Miska Mynttinen"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2022/miska_mynttinen.jpg"
-    - name: "Linda Åström"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2022/linda_astrom.jpg"
     - name: "Susanna Vilkka"
       title:
-        - fi: "Account Manager"
-          en: "Account Manager"
+        - fi: "Varayrityssuhdevastaava"
+          en: "Assistant Head of Corporate Relations"
       picture: "https://as.fi/static/toimijat/2022/susanna_vilkka.jpg"
-    - name: "Lasse Wittke"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2022/lasse_wittke.jpg"
-    - name: "Matias Vapola"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-        - fi: "rrrRankkavastaava"
-          en: "rrrRankka Correspondent"
-      picture: "https://as.fi/static/toimijat/2022/matias_vapola.jpg"
-    - name: "Nia Lehtonen"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2022/nia_lehtonen.jpg"
-    - name: "Antti Regelin"
-      title:
-        - fi: "Account Manager"
-          en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2021/antti_regelin.jpg"
     - name: "Beatriz Glaser"
       title:
         - fi: "Account Manager"
           en: "Account Manager"
       picture: "https://as.fi/static/toimijat/2022/beatriz_glaser.jpg"
-    - name: "Henrik Turtinen"
+    - name: "Hajiba Legrara"
       title:
         - fi: "Account Manager"
           en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2022/henrik_turtinen.jpg"
-    - name: "Lucas Käldström"
+      picture: "https://as.fi/static/toimijat/2023/hajiba_legrara.jpg"
+    - name: "Samuel Mikkola"
       title:
         - fi: "Account Manager"
           en: "Account Manager"
-      picture: "https://as.fi/static/toimijat/2022/lucas_kaldstrom.jpg"
-    - name: "Antti Lehtinen"
-      title:
-        - fi: "rrrRankkavastaava"
-          en: "rrrRankka Correspondent"
       picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Aku Heinonen"
+    - name: "Noora Virtanen"
       title:
-        - fi: "Yrityssuhdeneuvonantaja"
-          en: "Corporate Relations Correspondent"
-      picture: "https://as.fi/static/toimijat/2021/aku_heinonen.jpg"
-    - name: "Henri Toivola"
+        - fi: "Account Manager"
+          en: "Account Manager"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Viljami Pirttijärvi"
       title:
-        - fi: "TEK-yhdyshenkilö"
-          en: "TEK contact person"
-      picture: "https://as.fi/static/toimijat/2021/henri_toivola.jpg"
+        - fi: "Account Manager"
+          en: "Account Manager"
+      picture: "https://as.fi/static/toimijat/2023/viljami_pirttijarvi.jpg"
+    - name: "Mikaela Rautavirta"
+      title:
+        - fi: "Account Manager"
+          en: "Account Manager"
+      picture: "https://as.fi/static/toimijat/2023/mikaela_rautavirta.jpg"
+    - name: "Santeri Hildén"
+      title:
+        - fi: "Account Manager"
+          en: "Account Manager"
+      picture: "https://as.fi/static/toimijat/2023/santeri_hilden.jpg"
+    - name: "Lauri Rasinen"
+      title:
+        - fi: "Account Manager"
+          en: "Account Manager"
+      picture: "https://as.fi/static/toimijat/2023/lauri_rasinen.jpg"
+    - name: "Nia Lehtonen"
+      title:
+        - fi: "AS25-vastaava"
+          en: "AS25-Liaison"
+      picture: "https://as.fi/static/toimijat/2022/nia_lehtonen.jpg"
+    - name: "Aino Valkama"
+      title:
+        - fi: "AS Puheenjohtaja"
+          en: "AS Chairperson"
+      picture: "https://as.fi/static/toimijat/2023/aino_valkama.jpg"
+    - name: "Linda Åström"
+      title:
+        - fi: "AS Rahastonhoitaja"
+          en: "AS Treasurer"
+      picture: "https://as.fi/static/toimijat/2023/linda_astrom.jpg"
+    - name: "Roope Järvinen"
+      title:
+        - fi: "Vanha yrityssuhdevastaava"
+          en: "Old Head of Corporate Relations"
+      picture: "https://as.fi/static/toimijat/2022/roope_jarvinen.jpg"
+    - name: "Pinja Mäkeläinen"
+      title:
+        - fi: "TEKSAS yhdyshenkilö"
+          en: "TEKSAS-liaison"
+      picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
 
 - name:
     fi: "Taloustoimikunta"
     en: "Finance Committee"
   members:
-    - name: "Lucas Käldström"
+    - name: "Linda Åström"
       title:
         - fi: "Rahastonhoitaja"
           en: "Treasurer"
-      picture: "https://as.fi/static/toimijat/2022/lucas_kaldstrom.jpg"
+      picture: "https://as.fi/static/toimijat/2023/linda_astrom.jpg"
       leader: true
-    - name: "Huy Do"
+    - name: "Susanna Vilkka"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Joona Harju"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Topias Malinen"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/topias_malinen.jpg"
-    - name: "Linda Åström"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/linda_astrom.jpg"
-    - name: "Matias Vapola"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/matias_vapola.jpg"
-    - name: "Thanh Vo"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Deepanker Kanjarla"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+        - fi: "RahASsistentti"
+          en: "ASsistant Treasurer"
+      picture: "https://as.fi/static/toimijat/2022/susanna_vilkka.jpg"
     - name: "David Rombach"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Mimi Määttä"
+        - fi: "Kolikonkiertäjä"
+          en: "Coin Collector"
+      picture: "https://as.fi/static/toimijat/2023/david_rombach.jpg"
+    - name: "Tõnis Pärtel"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/mimi_maatta.jpg"
-    - name: "Pinja Mäkeläinen"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
-    - name: "Rafael Majaharju"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Saku Kovanen"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Ville Eronen"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2019/ville_eronen_19.jpg"
+        - fi: "Kolikonkiertäjä"
+          en: "Coin Collector"
+      picture: "https://as.fi/static/toimijat/2023/tonis_partel.jpg"
     - name: "Kabir Bissessar"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
+        - fi: "Kolikonkiertäjä"
+          en: "Coin Collector"
       picture: "https://as.fi/static/toimijat/2022/kabir_bissessar.jpg"
-    - name: "Marcell Berta"
+    - name: "Jaakko Aalto"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/marcel_berta.jpg"
-    - name: "Laura Rautiainen"
+        - fi: "Kolikonkiertäjä"
+          en: "Coin Collector"
+      picture: "https://as.fi/static/toimijat/2023/jaakko_aalto.jpg"
+    - name: "Nia Lehtonen"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
+        - fi: "Kolikonkiertäjä"
+          en: "Coin Collector"
+      picture: "https://as.fi/static/toimijat/2022/nia_lehtonen.jpg"
+    - name: "Erkka Multanen"
+      title:
+        - fi: "Kolikonkiertäjä"
+          en: "Coin Collector"
+      picture: "https://as.fi/static/toimijat/2023/erkka_multanen.jpg"
+    - name: "Rafael Majaharju"
+      title:
+        - fi: "Sijoitusvastaava"
+          en: "Investment Manager"
       picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Lucas Käldström"
+      title:
+        - fi: "Vanha rahastonhoitaja"
+          en: "Old Treasurer"
+      picture: "https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg"
 
 - name:
     fi: "Mediatoimikunta"
     en: "Media Committee"
   members:
-    - name: "Meri Hildén"
+    - name: "Elias Erke"
       title:
         - fi: "Viestintämestari"
           en: "Head of Communications"
-      picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
+      picture: "https://as.fi/static/toimijat/2023/elias_erke.jpg"
       leader: true
-    - name: "Veera Ihalainen"
+    - name: "Jimi Oksman"
       title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2021/veera_ihalainen.jpg"
-    - name: "Lotta Makkonen"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
-    - name: "Johan Sarpoma"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2020/johan_sarpoma.jpg"
-    - name: "Leevi Hormaluoma"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2022/leevi_hormaluoma.jpg"
-    - name: "Rosa Phan"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2022/rosa_phan.jpg"
-    - name: "Jiro Tanabe"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Axel Åberg"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2022/axel_aberg.jpg"
-    - name: "Joonatan Tammisto"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2022/joonatan_tammisto.jpg"
-    - name: "Maximus De Niro"
-      title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+        - fi: "Dokumentoija"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/jimi_oksman.jpg"
     - name: "Elias Haarnoja"
       title:
-        - fi: "Viestijä"
-          en: "Communicator"
+        - fi: "Dokumentoija"
+          en: "Photographer"
       picture: "https://as.fi/static/toimijat/2022/elias_haarnoja.jpg"
-    - name: "Jimi Oksman "
+    - name: "Leevi Hormaluoma"
       title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2022/jimi_oksman.jpg"
-    - name: "Tiitus Mustajoki"
+        - fi: "Dokumentoija"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/leevi_hormaluoma_2.jpg"
+    - name: "Aino Valkama"
       title:
-        - fi: "Viestijä"
-          en: "Communicator"
-      picture: "https://as.fi/static/toimijat/2022/tiitus_mustajoki.jpg"
+        - fi: "Dokumentoija"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/aino_valkama.jpg"
+    - name: "Akseli Hilander"
+      title:
+        - fi: "Dokumentoija"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/akseli_hilander.jpg"
+    - name: "Amanda Huttunen"
+      title:
+        - fi: "Dokumentoija"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/amanda_huttunen.jpg"
+    - name: "Rika Lintunen"
+      title:
+        - fi: "Dokumentoija"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/rika_lintunen.jpg"
+    - name: "Mikko Vanhanen"
+      title:
+        - fi: "Dokumentoija"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/mikko_vanhanen.jpg"
+    - name: "Leena Jääskeläinen"
+      title:
+        - fi: "Graafikko"
+          en: "Graphical Designer"
+      picture: "https://as.fi/static/toimijat/2023/leena_jaaskelainen.jpg"
+    - name: "Meri Hildén"
+      title:
+        - fi: "Graafikko"
+          en: "Graphical Designer"
+      picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
+    - name: "Viivi-Maari Kallinen"
+      title:
+        - fi: "Graafikko"
+          en: "Graphical Designer"
+      picture: "https://as.fi/static/toimijat/2021/viivi-maari_kallinen.jpg"
+    - name: "Lotta Makkonen"
+      title:
+        - fi: "Kääntäjä/Oikolukija"
+          en: "Language specialist"
+      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
+    - name: "Helmi Takala"
+      title:
+        - fi: "Kääntäjä/Oikolukija"
+          en: "Language specialist"
+      picture: "https://as.fi/static/toimijat/2021/helmi_takala.jpg"
+    - name: "Sophia Lee"
+      title:
+        - fi: "Somettaja"
+          en: "Social Media Manager"
+      picture: "https://as.fi/static/toimijat/2023/sophia_lee.jpg"
 
 - name:
     fi: "Säätötoimikunta"
     en: "Tinkering Committee"
   members:
-    - name: "Jyri Kolu"
+    - name: "Kasperi Kaivola"
       title:
         - fi: "Säätömestari"
           en: "Master Tinkerer"
-      picture: "https://as.fi/static/toimijat/2020/jyri_kolu.jpg"
-      leader: true
-    - name: "Verneri Hirvonen"
-      title:
-        - fi: "Säätömestari"
-          en: "Master Tinkerer"
-      picture: "https://as.fi/static/toimijat/2020/verneri_hirvonen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/kasperi_kaivola.jpg"
       leader: true
     - name: "Henrik Turtinen"
       title:
-        - fi: "Säätökisälli"
-          en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/henrik_turtinen.jpg"
-    - name: "Veeti Kahilainen"
+        - fi: "Säätömestari"
+          en: "Master Tinkerer"
+      picture: "https://as.fi/static/toimijat/2023/henrik_turtinen.jpg"
+      leader: true
+    - name: "Akseli Leino"
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2021/veeti_kahilainen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/akseli_leino.jpg"
+    - name: "Niilo Saharinen"
+      title:
+        - fi: "Säätökisälli"
+          en: "Tinkerer"
+      picture: "https://as.fi/static/toimijat/2023/niilo_saharinen.jpg"
+    - name: "Otso Luukkanen"
+      title:
+        - fi: "Säätökisälli"
+          en: "Tinkerer"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Juho Kerminen"
+      title:
+        - fi: "Säätökisälli"
+          en: "Tinkerer"
+      picture: "https://as.fi/static/toimijat/2022/juho_kerminen.jpg"
+    - name: "Rika Lintunen"
+      title:
+        - fi: "Säätökisälli"
+          en: "Tinkerer"
+      picture: "https://as.fi/static/toimijat/2023/rika_lintunen.jpg"
+    - name: "Sakari Ropponen"
+      title:
+        - fi: "Säätökisälli"
+          en: "Tinkerer"
+      picture: "https://as.fi/static/toimijat/2023/sakari_ropponen.jpg"
     - name: "Pinja Mäkeläinen"
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
       picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
-    - name: "Henri Toivola"
+    - name: "Jyri Kolu"
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2021/henri_toivola.jpg"
-    - name: "Matias Rantala"
-      title:
-        - fi: "Säätökisälli"
-          en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/matias_rantala.jpg"
-    - name: "Topias Malinen"
-      title:
-        - fi: "Säätökisälli"
-          en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/topias_malinen.jpg"
-    - name: "Petrik Räsänen"
-      title:
-        - fi: "Säätökisälli"
-          en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/petrik_rasanen.jpg"
-    - name: "Jakob Sjöblom"
-      title:
-        - fi: "Säätökisälli"
-          en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/jakob_sjoblom.jpg"
-    - name: "Kasperi Kaivola"
-      title:
-        - fi: "Säätökisälli"
-          en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/kasperi_kaivola.jpg"
-    - name: "Tuan Anh Nguyen"
+      picture: "https://as.fi/static/toimijat/2023/jyri_kolu.jpg"
+    - name: "Emil Lintunen"
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
       picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Sakari Ropponen"
+    - name: "Leo Suojärvi"
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/sakari_ropponen.jpg"
-    - name: "Akseli Konttas"
+      picture: "https://as.fi/static/toimijat/2023/leo_suojarvi.jpg"
+    - name: "Miska Mynttinen"
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/2022/akseli_konttas.jpg"
+      picture: "https://as.fi/static/toimijat/2023/miska_mynttinen.jpg"
     - name: "Severi Casserly"
       title:
         - fi: "Säätökisälli"
@@ -883,129 +917,149 @@
         - fi: "Säätökisälli"
           en: "Tinkerer"
       picture: "https://as.fi/static/toimijat/2022/zhibin_yan.jpg"
-    - name: "Ilene Blanco"
+    - name: "Elias Mäntykoski"
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+      picture: "https://as.fi/static/toimijat/2022/elias_mantykoski.jpg"
 
 - name:
     fi: "Stimulaatio-toimikunta"
     en: "Stimulaatio Committee"
   members:
-    - name: "Lotta Makkonen"
+    - name: "Meri Hiipakka"
       title:
         - fi: "Stimulantti"
           en: "Stimulant"
-      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
+      picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
       leader: true
-    - name: "Laura Häkkinen"
+    - name: "Meri Hildén"
       title:
         - fi: "Stimulantti"
           en: "Stimulant"
-      picture: "https://as.fi/static/toimijat/2022/laura_hakkinen.jpg"
+      picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
       leader: true
-    - name: "Aku Heinonen"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2021/aku_heinonen.jpg"
-    - name: "Sannina Honkaharju"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2022/sannina_honkaharju.jpg"
-    - name: "Elina Leiniö"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2022/elina_leinio.jpg"
-    - name: "Henrik Hyvärinen"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2022/henrik_hyvarinen.jpg"
-    - name: "Kasperi Kaivola"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2022/kasperi_kaivola.jpg"
-    - name: "Joonas Törmälä"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
-    - name: "Juha Lehto"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2022/juha_lehto.jpg"
-    - name: "Kiira Metsoila"
-      title:
-        - fi: "Depressantti"
-          en: "Depressant"
-      picture: "https://as.fi/static/toimijat/2022/kiira_metsoila_uusi.jpg"
     - name: "Rosa Phan"
       title:
         - fi: "Depressantti"
           en: "Depressant"
       picture: "https://as.fi/static/toimijat/2022/rosa_phan.jpg"
+    - name: "Sannina Honkaharju"
+      title:
+        - fi: "Depressantti"
+          en: "Depressant"
+      picture: "https://as.fi/static/toimijat/2022/sannina_honkaharju.jpg"
+    - name: "Kalle Rantala"
+      title:
+        - fi: "Depressantti"
+          en: "Depressant"
+      picture: "https://as.fi/static/toimijat/2023/kalle_rantala.jpg"
+    - name: "Arttu Pahta"
+      title:
+        - fi: "Depressantti"
+          en: "Depressant"
+      picture: "https://as.fi/static/toimijat/2023/arttu_pahta_2.jpg"
+    - name: "Kasperi Kaivola"
+      title:
+        - fi: "Depressantti"
+          en: "Depressant"
+      picture: "https://as.fi/static/toimijat/2023/kasperi_kaivola.jpg"
+    - name: "Lotta Makkonen"
+      title:
+        - fi: "Depressantti"
+          en: "Depressant"
+      picture: "https://as.fi/static/toimijat/2023/lotta_makkonen.jpg"
+    - name: "Pinja Mäkeläinen"
+      title:
+        - fi: "Depressantti"
+          en: "Depressant"
+      picture: "https://as.fi/static/toimijat/2022/pinja_makelainen.jpg"
+    - name: "Laura Häkkinen"
+      title:
+        - fi: "Depressantti"
+          en: "Depressant"
+      picture: "https://as.fi/static/toimijat/2023/laura_hakkinen.jpg"
 
 - name:
-    fi: "Kvartaalitoimikunta"
-    en: "Quarter Committee"
+    fi: "AS25-toimikunta"
+    en: "AS25 Committee"
   members:
-    - name: "Helena Kaisanlahti"
+    - name: "Kiira Metsoila"
       title:
-        - fi: "Puheenjohtaja"
-          en: "Chair of Committee"
-      picture: "https://as.fi/static/toimijat/2022/helena_kaisanlahti.jpg"
+        - fi: "Kvartaalimestari"
+          en: "Quarter Master"
+      picture: "https://as.fi/static/toimijat/2023/kiira_metsoila_2.jpg"
       leader: true
+    - name: "Lotta Makkonen"
+      title:
+        - fi: "Tapahtumavastaava"
+          en: "Event Coordinator"
+      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
+    - name: "Kalle Rantala"
+      title:
+        - fi: "Tapahtumavastaava"
+          en: "Event Coordinator"
+      picture: "https://as.fi/static/toimijat/2023/kalle_rantala.jpg"
+    - name: "Laura Häkkinen"
+      title:
+        - fi: "Tapahtumavastaava"
+          en: "Event Coordinator"
+      picture: "https://as.fi/static/toimijat/2023/laura_hakkinen.jpg"
+    - name: "Jaakko Heikkinen"
+      title:
+        - fi: "Tapahtumavastaava"
+          en: "Event Coordinator"
+      picture: "https://as.fi/static/toimijat/2021/jaakko_heikkinen.jpg"
+    - name: "Tiitus Mustajoki"
+      title:
+        - fi: "Tapahtumavastaava"
+          en: "Event Coordinator"
+      picture: "https://as.fi/static/toimijat/2023/tiitus_mustajoki.jpg"
+    - name: "Veera Ihalainen"
+      title:
+        - fi: "Markkinointivastaava"
+          en: "Marketing Coordinator"
+      picture: "https://as.fi/static/toimijat/2021/veera_ihalainen.jpg"
+    - name: "Sannina Honkaharju"
+      title:
+        - fi: "Markkinointivastaava"
+          en: "Marketing Coordinator"
+      picture: "https://as.fi/static/toimijat/2022/sannina_honkaharju.jpg"
+    - name: "Arttu Pahta"
+      title:
+        - fi: "Markkinointivastaava"
+          en: "Marketing Coordinator"
+      picture: "https://as.fi/static/toimijat/2023/arttu_pahta_2.jpg"
     - name: "Meri Hildén"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
+        - fi: "Stimuvastaava"
+          en: "Stimulaatio Liaison"
       picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
     - name: "Meri Hiipakka"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
+        - fi: "Stimuvastaava"
+          en: "Stimulaatio Liaison"
       picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
-    - name: "Lotta Makkonen"
+    - name: "Rosa Phan"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/lotta_makkonen.jpg"
-    - name: "Kiira Metsoila"
+        - fi: "Dokumentointivastaava"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2022/rosa_phan.jpg"
+    - name: "Kasperi Kaivola"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2022/kiira_metsoila_uusi.jpg"
-    - name: "Niina Tapanainen"
+        - fi: "Dokumentointivastaava"
+          en: "Photographer"
+      picture: "https://as.fi/static/toimijat/2023/kasperi_kaivola.jpg"
+    - name: "Nia Lehtonen"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2020/niina_tapanainen.jpg"
-    - name: "Vesta Kulomaa"
+        - fi: "Sponsorivastaava"
+          en: "Sponsor Coordinator"
+      picture: "https://as.fi/static/toimijat/2022/nia_lehtonen.jpg"
+    - name: "Juha Lehto"
       title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2021/vesta_kulomaa.jpg"
-    - name: "Mari Pulkkinen"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2021/mari_pulkkinen.jpg"
-    - name: "Henri Toivola"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2021/henri_toivola.jpg"
-    - name: "Helmi Takala"
-      title:
-        - fi: "Toimikunnan jäsen"
-          en: "Member of Committee"
-      picture: "https://as.fi/static/toimijat/2021/helmi_takala.jpg"
+        - fi: "Web-vastaava"
+          en: "Web Coordinator"
+      picture: "https://as.fi/static/toimijat/2022/juha_lehto.jpg"
 
 - name:
     fi: "Retkitoimikunta"
@@ -1014,80 +1068,20 @@
     - name: "Rami Ghoniem"
       title:
         - fi: "Retkimestari"
-          en: "Trek master"
-      picture: "https://as.fi/static/toimijat/2021/rami_ghoniem.jpg"
+          en: "Trek Master"
+      picture: "https://as.fi/static/toimijat/2023/rami_ghoniem.jpg"
       leader: true
     - name: "Niilo Heinonen"
       title:
         - fi: "Retkimestari"
-          en: "Trek master"
-      picture: "https://as.fi/static/toimijat/2021/niilo_heinonen.jpg"
+          en: "Trek Master"
+      picture: "https://as.fi/static/toimijat/2023/niilo_heinonen.jpg"
       leader: true
-    - name: "Tuan Anh Nguyen Con"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Ville Strengell"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2020/ville_strengell.jpg"
-    - name: "Lassi Ihalainen"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2021/lassi_ihalainen.jpg"
-    - name: "David Rombach"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Karla Rodriguez"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Tiia-Maria Hyvönen"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2020/tiia_hyvonen.jpg"
-    - name: "Apollo Ailus"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2022/apollo_ailus.jpg"
-    - name: "Mimi Määttä"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2022/mimi_maatta.jpg"
-    - name: "Mohammad Shahidul"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2022/mohammad_shahidul.jpg"
-    - name: "Marko Koskinen"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2022/marko_koskinen.jpg"
-    - name: "Oskari Mattila"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
     - name: "Iivo Angerpuro"
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
       picture: "https://as.fi/static/toimijat/2022/iivo_angerpuro.jpg"
-    - name: "Katarina Pichna"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
     - name: "Joonatan Tammisto"
       title:
         - fi: "Retkisälli"
@@ -1097,102 +1091,90 @@
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2022/akseli_konttas.jpg"
+      picture: "https://as.fi/static/toimijat/2023/akseli_konttas.jpg"
     - name: "Lucas Käldström"
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2022/lucas_kaldstrom.jpg"
-    - name: "Olli-Pekka Pennanen"
-      title:
-        - fi: "Retkisälli"
-          en: "Trip-prentice"
-      picture: "https://as.fi/static/toimijat/2021/olli-pekka_pennanen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg"
     - name: "Dovlat Ibragimow"
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
       picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-
-- name:
-    fi: "Ulkoexcutoimikunta"
-    en: "Abroad excursion Committee"
-  members:
-    - name: "Sakari Ropponen"
+    - name: "Ariana Marta"
       title:
-        - fi: "Ulkoexcumestari"
-          en: "Abroad excursion master"
-      picture: "https://as.fi/static/toimijat/2022/sakari_ropponen.jpg"
-      leader: true
-    - name: "Arttu Rintala"
+        - fi: "Retkisälli"
+          en: "Trip-prentice"
+      picture: "https://as.fi/static/toimijat/2023/ariana_marta.jpg"
+    - name: "David Rombach"
       title:
-        - fi: "Ulkoexcumestari"
-          en: "Abroad excursion master"
-      picture: "https://as.fi/static/toimijat/2022/arttu_rintala.jpg"
-      leader: true
-    - name: "Jaakko Majuri"
+        - fi: "Retkisälli"
+          en: "Trip-prentice"
+      picture: "https://as.fi/static/toimijat/2023/david_rombach.jpg"
+    - name: "Okko Siipola"
       title:
-        - fi: "Toimihenkilö"
-          en: "Journeyperson"
-      picture: "https://as.fi/static/toimijat/2019/jaakko_majuri_19.jpg"
-    - name: "Marcell Berta"
+        - fi: "Retkisälli"
+          en: "Trip-prentice"
+      picture: "https://as.fi/static/toimijat/2023/okko_siipola.jpg"
+    - name: "Veli-Matti Järn"
       title:
-        - fi: "Toimihenkilö"
-          en: "Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/marcel_berta.jpg"
-    - name: "Tiia-Maria Hyvönen"
-      title:
-        - fi: "Toimihenkilö"
-          en: "Journeyperson"
-      picture: "https://as.fi/static/toimijat/2020/tiia_hyvonen.jpg"
+        - fi: "Retkisälli"
+          en: "Trip-prentice"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
 
 - name:
     fi: "Kultainen Toimitus"
     en: "Golden Tomato"
   members:
-    - name: "Kalle Rantala"
+    - name: "Jyri Kolu"
       title:
-        - fi: "Kultainen päätoimittaja"
-          en: "Golden Editor-in-Chief"
-      picture: "https://as.fi/static/toimijat/2022/kalle_rantala.jpg"
+        - fi: "Kultainen Päätoimittaja"
+          en: "Golden Edito-in-Chief"
+      picture: "https://as.fi/static/toimijat/2023/jyri_kolu.jpg"
       leader: true
-    - name: "Antti Regelin"
+    - name: "Kiira Metsoila"
       title:
-        - fi: "Kultainen toimittaja"
+        - fi: "Kultainen Toimittaja"
           en: "Golden Editor"
-      picture: "https://as.fi/static/toimijat/2021/antti_regelin.jpg"
-    - name: "Veeti Kahilainen"
+      picture: "https://as.fi/static/toimijat/2023/kiira_metsoila_2.jpg"
+    - name: "Roope Järvinen"
       title:
-        - fi: "Kultainen toimittaja"
+        - fi: "Kultainen Toimittaja"
           en: "Golden Editor"
-      picture: "https://as.fi/static/toimijat/2021/veeti_kahilainen.jpg"
-    - name: "Joonas Törmälä"
+      picture: "https://as.fi/static/toimijat/2022/roope_jarvinen.jpg"
+    - name: "Ville Lähteenkorva"
       title:
-        - fi: "Kultainen toimittaja"
+        - fi: "Kultainen Toimittaja"
           en: "Golden Editor"
-      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
-    - name: "Meri Hildén"
+      picture: "https://as.fi/static/toimijat/2022/ville_lahteenkorva.jpg"
+    - name: "Roope Pääkkönen"
       title:
-        - fi: "Kultainen toimittaja"
+        - fi: "Kultainen Toimittaja"
           en: "Golden Editor"
-      picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
-    - name: "Leevi Hormaluoma"
+      picture: "https://as.fi/static/toimijat/2020/roope_paakkonen.jpg"
+    - name: "Arttu Rintala"
       title:
-        - fi: "Kultainen toimittaja"
+        - fi: "Kultainen Toimittaja"
           en: "Golden Editor"
-      picture: "https://as.fi/static/toimijat/2022/leevi_hormaluoma.jpg"
+      picture: "https://as.fi/static/toimijat/2022/arttu_rintala.jpg"
+    - name: "Sakari Ropponen"
+      title:
+        - fi: "Kultainen Toimittaja"
+          en: "Golden Editor"
+      picture: "https://as.fi/static/toimijat/2023/sakari_ropponen.jpg"
 
 - name:
     fi: "Bränditoimikunta"
     en: "Brand Committee"
   members:
-    - name: "Emil Huttunen"
+    - name: "Meri Hiipakka"
       title:
         - fi: "Brändivastaava"
-          en: "Brand master"
-      picture: "https://as.fi/static/toimijat/2022/emil_huttunen.jpg"
+          en: "Brand Master"
+      picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
       leader: true
-    - name: "Meri Hilden"
+    - name: "Meri Hildén"
       title:
         - fi: "Brändääjä"
           en: "Brander"
@@ -1202,133 +1184,321 @@
         - fi: "Brändääjä"
           en: "Brander"
       picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
-    - name: "Axel Åberg"
+    - name: "Elias Erke"
       title:
         - fi: "Brändääjä"
           en: "Brander"
-      picture: "https://as.fi/static/toimijat/2022/axel_aberg.jpg"
+      picture: "https://as.fi/static/toimijat/2023/elias_erke.jpg"
     - name: "Aino Valkama"
       title:
         - fi: "Brändääjä"
           en: "Brander"
-      picture: "https://as.fi/static/toimijat/2022/aino_valkama.jpg"
+      picture: "https://as.fi/static/toimijat/2023/aino_valkama.jpg"
     - name: "Jyri Kolu"
       title:
         - fi: "Brändääjä"
           en: "Brander"
-      picture: "https://as.fi/static/toimijat/2020/jyri_kolu.jpg"
+      picture: "https://as.fi/static/toimijat/2023/jyri_kolu.jpg"
+    - name: "Kiira Metsoila"
+      title:
+        - fi: "Brändääjä"
+          en: "Brander"
+      picture: "https://as.fi/static/toimijat/2023/kiira_metsoila_2.jpg"
+    - name: "Jimi Oksman"
+      title:
+        - fi: "Brändääjä"
+          en: "Brander"
+      picture: "https://as.fi/static/toimijat/2023/jimi_oksman.jpg"
+    - name: "Arttu Pahta"
+      title:
+        - fi: "Brändääjä"
+          en: "Brander"
+      picture: "https://as.fi/static/toimijat/2023/arttu_pahta_2.jpg"
+    - name: "Emil Huttunen"
+      title:
+        - fi: "Brändääjä"
+          en: "Brander"
+      picture: "https://as.fi/static/toimijat/2022/emil_huttunen.jpg"
+    - name: "Niina Tapanainen"
+      title:
+        - fi: "Brändääjä"
+          en: "Brander"
+      picture: "https://as.fi/static/toimijat/2020/niina_tapanainen.jpg"
+    - name: "Lotta Makkonen"
+      title:
+        - fi: "Brändääjä"
+          en: "Brander"
+      picture: "https://as.fi/static/toimijat/2023/lotta_makkonen.jpg"
+    - name: "Tiitus Mustajoki"
+      title:
+        - fi: "Brändääjä"
+          en: "Brander"
+      picture: "https://as.fi/static/toimijat/2023/tiitus_mustajoki.jpg"
     - name: "Leevi Hormaluoma"
       title:
         - fi: "Brändääjä"
           en: "Brander"
-      picture: "https://as.fi/static/toimijat/2022/leevi_hormaluoma.jpg"
-    - name: "Meri Hiipakka"
-      title:
-        - fi: "Brändääjä"
-          en: "Brander"
-      picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
-    - name: "Veeti Kahilainen"
-      title:
-        - fi: "Brändääjä"
-          en: "Brander"
-      picture: "https://as.fi/static/toimijat/2021/veeti_kahilainen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/leevi_hormaluoma_2.jpg"
 
 - name:
     fi: "Stigutoimikunta"
     en: "Sticker Committee"
   members:
-    - name: "Ville Lähteenkorva"
+    - name: "Aaro Saastamoinen"
       title:
         - fi: "Stigulantti"
           en: "Stigulant"
-      picture: "https://as.fi/static/toimijat/2022/ville_lahteenkorva.jpg"
+      picture: "https://as.fi/static/toimijat/2023/aaro_saastamoinen.jpg"
       leader: true
-    - name: "Henrik Turtinen"
+    - name: "Okko Siipola"
       title:
         - fi: "Stigulantti"
           en: "Stigulant"
-      picture: "https://as.fi/static/toimijat/2022/henrik_turtinen.jpg"
+      picture: "https://as.fi/static/toimijat/2023/okko_siipola.jpg"
       leader: true
-    - name: "Lassi Ihalainen"
-      title:
-        - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2021/lassi_ihalainen.jpg"
-    - name: "Axel Åberg"
-      title:
-        - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/axel_aberg.jpg"
-    - name: "Tuomas Nykänen"
-      title:
-        - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/tuomas_nykanen.jpg"
-    - name: "Aino Valkama"
-      title:
-        - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/aino_valkama.jpg"
-    - name: "Marko Koskinen"
-      title:
-        - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/marko_koskinen.jpg"
-    - name: "Ville Hakoniemi"
-      title:
-        - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2021/ville_hakoniemi.jpg"
     - name: "Alex Korpela"
       title:
         - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
+          en: "Sticker"
       picture: "https://as.fi/static/toimijat/2020/alex_korpela.jpg"
-    - name: "Tõnis Pärtel"
+    - name: "Eetu Kurkinen"
       title:
         - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
-    - name: "Rosa Phan"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/eetu_kurkinen.jpg"
+    - name: "Eeva Järvenpää"
       title:
         - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/rosa_phan.jpg"
-    - name: "Petteri Lahkela"
-      title:
-        - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/petteri_lahkela.jpg"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/eeva_jarvenpaa.jpg"
     - name: "Elias Mäntykoski"
       title:
         - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
+          en: "Sticker"
       picture: "https://as.fi/static/toimijat/2022/elias_mantykoski.jpg"
-    - name: "Elina Leiniö"
+    - name: "Erkka Multanen"
       title:
         - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/elina_leinio.jpg"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/erkka_multanen.jpg"
+    - name: "Henrik Turtinen"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/henrik_turtinen.jpg"
+    - name: "Janina Kemppainen"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/janina_kemppainen.jpg"
+    - name: "Joonatan Tammisto"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2022/joonatan_tammisto.jpg"
     - name: "Kasperi Kaivola"
       title:
         - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/kasperi_kaivola.jpg"
-    - name: "Lauri Korkee"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/kasperi_kaivola.jpg"
+    - name: "Leena Jääskeläinen"
       title:
         - fi: "Stikkerisälli"
-          en: "Sticker Journeyperson"
-      picture: "https://as.fi/static/toimijat/2022/lauri_korkee.jpg"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/leena_jaaskelainen.jpg"
+    - name: "Mika Viirret"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Mikko Vanhanen"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/mikko_vanhanen.jpg"
+    - name: "Petteri Lahkela"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2022/petteri_lahkela.jpg"
+    - name: "Roope Järvinen"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2022/roope_jarvinen.jpg"
+    - name: "Tõnis Pärtel"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/tonis_partel.jpg"
+    - name: "Tuomas Luotamo"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Tuomas Nykänen"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg"
+    - name: "Ville Hakoniemi"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2021/ville_hakoniemi.jpg"
+    - name: "Ville Lähteenkorva"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2022/ville_lahteenkorva.jpg"
+    - name: "Panu Tamminen"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Lassi Ihalainen"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2021/lassi_ihalainen.jpg"
+    - name: "Arttu Pahta"
+      title:
+        - fi: "Stikkerisälli"
+          en: "Sticker"
+      picture: "https://as.fi/static/toimijat/2023/arttu_pahta_2.jpg"
+
+- name:
+    fi: "International Committee"
+    en: "International Committee"
+  members:
+    - name: "Anthony Reineck"
+      title:
+        - fi: "Master's and International Student Captain (MISC)"
+          en: "Master's and International Student Captain (MISC)"
+      picture: "https://as.fi/static/toimijat/2023/anthony_reineck.jpg"
+      leader: true
+    - name: "Beatriz Glaser"
+      title:
+        - fi: "DSDeputy"
+          en: "DSDeputy"
+      picture: "https://as.fi/static/toimijat/2022/beatriz_glaser.jpg"
+    - name: "Mimi Määttä"
+      title:
+        - fi: "International Committee Member"
+          en: "International Committee Member"
+      picture: "https://as.fi/static/toimijat/2023/mimi_maatta_2.jpg"
+    - name: "Amr Abass"
+      title:
+        - fi: "International Committee Member"
+          en: "International Committee Member"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Lucas Käldström"
+      title:
+        - fi: "International Committee Member"
+          en: "International Committee Member"
+      picture: "https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg"
+    - name: "Oskari Helosuo"
+      title:
+        - fi: "International Committee Member"
+          en: "International Committee Member"
+      picture: "https://as.fi/static/toimijat/2023/oskari_helosuo.jpg"
+    - name: "Mohammad Shahidul"
+      title:
+        - fi: "International Committee Member"
+          en: "International Committee Member"
+      picture: "https://as.fi/static/toimijat/2022/mohammad_shahidul.jpg"
+    - name: "Kabir Bissessar"
+      title:
+        - fi: "International Committee Member"
+          en: "International Committee Member"
+      picture: "https://as.fi/static/toimijat/2022/kabir_bissessar.jpg"
+    - name: "Sylvia Cressman"
+      title:
+        - fi: "International Committee Member"
+          en: "International Committee Member"
+      picture: "https://as.fi/static/toimijat/2023/sylvia_cressman.jpg"
+
+- name:
+    fi: "N-toimikunta"
+    en: "N-Committee"
+  members:
+    - name: "Sakari Ropponen"
+      title:
+        - fi: "Seniilisihteeri"
+          en: "Senile Secretary"
+      picture: "https://as.fi/static/toimijat/2023/sakari_ropponen.jpg"
+      leader: true
+    - name: "Veeti Kahilainen"
+      title:
+        - fi: "Seniilisihteeri"
+          en: "Senile Secretary"
+      picture: "https://as.fi/static/toimijat/2023/sakari_ropponen.jpg"
+      leader: true
+    - name: "Alex Korpela"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2020/alex_korpela.jpg"
+    - name: "Santeri Sipilä"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2021/santeri_sipila.jpg"
+    - name: "Tiia-Maria Hyvönen"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2020/tiia_hyvonen.jpg"
+    - name: "Akseli Konttas"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2023/akseli_konttas.jpg"
+    - name: "Henri Toivola"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2021/henri_toivola.jpg"
+    - name: "Emil Huttunen"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2022/emil_huttunen.jpg"
+    - name: "Leo Talsta"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
+    - name: "Arttu Rintala"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2022/arttu_rintala.jpg"
+    - name: "Aku Heinonen"
+      title:
+        - fi: "1 (yksi)"
+          en: "1 (one)"
+      picture: "https://as.fi/static/toimijat/2021/aku_heinonen.jpg"
+    - name: "Meri Hiipakka"
+      title:
+        - fi: "Wanhainhoitaja"
+          en: "Caregiver"
+      picture: "https://as.fi/static/toimijat/2022/meri_hiipakka.jpg"
+    - name: "Meri Hildén"
+      title:
+        - fi: "Wanhainhoitaja"
+          en: "Caregiver"
+      picture: "https://as.fi/static/toimijat/2022/meri_hilden.jpg"
+    - name: "Joonas Törmälä"
+      title:
+        - fi: "Wanhainhoitaja"
+          en: "Caregiver"
+      picture: "https://as.fi/static/toimijat/2022/joonas_tormala.jpg"
 
 - name:
     fi: "Toimikuntien ulkopuolelta"
-    en: "Outside the Committees"
+    en: "Outside Committees"
   members:
-    - name: "Matias Vapola"
-      title:
-        - fi: "Sijoitusvastaava"
-          en: "Investment Manager"
-      picture: "https://as.fi/static/toimijat/2022/matias_vapola.jpg"
     - name: "Helena Kaisanlahti"
       title:
         - fi: "Toiminnantarkastaja"
@@ -1338,17 +1508,17 @@
       title:
         - fi: "Toiminnantarkastaja"
           en: "Inspector"
-      picture: "https://as.fi/static/toimijat/2022/akseli_konttas.jpg"
-    - name: "Antti Regelin"
-      title:
-        - fi: "Varatoiminnantarkastaja"
-          en: "Vice-inspector"
-      picture: "https://as.fi/static/toimijat/2021/antti_regelin.jpg"
+      picture: "https://as.fi/static/toimijat/2023/akseli_konttas.jpg"
     - name: "Juuso Määttä"
       title:
         - fi: "Varatoiminnantarkastaja"
-          en: "Vice-inspector"
+          en: "Vice-Inspector"
       picture: "https://as.fi/static/toimijat/2021/juuso_maatta.jpg"
+    - name: "Sakari Ropponen"
+      title:
+        - fi: "Varatoiminnantarkastaja"
+          en: "Vice-Inspector"
+      picture: "https://as.fi/static/toimijat/2023/sakari_ropponen.jpg"
     - name: "Ville Kyrki"
       title:
         - fi: "Oltermanni"

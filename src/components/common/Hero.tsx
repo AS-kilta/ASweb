@@ -4,23 +4,31 @@ import * as style from "./Hero.module.scss"
 
 import * as sassVars from "@src/styles/_exports.module.scss"
 
-interface HeroProps {
+export interface HeroProps {
     title: string,
     lead?: string,
-    background?: string
+    background?: string,
+    heroHeight?: "short" | "tall"
 }
 
-const Hero: React.FC<HeroProps> = ({ title, lead, background }) => {
-    const backgroundStyle: React.CSSProperties = background ? {
+const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
+    const customStyle: React.CSSProperties = background ? {
         background: `url(${background}) ${sassVars.asViolet1}`,
-        backgroundSize: "cover",
+        backgroundSize: 'cover',
         backgroundBlendMode: "soft-light"
     } : {}
 
+    if ( heroHeight == "short" ) {
+        customStyle.aspectRatio = "13/3";
+    }
+    else if ( heroHeight == "tall" ) {
+        customStyle.aspectRatio = "8/3";
+    }
+    
     return (
         <div
             id={style.hero}
-            style={backgroundStyle}
+            style={customStyle}
         >
             {title && <h1 className={style.mainTitle}>{title}</h1>}
             {lead &&
