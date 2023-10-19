@@ -1,13 +1,16 @@
 .introduction {
   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  gap: 30px;
+  gap: 2rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
 .intro_quote {
+  width: 60%;
   line-height: 25px;
   font-style: italic;
   font-weight: 400;
