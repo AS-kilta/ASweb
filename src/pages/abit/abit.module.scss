@@ -1,9 +1,12 @@
-.colored_block {
-  // Split and move to main
+.full_width_bg {
+  box-sizing: border-box;
+  max-width: unset;
+  padding-block: 1em;
+
+  text-align: center;
   color: white;
   background-color: $as-violet-1;
-  padding-block: 1.5em;
-  text-align: center;
+  box-shadow: 10rem 0 0 0 $as-violet-1, -10rem 0 0 0 $as-violet-1
 }
 
 .columns {
@@ -21,23 +24,9 @@
 }
 
 .major {
+  max-width: 1300px;
   margin-block: 6rem;
   gap: 2rem;
-
-  h3 {
-    font-size: 2.5rem;
-  }
-
-  h4 {
-    font-size: 1.5rem;
-  }
-
-  h3, h4 {
-    font-weight: 400;
-    margin: 1.2em 0 0.3em;
-    border-bottom: 3px solid;
-    padding-bottom: 0.2em;
-  }
 }
 
 .course_examples {

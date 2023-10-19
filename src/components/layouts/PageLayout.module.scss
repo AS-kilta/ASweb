@@ -11,6 +11,11 @@
 #content {
     flex-grow: 1;
     background: $natural-white;
-    max-width: 1200px;
+    
     width: calc(100% - 4rem);
+
+    :where(& > *) {
+        max-width: 900px;
+        margin-inline: auto;
+    }
 }

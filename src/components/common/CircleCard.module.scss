@@ -2,21 +2,16 @@
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color: #000;
+
+  color: $natural-white;
+  background-color: $natural-black;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-}
 
-.badgeText {
-  color: #fff;
   line-height: 2rem;
   font-size: 1.5rem;
   text-align: center;
-}
-
-.badgeLink, .badgeLink:visited {
-  color: white;
 }
