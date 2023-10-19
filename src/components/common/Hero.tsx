@@ -4,7 +4,7 @@ import * as style from "./Hero.module.scss"
 
 import * as sassVars from "@src/styles/_exports.module.scss"
 
-interface HeroProps {
+export interface HeroProps {
     title: string,
     lead?: string,
     background?: string,

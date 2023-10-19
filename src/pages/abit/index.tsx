@@ -15,10 +15,10 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
         <p>Tällä tulevaisuuden opiskelualalla työllistyminen opintojen jälkeen on lähes taattu. Monet opiskelijat hakeutuvatkin alan työpaikkoihin jo opintojensa aikana.</p>
       </div>
       
-      <h3 className={style.colored_block + " full-width-bg"}>AS-killan alla on 3 eri hakukohdetta</h3>
+      <h3 className={style.full_width_bg}>AS-killan alla on 3 eri hakukohdetta</h3>
       
       <section className={style.major}>
-        <h3>Automaatio ja robotiikka</h3>
+        <h3 className="underline">Automaatio ja robotiikka</h3>
         <div className={style.columns}>
           <div className={style.intro}>
             <p >Kiinnostaako, miten teollisuuden robottikäsivarret ja automaatiojärjestelmät toimivat? Haluatko päästä koodaamaan lähelle rautaa? Automaation piirissä pääsee tutustumaan mm. tietokoneiden ja koneiden väliseen rajapintaan ja itseohjautuviin järjestelmiin. Opintojen loppuvaiheessa onkin mahdollista erikoistua automaatio-ohjelmistojen, tehdasautomaation sekä robotiikan lisäksi myös ns. älykkäisiin tuotteisiin tai vaikka yhdistellä alueita oman kiinnostuksen mukaan.</p>
@@ -36,7 +36,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
               quote="Haaveeni on kehittää robotteja, jotka voivat olla vuorovaikutuksessa ihmisten kanssa ja suoriutua arkipäiväisistä askareista." />
           </div> 
         </div>
-        <h4>Esimerkkejä pääainekursseista</h4>
+        <h4 className="underline">Esimerkkejä pääainekursseista</h4>
         <dl className={style.course_examples}>
           <div>
             <dt>Sähköpaja</dt>
@@ -55,7 +55,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
       </section>
 
       <section className={style.major}>
-        <h3>Informaatio&shy;teknologia</h3>
+        <h3 className="underline">Informaatio&shy;teknologia</h3>
         <div className={" columns"}>
           <div className={style.intro}>
             <p>Verkkoon kytkettyjen laitteiden määrä kasvaa räjähdysmäisesti ja esineiden internet on kaikkien huulilla. IT-pääaineessa pääset tutustumaan, mitä trendikkäiden termien takana oikeasti tapahtuu! Saat kattavan pohjan tietoverkkojen tekniikasta, langattomasta tiedonsiirrosta, signaalin käsittelystä ja ohjelmoinnista. Opintojen loppuvaiheessa valittavanasi on useita suuntauksia perinteisemmistä tietoliikennesovellutuksista koneoppimiseen sekä signaalin, puheen ja kielen prosessointiin.</p>
@@ -69,7 +69,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
               />
           </div> 
         </div>
-        <h4>Esimerkkejä pääainekursseista</h4>
+        <h4 className="underline">Esimerkkejä pääainekursseista</h4>
         <dl className={style.course_examples}>
           <div>
             <dt>Sähköpaja</dt>
@@ -88,7 +88,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
       </section>
 
       <section className={style.major}>
-        <h3>Digital systems and Design</h3>
+        <h3 className="underline">Digital systems and Design</h3>
         <div className={style.columns}>
           <div className={style.intro}>
             <p>Kiinnostaako kansainvälisyys ja mahdollisuus aloittaa opiskelu englanniksi jo kandivaiheessa? Digital Systems and Design on yksi Aallon uusista ja moderneista englanninkielisistä kandipääaineista. Tämän monipuolisen pääaineen opiskelijana pääset tutustumaan esimerkiksi tietoverkkoihin, koneoppimiseen, fotoniikkaan ja käyttäjäkokemuksen (UX) suunnitteluun. Opinnot mahdollistavat sulavan siirtymän moniin eri maisteripääaineisiin sähkö- ja tietotekniikan korkeakouluissa mm. datatieteen, nanoteknologian ja automaation aloille.</p>
@@ -106,7 +106,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
               quote="Aalto-yliopisto on lähtökohtaisesti hyvä paikka kaikelle tekemiselle ja täällä on hyvät resurssit toteuttaa vaikka mitä!" />
           </div> 
         </div>
-        <h4>Esimerkkejä pääainekursseista</h4>
+        <h4 className="underline">Esimerkkejä pääainekursseista</h4>
         <dl className={style.course_examples}>
           <div>
             <dt>Design Thinking and Electronic Prototyping</dt>
