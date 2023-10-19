@@ -3,7 +3,6 @@ import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import * as style from "./membership.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
-import SeparatedHeading1 from "@src/components/common/SeparatedHeading1"
 
 const Membership: React.FC<PageProps> = ({ pageContext }) => {
 

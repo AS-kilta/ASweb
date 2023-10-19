@@ -19,10 +19,10 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
     } : {}
 
     if ( heroHeight == "short" ) {
-        customStyle.aspectRatio = "13/3";
+        customStyle.aspectRatio = "14/3";
     }
     else if ( heroHeight == "tall" ) {
-        customStyle.aspectRatio = "8/3";
+        customStyle.aspectRatio = "11/3";
     }
     
     return (
