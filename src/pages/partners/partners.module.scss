@@ -1,98 +1,24 @@
-.colored_block {
-    // Not used yet
-    color: white;
-    background-color: $as-violet-1;
-    padding-block: 1.5em;
-    text-align: center;
-  }
-
-.container {
-  display: flex;
-  justify-content: center;
-}
-
 .introduction {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 962px;
   gap: 30px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .intro_quote {
   line-height: 25px;
-  font-family: Graphik;
+  font-style: italic;
   font-weight: 400;
   font-size: 22px;
 }
 
-h3 {
-  font-size: 2.5rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h3, h4 {
-  display: inline-block;
-  font-weight: 400;
-  margin: 1.2em 0 0.3em;
-  border-bottom: 3px solid;
-  border-color: $as-violet-1;
-  bottom: 50%;
-  padding-bottom: 0.2em;
-  text-align: center;
-}
-
 .table {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 962px;
-  gap: 1rem;
-}
-
-.top_title {
-  margin: 0 0 0.3em;
-}
-
-.top_title_text_box{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 18px;
-}
-
-.text_box_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.text_box {
-  max-width: none;
-  width: 962px;
-}
-  
-.columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.testimonials > * {
-  margin-bottom: 2rem;
-}
-
-.products {
-  margin-bottom: 2rem;
   gap: 2rem;
-}
-
-@media screen and (max-width: $breakpoint-tablet) {
-  //For Tablets
-      .text_box {
-          width: 100%;
-      }
 }
