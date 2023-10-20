@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
         background: `url(${background}) ${sassVars.asViolet1}`,
         backgroundSize: "cover",
         backgroundBlendMode: "soft-light",
-        height: "20rem"
+        flex: "1 0 60vh"
     } : {}
 
     if ( heroHeight == "short" ) {
