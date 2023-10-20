@@ -2,10 +2,6 @@
   link: "https://reaktor.com/"
   picture: "https://as.fi/static/sponsors/reaktor_white.png"
 
-- name: "Gofore"
-  link: "https://www.gofore.fi/"
-  picture: "https://as.fi/static/sponsors/gofore.png"
-
 - name: "Tuxera"
   link: "https://www.tuxera.com/"
   picture: "https://as.fi/static/sponsors/tuxera_red.png"
@@ -46,18 +42,30 @@
   link: "https://atalent.fi/"
   picture: "https://as.fi/static/sponsors/aTalent_Logo.png"
 
-- name: "UpCloud"
-  link: "https://upcloud.com"
-  picture: "https://as.fi/static/sponsors/upcloud_logo_white.svg"
-
-- name: "Mirasys"
-  link: "https://www.mirasys.com"
-  picture: "https://as.fi/static/sponsors/Mirasys.png.webp"
-
 - name: "Sandvik"
   link: "https://www.home.sandvik/en/"
   picture: "https://as.fi/static/sponsors/sandvik.png"
 
 - name: "Finago"
-  link: "https://finago.com"
+  link: "https://finago.com/"
   picture: "https://as.fi/static/sponsors/accountor_logo.png"
+
+- name: "Eficode"
+  link: "https://eficode.com"
+  picture: "https://as.fi/static/sponsors/Eficode_logo.png"
+
+- name: "Trombia"
+  link: "https://trombia.com"
+  picture: "https://as.fi/static/sponsors/trombia.jpeg"
+
+- name: "Prosys opc"
+  link: "https://prosysopc.com"
+  picture: "https://as.fi/static/sponsors/prosys_opc.png"
+
+- name: "Tietoevry"
+  link: "https://tietoevry.com/"
+  picture: "https://as.fi/static/sponsors/tietoevry.png"
+
+- name: "Nokia"
+  link: "https://nokia.com/"
+  picture: "https://as.fi/static/sponsors/nokia.png"
