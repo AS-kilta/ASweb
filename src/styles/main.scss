@@ -106,10 +106,12 @@ main a {
     overflow: hidden;
 }
 
-.centered {
-    margin-left: auto;
-    margin-right: auto;
+.center-block {
+    margin-inline: auto;
+}
 
+.center-text {
+    text-align: center;
 }
 
 .even-columns {
