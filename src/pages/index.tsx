@@ -27,6 +27,7 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
                     <EventList number={5} lang={pageContext.lang} />
                 </div>
             </div>
+            <h2 className="center-text">Instagram</h2>
             <SnapWidget />
         </PageLayout>
     )
