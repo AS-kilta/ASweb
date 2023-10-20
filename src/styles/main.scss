@@ -79,6 +79,16 @@ main a {
     color: inherit;
   }
 
+.button-reset {
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
 .rounded-button {
     display: block;
     width: fit-content;
@@ -95,11 +105,36 @@ main a {
     flex-wrap: wrap;
 }
 
+.full-width-bg {
+    box-sizing: border-box;
+    width: 100vw;
+    padding-inline: calc((100vw - 100%) / 2);
+    margin-inline: calc((100vw - 100%) / -2);
+}
+
 .hideoverflow {
     overflow: hidden;
 }
 
-.centered {
-    margin-left: auto;
-    margin-right: auto;
+.center-block {
+    margin-inline: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.even-columns {
+    display: grid;
+
+    @media (min-width: $breakpoint-mobile) {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
+
+.no-mobile {
+    @media (max-width: $breakpoint-mobile) {
+        display: none;
+    }
 }

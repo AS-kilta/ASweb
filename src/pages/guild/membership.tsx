@@ -11,7 +11,7 @@ const Membership: React.FC<PageProps> = ({ pageContext }) => {
 
     <p>Killan varsinaiseksi jäseneksi voidaan hyväksyä kaikki AYY:n jäsenistöön kuuluvat henkilöt. Killan jäsenenä saat äänioikeuden kiltakokouksissa, oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. Jäseneksi pääset alla olevia ohjeita noudattamalla. Lisätietoa killan jäsenyydestä löytyy killan säännöistä luvusta 2.</p>
 
-    <a className={style.coloredBlock + " centered" + " rounded-button"} target="_blank" href="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587">Liity jäseneksi</a>
+    <a className={style.coloredBlock + " center-block" + " rounded-button"} target="_blank" href="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587">Liity jäseneksi</a>
 
     <h2>Varsinainen jäsenyys</h2>
     <p>Killan varsinaiseksi jäseneksi voidaan hyväksyä kaikki AYY:n jäsenistöön kuuluvat henkilöt. Killan jäsenenä saat äänioikeuden kiltakokouksissa, oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. Jäseneksi pääset alla olevia ohjeita noudattamalla Lisätietoa killan jäsenyydestä löytyy killan säännöistä luvusta 2.</p>

@@ -23,7 +23,7 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
             <Link onClick={naviCtx?.hideNav} to={ lang === "fi" ? "/" : "/en" }>
                 <StaticImage
                     src="../../images/aswhite.png"
-                    alt="Aivan Sama"
+                    alt="AS logo"
                     layout="constrained"
                     width={40}
                     height={40}
@@ -62,16 +62,16 @@ const NaviItem: React.FC<NaviItemProps> = ({ entry, lang }) => {
     const link = entry.link[lang]
 
     return (
-        <div className={style.naviItem}>
+        <li className={style.naviItem}>
             <NaviLink
                 title={title}
                 link={link}
                 />
             <Subnavi
-                data={entry.subnavi}
+                data={entry}
                 lang={lang}
                 />
-        </div>
+        </li>
     )
 }
 
@@ -102,7 +102,7 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
 }
 
 interface SubnaviProps {
-    data?: SubnaviData[],
+    data?: NaviData,
     lang: string,
 }
 
@@ -113,24 +113,26 @@ const Subnavi: React.FC<SubnaviProps> = ({ lang, data }) => {
         setExpanded(!expanded)
     }
 
-    const toggleOnEnter = (e: React.KeyboardEvent): void => {
-        if (e.key === "Enter")
-            toggleSubnavi()
-    }
+    const subnaviData = data?.subnavi
 
-    if (!data) {
+    if (!subnaviData) {
         return null
     }
 
     const subnaviClasses = `${style.subnavi} ${expanded ? style.showDropdown : ""}`
-
+    const dropdownID = data.title[lang] + "-subnavi"
     return (
         <>
-            <a tabIndex={0} className={style.dropdownToggle} onClick={toggleSubnavi} onKeyDown={toggleOnEnter}>
+            <button type="button" className={`${style.dropdownToggle} button-reset`}
+                onClick={toggleSubnavi}
+                aria-label="Subnavigation"
+                aria-expanded={expanded}
+                aria-controls={dropdownID}
+                >
                 {expanded ? <BsDash /> : <BsPlus />}
-            </a>
-            <div className={subnaviClasses}>
-                {data.map(entry => {
+            </button>
+            <ul className={subnaviClasses} id={dropdownID}>
+                {subnaviData.map(entry => {
                     if (!entry.title[lang] || !entry.link[lang]) {
                         return null;
                     }
@@ -143,7 +145,7 @@ const Subnavi: React.FC<SubnaviProps> = ({ lang, data }) => {
                         />
                     )
                 })}
-            </div>
+            </ul>
         </>
     )
 }
@@ -210,7 +212,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
     `)
 
     return (
-        <div
+        <ul
             id={style.navbarCollapse}
             className={ isExpanded ? style.show : "" }
         >
@@ -233,7 +235,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
                 slug={slug}
                 translation={translation}
             />
-        </div>
+        </ul>
     )
 }
 
@@ -265,7 +267,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
     }
 
     return (
-        <nav id={style.navbarTop} className={navExpanded ? style.expanded : ""}>
+        <nav id={style.navbarTop} className={navExpanded ? style.expanded : ""} aria-label="Main Navigation">
             <NaviContext.Provider value={ctx}>
                 <SiteLogo lang={lang} />
                 <NavCollapse 
@@ -274,9 +276,13 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
                     translation={translation}
                     isExpanded={navExpanded}
                 />
-                <div className={style.menuToggle} onClick={toggleNav}>
+                <button className={`${style.menuToggle} button-reset`}
+                    onClick={toggleNav}
+                    aria-label="Nav menu toggle"
+                    aria-controls={style.navbarCollapse}
+                    >
                     {navExpanded ? <BsX /> : <BsList />}
-                </div>
+                </button>
             </NaviContext.Provider>
         </nav>
     )
