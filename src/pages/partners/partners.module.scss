@@ -10,10 +10,10 @@
 }
 
 .intro_quote {
-  width: 60%;
-  line-height: 25px;
+  flex-basis: 60%;
+  flex-grow: 1;
+  align-self: center;
   font-style: italic;
-  font-weight: 400;
   font-size: 22px;
 }
 
