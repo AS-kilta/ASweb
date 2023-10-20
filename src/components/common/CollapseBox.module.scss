@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 1rem;
+  border: solid 0.1rem $as-violet-1;
+}
+
+.titleRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: none;
+  border: none;
+
+  svg {
+    color: $as-violet-1;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.titleRow span {
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.content {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.expanded {
+  height: auto;
+  padding: 1rem;
+}
