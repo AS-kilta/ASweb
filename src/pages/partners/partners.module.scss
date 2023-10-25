@@ -1,0 +1,27 @@
+.introduction {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.intro_quote {
+  flex-basis: 60%;
+  flex-grow: 1;
+  align-self: center;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.table {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}

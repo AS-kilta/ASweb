@@ -1,7 +1,7 @@
 $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
 .naviLink {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: $font-heading;
     font-weight: 700;
     text-transform: uppercase;
@@ -16,14 +16,13 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
     justify-content: space-between;
 }
 
-
 .dropdownToggle {
     align-items: center;
     color: $not-focused;
 
     svg {
-        width: 100%;
-        height: 100%;
+        width: 1.8rem;
+        height: 1.8rem;
         margin: auto;
     }
 }
@@ -65,6 +64,12 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
     div a {
         display: block;
+    }
+
+    ul, li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -147,6 +152,11 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
         flex-basis: 75px;
         padding-inline: 1rem;
         border-left: solid 2px transparentize($color: $natural-white, $amount: 0.5);
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+        }
     }
 
     .naviItem {
@@ -156,19 +166,18 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
 
     .naviLink {
         flex-grow: 1;
-        font-size: 28px;
+        font-size: 1.8rem;
         padding: 10px 20px;
     }
 
-    .naviLink:hover,
-    .naviLink.active {
+    .naviLink:hover {
         background: $accent-violet-2;
     }
 
     .subnavi {
 
         .naviLink {
-            font-size: 20px;
+            font-size: 1.3rem;
             font-weight: 500;
             text-transform: none;
             line-height: 1.6;
@@ -198,7 +207,7 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
         padding-inline: calc((100% - 500px) / 2);
         order: 2;
     
-        animation: simpleYScale 150ms ease-out forwards;
+        animation: simpleYScale 100ms ease-out forwards;
         transform-origin: top center;
     }
     
