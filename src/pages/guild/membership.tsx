@@ -3,11 +3,12 @@ import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import * as style from "./membership.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
+import heroPic from "../../images/images/Lakkien_jako_2016-100.jpg"
 
 const Membership: React.FC<PageProps> = ({ pageContext }) => {
 
   return (
-    <PageLayout pageContext={pageContext} title='Jäsenyys' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight="short">
+    <PageLayout pageContext={pageContext} title='Jäsenyys' background={heroPic} heroHeight="short">
 
     <p>Killan varsinaiseksi jäseneksi voidaan hyväksyä kaikki AYY:n jäsenistöön kuuluvat henkilöt. Killan jäsenenä saat äänioikeuden kiltakokouksissa, oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. Jäseneksi pääset alla olevia ohjeita noudattamalla. Lisätietoa killan jäsenyydestä löytyy killan säännöistä luvusta 2.</p>
 
