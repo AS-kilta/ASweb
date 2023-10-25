@@ -7,7 +7,7 @@ import * as ccStyle from "@src/components/common/CircleCard.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
 import ContactCard from "@src/components/profiles/ContactCard"
 import CircleCard from "@src/components/common/CircleCard"
-import heropic from "@src/images/20230502154358-1c055172-xx.jpg"
+import heropic from "@src/images/images/20230502154358-1c055172-xx.jpg"
 
 const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
     const data1 = {
