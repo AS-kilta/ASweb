@@ -16,8 +16,7 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
         background: `url(${background}) ${sassVars.asViolet1}`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundBlendMode: "soft-light",
-        flex: "1 0 60vh"
+        backgroundBlendMode: "soft-light"
     } : {}
 
     if ( heroHeight == "short" ) {
@@ -26,7 +25,7 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
     else if ( heroHeight == "tall" ) {
         customStyle.aspectRatio = "11/3";
     }
-    
+
     return (
         <div
             id={style.hero}
