@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
     else if ( heroHeight == "tall" ) {
         customStyle.aspectRatio = "11/3";
     }
-    
+
     return (
         <div
             id={style.hero}
