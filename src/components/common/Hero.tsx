@@ -14,15 +14,17 @@ export interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
     const customStyle: React.CSSProperties = background ? {
         background: `url(${background}) ${sassVars.asViolet1}`,
-        backgroundSize: 'cover',
-        backgroundBlendMode: "soft-light"
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundBlendMode: "soft-light",
+        flex: "1 0 60vh"
     } : {}
 
     if ( heroHeight == "short" ) {
-        customStyle.aspectRatio = "13/3";
+        customStyle.aspectRatio = "14/3";
     }
     else if ( heroHeight == "tall" ) {
-        customStyle.aspectRatio = "8/3";
+        customStyle.aspectRatio = "11/3";
     }
     
     return (
