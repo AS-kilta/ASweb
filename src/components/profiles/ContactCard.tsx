@@ -9,7 +9,6 @@ export interface ContactInfo {
     email: string,
     phone: string,
     telegram: string,
-    picture: string,
     description?: string,
     localImage: DynamicImageData
 }

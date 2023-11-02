@@ -45,7 +45,6 @@ const Sponsors: React.FC = () => {
                                     placeholder: BLURRED
                                 )
                             }
-                            url
                         }
                     }
                 }
