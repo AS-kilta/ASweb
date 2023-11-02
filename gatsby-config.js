@@ -50,8 +50,8 @@ module.exports = {
         name: `Automaatio- ja systeemitekniikan kilta`,
         short_name: `AS`,
         start_url: `/`,
-        background_color: `#6e4077`,
-        theme_color: `#6e4077`,
+        background_color: `#610396`,
+        theme_color: `#610396`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
