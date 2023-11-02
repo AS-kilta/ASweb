@@ -1,71 +1,67 @@
 - name: "Reaktor"
   link: "https://reaktor.com/"
-  picture: "https://as.fi/static/sponsors/reaktor_white.png"
+  picture: "../images/sponsors/reaktor_white.png"
 
 - name: "Tuxera"
   link: "https://www.tuxera.com/"
-  picture: "https://as.fi/static/sponsors/tuxera_red.png"
+  picture: "../images/sponsors/tuxera_red.png"
 
 - name: "ABB"
   link: "https://new.abb.com/fi/"
-  picture: "https://as.fi/static/sponsors/ABB.png"
+  picture: "../images/sponsors/ABB.png"
 
 - name: "Vincit"
   link: "https://www.vincit.fi/"
-  picture: "https://as.fi/static/sponsors/vincit.png"
+  picture: "../images/sponsors/vincit.png"
 
 - name: "Accenture"
   link: "https://www.accenture.com/fi-en"
-  picture: "https://as.fi/static/sponsors/accenture.png"
+  picture: "../images/sponsors/accenture.png"
 
 - name: "Futurice"
   link: "https://www.futurice.com/"
-  picture: "https://as.fi/static/sponsors/futurice.png"
+  picture: "../images/sponsors/futurice.png"
 
 - name: "Valmet"
   link: "https://www.valmet.com/"
-  picture: "https://as.fi/static/sponsors/valmet_white.png"
+  picture: "../images/sponsors/valmet_white.png"
 
 - name: "ThermoFisher"
   link: "https://www.thermofisher.com/fi/en/home.html"
-  picture: "https://as.fi/static/sponsors/thermo_fisher.png"
-
-- name: "Sensible4"
-  link: "https://sensible4.fi/"
-  picture: "https://as.fi/static/sponsors/sensible4.png"
+  picture: "../images/sponsors/thermo_fisher.png"
 
 - name: "CGI"
   link: "https://www.cgi.com/fi/fi"
-  picture: "https://as.fi/static/sponsors/cgi.png"
+  picture: "../images/sponsors/cgi.png"
 
 - name: "ATalent"
   link: "https://atalent.fi/"
-  picture: "https://as.fi/static/sponsors/aTalent_Logo_White.png"
+  picture: "../images/sponsors/aTalent_Logo_White.png"
 
 - name: "Sandvik"
   link: "https://www.home.sandvik/en/"
-  picture: "https://as.fi/static/sponsors/sandvik.png"
+  picture: "../images/sponsors/sandvik.png"
 
-- name: "Finago"
+- name: "Accountor"
   link: "https://finago.com/"
-  picture: "https://as.fi/static/sponsors/accountor_logo.png"
+  picture: "../images/sponsors/accountor_logo.png"
 
 - name: "Eficode"
   link: "https://eficode.com"
-  picture: "https://as.fi/static/sponsors/Eficode_logo.png"
+  picture: "../images/sponsors/Eficode_logo.png"
 
 - name: "Trombia"
   link: "https://trombia.com"
-  picture: "https://as.fi/static/sponsors/trombia.jpeg"
+  picture: "../images/sponsors/trombia.jpeg"
 
 - name: "Prosys opc"
   link: "https://prosysopc.com"
-  picture: "https://as.fi/static/sponsors/prosys_opc.png"
+  picture: "../images/sponsors/prosys_opc.png"
 
 - name: "Tietoevry"
   link: "https://tietoevry.com/"
-  picture: "https://as.fi/static/sponsors/tietoevry.png"
+  picture: "../images/sponsors/tietoevry.png"
 
 - name: "Nokia"
   link: "https://nokia.com/"
-  picture: "https://as.fi/static/sponsors/nokia.png"
+  picture: "../images/sponsors/nokia.png"
