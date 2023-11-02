@@ -12,6 +12,9 @@ module.exports = {
   },
   trailingSlash: "never",
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,7 +22,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -42,8 +44,6 @@ module.exports = {
         silent: true,
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
