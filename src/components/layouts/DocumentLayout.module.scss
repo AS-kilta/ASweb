@@ -1,0 +1,62 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    & > * {
+        width: 100%;
+    }
+}
+
+#content {
+    flex-grow: 1;
+    background: $natural-white;
+    
+    margin-bottom: 3rem;
+
+    width: calc(100% - 4rem);
+
+    h1 {
+        //long main title
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        //chapter
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 2px solid;
+        padding-bottom: 0.1em;
+    }
+
+    h3 {
+        // article/pykälä
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h4 {
+        // subsection/clause
+        font-size: 1.1rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-style: italic;
+    }
+
+    p {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    :where(& > *) {
+        max-width: 900px;
+        margin-inline: auto;
+    }
+}
