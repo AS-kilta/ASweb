@@ -7,6 +7,7 @@ import * as ccStyle from "@src/components/common/CircleCard.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
 import ContactCard from "@src/components/profiles/ContactCard"
 import CircleCard from "@src/components/common/CircleCard"
+import heropic from "@src/images/images/20230502154358-1c055172-xx.jpg"
 
 const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
     const data1 = {
@@ -30,7 +31,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
     const styleCard= {"--profile-img-size": "22rem", marginBottom: "5rem"} as React.CSSProperties;
 
   return (
-    <PageLayout pageContext={pageContext} title='Fuksina killassa' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight='tall'>
+    <PageLayout pageContext={pageContext} title='Fuksina killassa' background={heropic} heroHeight='tall'>
         <div style={styleCard} className={boardStyle.board}>
             <ContactCard data={data1}/>
             <ContactCard data={data2}/>

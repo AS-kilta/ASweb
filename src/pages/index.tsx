@@ -25,6 +25,7 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
                 <div className={style.eventsContainer}>
                     <h2>Tapahtumat</h2>
                     <EventList number={5} lang={pageContext.lang} />
+                    <a href="https://calendar.google.com/calendar/embed?src=as.tiedottaja%40gmail.com&ctz=Europe%2FHelsinki" target="_blank">Tapahtumakalenteri</a>
                 </div>
             </div>
             <h2 className="center-text">Instagram</h2>

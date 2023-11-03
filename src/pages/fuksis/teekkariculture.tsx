@@ -3,11 +3,11 @@ import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import * as style from "./fuksis.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
-
+import heropic from "@src/images/images/IMG_6067-Edit.jpg"
 
 const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title='Teekkarikulttuuri' background='https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg' heroHeight='tall'>
+    <PageLayout pageContext={pageContext} title='Teekkarikulttuuri' background={heropic} heroHeight='short'>
 
         <h2 id='haalarit'>Haalarit</h2>
 

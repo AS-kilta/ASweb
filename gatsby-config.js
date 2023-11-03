@@ -12,6 +12,9 @@ module.exports = {
   },
   trailingSlash: "never",
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,7 +22,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -42,16 +44,14 @@ module.exports = {
         silent: true,
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Automaatio- ja systeemitekniikan kilta`,
         short_name: `AS`,
         start_url: `/`,
-        background_color: `#6e4077`,
-        theme_color: `#6e4077`,
+        background_color: `#610396`,
+        theme_color: `#610396`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },

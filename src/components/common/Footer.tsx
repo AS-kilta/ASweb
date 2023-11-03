@@ -3,12 +3,13 @@ import { useStaticQuery, graphql } from "gatsby"
 import { BsFacebook, BsInstagram, BsGithub } from "react-icons/bs"
 
 import * as style from "./Footer.module.scss"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 interface SponsorData {
     node: {
         name: string,
         link: string,
-        picture: string
+        picture: DynamicImageData,
     }
 }
 
@@ -16,6 +17,17 @@ interface SponsorDataScheme {
     allSponsorsYaml: {
         edges: SponsorData[]
     }
+}
+
+const Sponsor: React.FC<{image: DynamicImageData, name: string}> = ({image, name}) => {
+    if (image != null)
+        return (
+            <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt={name}/>
+        )
+    else
+        return (
+            <text>{name}</text>
+    )
 }
 
 const Sponsors: React.FC = () => {
@@ -26,7 +38,15 @@ const Sponsors: React.FC = () => {
                     node {
                         name
                         link
-                        picture
+                        picture {
+                            childImageSharp {
+                                gatsbyImageData(
+                                    width: 100
+                                    placeholder: BLURRED
+                                )
+                            }
+                            url
+                        }
                     }
                 }
             }
@@ -37,7 +57,7 @@ const Sponsors: React.FC = () => {
         <div id={style.sponsors}>
             {data.allSponsorsYaml.edges.map(entry =>
                 <a className={style.sponsor} key={entry.node.name} href={entry.node.link}>
-                    <img src={entry.node.picture} alt={entry.node.name} width={100} />
+                    <Sponsor image={entry.node.picture} name={entry.node.name}/>
                 </a>
             )}
         </div>
