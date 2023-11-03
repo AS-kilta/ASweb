@@ -29,6 +29,12 @@ declare global {
         [key:string]: string;
     }
 
+    // Type for object containing translations
+
+    interface Translations {
+        [key:string]: TranslatedEntry;
+    }
+
     // Type for image data for dynamic images
 
     interface DynamicImageData {
