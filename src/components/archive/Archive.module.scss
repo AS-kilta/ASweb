@@ -1,13 +1,14 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: end;
   gap: 1rem;
+  margin: 1rem auto;
 }
 
 .toggleButton {
   color: $as-violet-1;
   padding: 0;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,4 +20,23 @@
     width: 1.5rem;
     height: 1.5rem;
   }
+}
+
+.heading3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.heading4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.noDescription {
+  padding: 0.1rem 0 0.1rem 1rem;
 }

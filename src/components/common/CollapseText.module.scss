@@ -2,26 +2,22 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  border-radius: 1rem;
-  border: solid 0.1rem $as-violet-1;
 }
 
 .titleRow {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
+  justify-content: flex-start;
   align-items: center;
-  font-size: 1.5rem;
-  font-weight: 700;
   background: none;
   border: none;
+  padding: 0.1rem 0 0.1rem 1rem;
 
   svg {
     color: $as-violet-1;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 
@@ -33,5 +29,5 @@
 
 .expanded {
   height: auto;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 2rem;
 }
