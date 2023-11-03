@@ -12,9 +12,13 @@
     flex-grow: 1;
     background: $natural-white;
     
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
     width: calc(100% - 4rem);
+
+    h1, h2, h3, h4{
+        color: $as-violet-1;
+    }
 
     h1 {
         //long main title
@@ -52,7 +56,7 @@
 
     p {
         margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     :where(& > *) {
