@@ -5,6 +5,7 @@ import PageLayout from "@src/components/layouts/PageLayout"
 import ContactCard from "../../components/profiles/ContactCard"
 import CircleCard from "../../components/common/CircleCard"
 import * as style from "./partners.module.scss"
+import heroPic from "../../images/images/DSC_0376.jpg"
 
 const Partners: React.FC<PageProps> = ({ pageContext }) => {
   const ysvData = {
@@ -17,7 +18,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
   };
 
   return (
-    <PageLayout pageContext={pageContext} background="https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg" heroHeight="short" title="Yrityksille">
+    <PageLayout pageContext={pageContext} background={heroPic} heroHeight="short" title="Yrityksille">
       <div className={style.introduction}>
         <ContactCard data={ysvData}/>
         <p className={style.intro_quote}>"Hei yrityksen edustaja! Olen Automaatio- ja systeemitekniikan killan yrityssuhdevastaava. Kantsii tehä meidän kanssa yhteistyötä ja tältä sivulta löydät lisätietoa yhteistyömahdollisuuksista. Ota minuun yhteyttä niin jutellaan lisää ja räätälöidään just teille sopiva paketti!"</p>

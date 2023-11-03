@@ -11,14 +11,15 @@
     padding: 2rem;
 
     .mainTitle {
-        margin: 0 5%;
+        margin: 0 8%;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: max(5vw, 2rem);
+        font-size: max(4vw, 2rem);
     }
 
     .lead {
         font-family: $font-heading;
+        font-weight: 500;
         max-width: 50ch;
         margin: 2rem 2rem 0;
     }
