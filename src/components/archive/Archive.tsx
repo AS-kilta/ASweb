@@ -74,22 +74,6 @@ const translations: Translations = {
   accolades: {
     fi: "Kunnianosoitukset",
     en: "Accolades"
-  },
-  goldenAccolade: {
-    fi: "Kultainen pränikkä",
-    en: "Golden accolade"
-  },
-  silveryAccolade: {
-    fi: "Hopeinen pränikkä",
-    en: "Silvery accolade"
-  },
-  ratas: {
-    fi: "RATAS-kunnianosoitukset",
-    en: "RATAS accolade"
-  },
-  alumnusOfTheYear: {
-    fi: "Vuoden kilta-alumni",
-    en: "Alumnus of the year"
   }
 }
 
