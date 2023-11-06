@@ -1,7 +1,10 @@
 year: "2018"
 accolades:
-  alumnus_of_the_year:
-    - name: "Henry Sanmark"
-      description:
-        fi: "Tämä henkilö on kuluvan vuoden aikana osoittanut, ettei valmistuminen hidasta tahtia. Pitkän opiskelijauransa jälkeen tämä henkilö on jatkanut kiltatoiminnan mukana ja auttanut lukuisissa tapahtumissa ja projekteissa. Vuoden näkyvimmät tulokset ovat kuitenkin 20-vuotishistoriikin päätoimittaminen ja AS-näyttelyn järjestäminen."
-        en: ""
+  - name:
+      fi: "Vuoden kilta-alumni"
+      en: "Alumnus of the year"
+    people:
+      - name: "Henry Sanmark"
+        description:
+          fi: "Tämä henkilö on kuluvan vuoden aikana osoittanut, ettei valmistuminen hidasta tahtia. Pitkän opiskelijauransa jälkeen tämä henkilö on jatkanut kiltatoiminnan mukana ja auttanut lukuisissa tapahtumissa ja projekteissa. Vuoden näkyvimmät tulokset ovat kuitenkin 20-vuotishistoriikin päätoimittaminen ja AS-näyttelyn järjestäminen."
+          en: ""
