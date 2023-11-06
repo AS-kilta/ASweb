@@ -27,27 +27,27 @@ interface BoardMember {
   description?: TranslatedEntry
 }
 
-interface Year {
-  year: string,
-  board: BoardMember[],
-  officials: CommitteeData[],
-  accolades: {
-    golden_accolades?: Accolade[],
-    silvery_accolades?: Accolade[],
-    ratas?: Accolade[],
-    alumnus_of_the_year?: Accolade[]
-  }
+interface Accolade {
+  name: string,
+  description: TranslatedEntry
+}
+
+interface Accolades {
+  name: TranslatedEntry,
+  people: Accolade[]
+}
+
+interface ArchiveEntry {
+  year?: string,
+  board?: BoardMember[],
+  officials?: CommitteeData[],
+  accolades?: Accolades[]
 }
 
 interface ArchiveData {
   allArchiveYaml: {
-    nodes: Year[]
+    nodes: ArchiveEntry[]
   }
-}
-
-interface Accolade {
-  name: string,
-  description: TranslatedEntry
 }
 
 const translations: Translations = {
@@ -134,12 +134,11 @@ const Officials: React.FC<{officials: CommitteeData[], lang: string}> = ({ offic
   )
 }
 
-// TODO: Create a separate component for collapsable text
-
-const Accolades: React.FC<{accolades: Accolade[], lang: string}> = ({ accolades, lang }) => {
+const Accolades: React.FC<{accolades: Accolades, lang: string}> = ({ accolades, lang }) => {
   return (
     <Fragment>
-      {accolades.map((accolade: Accolade) => {
+      <h3 className={style.heading3}>{accolades.name[lang]}</h3>
+      {accolades.people.map((accolade: Accolade) => {
         if (!accolade.description[lang])
           return <div key={accolade.name} className={style.noDescription}>{accolade.name}</div>
         return (
@@ -178,28 +177,11 @@ export const query = graphql`
           }
         }
         accolades {
-          golden_accolades {
-            name
-            description {
-              fi
-              en
-            }
+          name {
+            fi
+            en
           }
-          silvery_accolades {
-            name
-            description {
-              fi
-              en
-            }
-          }
-          ratas {
-            name
-            description {
-              fi
-              en
-            }
-          }
-          alumnus_of_the_year {
+          people {
             name
             description {
               fi
@@ -227,7 +209,7 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
   const rawData: ArchiveData = useStaticQuery(query)
 
   // Create a copy of queried archive data and reverse the array
-  const data: Year[] = rawData.allArchiveYaml.nodes.slice().reverse()
+  const data: ArchiveEntry[] = rawData.allArchiveYaml.nodes.slice().reverse()
 
   return (
     <div className={style.container}>
@@ -236,8 +218,8 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
         {allExpanded ? <BsDash /> : <BsPlus />}
       </button>
       <h2>{translations.formerOfficials[lang]}</h2>
-      {data.map((entry: Year) => {
-        return (
+      {data.map((entry: ArchiveEntry) => {
+        return entry.year && (
           <CollapseBox key={`officials-${entry.year}`} title={entry.year} expand={allExpanded}>
             <Fragment>
               {entry.board && <Board board={entry.board} lang={lang} />}
@@ -247,42 +229,21 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
         )
       })}
       <h2>{translations.accolades[lang]}</h2>
-      {data.map((entry: Year) => {
-        return (
+      {data.map((entry: ArchiveEntry) => {
+        return entry.year && entry.accolades && (
           <CollapseBox key={`accolades-${entry.year}`} title={entry.year} expand={allExpanded}>
-            <div>
-              {entry.accolades.golden_accolades
-                && (
-                  <Fragment>
-                    <h3 className={style.heading3}>{translations.goldenAccolade[lang]}</h3>
-                    <Accolades accolades={entry.accolades.golden_accolades} lang={lang} />
-                  </Fragment>
-                )}
-              {entry.accolades.silvery_accolades
-                && (
-                  <Fragment>
-                    <h3 className={style.heading3}>{translations.silveryAccolade[lang]}</h3>
-                    <Accolades accolades={entry.accolades.silvery_accolades} lang={lang} />
-                  </Fragment>
-                )}
-              {entry.accolades.ratas
-                && (
-                  <Fragment>
-                    <h3 className={style.heading3}>{translations.ratas[lang]}</h3>
-                    <Accolades accolades={entry.accolades.ratas} lang={lang} />
-                  </Fragment>
-                )}
-              {entry.accolades.alumnus_of_the_year
-                && (
-                  <Fragment>
-                    <h3 className={style.heading3}>{translations.alumnusOfTheYear[lang]}</h3>
-                    <Accolades accolades={entry.accolades.alumnus_of_the_year} lang={lang} />
-                  </Fragment>
-                )}
-            </div>
+            {entry.accolades.map((accolades: Accolades) => <Accolades accolades={accolades} lang={lang} />)}
           </CollapseBox>
         )
       })}
+      {data.filter((entry: ArchiveEntry) => !entry.year)
+        .map((entry: ArchiveEntry) => {
+          return entry.accolades && (
+            <Fragment>
+              {entry.accolades.map((accolades: Accolades) => <Accolades accolades={accolades} lang={lang} />)}
+            </Fragment>
+          )
+        })}
     </div>
   )
 }

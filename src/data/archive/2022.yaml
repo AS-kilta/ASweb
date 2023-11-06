@@ -1513,98 +1513,107 @@ officials:
             en: "Alderman"
         picture: "https://as.fi/static/toimijat/aebaej_placeholder.png"
 accolades:
-  golden_accolades:
-    - name: "Helena Kaisanlahti"
-      description:
-        fi: "Tämän kilta-aktiivin osallistuminen kiltatoimintaan on ollut laajaa ja pitkäaikaista: vuosien aikana hänet on löytänyt niin keittiöstä, kameran takaa kuin hallinnon parista. Vastuita on ollut paljon, mutta vielä enemmän tätä henkilöä kuvaa se, miten hän on ne hoitanut. Hän on lähtenyt mukaan kaikkeen toimintaan täysillä ja erinomaisella asenteella, jättämättä mitään puolitiehen. Hän on lämmin, aurinkoinen ja luotettava toimija, joka edistää kiltahenkeä ja luo ympärilleen hyvää ilmapiiriä, mitä ikinä tekeekään. Lisäksi hän on osoittanut työskentelyssään erinomaista harkintaa sen suhteen, milloin haastaa vanhoja tapoja ja uudistaa toimintaa, ja milloin ylläpitää perinteitä.Tämä killisti on jäänyt vielä hyvin hoidettujen IE- ja rahisvuosien jälkeenkin aktiivisesti kiltaan. Hän on toiminnantarkastamisen lisäksi ollut Kvartaalimestarina varmistamassa, että kilta saa arvoisensa 25. juhlavuoden. Tämä kiltalainen on tietenkin Helena Kaisanlahti."
-        en: ""
-    - name: "Niina Tapanainen"
-      description:
-        fi: "Tämä kultaisen pränikän saaja on kiltavuosiensa aikana loistanut monissa tehtävissä killassa, sekä aivan killan näkyvimmillä ja keskeisimmillä paikoilla, mutta myös tehtävissä, jotka jäävät helposti huomaamatta. Hänet on vuosien aikana tavattu niin johtamasta killan viestintää kuin koko killan hallitustakin.
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: "Helena Kaisanlahti"
+        description:
+          fi: "Tämän kilta-aktiivin osallistuminen kiltatoimintaan on ollut laajaa ja pitkäaikaista: vuosien aikana hänet on löytänyt niin keittiöstä, kameran takaa kuin hallinnon parista. Vastuita on ollut paljon, mutta vielä enemmän tätä henkilöä kuvaa se, miten hän on ne hoitanut. Hän on lähtenyt mukaan kaikkeen toimintaan täysillä ja erinomaisella asenteella, jättämättä mitään puolitiehen. Hän on lämmin, aurinkoinen ja luotettava toimija, joka edistää kiltahenkeä ja luo ympärilleen hyvää ilmapiiriä, mitä ikinä tekeekään. Lisäksi hän on osoittanut työskentelyssään erinomaista harkintaa sen suhteen, milloin haastaa vanhoja tapoja ja uudistaa toimintaa, ja milloin ylläpitää perinteitä.Tämä killisti on jäänyt vielä hyvin hoidettujen IE- ja rahisvuosien jälkeenkin aktiivisesti kiltaan. Hän on toiminnantarkastamisen lisäksi ollut Kvartaalimestarina varmistamassa, että kilta saa arvoisensa 25. juhlavuoden. Tämä kiltalainen on tietenkin Helena Kaisanlahti."
+          en: ""
+      - name: "Niina Tapanainen"
+        description:
+          fi: "Tämä kultaisen pränikän saaja on kiltavuosiensa aikana loistanut monissa tehtävissä killassa, sekä aivan killan näkyvimmillä ja keskeisimmillä paikoilla, mutta myös tehtävissä, jotka jäävät helposti huomaamatta. Hänet on vuosien aikana tavattu niin johtamasta killan viestintää kuin koko killan hallitustakin.
 
-            Isoimpana ansiona tällä killistillä on ollut hänen panoksensa killan brändityön aloittajana. Muutaman viime vuoden aikana killassa on tapahtunut suuria muutoksia ja uudistuksia. Muutoksen keskellä voi olla vaikea nähdä sitä, mikä on muuttunut ja mihin suuntaan. Jälkikäteen tämä on kuitenkin helpompi huomata. Näkyvimpänä ja selkeimpänä on päivitetty ohjesääntöjä ja otettu esimerkiksi uusi Code of Conduct käyttöön, mutta työ on ulottunut paljon laajemmalle: killassa ollaan alettu entistä enemmän miettimään, miten asioita tehdään ja millaista ilmapiiriä killassa halutaan ylläpitää. Tämä henkilö on ollut avainasemassa sen pohdinnassa, millainen kilta haluamme olla.
+              Isoimpana ansiona tällä killistillä on ollut hänen panoksensa killan brändityön aloittajana. Muutaman viime vuoden aikana killassa on tapahtunut suuria muutoksia ja uudistuksia. Muutoksen keskellä voi olla vaikea nähdä sitä, mikä on muuttunut ja mihin suuntaan. Jälkikäteen tämä on kuitenkin helpompi huomata. Näkyvimpänä ja selkeimpänä on päivitetty ohjesääntöjä ja otettu esimerkiksi uusi Code of Conduct käyttöön, mutta työ on ulottunut paljon laajemmalle: killassa ollaan alettu entistä enemmän miettimään, miten asioita tehdään ja millaista ilmapiiriä killassa halutaan ylläpitää. Tämä henkilö on ollut avainasemassa sen pohdinnassa, millainen kilta haluamme olla.
 
-            Uudistunut kilta on laajan yhteisen työn tulosta, mutta ilman tämän henkilön panosta monia tärkeitä asioita ei olisi mietitty lainkaan, tai se olisi tehty paljon pienemmin kuin mitä nyt on tehty. Kilta olisi tänä päivänä varsin erilainen ilman: Niina Tapanaista."
-        en: ""
-    - name: "Arttu Rintala"
-      description:
-        fi: "Tämä kiltalainen on vaikuttanut vahvasti niin killan tapahtuma- ja laulukulttuuriin kuin fuksitoimintaankin. Hän on onnistunut toiminnallaan luomaan kiltalaisille mahtavia kokemuksia ja muistamisen arvoisia elämyksiä, ja kohtaa jokaisen kiltalaisen aina yksilönä riippumatta ympäristöstä, tai tilanteesta. Tämän AS:n ensimmäisen DSD Captainin johdolla on saatettu alkuun killan uusimman pääaineen onnistunut integroituminen. Hänen toiminnassaan englannin kieli ja kansainvälisyys on näkynyt fuksitoiminnan lisäksi myös killan tapahtuma- ja laulukulttuurissa. Tapahtumapuolella hän on antanut panoksensa sekä kansainvälisyyttä korostavana kulttuurimestarina että kaksinkertaisena ulkoexcursion järjestäjänä. Sekä lukkarimestarina että pitkäaikaisena lukkarina hän on ansioituneesti ollut luotsaamassa englanninkielisten laulujen asemaa luontevaksi osaksi killan laulukulttuuria, ja myös Aasinsillassa näkyy hänen kädenjälkensä. Tämän killan ikioman DSDaddy pitää sitseillä tempoa yllä vaikka suuri puulasta kädessään. Hän on tietenkin Arttu Rintala."
-        en: ""
+              Uudistunut kilta on laajan yhteisen työn tulosta, mutta ilman tämän henkilön panosta monia tärkeitä asioita ei olisi mietitty lainkaan, tai se olisi tehty paljon pienemmin kuin mitä nyt on tehty. Kilta olisi tänä päivänä varsin erilainen ilman: Niina Tapanaista."
+          en: ""
+      - name: "Arttu Rintala"
+        description:
+          fi: "Tämä kiltalainen on vaikuttanut vahvasti niin killan tapahtuma- ja laulukulttuuriin kuin fuksitoimintaankin. Hän on onnistunut toiminnallaan luomaan kiltalaisille mahtavia kokemuksia ja muistamisen arvoisia elämyksiä, ja kohtaa jokaisen kiltalaisen aina yksilönä riippumatta ympäristöstä, tai tilanteesta. Tämän AS:n ensimmäisen DSD Captainin johdolla on saatettu alkuun killan uusimman pääaineen onnistunut integroituminen. Hänen toiminnassaan englannin kieli ja kansainvälisyys on näkynyt fuksitoiminnan lisäksi myös killan tapahtuma- ja laulukulttuurissa. Tapahtumapuolella hän on antanut panoksensa sekä kansainvälisyyttä korostavana kulttuurimestarina että kaksinkertaisena ulkoexcursion järjestäjänä. Sekä lukkarimestarina että pitkäaikaisena lukkarina hän on ansioituneesti ollut luotsaamassa englanninkielisten laulujen asemaa luontevaksi osaksi killan laulukulttuuria, ja myös Aasinsillassa näkyy hänen kädenjälkensä. Tämän killan ikioman DSDaddy pitää sitseillä tempoa yllä vaikka suuri puulasta kädessään. Hän on tietenkin Arttu Rintala."
+          en: ""
 
-  silvery_accolades:
-    - name: "Antti Regelin"
-      description:
-        fi: "Tämän hopeisen pränikän saajan tulisi hakea rahastonhoitajaksi, sillä se on ainoa hallintopesti, mikä häneltä vielä uupuu. Omien sanojensa mukaan häntä kiihottaa hallinto, ja tämän erityislaatuisen intohimon ansiosta moni asia tehdään tänä päivänä killassa äärimmäisen kunnollisesti.
+  - name:
+      fi: "Hopeinen pränikkä"
+      en: "Silvery accolade"
+    people:
+      - name: "Antti Regelin"
+        description:
+          fi: "Tämän hopeisen pränikän saajan tulisi hakea rahastonhoitajaksi, sillä se on ainoa hallintopesti, mikä häneltä vielä uupuu. Omien sanojensa mukaan häntä kiihottaa hallinto, ja tämän erityislaatuisen intohimon ansiosta moni asia tehdään tänä päivänä killassa äärimmäisen kunnollisesti.
 
-            Killan varapuheenjohtajana ja sihteerinä hän näki, että kasvava kilta tarvitsee uudenlaisen hallintorakenteen, ja oli avainasemassa luomassa sitä. Puheenjohtajana hän jatkoi killan kehittämistä johtamalla omalla esimerkillään keskustelukulttuurin muutosta avoimempaan ja rakentavampaan suuntaan. Tämä kiltalainen hohkaa itsevarmuutta ja auttaa muita löytämään sen itsestään. Hän tunnetusti välittömällä ja varmalla tavalla tarjoaa aina apuaan kiltalaisille, niin pienissä kuin suurissakin ongelmissa. Hän on tietenkin Antti Regelin."
-        en:
-    - name: "Matias Vapola"
-      description:
-        fi: "Jo fuksivuonna tämä kiltalainen onnistui yhdistämään omat intohimonsa yrityssuhteisiin ja sijoituksiin niin, että koko kilta pääsi hyötymään siitä. Hän on sekä kehittänyt yrityssuhdetoimintaa että potkaissut käyntiin killan sijoitustoiminnan, minkä ansiosta killalla on nykyään oma sijoitusohjesääntö. Tämä sekä rahan- että sitsiruoannälkäisiä kiltalaisia ansiokkaasti ensin yrityssuhdevastaavana, sitten IE:nä ruokkinut kiltalainen on Matias Vapola."
-        en: ""
-    - name: "Tiia-Maria Hyvönen"
-      description:
-        fi: "Tämä aktiivisesti erityisesti uusien aASien parissa hommia paiskinut kiltalainen on aina enemmän kuin mielellään auttamassa ja hänen toiminnallaan on ollut ISO vaikutus kiltaan. Hänen kiltauransa alkoi smurffin ja ISOn tehtävistä. Pelkkä ISOilu ei hänelle kuitenkaan riittänyt vaan hän tarttui ISOmpiin saappaisiin siirtyessään ISOpomon rooliin. Rooli ei ollut koronan myötä helppo, mutta tämä tekijä päätti edistää killan ISOkulttuuria ISOvalan, AS:n omien ISOsitsien, ja fuksiryhmien sisäisten ISOhengausten muodossa. ISOpomovuoden jälkeen ISOilu on edelleen ollut tämän aktiivin sydäntä lähellä ja hänet voi löytää yhä puuhailemasta uusien opiskelijoiden kanssa maisteri-ISOna sekä toimimassa kiltayhteisön eteen ASki- sekä retkitoimikunnassa. Tämä killan suoranainen ISO-standardi on Tiia-Maria Hyvönen."
-        en: ""
-    - name: "Jyri Kolu"
-      description:
-        fi: "Tämä aktiivinen kiltatoimija on ollut pitkään mukana usein taka-alalla, mutta silti hyvin tärkeissä tehtävissä. Kahden hallitusvuoden jälkeen hän on ottanut vastuuta killan IT-puolesta muun muassa killan nettisivujen ja ASkin tietotekniikan ylläpidon muodossa, ja edelleen vaikuttaa muun muassa säätömestarina sekä uusien nettisivujen arkkitehtinä. Hän on tietenkin Jyri Kolu."
-        en: ""
-    - name: "Lotta Makkonen"
-      description:
-        fi: "Tältä kiltatoimijalta löytyy todella pitkä lista toimaripestejä usean vuoden ajalta. Nämä lukuisat pestit hän on hoitanut aina samalla aktiivisella ja tehokkaalla otteella ja mitään ei ole jätetty puolitiehen. Tämän killistin käsissä pysyy niin sipulinpilkkomisveitsi sitsikeittiössä, fuksitapahtumien punaiset langat tosi-ISOillessa, kuin näppäimistökin hänen oikolukiessaan ja kääntäessään killan tiedotusta. Taitaa tuo ISOmpien pirskeidenkin järjestäminen kiinnostaa, koska hänen ansiostaan pääsemme nauttimaan myös näistä juhlista tänä hienona iltana. Kiitos upeasta otteestasi kiltahommiin ja siitä, että tänään saamme juhlia - Lotta Makkonen!"
-        en: ""
-    - name: "Jenna Kerkkänen"
-      description:
-        fi: "Tämän palkinnonsaajan vitsit ovat niin huonoja, että ne itsessään ovat jo palkitsemisen arvoisia. Tämä kiltalainen tutustuttaa vuosi toisensa jälkeen uudet kiltalaiset kiltakulttuuriin lämpimästi ja persoonallisesti. Hänen toimintansa on killan henkeä uhkuvaa ja aurinkoista, ja harva jää häneltä moikkaamatta killan tapahtumissa. Hän on toiminut laajasti kulttuuritoiminnassa, ilahduttanut fukseja ISOna ja tänä vuonna johtanut lukkaritoimikuntaa. Huonojen vitsien ja hyvän kiltahengen kuningatar, Jenna Kerkkänen!"
-        en: ""
+              Killan varapuheenjohtajana ja sihteerinä hän näki, että kasvava kilta tarvitsee uudenlaisen hallintorakenteen, ja oli avainasemassa luomassa sitä. Puheenjohtajana hän jatkoi killan kehittämistä johtamalla omalla esimerkillään keskustelukulttuurin muutosta avoimempaan ja rakentavampaan suuntaan. Tämä kiltalainen hohkaa itsevarmuutta ja auttaa muita löytämään sen itsestään. Hän tunnetusti välittömällä ja varmalla tavalla tarjoaa aina apuaan kiltalaisille, niin pienissä kuin suurissakin ongelmissa. Hän on tietenkin Antti Regelin."
+          en:
+      - name: "Matias Vapola"
+        description:
+          fi: "Jo fuksivuonna tämä kiltalainen onnistui yhdistämään omat intohimonsa yrityssuhteisiin ja sijoituksiin niin, että koko kilta pääsi hyötymään siitä. Hän on sekä kehittänyt yrityssuhdetoimintaa että potkaissut käyntiin killan sijoitustoiminnan, minkä ansiosta killalla on nykyään oma sijoitusohjesääntö. Tämä sekä rahan- että sitsiruoannälkäisiä kiltalaisia ansiokkaasti ensin yrityssuhdevastaavana, sitten IE:nä ruokkinut kiltalainen on Matias Vapola."
+          en: ""
+      - name: "Tiia-Maria Hyvönen"
+        description:
+          fi: "Tämä aktiivisesti erityisesti uusien aASien parissa hommia paiskinut kiltalainen on aina enemmän kuin mielellään auttamassa ja hänen toiminnallaan on ollut ISO vaikutus kiltaan. Hänen kiltauransa alkoi smurffin ja ISOn tehtävistä. Pelkkä ISOilu ei hänelle kuitenkaan riittänyt vaan hän tarttui ISOmpiin saappaisiin siirtyessään ISOpomon rooliin. Rooli ei ollut koronan myötä helppo, mutta tämä tekijä päätti edistää killan ISOkulttuuria ISOvalan, AS:n omien ISOsitsien, ja fuksiryhmien sisäisten ISOhengausten muodossa. ISOpomovuoden jälkeen ISOilu on edelleen ollut tämän aktiivin sydäntä lähellä ja hänet voi löytää yhä puuhailemasta uusien opiskelijoiden kanssa maisteri-ISOna sekä toimimassa kiltayhteisön eteen ASki- sekä retkitoimikunnassa. Tämä killan suoranainen ISO-standardi on Tiia-Maria Hyvönen."
+          en: ""
+      - name: "Jyri Kolu"
+        description:
+          fi: "Tämä aktiivinen kiltatoimija on ollut pitkään mukana usein taka-alalla, mutta silti hyvin tärkeissä tehtävissä. Kahden hallitusvuoden jälkeen hän on ottanut vastuuta killan IT-puolesta muun muassa killan nettisivujen ja ASkin tietotekniikan ylläpidon muodossa, ja edelleen vaikuttaa muun muassa säätömestarina sekä uusien nettisivujen arkkitehtinä. Hän on tietenkin Jyri Kolu."
+          en: ""
+      - name: "Lotta Makkonen"
+        description:
+          fi: "Tältä kiltatoimijalta löytyy todella pitkä lista toimaripestejä usean vuoden ajalta. Nämä lukuisat pestit hän on hoitanut aina samalla aktiivisella ja tehokkaalla otteella ja mitään ei ole jätetty puolitiehen. Tämän killistin käsissä pysyy niin sipulinpilkkomisveitsi sitsikeittiössä, fuksitapahtumien punaiset langat tosi-ISOillessa, kuin näppäimistökin hänen oikolukiessaan ja kääntäessään killan tiedotusta. Taitaa tuo ISOmpien pirskeidenkin järjestäminen kiinnostaa, koska hänen ansiostaan pääsemme nauttimaan myös näistä juhlista tänä hienona iltana. Kiitos upeasta otteestasi kiltahommiin ja siitä, että tänään saamme juhlia - Lotta Makkonen!"
+          en: ""
+      - name: "Jenna Kerkkänen"
+        description:
+          fi: "Tämän palkinnonsaajan vitsit ovat niin huonoja, että ne itsessään ovat jo palkitsemisen arvoisia. Tämä kiltalainen tutustuttaa vuosi toisensa jälkeen uudet kiltalaiset kiltakulttuuriin lämpimästi ja persoonallisesti. Hänen toimintansa on killan henkeä uhkuvaa ja aurinkoista, ja harva jää häneltä moikkaamatta killan tapahtumissa. Hän on toiminut laajasti kulttuuritoiminnassa, ilahduttanut fukseja ISOna ja tänä vuonna johtanut lukkaritoimikuntaa. Huonojen vitsien ja hyvän kiltahengen kuningatar, Jenna Kerkkänen!"
+          en: ""
 
-  ratas:
-    - name: "Elias Erke"
-      description:
-        fi: "Ensimmäiseksi nostamme esiin henkilön, jota näkee harvoin sitsaamassa mutta usein sitsikansalle tarjoilemassa. Tämä kiltalainen on aktiivisesti aina mukana auttamassa, kun kaljaa täytyy kantaa tai vanukkaita tarjoilla. Pieni IE, iso sydän: Elias Erke."
-        en: ""
-    - name: "Kasperi Kaivola"
-      description:
-        fi: "Seuraavaksi haluamme osoittaa kiitollisuutta kiltalaiselle, joka on valmis auttamaan aivan kaikissa kiltajutuissa pyydettäessä. Oli projektina hienon vuosijuhlalahjan nikkaroiminen TuomAs-veturin naamasta, palkintoplakaattien suunnittelu, Stimulaation nettisivujen tuottaminen tai mikä tahansa juokseva asia missä kiltalaiset keksivät pyytää apua, niin tämä tyyppi vastaa aina nopeasti hoitavansa asian mielellään. Meidän luottomies, Kasperi Kaivola!"
-        en: ""
-    - name: "Laura Häkkinen"
-      description:
-        fi: "Sipulia on pilkottu keittiössä ja juomaa on laskettu kiltalaisille. Tämän joidenkin mielestä varmastikin depressoivan toiminnan ohella on myös noustu depressantista Stimulantiksi kunniakkaasti. Haluamme kiittää Laura Häkkistä useamman vuoden kilta-aktiivisuudesta - stimuloikoon hän kiltatoimintaa vielä pitkään!"
-        en: ""
-    - name: "Rosa Phan"
-      description:
-        fi: "Eräs kiltalainen on osoittanut pitkäjänteisesti, miten aASius on sydämen, ei haalareiden värin asia. Tällä monessa toimikunnassa aktiivisella tyypillä on asenne aina kohdallaan ja hymy huulilla, ja nakit sekä muutkin vastuut hän hoitaa ansiokkaasti henkilökohtaisella, iloisella ja tarkalla tyylillään. Todellinen AS-hengen perikuva, Rosa Phan!"
-        en: ""
-    - name: "Erkka Mutanen"
-      description:
-        fi: "Tämä killan nouseva tupsutähti on ehtinyt hyperfuksiutensa ja fuksipeijaiskapteeniutensa lisäksi toimia tosi-ISOna ja lukkarina. Kilta kiittää ja erityisesti kannustaa häntä jatkamaan hyvän kiltahengen ylläpitoa ja killan toiminnassa vaikuttamista: Erkka Multanen!"
-        en: ""
-    - name: "Sannina Honkaharju"
-      description:
-        fi: "Haluamme kiittää killassa jo monta vuotta tärkeissä rooleissa toiminutta henkilöä. Hän on toiminut 3 vuotta ISOna ja lisäksi mahdollistanut killan toimintaa aina lämpimällä asenteella minIEninä, Depressanttina, ja kulttuurikisällinä. RatAS-palkinnon saa: Sannina Honkaharju."
-        en: ""
-    - name: "Elias Haarnoja"
-      description:
-        fi: "Tämä aurinkoinen herrasmies on vaikuttanut erityisesti aktiivisena kulttuurikisällinä useamman vuoden, ja sen lisäksi toiminut ISOna ja mediatoimikuntalaisena. Tämä kiltalainen on aina valmis saapumaan paikalle kamera kaulassa, oli kyseessä sitten laulukilpailuvideo, fuksikuvat tai tapahtumissa kuvaaminen. Kilta kiittää ratAS-palkinnolla Elias Haarnojaa!"
-        en: ""
-    - name: "Pessi Lyytikäinen"
-      description:
-        fi: "Mitä saadaan, kun yhdistetään ihailtava ja ansiokas fukseista välittäminen, aktiivinen DSD-ISOilu ja sitäkin aktiivisempi ja kiitettävämpi toiminta tosi-ISOna, jolle voi luottavaisin mielin antaa paljonkin vastuuta ja hommia hoidettavaksi - koska ne varmasti tulee hoidettua? No Pessi Lyytikäinen, tietenkin."
-        en: ""
-    - name: "Elina Leiniö"
-      description:
-        fi: "Pieneenkin pakettiin mahtuu paljon kiltahenkeä ja iso violetti sydän. Tämän on osoittanut aina iloinen kolmannen vuoden opiskelija, joka innokkaasti on toiminut sekä aktiivisena KV-ISOna kaksi vuotta putkeen että kulttuurikisällinä, minIEniä ja depressanttina. Kiitos kiltainnostasi, Elina Leiniö!"
-        en: ""
-    - name: "Mohammad Shahidul"
-      description:
-        fi: "The next awardee is known to always upkeep a positive, happy vibe in the guild. He has also been active in several different parts of the guild: as an ISO and also a vastuuISO, cultural journeyperson, sports manager and an aski guardian. This is someone who will always approach everything he does with a big smile and an extremely warm attitude: Mohammad Shahidul!"
-        en: "The next awardee is known to always upkeep a positive, happy vibe in the guild. He has also been active in several different parts of the guild: as an ISO and also a vastuuISO, cultural journeyperson, sports manager and an aski guardian. This is someone who will always approach everything he does with a big smile and an extremely warm attitude: Mohammad Shahidul!"
-    - name: "Niilo Heinonen"
-      description:
-        fi: "Tämä iloinen tyyppi on ollut pitkään killassa aktiivinen erinäisissä rooleissa. Hän on toiminut esimerkiksi hattivattina (eli pikku-IEnä), ISOna, ja valokuvannut erinäisiä kiltatapahtumia - ja nykyään hän vetää ja kehittää ansiokkaasti Retkitoimikuntaa. RatAS-palkinnon saa: Niilo Heinonen!"
-        en: ""
-    - name: "Mimi Määttä"
-      description:
-        fi: "This responsible and active guild member always handles her responsibilites with a good attitude. She has acted as a vastuuISO, aski guardian, cultural journeyperson and finance committee member, and is known to take on different responsibilities without having to be specifically asked, whether it be an inventory of guild merch or organizing DSDevening. The RatAS award goes to Mimi Määttä!"
-        en: "This responsible and active guild member always handles her responsibilites with a good attitude. She has acted as a vastuuISO, aski guardian, cultural journeyperson and finance committee member, and is known to take on different responsibilities without having to be specifically asked, whether it be an inventory of guild merch or organizing DSDevening. The RatAS award goes to Mimi Määttä!"
+  - name:
+      fi: "RatAS-kunnianosoitukset"
+      en: "RatAS accolade"
+    people:
+      - name: "Elias Erke"
+        description:
+          fi: "Ensimmäiseksi nostamme esiin henkilön, jota näkee harvoin sitsaamassa mutta usein sitsikansalle tarjoilemassa. Tämä kiltalainen on aktiivisesti aina mukana auttamassa, kun kaljaa täytyy kantaa tai vanukkaita tarjoilla. Pieni IE, iso sydän: Elias Erke."
+          en: ""
+      - name: "Kasperi Kaivola"
+        description:
+          fi: "Seuraavaksi haluamme osoittaa kiitollisuutta kiltalaiselle, joka on valmis auttamaan aivan kaikissa kiltajutuissa pyydettäessä. Oli projektina hienon vuosijuhlalahjan nikkaroiminen TuomAs-veturin naamasta, palkintoplakaattien suunnittelu, Stimulaation nettisivujen tuottaminen tai mikä tahansa juokseva asia missä kiltalaiset keksivät pyytää apua, niin tämä tyyppi vastaa aina nopeasti hoitavansa asian mielellään. Meidän luottomies, Kasperi Kaivola!"
+          en: ""
+      - name: "Laura Häkkinen"
+        description:
+          fi: "Sipulia on pilkottu keittiössä ja juomaa on laskettu kiltalaisille. Tämän joidenkin mielestä varmastikin depressoivan toiminnan ohella on myös noustu depressantista Stimulantiksi kunniakkaasti. Haluamme kiittää Laura Häkkistä useamman vuoden kilta-aktiivisuudesta - stimuloikoon hän kiltatoimintaa vielä pitkään!"
+          en: ""
+      - name: "Rosa Phan"
+        description:
+          fi: "Eräs kiltalainen on osoittanut pitkäjänteisesti, miten aASius on sydämen, ei haalareiden värin asia. Tällä monessa toimikunnassa aktiivisella tyypillä on asenne aina kohdallaan ja hymy huulilla, ja nakit sekä muutkin vastuut hän hoitaa ansiokkaasti henkilökohtaisella, iloisella ja tarkalla tyylillään. Todellinen AS-hengen perikuva, Rosa Phan!"
+          en: ""
+      - name: "Erkka Mutanen"
+        description:
+          fi: "Tämä killan nouseva tupsutähti on ehtinyt hyperfuksiutensa ja fuksipeijaiskapteeniutensa lisäksi toimia tosi-ISOna ja lukkarina. Kilta kiittää ja erityisesti kannustaa häntä jatkamaan hyvän kiltahengen ylläpitoa ja killan toiminnassa vaikuttamista: Erkka Multanen!"
+          en: ""
+      - name: "Sannina Honkaharju"
+        description:
+          fi: "Haluamme kiittää killassa jo monta vuotta tärkeissä rooleissa toiminutta henkilöä. Hän on toiminut 3 vuotta ISOna ja lisäksi mahdollistanut killan toimintaa aina lämpimällä asenteella minIEninä, Depressanttina, ja kulttuurikisällinä. RatAS-palkinnon saa: Sannina Honkaharju."
+          en: ""
+      - name: "Elias Haarnoja"
+        description:
+          fi: "Tämä aurinkoinen herrasmies on vaikuttanut erityisesti aktiivisena kulttuurikisällinä useamman vuoden, ja sen lisäksi toiminut ISOna ja mediatoimikuntalaisena. Tämä kiltalainen on aina valmis saapumaan paikalle kamera kaulassa, oli kyseessä sitten laulukilpailuvideo, fuksikuvat tai tapahtumissa kuvaaminen. Kilta kiittää ratAS-palkinnolla Elias Haarnojaa!"
+          en: ""
+      - name: "Pessi Lyytikäinen"
+        description:
+          fi: "Mitä saadaan, kun yhdistetään ihailtava ja ansiokas fukseista välittäminen, aktiivinen DSD-ISOilu ja sitäkin aktiivisempi ja kiitettävämpi toiminta tosi-ISOna, jolle voi luottavaisin mielin antaa paljonkin vastuuta ja hommia hoidettavaksi - koska ne varmasti tulee hoidettua? No Pessi Lyytikäinen, tietenkin."
+          en: ""
+      - name: "Elina Leiniö"
+        description:
+          fi: "Pieneenkin pakettiin mahtuu paljon kiltahenkeä ja iso violetti sydän. Tämän on osoittanut aina iloinen kolmannen vuoden opiskelija, joka innokkaasti on toiminut sekä aktiivisena KV-ISOna kaksi vuotta putkeen että kulttuurikisällinä, minIEniä ja depressanttina. Kiitos kiltainnostasi, Elina Leiniö!"
+          en: ""
+      - name: "Mohammad Shahidul"
+        description:
+          fi: "The next awardee is known to always upkeep a positive, happy vibe in the guild. He has also been active in several different parts of the guild: as an ISO and also a vastuuISO, cultural journeyperson, sports manager and an aski guardian. This is someone who will always approach everything he does with a big smile and an extremely warm attitude: Mohammad Shahidul!"
+          en: "The next awardee is known to always upkeep a positive, happy vibe in the guild. He has also been active in several different parts of the guild: as an ISO and also a vastuuISO, cultural journeyperson, sports manager and an aski guardian. This is someone who will always approach everything he does with a big smile and an extremely warm attitude: Mohammad Shahidul!"
+      - name: "Niilo Heinonen"
+        description:
+          fi: "Tämä iloinen tyyppi on ollut pitkään killassa aktiivinen erinäisissä rooleissa. Hän on toiminut esimerkiksi hattivattina (eli pikku-IEnä), ISOna, ja valokuvannut erinäisiä kiltatapahtumia - ja nykyään hän vetää ja kehittää ansiokkaasti Retkitoimikuntaa. RatAS-palkinnon saa: Niilo Heinonen!"
+          en: ""
+      - name: "Mimi Määttä"
+        description:
+          fi: "This responsible and active guild member always handles her responsibilites with a good attitude. She has acted as a vastuuISO, aski guardian, cultural journeyperson and finance committee member, and is known to take on different responsibilities without having to be specifically asked, whether it be an inventory of guild merch or organizing DSDevening. The RatAS award goes to Mimi Määttä!"
+          en: "This responsible and active guild member always handles her responsibilites with a good attitude. She has acted as a vastuuISO, aski guardian, cultural journeyperson and finance committee member, and is known to take on different responsibilities without having to be specifically asked, whether it be an inventory of guild merch or organizing DSDevening. The RatAS award goes to Mimi Määttä!"
