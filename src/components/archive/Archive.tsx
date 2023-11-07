@@ -113,7 +113,9 @@ const Officials: React.FC<{officials: CommitteeData[], lang: string}> = ({ offic
   return (
     <Fragment>
       <h3 className={style.heading3}>{translations.officials[lang]}</h3>
-      {officials.map((committee: CommitteeData) => <Committee key={committee.name[lang]} committee={committee} lang={lang} />)}
+      {officials.map((committee: CommitteeData) =>
+        <Committee key={committee.name[lang]} committee={committee} lang={lang} />
+      )}
     </Fragment>
   )
 }
@@ -127,7 +129,10 @@ const Accolades: React.FC<{accolades: Accolades, lang: string}> = ({ accolades, 
           return <div key={accolade.name} className={style.noDescription}>{accolade.name}</div>
         return (
           <CollapseText key={accolade.name} title={accolade.name}>
-            {accolade.description[lang].split("\n").map((paragraph: string, i: Number) => <p key={`${i}`} className={style.description}>{paragraph}</p>)}
+            {accolade.description[lang].split("\n")
+              .map((paragraph: string, i: Number) =>
+                <p key={`${i}`} className={style.description}>{paragraph}</p>
+              )}
           </CollapseText>
         )
       })}
@@ -205,10 +210,8 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
       {data.map((entry: ArchiveEntry) => {
         return entry.year && (
           <CollapseBox key={`officials-${entry.year}`} title={entry.year} expand={allExpanded}>
-            <Fragment>
               {entry.board && <Board board={entry.board} lang={lang} />}
               {entry.officials && <Officials officials={entry.officials} lang={lang} />}
-            </Fragment>
           </CollapseBox>
         )
       })}
@@ -216,15 +219,19 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
       {data.map((entry: ArchiveEntry) => {
         return entry.year && entry.accolades && (
           <CollapseBox key={`accolades-${entry.year}`} title={entry.year} expand={allExpanded}>
-            {entry.accolades.map((accolades: Accolades) => <Accolades accolades={accolades} lang={lang} />)}
+            {entry.accolades.map((accolades: Accolades) =>
+              <Accolades key={`${accolades.name[lang]}`} accolades={accolades} lang={lang} />
+            )}
           </CollapseBox>
         )
       })}
       {data.filter((entry: ArchiveEntry) => !entry.year)
-        .map((entry: ArchiveEntry) => {
+        .map((entry: ArchiveEntry, i: Number) => {
           return entry.accolades && (
-            <Fragment>
-              {entry.accolades.map((accolades: Accolades) => <Accolades accolades={accolades} lang={lang} />)}
+            <Fragment key={`other-accolades-${i}`}>
+              {entry.accolades.map((accolades: Accolades) =>
+                <Accolades key={`${accolades.name[lang]}`} accolades={accolades} lang={lang} />
+              )}
             </Fragment>
           )
         })}
