@@ -2,10 +2,10 @@ import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
-import ContactCard from "../../components/profiles/ContactCard"
-import CircleCard from "../../components/common/CircleCard"
-import * as style from "./partners.module.scss"
-import heroPic from "../../images/images/DSC_0376.jpg"
+import ContactCard from "@src/components/profiles/ContactCard"
+import CircleCard from "@src/components/common/CircleCard"
+import * as style from "@src/pages/partners/partners.module.scss"
+import heroPic from "@src/images/images/DSC_0376.jpg"
 
 const Partners: React.FC<PageProps> = ({ pageContext }) => {
   const ysvData = {
@@ -21,11 +21,11 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout pageContext={pageContext} background={heroPic} heroHeight="short" title="Yrityksille">
       <div className={style.introduction}>
         <ContactCard data={ysvData}/>
-        <p className={style.intro_quote}>"Hei yrityksen edustaja! Olen Automaatio- ja systeemitekniikan killan yrityssuhdevastaava. Kantsii tehä meidän kanssa yhteistyötä ja tältä sivulta löydät lisätietoa yhteistyömahdollisuuksista. Ota minuun yhteyttä niin jutellaan lisää ja räätälöidään just teille sopiva paketti!"</p>
+        <p className={style.intro_quote}>"Hei yrityksen edustaja! Olen Automaatio- ja systeemitekniikan killan yrityssuhdevastaava. Kantsii tehdä meidän kanssa yhteistyötä! Tältä sivulta löydät lisätietoa yhteistyömahdollisuuksista. Ota minuun yhteyttä niin jutellaan lisää ja räätälöidään just teille sopiva paketti!"</p>
       </div>
 
       <h3>Yhteistyö killan kanssa</h3>
-        <p><strong>Automaatio- ja systeemitekniikan kilta on ainejärjestö Aalto-yliopiston Sähkötekniikan korkeakoulun Automaatio- ja informaatioteknologian opiskelijoille. Kilta tarjoaa jäsenilleen ympäri vuoden monenlaista ajanvietettä paitsi opinnoista rentoutumiseen, myös omien tietojensa ja taitojensa kartuttamiseen erilaisten harrastetoimintojen parissa.</strong></p>
+        <p><strong>Automaatio- ja systeemitekniikan kilta on ainejärjestö Aalto-yliopiston Sähkötekniikan korkeakoulun automaatio ja robotiikan, informaatioteknologian ja Digital Systems and Design opiskelijoille. Kilta tarjoaa jäsenilleen ympäri vuoden monenlaista ajanvietettä paitsi opinnoista rentoutumiseen, myös omien tietojensa ja taitojensa kartuttamiseen erilaisten harrastetoimintojen parissa.</strong></p>
         <p>Kiltalaisistamme kasvaa opintovuosien saatossa uusia osaajia niin automaation, robotiikan, älykkäiden laitteiden kuin myös tietoverkkojen, koneoppimisen ja signaalinkäsittelyn pariin. Useimmat työllistyvät alalleen konsulteiksi, ohjelmistokehittäjiksi tai vaativiin tutkimus- ja kehitystehtäviin.</p>
         <p>Nuoret osaajat ovat kovaa valuuttaa työmarkkinoilla ja monet meistä pyrkivätkin hankkimaan alan työkokemusta jo opiskeluaikoina. Kiltamme kautta on mahdollista tavoittaa tehokkaasti huomattava osa tulevaisuuden ammattilaisista jo varhaisessa vaiheessa. Monet yritykset ovatkin ryhtyneet yhteistyökumppaneiksemme saadakseen lisää näkyvyyttä ja tukeneet samalla kiltamme toimintaa. Alla onkin muutamia yleisimpiä yhteistyötapoja.</p>
 
@@ -39,7 +39,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
           <CircleCard title="Näkyvyys Kiltahuoneella" link="./partners#NäkyvyysKiltahuoneella" targetSelf={true}/>
         </div>
       <h3 id="Rekrytointinäkyvyys">Rekrytointinäkyvyys</h3>
-      <p>Jaamme mielellämme meitä tukeneiden yritysten rekrytointi-ilmoituksia kanavissamme.<strong> Rekrytointikanavallamme </strong>työpaikkailmoituksenne tavoittavat jopa 500 jäsentämme ja sosiaalisen mediassa tavoitamme julkaisuillamme yli tuhat ihmistä. Julkaisemme myös omaa<strong> kiltalehteämme, </strong><strong><a href="http://gt.as.fi"> GT:tä</a></strong>, josta on mahdollista saada tilaa mainoksille tai jopa artikkelille. Järjestämme myös vuosittain yhdessä tietotekniikan opiskelijoiden Tietokillan kanssa<strong> UraTiKAS </strong>-rekrymessun ja vastaavasti<strong> Yritysbrunssin </strong>Sähköinsinöörikillan ja bioinformaatioteknologian killan Inkubion kanssa. Nämä tapahtumat ovat tärkeitä kontaktifoorumeita alan yritysten ja opiskelijoiden välillä.</p>
+      <p>Jaamme mielellämme meitä tukeneiden yritysten rekrytointi-ilmoituksia kanavissamme. Rekrytointikanavallamme työpaikkailmoituksenne tavoittavat jopa 500 jäsentämme ja sosiaalisessa mediassa tavoitamme julkaisuillamme yli tuhat ihmistä. Julkaisemme myös omaa kiltalehteämme, GT:tä, josta on mahdollista saada tilaa mainoksille tai jopa artikkeleille. Järjestämme myös vuosittain yhdessä tietotekniikan opiskelijoiden Tietokillan kanssa UraTiKAS -rekrymessun ja vastaavasti Yritysbrunssin Sähköinsinöörikillan ja bioinformaatioteknologian killan Inkubion kanssa. Nämä tapahtumat ovat tärkeitä kontaktifoorumeita alan yritysten ja opiskelijoiden välillä.</p>
 
       <h3 id="Haalarit">Haalarit</h3>
         <p><strong>Haalareista </strong>tunnistaa opiskelijan. Killassamme aloittaa joka vuosi noin 300 uutta opiskelijaa ja määrä on vuosi vuodelta ollut kasvussa. Uudet opiskelijat saavat itselleen ensimmäisen syksyn aikana opiskelijahaalarit, joissa on yhteistyökumppaniemme logoja painettuina. Logo haalareissa takaa näkyvyyden aina siellä, missä haalaripukeiset kiltalaiset ikinä kulkevatkaan.</p>
@@ -51,10 +51,10 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
       <p>Opiskelijatapahtumat ovat iso osa monien opiskelijoiden arkea. Järjestämme vuoden mittaan lukuisia erilaisia tapahtumia jäsenillemme pienemmistä saunailloista aina isoihin pöytäjuhliin. Olemalla osa tapahtumiamme yrityksenne saa arvokasta näkyvyyttä opiskelijoiden keskuudessa. Yritysten edustajilla on myös mahdollisuus osallistua tapahtumiin ja päästä kohtaamaan opiskelijoitamme.</p>
 
       <h3 id="Vuosijuhlaedustus">Vuosijuhlaedustus</h3>
-        <p>Arvokas vuosijuhlamme Stimulaatio järjestetään vuosittain marraskuussa.</p>
+        <p>Stimulaatio on kiltamme vuosijuhla, johon osallistuu vuosittain useita satoja opiskelijoita ja alumnia killastamme sekä muista Aalto-yliopiston järjestöistä. Vuosijuhla jakautuu kahteen osaan, cocktailtilaisuuteen ja itse pääjuhlatilaisuuteen. Molemmat tilaisuudet ovat oiva mahdollisuus yhteistyöyrityksille olla näkyvissä juhlijoiden keskuudessa esimerkiksi puheiden ja logonäkyvyyden muodossa. Kumppanit ovat näkyvissä myös juhlien ulkopuolelle, sillä markkinointi vuosijuhliin alkaa jo alkusyksystä sekä muistot juhlasta jäävät mieleen pitkäksi aikaa juhlallisuuksien jälkeenkin. </p>
 
       <h3 id="NäkyvyysKiltahuoneella">Näkyvyys kiltahuoneella</h3>
-        <p>Jotain kiltahuoneella.</p>
+        <p>Kiltahuoneellamme ASkissa viettää aikaa runsas määrä opiskelijoita päivittäin. Kiltahuoneella on mahdollisuus pelailla pelejä, hengailla kavereiden kanssa, opiskella ja nauttia ilmaisesta kahvista. Jotta kiltalaisilla olisi aina hyvä paikka olla, tarvitsemme yhteistyökumppaneiden apua kiltahuoneen viihtyvyyden mahdollistamiseksi. ASkissa on esimerkiksi mahdollista vierailla tai jättää yritysmerchiä näkyvyyden lisäämiseksi yrityksellenne!</p>
 
       <h3>…ja myös paljon muuta!</h3>
         <p>Koko kiltatoiminta on monen pienen osan summa. Ylläpidämme yliopiston tiloissa kiltahuonettamme ASkia, joka toimii kiltalaisten olohuoneena luentojen ja muun koulunkäynnin lomassa. Järjestämme vuoden mittaan lukuisia eri tapahtumia jäsenillemme pienistä saunailloista aina arvokkaaseen vuosijuhlaamme Stimulaatioon asti. Tukemalla esimerkiksi tarvehankintojamme tai tapahtumiamme voi saada näissä lisää näkyvyyttä itselleen. Viime vuosina esimerkiksi Stimulaatioon on osallistunut kumppaniyritystemme edustajia mukaan juhliin!</p>

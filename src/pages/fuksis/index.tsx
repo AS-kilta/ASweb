@@ -68,7 +68,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         <div>
             <p>AS-kilta on AYY:n alainen erityisasemayhdistys, joka yhdistää Automaatio ja Robotiikan, Informaatioteknologian sekä Digital Systems and Design pääaineiden opiskelijoita. Kiltaan saattaa kuulua myös muiden koulutusohjelmien opiskelijoita, joita kiinnostaa AS:n toiminta. Kilta järjestää jäsenilleen monipuolista ohjelmaa, valvoo heidän etujaan korkeakoulun toimielimissä ja tekee yhteistyötä muiden opiskelijayhdistyksien ja yrityksien kanssa.</p>
             <p>AS-kilta vastaanottaa vuosittain noin 200 fuksia, joiden integroitumisesta kiltaan huolehtii killan fuksikapteenit, apunaan Masters and International Student Captain, ISO-pomo ja Tosi-ISOt. Yhdessä nämä muodostavat killan fuksitoimikunnan, ASPU:n.</p>
-            <p>ASPU:n apuna toimii vielä suuri joukko ISOja, joiden tehtäviin kuuluu tutustuttaa fuksit ensimmäisinä päivinä kampukseen ja opiskelijaelämään, sekä järjestävät vuoden mittaan fuksiryhmilleen ajanvietettä.</p>
+            <p>ASPU:n apuna toimii vielä suuri joukko ISOja, joiden tehtäviin kuuluu tutustuttaa fuksit ensimmäisinä päivinä kampukseen ja opiskelijaelämään, sekä järjestää vuoden mittaan fuksiryhmilleen ajanvietettä.</p>
         </div>
 
         <h2 id="Fuksipistekortti">
@@ -87,7 +87,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                 <ul>
                     <li><a href="https://mycourses.aalto.fi/" target='_blank'>MyCourses</a> (Täältä löytyy tietoa kursseista)</li>
                     <li><a href="https://sisu.aalto.fi/student/" target='_blank'>Sisu</a> (Täällä tapahtuu kursseille, välikokeisiin ja tentteihin ilmoittautuminen)</li>
-                    <li>Sähkötekniikan korkeakoulu</li>
+                    <li><a href="https://www.aalto.fi/fi/sahkotekniikan-korkeakoulu" target='_blank'>Sähkötekniikan korkeakoulu</a></li>
                     <li><a href="https://aalto.fi/" target='_blank'>Aalto-yliopisto</a></li>
                     <li><a href="https://aalto.fi/fi/opiskelijan-opas/" target='_blank'>Opiskelijan opas</a> (Tietoa ja ohjeita opinnoista)</li>
                 </ul>
