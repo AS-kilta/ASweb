@@ -45,7 +45,6 @@ const Sponsors: React.FC = () => {
                                     placeholder: BLURRED
                                 )
                             }
-                            url
                         }
                     }
                 }
@@ -62,10 +61,6 @@ const Sponsors: React.FC = () => {
             )}
         </div>
     )
-}
-
-interface Translations {
-    [key:string]: TranslatedEntry;
 }
 
 const translations: Translations = {

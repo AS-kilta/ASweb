@@ -7,7 +7,7 @@ import * as style from "./Officials.module.scss"
 interface Member {
     name: string,
     title: TranslatedEntry[],
-    picture?: string,
+    picture: DynamicImageData,
     leader?: Boolean
 }
 
@@ -42,7 +42,8 @@ const CommitteeSection: React.FC<{lang: string, committee: Committee}> = ({lang,
         <div className={style.officials_section}>
             <h2 id="name">{name[lang]}</h2>
             <div className={style.officials_list}>
-                {members.map((official) => <OfficialCard key={official.name} lang={lang} image={localImage.filter(img => official.picture === img.url)[0]} official={official} />)}
+
+                {members.map((official) => <OfficialCard key={official.name} lang={lang} image={official.picture} official={official} />)}
             </div>
         </div>
     )
@@ -53,32 +54,27 @@ const Officials: React.FC<{lang: string}> = ({ lang }) => {
         query getOfficialsData {
             allOfficialsYaml {
                 edges {
-                    node {
-                        name {
-                            fi
-                            en
-                        }
-                        members {
-                            picture
-                            name
-                            title {
-                                fi
-                                en
-                            }
-                            leader
-                        }
-                        localImage {
+                  node {
+                    members {
+                        leader
+                        name
+                        picture {
                             childImageSharp {
-                                gatsbyImageData(
-                                    width: 1000
-                                    placeholder: BLURRED
-                                )
+                            gatsbyImageData(placeholder: BLURRED, width: 200)
                             }
-                            url
+                        }
+                        title {
+                            en
+                            fi
                         }
                     }
+                    name {
+                      en
+                      fi
+                    }
+                  }
                 }
-            }
+              }
         }      
     `)
 
