@@ -1,7 +1,6 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
-import * as style from "./fuksis.module.scss"
 import PageLayout from "@src/components/layouts/PageLayout"
 import heropic from "@src/images/images/IMG_6067-Edit.jpg"
 
