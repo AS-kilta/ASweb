@@ -64,10 +64,6 @@ const Sponsors: React.FC = () => {
     )
 }
 
-interface Translations {
-    [key:string]: TranslatedEntry;
-}
-
 const translations: Translations = {
     contact: {
         fi: "Ota yhteyttä",
