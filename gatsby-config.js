@@ -29,22 +29,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-remote-images`,
-      options: {
-        nodeType: 'BoardYaml',
-        imagePath: 'picture',
-        silent: true,
-      }
-    },
-    {
-      resolve: `gatsby-plugin-remote-images`,
-      options: {
-        nodeType: 'OfficialsYaml',
-        imagePath: 'members[].picture',
-        silent: true,
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Automaatio- ja systeemitekniikan kilta`,
