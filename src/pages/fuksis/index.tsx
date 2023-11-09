@@ -16,7 +16,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         email: 'fuksikapteenit@as.fi',
         phone: '+358 400366690',
         telegram: '@pelleevi',
-        localImage: 'https://as.fi/static/toimijat/2023/leevi_hormaluoma.jpg',
+        picture: 'https://as.fi/static/toimijat/2023/leevi_hormaluoma.jpg',
     };
 
     const data2 = {
@@ -25,7 +25,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         email: 'fuksikapteenit@as.fi',
         phone: '+358 440160401',
         telegram: '@Ykanen',
-        localImage: 'https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg',
+        picture: 'https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg',
     };
 
     const styleCard= {"--profile-img-size": "22rem", marginBottom: "5rem"} as React.CSSProperties;

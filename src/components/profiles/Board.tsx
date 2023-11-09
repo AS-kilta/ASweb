@@ -61,7 +61,7 @@ const Board: React.FC<{lang: string}> = ({ lang }) => {
                     ...member.node,
                     title: member.node.title[lang],
                     description: member.node.description[lang],
-                    localImage: member.node.picture
+                    picture: member.node.picture
                 }
                 return <ContactCard key={member.node.name} data={contactData} />
             })}

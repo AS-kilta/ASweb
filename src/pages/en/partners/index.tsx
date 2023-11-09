@@ -13,7 +13,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
     name: 'Lucas Käldström',
     email: 'yrityssuhdevastaava@as.fi',
     phone: '+358 458911847',
-    localImage: 'https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg',
+    picture: 'https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg',
     telegram: '@luxask'
   };
 
