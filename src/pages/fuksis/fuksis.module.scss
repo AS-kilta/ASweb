@@ -26,3 +26,18 @@
   line-height: 0.1rem;
   font-size: 1.2rem;
 }
+
+@media all and (min-width: $breakpoint-mobile) {
+  .image {
+    width: 300px;
+    float: right;
+  }
+}
+
+
+@media all and (max-width: $breakpoint-mobile) {
+  .image {
+    width: 300px;
+    float: center;
+  }
+}
