@@ -28,7 +28,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         picture: 'https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg',
     };
 
-    const styleCard= {"--profile-img-size": "22rem", marginBottom: "5rem"} as React.CSSProperties;
+    const styleCard= {"--profile-img-size": "20rem", marginBottom: "5rem"} as React.CSSProperties;
 
   return (
     <PageLayout pageContext={pageContext} title='Fuksina killassa' background={heropic} heroHeight='tall'>
@@ -47,7 +47,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <CircleCard title='Liity killan jäseneksi' link='https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587'/>
             <CircleCard title='Hae opiskelijakorttia' link="https://www.frank.fi/opiskelijakortti/"/>
             <circle className={ccStyle.badge}>
-                Hae asuntoa <a href="https://domo.ayy.fi" target="_blank"> AYY:ltä </a> tai <a href="https://hoas.fi" target="_blank"> HOASilta</a>
+                Hae asuntoa&nbsp;<a href="https://domo.ayy.fi" target="_blank">AYY:ltä</a>&nbsp;tai&nbsp;<a href="https://hoas.fi" target="_blank">HOASilta</a>
             </circle>
             <CircleCard title='Hae opintotukea' link="https://www.kela.fi/opintotuki"/>
             <CircleCard title='Hanki matkakortti' link="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti"/>

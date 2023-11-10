@@ -21,7 +21,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout pageContext={pageContext} background={heroPic} heroHeight="short" title="Corporate Relations">
       <div className={style.introduction}>
         <ContactCard data={ysvData}/>
-        <p className={style.intro_quote}>"Hello company representative! I am the Head of Corporate Relations in the Guild of Automation and Systems Technology. Feel free to cooperate with us! On this page you can find more information about cooperation opportunities. Contact me and we'll talk more and tailor a package just right for you!"</p>
+        <p className={style.intro_quote}>Hello company representative! I am the Head of Corporate Relations in the Guild of Automation and Systems Technology. Feel free to cooperate with us! On this page you can find more information about cooperation opportunities. Contact me and we'll talk more and tailor a package just right for you!</p>
       </div>
 
       <h3>Cooperation with the guild</h3>

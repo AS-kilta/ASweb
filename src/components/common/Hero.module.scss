@@ -14,7 +14,7 @@
         margin: 0 8%;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: max(4vw, 2rem);
+        font-size: max(min(4.25rem, 4vw), 2rem);
     }
 
     .lead {
