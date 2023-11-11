@@ -93,12 +93,12 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
     }
 
     return (
-        <div className={style.naviItem}>
+        <li className={style.naviItem}>
             <NaviLink
                 title={title}
                 link={translation || link}
                 />
-        </div>
+        </li>
     )
 }
 
