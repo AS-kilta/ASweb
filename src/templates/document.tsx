@@ -26,7 +26,7 @@ interface Props extends PageProps {
   data: DataProps
 }
 
-const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
+const DocumentTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
   const { title, lead, background, heroHeight } = data.mdx.frontmatter
   const slugs: Slugs = {}
 
@@ -61,7 +61,7 @@ export const query = graphql`
   }
 `
 
-export default PageTemplate
+export default DocumentTemplate
 
 export const Head: HeadFC<DataProps> = props => (
   <Meta lang={props.data.mdx.fields.lang} title={props.data.mdx.frontmatter.title} />
