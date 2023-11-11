@@ -27,6 +27,7 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
                     layout="constrained"
                     width={40}
                     height={40}
+                    placeholder="none"
                 />
             </Link>
         </div>
