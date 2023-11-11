@@ -23,12 +23,12 @@
 }
 
 .heading3 {
-  font-size: max(min(1.75rem, 1.5vw), 1.3rem);
+  font-size: clamp(1.3rem, 1.5vw, 1.75rem);
   font-weight: 700;
 }
 
 .heading4 {
-  font-size: max(min(1.55rem, 1.3vw), 1.2rem);
+  font-size: clamp(1.2rem, 1.3vw, 1.55rem);
   font-weight: 700;
 }
 
