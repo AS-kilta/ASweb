@@ -143,3 +143,22 @@ main a {
         display: none;
     }
 }
+
+.toc {
+    & > h3 {
+        // Hide the plugin generated header
+        display: none;
+    }
+
+    a {
+        font-weight: 400;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        line-height: 1.2;
+    }
+}
