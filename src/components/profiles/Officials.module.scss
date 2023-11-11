@@ -5,7 +5,7 @@ $bg-color: $as-violet-2;
   text-align: center;
 
   h2 {
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 2.1vw, 2.35rem);
     font-weight: 400;
     background-color: $bg-color;
     padding: 0.5em;

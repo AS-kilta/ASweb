@@ -15,7 +15,6 @@ interface Committee {
     node: {
         name: TranslatedEntry,
         members: Member[],
-        localImage: DynamicImageData[]
     }
 }
 
@@ -37,10 +36,10 @@ const OfficialCard: React.FC<{lang: string, official: Member, image?: DynamicIma
 }
 
 const CommitteeSection: React.FC<{lang: string, committee: Committee}> = ({lang, committee}) => {
-    const {name, members, localImage}: {name: TranslatedEntry, members: Member[], localImage: DynamicImageData[]} = committee.node;
+    const {name, members}: {name: TranslatedEntry, members: Member[]} = committee.node;
     return (
         <div className={style.officials_section}>
-            <h2 id="name">{name[lang]}</h2>
+            <h2 id={name[lang]}>{name[lang]}</h2>
             <div className={style.officials_list}>
 
                 {members.map((official) => <OfficialCard key={official.name} lang={lang} image={official.picture} official={official} />)}
