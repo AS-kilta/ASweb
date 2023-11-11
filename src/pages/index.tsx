@@ -1,5 +1,6 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
 import SnapWidget from "@src/components/instagram/SnapWidget"
@@ -7,8 +8,6 @@ import EventList from "@src/components/events/EventList"
 import * as style from './index.module.scss'
 
 import heroimg from "../images/images/20201029195159-eef0d345-xx.jpg"
-import sweets from "../images/images/karkki_kalle.jpg"
-import amfi from "../images/images/20210917174935-70c53c15-xx.jpg"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
     return (
@@ -18,10 +17,10 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
                     <h2>Mikä AS?</h2>
                     <p>AS on opiskelijajärjestö, joka yhdistää Aalto-yliopiston opiskelijoita monelta eri alalta. Kiltaamme kuuluu Automaation ja robotiikan, Informaatioteknologian ja Digital Systems and Designin sekä niitä lähellä olevien tutkinto-ohjelmien opiskelijoita. Kilta järjestää jäsenilleen vapaa-ajan toimintaa, valvoo heidän etuaan opintoihin liittyvissä asioissa ja ylläpitää suhteita alan yrityksiin.</p>
                 </div>
-                <img src={amfi} alt="" />
+                <StaticImage src="../images/images/20210917174935-70c53c15-xx.jpg" alt="" />
             </div>
             <div className={`even-columns ${style.frontpagebox}`}>
-                <img className="no-mobile" src={sweets} alt="" />
+                <StaticImage className="no-mobile" src="../images/images/karkki_kalle.jpg" alt=""/>
                 <div className={style.eventsContainer}>
                     <h2>Tapahtumat</h2>
                     <EventList number={5} lang={pageContext.lang} />
