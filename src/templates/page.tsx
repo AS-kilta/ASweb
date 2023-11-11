@@ -27,7 +27,7 @@ interface Props extends PageProps {
 }
 
 const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
-  const { title, lead, background, heroHeight } = data.mdx.frontmatter
+  const { title, lead, background, heroHeight, documentStyle } = data.mdx.frontmatter
   const slugs: Slugs = {}
 
   return (
@@ -37,6 +37,7 @@ const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
           lead={lead}
           background={background}
           heroHeight={heroHeight}
+          documentStyle={documentStyle}
       >
           <MDXProvider>
               {children}
@@ -56,6 +57,7 @@ export const query = graphql`
         lead
         background
         heroHeight
+        documentStyle
       }
     }
   }

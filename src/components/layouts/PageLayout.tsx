@@ -9,9 +9,10 @@ import * as style from "./PageLayout.module.scss"
 interface Props extends HeroProps {
     pageContext: PageProps["pageContext"],
     children?: React.ReactNode,
+    documentStyle?: string
 }
 
-const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, heroHeight, children }) => {
+const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, heroHeight, documentStyle, children }) => {
     return (
         <div id={style.container}>
             <Navbar 
@@ -20,7 +21,7 @@ const PageLayout: React.FC<Props> = ({ pageContext, title, lead, background, her
                 translation={pageContext.translation}
             />
             <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
-            <main id={style.content}>
+            <main id={style.content} className={documentStyle ?? ""}>
                 {children}
             </main>
             <Footer lang={pageContext.lang} />
