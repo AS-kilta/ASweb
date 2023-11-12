@@ -140,7 +140,7 @@ main a {
     }
 }
 
-.no-mobile {
+.no-mobile.no-mobile {
     @media (max-width: $breakpoint-mobile) {
         display: none;
     }
