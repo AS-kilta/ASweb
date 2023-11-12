@@ -12,9 +12,9 @@ export interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight="short"}) => {
-    let height = 30
+    let height = "min(300px, 40vh)"
     if (heroHeight === "tall") {
-        height = 60
+        height = "min(600px, 60vh)"
     }
     
     const customStyle: React.CSSProperties = background ? {
@@ -22,7 +22,8 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight="short"
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundBlendMode: "soft-light",
-        flex: `1 0 ${height}lvh`
+        flexGrow: "1",
+        flexBasis: height,
     } : {}
 
     return (
