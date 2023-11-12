@@ -8,24 +8,22 @@ export interface HeroProps {
     title: string,
     lead?: string,
     background?: string,
-    heroHeight?: "short" | "tall"
+    heroHeight: "short" | "tall"
 }
 
-const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
+const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight="short"}) => {
+    let height = 30
+    if (heroHeight === "tall") {
+        height = 60
+    }
+    
     const customStyle: React.CSSProperties = background ? {
         background: `url(${background}) ${sassVars.backgroundViolet}`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundBlendMode: "soft-light",
-        flex: "1 0 60vh"
+        flex: `1 0 ${height}lvh`
     } : {}
-
-    if ( heroHeight == "short" ) {
-        customStyle.aspectRatio = "14/3";
-    }
-    else if ( heroHeight == "tall" ) {
-        customStyle.aspectRatio = "11/3";
-    }
 
     return (
         <div
@@ -33,10 +31,7 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
             style={customStyle}
         >
             {title && <h1 className={style.mainTitle}>{title}</h1>}
-            {lead &&
-            <>
-                <p className={style.lead}>{lead}</p>
-            </>}
+            {lead && <p className={style.lead}>{lead}</p>}
         </div>
     )
 }
