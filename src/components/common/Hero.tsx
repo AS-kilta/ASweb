@@ -1,4 +1,5 @@
 import React from "react"
+import { GatsbyImage, GatsbyImageProps } from "gatsby-plugin-image"
 
 import * as style from "./Hero.module.scss"
 
@@ -7,16 +8,16 @@ import * as sassVars from "@src/styles/_exports.module.scss"
 export interface HeroProps {
     title: string,
     lead?: string,
-    background?: string,
+    background?: GatsbyImageProps['image'],
     heroHeight?: "short" | "tall"
 }
 
 const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
     const customStyle: React.CSSProperties = background ? {
-        background: `url(${background}) ${sassVars.backgroundViolet}`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundBlendMode: "soft-light",
+        // background: `url(${background}) ${sassVars.backgroundViolet}`,
+        // backgroundSize: "cover",
+        // backgroundPosition: "center",
+        // backgroundBlendMode: "soft-light",
         flex: "1 0 60vh"
     } : {}
 
@@ -32,6 +33,7 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight }) => {
             id={style.hero}
             style={customStyle}
         >
+            {background && <GatsbyImage className={style.backgroundImage} image={background} alt=""/>}
             {title && <h1 className={style.mainTitle}>{title}</h1>}
             {lead &&
             <>
