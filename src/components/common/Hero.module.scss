@@ -10,11 +10,21 @@
     
     padding: 2rem;
 
+    position: relative;
+
+    .backgroundImage {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        opacity: 0.4;
+    }
+
     .mainTitle {
         margin: 0 8%;
         text-transform: uppercase;
         font-weight: bold;
         font-size: clamp(2rem, 4vw, 4.25rem);
+        z-index: 2;
     }
 
     .lead {
@@ -22,6 +32,7 @@
         font-weight: 500;
         max-width: 50ch;
         margin: 2rem 2rem 0;
+        z-index: 2;
     }
 
 }

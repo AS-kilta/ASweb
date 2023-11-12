@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from 'gatsby'
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
@@ -6,13 +7,23 @@ import SnapWidget from "@src/components/instagram/SnapWidget"
 import EventList from "@src/components/events/EventList"
 import * as style from './index.module.scss'
 
-import heroimg from "../images/images/20201029195159-eef0d345-xx.jpg"
 import sweets from "../images/images/karkki_kalle.jpg"
 import amfi from "../images/images/20210917174935-70c53c15-xx.jpg"
 
-const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
+export const query = graphql`
+  query HeroImgQuery {
+  file(relativePath: {eq: "images/20201029195159-eef0d345-xx.jpg"}) {
+    childImageSharp {
+    	gatsbyImageData
+    }
+  }
+}
+`
+
+const IndexPage: React.FC<PageProps> = ({ pageContext, data }) => {
+    const heroImgData = data?.file?.childImageSharp?.gatsbyImageData;
     return (
-        <PageLayout pageContext={pageContext} title="Automaatio- ja systeemitekniikan kilta" background={heroimg} heroHeight="tall">
+        <PageLayout pageContext={pageContext} title="Automaatio- ja systeemitekniikan kilta" background={heroImgData} heroHeight="tall">
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
                     <h2>Mikä AS?</h2>
