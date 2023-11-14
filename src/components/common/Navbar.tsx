@@ -34,25 +34,25 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
     )
 }
 
-interface QuickLinkProps {
-    link: string,
+//interface QuickLinkProps {
+//    link: string,
 //    icon: string,
-    alt: string,
-}
+//    alt: string,
+//}
 
 // QuickLink is an icon in the navbar. By clicking it leads you quickly to an AS-subsite
-const QuickLink: React.FC<QuickLinkProps> = ({ link, alt }) => {
+const QuickLink: React.FC = ({  }) => {
     const naviCtx = useContext(NaviContext)
 //    const iconSource = "../../images/cute-icons/gallery"
 
     return(
-            <a onClick={naviCtx?.hideNav} className={style.quickIcons} href={link}>
+            <a onClick={naviCtx?.hideNav} className={style.quickIcons} target="_blank" rel="noopener noreferrer" href={"https://gallery.as.fi"}>
                 <StaticImage
                     src="../../images/cute-icons/gallery.svg"
-                    alt={alt}
+                    alt="yeet"
                     layout="constrained"
-                    width={30}
-                    height={30}
+                    width={35}
+                    height={35}
                     placeholder="none"
                 />
             </a>
@@ -309,7 +309,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
                     >
                     {navExpanded ? <BsX /> : <BsList />}
                 </button>
-                <QuickLink link="gallery.as.fi" alt="Galleria"/>
+                <QuickLink/>
             </NaviContext.Provider>
         </nav>
     )
