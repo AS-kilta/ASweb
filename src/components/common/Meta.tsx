@@ -53,8 +53,8 @@ const Meta: React.FC<MetaProps> = ({ lang, title, description, robots }) => {
         <>
             <html lang={lang} />
             <title>{seoData.title}</title>
-            <meta name="robots" content={robots}/>
             <meta name="description" content={seoData.description} />
+            {robots && <meta name="robots" content={robots}/>}
         </>
     )
 }
