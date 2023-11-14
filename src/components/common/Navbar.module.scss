@@ -111,6 +111,10 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
         margin: 10px 20px;
     }
 
+//    .quickLink {
+//
+//    }
+
     .dropdownToggle {
         padding-right: 10px;
         font-size: 20px;
@@ -195,6 +199,13 @@ $not-focused: transparentize($color: $natural-white, $amount: 0.25);
     }
     
     .navbarLogo, .menuToggle {
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .quickLink {
         padding: 5px;
         margin: 10px;
         display: flex;
