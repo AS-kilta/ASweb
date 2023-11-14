@@ -11,9 +11,8 @@ interface BoardMember {
         email: string,
         phone: string,
         telegram: string,
-        picture: string,
+        picture: DynamicImageData,
         description: TranslatedEntry,
-        localImage: DynamicImageData
     }
 }
 
@@ -37,18 +36,17 @@ const Board: React.FC<{lang: string}> = ({ lang }) => {
                         email
                         phone
                         telegram
-                        picture
-                        description {
-                            fi
-                            en
-                        }
-                        localImage {
+                        picture {
                             childImageSharp {
                                 gatsbyImageData(
                                     width: 1000
                                     placeholder: BLURRED
                                 )
                             }
+                        }
+                        description {
+                            fi
+                            en
                         }
                     }
                 }
@@ -62,7 +60,8 @@ const Board: React.FC<{lang: string}> = ({ lang }) => {
                 const contactData: ContactInfo = {
                     ...member.node,
                     title: member.node.title[lang],
-                    description: member.node.description[lang]
+                    description: member.node.description[lang],
+                    picture: member.node.picture
                 }
                 return <ContactCard key={member.node.name} data={contactData} />
             })}
