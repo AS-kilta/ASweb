@@ -29,22 +29,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-remote-images`,
-      options: {
-        nodeType: 'BoardYaml',
-        imagePath: 'picture',
-        silent: true,
-      }
-    },
-    {
-      resolve: `gatsby-plugin-remote-images`,
-      options: {
-        nodeType: 'OfficialsYaml',
-        imagePath: 'members[].picture',
-        silent: true,
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Automaatio- ja systeemitekniikan kilta`,
@@ -66,7 +50,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [`.md`, `.mdx`]
+        extensions: [`.md`, `.mdx`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-table-of-contents-patch`,
+            options: {
+              exclude: "Table of Contents|Sisällysluettelo",
+              fromHeading: 2,
+              toHeading: 6,
+            },
+          },
+          `gatsby-remark-autolink-headers`,
+        ],
+        // plugins: [ `gatsby-remark-autolink-headers` ],
       },
     },
     `gatsby-transformer-yaml`,

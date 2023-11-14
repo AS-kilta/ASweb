@@ -51,6 +51,7 @@ const Meta: React.FC<MetaProps> = ({ lang, title, description, robots }) => {
     
     return (
         <>
+            <html lang={lang} />
             <title>{seoData.title}</title>
             <meta name="robots" content={robots}/>
             <meta name="description" content={seoData.description} />

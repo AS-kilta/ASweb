@@ -27,6 +27,7 @@ const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
                     layout="constrained"
                     width={40}
                     height={40}
+                    placeholder="none"
                 />
             </Link>
         </div>
@@ -92,12 +93,12 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
     }
 
     return (
-        <div className={style.naviItem}>
+        <li className={style.naviItem}>
             <NaviLink
                 title={title}
                 link={translation || link}
                 />
-        </div>
+        </li>
     )
 }
 

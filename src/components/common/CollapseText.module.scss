@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titleRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0.1rem 0 0.1rem 1rem;
+
+  svg {
+    color: $as-violet-1;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.content {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.expanded {
+  height: auto;
+  padding: 0 2rem;
+}
