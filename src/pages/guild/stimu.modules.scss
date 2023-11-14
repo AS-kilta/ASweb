@@ -1,0 +1,12 @@
+ @keyframes logo {
+    from {rotate: 0deg;}
+    to {rotate: 360deg;}
+  }
+
+  #stimu {
+    width: 60%;
+    height: 60%;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
