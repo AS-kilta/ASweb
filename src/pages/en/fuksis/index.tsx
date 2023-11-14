@@ -31,7 +31,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
     const styleCard= {"--profile-img-size": "22rem", marginBottom: "5rem"} as React.CSSProperties;
 
   return (
-    <PageLayout pageContext={pageContext} title='For Fuksis' background={heropic} heroHeight='tall'>
+    <PageLayout pageContext={pageContext} title='For Fuksis' background={heropic} heroHeight='short'>
         <div style={styleCard} className={boardStyle.board}>
             <ContactCard data={data1}/>
             <ContactCard data={data2}/>

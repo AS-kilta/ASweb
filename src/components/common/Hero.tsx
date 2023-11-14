@@ -8,7 +8,7 @@ export interface HeroProps {
     title: string,
     lead?: string,
     background?: string,
-    heroHeight: "short" | "tall"
+    heroHeight?: "short" | "tall"
 }
 
 const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight="short"}) => {
