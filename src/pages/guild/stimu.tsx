@@ -23,5 +23,5 @@ const BoardPage: React.FC<PageProps> = ({ pageContext }) => {
 export default BoardPage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Stimulaatio" />
+  <Meta lang="fi" title="Stimulaatio" robots="none"/>
 )
