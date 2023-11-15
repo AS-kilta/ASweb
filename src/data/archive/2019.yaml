@@ -1,0 +1,56 @@
+year: "2019"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Severi Casserly"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Ville Eronen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Jaakko Majuri"
+
+  - title:
+      fi: "Viestintämestari"
+      en: "Head of Communications"
+    name: "Niina Tapanainen"
+
+  - title:
+      fi: "Phuksikapteeni"
+      en: "Phuksi Captain"
+    name: "Lassi Ihalainen"
+
+  - title:
+      fi: "International Student Captain"
+      en: "International Student Captain"
+    name: "Mikko Hokkanen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Vesta Kulomaa"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Alex Korpela"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Akseli Konttas"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Jyri Kolu"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Juhana Kekoni"

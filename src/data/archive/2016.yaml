@@ -1,0 +1,56 @@
+year: "2016"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Eero Santamala"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Titta Saari"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Jonne Kurokallio"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Taru Virtanen"
+
+  - title:
+      fi: "Phuksikapteeni"
+      en: "Phuksi Captain"
+    name: "Roope Pääkkönen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Noora Salminen"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Kaisa Hynynen"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Ilkka Malassu"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Ville Kauhanen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Miika Lehtimäki"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Sanna Halmkrona"

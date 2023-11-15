@@ -1,0 +1,51 @@
+year: "2005"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Mikael Blomberg"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Arttu Lamminpää"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Riikka Liedes"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Noora Korppi-Tommola"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Kalle Kollin"
+  
+  - title:
+      fi: "Huvimestari"
+      en: "Host"
+    name: "Juha Koppinen"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Sampsa Ruutu"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Markus Heimonen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Antti Aspiala"
+
+  - title:
+      fi: "Edustusmestari"
+      en: "Head of Representations"
+    name: "Hanne Salmi"

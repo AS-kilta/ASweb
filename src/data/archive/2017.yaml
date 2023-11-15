@@ -1,0 +1,51 @@
+year: "2017"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Titta Saari"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Ilkka Malassu"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Veikka Kähkönen"
+
+  - title:
+      fi: "Viestintämestari"
+      en: "Head of Communications"
+    name: "Karolina Itäinen"
+
+  - title:
+      fi: "Phuksikapteeni"
+      en: "Phuksi Captain"
+    name: "Noora Salminen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Sanna Halmkrona"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Taru Virtanen"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Santeri Salmijärvi"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Severi Casserly"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Antti Mella"

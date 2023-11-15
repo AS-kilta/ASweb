@@ -1,0 +1,56 @@
+year: "2001"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Tuomas Kangasluoma"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Pamir Albayrak"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Antti Pakonen"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Taneli Känsälä"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Maija Ahotupa"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Tuomas Kiikka"
+  
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Riitta Palo"
+
+  - title:
+      fi: "Opintovastaava"
+      en: "Head of Studies"
+    name: "Juha Pärnänen"
+  
+  - title:
+      fi: "Exqumestari"
+      en: "Head of Excursions"
+    name: "Antti Pohjoranta"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Jasmine Joensuu"
+
+  - title:
+      fi: "Edustusvastaava"
+      en: "Head of Representations"
+    name: "Juhani Laaksonen"

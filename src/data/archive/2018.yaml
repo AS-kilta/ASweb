@@ -1,4 +1,59 @@
 year: "2018"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Aku Viitanen"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Karolina Itäinen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Jaakko Majuri"
+
+  - title:
+      fi: "Viestintämestari"
+      en: "Head of Communications"
+    name: "Taavi Oja"
+
+  - title:
+      fi: "Phuksikapteeni"
+      en: "Phuksi Captain"
+    name: "Ville Kauhanen"
+  
+  - title:
+      fi: "International Student Captain"
+      en: "International Student Captain"
+    name: "Ilene Blanco"
+
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Mari Pulkkinen"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Severi Casserly"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Ville Eronen"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Leo Matikainen"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Arttu Rintala"
 accolades:
   - name:
       fi: "Vuoden kilta-alumni"

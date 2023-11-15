@@ -1,0 +1,51 @@
+year: "2010"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Antti Kangasrääsiö"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Hannu Leppinen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Oskari Pétas"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Toni Liski"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Rosa Leinonen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Antti-Ville Vaari"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Ville Tissari"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Eero Laukkanen"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Henri Nikula"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Lauri Andler"

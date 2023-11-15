@@ -1,0 +1,56 @@
+year: "2020"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Niina Tapanainen"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Akseli Konttas"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Antti Regelin"
+
+  - title:
+      fi: "Viestintämestari"
+      en: "Head of Communications"
+    name: "Jyri Kolu"
+
+  - title:
+      fi: "Fuksikapteeni"
+      en: "Fuksi Captain"
+    name: "Leia Nummisalo"
+
+  - title:
+      fi: "International Student Captain"
+      en: "International Student Captain"
+    name: "Henri Toivola"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Emma Riikonen"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Helena Kaisanlahti"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Emil Huttunen"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Matias Vapola"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Sakari Ropponen"

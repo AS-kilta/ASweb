@@ -1,0 +1,56 @@
+year: "2013"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Joonas Kröger"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Juhana Suhonen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Julia Syrjäläinen"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Mikko Mustonen"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Noora Vänttinen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Aapo Rantala"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Henry Sanmark"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Matti Ojala"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Sara Parikka"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Petri Niemelä"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Ville Tissari"

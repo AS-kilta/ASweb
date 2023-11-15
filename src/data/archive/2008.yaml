@@ -1,0 +1,51 @@
+year: "2008"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Tommi Forsman"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Salum Abdul-Rahman"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Antti Kangasrääsiö"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Salla Ojala"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Paula Priha"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Juho Sundin"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Johannes Aalto"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Sampo Torttila"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Antti Toivonen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Jani Kautto"

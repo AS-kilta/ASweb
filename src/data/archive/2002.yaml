@@ -1,0 +1,56 @@
+year: "2002"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Maija Ahotupa"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Tuomas Kiikka"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Jasmine Joensuu"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Eero Holmila"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Jaakko Jutila"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Jukka Martikainen"
+  
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Meeri Nieminen"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Juha Korhonen"
+  
+  - title:
+      fi: "Exqumestari"
+      en: "Head of Excursions"
+    name: "Jorma Varis"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Stefan Backman"
+
+  - title:
+      fi: "Edustusmestari"
+      en: "Head of Representations"
+    name: "Niilo Lohikoski"

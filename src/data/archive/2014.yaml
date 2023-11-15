@@ -1,0 +1,56 @@
+year: "2014"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Ville Tissari"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Laura Gröhn"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Ville Harmaala"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Sami-Petteri Pukkila"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Nicholas Kukka"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Eero Santamala"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Mikko Mustonen"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Olli Riikonen"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Niilo Metsänen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Aapo Oksman"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Matti Ojala"

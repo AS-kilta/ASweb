@@ -1,0 +1,51 @@
+year: "2004"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Riikka Viskari"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Santtu Kallionpää"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Kirsi Siivola"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Jussi Hölttä"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Emmi Turanlahti"
+  
+  - title:
+      fi: "Huvimestari"
+      en: "Host"
+    name: "Minna Korhonen"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Henri Seppä"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Mikael Blomberg"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Juha Koppinen"
+
+  - title:
+      fi: "Edustusmestari"
+      en: "Head of Representations"
+    name: "Peike Korvenmaa"
