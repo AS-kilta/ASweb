@@ -1,0 +1,56 @@
+year: "2003"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Meeri Nieminen"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Johanna Ahtola"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Heidi Hänninen"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Susanna Kangas"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Lauri Kovanen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Juho Pentikäinen"
+  
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Emmi Turanlahti"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Riikka Viskari"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Niilo Lohikoski"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Timo Perkola"
+
+  - title:
+      fi: "Edustusmestari"
+      en: "Head of Representations"
+    name: "Jenni Puttonen"

@@ -1,0 +1,61 @@
+year: "2021"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Antti Regelin"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Helena Kaisanlahti"
+
+  - title:
+      fi: "Varapuheenjohtaja"
+      en: "Vice Chairperson"
+    name: "Juuso Määttä"
+
+  - title:
+      fi: "Viestintämestari"
+      en: "Head of Communications"
+    name: "Leevi Hormaluoma"
+
+  - title:
+      fi: "Fuksikapteeni"
+      en: "Fuksi Captain"
+    name: "Kalle Rantala"
+
+  - title:
+      fi: "Fuksikapteeni"
+      en: "Fuksi Captain"
+    name: "Veera Ihalainen"
+
+  - title:
+      fi: "Master and International Student Captain"
+      en: "Master and International Student Captain"
+    name: "Veeti Kahilainen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Meri Hilden"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Matias Vapola"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Santeri Sipilä"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Aku Heinonen"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Meri Hiipakka"

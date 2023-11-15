@@ -1,0 +1,56 @@
+year: "2015"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Laura Gröhn"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Mikko Kyllönen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Sanna Halmkrona"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Aku Viitanen"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Niilo Metsänen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Jan Juvonen"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Sami-Petteri Pukkila"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Ville Harmaala"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Noora Salminen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Joel Huttunen"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Titta Saari"

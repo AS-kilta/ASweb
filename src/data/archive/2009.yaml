@@ -1,0 +1,51 @@
+year: "2009"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Antti Ilmavirta"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Jani Kautto"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Tommi Pajala"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Juho Salmi"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Juho Sundin"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Jaakko Kantojärvi"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Salla Ojala"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Antti Toivanen"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Antti Alakiikonen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Antti-Ville Vaari"

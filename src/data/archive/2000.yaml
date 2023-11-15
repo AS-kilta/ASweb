@@ -1,0 +1,51 @@
+year: "2000"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Paula Savioja"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Veli-Matti Lintu"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Niina Meronen"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Antti Pakonen"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Tuomas Kangasluoma"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Jaana Kaukonen"
+  
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Tomi Savolainen"
+
+  - title:
+      fi: "Opintovastaava"
+      en: "Head of Studies"
+    name: "Elina Jormanainen"
+  
+  - title:
+      fi: "Excursiomestari"
+      en: "Head of Excursions"
+    name: "Tea Talvinen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Taneli Känsälä"
