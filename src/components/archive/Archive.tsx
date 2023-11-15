@@ -77,14 +77,14 @@ const translations: Translations = {
   }
 }
 
-const Committee: React.FC<{committee: CommitteeData, lang: string}> = ({ committee, lang }) => {
+const Committee: React.FC<{committee: CommitteeData, lang: string, year: string}> = ({ committee, lang, year }) => {
   return (
     <div>
       <h4 className={style.heading4}>{committee.name[lang]}</h4>
       <div>
         <p>
           {committee.members.map((member: CommitteeMember) => 
-            <Fragment key={member.name}>
+            <Fragment key={year + member.name}>
               <strong>{member.title.map((title: TranslatedEntry) => title[lang]).join(", ")}</strong> {member.name}<br />
             </Fragment>
           )}
@@ -94,13 +94,13 @@ const Committee: React.FC<{committee: CommitteeData, lang: string}> = ({ committ
   )
 }
 
-const Board: React.FC<{board: BoardMember[], lang: string}> = ({ board, lang }) => {
+const Board: React.FC<{board: BoardMember[], lang: string, year: string}> = ({ board, lang, year }) => {
   return (
     <Fragment>
       <h3 className={style.heading3}>{translations.board[lang]}</h3>
       <p>
         {board.map((member: BoardMember) => 
-          <Fragment key={member.name}>
+          <Fragment key={year + member.name}>
             <strong>{member.title[lang]}</strong> {member.name}<br />
           </Fragment>
         )}
@@ -109,12 +109,12 @@ const Board: React.FC<{board: BoardMember[], lang: string}> = ({ board, lang }) 
   )
 }
 
-const Officials: React.FC<{officials: CommitteeData[], lang: string}> = ({ officials, lang }) => {
+const Officials: React.FC<{officials: CommitteeData[], lang: string, year: string}> = ({ officials, lang, year }) => {
   return (
     <Fragment>
       <h3 className={style.heading3}>{translations.officials[lang]}</h3>
       {officials.map((committee: CommitteeData) =>
-        <Committee key={committee.name[lang]} committee={committee} lang={lang} />
+        <Committee key={committee.name[lang]} committee={committee} lang={lang} year={year} />
       )}
     </Fragment>
   )
@@ -131,7 +131,7 @@ const Accolades: React.FC<{accolades: Accolades, lang: string}> = ({ accolades, 
           <CollapseText key={accolade.name} title={accolade.name}>
             {accolade.description[lang].split("\n")
               .map((paragraph: string, i: Number) =>
-                <p key={`${i}`} className={style.description}>{paragraph}</p>
+                <p key={`${accolade.name}p${i}`} className={style.description}>{paragraph}</p>
               )}
           </CollapseText>
         )
@@ -197,8 +197,9 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
 
   const rawData: ArchiveData = useStaticQuery(query)
 
-  // Create a copy of queried archive data and reverse the array
-  const data: ArchiveEntry[] = rawData.allArchiveYaml.nodes.slice().reverse()
+  // Create a copy of queried archive data and sort the array
+  const data: ArchiveEntry[] = rawData.allArchiveYaml.nodes.slice()
+    .sort((a: ArchiveEntry, b: ArchiveEntry) => Number(b.year) - Number(a.year))
 
   return (
     <div className={style.container}>
@@ -210,8 +211,8 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
       {data.map((entry: ArchiveEntry) => {
         return entry.year && (
           <CollapseBox key={`officials-${entry.year}`} title={entry.year} expand={allExpanded}>
-              {entry.board && <Board board={entry.board} lang={lang} />}
-              {entry.officials && <Officials officials={entry.officials} lang={lang} />}
+              {entry.board && <Board board={entry.board} lang={lang} year={entry.year} />}
+              {entry.officials && <Officials officials={entry.officials} lang={lang} year={entry.year} />}
           </CollapseBox>
         )
       })}
