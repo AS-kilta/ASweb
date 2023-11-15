@@ -35,12 +35,12 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
           <p>Teekkarilakki on teekkareiden tunnusmerkki, jonka saa painaa päähänsä ensimmäisenä Wappunaan. Nykyisen mallinen lakki on keikkunut teekkareiden päässä jo yli sadan vuoden ajan. Päällisin puolin se muistuttaa tavallista ylioppilaslakkia, mutta sen kuusi kulmaa, musta tuuhea tupsu ja hammasrataskokardi viestivät kaukaa kantajansa arvokkuudesta.</p>
         </div>
 
-          <StaticImage className={style.image} src='../../images/images/DSC_0132.jpg' alt=''/>
         </div>
         <h3 id='lakin-kaytto'> Lakin käyttö </h3>
 
         <div>
-          <p>Teekkarilakki on teekkareiden tunnusmerkki, jonka saa painaa päähänsä ensimmäisenä Wappunaan. Nykyisen mallinen lakki on keikkunut teekkareiden päässä jo yli sadan vuoden ajan. Päällisin puolin se muistuttaa tavallista ylioppilaslakkia, mutta sen kuusi kulmaa, musta tuuhea tupsu ja hammasrataskokardi viestivät kaukaa kantajansa arvokkuudesta.</p>
+          <StaticImage id="teekkaricap" className={style.image} src='../../images/images/DSC_0132.jpg' alt=''/>
+          <p>Teekkarilakin käyttökausi on toukokuusta syyskuuhun, tai tarkemmin Wapusta Lakinlaskijaisiin. Erikoistapauksiin, kuten excursioon tai muuhun teekkarien edustustilaisuuteen voi kuitenkin käyttökauden ulkopuolella hakea lakinkäyttölupaa teekkarijaostolta. Teekkarilakista ei juoda, eikä sitä saa muuten tahallisesti sotkea. Ajan myötä teekkarilakki kuitenkin tummuu ja likaantuu käytössä, jolloin se kertoo omistajan kokeneisuudesta teekkarina.</p>
         </div>
 
         <h3 id='oikeus-lakin-kayttoon'> Oikeus lakin käyttöön </h3>

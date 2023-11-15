@@ -28,16 +28,16 @@
 }
 
 @media all and (min-width: $breakpoint-mobile) {
-  .image {
-    width: 300px;
+  .image{
     float: right;
+    width: 300px;
   }
 }
 
 
 @media all and (max-width: $breakpoint-mobile) {
   .image {
-    width: 300px;
+    width: min(400px, 100%);
     float: center;
   }
 }
