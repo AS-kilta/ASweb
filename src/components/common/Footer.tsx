@@ -105,12 +105,15 @@ const Footer: React.FC<{lang: string}> = ({ lang }) => {
                     <div id={style.some}>
                         <a href="https://instagram.com/askilta">
                             <BsInstagram />
+                            <span className="visually-hidden">Instagram</span>
                         </a>
                         <a href="https://facebook.com/askilta">
                             <BsFacebook />
+                            <span className="visually-hidden">Facebook</span>
                         </a>
                         <a href="https://github.com/as-kilta">
                             <BsGithub />
+                            <span className="visually-hidden">Github</span>
                         </a>
                     </div>
                 </div>

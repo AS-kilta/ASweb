@@ -1,6 +1,4 @@
 @use 'reset';
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 *,
 *::after,
@@ -17,26 +15,31 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: $font-heading;
     margin-bottom: 0.5em;
+    margin-top: 1.5em;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: clamp(2.25rem, 3vw, 3.25rem);
     font-weight: 500;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 2.5vw, 2.75rem);
     font-weight: 400;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: clamp(1.75rem, 2vw, 2.25rem);
     font-weight: 300;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 1.8vw, 2.05rem);
     font-weight: 300;
+}
+
+[id] {
+    scroll-margin-top: 5em;
 }
 
 .underline-decorator {
@@ -66,7 +69,11 @@ ul, ol, dl {
     line-height: 1.5;
 
     li:not(:last-child) {
-        margin-bottom: 1em;
+        margin-bottom: 0.7em;
+    }
+
+    li:first-child {
+        margin-top: 0.7em;
     }
 }
 
@@ -133,8 +140,39 @@ main a {
     }
 }
 
-.no-mobile {
+.no-mobile.no-mobile {
     @media (max-width: $breakpoint-mobile) {
         display: none;
     }
 }
+
+.toc {
+    & > h3 {
+        // Hide the plugin generated header
+        display: none;
+    }
+
+    a {
+        font-weight: 400;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        line-height: 1.2;
+    }
+}
+
+.visually-hidden {
+    // Hide elements from view but keep them visible for screen readers
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
