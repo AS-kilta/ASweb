@@ -209,12 +209,14 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
       </button>
       <h2>{translations.formerOfficials[lang]}</h2>
       {data.map((entry: ArchiveEntry) => {
-        return entry.year && (
-          <CollapseBox key={`officials-${entry.year}`} title={entry.year} expand={allExpanded}>
-              {entry.board && <Board board={entry.board} lang={lang} year={entry.year} />}
-              {entry.officials && <Officials officials={entry.officials} lang={lang} year={entry.year} />}
-          </CollapseBox>
-        )
+        if (entry.year && (entry.board || entry.officials))
+          return (
+            <CollapseBox key={`officials-${entry.year}`} title={entry.year} expand={allExpanded}>
+                {entry.board && <Board board={entry.board} lang={lang} year={entry.year} />}
+                {entry.officials && <Officials officials={entry.officials} lang={lang} year={entry.year} />}
+            </CollapseBox>
+          )
+        else return null
       })}
       <h2>{translations.accolades[lang]}</h2>
       {data.map((entry: ArchiveEntry) => {
