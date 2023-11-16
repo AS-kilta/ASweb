@@ -206,7 +206,7 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
         {allExpanded ? translations.closeAll[lang] : translations.openAll[lang]}
         {allExpanded ? <BsDash /> : <BsPlus />}
       </button>
-      <h2>{translations.formerOfficials[lang]}</h2>
+      <h2 className={style.heading2}>{translations.formerOfficials[lang]}</h2>
       {data.map((entry: ArchiveEntry) => {
         return entry.year && (
           <CollapseBox key={`officials-${entry.year}`} title={entry.year} expand={allExpanded}>
@@ -215,7 +215,7 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
           </CollapseBox>
         )
       })}
-      <h2>{translations.accolades[lang]}</h2>
+      <h2 className={style.heading2}>{translations.accolades[lang]}</h2>
       {data.map((entry: ArchiveEntry) => {
         return entry.year && entry.accolades && (
           <CollapseBox key={`accolades-${entry.year}`} title={entry.year} expand={allExpanded}>

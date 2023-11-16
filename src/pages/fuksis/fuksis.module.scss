@@ -11,11 +11,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1rem;
-  margin-bottom: 8rem;
 }
 
 .list__title {
-  color: $natural-white;
+  color: $natural-black;
   background-color: $as-violet-2;
   padding-block: 1.5em;
   font-size: 1.4rem;

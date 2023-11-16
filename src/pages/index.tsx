@@ -12,10 +12,16 @@ import amfi from "../images/images/20210917174935-70c53c15-xx.jpg"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
     return (
-        <PageLayout pageContext={pageContext} title="Automaatio- ja systeemitekniikan kilta" background={heroimg} heroHeight="tall">
+        <PageLayout
+            pageContext={pageContext}
+            title="Automaatio- ja systeemitekniikan kilta"
+            background={heroimg}
+            heroHeight="tall"
+            documentStyle="document"
+        >
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
-                    <h2>Mikä AS?</h2>
+                    <h1>Mikä AS?</h1>
                     <p>AS on opiskelijajärjestö, joka yhdistää Aalto-yliopiston opiskelijoita monelta eri alalta. Kiltaamme kuuluu Automaation ja robotiikan, Informaatioteknologian ja Digital Systems and Designin sekä niitä lähellä olevien tutkinto-ohjelmien opiskelijoita. Kilta järjestää jäsenilleen vapaa-ajan toimintaa, valvoo heidän etuaan opintoihin liittyvissä asioissa ja ylläpitää suhteita alan yrityksiin.</p>
                 </div>
                 <img src={amfi} alt="" />
@@ -23,12 +29,12 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             <div className={`even-columns ${style.frontpagebox}`}>
                 <img className="no-mobile" src={sweets} alt="" />
                 <div className={style.eventsContainer}>
-                    <h2>Tapahtumat</h2>
+                    <h1>Tapahtumat</h1>
                     <EventList number={5} lang={pageContext.lang} />
                     <a href="https://calendar.google.com/calendar/embed?src=as.tiedottaja%40gmail.com&ctz=Europe%2FHelsinki" target="_blank">Tapahtumakalenteri</a>
                 </div>
             </div>
-            <h2 className="center-text">Instagram</h2>
+            <h1 className="center-text">Instagram</h1>
             <SnapWidget />
         </PageLayout>
     )

@@ -22,14 +22,26 @@
   }
 }
 
+.heading2 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 600;
+  margin-left: 0;
+  margin-right: auto;
+  color: $as-violet-1;
+}
+
 .heading3 {
   font-size: clamp(1.3rem, 1.5vw, 1.75rem);
   font-weight: 700;
+  color: $as-violet-1;
 }
 
 .heading4 {
   font-size: clamp(1.2rem, 1.3vw, 1.55rem);
   font-weight: 700;
+  border-bottom: 3px solid;
+  padding-bottom: 0.1em;
+  width: fit-content;
 }
 
 .description {

@@ -31,19 +31,25 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
     const styleCard= {"--profile-img-size": "20rem", marginBottom: "5rem"} as React.CSSProperties;
 
   return (
-    <PageLayout pageContext={pageContext} title='Fuksina killassa' background={heropic} heroHeight='tall'>
+    <PageLayout
+        pageContext={pageContext}
+        title='Fuksina killassa'
+        background={heropic}
+        heroHeight='tall'
+        documentStyle="document"
+    >
         <div style={styleCard} className={boardStyle.board}>
             <ContactCard data={data1}/>
             <ContactCard data={data2}/>
         </div>
 
-        <h2 id="1">
+        <h1 id="1">
             Ennen opintojen alkua
-        </h2>
+        </h1>
 
         <div className={style.cardlist}>
-            <CircleCard title='Ota opiskelupaikka vastaan'/>
-            <CircleCard title='Ilmoittaudu läsnäolevaksi'/>
+            <CircleCard title='Ota opiskelupaikka vastaan' link="https://opintopolku.fi/konfo/fi/sivu/paikan-vastaanotto-ja-ilmoittautuminen-korkeakouluun"/>
+            <CircleCard title='Ilmoittaudu läsnäolevaksi' link="https://www.aalto.fi/fi/hakemukset-ohjeet-ja-saannot/lukuvuosi-ilmoittautuminen"/>
             <CircleCard title='Liity killan jäseneksi' link='https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587'/>
             <CircleCard title='Hae opiskelijakorttia' link="https://www.frank.fi/opiskelijakortti/"/>
             <circle className={ccStyle.badge}>
@@ -83,7 +89,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
 
         <div className={style.table}>
             <div className={style.list}>
-                <h3 className={style.list__title}>OPINNOT</h3>
+                <h5 className={style.list__title}>OPINNOT</h5>
                 <ul>
                     <li><a href="https://mycourses.aalto.fi/" target='_blank'>MyCourses</a> (Täältä löytyy tietoa kursseista)</li>
                     <li><a href="https://sisu.aalto.fi/student/" target='_blank'>Sisu</a> (Täällä tapahtuu kursseille, välikokeisiin ja tentteihin ilmoittautuminen)</li>
@@ -93,7 +99,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>TERVEYDENHOITO</h3>
+                <h5 className={style.list__title}>TERVEYDENHOITO</h5>
                 <ul>
                     <li><a href="https://www.yths.fi/" target='_blank'>YTHS</a></li>
                     <li>Otaniemi: Otakaari 12</li>
@@ -101,7 +107,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>LIIKKUMINEN</h3>
+                <h5 className={style.list__title}>LIIKKUMINEN</h5>
                 <ul>
                     <li><a href="https://www.hsl.fi/" target='_blank'>HELSINGIN SEUDUN LIIKENNE</a></li>
                     <li><a href="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti" target='_blank'>Matkakortti</a></li>
@@ -109,13 +115,13 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>RUOKAILU</h3>
+                <h5 className={style.list__title}>RUOKAILU</h5>
                 <ul>
                     <li><a href="https://kanttiinit.fi/" target='_blank'>Kanttiinit</a> (opiskelijaravintoloiden ruokalistat)</li>
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>ASUMINEN</h3>
+                <h5 className={style.list__title}>ASUMINEN</h5>
                 <ul>
                     <li><a href="https://www.ayy.fi/fi/asuminen" target='_blank'>AYY-asumisinfo</a></li>
                     <li><a href="https://domo.ayy.fi/" target='_blank'>Domo-asuntopalvelu (AYY)</a></li>
