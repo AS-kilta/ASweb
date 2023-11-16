@@ -6,9 +6,15 @@ import heropic from "@src/images/images/IMG_6067-Edit.jpg"
 
 const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title='Teekkarikulttuuri' background={heropic} heroHeight='short'>
+    <PageLayout
+      pageContext={pageContext}
+      title='Teekkarikulttuuri'
+      background={heropic}
+      heroHeight='short'
+      documentStyle="document"
+    >
 
-        <h2 id='haalarit'>Haalarit</h2>
+        <h1 id='haalarit'>Haalarit</h1>
 
         <div>
           <p>Haalarit ovat asuste, josta teekkarin tunnistaa. Haalareita käytetään monissa tilaisuuksissa, joissa liikutaan julkisilla paikoilla teekkareina. Jokaisella killalla on omanvärisensä haalarit. Ne ovat toisin sanoen teekkarin univormu.</p>
@@ -25,7 +31,7 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
           <p>Jos havaitset haalareissa jotain vikaa tai valitettavaa, niin ilmoitathan asiasta heti. Valmistusvirheistä johtuvat viat korjataan kyllä. Kaikki osat, kuten napit ja vetoketju, eivät välttämättä kestä kovaa menoa, mutta ne on sangen helppo korjailla itse. Kysy vinkkejä vanhemmilta killisteiltä.</p>
         </div>
 
-        <h2 id='teekkarilakki'> Teekkarilakki </h2>
+        <h1 id='teekkarilakki'> Teekkarilakki </h1>
 
         <div>
           <p>Teekkarilakki on teekkareiden tunnusmerkki, jonka saa painaa päähänsä ensimmäisenä Wappunaan. Nykyisen mallinen lakki on keikkunut teekkareiden päässä jo yli sadan vuoden ajan. Päällisin puolin se muistuttaa tavallista ylioppilaslakkia, mutta sen kuusi kulmaa, musta tuuhea tupsu ja hammasrataskokardi viestivät kaukaa kantajansa arvokkuudesta.</p>

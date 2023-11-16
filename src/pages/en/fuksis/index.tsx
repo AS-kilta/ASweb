@@ -28,22 +28,28 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         picture: 'https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg',
     };
 
-    const styleCard= {"--profile-img-size": "22rem", marginBottom: "5rem"} as React.CSSProperties;
+    const styleCard= {"--profile-img-size": "20rem", marginBottom: "5rem"} as React.CSSProperties;
 
   return (
-    <PageLayout pageContext={pageContext} title='For Fuksis' background={heropic} heroHeight='tall'>
+    <PageLayout
+        pageContext={pageContext}
+        title='For Fuksis'
+        background={heropic}
+        heroHeight='tall'
+        documentStyle="document"
+    >
         <div style={styleCard} className={boardStyle.board}>
             <ContactCard data={data1}/>
             <ContactCard data={data2}/>
         </div>
 
-        <h2 id="1">
-            Before the start of studies
-        </h2>
+        <h1 id="1">
+            Before the start of your studies
+        </h1>
 
         <div className={style.cardlist}>
-            <CircleCard title='Accept your study place'/>
-            <CircleCard title='Register to be present'/>
+            <CircleCard title='Accept your study place' link="https://opintopolku.fi/konfo/en/sivu/how-to-accept-an-offer-of-admission-in-joint-application-to-higher-education"/>
+            <CircleCard title='Register to be present' link="https://www.aalto.fi/en/applications-instructions-and-guidelines/annual-enrolment"/>
             <CircleCard title='Become a guild member' link='https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587'/>
             <CircleCard title='Apply for a student card' link="https://www.frank.fi/en/studentcard/"/>
             <circle className={ccStyle.badge}>
@@ -83,7 +89,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
 
         <div className={style.table}>
             <div className={style.list}>
-                <h3 className={style.list__title}>STUDIES</h3>
+                <h5 className={style.list__title}>STUDIES</h5>
                 <ul>
                     <li><a href="https://mycourses.aalto.fi/?lang=en" target='_blank'>MyCourses</a> (Here you can find information about courses)</li>
                     <li><a href="https://sisu.aalto.fi/student/" target='_blank'>Sisu</a> (Registration for courses, midterms and exams takes place here)</li>
@@ -93,7 +99,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>HEALTH CARE</h3>
+                <h5 className={style.list__title}>HEALTH CARE</h5>
                 <ul>
                     <li><a href="https://www.yths.fi/en/frontpage/" target='_blank'>YTHS</a></li>
                     <li>Otaniemi: Otakaari 12</li>
@@ -101,7 +107,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>TRANSPORT</h3>
+                <h5 className={style.list__title}>TRANSPORT</h5>
                 <ul>
                     <li><a href="https://www.hsl.fi/en" target='_blank'>HELSIKI REGION TRANSPORT</a></li>
                     <li><a href="https://www.hsl.fi/en/tickets-and-fares/hsl-card" target='_blank'>Travel card</a></li>
@@ -109,13 +115,13 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>EATING</h3>
+                <h5 className={style.list__title}>EATING</h5>
                 <ul>
                     <li><a href="https://kanttiinit.fi/" target='_blank'>Canteens</a> (student cafeteria menus)</li>
                 </ul>
             </div>
             <div className={style.list}>
-                <h3 className={style.list__title}>HOUSING</h3>
+                <h5 className={style.list__title}>HOUSING</h5>
                 <ul>
                     <li><a href="https://www.ayy.fi/en/housing" target='_blank'>AYY housing info</a></li>
                     <li><a href="https://domo.ayy.fi/en" target='_blank'>Domo housing service (AYY)</a></li>

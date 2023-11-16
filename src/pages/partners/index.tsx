@@ -18,18 +18,24 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
   };
 
   return (
-    <PageLayout pageContext={pageContext} background={heroPic} heroHeight="short" title="Yrityksille">
+    <PageLayout
+      pageContext={pageContext}
+      background={heroPic}
+      heroHeight="short"
+      title="Yrityksille"
+      documentStyle="document"
+    >
       <div className={style.introduction}>
         <ContactCard data={ysvData}/>
         <p className={style.intro_quote}>Hei yrityksen edustaja! Olen Automaatio- ja systeemitekniikan killan yrityssuhdevastaava. Kantsii tehdä meidän kanssa yhteistyötä! Tältä sivulta löydät lisätietoa yhteistyömahdollisuuksista. Ota minuun yhteyttä niin jutellaan lisää ja räätälöidään just teille sopiva paketti!</p>
       </div>
 
-      <h3>Yhteistyö killan kanssa</h3>
+      <h1>Yhteistyö killan kanssa</h1>
         <p><strong>Automaatio- ja systeemitekniikan kilta on ainejärjestö Aalto-yliopiston Sähkötekniikan korkeakoulun automaatio ja robotiikan, informaatioteknologian ja Digital Systems and Design opiskelijoille. Kilta tarjoaa jäsenilleen ympäri vuoden monenlaista ajanvietettä paitsi opinnoista rentoutumiseen, myös omien tietojensa ja taitojensa kartuttamiseen erilaisten harrastetoimintojen parissa.</strong></p>
         <p>Kiltalaisistamme kasvaa opintovuosien saatossa uusia osaajia niin automaation, robotiikan, älykkäiden laitteiden kuin myös tietoverkkojen, koneoppimisen ja signaalinkäsittelyn pariin. Useimmat työllistyvät alalleen konsulteiksi, ohjelmistokehittäjiksi tai vaativiin tutkimus- ja kehitystehtäviin.</p>
         <p>Nuoret osaajat ovat kovaa valuuttaa työmarkkinoilla ja monet meistä pyrkivätkin hankkimaan alan työkokemusta jo opiskeluaikoina. Kiltamme kautta on mahdollista tavoittaa tehokkaasti huomattava osa tulevaisuuden ammattilaisista jo varhaisessa vaiheessa. Monet yritykset ovatkin ryhtyneet yhteistyökumppaneiksemme saadakseen lisää näkyvyyttä ja tukeneet samalla kiltamme toimintaa. Alla onkin muutamia yleisimpiä yhteistyötapoja.</p>
 
-      <h3>Yhteistyömuodot</h3>
+      <h1>Yhteistyömuodot</h1>
         <div className={style.table}>
           <CircleCard title="Rekrytointi- näkyvyys" link="./partners#Rekrytointinäkyvyys" targetSelf={true}/>
           <CircleCard title="Haalarit" link="./partners#Haalarit" targetSelf={true}/>

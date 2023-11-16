@@ -12,10 +12,16 @@ import amfi from "../../images/images/20210917174935-70c53c15-xx.jpg"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
     return (
-        <PageLayout pageContext={pageContext} title="Guild of Automation and Systems Technology" background={heroimg} heroHeight="tall">
+        <PageLayout
+            pageContext={pageContext}
+            title="Guild of Automation and Systems Technology"
+            background={heroimg}
+            heroHeight="tall"
+            documentStyle="document"
+        >
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
-                    <h2>What is AS?</h2>
+                    <h1>What is AS?</h1>
                     <p>AS is a student organisation that brings together Aalto University students from many different fields. Our guild includes students from Automation and Robotics, Information Technology, Digital Systems and Design and other related programmes. The guild organises leisure activities for its members, looks after their interests in matters related to their studies and maintains relations with companies in the field.</p>
                 </div>
                 <img src={amfi} alt="" />
@@ -23,12 +29,12 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             <div className={`even-columns ${style.frontpagebox}`}>
                 <img className="no-mobile" src={sweets} alt="" />
                 <div className={style.eventsContainer}>
-                    <h2>Events</h2>
+                    <h1>Events</h1>
                     <EventList number={5} lang={pageContext.lang} />
                     <a href="https://calendar.google.com/calendar/embed?src=as.tiedottaja%40gmail.com&ctz=Europe%2FHelsinki" target="_blank">Events calendar</a>
                 </div>
             </div>
-            <h2 className="center-text">Instagram</h2>
+            <h1 className="center-text">Instagram</h1>
             <SnapWidget />
         </PageLayout>
     )
