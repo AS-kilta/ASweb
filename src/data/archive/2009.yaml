@@ -49,3 +49,66 @@ board:
       fi: "Säätömestari"
       en: "Master Tinkerer"
     name: "Antti-Ville Vaari"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Emmi Turanlahti
+        description:
+          fi: "Vuonna 2009 ensimmäinen Kultaisen Pränikän saa henkilö, jonka kilta-cv:ltä
+            ei mittaa puutu. Jo phuksina hän päätti, ettei kevyt aloitus pienellä toimarinakilla
+            ole häntä varten ja päätyi suoraan vallan keskiöön, killan hallitukseen. Ensin
+            emäntänä hän järjesti mitä mahtavimpia saunailtoja ja pöytäjuhlia ja johti smurffilaumaansa
+            ammattilaisen ottein valloittamaan tukkujen tuntemattomia luolaholveja ja sitsitilojen
+            synkeitä syvänteitä pitäen samalla isäntänsä kurissa. Seuraavan puolentoista
+            vuoden toimista salaisimmat ovat jo painuneet sen erään tietyn yön kuohujuoman
+            kuplaisiin muistoihin, mutta pulikoidessaan hyytävässä laajalahdessa seuraavana
+            päivänä saattoi tämä henkilö todeta upean SuurPhuksivuotensa olevan onnellisesti
+            takana.
+
+            Välillä hän poistui killan aktiivitoimijoiden joukosta tehtäviin
+            ylioppilaskunnan puolelle, mutta palasi näyttävästi ja on sittemmin hoitanut
+            useita toimarivirkoja ja toiminut aktiivisesti esimerkiksi erään mustavalkoista
+            ruutukuosia suosivan seurueen riveissä. Tämä armoitettu askivahti, tiukka kiltakokousten
+            puheenjohtaja, ikuinen lukkari, Australia-excun talkooruhtinatar ja sitsikulttuurin
+            lämminsydäminen ystävä kirjoitti nimensä kultakirjaimin killan historiaan vastaamalla
+            vuosi sitten killan kymmenvuotisjuhlavuoden juhlallisuuksien järjestämisestä.
+            Hyvät naiset ja herrat, Automaatio- ja systeemitekniikan killan Kultaisen Pränikän
+            numero 18 saa Emmi Turanlahti."
+          en: ""
+      - name: Kalle Kollin
+        description:
+          fi: "Vuoden 2009 toisen Pränikän saaja ei esittelyjä kaipaa. Ei, hänen maineensa
+            on kiirinyt kauas killan ulkopuolellekin. Vaan mistä mahtaa tuo henkilö sitten
+            olla tunnettu? Ehkä siitä, että hän on aina paikalla siellä missä tapahtuu.
+            Ehkä siitä, että hän uhraa kyselemättä ja empimättä aikaansa killalle. Tai ehkä
+            siitä, että häntä on aina niin helppo lähestyä.
+
+            Oli miten oli, hänen kiltauransa
+            alkoi railakkaasti phuksina ja dokumentoijana ja smurffina hän kantoi oman osansa
+            kaljasta kekoon. Kerrotaan hänen kuorineen elämänsä ensimmäisen sipulinkin juuri
+            killan tapahtumassa. Hänellä oli kuitenkin vielä unelma. Unelma päästä toivottamaan
+            uudet phuksit yhtä tervetulleeksi kiltaan, kun mitä hän itse oli kokenut.
+
+            
+            Tämän unelman hän pääsi seuraavana vuonna täyttämään kantaessaan suurphuksin
+            viittaa menestyksellä. Muiden muassa minä (Antti Ilmavirta, pj 2009) itse olin
+            hänen phuksinsa ja se, että seison nyt täällä, on vähintään osaksi hänen ansiotaan.
+            Tuntevat hänet toki muutkin kuin hänet omat phuksinsa. Tällä henkilölle on takanaan
+            niin monta vuotta ISOhenkilönä, että se on taatusti killan ennätys, ja suurphuksit
+            tähän päivään asti ovat voineet luottaa, että hän järjestää rastin suunnistukseen
+            kuin suunnistukseen.
+
+            Arwon juhlakansa. Voin vakuuttaa teille ettei ole sellaista
+            hullua projektia mihin tämä henkilö ei lähtisi mukaan, puuta johon hän ei voisi
+            kiivetä tai kasvia, jota hän ei voisi syödä. Hän ei ole ainoastaan innokas,
+            vaan osaa myös innostaa muita ja häneltä voi aina pyytää apua.
+
+            Minulla on
+            mitä suurin ilo ja kunnia myöntää Automaatio- ja systeemitekniikan killan järjestyksessään
+            19. Kultainen Pränikkä hienolle miehelle, joka on todellinen teekkarihengen
+            ilmentymä, Kalle Kollin."
+          en: ""
+

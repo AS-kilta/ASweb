@@ -54,3 +54,57 @@ board:
       fi: "Kulttuurimestari"
       en: "Head of Culture"
     name: "Matti Ojala"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Antti-Ville Vaari
+        description:
+          fi: "Ensimmäistä präniköitävää, tätä isohkoa herrasmiestä, voisi luonnehtia jonkilaiseksi
+            legendaksi killassamme. Moni killisti muistaa hänet varmasti Säätömestarina
+            tai Isäntänä, mutta tämä henkilö on toiminut myös suuressa määrässä muita virkoja
+            - voikin sanoa, että tämän herran jäykkään ranteeseen tai pieneen punaiseen
+            autoon voi aina luottaa.
+
+            Tekemisessään aina yhtä positiivinen ja avulias,
+            tämä herra on ilahduttanut AS-kansaa omalla jäynähenkisellä asenteellaan ja
+            iloisella mielellään jo vuosien ajan, ja luonut ympärilleen sellaista positiivista
+            henkeä, jota tämä kilta tarvitsee. Tämä mies on todellinen uurastaja, joka auttaa
+            ympärillä oleviaan aina silloin kun pystyy, muttei silti pidä kovaa ääntä itsestään."
+          en: ""
+      - name: Joonas Kröger
+        description:
+          fi: "Toinen präniköitävä on tullut monelle tutuksi kovana KOPOilijana, jolla pysyy
+            pää kylmänä ja ajatus selkeänä. Opintomestarina, useamman vuoden hallopedina
+            ja lopulta killan puheenjohtajana toimiessaan hän on pitänyt vuosien ajan huolta
+            siitä, että yhteydet laitokselle ja korkeakouluun pysyvät hyvinä, ja että opiskelijoiden
+            ääni tulee esille.
+
+            Puheenjohtajavuonnaan hän tuli tunnetuksi jämäkkänä ja
+            tunnollisena, mutta silti ystävällisenä ja lempeänä johtajana. Hänen kautensa
+            aikana saatiin toteutettua mm. killan sääntöjen päivittäminen uuteen uskoon,
+            vaikkakin kyseinen mies valittiin omien sanojensa mukaan “Johtamaan, ei lukemaan”.
+            
+            Killasta hänelle on edunvalvonnan lisäksi ollut tärkeää myös kiltahuoneemme
+            ASki, jota hän on hoitanut ensin ASkivahdin ja sitten ASkimestarin hommissa.
+            Hänet voikin valmistumisestaan huolimatta nähdä välillä edelleen ASkissa juomassa
+            kahvia ja rökittämässä ihmisiä änärissä."
+          en: ""
+      - name: Antti "Angra" Toivanen
+        description:
+          fi: "Kolmas präniköitävä on oikea periaatteen mies, joka on oman kiltauransa aikana
+            kerännyt todella suuren määrän pestejä GT:n päätoimittajasta Stimulantin kautta
+            Opintomestariin, mutta hänen todellinen rakkautensa tuntuu kuitenkin sijaitsevan
+            tiskin toisella puolella. Tähän mennessä hän onkin viettänyt ennätykselliset
+            neljä vuotta huvitoimikunnan riveissä, joista yhden vuoden itse tiukasti ja
+            määrätietoisesti johdossa killan Isäntänä.
+
+            Tämän herran aktiivisuus ei kuitenkaan
+            jää vain pelkkien toimikuntien sisään. Oli tilanne sitten mikä hyvänsä, löytyy
+            häneltä aina sekä halua että aikaa auttaa kanssakillistejään omien vastuidensa
+            ulkopuolella. Tämän kiltti mutta jämäkkä herrasmies hoitaa hommansa - ja myös
+            muiden hommat - aina huolellisesti, vastuuntuntoisesti ja sellainen pilke silmäkulmassa,
+            mikä on teekkarille ja varsinkin aASille todella sopivaa."
+          en: ""

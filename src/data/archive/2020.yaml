@@ -54,3 +54,109 @@ board:
       fi: "Kulttuurimestari"
       en: "Head of Culture"
     name: "Sakari Ropponen"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Roope Pääkkönen
+        description:
+          fi: Tämä kiltalainen on toiminut killassa pitkään ja ansiokkaasti. Hän on kannustava
+            persoona, joka on reippaalla otteellaan ollut mukana edistämässä killassa tekemisen
+            meininkiä. Hän on kantanut killassa vastuuta monella osa-alueella niin kulttuurin,
+            liikunnan, kuin phuksikasvatuksenkin parissa. Hän on kantanut vastuuta sekä
+            hallituksessa että sen ulkopuolella. Vielä valmistumisen häämöttäessäkin hän
+            on ottanut tehtäväkseen tuoda killan laulukulttuurin uudelle vuosikymmenelle
+            laulukirjatoimikunnan päätoimittajan roolissa. Hän on Roope Pääkkönen.
+          en: ""
+      - name: Severi Casserly
+        description:
+          fi: Tämä henkilö on tehnyt killassa niin paljon että siitä kirjoittaisi vaikka
+            romaanin. Hän on aina valmis auttamaan, ja itsestään meteliä pitämättä hoitaa
+            ja korjailee asioita kaikilla killan osa-alueilla. Jos olet joskus miettinyt,
+            ”kukahan tuonkin pitkään rikki olleen asian on korjannut”, asialla on enemmän
+            kuin todennäköisesti ollut tämä henkilö. Hän on phuksivuodestaan asti ollut
+            kiltaa rakentamassa ja kanssakillistejä tukemassa, ja kantamassa killan lippua
+            eteenpäin niin kuvainnollisesti kuin sananmukaisestikin. Hän kuuluu jo keittiön
+            vakiovarustukseen lähes jokaisessa killan tapahtumassa, ja on sekä puheenjohtajana,
+            ysvinä, säätömestarina, kuin yleisenä mouhonakin saanut aivan valtavasti aikaan.
+            Hän on Severi Casserly.
+          en: ""
+      - name: Mari Pulkkinen
+        description:
+          fi: Tämä henkilö on ollut phuksivuodestaan asti kehittämässä kiltaa positiiviseen
+            suuntaan. Hän on edistänyt killan toimintakulttuuria niin hallituksessa kuin
+            toimihenkilönäkin, tehnyt kovaa työtä kiltalaisten hyvinvoinnin eteen esimerkiksi
+            yhdenvertaisuustyöryhmässä ja toimihenkilökoulutuksia kehittämällä. Tämä killan
+            tapahtumien korvaamaton järjestäjä on toiminut killassa IE:n puolella niin isäntä
+            kuin smurffinakin. IE-vuoden jälkeenkin hän on ollut aina apuna, kun keittiössä
+            sitä tarvitaan. Kilta on saanut ihastella hänen kättensä jälkeä myös Stimulaatiotoimikunnan
+            johdossa, kuten olemme tänään saaneet todistaa. Hän on Mari Pulkkinen.
+          en: ""
+  - name:
+      fi: "Hopeinen pränikkä"
+      en: "Silvery accolade"
+    people:
+      - name: Iivo Yrjölä
+        description:
+          fi: Illan ensimmäisen hopeisen ansiomerkin saaja on toiminut kulttuuri- ja liikuntatoimikunnan
+            alaisuudessa usean vuoden ajan ja liikuttaen toiminnallaan useita killan jäseniä.
+            Jo heti kiltauransa alussa hän näki killan killan liikuntatoimikunnassa kehitettävää
+            ja tämä henkilö otti haasteen vastaan. Siinä hän on myös onnistunut. Onkin aika
+            osoittaa hänelle meidän, killan, kiitokset liikuntatoiminnan kehittämisestä.
+            Ansiomerkin saaja on Iivo Yrjölä.
+          en: ""
+      - name: Vesta Kulomaa
+        description:
+          fi: Tämä henkilö on tehnyt killassa monenlaista arvokasta työtä. Hän on toiminut
+            killassa niin smurffina kuin myöhemmin Isäntänäkin. Hän on hallitusvuotensa
+            jälkeen edistänyt killan toimintaa hyvällä asenteella dokumentoijana ja Stimulaatiotoimikunnan
+            jäsenenä. Hänen lämmin innokkuutensa tarttuu taatusti läsnäolijoihin. Hän on
+            Vesta Kulomaa.
+          en: ""
+      - name: Alex Korpela
+        description:
+          fi: Seuraava palkittava on ollut aktiivisesti mukana killan toiminnassa vaikka
+            onkin myös muissa toimikunnissa ja järjestöissä ollut jäsenenä. Smurffivuoden
+            jälkeen hän otti emännän hommat haltuun ja tänä vuonna ollut järjestämässä näitä
+            juhlia! Stigulanttina hän on ollut tuomassa kiltaan uudenlaista pilke silmäkulmassa
+            tapahtuvaa keskustelukulttuuria. Hän on Alex Korpela.
+          en: ""
+      - name: Juuso Määttä
+        description:
+          fi: Tämä henkilö on aina auttamassa, kun häntä tarvitaan. Hän on rauhallinen ja
+            äärimmäisen luotettava kiltalainen, joka paneutuu sydämellä kaikkeen, mitä hän
+            tekee. Hän on fuksista asti tehnyt kiltaan vaikutuksen nohevalla toiminnallaan,
+            tehnyt erinomaista työtä ISOna, lukkarina, ja auttanut killan ulkoexcutoimintaa.  Hän
+            on Juuso Määttä.
+          en: ""
+      - name: Mikko Hokkanen
+        description:
+          fi: Tämä kiltalainen on toiminut killassa monipuolisesti eri tehtävissä niin hallituksessa
+            kuin toimihenkilönäkin. Hän on tuonut kiltaan positiivista, hyvää tekemisen
+            meininkiä. Aina ISOna toimimisesta lähtien hän on välittänyt aidosti phukseistaan
+            ja ollut helposti lähestyttävissä. Hänen johdollaan ulkomailta tulleet opiskelijat
+            tunsivat itsensä erittäin tervetulleiksi ja osallistuivat killan tapahtumiin
+            sankoin joukoin. Hän on Mikko Hokkanen.
+          en: ""
+      - name: Akseli Konttas
+        description:
+          fi: Illan toiseksi viimeisen hopeisen ansiomerkin saaja on kiltavuosiensa varrella
+            keskittynyt killan toiminnan pyörittämisen kannalta tärkeimpään kokonaisuuteen,
+            eli hallintoon. Hänen käsissään taikka taskuissaan on välillä ollut killan rahat
+            ja myös killan jäsenten edunvalvonnan kehittäminen opintomestarina ja Hallopedinä.
+            Hän on myös ollut huolehtimassa rakkaasta kiltahuoneestamme askivahtina ja hänen
+            ansiostaan killan kululaskuja voi nykyisin tehdä sähköisesti. Kiitos Akseli
+            toiminnastasi killan hyväksi.
+          en: ""
+      - name: Emil Huttunen
+        description:
+          fi: Illan viimeisen ansiomerkin saaja on toiminut aina fuksivuodesta lähtien hyvällä
+            asenteella mukana killan toiminnassa, aina Otatarhan ajojen ajokista lähtien.
+            Häntä kiinnosti killan ISO-toiminta ja päätyikin ISOpomon asemaan. ISOpomovuoden
+            aikana esille tulleista haasteista huolimatta hän suoritti tehtävänsä kunniakkaasti
+            loppuun. Pelkkä ISOilun ei kuitenkaan riittäny hänelle, vaan hän halusi myös
+            kehittää yhteistyötä killan ja korkeakoulun välillä. Hän ottikin vastaan Opintomestarin
+            viran, jota hän vieläkin kantaa. Emil, kiitos tekemästäsi työstä!
+          en: ""

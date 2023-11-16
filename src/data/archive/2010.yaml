@@ -49,3 +49,46 @@ board:
       fi: "Säätömestari"
       en: "Master Tinkerer"
     name: "Lauri Andler"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Antti "Deivid" Aspiala
+        description:
+          fi: "Ensimmäinen präniköitävä on ollut killassa aktiivinen phuksivuodestaan lähtien
+            koko opiskeluaikansa, joka ei ollut lyhyt. Kiltauraan kuului kaksi vuotta hallituksessa
+            ja useita toimarinakkeja. Hänet on tunnettu muun muassa smurffina, kaksinkertaisena
+            juomanlASkijana, säätömestarina sekä opintomestarina.
+
+            Tämä henkilö on aina
+            hoitanut hommansa tunnollisesti ja ollut viimeisinäkin vuosinaan tapahtumissa
+            mukana nostattamassa henkeä. Lisäksi hän on kiltalaisten kokemuksen mukaan ollut
+            sellainen tyyppi, joka tulee auttamaan jos pyytää, vaikkei olisikaan missään
+            nakissa asiaan liittyen. Hän ei pelkästään tee hyvin niitä tehtäviä, mihin lupautuu,
+            vaan on tyyppi, josta kaikki pitävät.
+
+            Tämä kiharapää on legenda jo eläessään.
+            
+            Valitettavasti Deivid ei päässyt tänne noutamaan pränikkäänsä, mutta se toimitetaan
+            hänelle kun hän palaa takaisin maailmalta. Viimeisimmän Facebook-päivityksen
+            mukaan hän on tällä hetkellä Katmandussa, Nepalissa."
+          en: ""
+      - name: Markus "Setä-Markus" Heimonen
+        description:
+          fi: "Toinen präniköitävä on tullut tunnetuksi aikaansaavana henkilönä. Hallitusvuosiensa
+            aikana hän määrätietoisesti kehitti killan toimintakulttuuria, ja osoitti kaukokatseisuutta
+            aloittamalla killan rahastosijoitustoiminnan. Hän oli myös osaltaan kasvattamassa
+            AS:ää nykyiseen asemaansa Otaniemen suurimpana pienenä kiltana.
+
+            Hänen uransa
+            killassa on kestänyt verratten vähemmän aikaa kuin präniköitävillä yleensä.
+            Kuitenkin näistä vuosista hän vietti vaatimattomat kolme hallituksessa, toistaiseksi
+            ainoana tässä lajissa. Hän ei kuitenkaan unohtanut kiltaa siirtyessään ylioppilaskunnan
+            palvelukseen, vaan osallistui edelleen aktiivisesti killan toimintaan toimiessaan
+            TKY:n hallituksessa muun muassa viimeisenä puheenjohtajana.
+
+            Tämä Isä Aurinkoinen
+            on poikkeuksellinen tekijä, joka täyttää Pränikän kriteerit vaivatta."
+          en: ""
