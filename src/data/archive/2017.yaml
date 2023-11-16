@@ -49,3 +49,44 @@ board:
       fi: "Kulttuurimestari"
       en: "Head of Culture"
     name: "Antti Mella"
+
+accolades:
+  - name:
+      fi: "Hopeinen pränikkä"
+      en: "Silvery accolade"
+    people:
+      - name: Antti-Jussi Inkinen
+        description:
+          fi: Tehnyt huomattavan paljon työtä jo kahtena vuonna sen eteen, että ASkin palvelutaso
+            on yksi Otaniemen kiltahuoneiden parhaista. Ollut myös tärkeässä roolissa nykyisen
+            säätötoiminnan järjestämisessä.
+          en: ""
+      - name: Ville Kauhanen
+        description:
+          fi: Vienyt killan yrityssuhdetoimintaa paljon eteenpäin. Hoitanut Master of International
+            Affairs:n virkaa hyvin ja saanut vaihto-opiskelijoita kiinnostumaan killasta.
+            Lisäksi ollut mukana myös killan uusien nettisivujen kehittämisessä sekä serveriprojektissa.
+          en: ""
+      - name: Veikka Kähkönen
+        description:
+          fi: Tehnyt paljon työtä uusien nettisivujen eteen. Ollut vahvasti mukana myös
+            säätötoiminnassa.
+          en: ""
+      - name: Paul Laihonen
+        description:
+          fi: Ollut monessa vastuullisessa virassa mm. ISOpomona ja rahastonhoitajana. Hoitanut
+            tämän vuoden Stimulaatiota varmoin ottein.
+          en: ""
+      - name: Miika Lehtimäki
+        description:
+          fi: Tehnyt ASkin kehittämisen eteen paljon. Tehnyt killalle paljon grafiikkaa.
+          en: ""
+      - name: Juuso Mikkonen
+        description:
+          fi: Nostanut GT:n profiilia paljon, mm. tekemällä GT-webin. Suuri tekijä lyhyestä
+            fyysisestä mitastaan huolimatta.
+          en: ""
+      - name: Eero Santamala
+        description:
+          fi: Hoitanut sekä isännän että puheenjohtajan hommat jämptisti.
+          en: ""

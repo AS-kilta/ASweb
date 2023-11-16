@@ -56,6 +56,76 @@ board:
     name: "Arttu Rintala"
 accolades:
   - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Sanna Halmkrona
+        description:
+          fi: "Illan ensimmäinen kultaisen pränikän saaja on tehnyt killassa paljon kaikenlaista
+            ja aina täysillä. Jo phuksivuonnaan tämä henkilö lähti killan hallitukseen,
+            jossa hän toimi ahkerasti ja täsmällisesti sihteerin roolissa. Hallitushommat
+            eivät jääneet vain kertakeikaksi, vaan tämä henkilö päätti jatkaa hallituksessa
+            vielä kaksi vuotta, ensin kulttuurimestarin ja sen jälkeen Emännän roolissa.
+            Tämä 2014 phuksi on antanut edellä mainituissa ja kaikissa muissa viroissaan
+            kaikkensa killan toiminnan eteen.
+
+            Hallituksen lisäksi tämä monitoimikone
+            on toiminut lukuisissa toimihenkilöviroissa lukkarina, kulttuurikisällinä
+            ja kultaisena toimittajana. Hallitusvirkojen tapaan myös nämä tehtävät
+            kyseinen henkilö on suorittanu kiittettävästi ja hyvällä hengellä."
+          en: ""
+      - name: Noora Salminen
+        description:
+          fi: "Illan toinen kultaisen pränikän saaja on ollut killan toiminnassa mukana
+            tiiviisti phuksivuodestaan lähtien hyppäämällä jo ensimmäisenä talvena
+            yrityssuhdemestarin virkaan. Tästä hallitustie jatkui vielä kaksi vuotta
+            Emännän ja Phuksikapteenin viroissa. Useiden hyvin hoidettujen hallitusvirkojen
+            lisäksi tämä henkilö on aktiivisesti osallistunut melkeinpä mihin tahansa
+            viralliseen ja epäviralliseen kiltatoimintaan, mukaan lukien toiminta tämän
+            vuoden Stimulaatiotoimikunnassa.
+
+            Hallituksessa ja sen ulkopuolella tämä
+            henkilö on huokunut tsemppaavaa asennetta ja hoitanut tehtävänsä aina tunnollisesti
+            maaliin. Positiivinen asenne ja pohjaton jaksaminen on kannustanut myös muita
+            tekijöitä kantamaan tehtävät kunnialla loppuun saakka."
+          en: ""
+  - name:
+      fi: "Hopeinen pränikkä"
+      en: "Silvery accolade"
+    people:
+      - name: Riikka Nousiainen
+        description:
+          fi: Tämä 2014 phuksi on toiminut killassa erinäisissä toimihenkilöviroissa
+            kiitettävästi jo useamman vuoden ajan. Kyseinen henkilö on toiminut huvi-,
+            kulttuuri- ja yritysyhteistyön saralla ahkerasti ja kuluvana vuonna ottanut
+            vastuulleen useamman vastuutehtävän. Nämä vastuutehtävät ovat näkyneet
+            kiltahuoneen kehityksessä sekä TEKin ja Suomen automaatioseuran kasvaneena
+            yhteistyönä.
+          en: ""
+      - name: Kaisa Hynynen
+        description:
+          fi: Tämä 2014 phuksi on toiminut monipuolisesti killan erilaisissa tehtävissä.
+            Hän on tehnyt kaiken tunnollisesti, järjestelmällisesti ja kunnolla sekä
+            ottanut muut hyvin huomioon. Tämä henkilö on toiminut muun muassa killan
+            Emäntänä, somevastaavana ja Depressanttina. Tänä vuonna hän on ollut korvaamaton
+            apu Opiskelijat Lintsillä -tapahtuman markkinoinnissa.
+          en: ""
+      - name: Jan Juvonen
+        description:
+          fi: Tämä 2013 phuksi on ollut mukana killan tapahtuma- ja kulttuuripuolella
+            phuksivuodestaan asti aina tähän päivään saakka. Matkan varrelta löytyy
+            juomanlASkijan, jäykkäranteen ja kultaisen toimittajan virkoja, sekä vuosi
+            killan hallituksessa Isännän roolissa. Tämä henkilö on tänä vuonna johtanut
+            juhlavuoden toteuttamista Stimulantin roolissa.
+          en: ""
+      - name: Titta Saari
+        description:
+          fi: Tämä 2013 phuksi on tehnyt pitkän kiltauran, josta merkittävän osan hallituksessa.
+            Tämä henkilö on avoin kaikkia kohtaan ja huokuu AS-henkeä. Hän on hoitanut
+            tehtävänsä innostuneella asenteella, osaavasti ja aikataulussa. Vuosien varrella
+            hän toiminut Kulttuuri-mestarina, rahastonhoitajana ja puheenjohtajana.
+          en: ""
+  - name:
       fi: "Vuoden kilta-alumni"
       en: "Alumnus of the year"
     people:

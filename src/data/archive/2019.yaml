@@ -54,3 +54,76 @@ board:
       fi: "Kulttuurimestari"
       en: "Head of Culture"
     name: "Juhana Kekoni"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Karolina Itäinen
+        description:
+          fi: Ensimmäinen Kultaisen Pränikän saaja ei pidä itsestään kovaa meteliä. Hän
+            on rauhallinen ja luotettava niin tekijänä kuin kaverinakin. Hän on monipuolisesti
+            killassa enemmän taustalla toiminut, mutta ollut myös näkyvissä lukkarin tehtävissä.
+            Juhlavuonna hän kantoi suuren vastuun, kun killan tulevaisuutta horjuutti lähes
+            kolminkertainen liikevaihto sekä killan historian suurimman tapahtuman toteutumisen
+            epävarmuus. Rahaliikenteen hoidon lisäksi hän hoiti juhlavuonna varapuheenjohtajan
+            tehtävän kunnialla tavallista suuremmista vastuista huolimatta. Hän on Karolina
+            Itäinen.
+          en: ""
+      - name: Eero Santamala
+        description:
+          fi: Tämä pitkän linjan kilta-aktiivi on ehtinyt tehdä monenlaista. Hänet tunnetaan
+            tekemisen ihmisenä, joka ei pelkää tarttua sen enempää työkaluihin kuin tekstieditoriinkaan.
+            Vastuunsa hän on aina hoitanut ilman meteliä. Vuodet huvitoimikunnassa saivat
+            jatkoa puheenjohtajana, jonka aikana uudistettiin niin ohjesääntöjä kuin killan
+            organisaatiotakin. Valmistumisen jo häämöttäessä tulevaisuudessa lähti hän vielä
+            juhlavuotta tekemään ja olikin takuumies 20. Stilliksen takana. Hän on Eero
+            Santamala.
+          en: ""
+  - name:
+      fi: "Hopeinen pränikkä"
+      en: "Silvery accolade"
+    people:
+      - name: Roope Pääkkönen
+        description:
+          fi: Illan ensimmäisen hopeisen pränikän saaja on vaikuttanut vuosien ajan vahvasti
+            niin killan kulttuurin kuin käytänteidenkin saralla. Hän on vienyt kiltaa askeleen
+            eteenpäin kaikessa mihin on ryhtynyt. Hän on viihdyttänyt ja johdattanut kiltalaisia,
+            mm. GT:ssä, sitseillä, rrrRankalla ja jopa jokaisen AS-phuksin ensimmäisenä
+            päivänä Otaniemessä. Toivottakaamme lavalle ensimmäinnen hopeisen pränikän saaja
+            - Roope Pääkkönen
+          en: ""
+      - name: Ville Eronen
+        description:
+          fi: Tämä täsmällisyyden ja luotettavuuden perikuva huolehtii siitä, että asiat
+            hoidetaan aina kunnolla. Hän pyytämättä auttamassa kun tapahtumajärjestelyt
+            on kesken ja osallistujat kolkuttavat ovelle tai kun käyt kolmatta kertaa samaa
+            matikankurssia ja et ole katsonut opintosuunnitelmaasi sitten phuksikevään.
+            Hän taistelee teidän puolesta koulun vääryyksiä vastaan, meidän opintojen puolesta.
+            Hän on Ville Eronen.
+          en: ""
+      - name: Emma Riikonen
+        description:
+          fi: Tämän toistaiseksi enemmän taustalla toimineen kiltalaisen kädenjäljet ovat
+            ehkä huomaamattomasti piristäneet killan ilmettä ja ulkoasua lähiaikoina. Hän
+            on ollut olennainen osa uutta vahvaa somepresenssiä. Bittiavaruuden ulkopuolella
+            silmämme ovat saaneet kiittää myös kauniista 20-vuotis historiikistä ja samaa
+            silmänruokaa nautimme jopa tänään siellä pöydissänne. Tämän hopeisin pränikän
+            saa - Emma Riikonen
+          en: ""
+      - name: Helena Kaisanlahti
+        description:
+          fi: Tämä toinen nouseva tekijä on ollut phuksivuodestaan aktiivinen ja innokas
+            monella eri osa-alueella. Hän on osaltaan ollut mukana uudistamassa kiltaa abimarkkinoinnin
+            osalta. Tämä henkilö on aina täysillä mukana ja täynnä räväkkää tekemisen meininkiä.
+            Pränikän saa - Helena Kaisanlahti.
+          en: ""
+      - name: Taru Virtanen
+        description:
+          fi: Illan viimeisen hopeisen pränikän saaja luo puhdasta iloa ja lämpöä ympärilleen.
+            Hän on positiivinen ja huolehtii siitä, että muilla on hyvä olla.  Tämä killan
+            viimeinen tiedottaja toi myös viikoittain söpöt kissakuvat kiltalaisille. Hänen
+            kanssaan on aina tehdä hommia on se sitten rankkaa työtä tai rankkaa huvia.
+            Tämän hopeisen ansiomerkin saa - Taru Virtanen.
+          en: ""

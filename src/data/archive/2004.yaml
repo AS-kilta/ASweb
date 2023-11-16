@@ -49,3 +49,38 @@ board:
       fi: "Edustusmestari"
       en: "Head of Representations"
     name: "Peike Korvenmaa"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Tomi Savolainen
+        description:
+          fi: Järjestyksessään kahdeksannen pränikän kilta haluaisi luovuttaa henkilölle,
+            joka on ollut mukana killan toiminnassa jo sen perustamisesta alkaen. Nykyäänkin
+            hänet voi vielä silloin tällöin bongata killan tapahtumista ja violetti haalarikaan
+            ei ole jäänyt kaappiin pölyttymään, vaikka osasto onkin opiskeluvuosien aikana
+            päässyt vaihtumaan. Hänen päässään on syntynyt monta hullua ideaa, joiden vaikutus
+            näkyy kiltamme toiminnassa vieläkin ja hänen panostustaan mm. legendaarisilla
+            0- vuotissitseillä vanhemmat tieteenharjoittajat muistelevat yhä haikeina. Hän
+            on tullut auttamaan monesti myös silloin, kun apua ei ole osattu tarpeesta huolimatta
+            pyytää ja hänen luova panoksensa on näkynyt niin Kultaisessa tomaatissa kuin
+            eri Stimulaatioissa vuosien varrella. Tämä mies on kiltamme ensimmäinen emäntä,
+            Tomi "TC" Savolainen.
+          en: ""
+      - name: Tuomas Kiikka
+        description:
+          fi: "Yhdeksännen pränikän saaja on aina ollut yksi kiltamme ahkerimmista sitsaajista.
+            Eikä pelkästään juhlijana vaan myös järjestäjänä. Jo phuksivuonnaan hän oli
+            melkeinpä korvaamaton apu silloiselle hallitukselle. Kun hän lupasi tehdä jotain,
+            muut saattoivat luottaa, että se myös tulee tehtyä. Vaikka toimarivuosi oli
+            työn täyteinen, lähti hän vielä hallitukseen - kahdesti. Hallitusvuosiensa
+            jälkeenkin hän on ollut monessa puuhamiehenä ja auttanut nuorempiaan niin killan
+            sisä- kuin raha-asioissa.
+
+            Eräs hallitukselle tullut ehdotus alkoi näin:
+            \"Teekkaritoimintaan kuuluu monia asioita. On yhteistyötä ja vastuunkantamista.
+            On hauskanpitoa ja ongelmien ratkomista. On kaljakorien kantoa ja phuksityttöjen
+            iskemistä. Tuomas Kiikka on tehnyt tätä kaikkea.\""
+          en: ""

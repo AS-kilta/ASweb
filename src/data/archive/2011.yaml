@@ -54,3 +54,31 @@ board:
       fi: "Ulkomestari"
       en: "Head of Foreign Affairs"
     name: "Heikki Tahvanainen"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Tommi Forsman
+        description:
+          fi: Ensimmäinen pränikän saaja on todellinen pitkän linjan AS:läinen, joka on
+            edustanut AS-henkeä niin lukuisissa killan viroissa kuin niiden ulkopuolellakin.
+            Kahden huvitoimikunnassa vietetyn vuoden jälkeen hänet nähtiin vielä kahteen
+            kertaan hallituksessa, säätömestarina sekä myöhemmin puheenjohtajana. Lisäksi
+            tämä henkilö on ajanut opiskelijoiden etuja korkeakoulun suuntaan toimien usean
+            vuoden ajan hal(l)opedinä sekä laitoksen harjoittelu- ja kv-neuvojana. Virallisten
+            velvollisuuksiensa ulkopuolella hän on osallistunut lukuisiin projekteihin,
+            kuten ulkomaanexcursioiden järjestämiseen sekä tänäänkin juhlia tahdittavan
+            gongin rakentamiseen. Myös ASkissa hän on edelleen vakiokävijä.
+          en: ""
+      - name: Riikka Liedes
+        description:
+          fi: Toinen pränikän saaja on tehnyt näyttävän uran Otaniemessä niin killassa kuin
+            sen ulkopuolellakin. Heti phuksina hän lähti rohkeasti killan hallitukseen sihteeriksi
+            ja ensimmäisestä vuodesta selvittyään heti sakkokierrokselle kasvattamaan uutta
+            AS-sukupolvea SuurPhuksin tehtävässä. Näiden tehtävien jälkeen tämä henkilö
+            on toiminut useissa ylioppilaskuntamme viroissa, kuten teekkarijaoston ISOtirehtöörinä.
+            Lisäksi hän on osoittanut kiitettävää mielenkiintoa yhteisten asioiden hoitamiseen
+            toimimalla useamman kauden ajan TKY:n ja sittemmin AYY:n edustajistossa.
+          en: ""

@@ -49,3 +49,21 @@ board:
       fi: "Säätömestari"
       en: "Master Tinkerer"
     name: "Jani Kautto"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Taru Laamanen
+        description:
+          fi: ""
+          en: ""
+      - name: Lauri Kovanen
+        description:
+          fi: ""
+          en: ""
+      - name: Juha Koppinen
+        description:
+          fi: ""
+          en: ""

@@ -54,3 +54,33 @@ board:
       fi: "Edustusmestari"
       en: "Head of Representations"
     name: "Jenni Puttonen"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Leena Salo
+        description:
+          fi: "Kuudennen pränikän saaja ei ole koskaan tehnyt töitä nostaakseen itseään
+            jalustalle. Hän on todellinen kiltahengen rakentaja ja on toiminut killan edustajana
+            suuremmissakin ympyröissä. Hänen panoksensa killan varhaisen historian taltioijana
+            on korvaamaton.
+
+            Leena Salo ei jää pohtimaan \"jonkun tarttis tehdä jotain\", vaan tarttuu toimeen
+            itseään säästelemättä ja tekee sen hymyssä suin."
+          en: ""
+      - name: Joonas Varso
+        description:
+          fi: "Seitsemännen pränikän saaja on ollut mukana aktiivisesti kiltatoiminnassa
+            alusta lähtien ja on edelleen osa kiltayhteisöä isällisine neuvoineen. Hän on
+            ystävällinen kaikille vuosikurssiin katsomatta ja on aina valmis auttamaan.
+            Hän on tehnyt myös paljon työtä killan suhteiden yhteistyötahoihin luomisen
+            eteen.
+
+            Hänellä oli suuri vastuu killan oman toiminnan käynnistämisessä ensimmäisenä
+            sisämestarina, mutta parhaiten hänet tullaan muistamaan yhdestä asiasta: hän
+            piti huolta meille kaikille niin rakkaista Konteista usean vuoden ajan ja järjesti
+            monia ikimuistoisia tapahtumia konteilla. Hän on killan joulupuuron keittäjä,
+            Joonas Varso."
+          en: ""
