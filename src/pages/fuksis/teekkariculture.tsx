@@ -9,7 +9,7 @@ import * as picStyle from "@src/styles/pictures.module.scss"
 const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout pageContext={pageContext} title='Teekkarikulttuuri' background={heropic} heroHeight='short'>
-      
+
         <h2 id='haalarit'>Haalarit</h2>
 
         <div>
