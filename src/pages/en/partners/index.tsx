@@ -13,7 +13,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
     name: 'Lucas Käldström',
     email: 'yrityssuhdevastaava@as.fi',
     phone: '+358 458911847',
-    localImage: 'https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg',
+    picture: 'https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg',
     telegram: '@luxask'
   };
 
@@ -21,7 +21,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout pageContext={pageContext} background={heroPic} heroHeight="short" title="Corporate Relations">
       <div className={style.introduction}>
         <ContactCard data={ysvData}/>
-        <p className={style.intro_quote}>"Hello company representative! I am the Head of Corporate Relations in the Guild of Automation and Systems Technology. Feel free to cooperate with us! On this page you can find more information about cooperation opportunities. Contact me and we'll talk more and tailor a package just right for you!"</p>
+        <p className={style.intro_quote}>Hello company representative! I am the Head of Corporate Relations in the Guild of Automation and Systems Technology. Feel free to cooperate with us! On this page you can find more information about cooperation opportunities. Contact me and we'll talk more and tailor a package just right for you!</p>
       </div>
 
       <h3>Cooperation with the guild</h3>

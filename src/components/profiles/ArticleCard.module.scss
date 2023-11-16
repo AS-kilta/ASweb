@@ -31,6 +31,8 @@
       line-height: 0;
       vertical-align: bottom;
       pointer-events: none;
+      display: -webkit-inline-box;
+      -webkit-min-logical-width: 0.5em;
     }
 
     &::before {
