@@ -47,7 +47,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <CircleCard title='Become a guild member' link='https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587'/>
             <CircleCard title='Apply for a student card' link="https://www.frank.fi/en/studentcard/"/>
             <circle className={ccStyle.badge}>
-                Apply for housing through <a href="https://domo.ayy.fi/en" target="_blank"> AYY </a> or <a href="https://hoas.fi/en" target="_blank"> HOAS</a>
+                Apply for housing through&nbsp;<a href="https://domo.ayy.fi/en" target="_blank">AYY</a>&nbsp;or&nbsp;<a href="https://hoas.fi/en" target="_blank">HOAS</a>
             </circle>
             <CircleCard title='Apply for a study grant' link="https://www.kela.fi/opintotuki"/>
             <CircleCard title='Get a HSL travel card' link="https://www.hsl.fi/en/tickets-and-fares/hsl-card"/>
