@@ -104,6 +104,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: TranslatedMetadata!
       description: TranslatedMetadata!
       author: String
+      robots: String
     }
     type TranslatedMetadata {
       fi: String!
@@ -115,6 +116,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       lead: String
       background: String
       heroHeight: String
+      robots: String
     }
   `
   createTypes(typeDefs)
