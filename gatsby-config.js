@@ -50,7 +50,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [`.md`, `.mdx`]
+        extensions: [`.md`, `.mdx`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-table-of-contents-patch`,
+            options: {
+              exclude: "Table of Contents|Sisällysluettelo",
+              fromHeading: 2,
+              toHeading: 6,
+            },
+          },
+          `gatsby-remark-autolink-headers`,
+        ],
+        // plugins: [ `gatsby-remark-autolink-headers` ],
       },
     },
     `gatsby-transformer-yaml`,
