@@ -54,6 +54,448 @@ board:
       fi: "Kulttuurimestari"
       en: "Head of Culture"
     name: "Arttu Rintala"
+
+officials:
+  - name:
+      fi: Phuksitoimikunta
+      en: Freshmen committee
+    members:
+      - name: Ella Koivula
+        title:
+          - fi: ISOpomo
+            en: Tutor Boss
+      - name: Charlotta Alén
+        title:
+          - fi: Tosi ISOpomo
+            en: Uncle Tutor Boss
+      - name: Noora Salminen
+        title:
+          - fi: SuurPhuksikapteeni
+            en: Great Freshman Captain
+      - name: Ville Kauhanen
+        title:
+          - fi: Senior Master of International Affairs
+            en: Senior Master of International Affairs
+  - name:
+      fi: Opintotoimikunta
+      en: Study Committee
+    members:
+      - name: Roope Savolainen
+        title:
+          - fi: Automaatti
+            en: Automaton
+  - name:
+      fi: Kulttuuri- ja liikuntatoimikunta
+      en: Committee of Cultural Affairs
+    members:
+      - name: Antti Mella
+        title:
+          - fi: Sitsiohjelmavastaava
+            en: Sitsi Program Manager
+          - fi: Manageri
+            en: Manager
+      - name: Sanna Halmkrona
+        title:
+          - fi: Tapahtuma- ja kulttuuriexcuvastaava
+            en: Director of Events and Cultural Excursions
+      - name: Ville Piesala
+        title:
+          - fi: Pelimies
+            en: Gameman
+      - name: Mikko Hokkanen
+        title:
+          - fi: JuomanlASkija
+            en: Cupbearer
+      - name: Matti Ojala
+        title:
+          - fi: Jäykkäranne
+            en: Stiff Wrist
+      - name: Juho-Topias Tuomaala
+        title:
+          - fi: Sarjaliikkuja
+            en: Serial Mover
+          - fi: Satunnaisliikkuja
+            en: Random Mover
+      - name: Iivo Yrjölä
+        title:
+          - fi: Sarjaliikkuja
+            en: Serial Mover
+
+  - name:
+      fi: Huvitoimikunta
+      en: Entertainment Commitee
+    members:
+      - name: Alex Korpela
+        title:
+          - fi: Smurffi
+            en: Smurfs
+      - name: Niko Soininen
+        title:
+          - fi: Smurffi
+            en: Smurfs
+      - name: Lotta Lumiaro
+        title:
+          - fi: Smurffi
+            en: Smurfs
+      - name: Robert Liias
+        title:
+          - fi: Smurffi
+            en: Smurfs
+      - name: Vesta Kulomaa
+        title:
+          - fi: Smurffi
+            en: Smurfs
+      - name: Ken Riippa
+        title:
+          - fi: Smurffi
+            en: Smurfs
+      - name: Sampo Saloriutta
+        title:
+          - fi: Smurffi
+            en: Smurfs
+      - name: Jyri Kolu
+        title:
+          - fi: Smurffi
+            en: Smurfs
+  - name:
+      fi: Kultainen toimitus
+      en: Golden Tomato
+    members:
+      - name: Antti Mella
+        title:
+          - fi: Kultainen päätoimittaja
+            en: Golden Editor-in-Chief
+      - name: Sanna Halmkrona
+        title:
+          - fi: Kultainen toimittaja
+            en: Golden Editor
+      - name: Karolina Itäinen
+        title:
+          - fi: Kultainen toimittaja
+            en: Golden Editor
+      - name: Jan Juvonen
+        title:
+          - fi: Kultainen toimittaja
+            en: Golden Editor
+      - name: Taavi Oja
+        title:
+          - fi: Kultainen taittaja
+            en: Golden Layout Designer
+      - name: Taavi Oja
+        title:
+          - fi: Kultainen graafikko
+            en: Golden Graphic Artist
+  - name:
+      fi: Lukkaritoimikunta
+      en: Sexton Committee
+    members:
+      - name: Roope Pääkkönen
+        title:
+          - fi: Lukkarimestari
+            en: Sexton Master
+      - name: Mikko Hokkanen
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Jaakko Majuri
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Arttu Rintala
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Ilene Blanco
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Lauri Vapalahti
+        title:
+          - fi: Lukkari
+            en: Sexton
+  - name:
+      fi: Wanhainkoti
+      en: Rest Home
+    members:
+      - name: Aapo Rantala
+        title:
+          - fi: Seniilisihteeri
+            en: Senile Secretary
+  - name:
+      fi: ATK-toimikunta
+      en: Committee of IT
+    members:
+      - name: Mikko Peltonen
+        title:
+          - fi: Bittimestari
+            en: Bit Master
+      - name: Jaakko Majuri
+        title:
+          - fi: ATK-henkilö
+            en: IT person
+      - name: Petteri Nummela
+        title:
+          - fi: ATK-henkilö
+            en: IT person
+      - name: Konsta Hölttä
+        title:
+          - fi: ATK-henkilö
+            en: IT person
+      - name: Veikka Kähkönen
+        title:
+          - fi: ATK-henkilö
+            en: IT person
+      - name: Mikko Mustonen
+        title:
+          - fi: Serverihenkilö
+            en: Server person
+  - name:
+      fi: ASkitoimikunta
+      en: Committee of ASki
+    members:
+      - name: Riikka Nousiainen
+        title:
+          - fi: ASkimestari
+            en: Master of ASki
+      - name: Arttu Rintala
+        title:
+          - fi: ASkivahti
+            en: Guardian of ASki
+      - name: Sanna Halmkrona
+        title:
+          - fi: ASkivahti
+            en: Guardian of ASki
+      - name: Ville Eronen
+        title:
+          - fi: ASkivahti
+            en: Guardian of ASki
+      - name: Niina Tapanainen
+        title:
+          - fi: ASkivahti
+            en: Guardian of ASki
+      - name: Matti Ojala
+        title:
+          - fi: ASkivahti
+            en: Guardian of ASki
+  - name:
+      fi: Säätötoimikunta
+      en: Control Club
+    members:
+      - name: Juhana Kekoni
+        title:
+          - fi: Säätökisälli
+            en: Control Journeyman
+      - name: Antti-Jussi Inkinen
+        title:
+          - fi: Säätökisälli
+            en: Control Journeyman
+      - name: Miika Lehtimäki
+        title:
+          - fi: ELEPajavastaava
+            en: Electro Workshop Manager
+      - name: Joose Lindroos
+        title:
+          - fi: ELEPajakisälli
+            en: Electro Workshop Journeyman
+  - name:
+      fi: Yrityssuhdetoimikunta
+      en: Public Relations Committee
+    members:
+      - name: Sanna Halmkrona
+        title:
+          - fi: Stimulaatio-toimikunnan yrityssuhdevastaava
+            en: Stimulaatio committee's Public Relations Correspondent
+      - name: Ken Riippa
+        title:
+          - fi: Historiikkitoimikunnan yrityssuhdevastaava
+            en: History Committee's Public Relations Correspondent
+      - name: Leo Matikainen
+        title:
+          - fi: Historiikkitoimikunnan yrityssuhdevastaava
+            en: History Committee's Public Relations Correspondent
+      - name: Severi Casserly
+        title:
+          - fi: Yrityssuhdeneuvonantaja
+            en: Public Relations Consultant
+      - name: Riikka Nousiainen
+        title:
+          - fi: TEKSAS ranger
+            en: TEKSAS ranger
+  - name:
+      fi: Mediatoimikunta
+      en: Media Committee
+    members:
+      - name: Miika Lehtimäki
+        title:
+          - fi: Mediakeisari
+            en: Media Emperor
+      - name: Taavi Oja
+        title:
+          - fi: Graafikko
+            en: Graphics Designer
+      - name: Juhana Kekoni
+        title:
+          - fi: Graafikko
+            en: Graphics Designer
+      - name: Taru Virtanen
+        title:
+          - fi: Dokumentoija
+            en: Documentator
+      - name: Helena Kaisanlahti
+        title:
+          - fi: Dokumentoija
+            en: Documentator
+      - name: Ville Harmaala
+        title:
+          - fi: Dokumentoija
+            en: Documentator
+      - name: Niina Tapanainen
+        title:
+          - fi: Somevastaava
+            en: Social Media Manager
+      - name: Emma Riikonen
+        title:
+          - fi: Somevastaava
+            en: Social Media Manager
+  - name:
+      fi: Stimulaatio-toimikunta
+      en: Stimulaatio Committee
+    members:
+      - name: Jan Juvonen
+        title:
+          - fi: Stimulantti
+            en: Stimulant
+      - name: Eero Santamala
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Elisa Juvonen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Kaisa Hynynen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Miika Lehtimäki
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Noora Salminen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Sanna Halmkrona
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Taru Virtanen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Titta Saari
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Viet Tran
+        title:
+          - fi: Depressantti
+            en: Depressant
+  - name:
+      fi: Historiikkitoimikunta
+      en: History Committee
+    members:
+      - name: Henry Sanmark
+        title:
+          - fi: Historiikinkukko
+            en: Historiikinkukko
+      - name: Kaisa Hynynen
+        title:
+          - fi: Historiikinkukko
+            en: Historiikinkukko
+          - fi: Visualisti
+            en: Visualist
+      - name: Sanna Halmkrona
+        title:
+          - fi: Toimittaja
+            en: Editor
+      - name: Karolina Itäinen
+        title:
+          - fi: Toimittaja
+            en: Editor
+      - name: Paul Laihonen
+        title:
+          - fi: Toimittaja
+            en: Editor
+      - name: Joel Huttunen
+        title:
+          - fi: Toimittaja
+            en: Editor
+      - name: Aku Viitanen
+        title:
+          - fi: Web-vastaava
+            en: Web-correspondent
+      - name: Juuso Mikkonen
+        title:
+          - fi: Web-vastaava
+            en: Web-correspondent
+      - name: Noora Salminen
+        title:
+          - fi: Visualisti
+            en: Visualist
+      - name: Laura Romppainen
+        title:
+          - fi: Arkistovastaava
+            en: Archive Correspondent
+  - name:
+      fi: Toimikuntien ulkopuolelta
+      en: Outside the Committees
+    members:
+      - name: Eero Santamala
+        title:
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Niilo Metsänen
+        title:
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Jan Juvonen
+        title:
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Matti Ojala
+        title:
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Onni Lampi
+        title:
+          - fi: Toiminnantarkastaja
+            en: Inspector
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Titta Saari
+        title:
+          - fi: Toiminnantarkastaja
+            en: Inspector
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Olli-Pekka Osmala
+        title:
+          - fi: Varatoiminnantarkastaja
+            en: Vice-Inspector
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Antti-Jussi Inkinen
+        title:
+          - fi: Varatoiminnantarkastaja
+            en: Vice-Inspector
+          - fi: Sääntöjäbä
+            en: Rule Dude
+      - name: Ville Kyrki
+        title:
+          - fi: Oltermanni
+            en: Alderman
+
 accolades:
   - name:
       fi: "Kultainen pränikkä"

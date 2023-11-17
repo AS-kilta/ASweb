@@ -55,6 +55,358 @@ board:
       en: "Head of Culture"
     name: "Juhana Kekoni"
 
+officials:
+  - name:
+      fi: Phuksitoimikunta
+      en: Freshman committee
+    members:
+      - name: Emil Huttunen
+        title:
+          - fi: ISOpomo
+            en: Tutor Boss
+      - name: Ella Koivula
+        title:
+          - fi: Tosi ISOpomo
+            en: Uncle Tutor Boss
+      - name: Ville Kauhanen
+        title:
+          - fi: SuurPhuksikapteeni
+            en: Great Freshman Captain
+      - name: Ilene Blanco
+        title:
+          - fi: Senior International Student Captain
+            en: Senior International Student Captain
+      - name: Arttu Rintala
+        title:
+          - fi: DSD Captain
+            en: DSD Captain
+  - name:
+      fi: Opintotoimikunta
+      en: Study Committee
+    members:
+      - name: Arttu Pohja
+        title:
+          - fi: Automaatti
+            en: Automaton
+      - name: Ville Eronen
+        title:
+          - fi: Informaatti
+            en: Informant
+      - name: Helena Kaisanlahti
+        title:
+          - fi: Abisintti
+            en: Abisintti
+  - name:
+      fi: Kulttuuri- ja liikuntatoimikunta
+      en: Cultural Affairs Committee
+    members:
+      - name: Ilene Blanco
+        title:
+          - fi: Tapahtuma- ja kulttuuriexcuvastaava
+            en: Events and Cultural Excursions Director
+      - name: Karolina Itäinen
+        title:
+          - fi: Tapahtuma- ja kulttuuriexcuvastaava
+            en: Events and Cultural Excursions Director
+      - name: Mari Pulkkinen
+        title:
+          - fi: Tapahtuma- ja kulttuuriexcuvastaava
+            en: Events and Cultural Excursions Director
+      - name: Taavi Oja
+        title:
+          - fi: Pelaaja
+            en: Gamer
+      - name: Pulmu Pietikäinen
+        title:
+          - fi: Pelaaja
+            en: Gamer
+      - name: Viet Tran
+        title:
+          - fi: Jäykkäranne
+            en: Stiff Wrist
+      - name: Sanna Halmkrona
+        title:
+          - fi: Seniilisihteeri
+            en: Senile Secretary
+      - name: Iivo Yrjölä
+        title:
+          - fi: Liikuntavastaava
+            en: Sports Manager
+      - name: Jan Juvonen
+        title:
+          - fi: Juomanlaskija
+            en: Cupbearer
+  - name:
+      fi: Huvitoimikunta
+      en: Entertainment Committee
+    members:
+      - name: Eetu Suominen
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Jenna Kerkkänen
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Sakari Ropponen
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Matias Mäki-Leppilampi
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Aku Heinonen
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Tiia-Maria Hyvönen
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Leia Nummisalo
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Samu Mustonen
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Antti Regelin
+        title:
+          - fi: Smurffi
+            en: Smurf
+      - name: Markus Laine
+        title:
+          - fi: Smurffi
+            en: Smurf
+  - name:
+      fi: Kultainen toimitus
+      en: Golden Tomato
+    members:
+      - name: Jan Juvonen
+        title:
+          - fi: Kultainen päätoimittaja
+            en: Golden Editor-in-Chief
+      - name: Sanna Halmkrona
+        title:
+          - fi: Kultainen toimittaja
+            en: Golden Editor
+      - name: Karolina Itäinen
+        title:
+          - fi: Kultainen toimittaja
+            en: Golden Editor
+      - name: Pulmu Pietikäinen
+        title:
+          - fi: Kultainen toimittaja
+            en: Golden Editor
+      - name: Ville Kauhanen
+        title:
+          - fi: Kultainen taittaja
+            en: Golden Layout Designer
+  - name:
+      fi: Lukkaritoimikunta
+      en: Sexton Committee
+    members:
+      - name: Karolina Itäinen
+        title:
+          - fi: Lukkarimestari
+            en: Sexton Master
+      - name: Mikko Hokkanen
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Jaakko Majuri
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Arttu Rintala
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Sakari Ropponen
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Viet Tran
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Juuso Määttä
+        title:
+          - fi: Lukkari
+            en: Sexton
+      - name: Ville Piesala
+        title:
+          - fi: Lukkari
+            en: Sexton
+  - name:
+      fi: ASkitoimikunta
+      en: ASki Committee
+    members:
+      - name: Taavi Oja
+        title:
+          - fi: ASkimestari
+            en: Master of ASki
+      - name: Akseli Konttas
+        title:
+          - fi: ASkivahti
+            en: Guardian of ASki
+      - name: Ville Eronen
+        title:
+          - fi: ASkivahti
+            en: Guardian of ASki
+  - name:
+      fi: Yrityssuhdetoimikunta
+      en: Public Relations Committee
+    members:
+      - name: Sanna Halmkrona
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Public Relations Journeyman
+      - name: Antti Regelin
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Public Relations Journeyman
+      - name: Timo Polvinen
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Public Relations Journeyman
+      - name: Leo Matikainen
+        title:
+          - fi: Yrityssuhdeneuvonantaja
+            en: Public Relations Consultant
+      - name: Roope Savolainen
+        title:
+          - fi: TEKSAS ranger
+            en: TEKSAS ranger
+  - name:
+      fi: rrrRankkatoimikunta
+      en: rrrRankka Committee
+    members:
+      - name: Roope Pääkkönen
+        title:
+          - fi: rrrRankkavastaava
+            en: rrrRankka Correspondent
+      - name: Ville Kauhanen
+        title:
+          - fi: rrrRankkavastaava
+            en: rrrRankka Correspondent
+      - name: Onni Lampi
+        title:
+          - fi: rrrRankkavastaava
+            en: rrrRankka Correspondent
+  - name:
+      fi: Mediatoimikunta
+      en: Media Committee
+    members:
+      - name: Emma Riikonen
+        title:
+          - fi: Graafikko
+            en: Graphics Designer
+      - name: Taavi Oja
+        title:
+          - fi: Graafikko
+            en: Graphics Designer
+      - name: Taru Virtanen
+        title:
+          - fi: Dokumentoija
+            en: Documentator
+      - name: Helena Kaisanlahti
+        title:
+          - fi: Dokumentoija
+            en: Documentator
+          - fi: Somevastaava
+            en: Social Media Manager
+      - name: Lukas Wachter
+        title:
+          - fi: Dokumentoija
+            en: Documentator
+      - name: Noora Salminen
+        title:
+          - fi: Somevastaava
+            en: Social Media Manager
+      - name: Ella Koivula
+        title:
+          - fi: Somevastaava
+            en: Social Media Manager
+  - name:
+      fi: Stimulaatio-toimikunta
+      en: Stimulaatio Committee
+    members:
+      - name: Noora Salminen
+        title:
+          - fi: Stimulantti
+            en: Stimulant
+      - name: Sanna Halmkrona
+        title:
+          - fi: Stimulantti
+            en: Stimulant
+      - name: Helena Kaisanlahti
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Riikka Nousiainen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Kaisa Hynynen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Jan Juvonen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Titta Saari
+        title:
+          - fi: Depressantti
+            en: Depressant
+  - name:
+      fi: Ulkoexcutoimikunta
+      en: Foreign Excursions Committee
+    members:
+      - name: Jaakko Majuri
+        title:
+          - fi: Ulkoexcumestari
+            en: Master Of Foreign Excursions
+      - name: Arttu Rintala
+        title:
+          - fi: Ulkoexcuhenkilö
+            en: Foreign Excursions Person
+      - name: Juuso Määttä
+        title:
+          - fi: Ulkoexcuhenkilö
+            en: Foreign Excursions Person
+      - name: Niko Soininen
+        title:
+          - fi: Ulkoexcuhenkilö
+            en: Foreign Excursions Person
+  - name:
+      fi: Toimikuntien ulkopuolelta
+      en: Outside the Committees
+    members:
+      - name: Jan Juvonen
+        title:
+          - fi: Toiminnantarkastaja
+            en: Inspector
+      - name: Titta Saari
+        title:
+          - fi: Toiminnantarkastaja
+            en: Inspector
+      - name: Karolina Itäinen
+        title:
+          - fi: Varatoiminnantarkastaja
+            en: Vice-inspector
+      - name: Niilo Metsänen
+        title:
+          - fi: Varatoiminnantarkastaja
+            en: Vice-inspector
+      - name: Ville Kyrki
+        title:
+          - fi: Oltermanni
+            en: Alderman
+
 accolades:
   - name:
       fi: "Kultainen pränikkä"

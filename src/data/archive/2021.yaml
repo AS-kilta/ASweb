@@ -60,6 +60,534 @@ board:
       en: "Head of Culture"
     name: "Meri Hiipakka"
 
+officials:
+  - name:
+      fi: Fuksitoimikunta
+      en: Fuksi committee
+    members:
+      - name: Arttu Pahta
+        title:
+          - fi: ISOpomo
+            en: Tutor Boss
+      - name: Tiia-Maria Hyvönen
+        title:
+          - fi: Tosi ISOpomo
+            en: Uncle Tutor Boss
+      - name: Leia Nummisalo
+        title:
+          - fi: SuurPhuksikapteeni
+            en: Great Fuksi Captain
+      - name: Henri Toivola
+        title:
+          - fi: Senior International Student Captain
+            en: Senior International Student Captain
+      - name: Verneri Hirvonen
+        title:
+          - fi: DSDaddy
+            en: DSDaddy
+  - name:
+      fi: Opintotoimikunta
+      en: Study Committee
+    members:
+      - name: Pulmu Pietikäinen
+        title:
+          - fi: Automaatti
+            en: Automaton
+      - name: Helmi Takala
+        title:
+          - fi: Informaatti
+            en: Informant
+      - name: Ville Eronen
+        title:
+          - fi: Maisteri-informaatti
+            en: Master's Informant
+      - name: Emil Huttunen
+        title:
+          - fi: Opintowanhus
+            en: Opintowanhus
+      - name: Henri Toivola
+        title:
+          - fi: TEKSAS Ranger
+            en: TEKSAS Ranger
+  - name:
+      fi: Kulttuuri- ja liikuntatoimikunta
+      en: Cultural Affairs Committee
+    members:
+      - name: Joonas Törmälä
+        title:
+          - fi: Kulttuuriartesaani
+            en: Culture artisan
+      - name: Juhani Lehto
+        title:
+          - fi: Kulttuuriartesaani
+            en: Culture artisan
+      - name: Elias Haarnoja
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Jimi Oksman
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Lotta Makkonen
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Sannina Honkaharju
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Jaakko Heikkinen
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Elisa Ståhlberg
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+          - fi: Liikkuja
+            en: Sports Manager
+      - name: Linnea Eklund
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+          - fi: Liikkuja
+            en: Sports Manager
+      - name: Katarina Pichnova
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Alex Korpela
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Venla Tiainen
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+          - fi: Liikkuja
+            en: Sports Manager
+      - name: Marcell Berta
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Meri Hilden
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Jesse Lukkarinen
+        title:
+          - fi: Kulttuurikisälli
+            en: Cultural Journeyperson
+      - name: Matias Varonen
+        title:
+          - fi: Liikuntavastaava
+            en: Liikuntavastaava
+      - name: Ville Hakoniemi
+        title:
+          - fi: Liikkuja
+            en: Sports Manager
+      - name: Taavi Oja
+        title:
+          - fi: Jäykkäranne
+            en: Stiff Wrist
+      - name: Mari Pulkkinen
+        title:
+          - fi: Seniilisihteeri
+            en: Senile Secretary
+  - name:
+      fi: Huvitoimikunta
+      en: Entertainment Committee
+    members:
+      - name: Marcell Berta
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Lotta Makkonen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Elias Erke
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Leia Nummisalo
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Axel Åberg
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Laura Häkkinen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Kiira Metsoila
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Akseli Konttas
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Niina Tapanainen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Viivi-Maari Kallinen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Jaakko Heikkinen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Emil Huttunen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Helmi Takala
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Sannina Honkaharju
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Jimi Oksman
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Emilia Kuisma
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Olli-Pekka Pennanen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Jenna Kerkkänen
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Meri Hiipakka
+        title:
+          - fi: MinIEn
+            en: MinIEn
+      - name: Kalle Rantala
+        title:
+          - fi: HupiUkko
+            en: FunGuy
+  - name:
+      fi: Lukkaritoimikunta
+      en: Song Leader Committee
+    members:
+      - name: Sakari Ropponen
+        title:
+          - fi: Lukkarimestari
+            en: Master Song Leader
+      - name: Juhani lehto
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Arttu Rintala
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Karolina Itäinen
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Joonas Törmälä
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Jyri Kolu
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Juuso Määttä
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Zhibin Yan
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Lassi Ihalainen
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Jenna Kerkkänen
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+      - name: Mikko Hokkanen
+        title:
+          - fi: Lukkari
+            en: Song Leaders
+  - name:
+      fi: ASkitoimikunta
+      en: ASki Committee
+    members:
+      - name: Henri Toivola
+        title:
+          - fi: ASkimestari
+            en: ASkimaster
+      - name: Akseli Konttas
+        title:
+          - fi: ASkivahti
+            en: ASki Guardian
+      - name: Arttu Rintala
+        title:
+          - fi: ASkivahti
+            en: ASki Guardian
+      - name: Emil Huttunen
+        title:
+          - fi: ASkivahti
+            en: ASki Guardian
+      - name: Marcell Berta
+        title:
+          - fi: ASkivahti
+            en: ASki Guardian
+      - name: Niina Tapanainen
+        title:
+          - fi: ASkivahti
+            en: ASki Guardian
+      - name: Taavi Oja
+        title:
+          - fi: ASkivahti
+            en: ASki Guardian
+      - name: Zhibin Yan
+        title:
+          - fi: ASkivahti
+            en: ASki Guardian
+  - name:
+      fi: Yrityssuhdetoimikunta
+      en: Corporate Relations Committee
+    members:
+      - name: Aino Valkama
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Corporate Relations Journeyperson
+      - name: Emilia Kuisma
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Corporate Relations Journeyperson
+      - name: Roope Järvinen
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Corporate Relations Journeyperson
+      - name: Elise Pitkänen
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Corporate Relations Journeyperson
+      - name: Tommi Arffman
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Corporate Relations Journeyperson
+      - name: Toni Jutila
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Corporate Relations Journeyperson
+      - name: Matias Vapola
+        title:
+          - fi: Yrityssuhdekisälli
+            en: Corporate Relations Journeyperson
+      - name: Alex Korpela
+        title:
+          - fi: rrrRankkavastaava
+            en: rrrRankka Correspondent
+      - name: Lassi Ihalainen
+        title:
+          - fi: rrrRankkavastaava
+            en: rrrRankka Correspondent
+  - name:
+      fi: Mediatoimikunta
+      en: Media Committee
+    members:
+      - name: Veera Ihalainen
+        title:
+          - fi: Viestijä
+            en: Viestijä
+      - name: Vesta Kulomaa
+        title:
+          - fi: Viestijä
+            en: Viestijä
+      - name: Johan Sarpoma
+        title:
+          - fi: Viestijä
+            en: Viestijä
+      - name: Zhibin Yan
+        title:
+          - fi: Viestijä
+            en: Viestijä
+      - name: Heikki Penttinen
+        title:
+          - fi: Viestijä
+            en: Viestijä
+      - name: Jiro Tanabe
+        title:
+          - fi: Viestijä
+            en: Viestijä
+  - name:
+      fi: Stimulaatio-toimikunta
+      en: Stimulaatio Committee
+    members:
+      - name: Viivi-Maari Kallinen
+        title:
+          - fi: Stimulantti
+            en: Stimulant
+      - name: Taavi Oja
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Aino Valkama
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Emilia Kuisma
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Jenna Kerkkänen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Sampo Saloriutta
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Ville Strengell
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Venla Tiainen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Helmi Takala
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Laura Häkkinen
+        title:
+          - fi: Depressantti
+            en: Depressant
+      - name: Emma Riikonen
+        title:
+          - fi: Depressantti
+            en: Depressant
+  - name:
+      fi: Retkitoimikunta
+      en: Trek Committee
+    members:
+      - name: Leia Nummisalo
+        title:
+          - fi: Retkimestari
+            en: Trek master
+      - name: Akseli Konttas
+        title:
+          - fi: Retkimestari
+            en: Trek master
+      - name: Elias Haarnoja
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Axel Åberg
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Aino Valkama
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Niilo Heinonen
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Jenna Kerkkänen
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Niina Tapanainen
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Ville Strengell
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Olli-Pekka Pennanen
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+      - name: Rami Ghoniem
+        title:
+          - fi: Retkisällit
+            en: Trip-prentices
+  - name:
+      fi: Kultainen Toimitus
+      en: Kultainen Toimitus
+    members:
+      - name: Noora Salminen
+        title:
+          - fi: Kultainen Päätoimittaja
+            en: Kultainen Päätoimittaja
+      - name: Onni Lampi
+        title:
+          - fi: Kultainen Toimittaja
+            en: Kultainen Editor
+      - name: Sanna Halmkrona
+        title:
+          - fi: Kultainen Toimittaja
+            en: Kultainen Editor
+      - name: Kaisa Hynynen
+        title:
+          - fi: Kultainen Toimittaja
+            en: Kultainen Editor
+      - name: Jan Juvonen
+        title:
+          - fi: Kultainen Toimittaja
+            en: Kultainen Editor
+      - name: Juuso Mikkonen
+        title:
+          - fi: Kultainen Toimittaja
+            en: Kultainen Editor
+      - name: Karolina Itäinen
+        title:
+          - fi: Kultainen Toimittaja
+            en: Kultainen Editor
+      - name: Taavi Oja
+        title:
+          - fi: Kultainen Toimittaja
+            en: Kultainen Editor
+  - name:
+      fi: Toimikuntien ulkopuolelta
+      en: Outside the Committees
+    members:
+      - name: Severi Casserly
+        title:
+          - fi: Toiminnantarkastaja
+            en: Inspector
+      - name: Ville Eronen
+        title:
+          - fi: Toiminnantarkastaja
+            en: Inspector
+      - name: Sakari Ropponen
+        title:
+          - fi: Varatoiminnantarkastaja
+            en: Vice-inspector
+      - name: Taavi Oja
+        title:
+          - fi: Varatoiminnantarkastaja
+            en: Vice-inspector
+      - name: Ville Kyrki
+        title:
+          - fi: Oltermanni
+            en: Alderman
+
 accolades:
   - name:
       fi: "Kultainen pränikkä"
