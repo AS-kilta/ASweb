@@ -31,7 +31,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
     const styleCard= {"--profile-img-size": "20rem", marginBottom: "5rem"} as React.CSSProperties;
 
   return (
-    <PageLayout pageContext={pageContext} title='Fuksina killassa' background={heropic} heroHeight='tall'>
+    <PageLayout pageContext={pageContext} title='Fuksina killassa' background={heropic} heroHeight='short'>
         <div style={styleCard} className={boardStyle.board}>
             <ContactCard data={data1}/>
             <ContactCard data={data2}/>
@@ -90,6 +90,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                     <li><a href="https://www.aalto.fi/fi/sahkotekniikan-korkeakoulu" target='_blank'>Sähkötekniikan korkeakoulu</a></li>
                     <li><a href="https://aalto.fi/" target='_blank'>Aalto-yliopisto</a></li>
                     <li><a href="https://aalto.fi/fi/opiskelijan-opas/" target='_blank'>Opiskelijan opas</a> (Tietoa ja ohjeita opinnoista)</li>
+                    <li><a href="https://www.aalto.fi/fi/palvelut/aalto-space-mobiilisovellus" target='_blank'>Aalto Space -sovellus</a> (Varaa Otaniemen tiloja opiskeluun)</li>
                 </ul>
             </div>
             <div className={style.list}>
