@@ -1,0 +1,51 @@
+year: "1999"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Pinja Korkela"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Leena Salo"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Antti Tapio"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Pirkka Paronen"
+
+  - title:
+      fi: "FuksikontRolleri"
+      en: "Fuksi ContRoller"
+    name: "Paula Savioja"
+  
+  - title:
+      fi: "Sisämestari"
+      en: "Head of Internal Affairs"
+    name: "Joonas Varso"
+  
+  - title:
+      fi: "Ulkomestari"
+      en: "Head of Foreign Affairs"
+    name: "Anna-Kaisa Karessuo"
+
+  - title:
+      fi: "Opinto-opas"
+      en: "Head of Studies"
+    name: "Riku Maidell"
+  
+  - title:
+      fi: "Excursiomestari"
+      en: "Head of Excursions"
+    name: "Tomi Savolainen"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Tuukka Antikainen"

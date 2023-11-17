@@ -1,0 +1,89 @@
+year: "2007"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Markus Heimonen"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Oskari Heikkinen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Kristina Hellman"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Johannes Saarinen"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Mikko Tuohimaa"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Matias Roimola"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Aino Paloviita"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Tuomas Ilola"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Miika Karanki"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Tommi Forsman"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Meeri Nieminen
+        description:
+          fi: "Harva meistä on ampaissut yhtä ennakkoluulottomasti ja reippaasti mukaan
+            kiltatoimintaan kuin tämä hymyllään sydämiä sulattava AS:n kasvatti. Hädin tuskin
+            vuottakaan opiskeltuaan hän oli jo abi- infossa houkuttelemassa uusia kasvoja
+            osastomme ja killan pariin, ylpeästi violettia haalariaan kantaen. Tuona samaisena
+            vuonna, vielä ollessaan itsekin phuksi, hän otti aASilauman hellään huomaansa
+            emännöidessään killan tapahtumia. Emännän pesti oli vasta lämmittelyä tälle
+            neitokaiselle; sitä seuraavana vuonna nähtiin puheenjohtajan kruunun somistavan
+            hänen kutrejaan.
+
+            Ilmeisesti hän ei puhiksena ollessaan kokenut saavansa tarpeeksi
+            palstatilaa Kultaisesta Tomaatista, joten seuraavaksi hän astui kiltalehden
+            päätoimittajan saappaisiin. Vuosien mittaan olemme saaneet lueskella hänen hengentuotoksiaan
+            identiteettikriiseistä ja jouluostoksista parisuhdevinkkien kautta pinjansiemeniin.
+            
+            Vaikka hän ehti vaihtaa osastoa ja jo valmistuakin, riittää hänen loppumaton
+            intonsa yhä killan toiminnan seuraamiseen ja sen tapahtumissa pyörimiseen. Oivan
+            mahdollisuuden gyyläämiseen on tarjonnut killan jatkuvuustoimikunta, jonka jäsenenä
+            ja myöhemmin puheenjohtajana hän on toiminut.
+
+            Tätä teekkarihenkeä täynnä
+            olevaa diplomi-insinööriä ei ole vaikea saada naksuttamaan yhtä nopeaa ja vähäsyöntistä,
+            suunnittelemaan hämmentävää teletappispektaakkelia tai perustamaan Suomeen Naapurikyttääjien
+            yhdistystä tai Accenturelle kimblekerhoa. Konsulttina hänen ajatuksensa saattavat
+            tosin ajoittain johtaa keskeltä ei- mihinkään. Toivottavasti saamme kuulla hänen
+            hihitystään killan tapahtumissa vielä jatkossakin. Loppuun lainaus hänen omasta
+            kirjoituksestaan GT:n puhispalstalta: \"Minulle suurin palkinto kiltatoiminnassa
+            tulee siitä, että saa olla osa yhteisöä, jossa niin moni on valmis tekemään
+            pyyteettömästi töitä yhteisen hyvän puolesta. Se on kaunista.\" Mielestämme
+            Meeri Nieminen on toteuttanut sanojaan Kultaisen Pränikän arvoisesti."
+          en: ""
