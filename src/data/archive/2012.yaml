@@ -1,0 +1,97 @@
+year: "2012"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Juho Sundin"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Paul Laihonen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Noora Vänttinen"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Matti Ojala"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Sara Parikka"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Mikko Tiainen"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Laura Gröhn"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Iiris Routa"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Pia Lindqvist"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Markus Peltola"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Janna Huuskonen"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Antti "Ilmis" Ilmavirta
+        description:
+          fi: "Tämä killisti vaalii aina hyvää kiltahenkeä ja teekkariutta. Hän on todellinen
+            herrasmies, jossa kiteytyy toteamus “tavoistaan teekkari tunnetaan”. Tämä ei
+            kuitenkaan tarkoita liiallista jäykistelyä, vaan hän on helposti lähestyttävä
+            henkilö, joka on valmis tukemaan nuorempia killistejä laajoilla tiedoillaan
+            aiheesta kuin aiheesta. Hän ei kerro nuorille toimijoille miten paljon paremmin
+            asiat olivat ennen, vaan tukee heitä neuvoillaan, jotta asiat olisivat vielä
+            paremmin tulevaisuudessa ja on siksi ansainnut nuorempiensa silmissä aivan erityisen
+            aseman.
+
+            Jo phuksina hän osoitti tovereidensa kanssa aivan erityistä intoa
+            ja teekkarihenkeä, osoittaen koko teekkariyhteisölle mistä Aivan Samassa on
+            todella kyse. Tämän jälkeen hän on toiminut lukuisissa kiltatehtävissä eksyen
+            hallitukseenkin pariksi vuodeksi, toisella kertaa killan puheenjohtajana. Erityisesti
+            hänet muistetaan kuitenkin killan laulattajana ja laulukulttuurin vaalijana."
+          en: ""
+      - name: Jani Kautto
+        description:
+          fi: "Vuoden 2012 toisen pränikän saaja on osoittanut aivan erityisiä ansioita
+            toteuttamalla varmastikin satoja toinen toistaan erikoisempia ja hassumpia projekteja.
+            Monet erikoislaatuisimmista ja betonisimmista vuosijuhlalahjoista ovat juurikin
+            hänen käsialaansa. Hän on myös se tyyppi johon voi aina luottaa, kun tarvitaan
+            joku hoitamaan kiireellisiä asioita killan puolesta. Henkilö joka näyttää esimerkillään
+            meille kaikille mitä on todellinen yhteishenki ja toisten tukeminen omia vaivoja
+            säästämättä.
+
+            Hänen ansiolistansa killan parissa on todella pitkä ja siinä
+            näkyy oikea tekemisen meininki. Lukuisten toimaritehtävien lisäksi hän on toiminut
+            hallituksessa rahastonhoitajana ja varapuheenjohtajana, mutta kaikkein parhaiten
+            ainakin minä muistan hänet tyyppinä joka oikeasti näytti mistä sädiksen hommassa
+            on kyse.
+
+            Kun killassa tarvittiin joku hoitamaan homma, hän oli se mies."
+          en: ""
