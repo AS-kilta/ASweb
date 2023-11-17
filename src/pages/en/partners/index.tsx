@@ -23,19 +23,18 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
       background={heroPic}
       heroHeight="short"
       title="Corporate Relations"
-      documentStyle="document"
     >
       <div className={style.introduction}>
         <ContactCard data={ysvData}/>
-        <p className={style.intro_quote}>Hello company representative! I am the Head of Corporate Relations in the Guild of Automation and Systems Technology. Feel free to cooperate with us! On this page you can find more information about cooperation opportunities. Contact me and we'll talk more and tailor a package just right for you!</p>
+        <p className={style.intro_quote}>Hello company representative! I am the Head of Corporate Relations in the Guild of Automation and Systems Technology. We are always open to new collaborations and partners! On this page you can find more information about cooperation opportunities. Contact me and we'll talk more and tailor a package just right for you!</p>
       </div>
 
-      <h1>Cooperation with the guild</h1>
+      <h2>Cooperation with the guild</h2>
         <p><strong>The Guild of Automation and Systems Technology is an organization for students of Automation and Robotics, Information Technology and Digital Systems and Design at Aalto University's School of Electrical Engineering. The guild offers its members a variety of pastimes throughout the year, not only for relaxation from studies, but also to increase their own knowledge and skills in various hobby activities.</strong></p>
         <p>Over the course of the years of study, our members grow into new experts in automation, robotics, smart devices, as well as data networks, machine learning and signal processing. Most find employment in their field as consultants, software developers or demanding research and development tasks.</p>
         <p>Young experts are hard currency on the job market, and many of us strive to acquire work experience in the field already during our studies. Through our guild, it is possible to effectively reach a considerable number of future professionals at an early stage. Many companies have become our partners in order to gain more visibility and at the same time support our guild's activities. Below are some of the most common ways of cooperation.</p>
 
-      <h1>Forms of cooperation</h1>
+      <h2>Forms of cooperation</h2>
         <div className={style.table}>
           <CircleCard title="Recruiting visibility" link="./partners#Recruiting" targetSelf={true}/>
           <CircleCard title="Overalls" link="./partners#Overalls" targetSelf={true}/>
@@ -65,7 +64,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
       <h3>... and a lot more too!</h3>
         <p>The entire guild activity is the sum of many small parts. We maintain our guild room ASki on the premises of the university, which serves as a living room for guild members during lectures and other school holidays. Throughout the year, we organize numerous different events for our members, from small sauna evenings to our valuable annual celebration, Stimulation. By supporting, for example, our needs, purchases or our events, you can get more visibility for yourself in these. In recent years, for example, representatives of our partner companies have participated in the Stimulation!</p>
 
-      <h2>Were you interested? Contact us!</h2>
+      <h3>Were you interested? Contact us!</h3>
         <p>At our end, the corporate relations committee is responsible for corporate cooperation, which is coordinated by the Head of Corporate Relations.</p>
     </PageLayout>
   )
