@@ -1,0 +1,83 @@
+year: "2013"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Joonas Kröger"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Juhana Suhonen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Julia Syrjäläinen"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Mikko Mustonen"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Noora Vänttinen"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Aapo Rantala"
+
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Henry Sanmark"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Matti Ojala"
+  
+  - title:
+      fi: "Yrityssuhdemestari"
+      en: "Head of Corporate Relations"
+    name: "Sara Parikka"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Petri Niemelä"
+
+  - title:
+      fi: "Kulttuurimestari"
+      en: "Head of Culture"
+    name: "Ville Tissari"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Salla Ojala
+        description:
+          fi: Ensimmäinen pränikän saaja aloitti kiltauransa smurffina ja suuntautuikin
+            sittemmin killan tapahtumatuotannon vahvaksi moniosaajaksi. Tämän Emäntänä IE:ssä
+            toimineen killistin apu on ollut lukemattoman moneen otteeseen myöhemmille huvilaisille
+            erinomaisen tärkeä tuki ja turva tapahtumia tehtäessä. Kilta on hänelle kiitoksen
+            velkaa kaikesta siitä osaamisesta, asiantuntemuksesta ja hyvästä asenteesta,
+            joita hän on tapahtumien järjestämiseen tuonut. IE:n lisäksi hän on vaikuttanut
+            muun muassa ISOna, ASkissa, GT:ssä, Aikuisena Naisena, Wanhana Gyylänä ja tiedottajana,
+            jossa hän muun muassa kehitti viikkomailikonseptin.
+          en: ""
+      - name: Antti "Mulppi" Kangasrääsiö
+        description:
+          fi: Toinen pränikän saaja on innostava, todellista teekkarihenkeä ilmentävä aASi.
+            Hän on pitkän kiltauransa aikana tehnyt vähän kaikenlaista. Tämä sihteerinä
+            hommat aloittanut henkilö on tullut tunnetuksi tekemisen meiningistä ja omalaatuisesta
+            huumoristaan. Hänet tunnetaan kaikenlaisesta osittain yllättävänkin ohjelman
+            järjestämisestä eri tilanteista. Sihteerin lisäksi hänen nakkilistaansa komistavat
+            muun muassa lukkarin, TEKSAS rangerin, päätoimittajan ja puheenjohtajan pestit.
+            Hän on laulumies, luolamies, hupiveikko ja hauskuuttaja.
+          en: ""
