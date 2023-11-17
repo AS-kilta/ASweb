@@ -1,0 +1,127 @@
+year: "2006"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Noora Korppi-Tommola"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Markus Heimonen"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Riku Lehto"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Antti Ilmavirta"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Riikka Liedes"
+  
+  - title:
+      fi: "Huvimestari"
+      en: "Host"
+    name: "Juho Cederström"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Antti Aspiala"
+  
+  - title:
+      fi: "Yrityssuhdevastaava"
+      en: "Head of Corporate Relations"
+    name: "Mikko Lehto"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Joni Rajanen"
+
+  - title:
+      fi: "Edustusmestari"
+      en: "Head of Representations"
+    name: "Taru Laamanen"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Niilo Lohikoski
+        description:
+          fi: "Järjestyksessä kahdestoista Kultainen Pränikkä menee henkilölle, joka on
+            hyvällä asenteellaan ja iloisella hymyllään piristänyt monen päivää.
+
+            Hän
+            viihtyi kaksi vuotta killan hallituksessa, joista ensimmäisen edustusmestarin
+            paikalla. Tänä vuonna hän keräsi mainetta koko TKY:n piirissä tehtävälleen omistautuneena.
+            Hän edusti mahdollisuuksiensa mukaan ja yhteensä vuosijuhlia tulikin kierrettyä
+            pöytäkirjojen mukaan ainakin kahdeksan kappaletta. Toisen hallitusvuotensa hän
+            oli yrityssuhdevastaavana kehittämässä nuoren killan suhteita yrityksiin. Tämän
+            vuoden peruja on mm. killan yrityssuhdetietokanta, joka on käytössä edelleen.
+            
+            Vaikka sankarimme häipyi ulkomaille hetkeksi, ei hän jättänyt kiltaa vaan
+            raportoi säännöllisesti maailmalta. Sieltä palattuaan hän innostui ryhtymään
+            killan toiseksi ulkkarivastaavaksi. Urotöistä mainittakoon myös hänen ideansa
+            pohjalta lähtenyt solusuunnistus, joka on säilynyt killan tapahtumien joukossa
+            vuodesta 2002 lähtien. Lisäksi jotkut muistavat hänen viihdyttäneen yleisöä
+            killan poikabändin, The Boyzszahin riveissä, sekä killan ensimmäisen esittelyvideon
+            tekijäkaartista. Vaikkei hän olekaan niittänyt mainetta ruuanlaittotaidoillaan,
+            on hän myös tuttu naama sitsien järjestelyporukoista.
+
+            Kaiken tämän ohessa
+            kiltalaiset ovat myös seurailleet hänen tasoituksensa kehittymistä vuosien saatossa
+            sekä edesottamuksia ammattiainekerhon GRAK:in puolella. Tällä hetkellä tuon
+            yhdistyksen puheenjohtajana toimiva Niilo Lohikoski on pränikkänsä ansainnut."
+          en: ""
+      - name: Jukka Martikainen
+        description:
+          fi: "Kolmastoista Kultaisen Pränikän saaja on yhtä kotoinen kuin lempitohvelit
+            tai sunnuntaihesari. Yhtä sympaattinen kuin Puff-lohikäärme, vaikkei paperista
+            olekaan. Yhtä kaunissointinen kuin seireenin laulu Odysseuksen matkareitin varrella.
+            
+            Odysseusta lähenteleviä matkoja tämä herrasimes todellakin on tehnyt. Ei ole
+            kerta eikä kaksikaan, kun Fiat(tm), Nissan(tm) tai Micra(tm) on hurahtanut käyntiin
+            ja vienyt joukon krapuloivia killistejä sinne missä pippuri kasvaa - ja tuonut
+            myös takaisin yhtä kokemusta rikkaampana.
+
+            Ennakkoluulottomuus yhdistettynä
+            erittäin miellyttävään huolettomuuteen onkin killan oman soittoniekan eniten
+            leimaava piirre. Koskaan ei hänen tiedetä torjuneen ketään seurastaan, ja siitä,
+            että häntä on helppo lähestyä, kertoo parhaiten se aASisukupolvien määrä, joka
+            hänet on opiskeluaikanaan oppinut tuntemaan. Hän on se pitkä ja hymyilevä kaveri,
+            joka on läsnä lähes kaikkialla - kuitenkaan tuomatta itseään esille tai viemättä
+            huomiota turhaan sen keskipisteeltä. Juhlien keskipisteessä tämä herra on kuitenkin
+            ollut, vieläpä luvan kanssa. Useana vuonna lukkarina toimiessaan on hän juurruttanut
+            laulukulttuuria kiltaan, mutta myös rikastuttanut sitä tuomalla uusia lauluja
+            repertuaariin omilta retkiltään.
+
+            Nykyisestä huolettomuudestaan huolimatta
+            esittämämme henkilö opittiin kuitenkin tuntemaan huolehtivana isäntänä, joka
+            itselleen uudella tavalla otti vastuuta, toimien tämän jälkeen vielä vuoden
+            smurffina, kun suurin osa hänen hallitustaan oli jo lähtenyt vihreämpien luottamustoiminurmien
+            äärelle. Myös ASkin muutossa tämä Ainoa Oikea ASkivahti oli korvaamaton visionääri
+            - lukemattomat pitkät illat ovat muokanneet sisustuksen ja viherkasvit sisältävän
+            ASkin sellaiseksi kuin se tänä päivänä on. Tärkein sisustuselementti on kuitenkin
+            mies itse; sen verran usein hän siellä aikaa viettää, nokkahuilu iskuun viritettynä.
+            
+            Henkisen puolen peilaamiseen on GT tarjonnut omat sivunsa - joita tämä mies
+            on ahkerasti täyttänyt, äärimmäisen rohkeasti omalla nimellään hyvin henkilökohtaisista
+            asioista kirjoittaen. Myös tämä on tuonut hänet entistä läheisemmäksi meille
+            kaikille.
+
+            Killasta tuskin tällä hetkellä löytyy toista samanlaista kaveria,
+            joka osaisi olla niin oma valloittava itsensä. Yksin työmäärä, jonka hän on
+            mukisematta killan eteen tehnyt, oikeuttaisi hänelle pronssisen Fiat-patsaan
+            TUASin parkkikselle. Tänään tyydymme osoittamaan kiitollisuuttamme Kultaisen
+            pränikän muodossa, jonka luovutamme miehelle, joka on legenda jo eläessään,
+            Jukka Martikainen eli JUKSTE."
+          en: ""
