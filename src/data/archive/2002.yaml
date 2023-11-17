@@ -1,0 +1,157 @@
+year: "2002"
+board:
+  - title:
+      fi: "Puheenjohtaja"
+      en: "Chairperson"
+    name: "Maija Ahotupa"
+    
+  - title:
+      fi: "Rahastonhoitaja"
+      en: "Treasurer"
+    name: "Tuomas Kiikka"
+
+  - title:
+      fi: "Sihteeri"
+      en: "Secretary"
+    name: "Jasmine Joensuu"
+
+  - title:
+      fi: "Tiedottaja"
+      en: "Publicist"
+    name: "Eero Holmila"
+
+  - title:
+      fi: "SuurPhuksi"
+      en: "Great Phuksi"
+    name: "Jaakko Jutila"
+  
+  - title:
+      fi: "Isäntä"
+      en: "Host"
+    name: "Jukka Martikainen"
+  
+  - title:
+      fi: "Emäntä"
+      en: "Hostess"
+    name: "Meeri Nieminen"
+
+  - title:
+      fi: "Opintomestari"
+      en: "Head of Studies"
+    name: "Juha Korhonen"
+  
+  - title:
+      fi: "Exqumestari"
+      en: "Head of Excursions"
+    name: "Jorma Varis"
+  
+  - title:
+      fi: "Säätömestari"
+      en: "Master Tinkerer"
+    name: "Stefan Backman"
+
+  - title:
+      fi: "Edustusmestari"
+      en: "Head of Representations"
+    name: "Niilo Lohikoski"
+
+accolades:
+  - name:
+      fi: "Kultainen pränikkä"
+      en: "Golden accolade"
+    people:
+      - name: Pinja Korkela
+        description:
+          fi: "Ensimmäinen Kultainen Pränikkä menee henkilölle, joka aloitti opiskelunsa
+            ensimmäisten AS-opiskelijoiden mukana vuonna 1997. Häneen on aikanaan kiteytynyt
+            koko AS:n henki. Hän uhrasi suunnattomasti voimavarojaan AS:n hyväksi jo silloin
+            kun kilta oli vielä vain pieni kaukainen kuvajainen nykyisinkin jo vanhojen
+            toimijoiden mielissä. Mutta hän ei pelkästään käyttänyt suunnattomia määriä
+            aikaansa saadakseen kiltatoiminnan pystyyn, vaan hän loi omalla persoonallaan
+            perustan AS-hengelle.
+
+            Hänen vaikutuksensa näkyy vielä vuosien kasvun ja kehityksenkin
+            jälkeen kiltahengessä ja tavassa tehdä asioita killassamme. Hänen omistautumisestaan
+            kiltatoiminnalle kertoo, ehkäpä jotain myös se, että hän aikoinaan jopa opetteli
+            ulkoa kaikkien phuksiensa nimet ja kotiosoitteet.
+
+            Hän on AS:n ensimmänen
+            phuksiwaari ja killan ensimmäinen puheenjohtaja, Pinja Korkela."
+          en: ""
+      - name: Paula Savioja
+        description:
+          fi: "Toisen Kultaisen Pränikän saaja on ollut yhteisömme aktiivinen jäsen koko
+            sen lyhyen historian ajan. Hän oli yksi ensimmäisistä omista AS-isohenkilöistä,
+            kun toinen vuosikerta AS-opiskelijoita aloitti opintonsa. Hän oli vahvasti mukana
+            järjestämässä phuksitoimintaa ja ennenkaikkea merkittävästi mukana luomassa
+            vahvaa AS-henkeä. Mutta paitsi killan pitkäaikainen toimija, hän on myös yksi
+            killan todellisista teekkareista; aktiivinen, sivistynyt, myötätuntoinen, huumorintajuinen
+            ja vauhdikas teekkariyhteisön jäsen.
+
+            Vastaavaa kaikki killan vuosikurssit
+            kattavaa kunnioitusta ja arvostusta ei ole kukaan muu kiltalainen osakseen saanut.
+            Ja ennen mitään muuta hän on kiltamme jäsen; yksi sen hengen luojista, yksi
+            sen perustajista, kannattajista, johtajista ja edelleenkin yksi sen toimintaan
+            osallistujista. Hänen vaikutuksensa tähän yhteisöön on korvaamaton.
+
+            Hän on
+            killan aikuinen nainen ja ihminen jota arvostaa jokainen phuksista N:nnen vuosikurssin
+            teekkariin asti. Hän on se ainoa ja oikea Buckefallos, Paula Savioja."
+          en: ""
+      - name: Antti Tapio
+        description:
+          fi: "Kolmannen Kultaisen Pränikän saaja on yksi kiltamme perustajajäseniä ja oli
+            merkittävässä roolissa, kun kiltaa perustettiin syksyllä 1998. Hän oli heti
+            ajatuksessa mukana ja yksi voimakkaimpia oman killan puolestapuhujia. Hän on
+            yksi niistä henkilöistä, joita saamme kiittää siitä, että asiat on tehty tässä
+            killassa hyvin alusta asti. Hän on aina tehnyt hommansa hyvin ja pitänyt kiltatoiminnan
+            onnistumista tärkeänä, mutta ei kuitenkaan ole koskaan unohtanut huumoria. Ilman
+            hänen innokasta ja leppoisaa persoonaansa yhteisömme olisi paljon köyhempi.
+            
+            Hän on edustanut kiltaa lukemattomia kertoja eri tilaisuuksissa, varmasti
+            yhteenlaskettuna enemmän kuin kukaan muu. Hän on yksi kiltamme perustavia voimia
+            ja pitkäaikainen taustavaikuttaja monien käytännön asioiden sujuvuudessa. Ennenkaikkea
+            hän on kuitenkin ansainnut kultaisen pränikän sen vuoksi, että hän on aina ollut
+            valmis auttamaan muita ja on aina hoitanut kilta-asiat jämptisti.
+
+            Samanlaista
+            kilta- ja teekkarihenkeä kuin Antti Tapiolla on, ei ole monella muulla."
+          en: ""
+      - name: Antti Pakonen
+        description:
+          fi: "Neljännen Kultaisen pränikän saaja on toiminut killan hyväksi aktiivisesti
+            koko opiskeluaikansa. Hän on ollut korvaamaton apu ja todellinen luottopakki
+            monessa eri tilanteessa. Hän ei pelkästään tee sitä, mitä pyydetään vaan hän
+            tekee sen myös äärimmäistä huolellisuutta nuodattaen. Hän ei ole koskaan jättänyt
+            kiltaa pulaan.
+
+            Hänen hallituskaudellaan tiedotus kusi harvinaisen vähän ja
+            hän on niittänyt mainetta sinipukuisena lenkkeilijänä jo useamman kerran.
+
+            
+            Eräs hallitukselle tullut ehdotus meni koko pituudessaan näin: \"Pränikkä Paksulle.
+            Jämpti, pyyteetön ja jatkuva toiminta killan eteen, killan pakonen.\""
+          en: ""
+      - name: Tuomas Kangasluoma
+        description:
+          fi: "Viides henkilö, jolle killan hallitus päätti myöntää Kultaisen Pränikän oli
+            heti phuksisyksynsä alussa innokkaasti mukana kiltatoiminnassa ja perustamassa
+            meille omaa kiltaa. Jo alussa oli selvää, että hän on valmis kantamaan vastuuta
+            AS:n asioista.
+
+            Kun kilta sitten perustettiin vuodenvaihteessa 1998-1999,
+            hän siirtyi asepalvelukseen. Ilman armeijaa hän olisi ollut itsestäänselvä valinta
+            ensimmäiseen hallitukseen. Heti syksyllä hän istuikin aktiivisesti hallituksen
+            kokouksissa ja hänen tarjoamansa apu kiireisen hallituksen syyskaudella oli
+            korvaamatonta.
+
+            Hän on ollut killan vastuullisimmissa viroissa, mutta silti
+            näiden virkojen luettelu antaa vain kalpean aavistuksen siitä, kuinka paljon
+            työtä hän on AS:n vuoksi tehnyt. Killan koon ja aktiivisten toimijoiden määrän
+            vuoksi killassamme on tyypillisesti autettu muita ja tarvittaessa tehty töitä
+            \"ristiin\" muiden vastuualueilla. Erityisen kirkkaasti tämä näkyy hänen toiminnassaan.
+            
+            Tuomas Kangasluoma onkin ansainnut kultaisen pränikän juuri siitä yksinkertaisesta
+            syystä, että kenenkään muun killan eteen tekemä työpanos ei ole edes verrattavissa
+            Tuomaksen tämän yhteisön eteen tekemään pyytettömään työhön."
+          en: ""
