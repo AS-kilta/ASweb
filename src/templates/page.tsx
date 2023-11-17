@@ -56,6 +56,7 @@ export const query = graphql`
         lead
         background
         heroHeight
+        robots
       }
     }
   }
@@ -64,5 +65,5 @@ export const query = graphql`
 export default PageTemplate
 
 export const Head: HeadFC<DataProps> = props => (
-  <Meta lang={props.data.mdx.fields.lang} title={props.data.mdx.frontmatter.title} />
+  <Meta lang={props.data.mdx.fields.lang} title={props.data.mdx.frontmatter.title} robots={props.data.mdx.frontmatter.robots} />
 )
