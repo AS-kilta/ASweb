@@ -15,10 +15,10 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
         <p>Tällä tulevaisuuden opiskelualalla työllistyminen opintojen jälkeen on lähes taattu. Monet opiskelijat hakeutuvatkin alan työpaikkoihin jo opintojensa aikana.</p>
       </div>
       
-      <h2>AS-killan alla on 3 eri hakukohdetta</h2>
+      <h2 className={style.heading2 + ' ' + style.full_width_bg}>AS-killan alla on 3 eri hakukohdetta</h2>
       
-      <h2 className={style.heading2 + ' ' + style.full_width_bg}>Automaatio ja robotiikka</h2>
       <section className={style.major}>
+        <h2>Automaatio ja robotiikka</h2>
         <div className={style.columns}>
           <div className={style.intro}>
             <p >Kiinnostaako, miten teollisuuden robottikäsivarret ja automaatiojärjestelmät toimivat? Haluatko päästä koodaamaan lähelle rautaa? Automaation piirissä pääsee tutustumaan mm. tietokoneiden ja koneiden väliseen rajapintaan ja itseohjautuviin järjestelmiin. Opintojen loppuvaiheessa onkin mahdollista erikoistua automaatio-ohjelmistojen, tehdasautomaation sekä robotiikan lisäksi myös ns. älykkäisiin tuotteisiin tai vaikka yhdistellä alueita oman kiinnostuksen mukaan.</p>
@@ -54,8 +54,8 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
         <a className={style.find_more + " rounded-button"} target="_blank" href="https://www.aalto.fi/fi/koulutustarjonta/automaatio-ja-robotiikka-tekniikan-kandidaatti-ja-diplomi-insinoori">Lue lisää Automaation ja Robotiikan Opinnoista Intosta</a>
       </section>
 
-      <h2 className={style.heading2 + ' ' + style.full_width_bg}>Informaatio&shy;teknologia</h2>
       <section className={style.major}>
+        <h2>Informaatio&shy;teknologia</h2>
         <div className={" columns"}>
           <div className={style.intro}>
             <p>Verkkoon kytkettyjen laitteiden määrä kasvaa räjähdysmäisesti ja esineiden internet on kaikkien huulilla. IT-pääaineessa pääset tutustumaan, mitä trendikkäiden termien takana oikeasti tapahtuu! Saat kattavan pohjan tietoverkkojen tekniikasta, langattomasta tiedonsiirrosta, signaalin käsittelystä ja ohjelmoinnista. Opintojen loppuvaiheessa valittavanasi on useita suuntauksia perinteisemmistä tietoliikennesovellutuksista koneoppimiseen sekä signaalin, puheen ja kielen prosessointiin.</p>
@@ -87,8 +87,8 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
         <a className={style.find_more + " rounded-button"} target="_blank" href="https://www.aalto.fi/fi/koulutustarjonta/informaatioteknologia-tekniikan-kandidaatti-ja-diplomi-insinoori">Lue lisää Informaatioteknologian opinnoista Intosta</a>
       </section>
 
-      <h2 className={style.heading2 + ' ' + style.full_width_bg}>Digital systems and Design</h2>
       <section className={style.major}>
+        <h2>Digital systems and Design</h2>
         <div className={style.columns}>
           <div className={style.intro}>
             <p>Kiinnostaako kansainvälisyys ja mahdollisuus aloittaa opiskelu englanniksi jo kandivaiheessa? Digital Systems and Design on yksi Aallon uusista ja moderneista englanninkielisistä kandipääaineista. Tämän monipuolisen pääaineen opiskelijana pääset tutustumaan esimerkiksi tietoverkkoihin, koneoppimiseen, fotoniikkaan ja käyttäjäkokemuksen (UX) suunnitteluun. Opinnot mahdollistavat sulavan siirtymän moniin eri maisteripääaineisiin sähkö- ja tietotekniikan korkeakouluissa mm. datatieteen, nanoteknologian ja automaation aloille.</p>
@@ -123,8 +123,8 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
         </dl>
         <a className={style.find_more + " rounded-button"} target="_blank" href="https://www.aalto.fi/fi/koulutustarjonta/aalto-bachelors-programme-in-science-and-technology-digital-systems-and-design">Lue lisää Digital Systems and Design opinnoista Intosta</a>
       </section>
-      <h2 className={style.heading2 + ' ' + style.full_width_bg}>Hakeminen</h2>
       <section style={{marginBlock: "6rem"}}>
+        <h2>Hakeminen</h2>
         <p>Automaatio ja Robotiikan sekä Informaatioteknologian pääaineisiin voi hakea seuraavilla tavoilla</p>
         <ul>
           <li><strong>Todistusvalinta:</strong> Opiskelupaikan voit saada pelkän ylioppilastodistuksen perusteella. Lisää tietoa eri aineiden pisteytyksestä, kynnysehdoista sekä vanhoista pääsyrajoista löydät DIA-yhteisvalinnan sivuilta.</li>
