@@ -1,0 +1,30 @@
+ @keyframes logo {
+    from {rotate: 0deg;}
+    to {rotate: 360deg;}
+  }
+
+@media all and (max-width: $breakpoint-mobile) {
+
+  #stimu {
+    padding: 3vh;
+    width: 80lvw;
+    height: 80lvw;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+
+}
+
+@media all and (min-width: $breakpoint-mobile) {
+
+  #stimu {
+    padding: 3vh;
+    width: 60vh;
+    height: 60vh;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+
+}
