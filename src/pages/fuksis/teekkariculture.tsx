@@ -4,7 +4,6 @@ import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
 import heropic from "@src/images/images/IMG_6067-Edit.jpg"
 import { StaticImage } from "gatsby-plugin-image"
-import * as picStyle from "@src/styles/pictures.module.scss"
 
 const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
   return (
@@ -14,7 +13,7 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
 
         <div>
           <p>Haalarit ovat asuste, josta teekkarin tunnistaa. Haalareita käytetään monissa tilaisuuksissa, joissa liikutaan julkisilla paikoilla teekkareina. Jokaisella killalla on omanvärisensä haalarit. Ne ovat toisin sanoen teekkarin univormu.</p>
-          <StaticImage className={picStyle.image + ' ' + picStyle.wide} src='../../images/images/yj_alkupamaus_2017-100.jpg' alt=''/>
+          <StaticImage className="image wide" src='../../images/images/yj_alkupamaus_2017-100.jpg' alt=''/>
           <p>Haalarit on luotu kovaan käyttöön ja etenkin wapun tienoilla ne ovat lähes välttämätön varuste jokaiselle teekkarille ja fuksille. Haalareiden parissa on muutenkin hauska puuhastella vapaa-aikana, esimerkiksi ompelemalla niihin muiden kanssa vaihdeltuja merkkejä tai haalareiden osia.</p>
           <p>Haalarit luovat yhteenkuuluvuutta ja herättävät huomiota. Muista kuitenkin, että haalareissa edustat kaikkia teekkareita ja teekkariutta, joten käytöksesi tulee myös olla sen mukaista. Automaatio- ja systeemitekniikan opiskelijoilla on violetit haalarit, joissa on musta hiha. Kun AS-ohjelmaa perustettiin tietotekniikan alle, ensimmäiset aASit hankkivat Tietokillan mustiin haalareihin violetit hihat erottuakseen omana joukkonaan. Seuraavana vuonna, kun aASit perustivat oman kiltansa, päätettiin ottaa killalle violetit haalarit mustalla hihalla muistoksi juuristamme Tietokillassa.</p>
           <p>Muista, että haalareita ei saa pestä! Jokainen tahra ja naarmu kertoo kokemuksista. Uudet fuksit saavat AS:n kauniin violetit haalarit Haalarigaalassa, joka järjestetään syyskuun lopulla.</p>
@@ -39,7 +38,7 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
         <h3 id='lakin-kaytto'> Lakin käyttö </h3>
 
         <div>
-          <StaticImage id="teekkaricap" className={picStyle.image + ' ' + picStyle.box} src='../../images/images/DSC_0132.jpg' alt=''/>
+          <StaticImage id="teekkaricap" className="image box" src='../../images/images/DSC_0132.jpg' alt=''/>
           <p>Teekkarilakin käyttökausi on toukokuusta syyskuuhun, tai tarkemmin Wapusta Lakinlaskijaisiin. Erikoistapauksiin, kuten excursioon tai muuhun teekkarien edustustilaisuuteen voi kuitenkin käyttökauden ulkopuolella hakea lakinkäyttölupaa teekkarijaostolta. Teekkarilakista ei juoda, eikä sitä saa muuten tahallisesti sotkea. Ajan myötä teekkarilakki kuitenkin tummuu ja likaantuu käytössä, jolloin se kertoo omistajan kokeneisuudesta teekkarina.</p>
         </div>
 

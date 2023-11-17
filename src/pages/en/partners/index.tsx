@@ -6,7 +6,6 @@ import ContactCard from "@src/components/profiles/ContactCard"
 import CircleCard from "@src/components/common/CircleCard"
 import * as style from "@src/pages/partners/partners.module.scss"
 import heroPic from "@src/images/images/DSC_0376.jpg"
-import * as picStyle from "@src/styles/pictures.module.scss"
 import { StaticImage } from "gatsby-plugin-image"
 
 
@@ -30,7 +29,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
       <h3>Cooperation with the guild</h3>
         <p><strong>The Guild of Automation and Systems Technology is an organization for students of Automation and Robotics, Information Technology and Digital Systems and Design at Aalto University's School of Electrical Engineering. The guild offers its members a variety of pastimes throughout the year, not only for relaxation from studies, but also to increase their own knowledge and skills in various hobby activities.</strong></p>
         <div>
-          <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../../images/images/DSC01613.jpg" alt=""/>
+          <StaticImage className="image wide" src="../../../images/images/DSC01613.jpg" alt=""/>
           <p>Over the course of the years of study, our members grow into new experts in automation, robotics, smart devices, as well as data networks, machine learning and signal processing. Most find employment in their field as consultants, software developers or demanding research and development tasks.</p>
         </div>
         <p>Young experts are hard currency on the job market, and many of us strive to acquire work experience in the field already during our studies. Through our guild, it is possible to effectively reach a considerable number of future professionals at an early stage. Many companies have become our partners in order to gain more visibility and at the same time support our guild's activities. Below are some of the most common ways of cooperation.</p>
@@ -46,25 +45,25 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
         </div>
       <h3 id="Recruiting">Recruiting visibility</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../../images/images/IMG_0533.jpg" alt=""/>
+        <StaticImage className="image wide" src="../../../images/images/IMG_0533.jpg" alt=""/>
         <p>We are happy to share the recruitment announcements of the companies that have supported us on our channels.<strong> On our recruitment channel </strong>, your job ads reach up to 500 of our members, and on social media, we reach more than a thousand people with our publications. We also publish our own guild magazine, GT, where it is possible to get space for advertisements or even articles. We also organize an annual UraTiKAS recruitment fair together with the computer science students' Computer Science Guild, and correspondingly a Corporate Brunch with the Guild of Electrical Engineering and the Guild of Bioinformation Technology, Inkubio. These events are important contact forums between industry companies and students.</p>
       </div>
 
       <h3 id="Overalls">Overalls</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../../images/images/yj_alkupamaus_2017-100.jpg" alt=""/>
+        <StaticImage className="image wide" src="../../../images/images/yj_alkupamaus_2017-100.jpg" alt=""/>
         <p><strong>The overalls </strong>identify the student. About 300 new students start in our guild every year, and the number has been growing year by year. During the first fall, new students will receive student overalls with the logos of our partners printed on them. The logo on the overalls guarantees visibility wherever guild members in overalls walk.</p>
       </div>
 
       <h3 id="Excursions">Excursions</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../../images/images/DSC01523.jpg" alt=""/>
+        <StaticImage className="image wide" src="../../../images/images/DSC01523.jpg" alt=""/>
         <p>With <strong> excursions, </strong>companies get to talk about themselves and present their activities at their own office. A group of motivated students who want to get to know their potential employer are going on the trip in a happy mood. In many cases, the excursions have been accompanied by some more hands-on parts in addition to the presentation, which makes the experience more memorable.</p>
       </div>
 
       <h3 id="Events">Events</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.box} src="../../../images/images/karkki_kalle.jpg" alt=""/>
+        <StaticImage className="image box" src="../../../images/images/karkki_kalle.jpg" alt=""/>
         <p>Student events are a big part of many students' everyday life. Throughout the year, we organize numerous different events for our members, from smaller sauna evenings to large table parties. By being part of our events, your company will gain valuable visibility among students. Company representatives also have the opportunity to participate in events and meet our students.</p>
       </div>
 
