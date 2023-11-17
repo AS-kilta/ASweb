@@ -180,3 +180,42 @@ main a {
     width: 1px;
 }
 
+// Picture styling
+
+@media all and (min-width: $breakpoint-pic) {
+    
+    .image{
+        float: right;
+        margin: 1.2rem;
+    }
+
+    .box {
+        width: 250px;
+    }
+
+    .wide {
+        width: 350px;
+    }
+
+}
+  
+@media all and (max-width: $breakpoint-pic) {
+    .image {
+        float: none;
+        display: block;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box {
+        width: min(400px, 100%);
+    }
+    
+    .wide {
+        width: min(400px, 100%);
+
+    }
+}
+

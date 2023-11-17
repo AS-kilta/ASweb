@@ -4,13 +4,15 @@ import { useStaticQuery, graphql } from "gatsby"
 interface MetaProps {
     lang: string,
     title?: string,
-    description?: string
+    description?: string,
+    robots?: string
 }
 
 interface SiteMetadataScheme {
     site: {
         siteMetadata: {
             author: string,
+            robots: string,
             description: TranslatedEntry,
             title: TranslatedEntry
         }
@@ -22,12 +24,13 @@ interface SeoData {
     description: string
 }
 
-const Meta: React.FC<MetaProps> = ({ lang, title, description }) => {
+const Meta: React.FC<MetaProps> = ({ lang, title, description, robots }) => {
     const data: SiteMetadataScheme = useStaticQuery(graphql`
         query getSiteMetadata {
             site {
                 siteMetadata {
                     author
+                    robots
                     description {
                         en
                         fi
@@ -51,6 +54,7 @@ const Meta: React.FC<MetaProps> = ({ lang, title, description }) => {
             <html lang={lang} />
             <title>{seoData.title}</title>
             <meta name="description" content={seoData.description} />
+            {robots && <meta name="robots" content={robots}/>}
         </>
     )
 }
