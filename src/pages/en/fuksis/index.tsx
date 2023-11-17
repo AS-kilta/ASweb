@@ -89,7 +89,8 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
                     <li><a href="https://sisu.aalto.fi/student/" target='_blank'>Sisu</a> (Registration for courses, midterms and exams takes place here)</li>
                     <li><a href="https://www.aalto.fi/en/school-of-electrical-engineering" target='_blank'>School of Electrical Engineering</a></li>
                     <li><a href="https://aalto.fi/en" target='_blank'>Aalto University</a></li>
-                    <li><a href="https://www.aalto.fi/en/student-guide" target='_blank'>Student guide</a> (Information and instructions about studies))</li>
+                    <li><a href="https://www.aalto.fi/en/student-guide" target='_blank'>Student guide</a> (Information and instructions about studies)</li>
+                    <li><a href="https://www.aalto.fi/en/services/aalto-space-mobile-application" target='_blank'>Aalto Space application</a> (Reserve spaces for studying)</li>
                 </ul>
             </div>
             <div className={style.list}>
