@@ -6,7 +6,6 @@ import ContactCard from "@src/components/profiles/ContactCard"
 import CircleCard from "@src/components/common/CircleCard"
 import * as style from "@src/pages/partners/partners.module.scss"
 import heroPic from "@src/images/images/DSC_0376.jpg"
-import * as picStyle from "@src/styles/pictures.module.scss"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Partners: React.FC<PageProps> = ({ pageContext }) => {
@@ -29,7 +28,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
       <h3>Yhteistyö killan kanssa</h3>
         <p><strong>Automaatio- ja systeemitekniikan kilta on ainejärjestö Aalto-yliopiston Sähkötekniikan korkeakoulun automaatio ja robotiikan, informaatioteknologian ja Digital Systems and Design opiskelijoille. Kilta tarjoaa jäsenilleen ympäri vuoden monenlaista ajanvietettä paitsi opinnoista rentoutumiseen, myös omien tietojensa ja taitojensa kartuttamiseen erilaisten harrastetoimintojen parissa.</strong></p>
         <div>
-          <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../images/images/DSC01613.jpg" alt=""/>
+          <StaticImage className="image wide" src="../../images/images/DSC01613.jpg" alt=""/>
           <p>Kiltalaisistamme kasvaa opintovuosien saatossa uusia osaajia niin automaation, robotiikan, älykkäiden laitteiden kuin myös tietoverkkojen, koneoppimisen ja signaalinkäsittelyn pariin. Useimmat työllistyvät alalleen konsulteiksi, ohjelmistokehittäjiksi tai vaativiin tutkimus- ja kehitystehtäviin.</p>
         </div>
         <p>Nuoret osaajat ovat kovaa valuuttaa työmarkkinoilla ja monet meistä pyrkivätkin hankkimaan alan työkokemusta jo opiskeluaikoina. Kiltamme kautta on mahdollista tavoittaa tehokkaasti huomattava osa tulevaisuuden ammattilaisista jo varhaisessa vaiheessa. Monet yritykset ovatkin ryhtyneet yhteistyökumppaneiksemme saadakseen lisää näkyvyyttä ja tukeneet samalla kiltamme toimintaa. Alla onkin muutamia yleisimpiä yhteistyötapoja.</p>
@@ -45,25 +44,25 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
         </div>
       <h3 id="Rekrytointinäkyvyys">Rekrytointinäkyvyys</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../images/images/IMG_0533.jpg" alt=""/>
+        <StaticImage className="image wide" src="../../images/images/IMG_0533.jpg" alt=""/>
         <p>Jaamme mielellämme meitä tukeneiden yritysten rekrytointi-ilmoituksia kanavissamme. Rekrytointikanavallamme työpaikkailmoituksenne tavoittavat jopa 500 jäsentämme ja sosiaalisessa mediassa tavoitamme julkaisuillamme yli tuhat ihmistä. Julkaisemme myös omaa kiltalehteämme, GT:tä, josta on mahdollista saada tilaa mainoksille tai jopa artikkeleille. Järjestämme myös vuosittain yhdessä tietotekniikan opiskelijoiden Tietokillan kanssa UraTiKAS -rekrymessun ja vastaavasti Yritysbrunssin Sähköinsinöörikillan ja bioinformaatioteknologian killan Inkubion kanssa. Nämä tapahtumat ovat tärkeitä kontaktifoorumeita alan yritysten ja opiskelijoiden välillä.</p>
       </div>
 
       <h3 id="Haalarit">Haalarit</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../images/images/yj_alkupamaus_2017-100.jpg" alt=""/>
+        <StaticImage className="image wide" src="../../images/images/yj_alkupamaus_2017-100.jpg" alt=""/>
         <p><strong>Haalareista </strong>tunnistaa opiskelijan. Killassamme aloittaa joka vuosi noin 300 uutta opiskelijaa ja määrä on vuosi vuodelta ollut kasvussa. Uudet opiskelijat saavat itselleen ensimmäisen syksyn aikana opiskelijahaalarit, joissa on yhteistyökumppaniemme logoja painettuina. Logo haalareissa takaa näkyvyyden aina siellä, missä haalaripukeiset kiltalaiset ikinä kulkevatkaan.</p>
       </div>
 
       <h3 id="Excursiot">Excursiot</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.wide} src="../../images/images/DSC01523.jpg" alt=""/>
+        <StaticImage className="image wide" src="../../images/images/DSC01523.jpg" alt=""/>
         <p><strong>Excursioilla </strong>yritykset pääsevät kertomaan itsestään ja esittelemään toimintaansa omalla toimipisteellään. Matkaan lähtee joukko motivoituneita opiskelijoita, jotka haluavat tutustua potentiaaliseen työnantajaansa iloisissa merkeissä. Monesti excursioihin on liittynyt jokin toiminnallinen osuus esittelyn ohella, jolloin kokemuksesta tulee mieleenpainuvampi.</p>
       </div>
 
       <h3 id="Tapahtumat">Tapahtumat</h3>
       <div>
-        <StaticImage className={picStyle.image + ' ' + picStyle.box} src="../../images/images/karkki_kalle.jpg" alt=""/>
+        <StaticImage className="image box" src="../../images/images/karkki_kalle.jpg" alt=""/>
         <p>Opiskelijatapahtumat ovat iso osa monien opiskelijoiden arkea. Järjestämme vuoden mittaan lukuisia erilaisia tapahtumia jäsenillemme pienemmistä saunailloista aina isoihin pöytäjuhliin. Olemalla osa tapahtumiamme yrityksenne saa arvokasta näkyvyyttä opiskelijoiden keskuudessa. Yritysten edustajilla on myös mahdollisuus osallistua tapahtumiin ja päästä kohtaamaan opiskelijoitamme.</p>
       </div>
 
