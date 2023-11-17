@@ -16,11 +16,10 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             title="Automaatio- ja systeemitekniikan kilta"
             background={heroimg}
             heroHeight="tall"
-            documentStyle="document"
         >
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
-                    <h1>Mikä AS?</h1>
+                    <h2>Mikä AS?</h2>
                     <p>AS on opiskelijajärjestö, joka yhdistää Aalto-yliopiston opiskelijoita monelta eri alalta. Kiltaamme kuuluu Automaation ja robotiikan, Informaatioteknologian ja Digital Systems and Designin sekä niitä lähellä olevien tutkinto-ohjelmien opiskelijoita. Kilta järjestää jäsenilleen vapaa-ajan toimintaa, valvoo heidän etuaan opintoihin liittyvissä asioissa ja ylläpitää suhteita alan yrityksiin.</p>
                 </div>
                 <StaticImage src="../images/images/20210917174935-70c53c15-xx.jpg" alt="" />
@@ -28,12 +27,12 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             <div className={`even-columns ${style.frontpagebox}`}>
                 <StaticImage className="no-mobile" src="../images/images/karkki_kalle.jpg" alt=""/>
                 <div className={style.eventsContainer}>
-                    <h1>Tapahtumat</h1>
+                    <h2>Tapahtumat</h2>
                     <EventList number={5} lang={pageContext.lang} />
                     <a href="https://calendar.google.com/calendar/embed?src=as.tiedottaja%40gmail.com&ctz=Europe%2FHelsinki" target="_blank">Tapahtumakalenteri</a>
                 </div>
             </div>
-            <h1 className="center-text">Instagram</h1>
+            <h2 className="center-text">Instagram</h2>
             <SnapWidget />
         </PageLayout>
     )

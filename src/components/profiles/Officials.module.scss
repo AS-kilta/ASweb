@@ -4,13 +4,15 @@ $bg-color: $as-violet-2;
   max-width: 1400px;
   text-align: center;
 
-  h2 {
+  .heading2 {
     font-size: clamp(1.6rem, 2.1vw, 2.35rem);
-    font-weight: 400;
     background-color: $bg-color;
     padding: 0.5em;
     margin-top: 2em;
     margin-bottom: 0;
+
+    font-weight: 400 !important;
+    color: black !important;
   }
 }
 

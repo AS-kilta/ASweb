@@ -11,10 +11,9 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
       title='Teekkariculture'
       background={heropic}
       heroHeight='short'
-      documentStyle="document"
     >
 
-        <h1 id='overalls'>Overalls</h1>
+        <h2 id='overalls'>Overalls</h2>
 
         <div>
           <p>Overalls are an accessory by which a teekkari can be recognized. Overalls are used in many occasions when you travel in public places as a teekkari. Each guild has its own colored overalls. In other words, they are the uniform of a teekkari.</p>
@@ -31,7 +30,7 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
           <p>If you notice something wrong about the overalls, please report it immediately. Defects caused by manufacturing errors will be repaired. Not all parts, such as the buttons and the zipper, can withstand heavy use, but they are quite easy to fix yourself. Ask older guild members for tips.</p>
         </div>
 
-        <h1 id='teekkari-cap'> Teekkari Cap </h1>
+        <h2 id='teekkari-cap'> Teekkari Cap </h2>
 
         <div>
           <p>Teekkari cap is the emblem of teekkari, which you can put on your head at your first Wappu. The current model of the teekkari cap has been hanging around the heads of teekkaris for more than a hundred years. On the surface, it resembles an ordinary student cap, but its six corners, black bushy tassel and gearwheel cockade signal the wearer's dignity from afar.</p>

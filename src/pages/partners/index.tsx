@@ -23,19 +23,18 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
       background={heroPic}
       heroHeight="short"
       title="Yrityksille"
-      documentStyle="document"
     >
       <div className={style.introduction}>
         <ContactCard data={ysvData}/>
-        <p className={style.intro_quote}>Hei yrityksen edustaja! Olen Automaatio- ja systeemitekniikan killan yrityssuhdevastaava. Kantsii tehdä meidän kanssa yhteistyötä! Tältä sivulta löydät lisätietoa yhteistyömahdollisuuksista. Ota minuun yhteyttä niin jutellaan lisää ja räätälöidään just teille sopiva paketti!</p>
+        <p className={style.intro_quote}>Hei yrityksen edustaja! Olen Automaatio- ja systeemitekniikan killan yrityssuhdevastaava. Tältä sivulta löydät lisätietoa yhteistyömahdollisuuksista. Ota minuun yhteyttä niin jutellaan lisää ja räätälöidään just teille sopiva paketti!</p>
       </div>
 
-      <h1>Yhteistyö killan kanssa</h1>
+      <h2>Yhteistyö killan kanssa</h2>
         <p><strong>Automaatio- ja systeemitekniikan kilta on ainejärjestö Aalto-yliopiston Sähkötekniikan korkeakoulun automaatio ja robotiikan, informaatioteknologian ja Digital Systems and Design opiskelijoille. Kilta tarjoaa jäsenilleen ympäri vuoden monenlaista ajanvietettä paitsi opinnoista rentoutumiseen, myös omien tietojensa ja taitojensa kartuttamiseen erilaisten harrastetoimintojen parissa.</strong></p>
         <p>Kiltalaisistamme kasvaa opintovuosien saatossa uusia osaajia niin automaation, robotiikan, älykkäiden laitteiden kuin myös tietoverkkojen, koneoppimisen ja signaalinkäsittelyn pariin. Useimmat työllistyvät alalleen konsulteiksi, ohjelmistokehittäjiksi tai vaativiin tutkimus- ja kehitystehtäviin.</p>
         <p>Nuoret osaajat ovat kovaa valuuttaa työmarkkinoilla ja monet meistä pyrkivätkin hankkimaan alan työkokemusta jo opiskeluaikoina. Kiltamme kautta on mahdollista tavoittaa tehokkaasti huomattava osa tulevaisuuden ammattilaisista jo varhaisessa vaiheessa. Monet yritykset ovatkin ryhtyneet yhteistyökumppaneiksemme saadakseen lisää näkyvyyttä ja tukeneet samalla kiltamme toimintaa. Alla onkin muutamia yleisimpiä yhteistyötapoja.</p>
 
-      <h1>Yhteistyömuodot</h1>
+      <h2>Yhteistyömuodot</h2>
         <div className={style.table}>
           <CircleCard title="Rekrytointi- näkyvyys" link="./partners#Rekrytointinäkyvyys" targetSelf={true}/>
           <CircleCard title="Haalarit" link="./partners#Haalarit" targetSelf={true}/>
@@ -65,7 +64,7 @@ const Partners: React.FC<PageProps> = ({ pageContext }) => {
       <h3>…ja myös paljon muuta!</h3>
         <p>Koko kiltatoiminta on monen pienen osan summa. Ylläpidämme yliopiston tiloissa kiltahuonettamme ASkia, joka toimii kiltalaisten olohuoneena luentojen ja muun koulunkäynnin lomassa. Järjestämme vuoden mittaan lukuisia eri tapahtumia jäsenillemme pienistä saunailloista aina arvokkaaseen vuosijuhlaamme Stimulaatioon asti. Tukemalla esimerkiksi tarvehankintojamme tai tapahtumiamme voi saada näissä lisää näkyvyyttä itselleen. Viime vuosina esimerkiksi Stimulaatioon on osallistunut kumppaniyritystemme edustajia mukaan juhliin!</p>
 
-      <h2>Kiinnostuitko? Ota yhteyttä!</h2>
+      <h3>Kiinnostuitko? Ota yhteyttä!</h3>
         <p>Yritysyhteistyöstä vastaa meidän päässämme yrityssuhdetoimikunta, jota koordinoi yrityssuhdevastaava.</p>
     </PageLayout>
   )

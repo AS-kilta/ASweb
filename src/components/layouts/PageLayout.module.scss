@@ -18,4 +18,54 @@
         max-width: 900px;
         margin-inline: auto;
     }
+
+    margin-bottom: 5rem;
+
+    h1, h2, h3, h4{
+        color: $as-violet-1;
+    }
+
+    h1 {
+        font-size: clamp(1.8rem, 4vw, 2.75rem);
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        font-size: clamp(1.5rem, 3.25vw, 2.4rem);
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3 {
+        font-size: clamp(1.3rem, 2.8vw, 2.1rem);
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h4 {
+        font-size: clamp(1.15rem, 2.1vw, 1.8rem);
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul li::marker, ol li::marker{
+        color: $as-violet-1;
+    }
+
+    ul, ol{
+        padding-left: 3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
 }
