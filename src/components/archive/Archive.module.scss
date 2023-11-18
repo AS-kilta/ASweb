@@ -22,13 +22,21 @@
   }
 }
 
+.heading2 {
+  margin-left: 0 !important;
+}
+
+.heading3 {
+  font-size: clamp(1.4rem, 3vw, 1.8rem) !important;
+}
+
 .heading4 {
-  font-size: clamp(1.2rem, 1.3vw, 1.55rem);
   font-weight: 700;
   border-bottom: 3px solid;
   padding-bottom: 0.1em;
   width: fit-content;
-
+  
+  font-size: clamp(1.2rem, 3vw, 1.55rem) !important;
   color: black !important;
   margin-left: 0 !important;
 }

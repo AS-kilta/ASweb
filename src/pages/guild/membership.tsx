@@ -12,8 +12,8 @@ const Membership: React.FC<PageProps> = ({ pageContext }) => {
       pageContext={pageContext}
       title='Jäsenyys'
       background={heroPic}
-      heroHeight="short"
-      lead="Killan jäsenenä saat oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. Lisäksi varsinaisena jäsenenä saat äänioikeuden kiltakokouksissa. Jäseneksi pääset alla olevan linkin kautta.">
+      heroHeight="tall"
+      lead="Killan jäsenenä saat oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. Lisäksi varsinaisena jäsenenä saat äänioikeuden kiltakokouksissa.">
 
     <a className={style.coloredBlock + " center-block" + " rounded-button"} target="_blank" href="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587">Liity jäseneksi</a>
 
