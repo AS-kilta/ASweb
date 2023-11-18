@@ -1,15 +1,17 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
-import DocumentLayout from "@src/components/layouts/DocumentLayout"
+import PageLayout from "@src/components/layouts/PageLayout"
 import { StaticImage } from "gatsby-plugin-image"
+
+const stylep= {"margin-top": "1.5rem"} as React.CSSProperties;
 
 const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <DocumentLayout pageContext={pageContext} title="Guild">
+    <PageLayout pageContext={pageContext} title="Guild" documentStyle="document">
       <div>
-        <StaticImage className="image wide" src='../../../images/images/IMG_0141.jpg' alt=''/>
-        <p>The purpose of the guild is to unite students of automation and robotics, information technology and Digital Systems and Design, and to promote their societal, social and intellectual aspirations, as well as their studies and the student's position in the university and society, and to raise from them experts with a strong identity as a teekkari and a professional. The guild operates within AYY, the student union of Aalto University.</p>
+        <StaticImage className="image wide up" src='../../../images/images/IMG_0141.jpg' alt=''/>
+        <p style={stylep}>The purpose of the guild is to unite students of automation and robotics, information technology and Digital Systems and Design, and to promote their societal, social and intellectual aspirations, as well as their studies and the student's position in the university and society, and to raise from them experts with a strong identity as a teekkari and a professional. The guild operates within AYY, the student union of Aalto University.</p>
       </div>
 
       <h2> Communications </h2>
@@ -17,9 +19,9 @@ const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
       <p>The guild uses several different communication tools for internal guild communication. The most important communication channels are:</p>
 
       <div>
-        <StaticImage className="image box" src='../../../images/images/dogoftheweek.jpg' alt=''/>
         <ul>
           <li><p><strong>Email lists</strong>: Weekly bulletins and other official announcements are sent to email lists. You might also spot a dog picture in the Weekly Newsletter!</p></li>
+          <StaticImage className="image box" src='../../../images/images/dogoftheweek.jpg' alt=''/>
           <li><p><strong>Telegram</strong>: General chat channels can be found in Telegram. There are channels for both general discussion and separate topics, such as studying and sports. In addition, there is a separate AivanViralinen channel for discussing official guild matters. The recruitment announcements of the guild's partners are sent through a separate recruitment channel.</p></li>
           <li><p><strong>Foorumi</strong>: The discussion forum can be found at forum.as.fi. It is mainly used for official discussion, for example in connection with guild meetings and elections.</p></li>
         </ul>
@@ -43,7 +45,7 @@ const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
       <h2> The Board </h2>
       <p>The board members' e-mail addresses are in the form of position@as.fi. The entire board can be reached at  <a href="mailto:board@as.fi">board@as.fi</a>. You can find the board's contact information on <a target='_self' href='/en/guild/board'>the board page</a>.</p>
 
-    </DocumentLayout>
+    </PageLayout>
   )
 }
 

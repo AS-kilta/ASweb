@@ -9,16 +9,16 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout pageContext={pageContext} title="Abeille">
       <div style={{marginBlock: "6rem"}}>
-        <h2>Opinnot</h2>
+        <h2 className="underline">Opinnot</h2>
         <p>Yliopiston kurssit jaetaan pakollisiin pääainekursseihin, vapaasti valittavaan sivuaineeseen ja muihin vapaasti valittaviin kursseihin, joten pääset rakentamaan itsellesi sopivan kokonaisuuden.</p>
         <p>Opintojen ensimmäiset 3 vuotta muodostavat kandidaatintutkinnon, jonka päätteeksi kirjoitetaan kandidaatintyö. Loput 2 vuotta opinnoista kuuluvat maisterivaiheeseen, josta diplomityön kautta valmistutaan diplomi-insinööriksi. Tästä voi kätevästi siirtyä työelämään tai jatkaa vielä tohtoriopintoihin, mikäli tutkimus ja akateeminen ura kiinnostavat enemmän.</p>
         <p>Tällä tulevaisuuden opiskelualalla työllistyminen opintojen jälkeen on lähes taattu. Monet opiskelijat hakeutuvatkin alan työpaikkoihin jo opintojensa aikana.</p>
       </div>
       
-      <h3 className={style.full_width_bg}>AS-killan alla on 3 eri hakukohdetta</h3>
+      <h2 className={style.heading2 + ' ' + style.full_width_bg}>AS-killan alla on 3 eri hakukohdetta</h2>
       
       <section className={style.major}>
-        <h3 className="underline">Automaatio ja robotiikka</h3>
+        <h2 className="underline">Automaatio ja robotiikka</h2>
         <div className={style.columns}>
           <div className={style.intro}>
             <p >Kiinnostaako, miten teollisuuden robottikäsivarret ja automaatiojärjestelmät toimivat? Haluatko päästä koodaamaan lähelle rautaa? Automaation piirissä pääsee tutustumaan mm. tietokoneiden ja koneiden väliseen rajapintaan ja itseohjautuviin järjestelmiin. Opintojen loppuvaiheessa onkin mahdollista erikoistua automaatio-ohjelmistojen, tehdasautomaation sekä robotiikan lisäksi myös ns. älykkäisiin tuotteisiin tai vaikka yhdistellä alueita oman kiinnostuksen mukaan.</p>
@@ -36,7 +36,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
               quote="Haaveeni on kehittää robotteja, jotka voivat olla vuorovaikutuksessa ihmisten kanssa ja suoriutua arkipäiväisistä askareista." />
           </div> 
         </div>
-        <h4 className="underline">Esimerkkejä pääainekursseista</h4>
+        <h3 className="underline">Esimerkkejä pääainekursseista</h3>
         <dl className={style.course_examples}>
           <div>
             <dt>Sähköpaja</dt>
@@ -55,7 +55,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
       </section>
 
       <section className={style.major}>
-        <h3 className="underline">Informaatio&shy;teknologia</h3>
+        <h2 className="underline">Informaatio&shy;teknologia</h2>
         <div className={" columns"}>
           <div className={style.intro}>
             <p>Verkkoon kytkettyjen laitteiden määrä kasvaa räjähdysmäisesti ja esineiden internet on kaikkien huulilla. IT-pääaineessa pääset tutustumaan, mitä trendikkäiden termien takana oikeasti tapahtuu! Saat kattavan pohjan tietoverkkojen tekniikasta, langattomasta tiedonsiirrosta, signaalin käsittelystä ja ohjelmoinnista. Opintojen loppuvaiheessa valittavanasi on useita suuntauksia perinteisemmistä tietoliikennesovellutuksista koneoppimiseen sekä signaalin, puheen ja kielen prosessointiin.</p>
@@ -69,7 +69,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
               />
           </div> 
         </div>
-        <h4 className="underline">Esimerkkejä pääainekursseista</h4>
+        <h3 className="underline">Esimerkkejä pääainekursseista</h3>
         <dl className={style.course_examples}>
           <div>
             <dt>Sähköpaja</dt>
@@ -88,7 +88,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
       </section>
 
       <section className={style.major}>
-        <h3 className="underline">Digital systems and Design</h3>
+        <h2 className="underline">Digital systems and Design</h2>
         <div className={style.columns}>
           <div className={style.intro}>
             <p>Kiinnostaako kansainvälisyys ja mahdollisuus aloittaa opiskelu englanniksi jo kandivaiheessa? Digital Systems and Design on yksi Aallon uusista ja moderneista englanninkielisistä kandipääaineista. Tämän monipuolisen pääaineen opiskelijana pääset tutustumaan esimerkiksi tietoverkkoihin, koneoppimiseen, fotoniikkaan ja käyttäjäkokemuksen (UX) suunnitteluun. Opinnot mahdollistavat sulavan siirtymän moniin eri maisteripääaineisiin sähkö- ja tietotekniikan korkeakouluissa mm. datatieteen, nanoteknologian ja automaation aloille.</p>
@@ -106,7 +106,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
               quote="Aalto-yliopisto on lähtökohtaisesti hyvä paikka kaikelle tekemiselle ja täällä on hyvät resurssit toteuttaa vaikka mitä!" />
           </div> 
         </div>
-        <h4 className="underline">Esimerkkejä pääainekursseista</h4>
+        <h3 className="underline">Esimerkkejä pääainekursseista</h3>
         <dl className={style.course_examples}>
           <div>
             <dt>Design Thinking and Electronic Prototyping</dt>
@@ -125,7 +125,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
       </section>
       <section style={{marginBlock: "6rem"}}>
         <h2>Hakeminen</h2>
-        <span>Automaatio ja Robotiikan sekä Informaatioteknologian pääaineisiin voi hakea seuraavilla tavoilla</span>
+        <p>Automaatio ja Robotiikan sekä Informaatioteknologian pääaineisiin voi hakea seuraavilla tavoilla</p>
         <ul>
           <li><strong>Todistusvalinta:</strong> Opiskelupaikan voit saada pelkän ylioppilastodistuksen perusteella. Lisää tietoa eri aineiden pisteytyksestä, kynnysehdoista sekä vanhoista pääsyrajoista löydät DIA-yhteisvalinnan sivuilta.</li>
           <li><strong>Valintakokeet:</strong> Opiskelupaikan voit saada osallistumalla valintakokeeseen, jossa mitataan matematiikan, fysiikan, kemian ja tekniikan alan luovaa ongelmanratkaisukykyä. Matematiikasta tehtäviä on kolme ja fysiikasta, kemiasta ja ongelmanratkaisusta yhteensä kuusi joista kolmeen vastataan. Lisää tietoa valintakokeista löytyy DIA-yhteisvalinnan sivuilta.</li>

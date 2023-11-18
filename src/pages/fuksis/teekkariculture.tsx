@@ -7,7 +7,12 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title='Teekkarikulttuuri' background={heropic} heroHeight='short'>
+    <PageLayout
+      pageContext={pageContext}
+      title='Teekkarikulttuuri'
+      background={heropic}
+      heroHeight='short'
+    >
 
         <h2 id='haalarit'>Haalarit</h2>
 

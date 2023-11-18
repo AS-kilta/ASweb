@@ -13,7 +13,7 @@
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
   font-weight: 700;
   background: none;
   border: none;

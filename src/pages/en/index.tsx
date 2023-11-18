@@ -12,7 +12,12 @@ import amfi from "../../images/images/20210917174935-70c53c15-xx.jpg"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
     return (
-        <PageLayout pageContext={pageContext} title="Guild of Automation and Systems Technology" background={heroimg} heroHeight="tall">
+        <PageLayout
+            pageContext={pageContext}
+            title="Guild of Automation and Systems Technology"
+            background={heroimg}
+            heroHeight="tall"
+        >
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
                     <h2>What is AS?</h2>
