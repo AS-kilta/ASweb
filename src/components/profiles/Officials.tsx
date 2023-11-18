@@ -39,7 +39,7 @@ const CommitteeSection: React.FC<{lang: string, committee: Committee}> = ({lang,
     const {name, members}: {name: TranslatedEntry, members: Member[]} = committee.node;
     return (
         <div className={style.officials_section}>
-            <h2 id={name[lang]}>{name[lang]}</h2>
+            <h2 className={style.heading2} id={name[lang]}>{name[lang]}</h2>
             <div className={style.officials_list}>
 
                 {members.map((official) => <OfficialCard key={official.name} lang={lang} image={official.picture} official={official} />)}

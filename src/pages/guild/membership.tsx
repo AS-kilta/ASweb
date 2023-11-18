@@ -8,7 +8,12 @@ import heroPic from "../../images/images/Lakkien_jako_2016-100.jpg"
 const Membership: React.FC<PageProps> = ({ pageContext }) => {
 
   return (
-    <PageLayout pageContext={pageContext} title='Jäsenyys' background={heroPic} heroHeight="short" lead="Killan jäsenenä saat oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. Lisäksi varsinaisena jäsenenä saat äänioikeuden kiltakokouksissa. Jäseneksi pääset alla olevan linkin kautta.">
+    <PageLayout
+      pageContext={pageContext}
+      title='Jäsenyys'
+      background={heroPic}
+      heroHeight="tall"
+      lead="Killan jäsenenä saat oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. Lisäksi varsinaisena jäsenenä saat äänioikeuden kiltakokouksissa.">
 
     <a className={style.coloredBlock + " center-block" + " rounded-button"} target="_blank" href="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587">Liity jäseneksi</a>
 

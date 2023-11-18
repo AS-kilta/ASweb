@@ -11,7 +11,12 @@ import heroimg from "../images/images/20201029195159-eef0d345-xx.jpg"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
     return (
-        <PageLayout pageContext={pageContext} title="Automaatio- ja systeemitekniikan kilta" background={heroimg} heroHeight="tall">
+        <PageLayout
+            pageContext={pageContext}
+            title="Automaatio- ja systeemitekniikan kilta"
+            background={heroimg}
+            heroHeight="tall"
+        >
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
                     <h2>Mikä AS?</h2>

@@ -1,15 +1,17 @@
 import React from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
-import DocumentLayout from "@src/components/layouts/DocumentLayout"
+import PageLayout from "@src/components/layouts/PageLayout"
 import { StaticImage } from "gatsby-plugin-image"
+
+const stylep= {"margin-top": "1.5rem"} as React.CSSProperties;
 
 const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <DocumentLayout pageContext={pageContext} title="Kilta">
+    <PageLayout pageContext={pageContext} title="Kilta" documentStyle="document">
       <div>
-        <StaticImage className="image wide" src='../../images/images/IMG_0141.jpg' alt=''/>
-        <p>Killan tarkoituksena on yhdistää automaatio- ja robotiikan, informaatioteknologian ja Digital Systems and Design opiskelijoita sekä edistää heidän yhteiskunnallisia, sosiaalisia ja henkisiä, sekä opiskeluun ja opiskelijan asemaan yliopistossa ja yhteiskunnassa liittyviä pyrkimyksiä, sekä kasvattaa heistä teekkari- ja ammatti-identiteetiltään vahvoja osaajia. Kilta toimii Aalto-yliopiston ylioppilaskunnan AYY:n piirissä.</p>
+        <StaticImage className="image wide up" src='../../images/images/IMG_0141.jpg' alt=''/>
+        <p style={stylep}>Killan tarkoituksena on yhdistää automaatio- ja robotiikan, informaatioteknologian ja Digital Systems and Design opiskelijoita sekä edistää heidän yhteiskunnallisia, sosiaalisia ja henkisiä, sekä opiskeluun ja opiskelijan asemaan yliopistossa ja yhteiskunnassa liittyviä pyrkimyksiä, sekä kasvattaa heistä teekkari- ja ammatti-identiteetiltään vahvoja osaajia. Kilta toimii Aalto-yliopiston ylioppilaskunnan AYY:n piirissä.</p>
       </div>
 
       <h2> Viestintä </h2>
@@ -17,9 +19,9 @@ const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
       <p>Kilta käyttää useita eri viestintävälineitä killan sisäiseen viestintään. Merkittävimmät viestintäkanavat ovat:</p>
 
       <div>
-        <StaticImage className="image box" src='../../images/images/dogoftheweek.jpg' alt=''/>
         <ul>
           <li><p><strong>Sähköpostilistat</strong>: Viikkotiedotteet ja muut viralliset tiedotteet lähetetään sähköpostilistoille. Sähköpostilistoille lähetettävästä viikkotiedotteesta saattaa myös bongata viikon koirakuvan!</p></li>
+          <StaticImage className="image box up" src='../../images/images/dogoftheweek.jpg' alt=''/>
           <li><p><strong>Telegram</strong>: Yleiset keskustelukanavat löytyvät Telegramista. Kanavia löytyy sekä yleistä keskustelua että erillisiä aihepiirejä, kuten opiskelua ja liikuntatoimintaa varten. Lisäksi virallisista killan asioista keskustelua varten on erillinen AivanVirallinen -kanava. Killan yhteistyökumppanien rekryilmoitukset lähetetään erillisen rekrykanavan kautta.</p></li>
           <li><p><strong>Foorumi</strong>: Keskustelufoorumi löytyy osoitteesta forum.as.fi. Sitä käytetään pääasiassa viralliseen keskusteluun esimerkiksi kiltakokousten ja -vaalien yhteydessä.</p></li>
         </ul>
@@ -42,7 +44,7 @@ const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
       <h2> Hallitus </h2>
       <p>Hallituksen jäsenten sähköpostiosoitteet ovat muotoa hallitusvirka@as.fi. Koko hallituksen tavoittaa sähköpostiosoitteesta hallitus (at) as.fi. Löydät hallituksen yhteystiedot <a target='_self' href='/guild/board'>hallitussivulta</a>.</p>
 
-    </DocumentLayout>
+    </PageLayout>
   )
 }
 

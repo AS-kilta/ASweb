@@ -123,7 +123,7 @@ const Officials: React.FC<{officials: CommitteeData[], lang: string, year: strin
 const Accolades: React.FC<{accolades: Accolades, lang: string}> = ({ accolades, lang }) => {
   return (
     <Fragment>
-      <h3 className={style.heading3}>{accolades.name[lang]}</h3>
+      <h2 className={style.heading2}>{accolades.name[lang]}</h2>
       {accolades.people.map((accolade: Accolade) => {
         if (!accolade.description[lang])
           return <div key={accolade.name} className={style.noDescription}>{accolade.name}</div>
@@ -207,7 +207,7 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
         {allExpanded ? translations.closeAll[lang] : translations.openAll[lang]}
         {allExpanded ? <BsDash /> : <BsPlus />}
       </button>
-      <h2>{translations.formerOfficials[lang]}</h2>
+      <h2 className={style.heading2}>{translations.formerOfficials[lang]}</h2>
       {data.map((entry: ArchiveEntry) => {
         if (entry.year && (entry.board || entry.officials))
           return (
@@ -218,7 +218,7 @@ const Archive: React.FC<{lang: string}> = ({ lang }) => {
           )
         else return null
       })}
-      <h2>{translations.accolades[lang]}</h2>
+      <h2 className={style.heading2}>{translations.accolades[lang]}</h2>
       {data.map((entry: ArchiveEntry) => {
         return entry.year && entry.accolades && (
           <CollapseBox key={`accolades-${entry.year}`} title={entry.year} expand={allExpanded}>
