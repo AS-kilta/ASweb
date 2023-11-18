@@ -47,9 +47,10 @@
 #sponsors {
     display: flex;
     gap: 2rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    column-gap: 60px;
 }
 
 .sponsor {
@@ -109,5 +110,6 @@
     #some {
         justify-content: center;
     }
+
 
 }
