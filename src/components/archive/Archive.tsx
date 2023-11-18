@@ -123,7 +123,7 @@ const Officials: React.FC<{officials: CommitteeData[], lang: string, year: strin
 const Accolades: React.FC<{accolades: Accolades, lang: string}> = ({ accolades, lang }) => {
   return (
     <Fragment>
-      <h2 className={style.heading2}>{accolades.name[lang]}</h2>
+      <h3 className={style.heading3}>{accolades.name[lang]}</h3>
       {accolades.people.map((accolade: Accolade) => {
         if (!accolade.description[lang])
           return <div key={accolade.name} className={style.noDescription}>{accolade.name}</div>
