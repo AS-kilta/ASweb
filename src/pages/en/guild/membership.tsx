@@ -12,8 +12,8 @@ const Membership: React.FC<PageProps> = ({ pageContext }) => {
       pageContext={pageContext}
       title='Membership'
       background={heroPic}
-      heroHeight="short"
-      lead="As a guild member, you get the right to participate in guild events and use the guild room, as well as access to the guild's e-mail lists. In addition, as a full member you get the right to vote at guild meetings. You can become a member via the link below.">
+      heroHeight="tall"
+      lead="As a guild member, you get the right to participate in guild events and use the guild room, as well as access to the guild's e-mail lists. In addition, as a full member you get the right to vote at guild meetings.">
 
     <a className={style.coloredBlock + " center-block" + " rounded-button"} target="_blank" href="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587">Become a member</a>
 

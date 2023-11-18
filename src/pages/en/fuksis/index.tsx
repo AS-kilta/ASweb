@@ -42,7 +42,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
             <ContactCard data={data2}/>
         </div>
 
-        <h2 id="1">
+        <h2 id="1" className="underline">
             Before the start of your studies
         </h2>
 

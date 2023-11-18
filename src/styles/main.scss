@@ -197,6 +197,11 @@ main a {
         width: 350px;
     }
 
+    .up {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
 }
   
 @media all and (max-width: $breakpoint-pic) {
