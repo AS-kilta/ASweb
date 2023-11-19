@@ -7,28 +7,12 @@ import { MDXProvider } from "@mdx-js/react"
 import PageLayout from "@src/components/layouts/PageLayout"
 import Meta from "@src/components/common/Meta"
 
-import { createSlug } from "./helpers/slugger"
-import type { Slugs } from "./helpers/slugger" 
-
-interface DataProps {
-  mdx: {
-    fields: {
-      lang: string
-    }
-    frontmatter: {
-      [key:string]: string;
-    }
-  },
-  pageContext: any
-}
-
 interface Props extends PageProps {
-  data: DataProps
+  data: MdxProps
 }
 
 const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
   const { title, lead, background, heroHeight, documentStyle } = data.mdx.frontmatter
-  const slugs: Slugs = {}
 
   return (
       <PageLayout
@@ -66,6 +50,6 @@ export const query = graphql`
 
 export default PageTemplate
 
-export const Head: HeadFC<DataProps> = props => (
+export const Head: HeadFC<MdxProps> = props => (
   <Meta lang={props.data.mdx.fields.lang} title={props.data.mdx.frontmatter.title} robots={props.data.mdx.frontmatter.robots} />
 )
