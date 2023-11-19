@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
@@ -11,6 +11,31 @@ import sweets from "../../images/images/karkki_kalle.jpg"
 import amfi from "../../images/images/20210917174935-70c53c15-xx.jpg"
 
 const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
+    // Some AS25 animation related stuff
+    const [animationKey, setAnimationKey] = useState("foo")
+
+    const resetAnimation = () => {
+        if (animationKey === "foo")
+            setAnimationKey("bar")
+        else
+            setAnimationKey("foo")
+    }
+
+    const handleAnimationClick = () => {
+        if (document.activeElement === document.querySelector("#animation"))
+            resetAnimation()
+    }
+    
+    useEffect(() => {
+        focus()
+        window.addEventListener("blur", handleAnimationClick)
+
+        return () => {
+            window.removeEventListener("blur", handleAnimationClick)
+        }
+    }, [animationKey])
+    // End of AS25 animation related stuff
+
     return (
         <PageLayout
             pageContext={pageContext}
@@ -18,7 +43,12 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             background={heroimg}
             heroHeight="tall"
         >
-            <iframe style={{width: "100%", height: "clamp(10rem, 30vw, 20rem)", maxWidth: "100%", border: 0}} src="/demo/index.html?text=Congrats%20AS%2025yo!"></iframe>
+            <iframe
+                key={animationKey}
+                id="animation"
+                style={{width: "100%", height: "clamp(10rem, 30vw, 20rem)", maxWidth: "100%", border: 0}}
+                src="/demo/index.html?text=Congrats%20AS%2025yo!"
+            ></iframe>
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
                     <h2>What is AS?</h2>
