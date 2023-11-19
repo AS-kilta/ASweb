@@ -8,7 +8,7 @@ interface ProfileImgProps {
 }
 
 const ProfileImg: React.FC<ProfileImgProps> = ({src, alt}) => {
-  const imgSrc: string | DynamicImageData = src ?? "https://as.fi/static/toimijat/aebaej_placeholder.png";
+  const imgSrc: string | DynamicImageData = src ?? "/images/aebaej_placeholder.png";
   const altText: string = alt ?? "";
   
   return (
