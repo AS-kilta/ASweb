@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import * as style from "./fuksis.module.scss"
@@ -9,14 +10,18 @@ import ContactCard from "@src/components/profiles/ContactCard"
 import CircleCard from "@src/components/common/CircleCard"
 import heropic from "@src/images/images/20230502154358-1c055172-xx.jpg"
 
-const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
+interface Props extends PageProps {
+    data: ImageArrayProps
+}
+
+const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
     const data1 = {
         title: 'fuksikapteeni',
         name: 'Leevi Hormaluoma',
         email: 'fuksikapteenit@as.fi',
         phone: '+358 400366690',
         telegram: '@pelleevi',
-        picture: 'https://as.fi/static/toimijat/2023/leevi_hormaluoma.jpg',
+        picture: data.allFile.nodes.find((file: DynamicImageData) => file.base === "leevi_hormaluoma.jpg"),
     };
 
     const data2 = {
@@ -25,7 +30,7 @@ const Fuksis: React.FC<PageProps> = ({ pageContext }) => {
         email: 'fuksikapteenit@as.fi',
         phone: '+358 440160401',
         telegram: '@Ykanen',
-        picture: 'https://as.fi/static/toimijat/2023/tuomas_nykanen.jpg',
+        picture: data.allFile.nodes.find((file: DynamicImageData) => file.base === "tuomas_nykanen.jpg"),
     };
 
     const styleCard= {"--profile-img-size": "20rem", marginBottom: "5rem"} as React.CSSProperties;
@@ -141,3 +146,22 @@ export default Fuksis
 export const Head: HeadFC<HeadProps> = () => (
   <Meta lang="fi" title="Fukseille" />
 )
+
+export const query = graphql`
+    query ImgQuery {
+        allFile(filter: {relativePath: {in: [
+            "officials/2023/leevi_hormaluoma.jpg",
+            "officials/2023/tuomas_nykanen.jpg"
+        ]
+    }}) {
+            nodes {
+                    childImageSharp {
+                        gatsbyImageData(
+                            placeholder: BLURRED
+                        )
+                    }
+                    base
+            }
+        }
+    }
+`
