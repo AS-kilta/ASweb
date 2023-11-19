@@ -1,11 +1,16 @@
 import React from "react"
+import { graphql } from "gatsby"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
 import ArticleCard from "../../components/profiles/ArticleCard"
 import * as style from "./abit.module.scss"
 
-const Abit: React.FC<PageProps> = ({ pageContext }) => {
+interface Props extends PageProps {
+  data: ImageArrayProps
+}
+
+const Abit: React.FC<Props> = ({ pageContext, data }) => {
   return (
     <PageLayout pageContext={pageContext} title="Abeille">
       <div style={{marginBlock: "6rem"}}>
@@ -26,12 +31,12 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
           <div className={style.testimonials}>
             <ArticleCard
               name="Antti Regelin"
-              image="https://as.fi/static/abimarkkinointi/Antti_Regelin.jpg"
+              image={data.allFile.nodes.find((file: DynamicImageData) => file.base === "Antti_Regelin.jpg")}
               link="https://www.aalto.fi/fi/uutiset/opiskelija-antti-regelin-aallossa-meita-kannustetaan-olemaan-luovia-ja-rohkeita"
               quote="Yksi unohtumaton kurssi oli ensimmäisen vuoden Sähköpaja-kurssi, jossa rakennetaan eri alojen opiskelijoista koostuvissa ryhmissä erilaisia sähköisiä laitteita. Kurssiprojektina rakensimme ryhmäni kanssa Bluetooth-yhteydellä toimivan minisähköauton." />
             <ArticleCard reverse
               name="Zachary Burda"
-              image="https://as.fi/static/abimarkkinointi/Zachary_Burda.jpg"
+              image={data.allFile.nodes.find((file: DynamicImageData) => file.base === "Zachary_Burda.jpg")}
               link="https://www.aalto.fi/fi/uutiset/opiskelija-zachary-burda-haluaa-kehittaa-ihmisten-arkea-helpottavia-robotteja"
               quote="Haaveeni on kehittää robotteja, jotka voivat olla vuorovaikutuksessa ihmisten kanssa ja suoriutua arkipäiväisistä askareista." />
           </div> 
@@ -63,7 +68,7 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
           <div className={style.testimonials}>
             <ArticleCard
               name="Niina Tapanainen"
-              image="https://as.fi/static/abimarkkinointi/Niina_Tapanainen.jpg"
+              image={data.allFile.nodes.find((file: DynamicImageData) => file.base === "Niina_Tapanainen.jpg")}
               link="https://www.aalto.fi/fi/uutiset/opiskelija-niina-tapanainen-opiskelen-tekniikkaa-koska-haluan-parantaa-ihmisten-elamaa"
               quote="Suosittelen alaa kenelle vain, joka tykkää ongelmanratkaisusta ja matikasta tai on kiinnostunut yhdistämään esimerkiksi humanistiset tieteet ja tekniikan."
               />
@@ -96,12 +101,12 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
           <div className={style.testimonials}>
             <ArticleCard
               name="Veera Ihalainen"
-              image="https://as.fi/static/abimarkkinointi/Veera_Ihalainen.jpg"
+              image={data.allFile.nodes.find((file: DynamicImageData) => file.base === "Veera_Ihalainen.jpg")}
               link="https://www.aalto.fi/fi/uutiset/opinnot-avasivat-veera-ihalaiselle-ohjelmoinnin-maailman"
               quote="Kävin englanninkielisen lukion ja halusin ehdottomasti jatkaa opiskelua englanniksi. Digitaalisuus ja innovaatiot kiinnostavat minua ja siksi halusin tekniikan alalle." />
             <ArticleCard reverse
               name="Johan Sarpoma"
-              image="https://as.fi/static/abimarkkinointi/Johan_Sarpoma.jpg"
+              image={data.allFile.nodes.find((file: DynamicImageData) => file.base === "Johan_Sarpoma.jpg")}
               link="https://www.aalto.fi/fi/uutiset/yliopisto-ei-ollutkaan-pelkkaa-teoriaa-englanninkielinen-kandiohjelma-ja-opiskelijaelama"
               quote="Aalto-yliopisto on lähtökohtaisesti hyvä paikka kaikelle tekemiselle ja täällä on hyvät resurssit toteuttaa vaikka mitä!" />
           </div> 
@@ -143,3 +148,25 @@ export default Abit
 export const Head: HeadFC<HeadProps> = () => (
   <Meta lang="fi" title="Abeille" />
 )
+
+export const query = graphql`
+  query ImgQuery {
+    allFile(filter: {relativePath: {in: [
+      "abimarkkinointi/Antti_Regelin.jpg",
+      "abimarkkinointi/Johan_Sarpoma.jpg",
+      "abimarkkinointi/Niina_Tapanainen.jpg",
+      "abimarkkinointi/Veera_Ihalainen.jpg",
+      "abimarkkinointi/Zachary_Burda.jpg"
+    ]
+  }}) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData(
+            placeholder: BLURRED
+          )
+        }
+        base
+      }
+    }
+  }
+`

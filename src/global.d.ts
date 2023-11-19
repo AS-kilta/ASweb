@@ -41,6 +41,30 @@ declare global {
         childImageSharp: {
             gatsbyImageData: IGatsbyImageData;
         }
-        url?: string;
+        base?: string;
+    }
+
+    // Type for queried data from page queries
+
+    interface MdxProps {
+        mdx: {
+          fields: {
+            lang: string
+          }
+          frontmatter: {
+            [key:string]: string;
+          }
+        },
+        pageContext: any
+    }
+
+    interface ImageFileProps {
+        file: DynamicImageData
+    }
+
+    interface ImageArrayProps {
+        allFile: {
+            nodes: DynamicImageData[]
+        }
     }
 }
