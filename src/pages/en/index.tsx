@@ -18,6 +18,7 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             background={heroimg}
             heroHeight="tall"
         >
+            <iframe style={{width: "100%", height: "clamp(10rem, 30vw, 20rem)", maxWidth: "100%", border: 0}} src="/demo/index.html?text=Congrats%20AS%2025yo!"></iframe>
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
                     <h2>What is AS?</h2>
