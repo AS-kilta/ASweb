@@ -1,21 +1,25 @@
 import React from "react"
+import { graphql } from "gatsby"
 import type { HeadFC, HeadProps } from "gatsby"
 import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
-import ContactCard from "@src/components/profiles/ContactCard"
+import ContactCard, { ContactInfo } from "@src/components/profiles/ContactCard"
 import CircleCard from "@src/components/common/CircleCard"
 import * as style from "@src/pages/partners/partners.module.scss"
 import heroPic from "@src/images/images/DSC_0376.jpg"
 import { StaticImage } from "gatsby-plugin-image"
 
+interface Props extends PageProps {
+  data: ImageFileProps
+}
 
-const Partners: React.FC<PageProps> = ({ pageContext }) => {
-  const ysvData = {
+const Partners: React.FC<Props> = ({ pageContext, data }) => {
+  const ysvData: ContactInfo = {
     title: 'Head of Corporate Relations',
     name: 'Lucas Käldström',
     email: 'yrityssuhdevastaava@as.fi',
     phone: '+358 458911847',
-    picture: 'https://as.fi/static/toimijat/2023/lucas_kaldstrom.jpg',
+    picture: data.file,
     telegram: '@luxask'
   };
 
@@ -91,3 +95,15 @@ export default Partners
 export const Head: HeadFC<HeadProps> = () => (
   <Meta lang="en" title="Corporate relations" />
 )
+
+export const query = graphql`
+  query ImgQuery {
+    file(relativePath: {eq: "officials/2023/lucas_kaldstrom.jpg"}) {
+      childImageSharp {
+        gatsbyImageData (
+          placeholder: BLURRED
+        )
+      }
+    }
+  }
+`

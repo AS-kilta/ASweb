@@ -10,7 +10,7 @@ export interface ContactInfo {
     phone: string,
     telegram: string,
     description?: string,
-    picture: DynamicImageData | string
+    picture?: DynamicImageData | string
 }
 
 const ContactCard: React.FC<{data: ContactInfo}> = ({data}) => {

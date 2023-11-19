@@ -3,7 +3,7 @@ import * as style from "./ArticleCard.module.scss"
 import ProfileImg from "./ProfileImg"
 
 
-const ArticleCard: React.FC<{name: string, image: string, quote: string, link: string, reverse?: boolean}> = ({ name, image, quote, link, reverse })=> {
+const ArticleCard: React.FC<{name: string, image?: string | DynamicImageData, quote: string, link: string, reverse?: boolean}> = ({ name, image, quote, link, reverse })=> {
   const cardStyles = reverse ? `${style.article_card} ${style.flex_reverse}` : style.article_card
   return (
     <div className={cardStyles} >
