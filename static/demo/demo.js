@@ -177,9 +177,22 @@ function initialize() {
     // Dirty regex to detect Safari, as the font-sizing sucks on it...
 
     if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent))
-        context.font = "bold 10vw 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+        if (text.startsWith("Onnea"))
+            if (window.innerWidth <= 1100)
+                context.font = "bold 13vw 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+            else
+                context.font = "bold 8rem 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+        else
+            if (window.innerWidth <= 1200)
+                context.font = "bold 11vw 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+            else
+                context.font = "bold 8rem 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+
     else
-        context.font = "bold clamp(2rem, 10vw, 8rem) 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+        if (text.startsWith("Onnea"))
+            context.font = "bold clamp(2.5rem, 10vw, 8rem) 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+        else
+            context.font = "bold clamp(2rem, 10vw, 8rem) 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
     context.textAlign = "center";
     context.fillText(text, width / 2, height / 2);
 
