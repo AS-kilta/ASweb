@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import type { HeadFC, HeadProps } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Meta from "@src/components/common/Meta"
 import PageLayout from "@src/components/layouts/PageLayout"
 import SnapWidget from "@src/components/instagram/SnapWidget"
 import EventList from "@src/components/events/EventList"
+import { BsArrowRepeat } from "react-icons/bs"
 import * as style from './index.module.scss'
 
 import heroimg from "../images/images/20201029195159-eef0d345-xx.jpg"
@@ -19,20 +20,6 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
         else
             setAnimationKey("foo")
     }
-
-    const handleAnimationClick = () => {
-        if (document.activeElement === document.querySelector("#animation"))
-            resetAnimation()
-    }
-    
-    useEffect(() => {
-        focus()
-        window.addEventListener("blur", handleAnimationClick)
-
-        return () => {
-            window.removeEventListener("blur", handleAnimationClick)
-        }
-    }, [animationKey])
     // End of AS25 animation related stuff
 
     return (
@@ -42,12 +29,21 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             background={heroimg}
             heroHeight="tall"
         >
+            {/* Begin AS25 animation related stuff */}
             <iframe 
                 key={animationKey}
-                id="animation"
                 style={{width: "100%", height: "clamp(10rem, 30vw, 20rem)", maxWidth: "100%", zIndex: 0, border: 0}}
                 src="/demo/index.html?text=Onnea%20AS%2025v!"
             ></iframe>
+            <div style={{textAlign: "center", margin: "1rem auto"}}>
+                <button
+                    style={{textAlign: "center", border: 0, background: "none", fontStyle: "italic", color: "gray", fontFamily: "Montserrat Variable, sans-serif"}}
+                    onClick={resetAnimation}
+                >
+                    <BsArrowRepeat style={{verticalAlign: "middle"}} /> Toista uudelleen
+                </button>
+            </div>
+            {/* End of AS25 animation related stuff */}
             <div className={`even-columns ${style.frontpagebox}`}>
                 <div style={{textAlign: "center"}}>
                     <h2>Mikä AS?</h2>

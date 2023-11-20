@@ -174,7 +174,12 @@ function initialize() {
 
     const text = decodeURI(window.location.search.split("=")[1])
 
-    context.font = "bold clamp(2rem, 10vw, 7rem) 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+    // Dirty regex to detect Safari, as the font-sizing sucks on it...
+
+    if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent))
+        context.font = "bold 10vw 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
+    else
+        context.font = "bold clamp(2rem, 10vw, 8rem) 'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', sans-serif";
     context.textAlign = "center";
     context.fillText(text, width / 2, height / 2);
 
