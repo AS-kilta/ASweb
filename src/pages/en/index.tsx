@@ -38,10 +38,19 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
             ></iframe>
             <div style={{textAlign: "center", margin: "1rem auto"}}>
                 <button
-                    style={{textAlign: "center", border: 0, background: "none", fontStyle: "italic", color: "gray", fontFamily: "Montserrat Variable, sans-serif"}}
+                    style={{
+                        textAlign: "center",
+                        border: 0,
+                        padding: "1rem",
+                        background: "none",
+                        fontStyle: "italic",
+                        color: "gray",
+                        fontFamily: "Montserrat Variable, sans-serif"}}
                     onClick={resetAnimation}
                 >
-                    <BsArrowRepeat style={{verticalAlign: "middle"}} /> Repeat
+                    <BsArrowRepeat style={{verticalAlign: "middle"}} />
+                    &nbsp;
+                    <span style={{verticalAlign: "middle"}}>Repeat</span>
                 </button>
             </div>
             {/* End of AS25 animation related stuff */}
