@@ -220,35 +220,37 @@ function render() {
     // Render particles with effects (i. e. transcript for the demo)
 
     particles.forEach(el => {
-        if (frame < 200) {
-            el.colorize(colors[Math.floor(Math.random() * 3)])
-            el.cascade()
-        } else if (frame < 290) {
+        if (frame < 300) {
+            el.colorize(colors[Math.floor(Math.random() * 3)]);
+        } else if (frame < 500) {
+            el.colorize(colors[Math.floor(Math.random() * 3)]);
+            el.cascade();
+        } else if (frame < 590) {
             el.colorize("violet")
             el.orbital()
-        } else if (frame < 360) {
+        } else if (frame < 660) {
             el.colorize("#008184")
             el.interference()
             el.decelerate()
-        } else if (frame < 380) {
+        } else if (frame < 680) {
             el.colorize("violet")
-        } else if (frame < 420) {
+        } else if (frame < 720) {
             el.colorize("#008184")
             el.returnHome()
             el.rotate2D(width / 2, height / 2, -1 * Math.PI / 15)
-        } else if (frame < 700) {
+        } else if (frame < 1000) {
             el.colorize(colors[Math.floor(Math.random() * 3)])
             el.cascade()
-        } else if (frame === 700) {
+        } else if (frame === 1000) {
             el.stop()
-        } else if (frame > 700) {
+        } else if (frame > 1000) {
             el.colorize(colors[0])
             el.returnHome()
         }     
 
         el.move()
 
-        if (frame < 700) {
+        if (frame < 1000) {
             el.sparkle();
         } else
             if (!el.isHome())
@@ -259,10 +261,10 @@ function render() {
 
     // Restart after finishing the animation
 
-    if (frame > 700 && isFinishedAfterFinal)
+    if (frame > 1000 && isFinishedAfterFinal)
         cancelAnimationFrame(animation);
 
-    if (frame < 700 || (frame >= 700 && !isFinishedAfterFinal))
+    if (frame < 1000 || (frame >= 1000 && !isFinishedAfterFinal))
         animation = requestAnimationFrame(render);
 }
 
