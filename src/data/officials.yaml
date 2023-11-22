@@ -6,6 +6,8 @@
       title:
         - fi: "Fuksikapteeni"
           en: "Fuksi Captain"
+        - fi: "IIIIISOpomo"
+          en: "IIIIISO Boss"
       picture: "../images/officials/2023/leevi_hormaluoma.jpg"
       leader: true
     - name: "Tuomas Nykänen"
@@ -43,6 +45,8 @@
       title:
         - fi: "Tosi-ISO"
           en: "Really ISO"
+        - fi: "Himo-ISO"
+          en: "REALLY ISO"
       picture: "../images/officials/2023/pessi_lyytikainen_2.jpg"
     - name: "Mikko Vanhanen"
       title:
@@ -54,7 +58,6 @@
         - fi: "Tosi-ISO"
           en: "Really ISO"
       picture: "../images/officials/2023/sophia_lee.jpg"
-
     - name: "Arttu Pahta"
       title:
         - fi: "SuurFuksikapteeni"
@@ -70,11 +73,6 @@
         - fi: "Senior Executive Master's and International Student Captain (SEMISC)"
           en: "Senior Executive Master's and International Student Captain (SEMISC)"
       picture: "../images/officials/2023/oskari_helosuo.jpg"
-    - name: "Leevi Hormaluoma"
-      title:
-        - fi: "IIIIISOpomo"
-          en: "IIIIISO Boss"
-      picture: "../images/officials/2023/leevi_hormaluoma_2.jpg"
     - name: "Lotta Makkonen"
       title:
         - fi: "Himo-ISO"
@@ -85,11 +83,6 @@
         - fi: "Himo-ISO"
           en: "REALLY ISO"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Pessi Lyytikäinen"
-      title:
-        - fi: "Himo-ISO"
-          en: "REALLY ISO"
-      picture: "../images/officials/2023/pessi_lyytikainen_2.jpg"
     - name: "Erkka Multanen"
       title:
         - fi: "Himo-ISO"
@@ -136,11 +129,6 @@
         - fi: "Hallopedi"
           en: "Halloped"
       picture: "../images/officials/2022/joonas_tormala.jpg"
-    - name: "Apollo Ailus"
-      title:
-        - fi: "Hallopedi"
-          en: "Halloped"
-      picture: "../images/officials/2023/apollo_ailus.jpg"
     - name: "Mikaela Rautavirta"
       title:
         - fi: "Absintti"
@@ -155,6 +143,8 @@
       title:
         - fi: "Absintti"
           en: "Absinth"
+        - fi: "Hallopedi"
+          en: "Halloped"
       picture: "../images/officials/2023/apollo_ailus.jpg"
     - name: "Iida Jauhola"
       title:
