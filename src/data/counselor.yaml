@@ -1,0 +1,56 @@
+- title:
+    fi: "Häirintäyhdyshenkilö"
+    en: "Confidential Counselor"
+  name: "Arttu Pahta"
+  email: "arttu.pahta@as.fi"
+  telegram: "arupto"
+  picture: "../images/officials/2023/arttu_pahta.jpg"
+
+- title:
+    fi: "Häirintäyhdyshenkilö"
+    en: "Confidential Counselor"
+  name: "Meri Hiipakka"
+  email: "meri.hiipakka@as.fi"
+  telegram: "Merisku"
+  picture: "../images/officials/2023/meri_hiipakka.jpg"
+
+- title:
+    fi: "Häirintäyhdyshenkilö"
+    en: "Confidential Counselor"
+  name: "Pessi Lyytikäinen"
+  email: "pessi.lyytikainen@as.fi"
+  telegram: "Pessimismi"
+  picture: "../images/officials/2023/pessi_lyytikainen.jpg"
+
+- title:
+    fi: "Häirintäyhdyshenkilö"
+    en: "Confidential Counselor"
+  name: "Iida Jauhola"
+  email: "iida.jauhola@as.fi"
+  telegram: "iidajau"
+  picture: "../images/officials/2023/iida_jauhola.jpg"
+
+- title:
+    fi: "Häirintäyhdyshenkilö"
+    en: "Confidential Counselor"
+  name: "Mimi Määttä"
+  email: "mimi.maatta@as.fi"
+  telegram: "Mimi_Maatta"
+  picture: "../images/officials/2023/mimi_maatta.jpg"
+  description: "Contact only in English"
+
+- title:
+    fi: "Häirintäyhdyshenkilö"
+    en: "Confidential Counselor"
+  name: "Vesta Kulomaa"
+  email: "vesta.kulomaa@as.fi"
+  telegram: "vestaaja"
+  picture: "../images/officials/2023/vesta_kulomaa.jpg"
+
+- title:
+    fi: "Vastuuhäirintäyhdyshenkilö"
+    en: "Responsible Confidential Counselor"
+  name: "Kiira Metsoila"
+  email: "kiira.metsoila@as.fi"
+  telegram: "Kiiraiitu"
+  picture: "../images/officials/2023/kiira_metsoila.jpg"
