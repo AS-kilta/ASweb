@@ -80,13 +80,10 @@ const Partners: React.FC<Props> = ({ pageContext, data }) => {
         <p>Stimulaatio on kiltamme vuosijuhla, johon osallistuu vuosittain useita satoja opiskelijoita ja alumnia killastamme sekä muista Aalto-yliopiston järjestöistä. Vuosijuhla jakautuu kahteen osaan, cocktailtilaisuuteen ja itse pääjuhlatilaisuuteen. Molemmat tilaisuudet ovat oiva mahdollisuus yhteistyöyrityksille olla näkyvissä juhlijoiden keskuudessa esimerkiksi puheiden ja logonäkyvyyden muodossa. Kumppanit ovat näkyvissä myös juhlien ulkopuolelle, sillä markkinointi vuosijuhliin alkaa jo alkusyksystä sekä muistot juhlasta jäävät mieleen pitkäksi aikaa juhlallisuuksien jälkeenkin. </p>
 
       <h3 id="NäkyvyysKiltahuoneella">Näkyvyys kiltahuoneella</h3>
-        <p>Kiltahuoneellamme ASkissa viettää aikaa runsas määrä opiskelijoita päivittäin. Kiltahuoneella on mahdollisuus pelailla pelejä, hengailla kavereiden kanssa, opiskella ja nauttia ilmaisesta kahvista. Jotta kiltalaisilla olisi aina hyvä paikka olla, tarvitsemme yhteistyökumppaneiden apua kiltahuoneen viihtyvyyden mahdollistamiseksi. ASkissa on esimerkiksi mahdollista vierailla tai jättää yritysmerchiä näkyvyyden lisäämiseksi yrityksellenne!</p>
+        <p>Kiltahuoneellamme ASkissa viettää aikaa runsas määrä opiskelijoita päivittäin. Kiltahuoneella on mahdollisuus pelailla pelejä, hengailla kavereiden kanssa, opiskella ja juoda kahvia. Jotta kiltalaisilla olisi aina hyvä paikka olla, tarvitsemme yhteistyökumppaneiden apua kiltahuoneen viihtyvyyden mahdollistamiseksi. ASkissa on esimerkiksi mahdollista vierailla tai jättää yritysmerchiä näkyvyyden lisäämiseksi yrityksellenne!</p>
 
       <h3>…ja myös paljon muuta!</h3>
         <p>Koko kiltatoiminta on monen pienen osan summa. Ylläpidämme yliopiston tiloissa kiltahuonettamme ASkia, joka toimii kiltalaisten olohuoneena luentojen ja muun koulunkäynnin lomassa. Järjestämme vuoden mittaan lukuisia eri tapahtumia jäsenillemme pienistä saunailloista aina arvokkaaseen vuosijuhlaamme Stimulaatioon asti. Tukemalla esimerkiksi tarvehankintojamme tai tapahtumiamme voi saada näissä lisää näkyvyyttä itselleen. Viime vuosina esimerkiksi Stimulaatioon on osallistunut kumppaniyritystemme edustajia mukaan juhliin!</p>
-
-      <h3>Kiinnostuitko? Ota yhteyttä!</h3>
-        <p>Yritysyhteistyöstä vastaa meidän päässämme yrityssuhdetoimikunta, jota koordinoi yrityssuhdevastaava.</p>
     </PageLayout>
   )
 }

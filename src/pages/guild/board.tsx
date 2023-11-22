@@ -7,7 +7,7 @@ import PageLayout from "@src/components/layouts/PageLayout"
 
 const BoardPage: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title="Hallitus">
+    <PageLayout pageContext={pageContext} title="Hallitus" lead="Koko hallituksen tavoittaa osoitteesta hallitus ät as.fi.">
       <Board lang={pageContext.lang} />
     </PageLayout>
   )
