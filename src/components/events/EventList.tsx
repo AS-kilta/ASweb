@@ -65,7 +65,7 @@ const EventList: React.FC<{number: number, lang: string}> = ({ number=5, lang="f
             ? dateOptions
             : { ...dateOptions, ...timeOptions};
         return (
-            <li className={style.eventListItem}>
+            <li key={event.summary} className={style.eventListItem}>
                 <div className={style.date}>{event.start.getDate()}.{event.start.getMonth()+1}.</div>
                 <div>
                     <div className={style.summary}>{event.summary}</div>
