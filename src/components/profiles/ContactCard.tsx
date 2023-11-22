@@ -7,7 +7,7 @@ export interface ContactInfo {
     title: string,
     name: string,
     email: string,
-    phone: string,
+    phone?: string,
     telegram: string,
     description?: string,
     picture?: DynamicImageData | string
@@ -24,8 +24,8 @@ const ContactCard: React.FC<{data: ContactInfo}> = ({data}) => {
             <a href={`mailto:${data.email}`}>{data.email}</a>
         </div>
         <div className={style.icon_field}>
-            <BsTelephoneFill />
-            <a href={`tel:${data.phone.replace(/\s+/g, "")}`}>{data.phone}</a>
+            {data.phone && <BsTelephoneFill />}
+            {data.phone && <a href={`tel:${data.phone?.replace(/\s+/g, "")}`}>{data.phone}</a>}
         </div>
         <div className={style.icon_field}>
             <BsTelegram />
