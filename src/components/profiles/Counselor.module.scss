@@ -1,0 +1,18 @@
+.counselor {
+    max-width: 1000px;
+    margin-block: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    gap: 2rem;
+  
+    line-height: 1.6em;
+  
+    & > * {
+      flex: 0 1 400px;
+    }
+  
+    --profile-img-size: 14rem;
+  }
+  
