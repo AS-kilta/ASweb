@@ -79,13 +79,10 @@ const Partners: React.FC<Props> = ({ pageContext, data }) => {
         <p>Stimulation is our guild's annual party, in which several hundred students and alumni from our guild and other Aalto University organizations participate every year. The anniversary party is divided into two parts, the cocktail party and the main party itself. Both events are a great opportunity for partner companies to be visible among the partygoers, for example in the form of speeches and logo visibility. The partners are also visible outside of the celebrations, because the marketing for the anniversary celebrations starts already in early autumn, and the memories of the celebrations remain in the mind for a long time even after the festivities.</p>
 
       <h3 id="Guild-room">Guild room</h3>
-        <p>A large number of students spend time in our guild room, ASki every day. The guild room has the opportunity to play games, hang out with friends, study and enjoy free coffee. In order for guild members to always have a good place to be, we need the help of partners to make the guild room more comfortable. For example, it is possible to visit ASki or leave company merch to increase the visibility of your company!</p>
+        <p>A large number of students spend time in our guild room, ASki every day. The guild room has the opportunity to play games, hang out with friends, study and enjoy some coffee. In order for guild members to always have a good place to be, we need the help of partners to make the guild room more comfortable. For example, it is possible to visit ASki or leave company merch to increase the visibility of your company!</p>
 
       <h3>... and a lot more too!</h3>
         <p>The entire guild activity is the sum of many small parts. We maintain our guild room ASki on the premises of the university, which serves as a living room for guild members during lectures and other school holidays. Throughout the year, we organize numerous different events for our members, from small sauna evenings to our valuable annual celebration, Stimulation. By supporting, for example, our needs, purchases or our events, you can get more visibility for yourself in these. In recent years, for example, representatives of our partner companies have participated in the Stimulation!</p>
-
-      <h3>Were you interested? Contact us!</h3>
-        <p>At our end, the corporate relations committee is responsible for corporate cooperation, which is coordinated by the Head of Corporate Relations.</p>
     </PageLayout>
   )
 }
