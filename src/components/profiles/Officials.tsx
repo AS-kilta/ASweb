@@ -18,19 +18,26 @@ interface Committee {
     }
 }
 
+interface OfficialCard {
+    lang: string,
+    committeeName: string,
+    official: Member,
+    image?: DynamicImageData
+}
+
 interface OfficialsData {
     allOfficialsYaml: {
         edges: Committee[]
     }
 }
 
-const OfficialCard: React.FC<{lang: string, official: Member, image?: DynamicImageData}> = ({lang, official, image}) => {
+const OfficialCard: React.FC<OfficialCard> = ({lang, committeeName, official, image}) => {
     const leader = official.leader ? style.leader : ''
     return (
         <div className={`${style.official_container} ${leader}`} >
             <ProfileImg src={image} alt={official.name} />
             <div className={style.name}>{official.name}</div>
-            {official.title.map(title => <div key={title[lang]} className={style.title}>{title[lang]}</div>)}
+            {official.title.map(title => <div key={`${committeeName}${official.name}${title[lang]}`} className={style.title}>{title[lang]}</div>)}
         </div>
     )
 }
@@ -41,8 +48,14 @@ const CommitteeSection: React.FC<{lang: string, committee: Committee}> = ({lang,
         <div className={style.officials_section}>
             <h2 className={style.heading2} id={name[lang]}>{name[lang]}</h2>
             <div className={style.officials_list}>
-
-                {members.map((official) => <OfficialCard key={official.name} lang={lang} image={official.picture} official={official} />)}
+                {members.map((official) =>
+                    <OfficialCard 
+                        key={`${committee.node.name[lang]}${official.name}`}
+                        committeeName={committee.node.name[lang]}
+                        lang={lang} image={official.picture}
+                        official={official}
+                    />
+                )}
             </div>
         </div>
     )

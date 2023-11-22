@@ -15,5 +15,5 @@ const OfficialsPage: React.FC<PageProps> = ({ pageContext }) => {
 export default OfficialsPage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Toimihenkilöt" />
+  <Meta lang="fi" title="Toimihenkilöt" robots="none"/>
 )
