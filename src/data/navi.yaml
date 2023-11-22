@@ -35,6 +35,12 @@
       link:
         fi: "/guild/documents"
         en: "/en/guild/documents"
+    - title:
+        fi: "Häirintä­yhdyshenkilöt"
+        en: "Confidential Counselors"
+      link:
+        fi: "/guild/confidential-counselors"
+        en: "/en/guild/confidential-counselors"
 - title:
     fi: "Abeille"
   link:
