@@ -10,17 +10,9 @@
   link: "https://new.abb.com/fi/"
   picture: "../images/sponsors/ABB.png"
 
-- name: "Vincit"
-  link: "https://www.vincit.fi/"
-  picture: "../images/sponsors/vincit.png"
-
 - name: "Accenture"
   link: "https://www.accenture.com/fi-en"
   picture: "../images/sponsors/accenture.png"
-
-- name: "Futurice"
-  link: "https://www.futurice.com/"
-  picture: "../images/sponsors/futurice.png"
 
 - name: "Valmet"
   link: "https://www.valmet.com/"
