@@ -22,7 +22,11 @@ interface SponsorDataScheme {
 const Sponsor: React.FC<{image: DynamicImageData, name: string}> = ({image, name}) => {
     if (image != null)
         return (
-            <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt={name}/>
+            <GatsbyImage
+                image={image.childImageSharp.gatsbyImageData}
+                objectFit="contain"
+                alt={name}
+            />
         )
     else
         return (
