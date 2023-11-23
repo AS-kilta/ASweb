@@ -43,6 +43,7 @@ const Sponsors: React.FC = () => {
                                 gatsbyImageData(
                                     width: 100
                                     placeholder: BLURRED
+                                    backgroundColor: "transparent"
                                     transformOptions: {fit: CONTAIN}
                                 )
                             }
