@@ -57,3 +57,7 @@
 - name: "Nokia"
   link: "https://nokia.com/"
   picture: "../images/sponsors/nokia.png"
+
+- name: "FGI"
+  link: "https://maanmittauslaitos.fi/"
+  picture: "../images/sponsors/FGI.jpg"
