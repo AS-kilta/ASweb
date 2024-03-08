@@ -68,7 +68,7 @@
         - fi: "Tosi-ISO"
           en: "Really ISO"
       picture: "../images/officials/2024/eeva_jarvenpaa.jpg"
-    - name: "Santeri Hilden"
+    - name: "Santeri Hildén"
       title:
         - fi: "Tosi-ISO"
           en: "Really ISO"
@@ -112,7 +112,7 @@
       title:
         - fi: "DSDirector"
           en: "DSDirector"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/beatriz_glaser.jpg"
 
 
 - name:
@@ -192,7 +192,7 @@
       title:
         - fi: "Suurkulli"
           en: "Grand Cultist"
-      picture: "../images/officials/2024/eeva_jarvenpaa.jpg"
+      picture: "../images/officials/2023/lotta_makkonen.jpg"
     - name: "Joonas Törmälä"
       title:
         - fi: "Kultsi"
@@ -244,15 +244,13 @@
       title:
         - fi: "Hyvis"
           en: "Goody"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/emilia_kuisma.jpg"
 
     - name: "Kiira Metsoila"
       title:
         - fi: "Hyvinvointimestari"
           en: "Master of Wellbeing"
-      picture: "../images/officials/2023/arttu_pahta_2.jpg"
-
-
+      picture: "../images/officials/2023/kiira_metsoila_2.jpg"
 
     - name: "Kalle Kyöstiö"
       title:
@@ -278,17 +276,17 @@
           en: "rrrRankka Manager"
         - fi: "Hyvis"
           en: "Goody"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/aino_valkama.jpg"
     - name: "Roope Järvinen"
       title:
         - fi: "rrrRankkavastaava"
           en: "rrrRankka Manager"
       picture: "../images/officials/aebaej_placeholder.png"
 
-    - name: "JuomanlASkija"
+    - name: "Ossi Syrjälahti"
       title:
-        - fi: "rrrRankkavastaava"
-          en: "rrrRangler"
+        - fi: "JuomanlASkija"
+          en: "Cupbearer"
       picture: "../images/officials/aebaej_placeholder.png"
 
 
@@ -414,11 +412,6 @@
         - fi: "MinIEns"
           en: "MinIEns"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Leena Jääskeläinen"
-      title:
-        - fi: "MinIEns"
-          en: "MinIEns"
-      picture: "../images/officials/2023/leena_jaaskelainen.jpg"
     - name: "Leo Teodosin"
       title:
         - fi: "MinIEns"
@@ -439,11 +432,11 @@
         - fi: "MinIEns"
           en: "MinIEns"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Santeri Hilden"
+    - name: "Santeri Hildén"
       title:
         - fi: "MinIEns"
           en: "MinIEns"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/santeri_hilden.jpg"
     - name: "Kalle Kajoniemi"
       title:
         - fi: "MinIEns"
@@ -484,7 +477,7 @@
         - fi: "MinIEns"
           en: "MinIEns"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Jesperi Hilden"
+    - name: "Jesperi Hildén"
       title:
         - fi: "MinIEns"
           en: "MinIEns"
@@ -578,7 +571,7 @@
         - fi: "Lukkari"
           en: "Song Leader"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Jesperi Hilden"
+    - name: "Jesperi Hildén"
       title:
         - fi: "Lukkari"
           en: "Song Leader"
@@ -592,12 +585,12 @@
       title:
         - fi: "Lukkari"
           en: "Song Leader"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Arttu Pahta"
       title:
         - fi: "Lukkari"
           en: "Song Leader"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/arttu_pahta_2.jpg"
     - name: "Nuutti Laine"
       title:
         - fi: "Lukkari"
@@ -613,11 +606,11 @@
     fi: "ASkitoimikunta"
     en: "ASki Committee"
   members:
-    - name: "Santeri Hilden"
+    - name: "Santeri Hildén"
       title:
         - fi: "ASkimestari"
           en: "ASkiMaster"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/santeri_hilden.jpg"
       leader: true
     - name: "Ossi Syrjälahti"
       title:
@@ -635,7 +628,7 @@
         - fi: "ASkivahti"
           en: "ASki Guardian"
       picture: "../images/officials/2023/elias_erke.jpg"
-    - name: "Yani Zhibin"
+    - name: "Zhibin Yan"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
@@ -694,13 +687,13 @@
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/jyri_kolu.jpg"
     - name: "Uuno Huuskonen"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Jesperi Hilden"
+    - name: "Jesperi Hildén"
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
@@ -767,21 +760,16 @@
         - fi: "Account Manager"
           en: "Account Manager"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Nia Lehtonen"
-      title:
-        - fi: "AS25-vastaava"
-          en: "AS25-Liaison"
-      picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Aino Valkama"
+    - name: "Leevi Hormaluoma"
       title:
         - fi: "AS Puheenjohtaja"
           en: "AS Chairperson"
-      picture: "../images/officials/2023/aino_valkama.jpg"
-    - name: "Linda Åström"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
+    - name: "Rafael Majaharju"
       title:
         - fi: "AS Rahastonhoitaja"
           en: "AS Treasurer"
-      picture: "../images/officials/2023/linda_astrom.jpg"
+      picture: "../images/officials/2024/rafael_majaharju.jpg"
     - name: "Lucas Käldström"
       title:
         - fi: "Vanha yrityssuhdevastaava"
@@ -808,11 +796,11 @@
           en: "Treasurer"
       picture: "../images/officials/2024/rafael_majaharju.jpg"
       leader: true
-    - name: "Lucas Käldström"
+    - name: "Linda Åström"
       title:
         - fi: "Vanha rahastonhoitaja"
           en: "Old Treasurer"
-      picture: "../images/officials/2023/lucas_kaldstrom.jpg"
+      picture: "../images/officials/2023/linda_astrom.jpg"
 
 - name:
     fi: "Mediatoimikunta"
@@ -883,7 +871,7 @@
         - fi: "Dokumentoija"
           en: "Photographer"
       picture: "../images/officials/2023/mikko_vanhanen.jpg"
-    - name: "Meri Hildén"
+    - name: "Meri Hilden"
       title:
         - fi: "Graafikko"
           en: "Graphical Designer"
@@ -899,7 +887,7 @@
       title:
         - fi: "Graafikko"
           en: "Graphical Designer"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2024/akseli_pihlajamaa.jpg"
     - name: "Lotta Makkonen"
       title:
         - fi: "Kääntäjä/Oikolukija"
@@ -914,7 +902,7 @@
       title:
         - fi: "Graafikko"
           en: "Graphic designer"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2024/elina_leinio.jpg"
 
 - name:
     fi: "Säätötoimikunta"
@@ -986,7 +974,7 @@
       title:
         - fi: "Säätökisälli"
           en: "Tinkerer"
-      picture: "../images/officials/2023/miska_mynttinen.jpg"
+      picture: "../images/officials/2024/akseli_pihlajamaa.jpg"
     - name: "Severi Casserly"
       title:
         - fi: "Säätökisälli"
@@ -1048,7 +1036,7 @@
       title:
         - fi: "Depressantti"
           en: "Depressant"
-      picture: "../images/officials/2023/leevi_hormaluoma.jpg"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Laura Häkkinen"
       title:
         - fi: "Depressantti"
@@ -1074,7 +1062,7 @@
         - fi: "Depressantti"
           en: "Depressant"
       picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Santeri Hilden"
+    - name: "Santeri Hildén"
       title:
         - fi: "Depressantti"
           en: "Depressant"
@@ -1135,12 +1123,12 @@
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
-      picture: "../images/officials/2023/ariana_marta.jpg"
+      picture: "../images/officials/aebaej_placeholder.png"
     - name: "Pyry Lysmä"
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
-      picture: "../images/officials/2023/david_rombach.jpg"
+      picture: "../images/officials/aebaej_placeholder.png"
     - name: "Akseli Leino"
       title:
         - fi: "Retkisälli"
@@ -1269,7 +1257,7 @@
         - fi: "Stikkerisälli"
           en: "Sticker"
       picture: "../images/officials/2024/jenny_ruokolainen.jpg"
-    - name: "Santeri Hilden"
+    - name: "Santeri Hildén"
       title:
         - fi: "Stikkerisälli"
           en: "Sticker"
@@ -1308,7 +1296,7 @@
       title:
         - fi: "Stikkerisälli"
           en: "Sticker"
-      picture: "../images/officials/2023/leila_lavonen.jpg"
+      picture: "../images/officials/2024/leila_lavonen.jpg"
     - name: "Janina Kemppainen"
       title:
         - fi: "Stikkerisälli"
@@ -1389,52 +1377,12 @@
     fi: "International Committee"
     en: "International Committee"
   members:
-    - name: "Anthony Reineck"
+    - name: "Amr Abass"
       title:
         - fi: "Master's and International Student Captain (MISC)"
           en: "Master's and International Student Captain (MISC)"
-      picture: "../images/officials/2023/anthony_reineck.jpg"
+      picture: "../images/officials/2024/amr_abass.jpg"
       leader: true
-    - name: "Beatriz Glaser"
-      title:
-        - fi: "DSDeputy"
-          en: "DSDeputy"
-      picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Mimi Määttä"
-      title:
-        - fi: "International Committee Member"
-          en: "International Committee Member"
-      picture: "../images/officials/2023/mimi_maatta_2.jpg"
-    - name: "Amr Abass"
-      title:
-        - fi: "International Committee Member"
-          en: "International Committee Member"
-      picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Lucas Käldström"
-      title:
-        - fi: "International Committee Member"
-          en: "International Committee Member"
-      picture: "../images/officials/2023/lucas_kaldstrom.jpg"
-    - name: "Oskari Helosuo"
-      title:
-        - fi: "International Committee Member"
-          en: "International Committee Member"
-      picture: "../images/officials/2023/oskari_helosuo.jpg"
-    - name: "Mohammad Shahidul"
-      title:
-        - fi: "International Committee Member"
-          en: "International Committee Member"
-      picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Kabir Bissessar"
-      title:
-        - fi: "International Committee Member"
-          en: "International Committee Member"
-      picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Sylvia Cressman"
-      title:
-        - fi: "International Committee Member"
-          en: "International Committee Member"
-      picture: "../images/officials/2023/sylvia_cressman.jpg"
 
 - name:
     fi: "N-toimikunta"
@@ -1476,7 +1424,7 @@
       title:
         - fi: "1 (yksi)"
           en: "1 (one)"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/arttu_pahta_2.jpg"
     - name: "Jaakko Heikkinen"
       title:
         - fi: "1 (yksi)"
@@ -1511,12 +1459,12 @@
       title:
         - fi: "1 (yksi)"
           en: "1 (one)"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/meri_hiipakka.jpg"
     - name: "Jimi Oksman"
       title:
         - fi: "1 (yksi)"
           en: "1 (one)"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/jimi_oksman.jpg"
 
 - name:
     fi: "Ulkoexcutoimikunta"
@@ -1543,7 +1491,7 @@
       title:
         - fi: "Ulkoexcutoimikunnan jäsen"
           en: "Member of Foreign Excursion Committee"
-      picture: "../images/officials/2023/kiira_metsoila.jpg"
+      picture: "../images/officials/2023/kiira_metsoila_2.jpg"
     - name: "Pinja Mäkeläinen"
       title:
         - fi: "Ulkoexcutoimikunnan jäsen"
@@ -1599,7 +1547,7 @@
       title:
         - fi: "Torpedo"
           en: "Torpedo"
-      picture: "../images/officials/2023/arttu_pahta.jpg"
+      picture: "../images/officials/2023/arttu_pahta_2.jpg"
     - name: "Meri Hilden"
       title:
         - fi: "Torpedo"
@@ -1654,14 +1602,14 @@
       title:
         - fi: "Ylikorppi"
           en: "Head Raven"
-      picture: "../images/officials/2023/kiira_metsoila_2.jpg"
+      picture: "../images/officials/2023/emilia_kuisma.jpg"
       leader: true
     - name: "Aino Valkama"
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"
-    - name: "Niina Tapananinen"
+      picture: "../images/officials/2023/aino_valkama.jpg"
+    - name: "Niina Tapanainen"
       title:
         - fi: "Korppi"
           en: "Raven"
@@ -1670,12 +1618,12 @@
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/lotta_makkonen.jpg"
     - name: "Kiira Metsoila"
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/kiira_metsoila_2.jpg"
     - name: "Juuso Määttä"
       title:
         - fi: "Korppi"
@@ -1685,7 +1633,7 @@
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Lucas Käldström"
       title:
         - fi: "Korppi"
@@ -1695,7 +1643,7 @@
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"  
+      picture: "../images/officials/2023/elias_erke.jpg"  
     - name: "Pinja Mäkeläinen"
       title:
         - fi: "Korppi"
@@ -1705,7 +1653,7 @@
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/jyri_kolu.jpg"
     - name: "Severi Casserly"
       title:
         - fi: "Korppi"
@@ -1725,12 +1673,12 @@
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/jimi_oksman.jpg"
     - name: "Meri Hiipakka"
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/meri_hiipakka.jpg"
 
 - name:
     fi: "Toimikuntien ulkopuolelta"
@@ -1740,12 +1688,12 @@
       title:
         - fi: "Toiminnantarkastaja"
           en: "Inspector"
-      picture: "../images/officials/2023/sakari_ropponen.jpg"
+      picture: "../images/officials/2023/meri_hiipakka.jpg"
     - name: "Jimi Oksman"
       title:
         - fi: "Toiminnantarkastaja"
           en: "Inspector"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/jimi_oksman.jpg"
     - name: "Juuso Määttä"
       title:
         - fi: "Varatoiminnantarkastaja"
