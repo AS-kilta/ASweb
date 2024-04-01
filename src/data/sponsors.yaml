@@ -46,10 +46,6 @@
   link: "https://trombia.com"
   picture: "../images/sponsors/trombia.jpeg"
 
-- name: "Prosys opc"
-  link: "https://prosysopc.com"
-  picture: "../images/sponsors/prosys_opc.png"
-
 - name: "Tietoevry"
   link: "https://tietoevry.com/"
   picture: "../images/sponsors/tietoevry.png"
