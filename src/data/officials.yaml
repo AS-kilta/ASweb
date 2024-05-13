@@ -6,7 +6,7 @@
       title:
         - fi: "Fuksikapteeni"
           en: "Fuksi Captain"
-      picture: "../images/officials/2024/jenny_ruokolainen.jpeg"
+      picture: "../images/officials/2024/jenny_ruokolainen.jpg"
       leader: true
     - name: "Eero Huhtala"
       title:
@@ -67,7 +67,7 @@
       title:
         - fi: "Tosi-ISO"
           en: "Really ISO"
-      picture: "../images/officials/2024/eeva_jarvenpaa.jpeg"
+      picture: "../images/officials/2024/eeva_jarvenpaa.jpg"
     - name: "Santeri Hildén"
       title:
         - fi: "Tosi-ISO"
@@ -92,7 +92,7 @@
       title:
         - fi: "FuksikontRolleri"
           en: "Fuksi contRoller"
-      picture: "../images/officials/2024/leevi_hormaluoma.jpeg"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Tuomas Nykänen"
       title:
         - fi: "FuksikontRolleri"
@@ -186,7 +186,7 @@
       title:
         - fi: "Kulttuurimestari"
           en: "Master of Culture"
-      picture: "../images/officials/2024/elina_leinio.jpeg"
+      picture: "../images/officials/2024/elina_leinio.jpg"
       leader: true
     - name: "Lotta Makkonen"
       title:
@@ -209,7 +209,7 @@
       title:
         - fi: "Kultsi"
           en: "Cultist"
-      picture: "../images/officials/2024/eeva_jarvenpaa.jpeg"
+      picture: "../images/officials/2024/eeva_jarvenpaa.jpg"
     - name: "Mikko Vanhanen"
       title:
         - fi: "Kultsi"
@@ -379,7 +379,7 @@
       title:
         - fi: "Emäntä"
           en: "Hostess"
-      picture: "../images/officials/2024/eeva_jarvenpaa.jpeg"
+      picture: "../images/officials/2024/eeva_jarvenpaa.jpg"
       leader: true
     - name: "Leila Lavonen"
       title:
@@ -401,7 +401,7 @@
       title:
         - fi: "MinIEns"
           en: "MinIEns"
-      picture: "../images/officials/2024/erno.laavola.jpeg"
+      picture: "../images/officials/2024/erno_laavola.jpeg"
     - name: "Emilia Junnonen"
       title:
         - fi: "MinIEns"
@@ -585,7 +585,7 @@
       title:
         - fi: "Lukkari"
           en: "Song Leader"
-      picture: "../images/officials/2024/leevi_hormaluoma.jpeg"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Arttu Pahta"
       title:
         - fi: "Lukkari"
@@ -662,7 +662,7 @@
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "../images/officials/2024/daniel_ruotsi.jpeg"
+      picture: "../images/officials/2024/daniel_ruotsi.jpg"
     - name: "Arttu Härmälä"
       title:
         - fi: "ASkivahti"
@@ -708,7 +708,7 @@
       title:
         - fi: "Vakooja"
           en: "Vakooja"
-      picture: "../images/officials/2024/eeva_jarvenpaa.jpeg"
+      picture: "../images/officials/2024/eeva_jarvenpaa.jpg"
     - name: "Janina Kemppainen"
       title:
         - fi: "Vakooja"
@@ -764,7 +764,7 @@
       title:
         - fi: "AS Puheenjohtaja"
           en: "AS Chairperson"
-      picture: "../images/officials/2024/leevi_hormaluoma.jpeg"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Rafael Majaharju"
       title:
         - fi: "AS Rahastonhoitaja"
@@ -841,7 +841,7 @@
           en: "Photographer"
         - fi: "Graafikko"
           en: "Graphic designer"
-      picture: "../images/officials/2024/leevi_hormaluoma.jpeg"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Aino Valkama"
       title:
         - fi: "Dokumentoija"
@@ -902,7 +902,7 @@
       title:
         - fi: "Graafikko"
           en: "Graphic designer"
-      picture: "../images/officials/2024/elina_leinio.jpeg"
+      picture: "../images/officials/2024/elina_leinio.jpg"
 
 - name:
     fi: "Säätötoimikunta"
@@ -1036,7 +1036,7 @@
       title:
         - fi: "Depressantti"
           en: "Depressant"
-      picture: "../images/officials/2024/leevi_hormaluoma.jpeg"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Laura Häkkinen"
       title:
         - fi: "Depressantti"
@@ -1051,7 +1051,7 @@
       title:
         - fi: "Depressantti"
           en: "Depressant"
-      picture: "../images/officials/2024/elina_leinio.jpeg"
+      picture: "../images/officials/2024/elina_leinio.jpg"
     - name: "Janina Kemppainen"
       title:
         - fi: "Depressantti"
@@ -1143,7 +1143,7 @@
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2023/aleksanteri_pitkenin.jpg"
     - name: "Leena Jääskeläinen"
       title:
         - fi: "Retkisälli"
@@ -1174,7 +1174,7 @@
       title:
         - fi: "Kultainen Toimittaja"
           en: "Golden Editor"
-      picture: "../images/officials/2024/elina_leinio.jpeg"
+      picture: "../images/officials/2024/elina_leinio.jpg"
     - name: "Kiira Metsoila"
       title:
         - fi: "Kultainen Toimittaja"
@@ -1251,12 +1251,12 @@
       title:
         - fi: "Stikkerisälli"
           en: "Sticker"
-      picture: "../images/officials/2024/eeva_jarvenpaa.jpeg"
+      picture: "../images/officials/2024/eeva_jarvenpaa.jpg"
     - name: "Jenny Ruokolainen"
       title:
         - fi: "Stikkerisälli"
           en: "Sticker"
-      picture: "../images/officials/2024/jenny_ruokolainen.jpeg"
+      picture: "../images/officials/2024/jenny_ruokolainen.jpg"
     - name: "Santeri Hildén"
       title:
         - fi: "Stikkerisälli"
@@ -1281,7 +1281,7 @@
       title:
         - fi: "Stikkerisälli"
           en: "Sticker"
-      picture: "../images/officials/2024/veeti_kittamaa"
+      picture: "../images/officials/2024/veeti_kittamaa.jpeg"
     - name: "Erkka Multanen"
       title:
         - fi: "Stikkerisälli"
@@ -1567,7 +1567,7 @@
       title:
         - fi: "Torpedo"
           en: "Torpedo"
-      picture: "../images/officials/2024/elina_leinio.jpeg"
+      picture: "../images/officials/2024/elina_leinio.jpg"
     - name: "Mikko Vanhanen"
       title:
         - fi: "Torpedo"
@@ -1633,7 +1633,7 @@
       title:
         - fi: "Korppi"
           en: "Raven"
-      picture: "../images/officials/2024/leevi_hormaluoma.jpeg"
+      picture: "../images/officials/2024/leevi_hormaluoma.jpg"
     - name: "Lucas Käldström"
       title:
         - fi: "Korppi"
