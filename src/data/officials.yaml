@@ -334,7 +334,7 @@
       title:
         - fi: "Liikkuja"
           en: "Sports Manager"
-      picture: "../images/officials/2024/arttu_harmala.jpeg"
+      picture: "../images/officials/2024/arttu_harmala.jpg"
     - name: "Kaarle Sarnes"
       title:
         - fi: "Liikkuja"
@@ -667,7 +667,7 @@
       title:
         - fi: "ASkivahti"
           en: "ASki Guardian"
-      picture: "../images/officials/2024/arttu_harmala.jpeg"
+      picture: "../images/officials/2024/arttu_harmala.jpg"
     - name: "Tõnis Pärtel"
       title:
         - fi: "ASkivahti"
@@ -801,6 +801,36 @@
         - fi: "Vanha rahastonhoitaja"
           en: "Old Treasurer"
       picture: "../images/officials/2023/linda_astrom.jpg"
+    - name: "Henrik Starck"
+      title:
+        - fi: "Kolikonkiertäjä"
+          en: "Member of Committee"
+      picture: "../images/officials/2024/henrik_starck.jpeg"
+    - name: "Jaakko Aalto"
+      title:
+        - fi: "Kolikonkiertäjä"
+          en: "Member of Committee"
+      picture: "../images/officials/2024/jaakko_aalto.jpeg"
+    - name: "Lucas Käldström"
+      title:
+        - fi: "Kolikonkiertäjä"
+          en: "Member of Committee"
+      picture: "../images/officials/2023/lucas_kaldstrom.jpg"
+    - name: "Mika Viirret"
+      title:
+        - fi: "Kolikonkiertäjä"
+          en: "Member of Committee"
+      picture: "../images/officials/2024/mika_viirret.jpeg"
+    - name: "Mikko Vanhanen"
+      title:
+        - fi: "Kolikonkiertäjä"
+          en: "Member of Committee"
+      picture: "../images/officials/2024/mikko_vanhanen.jpg"
+    - name: "Säde Mikkonen"
+      title:
+        - fi: "Kolikonkiertäjä"
+          en: "Member of Committee"
+      picture: "../images/officials/2024/sade_mikkonen.jpg"
 
 - name:
     fi: "Mediatoimikunta"
@@ -1356,7 +1386,7 @@
       title:
         - fi: "Stikkerisälli"
           en: "Sticker"
-      picture: "../images/officials/2024/arttu_harmala.jpeg"
+      picture: "../images/officials/2024/arttu_harmala.jpg"
     - name: "Erno Westerholm"
       title:
         - fi: "Stikkerisälli"
@@ -1383,6 +1413,63 @@
           en: "Master's and International Student Captain (MISC)"
       picture: "../images/officials/2024/amr_abass.jpg"
       leader: true
+    - name: "Lotta Hannelius"
+      title:
+        - fi: "Master's and International Student Captain (MISC)"
+          en: "Master's and International Student Captain (MISC)"
+      picture: "../images/officials/aebaej_placeholder.png"
+      leader: true
+    - name: "Oskari Mattila"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/aebaej_placeholder.png"
+    - name: "Apollo Ailus"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/2024/apollo_ailus.jpeg"
+    - name: "Ariana Marta"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/2023/ariana_marta.jpg"
+    - name: "Kabir Bissessar"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/2024/kabir_bissessar.jpeg"
+    - name: "Jaakko Tiiri"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/2024/jaakko_tiiri.jpeg"
+    - name: "Nam Nguyen"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/2024/nam_nguyen,jpeg"
+    - name: "Lukas Bletsas"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/aebaej_placeholder.png"
+    - name: "Riccardo Brillato"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/aebaej_placeholder.png"
+    - name: "Sylvia Cressman"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/2024/sylvia.cressman.jpg"
+    - name: "Syed Ali Raza"
+      title:
+        - fi: "Miscellaneous"
+          en: "Miscellaneous"
+      picture: "../images/officials/aebaej_placeholder.png"
+
 
 - name:
     fi: "N-toimikunta"
