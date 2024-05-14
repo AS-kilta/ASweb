@@ -96,7 +96,7 @@ export const Head: HeadFC<HeadProps> = () => (
 
 export const query = graphql`
   query ImgQuery {
-    file(relativePath: {eq: "officials/aebaej_placeholder.png"}) {
+    file(relativePath: {eq: "officials/2024/akseli_pihlajamaa.jpg"}) {
       childImageSharp {
         gatsbyImageData (
           placeholder: BLURRED
