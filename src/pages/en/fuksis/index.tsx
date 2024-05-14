@@ -72,7 +72,7 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
         </h3>
         <div>
             <p>Otaniemi's most used application for communication and information. Telegram, known as "tg" among friends, is definitely Otaniemi teekkari's most important application. In its basic functions, it resembles any messaging app, but its additional features have captured the hearts of the teekkaris. It contains, for example, stickers, and also works online or on a computer!</p>
-            <p>Telegram is also used as an essential part of informing fuksis, and we hope that all fuksis would join the Telegram group for AS fuksis <a href="https://bit.ly/fuksit23">bit.ly/fuksit23</a> and DSD fuksis also join the own Telegram group for DSD fuksis <a href="https://bit.ly/DSDfuksis23">bit.ly/DSDfuksis23</a></p>
+            <p>Telegram is also used as an essential part of informing fuksis, and we hope that all fuksis would join the Telegram group for AS fuksis <a href="https://t.me/+_yeZhoidAME0OWVk">fuksit 24</a> and DSD fuksis also join the own Telegram group for DSD fuksis <a href="https://t.me/+iu3puQEDrWcxNzY8">DSD fuksit 24</a></p>
         </div>
 
         <h3 id="Guild">
