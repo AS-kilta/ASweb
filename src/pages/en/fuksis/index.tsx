@@ -9,6 +9,8 @@ import PageLayout from "@src/components/layouts/PageLayout"
 import ContactCard from "@src/components/profiles/ContactCard"
 import CircleCard from "@src/components/common/CircleCard"
 import heropic from "@src/images/images/20230502154358-1c055172-xx.jpg"
+import fuksicaptain1 from "@src/images/officials/2024/jenny_ruokolainen.jpg"
+import fuksicaptain2 from "@src/images/officials/2024/eero_huhtala.jpg"
 
 interface Props extends PageProps {
     data: ImageArrayProps
@@ -17,20 +19,20 @@ interface Props extends PageProps {
 const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
     const data1 = {
         title: 'Fuksicaptain',
-        name: 'Leevi Hormaluoma',
+        name: 'Jenny Ruokolainen',
         email: 'fuksikapteenit@as.fi',
-        phone: '+358 400366690',
-        telegram: '@pelleevi',
-        picture: data.allFile.nodes.find((file: DynamicImageData) => file.base === "leevi_hormaluoma.jpg"),
+        phone: '+358452087899',
+        telegram: '@jequilaaa',
+        picture: fuksicaptain1,
     };
 
     const data2 = {
         title: 'Fuksicaptain',
-        name: 'Tuomas Nykänen',
+        name: 'Eero Huhtala',
         email: 'fuksikapteenit@as.fi',
-        phone: '+358 440160401',
-        telegram: '@Ykanen',
-        picture: data.allFile.nodes.find((file: DynamicImageData) => file.base === "tuomas_nykanen.jpg"),
+        phone: '+358505977876',
+        telegram: '@epasovelias',
+        picture: fuksicaptain2,
     };
 
     const styleCard= {"--profile-img-size": "20rem", marginBottom: "5rem"} as React.CSSProperties;
