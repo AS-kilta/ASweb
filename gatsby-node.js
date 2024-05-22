@@ -118,6 +118,15 @@ exports.createSchemaCustomization = ({ actions }) => {
       heroHeight: String
       robots: String
     }
+    type CounselorYaml implements Node {
+      title: TranslatedMetadata!
+      name: String!
+      email: String!
+      phone: String
+      telegram: String!
+      picture: File @fileByRelativePath
+      description: TranslatedMetadata
+    }
   `
   createTypes(typeDefs)
 }

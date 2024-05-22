@@ -5,6 +5,9 @@
   email: "arttu.pahta@as.fi"
   telegram: "arupto"
   picture: "../images/officials/2023/arttu_pahta.jpg"
+  description:
+    fi: "Poissa 11.2. – 30.6."
+    en: "Away for 11.2. – 30.6."
 
 
 - title:
@@ -30,7 +33,9 @@
   email: "mimi.maatta@as.fi"
   telegram: "mimimaat"
   picture: "../images/officials/2023/mimi_maatta.jpg"
-  description: "Contact only in English"
+  description:
+    fi: "Yhteydenotot vain englanniksi"
+    en: "Contact only in English"
 
 - title:
     fi: "Häirintäyhdyshenkilö"
