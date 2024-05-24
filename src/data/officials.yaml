@@ -426,7 +426,7 @@
       title:
         - fi: "MinIEns"
           en: "MinIEns"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2024/joel_forsstrom.jpg"
     - name: "Nia Lehtonen"
       title:
         - fi: "MinIEns"
@@ -601,7 +601,11 @@
         - fi: "Lukkari"
           en: "Song Leader"
       picture: "../images/officials/aebaej_placeholder.png"
-
+    - name: "Joel Forsström"
+      title:
+        - fi: "Lukkari"
+          en: "Song Leader"
+      picture: "../images/officials/2024/joel_forsstrom.jpg"
 - name:
     fi: "ASkitoimikunta"
     en: "ASki Committee"
@@ -1128,7 +1132,7 @@
       title:
         - fi: "Retkisälli"
           en: "Trip-prentice"
-      picture: "../images/officials/aebaej_placeholder.png"
+      picture: "../images/officials/2024/joel_forsstrom.jpg"
     - name: "Joonas Seppälä"
       title:
         - fi: "Retkisälli"
