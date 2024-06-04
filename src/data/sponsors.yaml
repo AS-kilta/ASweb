@@ -1,36 +1,36 @@
-- name: "Reaktor"
+- name: "Reaktor" # expires in 30.6.2024
   link: "https://reaktor.com/"
   picture: "../images/sponsors/reaktor_white.png"
 
-- name: "Tuxera"
+- name: "Tuxera" # expires in 31.5.2024
   link: "https://www.tuxera.com/"
   picture: "../images/sponsors/tuxera_red.png"
 
-- name: "ABB"
+- name: "ABB" # expires in 30.6.2025
   link: "https://new.abb.com/fi/"
   picture: "../images/sponsors/ABB.png"
 
-- name: "Accenture"
+- name: "Accenture" # expires in 1.4.2024
   link: "https://www.accenture.com/fi-en"
   picture: "../images/sponsors/accenture.png"
 
-- name: "Valmet"
+- name: "Valmet" # expires in 31.8.2024
   link: "https://www.valmet.com/"
   picture: "../images/sponsors/valmet_white.png"
 
-- name: "ThermoFisher"
+- name: "ThermoFisher" # expires in 31.8.2024
   link: "https://www.thermofisher.com/fi/en/home.html"
   picture: "../images/sponsors/thermo_fisher.png"
 
-- name: "CGI"
+- name: "CGI" # expires in 1.8.2024
   link: "https://www.cgi.com/fi/fi"
   picture: "../images/sponsors/cgi.png"
 
-- name: "ATalent"
+- name: "ATalent" # expires in 1.9.2024
   link: "https://atalent.fi/"
   picture: "../images/sponsors/aTalent_Logo_White.png"
 
-- name: "Sandvik"
+- name: "Sandvik" # expires in 30.6.2024
   link: "https://www.home.sandvik/en/"
   picture: "../images/sponsors/sandvik.png"
 
@@ -38,22 +38,14 @@
   link: "https://finago.com/"
   picture: "../images/sponsors/accountor_logo.png"
 
-- name: "Eficode"
-  link: "https://eficode.com"
-  picture: "../images/sponsors/Eficode_logo.png"
-
-- name: "Trombia"
-  link: "https://trombia.com"
-  picture: "../images/sponsors/trombia.jpeg"
-
-- name: "Tietoevry"
+- name: "Tietoevry" # expires in 28.2.2025
   link: "https://tietoevry.com/"
   picture: "../images/sponsors/tietoevry.png"
 
-- name: "Nokia"
+- name: "Nokia" # expires in 30.4.2024
   link: "https://nokia.com/"
   picture: "../images/sponsors/nokia.png"
 
-- name: "FGI"
+- name: "FGI" # 31.10.2024
   link: "https://maanmittauslaitos.fi/"
   picture: "../images/sponsors/FGI.jpg"
