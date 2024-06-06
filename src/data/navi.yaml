@@ -65,6 +65,19 @@
         fi: "/fuksis/teekkariculture"
         en: "/en/fuksis/teekkariculture"
 - title:
+    fi: "Opinnot"
+    en: "Studies"
+  link:
+    fi: "/studies"
+    en: "/en/studies"
+  subnavi:
+    - title:
+        fi: "Edunvalvonta"
+        en: "Advocacy"
+      link:
+        fi: "/studies/advocacy"
+        en: "/en/studies/advocacy"
+- title:
     fi: "Yrityksille"
     en: "Corporate Relations"
   link:
