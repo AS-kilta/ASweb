@@ -1,0 +1,55 @@
+.cardlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2.5em;
+}
+
+.table {
+  max-width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.list {
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  max-width: 700px;
+}
+
+.sidePanel {
+  margin-top: -2rem;
+  max-width: 600px;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.sideList {
+  margin-top: 15px;
+  line-height: 1.6rem;
+  a {
+
+    font-weight: 600;
+  }
+}
+
+li{
+  margin-left: 15px;
+}
+
+.body {
+  max-width: 1000px;
+  margin-top: 1.5rem;
+}
+
+.imageLarge {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: min(700px, 80%);
+}
