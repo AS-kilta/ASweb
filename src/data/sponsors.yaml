@@ -34,6 +34,10 @@
   link: "https://www.home.sandvik/en/"
   picture: "../images/sponsors/sandvik.png"
 
+- name: "Ericsson" # expires in 30.12.2026
+  link: "https://ericsson.com/"
+  picture: "../images/sponsors/ericsson_white.png"
+
 - name: "Accountor"
   link: "https://finago.com/"
   picture: "../images/sponsors/accountor_logo.png"
