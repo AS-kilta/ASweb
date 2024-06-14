@@ -64,6 +64,12 @@
       link:
         fi: "/fuksis/teekkariculture"
         en: "/en/fuksis/teekkariculture"
+    - title:
+#        fi: "Orientaatioviikko"
+        en: "Orientation week"
+      link:
+#        fi: "/fuksis/orientationweek"
+        en: "/en/fuksis/orientationweek"
 - title:
     fi: "Yrityksille"
     en: "Corporate Relations"
