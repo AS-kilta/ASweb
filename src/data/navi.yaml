@@ -65,10 +65,10 @@
         fi: "/fuksis/teekkariculture"
         en: "/en/fuksis/teekkariculture"
     - title:
-        fi: "Orientaatioviikko"
+#        fi: "Orientaatioviikko"
         en: "Orientation week"
       link:
-        fi: "/fuksis/orientationweek"
+#        fi: "/fuksis/orientationweek"
         en: "/en/fuksis/orientationweek"
 - title:
     fi: "Yrityksille"
