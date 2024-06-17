@@ -22,5 +22,5 @@ const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
 export default ArchivePage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="Archive" robots="none"/>
+  <Meta lang="en" title="Archive" robots="none" />
 )
