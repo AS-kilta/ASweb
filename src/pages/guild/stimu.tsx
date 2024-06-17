@@ -5,17 +5,17 @@ import PageLayout from "@src/components/layouts/PageLayout"
 import * as style from "./stimu.modules.scss"
 import { StaticImage } from "gatsby-plugin-image"
 
-
 const BoardPage: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout pageContext={pageContext} title="Stimulaatio hype!!">
-        <div id="stimu">
-            <StaticImage className={style.stimu}
-                src="../../images/logo_tekstilla.svg"
-                alt="Something's wrong I can feel it..."
-                placeholder="none"
-            />
-        </div>
+      <div id="stimu">
+        <StaticImage
+          className={style.stimu}
+          src="../../images/logo_tekstilla.svg"
+          alt="Something's wrong I can feel it..."
+          placeholder="none"
+        />
+      </div>
     </PageLayout>
   )
 }
@@ -23,5 +23,5 @@ const BoardPage: React.FC<PageProps> = ({ pageContext }) => {
 export default BoardPage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Stimulaatio" robots="none"/>
+  <Meta lang="fi" title="Stimulaatio" robots="none" />
 )

@@ -5,8 +5,12 @@ import PageLayout from "@src/components/layouts/PageLayout"
 
 const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
   return (
-    <PageLayout pageContext={pageContext} title="Fuksiopas 2024" lead="Psst! Tätä sivua kannattaa tulla katsomaan kesäkuun loppupuolella">
-      <div style={{width: "100%"}}>
+    <PageLayout
+      pageContext={pageContext}
+      title="Fuksiopas 2024"
+      lead="Psst! Tätä sivua kannattaa tulla katsomaan kesäkuun loppupuolella"
+    >
+      <div style={{ width: "100%" }}>
       </div>
     </PageLayout>
   )

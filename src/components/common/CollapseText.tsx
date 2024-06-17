@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react"
 import * as style from "./CollapseText.module.scss"
-import { BsPlus, BsDash } from "react-icons/bs"
+import { BsDash, BsPlus } from "react-icons/bs"
 
 interface Props {
-  title: string,
-  expand?: boolean,
+  title: string
+  expand?: boolean
   children: React.ReactNode
 }
 
@@ -16,8 +16,9 @@ const CollapseText: React.FC<Props> = ({ title, expand, children }) => {
   }
 
   const toggleOnEnter = (e: React.KeyboardEvent): void => {
-    if (e.key === "Enter")
+    if (e.key === "Enter") {
       toggleCollapse()
+    }
   }
 
   useEffect(() => {
@@ -29,7 +30,11 @@ const CollapseText: React.FC<Props> = ({ title, expand, children }) => {
 
   return (
     <div className={style.container}>
-      <button className={style.titleRow} onClick={toggleCollapse} onKeyDown={toggleOnEnter}>
+      <button
+        className={style.titleRow}
+        onClick={toggleCollapse}
+        onKeyDown={toggleOnEnter}
+      >
         {title}
         {expanded ? <BsDash /> : <BsPlus />}
       </button>

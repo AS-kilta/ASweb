@@ -12,21 +12,22 @@ interface Props extends PageProps {
 }
 
 const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
-  const { title, lead, background, heroHeight, documentStyle } = data.mdx.frontmatter
+  const { title, lead, background, heroHeight, documentStyle } =
+    data.mdx.frontmatter
 
   return (
-      <PageLayout
-          pageContext={pageContext}
-          title={title}
-          lead={lead}
-          background={background}
-          heroHeight={heroHeight}
-          documentStyle={documentStyle}
-      >
-          <MDXProvider>
-              {children}
-          </MDXProvider>
-      </PageLayout>
+    <PageLayout
+      pageContext={pageContext}
+      title={title}
+      lead={lead}
+      background={background}
+      heroHeight={heroHeight}
+      documentStyle={documentStyle}
+    >
+      <MDXProvider>
+        {children}
+      </MDXProvider>
+    </PageLayout>
   )
 }
 
@@ -50,6 +51,10 @@ export const query = graphql`
 
 export default PageTemplate
 
-export const Head: HeadFC<MdxProps> = props => (
-  <Meta lang={props.data.mdx.fields.lang} title={props.data.mdx.frontmatter.title} robots={props.data.mdx.frontmatter.robots} />
+export const Head: HeadFC<MdxProps> = (props) => (
+  <Meta
+    lang={props.data.mdx.fields.lang}
+    title={props.data.mdx.frontmatter.title}
+    robots={props.data.mdx.frontmatter.robots}
+  />
 )

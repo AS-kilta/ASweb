@@ -7,9 +7,9 @@ import PageLayout from "@src/components/layouts/PageLayout"
 const ConfidentialCounselorPage: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout
-        pageContext={pageContext}
-        title="Confidential Counselors"
-        lead="Contact a Confidential Counselor if you see or encounter harassment in guild events or spaces."
+      pageContext={pageContext}
+      title="Confidential Counselors"
+      lead="Contact a Confidential Counselor if you see or encounter harassment in guild events or spaces."
     >
       <ConfidentialCounselors lang={pageContext.lang} />
     </PageLayout>
@@ -19,5 +19,5 @@ const ConfidentialCounselorPage: React.FC<PageProps> = ({ pageContext }) => {
 export default ConfidentialCounselorPage
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="Confidential Counselors" robots="none"/>
+  <Meta lang="en" title="Confidential Counselors" robots="none" />
 )
