@@ -13,5 +13,5 @@ const Abit: React.FC<PageProps> = ({ pageContext }) => {
 export default Abit
 
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="Did you mean IB?" robots="none"/>
+  <Meta lang="en" title="Did you mean IB?" robots="none" />
 )
