@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import ContactCard from "@src/components/profiles/ContactCard"
 import type { ContactInfo } from "@src/components/profiles/ContactCard"
-import * as style from "./Counselor.module.scss"
+import * as style from "./ConfidentialCounselor.module.scss"
 
 interface ConfidentialCounselor {
     node: {
@@ -12,6 +12,7 @@ interface ConfidentialCounselor {
         phone: string,
         telegram: string,
         picture: DynamicImageData,
+        description?: TranslatedEntry
     }
 }
 
@@ -42,6 +43,10 @@ const ConfidentialCounselors: React.FC<{lang: string}> = ({ lang }) => {
                                 )
                             }
                         }
+                        description {
+                            fi
+                            en
+                        }
                     }
                 }
             }
@@ -54,7 +59,8 @@ const ConfidentialCounselors: React.FC<{lang: string}> = ({ lang }) => {
                 const contactData: ContactInfo = {
                     ...member.node,
                     title: member.node.title[lang],
-                    picture: member.node.picture
+                    picture: member.node.picture,
+                    description: member.node.description ? member.node.description[lang] : undefined
                 }
                 return <ContactCard key={member.node.name} data={contactData} />
             })}
