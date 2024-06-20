@@ -23,8 +23,8 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
           <StaticImage className="centered-image" src='../../../images/images/DSD_timetable.jpg' alt='"DSD_timetable'/>
         </div>
         <div>
-          <p>More information about Universitys own program (blue slots) can be found <a target='_self' href='https://www.aalto.fi/en/programmes/aalto-bachelors-programme-in-science-and-technology/starting-your-studies'>here.</a></p>
-          <p>If you have any questions about the schedule or starting your studies, don't be afraid to message us at <strong>fuksikapteenit@as.fi</strong> or on telegram <strong>@fuksikapteenit</strong></p>
+          <p>More information about University's own program (blue slots) can be found <a target='_self' href='https://www.aalto.fi/en/programmes/aalto-bachelors-programme-in-science-and-technology/starting-your-studies'>here.</a></p>
+          <p>If you have any questions about the schedule or starting your studies, don't be afraid to message us at <a href="mailto:fuksikapteenit@as.fi.com">fuksikapteenit@as.fi</a> or on Telegram <a target='_self' href='https://t.me/fuksikapteenit'>@fuksikapteenit</a>.</p>
 
           <p>Have a lovely summer!</p>
           <p>Your Fuksi Captains: Eero and Jenny</p>
