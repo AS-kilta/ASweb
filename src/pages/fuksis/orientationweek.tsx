@@ -20,10 +20,10 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
         <div className="image-container">
           <p>Orientaatioviikko on hektistä aikaa, tekemistä on paljon!</p>
           <p>Tässä orientaatioviikon aikataulu, päivittelemme tätä parhaamme mukaan kesän aikana.</p>
-          <StaticImage className="centered-image" src='../../images/images/DSD_timetable.jpg' alt='"DSD_timetable'/>
+          <StaticImage className="centered-image" src='../../images/images/orientaation_aikataulu.jpg' alt='"DSD_timetable'/>
         </div>
         <div>
-          <p>If you have any questions about the schedule or starting your studies, don't be afraid to message us at fuksikapteenit@as.fi or on telegram @fuksikapteenit</p>
+          <p>Jos herää mitään kysymyksiä orientaatioviikosta tai opiskeluiden aloituksesta, laita pienellä kynnyksellä viestiä <a href="mailto:fuksikapteenit@as.fi.com">fuksikapteenit@as.fi</a> tai Telegramissa <a target='_self' href='https://t.me/fuksikapteenit'>@fuksikapteenit</a>.</p>
 
           <p>Nauttikaa kesästä!</p>
           <p>Fuksikapteenisi: Eero ja Jenny</p>
