@@ -8,10 +8,10 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout pageContext={pageContext} title="Fuksiopas 2024" lead="Fuksiopas sisältää kaiken, mitä sinun tarvitsee tietää tulevasta opiskelijaelämästä ja AS-killasta.">
       <div style={{width: "100%"}}>
         <a style={{marginBlock: "1rem"}} className="rounded-button"
-            target="_blank" href="https://drive.google.com/file/d/1P9KX03HQHQbtl-uvot5xUG3AmhMhCPGM/view?usp=sharing">
+            target="_blank" href="https://drive.google.com/file/d/1o2nUcE9bMQtjhzx45XA6PhdsAbkzPWmt/view?usp=sharing">
               Lataa PDF
           </a>
-          <iframe src="https://drive.google.com/file/d/1P9KX03HQHQbtl-uvot5xUG3AmhMhCPGM/preview" width="100%" height="800" allow="autoplay"></iframe>
+          <iframe src="https://drive.google.com/file/d/1o2nUcE9bMQtjhzx45XA6PhdsAbkzPWmt/preview" width="100%" height="800" allow="autoplay"></iframe>
       </div>
     </PageLayout>
   )
