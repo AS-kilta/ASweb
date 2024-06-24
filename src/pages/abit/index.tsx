@@ -145,8 +145,12 @@ const Abit: React.FC<Props> = ({ pageContext, data }) => {
 
 export default Abit
 
+const description: string =
+"Hei abi! Mietitkö jo, mihin hakisit lukion jälkeen opiskelemaan? Lue täältä lisää \
+automaation, robotiikan ja informaatioteknologian opinnoista Aalto-yliopistossa!"
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Abeille" />
+  <Meta lang="fi" title="Abeille" description={description} />
 )
 
 export const query = graphql`

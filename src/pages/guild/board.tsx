@@ -15,6 +15,9 @@ const BoardPage: React.FC<PageProps> = ({ pageContext }) => {
 
 export default BoardPage
 
+const description: string =
+"Täältä löydät killan hallituksen yhteystiedot. Koko hallituksen tavoittaa osoitteesta hallitus ät as.fi."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Hallitus" />
+  <Meta lang="fi" title="Hallitus" description={description} />
 )

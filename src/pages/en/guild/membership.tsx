@@ -32,6 +32,10 @@ const Membership: React.FC<PageProps> = ({ pageContext }) => {
 
 export default Membership
 
+const description: string =
+"As a guild member, you get the right to participate in guild events and use the guild room, as well as access to the guild's \
+e-mail lists. In addition, as a full member you get the right to vote at guild meetings."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="Membership" />
+  <Meta lang="en" title="Membership" description={description} />
 )

@@ -40,6 +40,11 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
 
 export default IndexPage
 
+const description: string = 
+"AS on opiskelijajärjestö, joka yhdistää Aalto-yliopiston opiskelijoita monelta eri alalta. \
+Kiltaamme kuuluu Automaation ja robotiikan, Informaatioteknologian ja Digital Systems and Designin \
+sekä niitä lähellä olevien tutkinto-ohjelmien opiskelijoita."
+
 export const Head: HeadFC<HeadProps> = () => (
-    <Meta lang="fi" />
+    <Meta lang="fi" description={description} />
 )
