@@ -51,6 +51,11 @@ const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
 
 export default ArchivePage
 
+const description: string =
+"The purpose of the guild is to unite students of automation and robotics, information technology and Digital Systems and Design, \
+and to promote their societal, social and intellectual aspirations, as well as their studies and the student's position in the \
+university and society, and to raise from them experts with a strong identity as a teekkari and a professional."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="Guild" />
+  <Meta lang="en" title="Guild" description={description} />
 )

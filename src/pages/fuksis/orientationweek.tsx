@@ -35,6 +35,8 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
 
 export default Orientaatioviikko
 
+const description: string = "Orientaatioviikon aikataulu fukseille"
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Orientaatioviikko" />
+  <Meta lang="fi" title="Orientaatioviikko" description={description} />
 )

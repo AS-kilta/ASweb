@@ -89,8 +89,10 @@ const Partners: React.FC<Props> = ({ pageContext, data }) => {
 
 export default Partners
 
+const description: string = "Hello company representative! On this page you can find more information about cooperation opportunities."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="Corporate relations" />
+  <Meta lang="en" title="Corporate relations" description={description} />
 )
 
 export const query = graphql`
