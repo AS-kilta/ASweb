@@ -222,5 +222,16 @@ main a {
         width: min(400px, 100%);
 
     }
+
+    .tall {
+        float: none;
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        height: min(500px, 50%);
+        width: min(400px, 100%);
+        margin-left: 0;
+    }
+
 }
 
