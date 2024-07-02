@@ -145,10 +145,13 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
 
 export default Fuksis
 
+const description: string = "Hi there, fuksi! Start by reading this."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="For Fuksis" />
+  <Meta lang="en" title="For Fuksis" description={description} />
 )
 
+/*
 export const query = graphql`
     query ImgQuery {
         allFile(filter: {relativePath: {in: [
@@ -167,3 +170,4 @@ export const query = graphql`
         }
     }
 `
+*/

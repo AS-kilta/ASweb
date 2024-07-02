@@ -14,6 +14,8 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
 
 export default Fuksiguide
 
+const description: string = "Psst! This page is worth a visit towards the end of June."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="en" title="Fuksiguide" />
+  <Meta lang="en" title="Fuksiguide" description={description} />
 )

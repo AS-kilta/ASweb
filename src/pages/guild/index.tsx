@@ -50,6 +50,11 @@ const ArchivePage: React.FC<PageProps> = ({ pageContext }) => {
 
 export default ArchivePage
 
+const description: string =
+"Killan tarkoituksena on yhdistää automaatio- ja robotiikan, informaatioteknologian ja Digital Systems and Design \
+opiskelijoita sekä edistää heidän yhteiskunnallisia, sosiaalisia ja henkisiä, sekä opiskeluun ja opiskelijan asemaan \
+yliopistossa ja yhteiskunnassa liittyviä pyrkimyksiä, sekä kasvattaa heistä teekkari- ja ammatti-identiteetiltään vahvoja osaajia."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Kilta" />
+  <Meta lang="fi" title="Kilta" description={description} />
 )
