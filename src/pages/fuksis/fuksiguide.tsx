@@ -19,6 +19,8 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
 
 export default Fuksiguide
 
+const description: string = "Fuksiopas sisältää kaiken, mitä sinun tarvitsee tietää tulevasta opiskelijaelämästä ja AS-killasta."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Fuksiopas" />
+  <Meta lang="fi" title="Fuksiopas" description={description} />
 )

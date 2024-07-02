@@ -90,8 +90,11 @@ const Partners: React.FC<Props> = ({ pageContext, data }) => {
 
 export default Partners
 
+const description: string =
+"Hei yrityksen edustaja! Tältä sivulta löydät lisätietoa yhteistyömahdollisuuksista."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Yrityksille" />
+  <Meta lang="fi" title="Yrityksille" description={description} />
 )
 
 export const query = graphql`
