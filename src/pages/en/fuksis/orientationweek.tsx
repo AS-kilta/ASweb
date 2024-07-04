@@ -10,7 +10,7 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout
       pageContext={pageContext}
-      title='Orientation week'
+      title='DSD Orientation week'
 //      background={heropic}
       heroHeight='short'
     >
