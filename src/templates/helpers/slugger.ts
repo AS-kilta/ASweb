@@ -3,7 +3,7 @@ export interface Slugs {
 }
 
 export function createSlug(title: string, slugs: Slugs) {
-  let slug: string = title
+  const slug: string = title
     .toLowerCase()
     .normalize('NFD')
     .replace(/[^a-z0-9 ]/g, '')
