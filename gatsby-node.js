@@ -114,6 +114,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String!
       layout: String
       lead: String
+      description: String
       background: String
       heroHeight: String
       robots: String
