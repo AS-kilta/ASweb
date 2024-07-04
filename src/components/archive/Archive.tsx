@@ -135,7 +135,7 @@ const Accolades: React.FC<{ accolades: Accolades; lang: string }> = ({ accolades
           );
         return (
           <CollapseText key={accolade.name} title={accolade.name}>
-            {accolade.description[lang].split('\n').map((paragraph: string, i: Number) => (
+            {accolade.description[lang].split('\n').map((paragraph: string, i: number) => (
               <p key={`${accolade.name}p${i}`} className={style.description}>
                 {paragraph}
               </p>
@@ -240,7 +240,7 @@ const Archive: React.FC<{ lang: string }> = ({ lang }) => {
       })}
       {data
         .filter((entry: ArchiveEntry) => !entry.year)
-        .map((entry: ArchiveEntry, i: Number) => {
+        .map((entry: ArchiveEntry, i: number) => {
           return (
             entry.accolades && (
               <Fragment key={`other-accolades-${i}`}>

@@ -8,7 +8,7 @@ interface Member {
   name: string;
   title: TranslatedEntry[];
   picture: DynamicImageData;
-  leader?: Boolean;
+  leader?: boolean;
 }
 
 interface Committee {
