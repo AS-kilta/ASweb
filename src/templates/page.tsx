@@ -1,35 +1,37 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import type { HeadFC } from 'gatsby';
+import React from "react"
+import { graphql } from "gatsby"
+import type { HeadFC } from "gatsby"
 
-import { MDXProvider } from '@mdx-js/react';
+import { MDXProvider } from "@mdx-js/react"
 
-import PageLayout from '@src/components/layouts/PageLayout';
-import Meta from '@src/components/common/Meta';
+import PageLayout from "@src/components/layouts/PageLayout"
+import Meta from "@src/components/common/Meta"
 
 interface Props extends PageProps {
-  data: MdxProps;
+  data: MdxProps
 }
 
 const PageTemplate: React.FC<Props> = ({ pageContext, data, children }) => {
-  const { title, lead, background, heroHeight, documentStyle } = data.mdx.frontmatter;
+  const { title, lead, background, heroHeight, documentStyle } = data.mdx.frontmatter
 
   return (
-    <PageLayout
-      pageContext={pageContext}
-      title={title}
-      lead={lead}
-      background={background}
-      heroHeight={heroHeight}
-      documentStyle={documentStyle}
-    >
-      <MDXProvider>{children}</MDXProvider>
-    </PageLayout>
-  );
-};
+      <PageLayout
+          pageContext={pageContext}
+          title={title}
+          lead={lead}
+          background={background}
+          heroHeight={heroHeight}
+          documentStyle={documentStyle}
+      >
+          <MDXProvider>
+              {children}
+          </MDXProvider>
+      </PageLayout>
+  )
+}
 
 export const query = graphql`
-  query ($id: String!) {
+  query($id: String!) {
     mdx(id: { eq: $id }) {
       fields {
         lang
@@ -37,6 +39,7 @@ export const query = graphql`
       frontmatter {
         title
         lead
+        description
         background
         heroHeight
         documentStyle
@@ -44,14 +47,15 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default PageTemplate;
+export default PageTemplate
 
-export const Head: HeadFC<MdxProps> = (props) => (
+export const Head: HeadFC<MdxProps> = props => (
   <Meta
     lang={props.data.mdx.fields.lang}
-    title={props.data.mdx.frontmatter.title}
+    title={props.data.mdx.frontmatter.title} 
+    description={props.data.mdx.frontmatter.description ?? props.data.mdx.frontmatter.lead}
     robots={props.data.mdx.frontmatter.robots}
   />
-);
+)
