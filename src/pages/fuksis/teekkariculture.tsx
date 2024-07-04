@@ -59,6 +59,8 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
 
 export default Teekkariculture
 
+const description: string = "Lyhyesti teekkarikulttuurista fukseille"
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Teekkarikulttuuri" />
+  <Meta lang="fi" title="Teekkarikulttuuri" description={description} />
 )
