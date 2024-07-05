@@ -1,69 +1,69 @@
-year: "2008"
+year: '2008'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Tommi Forsman"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Salum Abdul-Rahman"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Tommi Forsman'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Antti Kangasrääsiö"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Salum Abdul-Rahman'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Salla Ojala"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Antti Kangasrääsiö'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Paula Priha"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Juho Sundin"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Salla Ojala'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Johannes Aalto"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Paula Priha'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Sampo Torttila"
-  
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Juho Sundin'
+
   - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Antti Toivonen"
-  
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Johannes Aalto'
+
   - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Jani Kautto"
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Sampo Torttila'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Antti Toivonen'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Jani Kautto'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Taru Laamanen
         description:
-          fi: ""
-          en: ""
+          fi: ''
+          en: ''
       - name: Lauri Kovanen
         description:
-          fi: ""
-          en: ""
+          fi: ''
+          en: ''
       - name: Juha Koppinen
         description:
-          fi: ""
-          en: ""
+          fi: ''
+          en: ''
