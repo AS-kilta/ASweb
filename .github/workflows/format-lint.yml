@@ -4,8 +4,8 @@ on:
   push:
 
 jobs:
-  format_job:
-    name: Format Job
+  format_lint_job:
+    name: Format and Lint Job
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -21,4 +21,10 @@ jobs:
       run: npm ci
 
     - name: Run Prettier formatting
-      run: npm run format
+      run: npm run format && npm run lint
+
+    - run: |
+        git config user.name "github-actions[bot]"
+        git add .
+        git commit -m "generated"
+        git push
