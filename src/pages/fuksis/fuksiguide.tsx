@@ -15,7 +15,7 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
           style={{ marginBlock: '1rem' }}
           className="rounded-button"
           target="_blank"
-          href="https://drive.google.com/file/d/1g84Ks-Wdh-ErTSQEiYZJUkdEntJ3tgYF/view?usp=sharing"
+          href="https://drive.google.com/file/d/1g84Ks-Wdh-ErTSQEiYZJUkdEntJ3tgYF/view?usp=sharing" rel="noreferrer"
         >
           Lataa PDF
         </a>

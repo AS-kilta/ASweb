@@ -64,11 +64,11 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
         <CircleCard title="Hae opiskelijakorttia" link="https://www.frank.fi/opiskelijakortti/" />
         <circle className={ccStyle.badge}>
           Hae asuntoa&nbsp;
-          <a href="https://domo.ayy.fi" target="_blank">
+          <a href="https://domo.ayy.fi" target="_blank" rel="noreferrer">
             AYY:ltä
           </a>
           &nbsp;tai&nbsp;
-          <a href="https://hoas.fi" target="_blank">
+          <a href="https://hoas.fi" target="_blank" rel="noreferrer">
             HOASilta
           </a>
         </circle>
@@ -138,35 +138,35 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
           <h4 className={style.list__title}>OPINNOT</h4>
           <ul>
             <li>
-              <a href="https://mycourses.aalto.fi/" target="_blank">
+              <a href="https://mycourses.aalto.fi/" target="_blank" rel="noreferrer">
                 MyCourses
               </a>{' '}
               (Täältä löytyy tietoa kursseista)
             </li>
             <li>
-              <a href="https://sisu.aalto.fi/student/" target="_blank">
+              <a href="https://sisu.aalto.fi/student/" target="_blank" rel="noreferrer">
                 Sisu
               </a>{' '}
               (Täällä tapahtuu kursseille, välikokeisiin ja tentteihin ilmoittautuminen)
             </li>
             <li>
-              <a href="https://www.aalto.fi/fi/sahkotekniikan-korkeakoulu" target="_blank">
+              <a href="https://www.aalto.fi/fi/sahkotekniikan-korkeakoulu" target="_blank" rel="noreferrer">
                 Sähkötekniikan korkeakoulu
               </a>
             </li>
             <li>
-              <a href="https://aalto.fi/" target="_blank">
+              <a href="https://aalto.fi/" target="_blank" rel="noreferrer">
                 Aalto-yliopisto
               </a>
             </li>
             <li>
-              <a href="https://aalto.fi/fi/opiskelijan-opas/" target="_blank">
+              <a href="https://aalto.fi/fi/opiskelijan-opas/" target="_blank" rel="noreferrer">
                 Opiskelijan opas
               </a>{' '}
               (Tietoa ja ohjeita opinnoista)
             </li>
             <li>
-              <a href="https://www.aalto.fi/fi/palvelut/aalto-space-mobiilisovellus" target="_blank">
+              <a href="https://www.aalto.fi/fi/palvelut/aalto-space-mobiilisovellus" target="_blank" rel="noreferrer">
                 Aalto Space -sovellus
               </a>{' '}
               (Varaa Otaniemen tiloja opiskeluun)
@@ -177,7 +177,7 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
           <h4 className={style.list__title}>TERVEYDENHOITO</h4>
           <ul>
             <li>
-              <a href="https://www.yths.fi/" target="_blank">
+              <a href="https://www.yths.fi/" target="_blank" rel="noreferrer">
                 YTHS
               </a>
             </li>
@@ -189,17 +189,17 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
           <h4 className={style.list__title}>LIIKKUMINEN</h4>
           <ul>
             <li>
-              <a href="https://www.hsl.fi/" target="_blank">
+              <a href="https://www.hsl.fi/" target="_blank" rel="noreferrer">
                 HELSINGIN SEUDUN LIIKENNE
               </a>
             </li>
             <li>
-              <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti" target="_blank">
+              <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti" target="_blank" rel="noreferrer">
                 Matkakortti
               </a>
             </li>
             <li>
-              <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-sovellus" target="_blank">
+              <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-sovellus" target="_blank" rel="noreferrer">
                 HSL-sovellus
               </a>
             </li>
@@ -209,7 +209,7 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
           <h4 className={style.list__title}>RUOKAILU</h4>
           <ul>
             <li>
-              <a href="https://kanttiinit.fi/" target="_blank">
+              <a href="https://kanttiinit.fi/" target="_blank" rel="noreferrer">
                 Kanttiinit
               </a>{' '}
               (opiskelijaravintoloiden ruokalistat)
@@ -220,17 +220,17 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
           <h4 className={style.list__title}>ASUMINEN</h4>
           <ul>
             <li>
-              <a href="https://www.ayy.fi/fi/asuminen" target="_blank">
+              <a href="https://www.ayy.fi/fi/asuminen" target="_blank" rel="noreferrer">
                 AYY-asumisinfo
               </a>
             </li>
             <li>
-              <a href="https://domo.ayy.fi/" target="_blank">
+              <a href="https://domo.ayy.fi/" target="_blank" rel="noreferrer">
                 Domo-asuntopalvelu (AYY)
               </a>
             </li>
             <li>
-              <a href="https://hoas.fi/" target="_blank">
+              <a href="https://hoas.fi/" target="_blank" rel="noreferrer">
                 HOAS
               </a>
             </li>
