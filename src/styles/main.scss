@@ -7,220 +7,216 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    background: $natural-white;
-    font-family: $font-body;
-    font-size: 18px;
+  background: $natural-white;
+  font-family: $font-body;
+  font-size: 18px;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: $font-heading;
-    margin-bottom: 0.5em;
-    margin-top: 1.5em;
+  font-family: $font-heading;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
 }
 
 h1 {
-    font-size: clamp(1.8rem, 4vw, 2.75rem);
-    font-weight: 500;
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
+  font-weight: 500;
 }
 
 h2 {
-    font-size: clamp(1.5rem, 3.25vw, 2.4rem);
-    font-weight: 400;
+  font-size: clamp(1.5rem, 3.25vw, 2.4rem);
+  font-weight: 400;
 }
 
 h3 {
-    font-size: clamp(1.3rem, 2.8vw, 2.1rem);
-    font-weight: 300;
+  font-size: clamp(1.3rem, 2.8vw, 2.1rem);
+  font-weight: 300;
 }
 
 h4 {
-    font-size: clamp(1.1rem, 2.1vw, 1.8rem);
-    font-weight: 300;
+  font-size: clamp(1.1rem, 2.1vw, 1.8rem);
+  font-weight: 300;
 }
 
 [id] {
-    scroll-margin-top: 5em;
+  scroll-margin-top: 5em;
 }
 
 .underline-decorator {
-    width: fit-content;
-    position: relative;
+  width: fit-content;
+  position: relative;
 
-    &::after {
-        position: absolute;
-        content: "";
-        background: purple;
-        height: 0.08em;
-        width: 100%;
-        inset-inline: 0;
-        bottom: -0.3em;
-        max-width: 7rem;
-        margin-inline: auto;
-    }
+  &::after {
+    position: absolute;
+    content: '';
+    background: purple;
+    height: 0.08em;
+    width: 100%;
+    inset-inline: 0;
+    bottom: -0.3em;
+    max-width: 7rem;
+    margin-inline: auto;
+  }
 }
 
 .underline {
-    margin: 1.2em 0 0.5em;
-    border-bottom: 3px solid;
-    padding-bottom: 0.2em;
-  }
+  margin: 1.2em 0 0.5em;
+  border-bottom: 3px solid;
+  padding-bottom: 0.2em;
+}
 
 ul, ol, dl {
-    line-height: 1.5;
+  line-height: 1.5;
 
-    li:not(:last-child) {
-        margin-bottom: 0.7em;
-    }
+  li:not(:last-child) {
+    margin-bottom: 0.7em;
+  }
 
-    li:first-child {
-        margin-top: 0.7em;
-    }
+  li:first-child {
+    margin-top: 0.7em;
+  }
 }
 
 p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 main a {
-    font-weight: bold;
-    color: inherit;
-  }
+  font-weight: bold;
+  color: inherit;
+}
 
 .button-reset {
-    background-color: transparent;
-    border: none;
-    font-family: inherit;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .rounded-button {
-    display: block;
-    width: fit-content;
-    padding: 1em 1.5em;
-    border-radius: 9999px;
-    color: white;
-    background-color: $as-violet-1;
-    font-weight: 700;
-    text-decoration: none;
+  display: block;
+  width: fit-content;
+  padding: 1em 1.5em;
+  border-radius: 9999px;
+  color: white;
+  background-color: $as-violet-1;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .columns {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .full-width-bg {
-    box-sizing: border-box;
-    width: 100vw;
-    padding-inline: calc((100vw - 100%) / 2);
-    margin-inline: calc((100vw - 100%) / -2);
+  box-sizing: border-box;
+  width: 100vw;
+  padding-inline: calc((100vw - 100%) / 2);
+  margin-inline: calc((100vw - 100%) / -2);
 }
 
 .hideoverflow {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .center-block {
-    margin-inline: auto;
+  margin-inline: auto;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .even-columns {
-    display: grid;
+  display: grid;
 
-    @media (min-width: $breakpoint-mobile) {
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
-    }
+  @media (min-width: $breakpoint-mobile) {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
 }
 
 .no-mobile.no-mobile {
-    @media (max-width: $breakpoint-mobile) {
-        display: none;
-    }
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
 }
 
 .toc {
-    & > h3 {
-        // Hide the plugin generated header
-        display: none;
-    }
+  & > h3 {
+    // Hide the plugin generated header
+    display: none;
+  }
 
-    a {
-        font-weight: 400;
-    }
+  a {
+    font-weight: 400;
+  }
 
-    ul {
-        list-style: none;
-    }
+  ul {
+    list-style: none;
+  }
 
-    li {
-        line-height: 1.2;
-    }
+  li {
+    line-height: 1.2;
+  }
 }
 
 .visually-hidden {
-    // Hide elements from view but keep them visible for screen readers
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+  // Hide elements from view but keep them visible for screen readers
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 // Picture styling
 
 @media all and (min-width: $breakpoint-pic) {
-    
-    .image{
-        float: right;
-        margin: 1.2rem;
-    }
+  .image {
+    float: right;
+    margin: 1.2rem;
+  }
 
-    .box {
-        width: 250px;
-    }
+  .box {
+    width: 250px;
+  }
 
-    .wide {
-        width: 350px;
-    }
+  .wide {
+    width: 350px;
+  }
 
-    .up {
-        margin-top: 0;
-        padding-top: 0;
-    }
-
+  .up {
+    margin-top: 0;
+    padding-top: 0;
+  }
 }
-  
+
 @media all and (max-width: $breakpoint-pic) {
-    .image {
-        float: none;
-        display: block;
-        margin-top: 1.2rem;
-        margin-bottom: 1.2rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .image {
+    float: none;
+    display: block;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .box {
-        width: min(400px, 100%);
-    }
-    
-    .wide {
-        width: min(400px, 100%);
+  .box {
+    width: min(400px, 100%);
+  }
 
-    }
+  .wide {
+    width: min(400px, 100%);
+  }
 }
-

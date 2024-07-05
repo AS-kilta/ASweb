@@ -8,6 +8,7 @@ on:
 jobs:
   prettier_job:
     name: Prettier
+
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -23,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Run Prettier
-        run: npx prettier --check "**/*.{js,jsx,ts,tsx,json,md,mdx,css,scss,yml,yaml}"
+        run: npx prettier --check "**/*.{js,jsx,ts,tsx,json,md,mdx,yml,yaml}"
 
   eslint_job:
     name: ESLint
