@@ -1,7 +1,12 @@
-name: Format and Lint
+name: Format
 
 on:
   push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   format_job:
@@ -23,8 +28,5 @@ jobs:
     - name: Run Prettier formatting
       run: npm run format
 
-    - run: |
-        git config user.name "github-actions[bot]"
-        git add .
-        git commit -m "generated"
-        git push
+# TODO: Test this Action so it actually saves the changes it makes. Maybe run git commit or use external lint action
+# TODO: Try adding ESLint
