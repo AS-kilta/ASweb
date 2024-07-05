@@ -1,64 +1,64 @@
-year: "2021"
+year: '2021'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Antti Regelin"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Helena Kaisanlahti"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Antti Regelin'
 
   - title:
-      fi: "Varapuheenjohtaja"
-      en: "Vice Chairperson"
-    name: "Juuso Määttä"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Helena Kaisanlahti'
 
   - title:
-      fi: "Viestintämestari"
-      en: "Head of Communications"
-    name: "Leevi Hormaluoma"
+      fi: 'Varapuheenjohtaja'
+      en: 'Vice Chairperson'
+    name: 'Juuso Määttä'
 
   - title:
-      fi: "Fuksikapteeni"
-      en: "Fuksi Captain"
-    name: "Kalle Rantala"
+      fi: 'Viestintämestari'
+      en: 'Head of Communications'
+    name: 'Leevi Hormaluoma'
 
   - title:
-      fi: "Fuksikapteeni"
-      en: "Fuksi Captain"
-    name: "Veera Ihalainen"
+      fi: 'Fuksikapteeni'
+      en: 'Fuksi Captain'
+    name: 'Kalle Rantala'
 
   - title:
-      fi: "Master and International Student Captain"
-      en: "Master and International Student Captain"
-    name: "Veeti Kahilainen"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Meri Hilden"
+      fi: 'Fuksikapteeni'
+      en: 'Fuksi Captain'
+    name: 'Veera Ihalainen'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Matias Vapola"
+      fi: 'Master and International Student Captain'
+      en: 'Master and International Student Captain'
+    name: 'Veeti Kahilainen'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Santeri Sipilä"
-  
-  - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Aku Heinonen"
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Meri Hilden'
 
   - title:
-      fi: "Kulttuurimestari"
-      en: "Head of Culture"
-    name: "Meri Hiipakka"
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Matias Vapola'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Santeri Sipilä'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Aku Heinonen'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Head of Culture'
+    name: 'Meri Hiipakka'
 
 officials:
   - name:
@@ -590,12 +590,12 @@ officials:
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Henri Toivola
         description:
-          fi: "Tämän kultaisen ansiomerkin saajan kädenjälki on näkynyt pitkään ja hyvällä
+          fi: 'Tämän kultaisen ansiomerkin saajan kädenjälki on näkynyt pitkään ja hyvällä
             lopputuloksella killan toiminnassa. Kyseinen henkilö on ajanut etenkin kansainvälisten
             opiskelijoiden etuja, auttanut kansainvälisiä opiskelijoita sopeutumaan kiltaan
             ja kehittänyt kiltaa kansainvälisestä näkökulmasta. Tämä henkilö on toiminut
@@ -603,8 +603,8 @@ accolades:
             Kaikissa rooleissaan työskennellessään on tullut kuitenkin jotain yhteistä selville:
             se että tämä henkilö saa oma-aloitteisesti asioita tapahtumaan, joita ei välttämättä
             ole edellisinä vuosina ajateltu laisinkaan. Tämä kultaisen ansiomerkin saaja
-            on killan TEKSAS ranger eli Henri Toivola."
-          en: ""
+            on killan TEKSAS ranger eli Henri Toivola.'
+          en: ''
       - name: Ville Eronen
         description:
           fi: Tämä kultaisen ansiomerkin saaja on edustanut killassa jo pidemmän aikaa täsmällisyyttä
@@ -618,7 +618,7 @@ accolades:
             vuotenaan on toiminut erityisen läheisesti hallituksen tukena, jonka myötä killan
             hallinto on pystynyt nousemaan aivan uudelle tasolle. Tämä täsmällisyyden perikuva
             on tietysti Ville Eronen.
-          en: ""
+          en: ''
       - name: Akseli Konttas
         description:
           fi: Tämä kiltalainen on toiminut killassa pitkään ja ansiokkaasti. Hän on hoitanut
@@ -630,10 +630,10 @@ accolades:
             Tuplahallitusvuoden jälkeenkin tällä kiltalaisella on riittänyt intoa uuden
             toimikunnan perustamiseen ennennäkemättömän retkitoiminnan muodossa. Hän on
             Akseli Konttas.
-          en: ""
+          en: ''
   - name:
-      fi: "Hopeinen pränikkä"
-      en: "Silvery accolade"
+      fi: 'Hopeinen pränikkä'
+      en: 'Silvery accolade'
     people:
       - name: Sakari Ropponen
         description:
@@ -644,7 +644,7 @@ accolades:
             hän on laulukulttuurin ylläpitämisen lisäksi nostanut killan lukkaritoimikunnan
             aktiivisuuden uudelle tasolle ja tehnyt lukkarina toimimisesta entistäkin palkitsevampaa.
             Tämä kiltakulttuurin monitoimimies on Sakari Ropponen.
-          en: ""
+          en: ''
       - name: Ville Strengell
         description:
           fi: Tämä sosiaalinen, ystävällinen ja positiivista energiaa huokuva kaikille tuttu
@@ -655,7 +655,7 @@ accolades:
             ja vastaanottavaisen luonteensa avulla. Hän on se pingispalloa viskova hymysuu,
             se naurava naama, joka keventää tunnelmaa ja rikkoo jäätä. Tämä aurinkoinen
             aASi on Ville Strengell.
-          en: ""
+          en: ''
       - name: Sampo Saloriutta
         description:
           fi: Tämä ikinuori kiltalainen on toiminut pitkäaikaisesti killan fuksitoiminnan
@@ -667,7 +667,7 @@ accolades:
             avustamasta IE:tä. Hän on myös ollut pilke silmäkulmassa edistämässä killan
             Kimble kulttuuria, mm. sen digitalisoinnin myötä. Tämä kiltalainen on Sampo
             Saloriutta.
-          en: ""
+          en: ''
       - name: Lassi Ihalainen
         description:
           fi: Tämä henkilö on aloittanut kiltauransa niin kuin moni muukin, ISOna. Tämän
@@ -679,7 +679,7 @@ accolades:
             ollut mukana luomassa kiltaan täysin uutta virkaa, Stigulanttia, ja näin antanut
             oman panoksensa killan kasvuun sekä innostanut myös muita luomaan uutta. Hopeinen
             ansiomerkki kuuluu Lassi Ihalaiselle.
-          en: ""
+          en: ''
       - name: Niina Tapanainen
         description:
           fi: Tämä kiltalainen on toiminut killan hallituksessa aktiivisesti ensin viestintämestarina
@@ -690,7 +690,7 @@ accolades:
             brändityöryhmää, jonka tekemä työ on jo ja tulee varmasti vielä tulevaisuudessakin
             vaikuttamaan todella paljon siihen, miltä kiltamme näyttää ja miten siellä toimitaan.
             Hän on tietysti Niina Tapanainen.
-          en: ""
+          en: ''
       - name: Leia Nummisalo
         description:
           fi: Tämä henkilö on tehnyt kovasti töitä killan brändityön alkuvaiheessa ja työstänyt
@@ -700,7 +700,7 @@ accolades:
             ja kehittymään. Uudistamalla perinteitä omille fukseilleen ja perustamalla fuksikapteenivuotensa
             jälkeen myös aivan uuden retkitoimikunnan tämä henkilö on takuuvarmasti osoittanut
             ansaitsevansa hopeisen ansiomerkin kiltatyöstään. Hän on Leia Nummisalo.
-          en: ""
+          en: ''
       - name: Marcell Berta
         description:
           fi: This active and influential guild member has shown an encouraging example
@@ -720,8 +720,8 @@ accolades:
             had a strong influence in building and creating Digital systems and Design students’
             culture and sense of community. This person is Marcell Berta
   - name:
-      fi: "RatAS-kunnianosoitukset"
-      en: "RatAS accolade"
+      fi: 'RatAS-kunnianosoitukset'
+      en: 'RatAS accolade'
     people:
       - name: Matias Varonen
         description:
@@ -729,21 +729,21 @@ accolades:
             ja kokosi ASif urheilujoukkueen hurjaan nousuun keskellä pandemiaa. Kyseessä
             on tänään paikalle estynyt, jo toista vuotta liikuntavastaavanamme toimiva Matias
             Varonen tietenkin!
-          en: ""
+          en: ''
       - name: Jenna Kerkkänen
         description:
           fi: Tämä kaikessa mukana ollut AS aktiivi toimii kolmatta vuotta ISOna, ja on
             aina menossa täysillä mukana. Olipa kyseessä mikä tahansa kiltatapahtuma, ELEC
             yhteistyön edistäminen tai retkitoiminnan edistäminen - Jenna on apuna. Seuraavan
             palkinnon saa killan oma Jenna Kerkkänen!
-          en: ""
+          en: ''
       - name: Joonas Törmälä
         description:
           fi: Tämä moottoripyöräilevä killan sheriffi on vetävä voima erityisesti kulttuurin
             saralla. Toista vuotta ISOna toimiva juomanlaskija, joka myöskin legendaarisen
             Bingo-Bingon toisena isäntänä tunnetaan. Viime vuoden killan Wappusimojen takapirunakin
             tämä henkilö tunnetaan. Seuraavan RatAS palkinnon saaja on Joonas Törmälä!
-          en: ""
+          en: ''
       - name: Viivi-Maari Kallinen
         description:
           fi: Sanoiko joku, että fuksina kannattaa uskaltaa lähteä mukaan? Tämä kyseinen
@@ -751,38 +751,38 @@ accolades:
             ja lähti jo fuksina vetämään killan suurinta yksittäistä tapahtumaa Stimulanttina
             eli vuosijuhlavastaavana. Nykyään myös ISOna toimiva palkinnon saaja on Viivi-Maari
             Kallinen!
-          en: ""
+          en: ''
       - name: Juhani Lehto
         description:
           fi: Killan elävän musiikin taustatorvi, juomanlaskija ja Bingo-Bingon kasvo. Pitkän
             linjan monitoimimies, Toista vuotta ISOna, ja nykyään kulttuuriartesaani ja
             lukkari - Juhani Lehto!
-          en: ""
+          en: ''
       - name: Sampo Saloriutta
         description:
           fi: Killan pitkäaikainen aktiivi ja kädet lähes kaikissa savissa käynyt henkilö
             on avulias ja lämmin. Nykyään stimutoimikunnassa, moninkertainen ISOhenkilö
             ja 2019 rrRankan digitaalisen kimblen isähahmo - hänen Koko nimi - Sampo Saloriutta!
-          en: ""
+          en: ''
       - name: Ville Strengell
         description:
           fi: Tämä henkilö on toiminut killassa useasti ISOna, pikkuIEnä, stimutoimikunnassa,retkitoimikunnassa
             ja vaikka missä kantamassa ASn lippua korkealla. Hurjien ideoiden fasiltaattori
             ja killan ikioma Ville Strengell!
-          en: ""
+          en: ''
       - name: Lotta Makkonen
         description:
           fi: Fuksina jo yrityssuhdetoimikuntaan sekä laajasti kilta-aktiiviksi lähtenyt
             useiden projektien työmyyrä. Tämä henkilö on terävä kynästään ja todellinen
             pohjakivi useiden asioiden tapahtumiselle killassa. Kulttuuritoimkunnassa, pikkuIEnä
             ja ISOna vaikuttava Lotta Makkonen!
-          en: ""
+          en: ''
       - name: Lassi Ihalainen
         description:
           fi: Henkilön toimilista on killassa pitkä kuin nälkävuosi - stigutoiminnasta fuksien
             kaitsemiseen fuksikapteenina, eikä loppua näy. Edelleen aktiivisena, viime vuoden
             varatoiminnantarkastaja ja meemikeisari, Lassi Ihalainen!
-          en: ""
+          en: ''
       - name: Mikko Paajanen
         description:
           fi: Taakse on jo jääneet huolet siitä, miten vaarallista tai epäsuotavaa oli tavata
@@ -790,7 +790,7 @@ accolades:
             vahvasti kiltalaisvetoisesti. Tästä loistavana esimerkkinä toimi killan oman
             minecraft serverin pystyttäminen ja sen ylläpito - eritiysesti tästä myönnetään
             RatAS palkinto Mikko Paajaselle!
-          en: ""
+          en: ''
       - name: Marcell Berta
         description:
           fi: There are few people in this guild who have sprung the DSD and international
@@ -806,17 +806,17 @@ accolades:
             on jo kasvanut. Tämä henkilö on ollut vahvasti tuomassa dronekulttuuria, sekä
             alusta asti aktiivi ja toista vuotta ISOhenkilönä. Toimipa hän myöskin uuden
             palkitsemisohjesäännön luoneessa työryhmässä. Naiset, Herrat ja muut, Yani Zhibin!
-          en: ""
+          en: ''
       - name: Aino Valkama
         description:
           fi: Tämä moneen mukaan lähtenyt tupsufuksi on esimerkillään vienyt fuksitoimintaa
             eteenpäin, ja lähti rohkeasti kolmen toimikunnan toimintaan heti alusta asti.
             Nykyään ISOn manttelia kantava fuksipeijaisjoukkueen kapteeni - Aino Valkama!
-          en: ""
+          en: ''
       - name: Arttu Pahta
         description:
           fi: Kilta on muuttunut lähiaikoina ISOsti, ja erityisesti ISOista. Suurempi kilta
             tarvitsee aina yksilöä lähelle menevämpää ISOtoimintaa, jolla on rohkea ja selkeä
             raami ja lisää resursseja. Seuraavan RatAS palinnon saaja on ISOtoimintamme
             edistäjä, meidän oma ISOpomo Arttu Pahta!
-          en: ""
+          en: ''

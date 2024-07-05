@@ -1,68 +1,68 @@
-year: "2016"
+year: '2016'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Eero Santamala"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Titta Saari"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Eero Santamala'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Jonne Kurokallio"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Titta Saari'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Taru Virtanen"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Jonne Kurokallio'
 
   - title:
-      fi: "Phuksikapteeni"
-      en: "Phuksi Captain"
-    name: "Roope Pääkkönen"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Noora Salminen"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Taru Virtanen'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Kaisa Hynynen"
+      fi: 'Phuksikapteeni'
+      en: 'Phuksi Captain'
+    name: 'Roope Pääkkönen'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Ilkka Malassu"
-  
-  - title:
-      fi: "Yrityssuhdemestari"
-      en: "Head of Corporate Relations"
-    name: "Ville Kauhanen"
-  
-  - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Miika Lehtimäki"
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Noora Salminen'
 
   - title:
-      fi: "Kulttuurimestari"
-      en: "Head of Culture"
-    name: "Sanna Halmkrona"
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Kaisa Hynynen'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Ilkka Malassu'
+
+  - title:
+      fi: 'Yrityssuhdemestari'
+      en: 'Head of Corporate Relations'
+    name: 'Ville Kauhanen'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Miika Lehtimäki'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Head of Culture'
+    name: 'Sanna Halmkrona'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Laura Gröhn
         description:
-          fi: "Ensimmäinen kultaisen pränikän ansainneistaheistä on vaikuttavan kiltauran
+          fi: 'Ensimmäinen kultaisen pränikän ansainneistaheistä on vaikuttavan kiltauran
             kartuttanut tunnollisuuden perikuva. Jo phuksivuotenaan 2010 hän aloitti vahvasti
             olemalla mukana järjestämässä Liukuhihnaa ja löysikin nopeasti paikkansa tapahtumajärkkäilystä
             hakemalla smurffiksi seuraavalle vuodelle. Kuten arvata saattaa, keittiö vei
@@ -80,11 +80,11 @@ accolades:
             Mutta edes puheenjohtajuuden
             taakka ei lannistanut tätä killan äitihahmoa. Vielä tänäkin vuonna hän on antanut
             panoksensa killalle olemalla mukana Stimulaation järjestämisessä muutamasta
-            muusta toimarivirasta puhumattakaan."
-          en: ""
+            muusta toimarivirasta puhumattakaan.'
+          en: ''
       - name: Ville Tissari
         description:
-          fi: "Illan toisen kultaisen pränikän saa henkilö joka ei esittelyjä kaipaa. Tämä
+          fi: 'Illan toisen kultaisen pränikän saa henkilö joka ei esittelyjä kaipaa. Tämä
             -10 phuksi on ollut järjestämässä niin Stimulaatiota, tekemässä kiltalehteä
             kuin tarkastellut killan toimintaakin. Hänen kädenjälkeään on esimerkiksi killan
             puolivuotisjuhlan Eskalaation luominen, joka järjestettiin tänä vuonna toista
@@ -97,11 +97,11 @@ accolades:
             vuonna puheenjohtajan viroilla. Hänet tunnetaan rehtinä ja sanavalmiina edustushahmona
             joka työllään toi killan ulkosuhteet täysin uudelle tasolle. Tarinoihin tästä
             Otaniemen legendasta törmää yhä niin Itäisessä satamakaupungissa kuin Tampereellakin
-            ja häneen myös monissa killan lauluissa viitataan."
-          en: ""
+            ja häneen myös monissa killan lauluissa viitataan.'
+          en: ''
   - name:
-      fi: "Hopeinen pränikkä"
-      en: "Silvery accolade"
+      fi: 'Hopeinen pränikkä'
+      en: 'Silvery accolade'
     people:
       - name: Aapo Oksman
         description:
@@ -110,14 +110,14 @@ accolades:
             meillä esimerkiksi oli käytössä nyt jo pois luovutettu Säätöneuvola. Suurimpana
             yksittäisenä projektina muistetaan wappuna 2015 Ulliksella nähty skumppaa kaatava
             robottikäsi, josta hän otti vetovastuun. Hän on ​Aapo “Eipou” Oksman​​!
-          en: ""
+          en: ''
       - name: Aapo Rantala
         description:
           fi: Tämä 2011 phuksi on toiminut monenlaisissa viroissa killassa ja tuo tapahtumaan
             kuin tapahtumaan mukavaa ja lämmintä henkeä nallekarhumaisella olemuksellaan.
             Hän on ollut myös jo pitkään lähtemätön osa killan laulukulttuuria ja toiminut
             tänä vuonna killan lukkarimestarina. Hän on ​Aapo “aikadilaatio” Rantala​​!
-          en: ""
+          en: ''
       - name: Juhana Kekoni
         description:
           fi: Tämä 2013 phuksi ehdotti vuosi sitten uutta toimikuntaa, jonka johtoon hän
@@ -125,7 +125,7 @@ accolades:
             puheenjohtajansa takia. Hän on myös tallentanut liikkuvaa kuvaa killan toiminnasta
             ja hänen ansiostaan meillä onkin näyttää tuleville sukupolville niin dokumentti
             robokädestä kuin uusi phuksivideokin. Hän on Juhana “Keksi” Kekoni​​!
-          en: ""
+          en: ''
       - name: Matti Ojala
         description:
           fi: Tämä 2011 phuksi on ollut isossa osassa killan kulttuurin ja ulkosuhteiden
@@ -133,14 +133,14 @@ accolades:
             hänen toimintansa killan laulukulttuurin parissa. Tämä monivuotinen lukkaritoimikunnan
             jäsen on sanoittanut lukemattomia kappaleita, kehittänyt laulutapahtumia ja
             tietysti lukkaroinut sitseillä vuosia. Hän on ​Matti “Matson” Ojala​​!
-          en: ""
+          en: ''
       - name: Niilo Metsänen
         description:
           fi: Tämä 2012 phuksi on ollut tekemässä jo monia uudistuksia kiltauransa aikana.
             Hän on ollut isossa roolissa niin 2015 tehdyssä haalariohjesäännössä kuin syksyllä
             uudistetussa merkkiohjesäännössäkin. Lisäksi hän uudisti rohkeasti viimeisenä
             SuurPhuksina monia phuksitapahtumia. Hän on ​Niilo “Niba” Metsänen​​!
-          en: ""
+          en: ''
       - name: Petri Niemelä
         description:
           fi: Tämä 2011 phuksi on kiltaurallaan ehtinyt moneen. Hän on ollut todella aktiivisesti
@@ -148,14 +148,14 @@ accolades:
             hän on monivuotinen ASkitoimikunnan jäsen ja kehittänyt kiltahuoneestamme ASkista
             parempaa paikkaa sekä korjannut milloin rikkinäisiä sohvia, milloin rikkinäistä
             tekniikkaa. Hän on ​Petri Niemelä​​!
-          en: ""
+          en: ''
       - name: Bjarne Boström
         description:
           fi: Tämä 2007 phuksi on ollut mukana ​killan toiminnassa koko sydämestään useita
             vuosia. Hänen antaumuksellisuutensa on näkynyt etenkin säätökulttuurissa, ASkissa
             ja killan lautapelikulttuurissa. Tämä hyväsydäminen henkilö suhtautuu ihmisiin
             ennakkoluulottomalla asenteella. Hän on ​Bjarne “Bjakke” Boström​​!
-          en: ""
+          en: ''
       - name: Noora Vänttinen
         description:
           fi: Tämä 2011 phuksi tunnetaan edelleen omien phuksiensa keskuudessa äitihahmona,
@@ -163,7 +163,7 @@ accolades:
             kunniallisiksi teekkareiksi. Hän tekee täysillä kaiken mihin ryhtyy ja siitä
             hyvä esimerkki on myös hänen päätoimittajavuotensa, jolloin GT:stä ilmestyi
             ennätysmäärä numeroita. Hän on ​Noora “Norri” Vänttinen​​!
-          en: ""
+          en: ''
       - name: Ville Harmaala
         description:
           fi: Tämä 2013 phuksi hoitaa hommansa aina tunnollisesti. Tämä on nähty monia kertoja,
@@ -171,7 +171,7 @@ accolades:
             ja vastaavissa, ja tekikin enemmän kuin tarpeeksi koulutuspolitiikan eteen.
             Näkyvämpi rooli killassa hänellä on nykyisessä mediatoimikunnassa dokumentoijana,
             jonka kuvia on galleria täynnä. Hän on tietenkin ​Ville “Harppi” Harmaala​​!
-          en: ""
+          en: ''
       - name: Sami-Petteri Pukkila
         description:
           fi: Tämä 2013 phuksi on koko kiltauransa ollut mukana lähes kaikessa. Hänen apuunsa
@@ -180,7 +180,7 @@ accolades:
             töitä myös ATK-toimikunnassa ja tänä vuonna bittimestarina toimiessaan lähtenyt
             mukaan killan palvelinuudistusprojektiin. Tämä karvoistaankin tunnettu aasi
             on tietenkin ​MYLVARI​​!
-          en: ""
+          en: ''
       - name: Onni Lampi
         description:
           fi: Tällä 2013 phuksilla oli vankka kokemus yhdistystoiminnasta jo ennen kiltaan
@@ -188,4 +188,4 @@ accolades:
             virallisia asioita ja toiminnan kehittämistä. Hän ei tyydy nykytilaan vaan haluaa
             asioiden olevan aina vähän paremmin. Hänen johdossaan killan ISOtoiminta ottikin
             ison harppauksen eteenpäin. Hän on ​Onni “Omnez” Lampi​​!
-          en: ""
+          en: ''
