@@ -165,7 +165,11 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
               (Information and instructions about studies)
             </li>
             <li>
-              <a href="https://www.aalto.fi/en/services/aalto-space-mobile-application" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.aalto.fi/en/services/aalto-space-mobile-application"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Aalto Space application
               </a>{' '}
               (Reserve spaces for studying)

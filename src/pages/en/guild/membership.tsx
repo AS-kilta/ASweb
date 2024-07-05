@@ -17,7 +17,8 @@ const Membership: React.FC<PageProps> = ({ pageContext }) => {
       <a
         className={style.coloredBlock + ' center-block' + ' rounded-button'}
         target="_blank"
-        href="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587" rel="noreferrer"
+        href="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587"
+        rel="noreferrer"
       >
         Become a member
       </a>

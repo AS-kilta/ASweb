@@ -36,7 +36,8 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
           <EventList number={5} lang={pageContext.lang} />
           <a
             href="https://calendar.google.com/calendar/embed?src=as.tiedottaja%40gmail.com&ctz=Europe%2FHelsinki"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             Tapahtumakalenteri
           </a>
