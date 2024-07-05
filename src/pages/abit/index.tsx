@@ -87,7 +87,7 @@ const Abit: React.FC<Props> = ({ pageContext, data }) => {
         <a
           className={style.find_more + ' rounded-button'}
           target="_blank"
-          href="https://www.aalto.fi/fi/koulutustarjonta/automaatio-ja-robotiikka-tekniikan-kandidaatti-ja-diplomi-insinoori"
+          href="https://www.aalto.fi/fi/koulutustarjonta/automaatio-ja-robotiikka-tekniikan-kandidaatti-ja-diplomi-insinoori" rel="noreferrer"
         >
           Lue lisää Automaation ja Robotiikan Opinnoista Intosta
         </a>
@@ -138,7 +138,7 @@ const Abit: React.FC<Props> = ({ pageContext, data }) => {
         <a
           className={style.find_more + ' rounded-button'}
           target="_blank"
-          href="https://www.aalto.fi/fi/koulutustarjonta/informaatioteknologia-tekniikan-kandidaatti-ja-diplomi-insinoori"
+          href="https://www.aalto.fi/fi/koulutustarjonta/informaatioteknologia-tekniikan-kandidaatti-ja-diplomi-insinoori" rel="noreferrer"
         >
           Lue lisää Informaatioteknologian opinnoista Intosta
         </a>
@@ -200,7 +200,7 @@ const Abit: React.FC<Props> = ({ pageContext, data }) => {
         <a
           className={style.find_more + ' rounded-button'}
           target="_blank"
-          href="https://www.aalto.fi/fi/koulutustarjonta/aalto-bachelors-programme-in-science-and-technology-digital-systems-and-design"
+          href="https://www.aalto.fi/fi/koulutustarjonta/aalto-bachelors-programme-in-science-and-technology-digital-systems-and-design" rel="noreferrer"
         >
           Lue lisää Digital Systems and Design opinnoista Intosta
         </a>
