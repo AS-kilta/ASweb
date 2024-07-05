@@ -1,32 +1,30 @@
 .eventsContainer {
-    width: 100%;
+  width: 100%;
 }
 
 .frontpagebox {
-    max-width: 1600px;
+  max-width: 1600px;
 
-    & > :not(img) {
-        padding: 3rem;
-        margin-inline: auto;
-    }
+  & > :not(img) {
+    padding: 3rem;
+    margin-inline: auto;
+  }
 
-    p {
-        font-size: clamp(1.2rem, 2vw, 1.4rem);
-    }
+  p {
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+  }
 
-    img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media all and (max-width: $breakpoint-mobile) {
-
-    .frontpagebox {
-        & > :not(img) {
-            padding: 3rem 0;
-        }
+  .frontpagebox {
+    & > :not(img) {
+      padding: 3rem 0;
     }
-    
+  }
 }
