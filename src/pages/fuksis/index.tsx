@@ -72,7 +72,7 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
         </h3>
         <div>
             <p>Otaniemen käytetyin sovellus kommunikaatioon ja tiedotukseen. Telegram, kavereiden kesken ”tg”, on ehdottomasti Otaniemen teekkarin tärkein sovellus. Perustoiminnoiltaan se muistuttaa mitä tahansa viestisovellusta, mutta sen lisäominaisuudet ovat valloittaneet teekkareiden sydämet. Se sisältää esimerkiksi stickereitä, ja toimii myös netissä tai koneella!</p>
-            <p>Telegramia käytetään myös oleellisena osana fuksien tiedotuksessa ja toivotaankin, että kaikki fuksit liittyisivät AS-fukseille tarkoitettuun Telegram-ryhmään <a href="https://bit.ly/fuksit23">bit.ly/fuksit23</a> ja DSD-fuksit myös DSD-fuksien omaan Telegram-ryhmään <a href="https://bit.ly/DSDfuksis23">bit.ly/DSDfuksis23</a></p>
+            <p>Telegramia käytetään myös oleellisena osana fuksien tiedotuksessa ja toivotaankin, että kaikki fuksit liittyisivät AS-fukseille tarkoitettuun Telegram-ryhmään <a href="https://t.me/+_yeZhoidAME0OWVk">fuksit 24</a> ja DSD-fuksit myös DSD-fuksien omaan Telegram-ryhmään <a href="https://t.me/+iu3puQEDrWcxNzY8">DSD fuksit 24</a></p>
         </div>
 
         <h3 id="Kilta">
@@ -145,10 +145,13 @@ const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
 
 export default Fuksis
 
+const description: string = "Hei uusi fuksi! Aloita lukemalla tämä."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Fukseille" />
+  <Meta lang="fi" title="Fukseille" description={description} />
 )
 
+/*
 export const query = graphql`
     query ImgQuery {
         allFile(filter: {relativePath: {in: [
@@ -167,3 +170,4 @@ export const query = graphql`
         }
     }
 `
+*/
