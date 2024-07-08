@@ -54,7 +54,7 @@
   subnavi:
     - title:
         fi: "Fuksiopas"
-        en: "Fuksiguide"
+        en: "DSD Fuksiguide"
       link:
         fi: "/fuksis/fuksiguide"
         en: "/en/fuksis/fuksiguide"
@@ -64,6 +64,12 @@
       link:
         fi: "/fuksis/teekkariculture"
         en: "/en/fuksis/teekkariculture"
+    - title:
+        fi: "Orientaatioviikko"
+        en: "DSD Orientation week"
+      link:
+        fi: "/fuksis/orientationweek"
+        en: "/en/fuksis/orientationweek"
 - title:
     fi: "Opinnot"
     en: "Studies"

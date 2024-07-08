@@ -32,6 +32,10 @@ const Membership: React.FC<PageProps> = ({ pageContext }) => {
 
 export default Membership
 
+const description: string =
+"Killan jäsenenä saat oikeuden osallistua killan tapahtumiin ja käyttää kiltahuonetta sekä pääsyn killan sähköpostilistoille. \
+Lisäksi varsinaisena jäsenenä saat äänioikeuden kiltakokouksissa."
+
 export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="Jäsenyys" />
+  <Meta lang="fi" title="Jäsenyys" description={description} />
 )

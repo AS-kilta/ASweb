@@ -39,6 +39,7 @@ export const query = graphql`
       frontmatter {
         title
         lead
+        description
         background
         heroHeight
         documentStyle
@@ -51,5 +52,10 @@ export const query = graphql`
 export default PageTemplate
 
 export const Head: HeadFC<MdxProps> = props => (
-  <Meta lang={props.data.mdx.fields.lang} title={props.data.mdx.frontmatter.title} robots={props.data.mdx.frontmatter.robots} />
+  <Meta
+    lang={props.data.mdx.fields.lang}
+    title={props.data.mdx.frontmatter.title} 
+    description={props.data.mdx.frontmatter.description ?? props.data.mdx.frontmatter.lead}
+    robots={props.data.mdx.frontmatter.robots}
+  />
 )
