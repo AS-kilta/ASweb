@@ -7,7 +7,6 @@ const SnapWidget: React.FC = () => {
       <iframe
         title="Instagram feed"
         loading="lazy"
-        allowTransparency
         frameBorder="0"
         scrolling="no"
         src="https://snapwidget.com/embed/787765"

@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: {
-      fi: "Automaatio- ja systeemitekniikan kilta",
-      en: "Guild of Automation and Systems Technology"
+      fi: 'Automaatio- ja systeemitekniikan kilta',
+      en: 'Guild of Automation and Systems Technology',
     },
     description: {
-      fi: "AS:n uudet nettisivut",
-      en: "New website for AS"
+      fi: 'AS:n uudet nettisivut',
+      en: 'New website for AS',
     },
     author: `AS`,
   },
-  trailingSlash: "never",
+  trailingSlash: 'never',
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        additionalData: `@use "src/styles/_variables" as *;`
-      }
+        additionalData: `@use "src/styles/_variables" as *;`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -41,10 +41,10 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/mdx-pages`,
-        name: "mdx-pages",
+        name: 'mdx-pages',
       },
     },
     {
@@ -55,7 +55,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-table-of-contents-patch`,
             options: {
-              exclude: "Table of Contents|Sisällysluettelo",
+              exclude: 'Table of Contents|Sisällysluettelo',
               fromHeading: 2,
               toHeading: 6,
             },
@@ -73,4 +73,4 @@ module.exports = {
       },
     },
   ],
-}
+};

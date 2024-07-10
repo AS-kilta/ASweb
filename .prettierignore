@@ -4,6 +4,4 @@ package-lock.json
 public
 node_modules
 tsconfig.json
-gatsby-browser.js
-gatsby-config.js
-gatsby-node.js
+

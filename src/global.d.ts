@@ -1,6 +1,5 @@
 import { PageProps as GatsbyPageProps } from 'gatsby';
 import { IGatsbyImageData } from 'gatsby-plugin-image';
-import React from 'react';
 
 interface CustomPageProps {
   slug: string;
@@ -54,7 +53,7 @@ declare global {
         [key: string]: string;
       };
     };
-    pageContext: any;
+    pageContext: unknown;
   }
 
   interface ImageFileProps {

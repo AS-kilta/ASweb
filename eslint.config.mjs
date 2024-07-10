@@ -20,4 +20,10 @@ export default [
   ...tseslint.configs.recommended,
   pluginReactConfig,
   eslintConfigPrettier,
+  {
+    rules: {
+      "react/prop-types": "off",
+      "react/no-unescaped-entities": "off",
+    }
+  },
 ];

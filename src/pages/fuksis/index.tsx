@@ -1,5 +1,4 @@
 import React from 'react';
-import { graphql } from 'gatsby';
 import type { HeadFC, HeadProps } from 'gatsby';
 import Meta from '@src/components/common/Meta';
 import * as style from './fuksis.module.scss';
@@ -16,7 +15,7 @@ interface Props extends PageProps {
   data: ImageArrayProps;
 }
 
-const Fuksis: React.FC<Props> = ({ pageContext, data }) => {
+const Fuksis: React.FC<Props> = ({ pageContext }) => {
   const data1 = {
     title: 'fuksikapteeni',
     name: 'Jenny Ruokolainen',
