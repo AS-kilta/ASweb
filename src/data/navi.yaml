@@ -83,6 +83,18 @@
       link:
         fi: "/studies/advocacy"
         en: "/en/studies/advocacy"
+    - title:
+        fi: "Sivuaineopas"
+        en: "Minor Guide"
+      link:
+        fi: "/studies/minor-guide"
+        en: "/en/studies/minor-guide"
+    - title:
+        fi: "OPTMK:n Vinkit"
+        en: "Committee's Tips"
+      link:
+        fi: "/studies/committee-tips"
+        en: "/en/studies/committee-tips"
 - title:
     fi: "Yrityksille"
     en: "Corporate Relations"
