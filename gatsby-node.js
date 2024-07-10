@@ -1,5 +1,7 @@
-import path from 'path';
-import { createFilePath } from '`gatsby-source-filesystem`';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 // Create slug for MDX pages from file path, pass lang as node field
 
