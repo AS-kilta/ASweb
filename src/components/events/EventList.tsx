@@ -31,7 +31,7 @@ interface CalendarEvent {
   fullDay: boolean;
 }
 
-const parseEventData = (data: any, number: number) => {
+const parseEventData = (data: json, number: number) => {
   if (!data.items || !Array.isArray(data.items)) {
     throw new Error('Invalid calendar data');
   }
@@ -40,7 +40,7 @@ const parseEventData = (data: any, number: number) => {
   const events: CalendarEvent[] = filteredEventData.map((item) => {
     const start = new Date(item.start.date ?? item.start.dateTime);
     const end = new Date(item.end.date ?? item.end.dateTime);
-    const fullDay = item.start.date ? true : false;
+    const fullDay = !!item.start.date;
     const { id, summary, description, location } = item;
     return { id, summary, start, end, description, location, fullDay };
   });

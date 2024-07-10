@@ -1,4 +1,4 @@
-name: Typecheck CI
+name: Style check CI
 
 on:
   pull_request:

@@ -50,7 +50,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,mdx,yml,yaml}\"",
-    "lint": "npx eslint src/",
+    "lint": "npx eslint .",
     "start": "npm run develop",
     "production": "npm run clean && npm run build && npm run serve",
     "serve": "gatsby serve",
