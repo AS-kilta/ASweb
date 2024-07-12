@@ -1,59 +1,59 @@
-year: "2020"
+year: '2020'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Niina Tapanainen"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Akseli Konttas"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Niina Tapanainen'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Antti Regelin"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Akseli Konttas'
 
   - title:
-      fi: "Viestintämestari"
-      en: "Head of Communications"
-    name: "Jyri Kolu"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Antti Regelin'
 
   - title:
-      fi: "Fuksikapteeni"
-      en: "Fuksi Captain"
-    name: "Leia Nummisalo"
+      fi: 'Viestintämestari'
+      en: 'Head of Communications'
+    name: 'Jyri Kolu'
 
   - title:
-      fi: "International Student Captain"
-      en: "International Student Captain"
-    name: "Henri Toivola"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Emma Riikonen"
+      fi: 'Fuksikapteeni'
+      en: 'Fuksi Captain'
+    name: 'Leia Nummisalo'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Helena Kaisanlahti"
+      fi: 'International Student Captain'
+      en: 'International Student Captain'
+    name: 'Henri Toivola'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Emil Huttunen"
-  
-  - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Matias Vapola"
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Emma Riikonen'
 
   - title:
-      fi: "Kulttuurimestari"
-      en: "Head of Culture"
-    name: "Sakari Ropponen"
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Helena Kaisanlahti'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Emil Huttunen'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Matias Vapola'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Head of Culture'
+    name: 'Sakari Ropponen'
 
 officials:
   - name:
@@ -576,8 +576,8 @@ officials:
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Roope Pääkkönen
         description:
@@ -588,7 +588,7 @@ accolades:
             hallituksessa että sen ulkopuolella. Vielä valmistumisen häämöttäessäkin hän
             on ottanut tehtäväkseen tuoda killan laulukulttuurin uudelle vuosikymmenelle
             laulukirjatoimikunnan päätoimittajan roolissa. Hän on Roope Pääkkönen.
-          en: ""
+          en: ''
       - name: Severi Casserly
         description:
           fi: Tämä henkilö on tehnyt killassa niin paljon että siitä kirjoittaisi vaikka
@@ -601,7 +601,7 @@ accolades:
             vakiovarustukseen lähes jokaisessa killan tapahtumassa, ja on sekä puheenjohtajana,
             ysvinä, säätömestarina, kuin yleisenä mouhonakin saanut aivan valtavasti aikaan.
             Hän on Severi Casserly.
-          en: ""
+          en: ''
       - name: Mari Pulkkinen
         description:
           fi: Tämä henkilö on ollut phuksivuodestaan asti kehittämässä kiltaa positiiviseen
@@ -612,10 +612,10 @@ accolades:
             kuin smurffinakin. IE-vuoden jälkeenkin hän on ollut aina apuna, kun keittiössä
             sitä tarvitaan. Kilta on saanut ihastella hänen kättensä jälkeä myös Stimulaatiotoimikunnan
             johdossa, kuten olemme tänään saaneet todistaa. Hän on Mari Pulkkinen.
-          en: ""
+          en: ''
   - name:
-      fi: "Hopeinen pränikkä"
-      en: "Silvery accolade"
+      fi: 'Hopeinen pränikkä'
+      en: 'Silvery accolade'
     people:
       - name: Iivo Yrjölä
         description:
@@ -625,7 +625,7 @@ accolades:
             ja tämä henkilö otti haasteen vastaan. Siinä hän on myös onnistunut. Onkin aika
             osoittaa hänelle meidän, killan, kiitokset liikuntatoiminnan kehittämisestä.
             Ansiomerkin saaja on Iivo Yrjölä.
-          en: ""
+          en: ''
       - name: Vesta Kulomaa
         description:
           fi: Tämä henkilö on tehnyt killassa monenlaista arvokasta työtä. Hän on toiminut
@@ -633,7 +633,7 @@ accolades:
             jälkeen edistänyt killan toimintaa hyvällä asenteella dokumentoijana ja Stimulaatiotoimikunnan
             jäsenenä. Hänen lämmin innokkuutensa tarttuu taatusti läsnäolijoihin. Hän on
             Vesta Kulomaa.
-          en: ""
+          en: ''
       - name: Alex Korpela
         description:
           fi: Seuraava palkittava on ollut aktiivisesti mukana killan toiminnassa vaikka
@@ -641,7 +641,7 @@ accolades:
             jälkeen hän otti emännän hommat haltuun ja tänä vuonna ollut järjestämässä näitä
             juhlia! Stigulanttina hän on ollut tuomassa kiltaan uudenlaista pilke silmäkulmassa
             tapahtuvaa keskustelukulttuuria. Hän on Alex Korpela.
-          en: ""
+          en: ''
       - name: Juuso Määttä
         description:
           fi: Tämä henkilö on aina auttamassa, kun häntä tarvitaan. Hän on rauhallinen ja
@@ -649,7 +649,7 @@ accolades:
             tekee. Hän on fuksista asti tehnyt kiltaan vaikutuksen nohevalla toiminnallaan,
             tehnyt erinomaista työtä ISOna, lukkarina, ja auttanut killan ulkoexcutoimintaa.  Hän
             on Juuso Määttä.
-          en: ""
+          en: ''
       - name: Mikko Hokkanen
         description:
           fi: Tämä kiltalainen on toiminut killassa monipuolisesti eri tehtävissä niin hallituksessa
@@ -658,7 +658,7 @@ accolades:
             ja ollut helposti lähestyttävissä. Hänen johdollaan ulkomailta tulleet opiskelijat
             tunsivat itsensä erittäin tervetulleiksi ja osallistuivat killan tapahtumiin
             sankoin joukoin. Hän on Mikko Hokkanen.
-          en: ""
+          en: ''
       - name: Akseli Konttas
         description:
           fi: Illan toiseksi viimeisen hopeisen ansiomerkin saaja on kiltavuosiensa varrella
@@ -668,7 +668,7 @@ accolades:
             Hän on myös ollut huolehtimassa rakkaasta kiltahuoneestamme askivahtina ja hänen
             ansiostaan killan kululaskuja voi nykyisin tehdä sähköisesti. Kiitos Akseli
             toiminnastasi killan hyväksi.
-          en: ""
+          en: ''
       - name: Emil Huttunen
         description:
           fi: Illan viimeisen ansiomerkin saaja on toiminut aina fuksivuodesta lähtien hyvällä
@@ -678,4 +678,4 @@ accolades:
             loppuun. Pelkkä ISOilun ei kuitenkaan riittäny hänelle, vaan hän halusi myös
             kehittää yhteistyötä killan ja korkeakoulun välillä. Hän ottikin vastaan Opintomestarin
             viran, jota hän vieläkin kantaa. Emil, kiitos tekemästäsi työstä!
-          en: ""
+          en: ''

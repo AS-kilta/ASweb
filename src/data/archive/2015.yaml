@@ -1,67 +1,67 @@
-year: "2015"
+year: '2015'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Laura Gröhn"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Mikko Kyllönen"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Laura Gröhn'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Sanna Halmkrona"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Mikko Kyllönen'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Aku Viitanen"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Sanna Halmkrona'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Niilo Metsänen"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Jan Juvonen"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Aku Viitanen'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Sami-Petteri Pukkila"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Niilo Metsänen'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Ville Harmaala"
-  
-  - title:
-      fi: "Yrityssuhdemestari"
-      en: "Head of Corporate Relations"
-    name: "Noora Salminen"
-  
-  - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Joel Huttunen"
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Jan Juvonen'
 
   - title:
-      fi: "Kulttuurimestari"
-      en: "Head of Culture"
-    name: "Titta Saari"
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Sami-Petteri Pukkila'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Ville Harmaala'
+
+  - title:
+      fi: 'Yrityssuhdemestari'
+      en: 'Head of Corporate Relations'
+    name: 'Noora Salminen'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Joel Huttunen'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Head of Culture'
+    name: 'Titta Saari'
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Konsta "sooda" Hölttä
         description:
-          fi: "Vuonna 2015 ensimmäisen kultaisen pränikän on ansainnut henkilö, joka on
+          fi: 'Vuonna 2015 ensimmäisen kultaisen pränikän on ansainnut henkilö, joka on
             ollut toimittamassa kiltalehteämme GT:tä yhtenä sen aktiivisimmista vuosista.
             Lisäksi hän on toiminut ASkitoimikunnassa virallisesti kolme vuotta, joista
             viimeisen ASkimestarina toimikunnan johdossa. Hän on ollut mukana myöskin ASkin
@@ -78,11 +78,11 @@ accolades:
             harrastaa säätöä muuten vain, aina ja kaikkialla, ilman syytä tai sen kanssa.
             Ja onhan hän toiminut sen vuoden hallituksessakin, Säätömestarina tietenkin.
             Valmistumisen lähestyessä tämä henkilö siirtyi isommista vastuunakeista killan
-            yhdeksi aktiivisimmista dokumentoijista"
-          en: ""
+            yhdeksi aktiivisimmista dokumentoijista'
+          en: ''
       - name: Rosa Leinonen
         description:
-          fi: "Toisen jaettavista kultaisista präniköistä on ansainnut henkilö, jolla on
+          fi: 'Toisen jaettavista kultaisista präniköistä on ansainnut henkilö, jolla on
             takanaan pitkä ja monipuolinen kiltaura niin virkavuosissa kuin toimikunnissakin
             mitattuna. Hän on toiminut niin smurffina, spiidinä, lukkarina, ASkivahtina
             kuin TEKSAS-rangerina. Lisäksi hän jopa vaihdossa ollessaan kirjoitteli rakkaaseen
@@ -101,16 +101,16 @@ accolades:
             lähti itse siihen ehdolle ja käynnisti alumniyhdistyksen perustamisen. Tätä
             henkilöä saamme kiittää siitä, että hän päätti laittaa alumnitoiminnan alkuun
             ja toimi myös alumniyhdistyksen ensimmäisenä puheenjohtajana asettaen toiminnalle
-            sellaisen suunnan, että yhdistys tekee killan kanssa läheistä yhteistyötä."
-          en: ""
+            sellaisen suunnan, että yhdistys tekee killan kanssa läheistä yhteistyötä.'
+          en: ''
       - name: Juho Sundin
         description:
-          fi: "Vuonna 2015 hallitus päätti yksimielisesti myöntää kolme kultaista pränikkää,
+          fi: 'Vuonna 2015 hallitus päätti yksimielisesti myöntää kolme kultaista pränikkää,
             joista viimeisen saa henkilö, joka on toiminut jo lähes luvattoman monessa virassa
             muun muassa huvitoimikunnassa, wanhainkodissa, stimulaatiotoimikunnassa sekä
             ASkitoimikunnassa. Hänen on usein nähty spontaanisti lähtevän tukkureissulle
             ASkin kaappeja täyttämään tai ilmoittautuvan sitseille vapaaehtoisesti töihin.
-            
+
             Kilta-aktiivisuuden lisäksi tämä henkilö on auttanut killistejä opinnoissaan
             toimimalla opintoneuvojana sekä valvonut opiskelijoiden etuja hallopedinä muutaman
             vuoden. Hänestä suorastaan huokuu AS-henkeä, sitä että autetaan muita hyvällä
@@ -121,5 +121,5 @@ accolades:
             tunnetaan myös kiltahistorian kenties pisimmästä nimikkeestä, puheenjohtajan­ryyppykaverin­suojavirkamestari.
             Tämä henkilö on myöskin viettänyt huimat kolme vuotta hallituksessa, eikä missään
             kevyimmissä tehtävissä vaan jo phuksina Isäntänä, heti perään SuurPhuksina ja
-            muutaman vuoden tauon jälkeen vielä Puheenjohtajana."
-          en: ""
+            muutaman vuoden tauon jälkeen vielä Puheenjohtajana.'
+          en: ''

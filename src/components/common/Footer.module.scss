@@ -1,24 +1,24 @@
 #footer {
-    background: $natural-black;
-    color: $natural-white;
-    font-family: $font-heading;
+  background: $natural-black;
+  color: $natural-white;
+  font-family: $font-heading;
 
-    a {
-        color: #fff;
-    }
+  a {
+    color: #fff;
+  }
 }
 
 #content {
-    display: flex;
-    gap: 2rem;
-    justify-content: space-between;
-    padding: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 2rem 0;
 }
 
 .title {
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-block: 0.5em 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-block: 0.5em 1em;
 }
 
 #contact, #partners, #links {
@@ -26,90 +26,85 @@
 }
 
 #some {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 
-    a {
-        display: inline-block;
-        font-size: 25px;
-        color: $natural-white;
-    }
+  a {
+    display: inline-block;
+    font-size: 25px;
+    color: $natural-white;
+  }
 }
 
 #links {
-    div {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 #sponsors {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    column-gap: 60px;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  column-gap: 60px;
 }
 
 .sponsor {
-    display: block;
+  display: block;
 }
 
 @media all and (min-width: $breakpoint-mobile) {
+  #content {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1400px;
+  }
 
-    #content {
-        margin: 0 auto;
-        width: 80%;
-        max-width: 1400px;
-    }
+  .title {
+    font-size: 22px;
+  }
 
-    .title {
-        font-size: 22px;
-    }
+  #contact {
+    max-width: 20%;
+  }
 
-    #contact {
-        max-width: 20%;
-    }
+  #links {
+    max-width: 20%;
+  }
 
-    #links {
-        max-width: 20%;
-    }
-    
-    #partners {
-        max-width: 60%;
-    }
-
+  #partners {
+    max-width: 60%;
+  }
 }
 
 @media all and (max-width: $breakpoint-mobile) {
+  #footer {
+    text-align: center;
+  }
 
-    #footer {
-        text-align: center;
-    }
+  #content {
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 90%;
+  }
 
-    #content {
-        margin: 0 auto;
-        flex-direction: column;
-        max-width: 90%;
-    }
+  #contact {
+    order: 2;
+  }
 
-    #contact {
-        order: 2;
-    }
+  #partners {
+    order: 1;
+  }
 
-    #partners {
-        order: 1;
-    }
+  #links {
+    order: 3;
+  }
 
-    #links {
-        order: 3;
-    }
-
-    #some {
-        justify-content: center;
-    }
-
-
+  #some {
+    justify-content: center;
+  }
 }

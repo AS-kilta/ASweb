@@ -1,292 +1,269 @@
-import React, { useState, useContext, createContext } from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-import { BsList, BsX, BsPlus, BsDash } from "react-icons/bs"
+import React, { useState, useContext, createContext } from 'react';
+import { useStaticQuery, graphql, Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
+import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
-import * as style from "./Navbar.module.scss"
+import * as style from './Navbar.module.scss';
 
 // Create context for navi callbacks (avoid prop drilling)
 
 interface INaviContext {
-    navExpanded: boolean,
-    toggleNav: () => void,
-    hideNav: () => void
+  navExpanded: boolean;
+  toggleNav: () => void;
+  hideNav: () => void;
 }
 
-const NaviContext = createContext<INaviContext | undefined>(undefined)
+const NaviContext = createContext<INaviContext | undefined>(undefined);
 
-const SiteLogo: React.FC<{lang:string}> = ({ lang }) => {
-    const naviCtx = useContext(NaviContext)
+const SiteLogo: React.FC<{ lang: string }> = ({ lang }) => {
+  const naviCtx = useContext(NaviContext);
 
-    return (
-        <div className={style.navbarLogo}>
-            <Link onClick={naviCtx?.hideNav} to={ lang === "fi" ? "/" : "/en" }>
-                <StaticImage
-                    src="../../images/aswhite.png"
-                    alt="AS logo"
-                    layout="constrained"
-                    width={40}
-                    height={40}
-                    placeholder="none"
-                />
-            </Link>
-        </div>
-    )
-}
+  return (
+    <div className={style.navbarLogo}>
+      <Link onClick={naviCtx?.hideNav} to={lang === 'fi' ? '/' : '/en'}>
+        <StaticImage
+          src="../../images/aswhite.png"
+          alt="AS logo"
+          layout="constrained"
+          width={40}
+          height={40}
+          placeholder="none"
+        />
+      </Link>
+    </div>
+  );
+};
 
 interface NaviLinkProps {
-    title: string,
-    link: string,
+  title: string;
+  link: string;
 }
 
 const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
-    const naviCtx = useContext(NaviContext)
-    const local = link.startsWith("/")
+  const naviCtx = useContext(NaviContext);
+  const local = link.startsWith('/');
 
-    return (
-        <>
-            {local
-                ? <Link onClick={naviCtx?.hideNav} className={style.naviLink} activeClassName={style.active} to={link}>{title}</Link>
-                : <a onClick={naviCtx?.hideNav} className={style.naviLink} href={link}>{title}</a>
-            }
-        </>
-    )
-}
+  return (
+    <>
+      {local ? (
+        <Link onClick={naviCtx?.hideNav} className={style.naviLink} activeClassName={style.active} to={link}>
+          {title}
+        </Link>
+      ) : (
+        <a onClick={naviCtx?.hideNav} className={style.naviLink} href={link}>
+          {title}
+        </a>
+      )}
+    </>
+  );
+};
 
 interface NaviItemProps {
-    entry: NaviData
-    lang: string
+  entry: NaviData;
+  lang: string;
 }
 
 const NaviItem: React.FC<NaviItemProps> = ({ entry, lang }) => {
-    const title = entry.title[lang]
-    const link = entry.link[lang]
+  const title = entry.title[lang];
+  const link = entry.link[lang];
 
-    return (
-        <li className={style.naviItem}>
-            <NaviLink
-                title={title}
-                link={link}
-                />
-            <Subnavi
-                data={entry}
-                lang={lang}
-                />
-        </li>
-    )
-}
+  return (
+    <li className={style.naviItem}>
+      <NaviLink title={title} link={link} />
+      <Subnavi data={entry} lang={lang} />
+    </li>
+  );
+};
 
 interface LangSwitcherProps {
-    lang: string,
-    slug: string,
-    translation?: string
+  lang: string;
+  slug: string;
+  translation?: string;
 }
 
 const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) => {
-    let link, title: string
-    if (lang === "fi") {
-        link = `/en${slug}`
-        title = "In English"
-    } else {
-        link = slug.substring(3) || "/"
-        title = "Suomeksi"
-    }
+  let link, title: string;
+  if (lang === 'fi') {
+    link = `/en${slug}`;
+    title = 'In English';
+  } else {
+    link = slug.substring(3) || '/';
+    title = 'Suomeksi';
+  }
 
-    return (
-        <li className={style.naviItem}>
-            <NaviLink
-                title={title}
-                link={translation || link}
-                />
-        </li>
-    )
-}
+  return (
+    <li className={style.naviItem}>
+      <NaviLink title={title} link={translation || link} />
+    </li>
+  );
+};
 
 interface SubnaviProps {
-    data?: NaviData,
-    lang: string,
+  data?: NaviData;
+  lang: string;
 }
 
 const Subnavi: React.FC<SubnaviProps> = ({ lang, data }) => {
-    const [expanded, setExpanded] = useState(false)
+  const [expanded, setExpanded] = useState(false);
 
-    const toggleSubnavi = () => {
-        setExpanded(!expanded)
-    }
+  const toggleSubnavi = () => {
+    setExpanded(!expanded);
+  };
 
-    const subnaviData = data?.subnavi
+  const subnaviData = data?.subnavi;
 
-    if (!subnaviData) {
-        return null
-    }
+  if (!subnaviData) {
+    return null;
+  }
 
-    const subnaviClasses = `${style.subnavi} ${expanded ? style.showDropdown : ""}`
-    const dropdownID = data.title[lang] + "-subnavi"
-    return (
-        <>
-            <button type="button" className={`${style.dropdownToggle} button-reset`}
-                onClick={toggleSubnavi}
-                aria-label="Subnavigation"
-                aria-expanded={expanded}
-                aria-controls={dropdownID}
-                >
-                {expanded ? <BsDash /> : <BsPlus />}
-            </button>
-            <ul className={subnaviClasses} id={dropdownID}>
-                {subnaviData.map(entry => {
-                    if (!entry.title[lang] || !entry.link[lang]) {
-                        return null;
-                    }
+  const subnaviClasses = `${style.subnavi} ${expanded ? style.showDropdown : ''}`;
+  const dropdownID = data.title[lang] + '-subnavi';
+  return (
+    <>
+      <button
+        type="button"
+        className={`${style.dropdownToggle} button-reset`}
+        onClick={toggleSubnavi}
+        aria-label="Subnavigation"
+        aria-expanded={expanded}
+        aria-controls={dropdownID}
+      >
+        {expanded ? <BsDash /> : <BsPlus />}
+      </button>
+      <ul className={subnaviClasses} id={dropdownID}>
+        {subnaviData.map((entry) => {
+          if (!entry.title[lang] || !entry.link[lang]) {
+            return null;
+          }
 
-                    return (
-                        <NaviLink
-                            title={entry.title[lang]}
-                            link={entry.link[lang]}
-                            key={entry.title[lang] + "-" + entry.link[lang]}
-                        />
-                    )
-                })}
-            </ul>
-        </>
-    )
-}
+          return (
+            <NaviLink
+              title={entry.title[lang]}
+              link={entry.link[lang]}
+              key={entry.title[lang] + '-' + entry.link[lang]}
+            />
+          );
+        })}
+      </ul>
+    </>
+  );
+};
 
 // Types for navigation data scheme
 
 interface SubnaviData {
-    title: TranslatedEntry,
-    link: TranslatedEntry
+  title: TranslatedEntry;
+  link: TranslatedEntry;
 }
 
 interface NaviData {
-    title: TranslatedEntry,
-    link: TranslatedEntry,
-    subnavi?: SubnaviData[]
+  title: TranslatedEntry;
+  link: TranslatedEntry;
+  subnavi?: SubnaviData[];
 }
 
 interface NaviDataScheme {
-    allNaviYaml: {
-        edges: [
-            {
-                node: NaviData
-            }
-        ]
-    }
+  allNaviYaml: {
+    edges: [
+      {
+        node: NaviData;
+      },
+    ];
+  };
 }
 
 interface NavCollapseProps {
-    lang: string,
-    slug: string,
-    translation?: string,
-    isExpanded: boolean
+  lang: string;
+  slug: string;
+  translation?: string;
+  isExpanded: boolean;
 }
 
 const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded }) => {
-
-    const data: NaviDataScheme = useStaticQuery(graphql`
-        query getNaviData {
-            allNaviYaml {
-                edges {
-                    node {
-                        title {
-                            fi
-                            en
-                        }
-                        link {
-                            fi
-                            en
-                        }
-                        subnavi {
-                            title {
-                                fi
-                                en
-                            }
-                            link {
-                                fi
-                                en
-                            }
-                        }
-                    }
-                }
+  const data: NaviDataScheme = useStaticQuery(graphql`
+    query getNaviData {
+      allNaviYaml {
+        edges {
+          node {
+            title {
+              fi
+              en
             }
+            link {
+              fi
+              en
+            }
+            subnavi {
+              title {
+                fi
+                en
+              }
+              link {
+                fi
+                en
+              }
+            }
+          }
         }
-    `)
+      }
+    }
+  `);
 
-    return (
-        <ul
-            id={style.navbarCollapse}
-            className={ isExpanded ? style.show : "" }
-        >
-            {data.allNaviYaml.edges
-                .map(edge => {
-                    const entry = edge.node;
-                    if (!entry.title[lang] || !entry.link[lang]) {
-                        return (null);
-                    }
-                    return (
-                        <NaviItem
-                            entry={entry}
-                            lang={lang}
-                            key={entry.title[lang] + "-" + entry.link[lang]}
-                        />
-                    )
-            })}
-            <LangSwitcher
-                lang={lang}
-                slug={slug}
-                translation={translation}
-            />
-        </ul>
-    )
-}
+  return (
+    <ul id={style.navbarCollapse} className={isExpanded ? style.show : ''}>
+      {data.allNaviYaml.edges.map((edge) => {
+        const entry = edge.node;
+        if (!entry.title[lang] || !entry.link[lang]) {
+          return null;
+        }
+        return <NaviItem entry={entry} lang={lang} key={entry.title[lang] + '-' + entry.link[lang]} />;
+      })}
+      <LangSwitcher lang={lang} slug={slug} translation={translation} />
+    </ul>
+  );
+};
 
 interface NavbarProps {
-    lang: string,
-    slug: string,
-    translation?: string
+  lang: string;
+  slug: string;
+  translation?: string;
 }
 
 const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
-    const [navExpanded, expandNav] = useState(false)
+  const [navExpanded, expandNav] = useState(false);
 
-    const toggleNav = (): void => {
-        navExpanded
-            ? document.body.classList.remove("hideoverflow")
-            : document.body.classList.add("hideoverflow")
-        expandNav(!navExpanded)
-    }
+  const toggleNav = (): void => {
+    navExpanded ? document.body.classList.remove('hideoverflow') : document.body.classList.add('hideoverflow');
+    expandNav(!navExpanded);
+  };
 
-    const hideNav = (): void => {
-        document.body.classList.remove("hideoverflow")
-        expandNav(false)
-    }
+  const hideNav = (): void => {
+    document.body.classList.remove('hideoverflow');
+    expandNav(false);
+  };
 
-    const ctx: INaviContext = {
-        navExpanded: navExpanded,
-        toggleNav: toggleNav,
-        hideNav: hideNav
-    }
+  const ctx: INaviContext = {
+    navExpanded: navExpanded,
+    toggleNav: toggleNav,
+    hideNav: hideNav,
+  };
 
-    return (
-        <nav id={style.navbarTop} className={navExpanded ? style.expanded : ""} aria-label="Main Navigation">
-            <NaviContext.Provider value={ctx}>
-                <SiteLogo lang={lang} />
-                <NavCollapse 
-                    lang={lang}
-                    slug={slug}
-                    translation={translation}
-                    isExpanded={navExpanded}
-                />
-                <button className={`${style.menuToggle} button-reset`}
-                    onClick={toggleNav}
-                    aria-label="Nav menu toggle"
-                    aria-controls={style.navbarCollapse}
-                    >
-                    {navExpanded ? <BsX /> : <BsList />}
-                </button>
-            </NaviContext.Provider>
-        </nav>
-    )
-}
+  return (
+    <nav id={style.navbarTop} className={navExpanded ? style.expanded : ''} aria-label="Main Navigation">
+      <NaviContext.Provider value={ctx}>
+        <SiteLogo lang={lang} />
+        <NavCollapse lang={lang} slug={slug} translation={translation} isExpanded={navExpanded} />
+        <button
+          className={`${style.menuToggle} button-reset`}
+          onClick={toggleNav}
+          aria-label="Nav menu toggle"
+          aria-controls={style.navbarCollapse}
+        >
+          {navExpanded ? <BsX /> : <BsList />}
+        </button>
+      </NaviContext.Provider>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -1,67 +1,67 @@
-year: "2005"
+year: '2005'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Mikael Blomberg"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Arttu Lamminpää"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Mikael Blomberg'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Riikka Liedes"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Arttu Lamminpää'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Noora Korppi-Tommola"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Riikka Liedes'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Kalle Kollin"
-  
-  - title:
-      fi: "Huvimestari"
-      en: "Host"
-    name: "Juha Koppinen"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Noora Korppi-Tommola'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Sampsa Ruutu"
-  
-  - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Markus Heimonen"
-  
-  - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Antti Aspiala"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Kalle Kollin'
 
   - title:
-      fi: "Edustusmestari"
-      en: "Head of Representations"
-    name: "Hanne Salmi"
+      fi: 'Huvimestari'
+      en: 'Host'
+    name: 'Juha Koppinen'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Sampsa Ruutu'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Markus Heimonen'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Antti Aspiala'
+
+  - title:
+      fi: 'Edustusmestari'
+      en: 'Head of Representations'
+    name: 'Hanne Salmi'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Maija Ahotupa
         description:
-          fi: "Killan kymmenennen Kultaisen Pränikän saa henkilö, joka aloitti kiltatoimintansa
+          fi: 'Killan kymmenennen Kultaisen Pränikän saa henkilö, joka aloitti kiltatoimintansa
             fuksivuonnaan nyt jo kuopatussa Abi-lobbarin virassa. Killan toiminta kiehtoi
             häntä sen verran paljon, että hän lähti hakemaan ja pääsikin vastuulliseen SuurPhuksin
             virkaan. Tästä tie jatkui tomeraksi puheenjohtajaksi. Hänen puheenjohtajavuoden
-            voidaan katsoa olleen viimeinen, kun kilta oli vielä \"nuori pienokainen\".
+            voidaan katsoa olleen viimeinen, kun kilta oli vielä "nuori pienokainen".
             Tämän jälkeen kilta siirtyi jo varsin seesteiseen ikään. Killassa toimimisen
             jälkeen hän toimi aktiivisesti vielä TKY:nkin tehtävissä. Killassa hän näkyy
             yhä tänäkin päivänä vaikka muuten on järjestöuransa lopettanut.
@@ -77,16 +77,16 @@ accolades:
             on aina voinut mennä juttelemaan ja yleensä jutusteluista on vielä tullut hyvälle
             tuulelle. Lyhyesti sanottuna hän on osallistunut positiivisella asenteellaan
             kiltatoiminnassa lähes kaikkeen mahdolliseen, mitä killasta on suinkin löytynyt.
-            Killan hallitus on päättänyt luovuttaa Kultaisen Pränikän Maija Ahotuvalle."
-          en: ""
+            Killan hallitus on päättänyt luovuttaa Kultaisen Pränikän Maija Ahotuvalle.'
+          en: ''
       - name: Antti Pohjoranta
         description:
-          fi: "Järjestyksessään yhdennentoista Kultaisen Pränikän saa henkilö, jota tapaa
+          fi: 'Järjestyksessään yhdennentoista Kultaisen Pränikän saa henkilö, jota tapaa
             kiltahuoneella usein vieläkin. Huolimatta siitä, että ihmiset ovat ympärillä
             vaihtuneet, hänen toimintaansa killassa se ei ole haitannut millään tavalla.
             Päinvastoin, hän on suhtaunut uusiin tulokkaisiin aina positiivesti ja avoimesti.
-            
-            Tämä liehuletti on tehnyt killassa yhtä sun toista, \"här och där\" ja kaikenlaisia
+
+            Tämä liehuletti on tehnyt killassa yhtä sun toista, "här och där" ja kaikenlaisia
             virkojakin on tämän herrasmiehen takkiin tarttunut, niin killan hallituksessa
             kuin toimihenkilönäkin. Kaikkia mahdollisia virkoja enemmän merkitsee tässä
             henkilössä asuva AS-henki. Positiivisella mielellä tämä toimelias kiltalainen
@@ -101,5 +101,5 @@ accolades:
             haasteisiin. Kiltatoimintaa ei ole myöskään estänyt eräänä vuonna vajaan 8000
             kilometrin välimatka killan varsinaiseen toimintaympäristöön. Tämä henkilö on
             tänä vuonna, ja tänäänkin, tullut tunnetuksi huojuvista, mutta pitkistä aasinsilloistaan.
-            Hänen asenteestaan voi jokainen kiltatoimija ottaa mallia, hän on Antti \"Pohjis\" Pohjoranta."
-          en: ""
+            Hänen asenteestaan voi jokainen kiltatoimija ottaa mallia, hän on Antti "Pohjis" Pohjoranta.'
+          en: ''

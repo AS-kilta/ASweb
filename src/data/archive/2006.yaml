@@ -1,63 +1,63 @@
-year: "2006"
+year: '2006'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Noora Korppi-Tommola"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Markus Heimonen"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Noora Korppi-Tommola'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Riku Lehto"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Markus Heimonen'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Antti Ilmavirta"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Riku Lehto'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Riikka Liedes"
-  
-  - title:
-      fi: "Huvimestari"
-      en: "Host"
-    name: "Juho Cederström"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Antti Ilmavirta'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Antti Aspiala"
-  
-  - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Mikko Lehto"
-  
-  - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Joni Rajanen"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Riikka Liedes'
 
   - title:
-      fi: "Edustusmestari"
-      en: "Head of Representations"
-    name: "Taru Laamanen"
+      fi: 'Huvimestari'
+      en: 'Host'
+    name: 'Juho Cederström'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Antti Aspiala'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Mikko Lehto'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Joni Rajanen'
+
+  - title:
+      fi: 'Edustusmestari'
+      en: 'Head of Representations'
+    name: 'Taru Laamanen'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Niilo Lohikoski
         description:
-          fi: "Järjestyksessä kahdestoista Kultainen Pränikkä menee henkilölle, joka on
+          fi: 'Järjestyksessä kahdestoista Kultainen Pränikkä menee henkilölle, joka on
             hyvällä asenteellaan ja iloisella hymyllään piristänyt monen päivää.
 
             Hän
@@ -67,7 +67,7 @@ accolades:
             pöytäkirjojen mukaan ainakin kahdeksan kappaletta. Toisen hallitusvuotensa hän
             oli yrityssuhdevastaavana kehittämässä nuoren killan suhteita yrityksiin. Tämän
             vuoden peruja on mm. killan yrityssuhdetietokanta, joka on käytössä edelleen.
-            
+
             Vaikka sankarimme häipyi ulkomaille hetkeksi, ei hän jättänyt kiltaa vaan
             raportoi säännöllisesti maailmalta. Sieltä palattuaan hän innostui ryhtymään
             killan toiseksi ulkkarivastaavaksi. Urotöistä mainittakoon myös hänen ideansa
@@ -80,14 +80,14 @@ accolades:
             Kaiken tämän ohessa
             kiltalaiset ovat myös seurailleet hänen tasoituksensa kehittymistä vuosien saatossa
             sekä edesottamuksia ammattiainekerhon GRAK:in puolella. Tällä hetkellä tuon
-            yhdistyksen puheenjohtajana toimiva Niilo Lohikoski on pränikkänsä ansainnut."
-          en: ""
+            yhdistyksen puheenjohtajana toimiva Niilo Lohikoski on pränikkänsä ansainnut.'
+          en: ''
       - name: Jukka Martikainen
         description:
-          fi: "Kolmastoista Kultaisen Pränikän saaja on yhtä kotoinen kuin lempitohvelit
+          fi: 'Kolmastoista Kultaisen Pränikän saaja on yhtä kotoinen kuin lempitohvelit
             tai sunnuntaihesari. Yhtä sympaattinen kuin Puff-lohikäärme, vaikkei paperista
             olekaan. Yhtä kaunissointinen kuin seireenin laulu Odysseuksen matkareitin varrella.
-            
+
             Odysseusta lähenteleviä matkoja tämä herrasimes todellakin on tehnyt. Ei ole
             kerta eikä kaksikaan, kun Fiat(tm), Nissan(tm) tai Micra(tm) on hurahtanut käyntiin
             ja vienyt joukon krapuloivia killistejä sinne missä pippuri kasvaa - ja tuonut
@@ -112,7 +112,7 @@ accolades:
             - lukemattomat pitkät illat ovat muokanneet sisustuksen ja viherkasvit sisältävän
             ASkin sellaiseksi kuin se tänä päivänä on. Tärkein sisustuselementti on kuitenkin
             mies itse; sen verran usein hän siellä aikaa viettää, nokkahuilu iskuun viritettynä.
-            
+
             Henkisen puolen peilaamiseen on GT tarjonnut omat sivunsa - joita tämä mies
             on ahkerasti täyttänyt, äärimmäisen rohkeasti omalla nimellään hyvin henkilökohtaisista
             asioista kirjoittaen. Myös tämä on tuonut hänet entistä läheisemmäksi meille
@@ -123,5 +123,5 @@ accolades:
             mukisematta killan eteen tehnyt, oikeuttaisi hänelle pronssisen Fiat-patsaan
             TUASin parkkikselle. Tänään tyydymme osoittamaan kiitollisuuttamme Kultaisen
             pränikän muodossa, jonka luovutamme miehelle, joka on legenda jo eläessään,
-            Jukka Martikainen eli JUKSTE."
-          en: ""
+            Jukka Martikainen eli JUKSTE.'
+          en: ''

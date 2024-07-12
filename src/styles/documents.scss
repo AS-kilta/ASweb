@@ -1,62 +1,61 @@
 @use '_variables' as *;
 
 @mixin documents {
-    .document {
-        margin-bottom: 5rem;
+  .document {
+    margin-bottom: 5rem;
 
-        h1, h2, h3, h4{
-            color: $as-violet-1;
-        }
-
-        h1 {
-            //long main title / other big title
-            font-size: clamp(1.8rem, 4vw, 2.75rem);
-            font-weight: 600;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        h2 {
-            //chapter / underlined title
-            font-size: clamp(1.5rem, 3.25vw, 2.4rem);
-            font-weight: 600;
-            margin-left: auto;
-            margin-right: auto;
-            border-bottom: 3px solid;
-            padding-bottom: 0.1em;
-        }
-
-        h3 {
-            // article/pykälä / smaller regular title
-            font-size: clamp(1.3rem, 2.8vw, 2.1rem);
-            font-weight: 600;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        h4 {
-            // subsection/clause
-            font-size: clamp(1.1rem, 2.1vw, 1.8rem);
-            font-weight: 500;
-            margin-left: auto;
-            margin-right: auto;
-            font-style: italic;
-        }
-
-        ul li::marker, ol li::marker{
-            color: $as-violet-1;
-        }
-
-        ul, ol{
-            padding-left: 3rem;
-            margin-top: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            margin-top: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
+    h1, h2, h3, h4{
+        color: $as-violet-1;
     }
+
+    h1 {
+      //long main title / other big title
+      font-size: clamp(1.8rem, 4vw, 2.75rem);
+      font-weight: 600;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      //chapter / underlined title
+      font-size: clamp(1.5rem, 3.25vw, 2.4rem);
+      font-weight: 600;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: 3px solid;
+      padding-bottom: 0.1em;
+    }
+
+    h3 {
+      // article/pykälä / smaller regular title
+      font-size: clamp(1.3rem, 2.8vw, 2.1rem);
+      font-weight: 600;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h4 {
+      // subsection/clause
+      font-size: clamp(1.1rem, 2.1vw, 1.8rem);
+      font-weight: 500;
+      margin-left: auto;
+      margin-right: auto;
+      font-style: italic;
+    }
+
+    ul li::marker, ol li::marker {
+      color: $as-violet-1;
+    }
+
+    ul, ol {
+      padding-left: 3rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  }
 }

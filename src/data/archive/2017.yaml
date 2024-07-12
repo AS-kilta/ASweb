@@ -1,92 +1,92 @@
-year: "2017"
+year: '2017'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Titta Saari"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Ilkka Malassu"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Titta Saari'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Veikka Kähkönen"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Ilkka Malassu'
 
   - title:
-      fi: "Viestintämestari"
-      en: "Head of Communications"
-    name: "Karolina Itäinen"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Veikka Kähkönen'
 
   - title:
-      fi: "Phuksikapteeni"
-      en: "Phuksi Captain"
-    name: "Noora Salminen"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Sanna Halmkrona"
+      fi: 'Viestintämestari'
+      en: 'Head of Communications'
+    name: 'Karolina Itäinen'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Taru Virtanen"
+      fi: 'Phuksikapteeni'
+      en: 'Phuksi Captain'
+    name: 'Noora Salminen'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Santeri Salmijärvi"
-  
-  - title:
-      fi: "Yrityssuhdemestari"
-      en: "Head of Corporate Relations"
-    name: "Severi Casserly"
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Sanna Halmkrona'
 
   - title:
-      fi: "Kulttuurimestari"
-      en: "Head of Culture"
-    name: "Antti Mella"
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Taru Virtanen'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Santeri Salmijärvi'
+
+  - title:
+      fi: 'Yrityssuhdemestari'
+      en: 'Head of Corporate Relations'
+    name: 'Severi Casserly'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Head of Culture'
+    name: 'Antti Mella'
 
 accolades:
   - name:
-      fi: "Hopeinen pränikkä"
-      en: "Silvery accolade"
+      fi: 'Hopeinen pränikkä'
+      en: 'Silvery accolade'
     people:
       - name: Antti-Jussi Inkinen
         description:
           fi: Tehnyt huomattavan paljon työtä jo kahtena vuonna sen eteen, että ASkin palvelutaso
             on yksi Otaniemen kiltahuoneiden parhaista. Ollut myös tärkeässä roolissa nykyisen
             säätötoiminnan järjestämisessä.
-          en: ""
+          en: ''
       - name: Ville Kauhanen
         description:
           fi: Vienyt killan yrityssuhdetoimintaa paljon eteenpäin. Hoitanut Master of International
             Affairs:n virkaa hyvin ja saanut vaihto-opiskelijoita kiinnostumaan killasta.
             Lisäksi ollut mukana myös killan uusien nettisivujen kehittämisessä sekä serveriprojektissa.
-          en: ""
+          en: ''
       - name: Veikka Kähkönen
         description:
           fi: Tehnyt paljon työtä uusien nettisivujen eteen. Ollut vahvasti mukana myös
             säätötoiminnassa.
-          en: ""
+          en: ''
       - name: Paul Laihonen
         description:
           fi: Ollut monessa vastuullisessa virassa mm. ISOpomona ja rahastonhoitajana. Hoitanut
             tämän vuoden Stimulaatiota varmoin ottein.
-          en: ""
+          en: ''
       - name: Miika Lehtimäki
         description:
           fi: Tehnyt ASkin kehittämisen eteen paljon. Tehnyt killalle paljon grafiikkaa.
-          en: ""
+          en: ''
       - name: Juuso Mikkonen
         description:
           fi: Nostanut GT:n profiilia paljon, mm. tekemällä GT-webin. Suuri tekijä lyhyestä
             fyysisestä mitastaan huolimatta.
-          en: ""
+          en: ''
       - name: Eero Santamala
         description:
           fi: Hoitanut sekä isännän että puheenjohtajan hommat jämptisti.
-          en: ""
+          en: ''
