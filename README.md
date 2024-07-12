@@ -43,7 +43,7 @@ npm i
 Run `npm start` or `npm run develop` in project directory. This runs the `gatsby develop` command, which runs the development build
 and starts the development server with file watching enabled. After the build completes, the site is accessible at http://localhost:8000.
 
-Running `npm run clean` before compiling the development build sometimes helps with errors like 
+Running `npm run clean` before compiling the development build sometimes helps with errors like
 seqmentation fault during compilation or `localhost:8000` only showing a blank screen after a successful compilation.
 
 ## How to run (production build)
