@@ -1,233 +1,233 @@
-$not-focused: transparentize($color: $natural-white, $amount: 0.25);
+$not-focused: transparentize(
+  $color: $natural-white,
+  $amount: 0.25,
+);
 
 .naviLink {
-    font-size: 1rem;
-    font-family: $font-heading;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: $not-focused;
+  font-size: 1rem;
+  font-family: $font-heading;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $not-focused;
 }
 
 .naviItem {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .dropdownToggle {
-    align-items: center;
-    color: $not-focused;
+  align-items: center;
+  color: $not-focused;
 
-    svg {
-        width: 1.8rem;
-        height: 1.8rem;
-        margin: auto;
-    }
+  svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: auto;
+  }
 }
 
-.naviLink:hover, .naviLink.active,
+.naviLink:hover,
+.naviLink.active,
 .dropdownToggle:hover {
-    color: $natural-white;
+  color: $natural-white;
 }
 
 .navi {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .subnavi {
-    display: none;
-    background-color: $accent-violet-1;
-    animation: simpleYScale 100ms ease-out forwards;
-    transform-origin: top center;
-    
-    & > * {
-        display: block
-    }
+  display: none;
+  background-color: $accent-violet-1;
+  animation: simpleYScale 100ms ease-out forwards;
+  transform-origin: top center;
+
+  & > * {
+    display: block;
+  }
 }
 
 .subnavi.showDropdown {
-    display: block;
+  display: block;
 }
 
 #navbarTop {
-    background: $as-violet-1;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    display: flex;
+  background: $as-violet-1;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
 
-    div a {
-        display: block;
-    }
+  div a {
+    display: block;
+  }
 
-    ul, li {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 #navbarCollapse {
-    display: flex;
+  display: flex;
 }
 
 @keyframes simpleYScale {
-    0% {
-        transform: scaleY(0);
-    }
+  0% {
+    transform: scaleY(0);
+  }
 
-    100% {
-        transform: scaleY(1);
-    }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 @media all and (min-width: $breakpoint-mobile) {
+  #navbarTop {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 
-    #navbarTop {
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
+  #navbarCollapse {
+    flex-direction: row;
+    align-items: center;
+  }
 
-    #navbarCollapse {
-        flex-direction: row;
-        align-items: center;
+  .naviLink {
+    padding: 15px;
+  }
+
+  .naviLink:has(+ .dropdownToggle) {
+    padding-right: 0.2rem;
+  }
+
+  .navbarLogo a {
+    margin: 10px 20px;
+  }
+
+  .dropdownToggle {
+    padding-right: 10px;
+    font-size: 20px;
+    min-height: 100%;
+
+    svg {
+      font-size: 30px;
     }
+  }
+
+  .subnavi {
+    position: absolute;
+    top: 100%;
+    box-shadow: 1px 1px 10px -5px $natural-black;
 
     .naviLink {
-        padding: 15px;
+      font-size: 15px;
+      text-align: left;
+      text-transform: uppercase;
+      font-weight: 700;
     }
+  }
 
-    .naviLink:has(+ .dropdownToggle)  {
-        padding-right: 0.2rem;
-    }
+  .naviItem:hover .subnavi {
+    display: block;
+  }
 
-    .navbarLogo a {
-        margin: 10px 20px;
-    }
-
-    .dropdownToggle {
-        padding-right: 10px;
-        font-size: 20px;
-        min-height: 100%;
-
-        svg {
-            font-size: 30px;
-        }
-    }
-
-    .subnavi {
-        position: absolute;
-        top: 100%;
-        box-shadow: 1px 1px 10px -5px $natural-black;
-
-        .naviLink {
-            font-size: 15px;
-            text-align: left;
-            text-transform: uppercase;
-            font-weight: 700;
-        }
-    }
-
-    .naviItem:hover .subnavi {
-        display: block;
-    }
-
-    .menuToggle {
-        display: none;
-    }
-    
+  .menuToggle {
+    display: none;
+  }
 }
 
 @media all and (max-width: $breakpoint-mobile) {
+  .dropdownToggle {
+    order: 1;
+    flex-grow: 0;
+    flex-basis: 75px;
+    padding-inline: 1rem;
+    border-left: solid 2px transparentize($color: $natural-white, $amount: 0.5);
 
-    .dropdownToggle {
-        order: 1;
-        flex-grow: 0;
-        flex-basis: 75px;
-        padding-inline: 1rem;
-        border-left: solid 2px transparentize($color: $natural-white, $amount: 0.5);
-
-        svg {
-            width: 2rem;
-            height: 2rem;
-        }
+    svg {
+      width: 2rem;
+      height: 2rem;
     }
+  }
 
-    .naviItem {
-        width: 100%;
-        flex-wrap: wrap;
-    }
+  .naviItem {
+    width: 100%;
+    flex-wrap: wrap;
+  }
 
+  .naviLink {
+    flex-grow: 1;
+    font-size: 1.8rem;
+    padding: 10px 20px;
+  }
+
+  .naviLink:hover {
+    background: $accent-violet-1;
+  }
+
+  .subnavi {
     .naviLink {
-        flex-grow: 1;
-        font-size: 1.8rem;
-        padding: 10px 20px;
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-transform: none;
+      line-height: 1.6;
     }
 
-    .naviLink:hover {
-        background: $accent-violet-1;
-    }
+    width: 100%;
+    flex-direction: column;
+    order: 2;
+  }
 
-    .subnavi {
+  .menuToggle {
+    order: 1;
+    font-size: 45px;
+    color: $natural-white;
+  }
 
-        .naviLink {
-            font-size: 1.3rem;
-            font-weight: 500;
-            text-transform: none;
-            line-height: 1.6;
-        }
+  .navbarLogo, .menuToggle {
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
 
-        width: 100%;
-        flex-direction: column;
-        order: 2;
-    }
+  #navbarCollapse {
+    display: none;
+    width: 100%;
+    padding-inline: calc((100% - 500px) / 2);
+    order: 2;
 
-    .menuToggle {
-        order: 1;
-        font-size: 45px;
-        color: $natural-white;
-    }
-    
-    .navbarLogo, .menuToggle {
-        padding: 5px;
-        margin: 10px;
-        display: flex;
-        align-items: center;
-    }
+    animation: simpleYScale 100ms ease-out forwards;
+    transform-origin: top center;
+  }
 
-    #navbarCollapse {
-        display: none;
-        width: 100%;
-        padding-inline: calc((100% - 500px) / 2);
-        order: 2;
-    
-        animation: simpleYScale 100ms ease-out forwards;
-        transform-origin: top center;
-    }
-    
-    #navbarCollapse.show {
-        display: block;
-    }
-    
-    #navbarTop {
-        justify-content: space-between;
-    }
+  #navbarCollapse.show {
+    display: block;
+  }
 
-    #navbarTop.expanded {
-        height: 100vh;
-        overflow-y: scroll;
-        flex-wrap: wrap;
-        align-content: flex-start;
-        gap: 15px;
-    }
+  #navbarTop {
+    justify-content: space-between;
+  }
 
-    #navbarTop.expanded::-webkit-scrollbar {
-        display: none;
-    }
+  #navbarTop.expanded {
+    height: 100vh;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 15px;
+  }
+
+  #navbarTop.expanded::-webkit-scrollbar {
+    display: none;
+  }
 }

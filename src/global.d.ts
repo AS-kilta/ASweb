@@ -1,70 +1,68 @@
-import { PageProps as GatsbyPageProps } from 'gatsby'
-import { IGatsbyImageData } from 'gatsby-plugin-image'
-import React from 'react';
+import { PageProps as GatsbyPageProps } from 'gatsby';
+import { IGatsbyImageData } from 'gatsby-plugin-image';
 
 interface CustomPageProps {
-    slug: string;
-    lang: string;
-    translation?: string;
+  slug: string;
+  lang: string;
+  translation?: string;
 }
 
 declare global {
-    // PageProps with customized pageContext
-    
-    interface PageProps extends GatsbyPageProps  {
-        pageContext: PageProps["pageContext"] & CustomPageProps;
+  // PageProps with customized pageContext
 
-    }
+  interface PageProps extends GatsbyPageProps {
+    pageContext: PageProps['pageContext'] & CustomPageProps;
+  }
 
-    // Type declaration for SCSS modules
+  // Type declaration for SCSS modules
 
-    declare module '*.scss' {
-        const content: {[className: string]: string};
-        export = content;
-    }
-    
-    // Type for translated strings in data schemes
-    
-    interface TranslatedEntry {
-        [key:string]: string;
-    }
+  declare module '*.scss' {
+    const content: { [className: string]: string };
+    export = content;
+  }
 
-    // Type for object containing translations
+  // Type for translated strings in data schemes
 
-    interface Translations {
-        [key:string]: TranslatedEntry;
-    }
+  interface TranslatedEntry {
+    [key: string]: string;
+  }
 
-    // Type for image data for dynamic images
+  // Type for object containing translations
 
-    interface DynamicImageData {
-        childImageSharp: {
-            gatsbyImageData: IGatsbyImageData;
-        }
-        base?: string;
-    }
+  interface Translations {
+    [key: string]: TranslatedEntry;
+  }
 
-    // Type for queried data from page queries
+  // Type for image data for dynamic images
 
-    interface MdxProps {
-        mdx: {
-          fields: {
-            lang: string
-          }
-          frontmatter: {
-            [key:string]: string;
-          }
-        },
-        pageContext: any
-    }
+  interface DynamicImageData {
+    childImageSharp: {
+      gatsbyImageData: IGatsbyImageData;
+    };
+    base?: string;
+  }
 
-    interface ImageFileProps {
-        file: DynamicImageData
-    }
+  // Type for queried data from page queries
 
-    interface ImageArrayProps {
-        allFile: {
-            nodes: DynamicImageData[]
-        }
-    }
+  interface MdxProps {
+    mdx: {
+      fields: {
+        lang: string;
+      };
+      frontmatter: {
+        [key: string]: string;
+      };
+    };
+    pageContext: unknown;
+  }
+
+  interface ImageFileProps {
+    file: DynamicImageData;
+  }
+
+  interface ImageArrayProps {
+    allFile: {
+      nodes: DynamicImageData[];
+    };
+  }
 }

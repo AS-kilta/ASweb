@@ -1,63 +1,63 @@
-year: "2009"
+year: '2009'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Antti Ilmavirta"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Jani Kautto"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Antti Ilmavirta'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Tommi Pajala"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Jani Kautto'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Juho Salmi"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Tommi Pajala'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Juho Sundin"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Jaakko Kantojärvi"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Juho Salmi'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Salla Ojala"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Juho Sundin'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Antti Toivanen"
-  
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Jaakko Kantojärvi'
+
   - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Antti Alakiikonen"
-  
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Salla Ojala'
+
   - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Antti-Ville Vaari"
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Antti Toivanen'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Antti Alakiikonen'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Antti-Ville Vaari'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Emmi Turanlahti
         description:
-          fi: "Vuonna 2009 ensimmäinen Kultaisen Pränikän saa henkilö, jonka kilta-cv:ltä
+          fi: 'Vuonna 2009 ensimmäinen Kultaisen Pränikän saa henkilö, jonka kilta-cv:ltä
             ei mittaa puutu. Jo phuksina hän päätti, ettei kevyt aloitus pienellä toimarinakilla
             ole häntä varten ja päätyi suoraan vallan keskiöön, killan hallitukseen. Ensin
             emäntänä hän järjesti mitä mahtavimpia saunailtoja ja pöytäjuhlia ja johti smurffilaumaansa
@@ -76,11 +76,11 @@ accolades:
             lämminsydäminen ystävä kirjoitti nimensä kultakirjaimin killan historiaan vastaamalla
             vuosi sitten killan kymmenvuotisjuhlavuoden juhlallisuuksien järjestämisestä.
             Hyvät naiset ja herrat, Automaatio- ja systeemitekniikan killan Kultaisen Pränikän
-            numero 18 saa Emmi Turanlahti."
-          en: ""
+            numero 18 saa Emmi Turanlahti.'
+          en: ''
       - name: Kalle Kollin
         description:
-          fi: "Vuoden 2009 toisen Pränikän saaja ei esittelyjä kaipaa. Ei, hänen maineensa
+          fi: 'Vuoden 2009 toisen Pränikän saaja ei esittelyjä kaipaa. Ei, hänen maineensa
             on kiirinyt kauas killan ulkopuolellekin. Vaan mistä mahtaa tuo henkilö sitten
             olla tunnettu? Ehkä siitä, että hän on aina paikalla siellä missä tapahtuu.
             Ehkä siitä, että hän uhraa kyselemättä ja empimättä aikaansa killalle. Tai ehkä
@@ -92,7 +92,7 @@ accolades:
             killan tapahtumassa. Hänellä oli kuitenkin vielä unelma. Unelma päästä toivottamaan
             uudet phuksit yhtä tervetulleeksi kiltaan, kun mitä hän itse oli kokenut.
 
-            
+
             Tämän unelman hän pääsi seuraavana vuonna täyttämään kantaessaan suurphuksin
             viittaa menestyksellä. Muiden muassa minä (Antti Ilmavirta, pj 2009) itse olin
             hänen phuksinsa ja se, että seison nyt täällä, on vähintään osaksi hänen ansiotaan.
@@ -109,6 +109,5 @@ accolades:
             Minulla on
             mitä suurin ilo ja kunnia myöntää Automaatio- ja systeemitekniikan killan järjestyksessään
             19. Kultainen Pränikkä hienolle miehelle, joka on todellinen teekkarihengen
-            ilmentymä, Kalle Kollin."
-          en: ""
-
+            ilmentymä, Kalle Kollin.'
+          en: ''

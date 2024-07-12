@@ -1,63 +1,63 @@
-year: "2007"
+year: '2007'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Markus Heimonen"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Oskari Heikkinen"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Markus Heimonen'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Kristina Hellman"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Oskari Heikkinen'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Johannes Saarinen"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Kristina Hellman'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Mikko Tuohimaa"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Matias Roimola"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Johannes Saarinen'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Aino Paloviita"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Mikko Tuohimaa'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Tuomas Ilola"
-  
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Matias Roimola'
+
   - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Miika Karanki"
-  
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Aino Paloviita'
+
   - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Tommi Forsman"
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Tuomas Ilola'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Miika Karanki'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Tommi Forsman'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Meeri Nieminen
         description:
-          fi: "Harva meistä on ampaissut yhtä ennakkoluulottomasti ja reippaasti mukaan
+          fi: 'Harva meistä on ampaissut yhtä ennakkoluulottomasti ja reippaasti mukaan
             kiltatoimintaan kuin tämä hymyllään sydämiä sulattava AS:n kasvatti. Hädin tuskin
             vuottakaan opiskeltuaan hän oli jo abi- infossa houkuttelemassa uusia kasvoja
             osastomme ja killan pariin, ylpeästi violettia haalariaan kantaen. Tuona samaisena
@@ -70,7 +70,7 @@ accolades:
             palstatilaa Kultaisesta Tomaatista, joten seuraavaksi hän astui kiltalehden
             päätoimittajan saappaisiin. Vuosien mittaan olemme saaneet lueskella hänen hengentuotoksiaan
             identiteettikriiseistä ja jouluostoksista parisuhdevinkkien kautta pinjansiemeniin.
-            
+
             Vaikka hän ehti vaihtaa osastoa ja jo valmistuakin, riittää hänen loppumaton
             intonsa yhä killan toiminnan seuraamiseen ja sen tapahtumissa pyörimiseen. Oivan
             mahdollisuuden gyyläämiseen on tarjonnut killan jatkuvuustoimikunta, jonka jäsenenä
@@ -82,8 +82,8 @@ accolades:
             yhdistystä tai Accenturelle kimblekerhoa. Konsulttina hänen ajatuksensa saattavat
             tosin ajoittain johtaa keskeltä ei- mihinkään. Toivottavasti saamme kuulla hänen
             hihitystään killan tapahtumissa vielä jatkossakin. Loppuun lainaus hänen omasta
-            kirjoituksestaan GT:n puhispalstalta: \"Minulle suurin palkinto kiltatoiminnassa
+            kirjoituksestaan GT:n puhispalstalta: "Minulle suurin palkinto kiltatoiminnassa
             tulee siitä, että saa olla osa yhteisöä, jossa niin moni on valmis tekemään
-            pyyteettömästi töitä yhteisen hyvän puolesta. Se on kaunista.\" Mielestämme
-            Meeri Nieminen on toteuttanut sanojaan Kultaisen Pränikän arvoisesti."
-          en: ""
+            pyyteettömästi töitä yhteisen hyvän puolesta. Se on kaunista." Mielestämme
+            Meeri Nieminen on toteuttanut sanojaan Kultaisen Pränikän arvoisesti.'
+          en: ''

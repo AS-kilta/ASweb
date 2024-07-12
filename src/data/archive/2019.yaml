@@ -1,59 +1,59 @@
-year: "2019"
+year: '2019'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Severi Casserly"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Ville Eronen"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Severi Casserly'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Jaakko Majuri"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Ville Eronen'
 
   - title:
-      fi: "Viestintämestari"
-      en: "Head of Communications"
-    name: "Niina Tapanainen"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Jaakko Majuri'
 
   - title:
-      fi: "Phuksikapteeni"
-      en: "Phuksi Captain"
-    name: "Lassi Ihalainen"
+      fi: 'Viestintämestari'
+      en: 'Head of Communications'
+    name: 'Niina Tapanainen'
 
   - title:
-      fi: "International Student Captain"
-      en: "International Student Captain"
-    name: "Mikko Hokkanen"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Vesta Kulomaa"
+      fi: 'Phuksikapteeni'
+      en: 'Phuksi Captain'
+    name: 'Lassi Ihalainen'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Alex Korpela"
+      fi: 'International Student Captain'
+      en: 'International Student Captain'
+    name: 'Mikko Hokkanen'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Akseli Konttas"
-  
-  - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Jyri Kolu"
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Vesta Kulomaa'
 
   - title:
-      fi: "Kulttuurimestari"
-      en: "Head of Culture"
-    name: "Juhana Kekoni"
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Alex Korpela'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Akseli Konttas'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Jyri Kolu'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Head of Culture'
+    name: 'Juhana Kekoni'
 
 officials:
   - name:
@@ -409,8 +409,8 @@ officials:
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Karolina Itäinen
         description:
@@ -422,7 +422,7 @@ accolades:
             epävarmuus. Rahaliikenteen hoidon lisäksi hän hoiti juhlavuonna varapuheenjohtajan
             tehtävän kunnialla tavallista suuremmista vastuista huolimatta. Hän on Karolina
             Itäinen.
-          en: ""
+          en: ''
       - name: Eero Santamala
         description:
           fi: Tämä pitkän linjan kilta-aktiivi on ehtinyt tehdä monenlaista. Hänet tunnetaan
@@ -432,10 +432,10 @@ accolades:
             organisaatiotakin. Valmistumisen jo häämöttäessä tulevaisuudessa lähti hän vielä
             juhlavuotta tekemään ja olikin takuumies 20. Stilliksen takana. Hän on Eero
             Santamala.
-          en: ""
+          en: ''
   - name:
-      fi: "Hopeinen pränikkä"
-      en: "Silvery accolade"
+      fi: 'Hopeinen pränikkä'
+      en: 'Silvery accolade'
     people:
       - name: Roope Pääkkönen
         description:
@@ -445,7 +445,7 @@ accolades:
             mm. GT:ssä, sitseillä, rrrRankalla ja jopa jokaisen AS-phuksin ensimmäisenä
             päivänä Otaniemessä. Toivottakaamme lavalle ensimmäinnen hopeisen pränikän saaja
             - Roope Pääkkönen
-          en: ""
+          en: ''
       - name: Ville Eronen
         description:
           fi: Tämä täsmällisyyden ja luotettavuuden perikuva huolehtii siitä, että asiat
@@ -454,7 +454,7 @@ accolades:
             matikankurssia ja et ole katsonut opintosuunnitelmaasi sitten phuksikevään.
             Hän taistelee teidän puolesta koulun vääryyksiä vastaan, meidän opintojen puolesta.
             Hän on Ville Eronen.
-          en: ""
+          en: ''
       - name: Emma Riikonen
         description:
           fi: Tämän toistaiseksi enemmän taustalla toimineen kiltalaisen kädenjäljet ovat
@@ -463,14 +463,14 @@ accolades:
             silmämme ovat saaneet kiittää myös kauniista 20-vuotis historiikistä ja samaa
             silmänruokaa nautimme jopa tänään siellä pöydissänne. Tämän hopeisin pränikän
             saa - Emma Riikonen
-          en: ""
+          en: ''
       - name: Helena Kaisanlahti
         description:
           fi: Tämä toinen nouseva tekijä on ollut phuksivuodestaan aktiivinen ja innokas
             monella eri osa-alueella. Hän on osaltaan ollut mukana uudistamassa kiltaa abimarkkinoinnin
             osalta. Tämä henkilö on aina täysillä mukana ja täynnä räväkkää tekemisen meininkiä.
             Pränikän saa - Helena Kaisanlahti.
-          en: ""
+          en: ''
       - name: Taru Virtanen
         description:
           fi: Illan viimeisen hopeisen pränikän saaja luo puhdasta iloa ja lämpöä ympärilleen.
@@ -478,4 +478,4 @@ accolades:
             viimeinen tiedottaja toi myös viikoittain söpöt kissakuvat kiltalaisille. Hänen
             kanssaan on aina tehdä hommia on se sitten rankkaa työtä tai rankkaa huvia.
             Tämän hopeisen ansiomerkin saa - Taru Virtanen.
-          en: ""
+          en: ''
