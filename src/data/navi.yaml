@@ -1,75 +1,75 @@
 - title:
-    fi: "Kilta"
-    en: "Guild"
+    fi: 'Kilta'
+    en: 'Guild'
   link:
-    fi: "/guild"
-    en: "/en/guild"
+    fi: '/guild'
+    en: '/en/guild'
   subnavi:
     - title:
-        fi: "Hallitus"
-        en: "Board"
+        fi: 'Hallitus'
+        en: 'Board'
       link:
-        fi: "/guild/board"
-        en: "/en/guild/board"
+        fi: '/guild/board'
+        en: '/en/guild/board'
     - title:
-        fi: "Toimihenkilöt"
-        en: "Officials"
+        fi: 'Toimihenkilöt'
+        en: 'Officials'
       link:
-        fi: "/guild/officials"
-        en: "/en/guild/officials"
+        fi: '/guild/officials'
+        en: '/en/guild/officials'
     - title:
-        fi: "Jäsenyys"
-        en: "Membership"
+        fi: 'Jäsenyys'
+        en: 'Membership'
       link:
-        fi: "/guild/membership"
-        en: "/en/guild/membership"
+        fi: '/guild/membership'
+        en: '/en/guild/membership'
     - title:
-        fi: "Arkisto"
-        en: "Archive"
+        fi: 'Arkisto'
+        en: 'Archive'
       link:
-        fi: "/guild/archive"
-        en: "/en/guild/archive"
+        fi: '/guild/archive'
+        en: '/en/guild/archive'
     - title:
-        fi: "Asiakirjat"
-        en: "Documents"
+        fi: 'Asiakirjat'
+        en: 'Documents'
       link:
-        fi: "/guild/documents"
-        en: "/en/guild/documents"
+        fi: '/guild/documents'
+        en: '/en/guild/documents'
     - title:
-        fi: "Häirintä­yhdyshenkilöt"
-        en: "Confidential Counselors"
+        fi: 'Häirintä­yhdyshenkilöt'
+        en: 'Confidential Counselors'
       link:
-        fi: "/guild/confidential-counselors"
-        en: "/en/guild/confidential-counselors"
+        fi: '/guild/confidential-counselors'
+        en: '/en/guild/confidential-counselors'
 - title:
-    fi: "Abeille"
+    fi: 'Abeille'
   link:
-    fi: "/abit"
+    fi: '/abit'
 - title:
-    fi: "Fukseille"
-    en: "Fuksis"
+    fi: 'Fukseille'
+    en: 'Fuksis'
   link:
-    fi: "/fuksis"
-    en: "/en/fuksis"
+    fi: '/fuksis'
+    en: '/en/fuksis'
   subnavi:
     - title:
-        fi: "Fuksiopas"
-        en: "DSD Fuksiguide"
+        fi: 'Fuksiopas'
+        en: 'DSD Fuksiguide'
       link:
-        fi: "/fuksis/fuksiguide"
-        en: "/en/fuksis/fuksiguide"
+        fi: '/fuksis/fuksiguide'
+        en: '/en/fuksis/fuksiguide'
     - title:
-        fi: "Teekkarikulttuuri"
-        en: "Teekkariculture"
+        fi: 'Teekkarikulttuuri'
+        en: 'Teekkariculture'
       link:
-        fi: "/fuksis/teekkariculture"
-        en: "/en/fuksis/teekkariculture"
+        fi: '/fuksis/teekkariculture'
+        en: '/en/fuksis/teekkariculture'
     - title:
-        fi: "Orientaatioviikko"
-        en: "DSD Orientation week"
+        fi: 'Orientaatioviikko'
+        en: 'DSD Orientation week'
       link:
-        fi: "/fuksis/orientationweek"
-        en: "/en/fuksis/orientationweek"
+        fi: '/fuksis/orientationweek'
+        en: '/en/fuksis/orientationweek'
 - title:
     fi: "Opinnot"
     en: "Studies"
@@ -99,11 +99,11 @@
     fi: "Yrityksille"
     en: "Corporate Relations"
   link:
-    fi: "/partners"
-    en: "/en/partners"
+    fi: '/partners'
+    en: '/en/partners'
 - title:
-    fi: "Yhteystiedot"
-    en: "Contact"
+    fi: 'Yhteystiedot'
+    en: 'Contact'
   link:
-    fi: "/contact"
-    en: "/en/contact"
+    fi: '/contact'
+    en: '/en/contact'

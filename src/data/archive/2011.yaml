@@ -1,64 +1,64 @@
-year: "2011"
+year: '2011'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Juho Salmi"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Elmeri Poikolainen"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Juho Salmi'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Iiris Routa"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Elmeri Poikolainen'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Ian Tuomi"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Iiris Routa'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Tuomas Ruotsalainen"
-  
-  - title:
-      fi: "Isäntä"
-      en: "Host"
-    name: "Antti Toivanen"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Ian Tuomi'
 
   - title:
-      fi: "Emäntä"
-      en: "Hostess"
-    name: "Janna Huuskonen"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Tuomas Ruotsalainen'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Joonas Kröger"
-  
-  - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Peter Kronström"
-  
-  - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Konsta Hölttä"
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Antti Toivanen'
 
   - title:
-      fi: "Ulkomestari"
-      en: "Head of Foreign Affairs"
-    name: "Heikki Tahvanainen"
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Janna Huuskonen'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Joonas Kröger'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Peter Kronström'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Konsta Hölttä'
+
+  - title:
+      fi: 'Ulkomestari'
+      en: 'Head of Foreign Affairs'
+    name: 'Heikki Tahvanainen'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Tommi Forsman
         description:
@@ -71,7 +71,7 @@ accolades:
             velvollisuuksiensa ulkopuolella hän on osallistunut lukuisiin projekteihin,
             kuten ulkomaanexcursioiden järjestämiseen sekä tänäänkin juhlia tahdittavan
             gongin rakentamiseen. Myös ASkissa hän on edelleen vakiokävijä.
-          en: ""
+          en: ''
       - name: Riikka Liedes
         description:
           fi: Toinen pränikän saaja on tehnyt näyttävän uran Otaniemessä niin killassa kuin
@@ -81,4 +81,4 @@ accolades:
             on toiminut useissa ylioppilaskuntamme viroissa, kuten teekkarijaoston ISOtirehtöörinä.
             Lisäksi hän on osoittanut kiitettävää mielenkiintoa yhteisten asioiden hoitamiseen
             toimimalla useamman kauden ajan TKY:n ja sittemmin AYY:n edustajistossa.
-          en: ""
+          en: ''
