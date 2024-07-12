@@ -1,59 +1,59 @@
-year: "2004"
+year: '2004'
 board:
   - title:
-      fi: "Puheenjohtaja"
-      en: "Chairperson"
-    name: "Riikka Viskari"
-    
-  - title:
-      fi: "Rahastonhoitaja"
-      en: "Treasurer"
-    name: "Santtu Kallionpää"
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Riikka Viskari'
 
   - title:
-      fi: "Sihteeri"
-      en: "Secretary"
-    name: "Kirsi Siivola"
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Santtu Kallionpää'
 
   - title:
-      fi: "Tiedottaja"
-      en: "Publicist"
-    name: "Jussi Hölttä"
+      fi: 'Sihteeri'
+      en: 'Secretary'
+    name: 'Kirsi Siivola'
 
   - title:
-      fi: "SuurPhuksi"
-      en: "Great Phuksi"
-    name: "Emmi Turanlahti"
-  
-  - title:
-      fi: "Huvimestari"
-      en: "Host"
-    name: "Minna Korhonen"
+      fi: 'Tiedottaja'
+      en: 'Publicist'
+    name: 'Jussi Hölttä'
 
   - title:
-      fi: "Opintomestari"
-      en: "Head of Studies"
-    name: "Henri Seppä"
-  
-  - title:
-      fi: "Yrityssuhdevastaava"
-      en: "Head of Corporate Relations"
-    name: "Mikael Blomberg"
-  
-  - title:
-      fi: "Säätömestari"
-      en: "Master Tinkerer"
-    name: "Juha Koppinen"
+      fi: 'SuurPhuksi'
+      en: 'Great Phuksi'
+    name: 'Emmi Turanlahti'
 
   - title:
-      fi: "Edustusmestari"
-      en: "Head of Representations"
-    name: "Peike Korvenmaa"
+      fi: 'Huvimestari'
+      en: 'Host'
+    name: 'Minna Korhonen'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Head of Studies'
+    name: 'Henri Seppä'
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Mikael Blomberg'
+
+  - title:
+      fi: 'Säätömestari'
+      en: 'Master Tinkerer'
+    name: 'Juha Koppinen'
+
+  - title:
+      fi: 'Edustusmestari'
+      en: 'Head of Representations'
+    name: 'Peike Korvenmaa'
 
 accolades:
   - name:
-      fi: "Kultainen pränikkä"
-      en: "Golden accolade"
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
     people:
       - name: Tomi Savolainen
         description:
@@ -68,10 +68,10 @@ accolades:
             pyytää ja hänen luova panoksensa on näkynyt niin Kultaisessa tomaatissa kuin
             eri Stimulaatioissa vuosien varrella. Tämä mies on kiltamme ensimmäinen emäntä,
             Tomi "TC" Savolainen.
-          en: ""
+          en: ''
       - name: Tuomas Kiikka
         description:
-          fi: "Yhdeksännen pränikän saaja on aina ollut yksi kiltamme ahkerimmista sitsaajista.
+          fi: 'Yhdeksännen pränikän saaja on aina ollut yksi kiltamme ahkerimmista sitsaajista.
             Eikä pelkästään juhlijana vaan myös järjestäjänä. Jo phuksivuonnaan hän oli
             melkeinpä korvaamaton apu silloiselle hallitukselle. Kun hän lupasi tehdä jotain,
             muut saattoivat luottaa, että se myös tulee tehtyä. Vaikka toimarivuosi oli
@@ -80,7 +80,7 @@ accolades:
             sisä- kuin raha-asioissa.
 
             Eräs hallitukselle tullut ehdotus alkoi näin:
-            \"Teekkaritoimintaan kuuluu monia asioita. On yhteistyötä ja vastuunkantamista.
+            "Teekkaritoimintaan kuuluu monia asioita. On yhteistyötä ja vastuunkantamista.
             On hauskanpitoa ja ongelmien ratkomista. On kaljakorien kantoa ja phuksityttöjen
-            iskemistä. Tuomas Kiikka on tehnyt tätä kaikkea.\""
-          en: ""
+            iskemistä. Tuomas Kiikka on tehnyt tätä kaikkea."'
+          en: ''
