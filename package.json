@@ -50,6 +50,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,yaml}\"",
+    "check-format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,yml,yaml}\"",
     "lint": "npx eslint .",
     "start": "npm run develop",
     "production": "npm run clean && npm run build && npm run serve",
