@@ -5,8 +5,8 @@
   border: 0;
   border-radius: 50%;
   box-shadow: 0 0 0.3rem $as-violet-2;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: clamp(2.5rem, 3.5vw, 3.5rem);
+  height: clamp(2.5rem, 3.5vw, 3.5rem);
   position: fixed;
   display: flex;
   align-items: center;
@@ -16,8 +16,8 @@
     opacity 0.15s linear;
 
   svg {
-    width: 2rem;
-    height: 2rem;
+    width: clamp(2rem, 3vw, 3rem);
+    height: clamp(2rem, 3vw, 3rem);
   }
 }
 

@@ -10,15 +10,17 @@ const BackToTop: React.FC<{ lang: string }> = ({ lang }) => {
   useEffect(() => {
     const handleVisibility: () => void = () => {
       const scrollPosition: number = window.scrollY;
-      if (scrollPosition >= 300 && !visible) setVisible(true);
-      else if (scrollPosition < 300 && visible) setVisible(false);
+      const threshold: number = 500;
+      if (scrollPosition >= threshold && !visible) setVisible(true);
+      else if (scrollPosition < threshold && visible) setVisible(false);
     };
+    handleVisibility();
     window.addEventListener('scroll', handleVisibility);
 
     return () => {
       window.removeEventListener('scroll', handleVisibility);
     };
-  }, [visible]);
+  }, [visible, setVisible]);
 
   const classes: string = `${style.button} ${visible ? style.visible : ''}`;
   const translations: Translations = {
