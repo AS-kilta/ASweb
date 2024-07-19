@@ -15,13 +15,13 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
           style={{ marginBlock: '1rem' }}
           className="rounded-button"
           target="_blank"
-          href="https://drive.google.com/file/d/1IS6iPssUeoT7gCId9VpXANE2DAA40Zaw/view?usp=sharing"
+          href="https://drive.google.com/file/d/1vYs4y_rdWCzXB-4x7nl-o2d02wzuA4Qv/view?usp=sharing"
           rel="noreferrer"
         >
           Lataa PDF
         </a>
         <iframe
-          src="https://drive.google.com/file/d/1IS6iPssUeoT7gCId9VpXANE2DAA40Zaw/preview"
+          src="https://drive.google.com/file/d/1vYs4y_rdWCzXB-4x7nl-o2d02wzuA4Qv/preview"
           width="100%"
           height="800"
           allow="autoplay"
