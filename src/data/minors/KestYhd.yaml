@@ -1,0 +1,73 @@
+lang:
+  fi: true
+  en: false
+
+name:
+  fi: 'Kestävät yhdyskunnat'
+  en: 'Kestävät yhdyskunnat'
+
+link:
+  fi: 'https://www.aalto.fi/fi/sivuaineet/kestavat-yhdyskunnat-sivuaine'
+  en: 'https://www.aalto.fi/fi/sivuaineet/kestavat-yhdyskunnat-sivuaine'
+
+desc:
+  fi: >
+    Sivuaine tarjoaa mahdollisuuden syventyä monipuolisesti rakennetun ympäristön
+    suunnitteluun ja kehittämiseen liittyviin aiheisiin. Sivuaineen tavoitteena on antaa
+    opiskelijoille laaja-alainen ymmärrys rakennetun ympäristön eri osa-alueista, kuten
+    kaupunkisuunnittelusta, arkkitehtuurista, maisemasuunnittelusta ja rakennustekniikasta,
+    samalla keskittyen erityisesti maankäytön ja liikenteen suunnittelun sekä kiinteistötalouden
+    näkökulmiin. Sivuaine tarjoaa myös verkostoitumismahdollisuuksia alan asiantuntijoiden ja
+    muiden opiskelijoiden kanssa, sillä monet kurssisuoritukset sisältävät ryhmätöitä ja
+    projekteja tenttien sijasta.
+  en: 'TEKSTIÄ IN INGLISH'
+
+why:
+  fi: >
+    Sivuaine tuo monipuolisuutta opintoihin, sillä käytännössä kaikki sivuaineen kurssit eroavat
+    pääaineen kursseista niin sisällöiltään, järjestelyiltään, kuin opetustavoiltaan. Sivuaineen
+    kursseilla perinteiset luento + laskari + tentti -yhdistelmät on korvattu esimerkiksi luento +
+    lukupiiri + projektityö -yhdistelmillä. Sivuaine tarjoaa opiskelijalle kattavat tiedot
+    yhdyskuntasuunnittelusta, mikä pääaineopintojen kanssa antaa opiskelijalle erinomaiset
+    valmiudet toimia esimerkiksi kriittisen infrastruktuurin hallinta-, suunnittelu- ja
+    ylläpitotehtävissä.
+  en: 'TEKSTIÄ IN INGLISH'
+
+whatMasters:
+  info:
+    fi: >
+      Sivuaineen suorittamisen jälkeen opiskelijan maisteriohjelmaoptiot laajenevat kahdella
+      vaihtoehdolla: tulevaisuuden kestäviin rakennettuihin ympäristöihin keskittyvään Master's
+      Programme in Spatial Planning and Transportation Engineering -ohjelmaan sekä vesi- ja
+      ympäristöaiheiden ympärille keskittyvään Master's Programme in Water and Environmental
+      Engineering -ohjelmaan.
+    en: 'TEKSTIÄ IN INGLISH'
+  list:
+    fi:
+      - >
+        Master's Programme in Spatial Planning and Transportation Engineering
+      - >
+        Master's Programme in Water and Environmental Engineering
+    en:
+      - 'EMPTY LIST LOL'
+
+whatCourses:
+  info:
+    fi: ''
+    en: ''
+  list:
+    fi:
+      - 'KEY-C1010 Johdatus kestäviin yhdyskuntiin. Kurssi tarjoaa helposti lähestyttävän tavan
+        tutustua kestävien yhdyskuntien, vesitekniikan, liikennetekniikan ja maankäytön
+        suunnitteluun. Kurssilla käydään läpi niin yhdyskuntasuunnittelua, sen historiaa ja aiheeseen
+        liittyvää säännöstelyä kuin veden kiertoa, merkitystä yhteiskunnissa ja vesivarojen tärkeyttä
+        myös Suomen ulkopuolella.'
+      - 'KIG-C1010 Johdatus geoinformatiikkaan. Kurssilla opitaan perusteet paikkatiedosta, sen
+        merkityksestä sekä hallitsemaan sitä tietokoneella GIS-ohjelmistolla. Kurssia voi luonnehtia
+        erittäin yleissivistäväksi, sillä kurssilla käydään läpi myös perinteisempää paikkatiedon
+        määritystä, koordinaattijärjestelmiä ja geodesiaa, eli maanmittausoppia. Lisäksi kurssilla
+        opitaan perusteet monista aiheeseen liittyvistä mittaustekniikoista, kuten fotogrammetriasta,
+        laserkeilauksesta sekä kaukokartoituksesta. Osaa näistä tekniikoista pääsee kokeilemaan
+        kurssilla myös itse.'
+    en:
+      - 'EMPTY LIST LOL'
