@@ -1,0 +1,77 @@
+lang:
+  fi: true
+  en: false
+
+name:
+  fi: 'Tuotantotalous'
+  en: 'Tuotantotalous'
+
+link:
+  fi: 'https://www.aalto.fi/fi/sivuaineet/tuotantotalous-sivuaine'
+  en: 'https://www.aalto.fi/fi/sivuaineet/tuotantotalous-sivuaine'
+
+desc:
+  fi: >
+    Tuotantotalous sivuaineena yhdistää talouden tekniikkaan. Sivuaine tarjoaa tietoa
+    opiskelijoille, jotka pyrkivät ymmärtämään organisaatioiden laajempaa kuvaa sekä hyvän
+    johdon merkitystä. Kursseilla käydään läpi, miten hyvä ryhmänjohtaja toimii, kuinka suuret
+    organisaatiot pyörivät sekä miten tilinpäätöslaskelmia kuuluu lukea. Lisäksi kursseilla
+    harjoitellaan projektinhallintaa, yrityksen strategista kehitystä ja yleisiä ryhmätyötaitoja.
+    Tuotantotalouden sivuaineeseen ei ole erillistä hakua eikä esitietovaatimuksiakaan.
+  en: 'TEKSTIÄ IN INGLISH'
+
+why:
+  fi: >
+    Sivuaine tuo hyvän tasapainon muuten vahvasti teknilliselle osaamiselle. Kursseilla pääsee
+    kehittämään taitoja, joita ei pääaineopinnoissamme muuten sen kummemmin harjoitella mm.
+    esiintymistaitoa ja itsensä ilmaisemista kirjallisesti pidempien tekstien muodossa. Sivuaine
+    on myös yksi suosituimmista koko yliopistossa, minkä ansiosta luennoilla on aina uusia
+    kasvoja ja löytyy uusia tuttavuuksia, joihin pääsee tutustumaan erilaisten harjoitusten ja
+    ryhmätöiden kautta. Tämän kaiken lisäksi tuotantotalous on hyvä valinta myös silloin, jos on
+    kiinnostunut johtotehtävistä, sillä se antaa hyvät eväät tulevalle työuralle.
+  en: 'TEKSTIÄ IN INGLISH'
+
+whatMasters:
+  info:
+    fi: >
+      Sivuaineen myötä opiskelija voi siirtyä tuotantotalouden maisteriopintoihin, mikäli
+      tutkintotodistuksesta ja/tai virallisesta opintosuoritusotteesta tulee selvästi ilmi, että hakija on
+      ollut kotiyliopistonsa parhaiden opiskelijoiden joukossa (parhaat 10-15%). Tuotantotalouden
+      maisteriopinnot kulkevat nimellä Industrial Engineering and Management ja opiskelija voi
+      valita yhden neljästä pääaineesta:
+    en: 'TEKSTIÄ IN INGLISH'
+  list:
+    fi:
+      - 'Organization Design and Leadership'
+      - 'Operations Management'
+      - 'Product and Innovation Management'
+      - 'Strategy'
+    en:
+      - 'EMPTY LIST LOL'
+
+whatCourses:
+  info:
+    fi: ''
+    en: ''
+  list:
+    fi:
+      - 'TU-A1100 Tuotantotalous 1: Tämä kurssi kannattaa ottaa ensimmäisenä, sillä se antaa
+        parhaimman käsityksen siitä mitä tuotantotalous todellisuudessa on. Kurssin yksi
+        tärkeimmistä osista on ryhmätyö, jota edistetään pikkuhiljaa läpi koko kurssin. Ryhmätyön
+        perusideana on perustaa teoreettinen yritys, jonka kautta tutustutaan yrittäjyyteen sekä
+        kurssin eri teemoihin viikosta toiseen. Kurssilla harjoitellaan myös tilinpäätöslaskelmia sekä
+        yleisiä teorioita ja käsitteitä tuotantotalouteen liittyen.'
+      - 'TU-C2010 Introduction to Strategic Management: Tämä kurssi on varma valinta heille, joita
+        konsultin ura kiinnostaa tai muuten vaan haluavat ymmärtää paremmin mitä konsultin
+        tehtäviin kuuluu. Kurssilla käydään läpi yksittäisiä case -esimerkkejä, opitaan oleellisia
+        malleja ja menetelmiä sekä suoritetaan ryhmissä yksi case -harjoitus, jota pääsee
+        pitchaamaan ja omaa lopputulosta puolustamaan.'
+      - 'TU-C1011 Ryhmätoiminta ja Organisointi: Kurssilla perehdytään siihen, millainen on
+        toiminnallinen ja hyvä ryhmä, mitä asioita täytyy ottaa huomioon ryhmätyötä tehdessä sekä
+        millainen juuri sinä olet ryhmän jäsenenä. Kurssilla käydään läpi keskusteluja ryhmissä sekä
+        luennoitsijan kanssa ja pohditaan oleellisia kysymyksiä ryhmän toimintaan ja organisointiin
+        liittyen. Lisäksi kurssilla keskitytään myös yleisesti ryhmätoiminnan parantamiseen sekä
+        konkreettisiin käytäntöihin, joita voi hyödyntää tulevissa ryhmätöissä.'
+
+    en:
+      - 'EMPTY LIST LOL'

@@ -1,0 +1,90 @@
+lang:
+  fi: true
+  en: true
+
+name:
+  fi: 'Tietotekniikka'
+  en: 'Computer science'
+
+link:
+  fi: 'https://www.aalto.fi/fi/sivuaineet/tietotekniikka-sivuaine'
+  en: 'https://www.aalto.fi/en/minors/computer-science-minor'
+
+desc:
+  fi: >
+    Tietotekniikan sivuaine perehdyttää opiskelijan tietokoneen toimintaan ja sen käyttöön
+    työkaluna. Sivuaineen edetessä opiskelijalle tulee tutuksi monet eri ajankohtaiset
+    ohjelmointikielet ja eri rajapinnat ohjelmointiin. Kieliä johon tulee törmäämään ovat mm.
+    Scala (Javan kaltainen), Python, Javascript, SQL, C/C++, sekä komentorivi syntaksi (eli
+    tietokoneen terminaalin käyttö, se musta laatikko). Myös eri käyttöjärjestelmät ja niiden
+    tarjoamat edut ja haitat tulevat tutuksi sivuaineen edetessä. Aiemmasta kokemuksesta ei
+    tarvitse huolehtia, sillä sivuaine on suunniteltu lähtemään aivan nollatasolta. Tietotekniikkaa
+    tieteen alana voisi kuvailla virtuaalisena legomaailmana, mahdollisuudet ovat rajattomat ja
+    tämä sivuaine antaa valmiudet alkaa itse rakentelemaan näillä virtuaalilegoilla.
+  en: 'Computer science'
+
+why:
+  fi: >
+    Koska Automaatio- ja Informaatiotekniikka ovat molemmat hyvin tietokonepainotteisia aloja,
+    on tietotekniikka luonnollisesti oikein hyvä pari pääaineelle. Molemmat alat hyödyntävät
+    tietokoneita erilaisilla tasoilla ja tietotekniikka tuo itsevarmuutta ja intuitiivista osaamista
+    tietokoneen toiminnasta, mitä pystyy soveltamaan kummallakin alalla. Myös akateemisen
+    elämän ulkopuolella tietotekniikka on oiva kumppani, sillä koko yhteiskunta kodista
+    työpaikalle nojaa tietokoneiden ja tietotekniikan varaan.
+  en: >
+    Computer science is an extremely versatile field that is useful in virtually every
+    discipline related to engineering. This enables bachelors' students to gain more
+    perspective on courses that they are required to take, like Basic Course in C
+    programming, Object oriented programming with C++, Data Structures and
+    Algorithms, by understanding the theoretical knowledge underlying them.
+    Furthermore, there are courses like Web Software Development and Machine
+    Learning D that provide different perspectives on their future work and enable
+    students to use these features to enhance their future project work.
+
+whatMasters:
+  info:
+    fi: >
+      Tietotekniikan sivuaineessa on kaksi mahdollista polkua: aloittelijan opintopolku, sekä
+      vaativampi opintopolku. Nimistä huolimatta molemmat lähtevät nollatasosta liikkelle, mutta
+      vaativampi polku on haastavampi ja sitä myötä työläämpi. Vaativampi opintopolku avaa
+      kuitenkin myöhemmin ovet tietotekniikan maisteriin, jos sattuu sivuaineen suorittamisen
+      aikana kiinnostumaan enemmän tietotekniikasta. Aloittelijan opintopolku ei avaa tätä ovea.
+      Jos siis tietää, että ei aio suorittaa tietotekniikan maisteria, voi aloittelijan opintopolku olla
+      hyvä idea. Jos on kuitenkaan yhtään enemmän kiinnostunut tietotekniikasta, on vaativampi
+      opintopolku suositeltava sen tarjoamien mahdollisuuksien takia. Valinnaisia kursseja kannattaa valita oman mielenkiinnon mukaan, mutta ohessa on
+      muutamia suosituksia sivuaineen suorittaneelta.
+    en: >
+      This minor is required to transfer to various majors in the Master's Programme in
+      Computer, Communication and Information Sciences (CCIS). More specifically, it is
+      required to transfer to the majors of:
+  list:
+    fi:
+      - 'Computer Science SCI3042'
+    en:
+      - 'Computer Science SCI3042'
+      - 'Human-Computer Interaction SCI3097'
+      - 'Machine Learning, Data Science and Artificial Intelligence SCI3044'
+      - 'Security and Cloud Computing SCI3084'
+      - 'Software and Service Engineering SCI3043'
+
+whatCourses:
+  info:
+    fi: >
+      Koska ohjelmoinnin peruskurssi O1 tai Y1 kuuluu automaatio -ja informaatiotekniikan
+      perusopintoihin, rakentuu tietotekniikan sivuaine seuraavanlaisesti: pakollisia kursseja ovat
+      O2 tai Y2 sekä tietorakenteet ja algoritmit. Tämän jälkeen jää kolme valinnaista kurssia.
+    en: ''
+  list:
+    fi:
+      - 'Tietokannat CS-A1150 ja Web Software Development CS-C3170. Nämä tarjoavat hyvän perusosaamisen nykyaikaiseen verkkosovelluskehitykseen.
+        Näiden jälkeen on hyvät valmiudet esim. kesätöihin software developer -hommissa.'
+      - 'Information Security CS-C3130. Informaatioturvallisuuden peruskurssi on mielenkiintoinen ja yleishyödyllinen kaikille aloille.'
+      - 'Operating Systems CS-C3140. Tarjoaa kattavaa osaamista erilaisten käyttöjärjestelmien rakenteesta.
+        Tämä on myös hyödyllinen lähes kaikessa, mihin liittyy tietokoneet ja teknillinen ala.'
+    en:
+      - 'Human-Computer Interaction'
+      - 'Web Software Development'
+      - 'Programming Parallel Computers D,'
+      - 'Machine Learning D'
+      - 'Programming 2'
+      - 'Software Engineering'
