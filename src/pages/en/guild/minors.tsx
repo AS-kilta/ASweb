@@ -11,7 +11,7 @@ const MinorsPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Minors guide"
-      lead="Here you will find information on popular minors"
+      lead="Here you will find information on popular minors. Unfortunately, the information on the minor is based on the old syllabus"
       background={heropic}
     >
       <Minors lang={pageContext.lang} />

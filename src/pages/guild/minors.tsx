@@ -11,7 +11,7 @@ const MinorsPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Sivuaine opas"
-      lead="Täältä löydät tietoa suosituista sivuaineista"
+      lead="Täältä löydät tietoa suosituista sivuaineista. Valitettavasti sivuaineita koskevat tiedot perustuvat vanhaan opetussuunnitelmaan."
       background={heropic}
     >
       <Minors lang={pageContext.lang} />
