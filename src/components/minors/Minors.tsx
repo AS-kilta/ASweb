@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from 'gatsby';
 import CollapseBox from '../common/CollapseBox';
 import { BsPlus, BsDash } from 'react-icons/bs';
 import * as style from './Minors.module.scss';
-import CollapseText from '../common/CollapseText';
 
 interface Lang {
   [key: string]: boolean;
