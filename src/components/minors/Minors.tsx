@@ -6,11 +6,11 @@ import * as style from './Minors.module.scss';
 import CollapseText from '../common/CollapseText';
 
 interface Lang {
-  [key: string]: Boolean;
+  [key: string]: boolean;
 }
 
 interface LangList {
-  [key: string]: String[];
+  [key: string]: string[];
 }
 
 interface InfoAndList {
@@ -80,8 +80,8 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
         {minorData.whatMasters.info[lang] != '' && minorData.whatMasters.info[lang]}
         {minorData.whatMasters.list[lang] && (
           <ul>
-            {minorData.whatMasters.list[lang].map((cours: String) => (
-              <li>{cours}</li>
+            {minorData.whatMasters.list[lang].map((master: string) => (
+              <li key={master}>{master}</li>
             ))}
           </ul>
         )}
@@ -90,8 +90,8 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
         {minorData.whatCourses.info[lang] != '' && minorData.whatCourses.info[lang]}
         {minorData.whatCourses.list && minorData.whatCourses.list[lang] && (
           <ul>
-            {minorData.whatCourses.list[lang].map((cours: String) => (
-              <li>{cours}</li>
+            {minorData.whatCourses.list[lang].map((cours: string) => (
+              <li key={cours}>{cours}</li>
             ))}
           </ul>
         )}
