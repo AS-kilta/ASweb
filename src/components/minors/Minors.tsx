@@ -63,13 +63,17 @@ const translations: Translations = {
     fi: 'Mitä sivuaineen kursseja suositellaan?',
     en: 'What minor courses are recommended?',
   },
+  linkText: {
+    fi: 'Linkku sivuaineen sivuille',
+    en: "Link to the minor's website",
+  },
 };
 
 const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, lang }) => {
   return (
     <Fragment>
       <div className={style.container}>
-        <a href={minorData.link[lang]}>{minorData.link[lang]}</a>
+        <a href={minorData.link[lang]}>{translations.linkText[lang]}</a>
         {minorData.desc[lang]}
 
         <h3 className={style.heading3}>{translations.why[lang]}</h3>
