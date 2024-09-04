@@ -29,7 +29,7 @@ why:
     Sivuaine sopii erityisesti niille, jotka haluaisivat informaatioverkostojen maisteriohjelmaan.
   en: 'TEKSTIÄ IN INGLISH'
 
-whatMasters:
+masters:
   info:
     fi: >
       Sivuaine mahdollistaa informaatioverkostojen maisteriohjelman, Master’s Program in
@@ -56,7 +56,7 @@ whatMasters:
     en:
       - 'EMPTY LIST LOL'
 
-whatCourses:
+courses:
   info:
     fi: ''
     en: ''

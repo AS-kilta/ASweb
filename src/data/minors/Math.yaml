@@ -39,7 +39,7 @@ why:
     Understanding why things are the way they are certainly helps build a solid
     foundation.
 
-whatMasters:
+masters:
   info:
     fi: >
       Sivuaine ei varsinaisesti mahdollista mitään maisteriohjelmia, sillä ”Master's Programme in
@@ -58,7 +58,7 @@ whatMasters:
       - >
         Master's Programme in Mathematics and Operations Research'
 
-whatCourses:
+courses:
   info:
     fi: >
       Matematiikan sivuaineessa on laajin kurssivalikoima ainakin kaikista Aallon sivuaineista.

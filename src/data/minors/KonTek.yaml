@@ -29,7 +29,7 @@ why:
     tämä sivuaine on sinulle!
   en: 'TEKSTIÄ IN INGLISH'
 
-whatMasters:
+masters:
   info:
     fi: >
       Sivuaine mahdollistaa Master's Programme in Mechanical Engineering -maisteriohjelman.
@@ -41,7 +41,7 @@ whatMasters:
     en:
       - 'EMPTY LIST LOL'
 
-whatCourses:
+courses:
   info:
     fi: 'Lue lisää: https://www.aalto.fi/fi/sivuaineet/konetekniikka-sivuaine'
     en: ''

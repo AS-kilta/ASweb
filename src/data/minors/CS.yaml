@@ -41,7 +41,7 @@ why:
     Learning D that provide different perspectives on their future work and enable
     students to use these features to enhance their future project work.
 
-whatMasters:
+masters:
   info:
     fi: >
       Tietotekniikan sivuaineessa on kaksi mahdollista polkua: aloittelijan opintopolku, sekä
@@ -67,7 +67,7 @@ whatMasters:
       - 'Security and Cloud Computing SCI3084'
       - 'Software and Service Engineering SCI3043'
 
-whatCourses:
+courses:
   info:
     fi: >
       Koska ohjelmoinnin peruskurssi O1 tai Y1 kuuluu automaatio -ja informaatiotekniikan

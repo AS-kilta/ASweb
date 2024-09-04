@@ -33,7 +33,7 @@ why:
     ylläpitotehtävissä.
   en: 'TEKSTIÄ IN INGLISH'
 
-whatMasters:
+masters:
   info:
     fi: >
       Sivuaineen suorittamisen jälkeen opiskelijan maisteriohjelmaoptiot laajenevat kahdella
@@ -51,7 +51,7 @@ whatMasters:
     en:
       - 'EMPTY LIST LOL'
 
-whatCourses:
+courses:
   info:
     fi: ''
     en: ''
