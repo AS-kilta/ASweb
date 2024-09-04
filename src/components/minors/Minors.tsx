@@ -22,8 +22,8 @@ interface MinorEntry {
   link: TranslatedEntry;
   desc: TranslatedEntry;
   why: TranslatedEntry;
-  whatMasters: InfoAndList;
-  whatCourses: InfoAndList;
+  masters: InfoAndList;
+  courses: InfoAndList;
 
   lang: Lang;
 }
@@ -59,12 +59,12 @@ const translations: Translations = {
     fi: 'Mitä maisteriohjelmia sivuaine mahdollistaa?',
     en: "What master's programs does the minor enable?",
   },
-  whatCourses: {
+  courses: {
     fi: 'Mitä sivuaineen kursseja suositellaan?',
     en: 'What minor courses are recommended?',
   },
   linkText: {
-    fi: 'Linkku sivuaineen sivuille',
+    fi: 'Linkki sivuaineen sivuille',
     en: "Link to the minor's website",
   },
 };
@@ -80,20 +80,20 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
         {minorData.why[lang]}
 
         <h3 className={style.heading3}>{translations.whatMast[lang]}</h3>
-        {minorData.whatMasters.info[lang] != '' && minorData.whatMasters.info[lang]}
-        {minorData.whatMasters.list[lang] && (
+        {minorData.masters.info[lang] != '' && minorData.masters.info[lang]}
+        {minorData.masters.list[lang] && (
           <ul>
-            {minorData.whatMasters.list[lang].map((master: string) => (
+            {minorData.masters.list[lang].map((master: string) => (
               <li key={master}>{master}</li>
             ))}
           </ul>
         )}
 
-        <h3 className={style.heading3}>{translations.whatCourses[lang]}</h3>
-        {minorData.whatCourses.info[lang] != '' && minorData.whatCourses.info[lang]}
-        {minorData.whatCourses.list && minorData.whatCourses.list[lang] && (
+        <h3 className={style.heading3}>{translations.courses[lang]}</h3>
+        {minorData.courses.info[lang] != '' && minorData.courses.info[lang]}
+        {minorData.courses.list && minorData.courses.list[lang] && (
           <ul>
-            {minorData.whatCourses.list[lang].map((cours: string) => (
+            {minorData.courses.list[lang].map((cours: string) => (
               <li key={cours}>{cours}</li>
             ))}
           </ul>
@@ -128,7 +128,7 @@ export const query = graphql`
           fi
           en
         }
-        whatMasters {
+        masters {
           info {
             fi
             en
@@ -138,7 +138,7 @@ export const query = graphql`
             en
           }
         }
-        whatCourses {
+        courses {
           info {
             fi
             en

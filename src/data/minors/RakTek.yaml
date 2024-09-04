@@ -31,7 +31,7 @@ why:
     automatisointi vaatii niiden välistä vuorovaikutusta ja kenttä verkkojen tekemistä.
   en: 'TEKSTIÄ IN INGLISH'
 
-whatMasters:
+masters:
   info:
     fi: >
       Sivuaineen myötä opiskelija voi siirtyä rakennustekniikan maisteriopintoihin, mikäli
@@ -49,7 +49,7 @@ whatMasters:
     en:
       - 'EMPTY LIST LOL'
 
-whatCourses:
+courses:
   info:
     fi: 'Opiskelijan suositellaan valitsevan kurssit oman mielenkiintonsa mukaan :)'
     en: ''
