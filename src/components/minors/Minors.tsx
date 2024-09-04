@@ -8,13 +8,13 @@ interface Lang {
   [key: string]: boolean;
 }
 
-interface LangList {
+interface TranslatedList {
   [key: string]: string[];
 }
 
 interface InfoAndList {
   info: TranslatedEntry;
-  list: LangList;
+  list: TranslatedList;
 }
 
 interface MinorEntry {
