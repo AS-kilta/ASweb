@@ -168,7 +168,6 @@ const Minors: React.FC<{ lang: string }> = ({ lang }) => {
 
   // Create a copy of queried archive data and sort the array
   const data: MinorEntry[] = rawData.allMinorsYaml.nodes.slice();
-  // console.log('WEE');
 
   return (
     <div className={style.container}>
@@ -180,7 +179,7 @@ const Minors: React.FC<{ lang: string }> = ({ lang }) => {
         return (
           entry.lang[lang] && (
             <CollapseBox key={`minor-${entry.name[lang]}`} title={entry.name[lang]} expand={allExpanded}>
-              <Minor minorData={entry} lang={lang}></Minor>
+              <Minor minorData={entry} lang={lang} />
             </CollapseBox>
           )
         );
