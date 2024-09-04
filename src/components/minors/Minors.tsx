@@ -80,7 +80,7 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
         {minorData.why[lang]}
 
         <h3 className={style.heading3}>{translations.whatMast[lang]}</h3>
-        {minorData.masters.info[lang] != '' && minorData.masters.info[lang]}
+        {minorData.masters.info[lang]}
         {minorData.masters.list[lang] && (
           <ul>
             {minorData.masters.list[lang].map((master: string) => (
@@ -90,7 +90,7 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
         )}
 
         <h3 className={style.heading3}>{translations.courses[lang]}</h3>
-        {minorData.courses.info[lang] != '' && minorData.courses.info[lang]}
+        {minorData.courses.info[lang]}
         {minorData.courses.list && minorData.courses.list[lang] && (
           <ul>
             {minorData.courses.list[lang].map((cours: string) => (
