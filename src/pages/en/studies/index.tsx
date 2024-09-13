@@ -23,7 +23,7 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
           </p>
           <h2>Exam Archive (Tenttiarkisto)</h2>
           <div>
-            <a href="https://tenttiarkisto.fi" target="_blank">
+            <a href="https://tenttiarkisto.fi" target="_blank" rel="noreferrer">
               Tenttiarkisto
             </a>{' '}
             is a student run website where you can find exam papers for previous instances of various courses. Students
@@ -79,17 +79,17 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
           <div className={style.sideList}>
             General:
             <li>
-              <a href="https://www.aalto.fi/en/student-guide/academic-calendar" target="_blank">
+              <a href="https://www.aalto.fi/en/student-guide/academic-calendar" target="_blank" rel="noreferrer">
                 The University's Academic Calendar
               </a>
             </li>
             <li>
-              <a href="https://www.aalto.fi/en/school-of-electrical-engineering" target="_blank">
+              <a href="https://www.aalto.fi/en/school-of-electrical-engineering" target="_blank" rel="noreferrer">
                 ELEC Website
               </a>
             </li>
             <li>
-              <a href="https://www.ayy.fi/en" target="_blank">
+              <a href="https://www.ayy.fi/en" target="_blank" rel="noreferrer">
                 Aalto Student Union (AYY)
               </a>
             </li>
@@ -101,6 +101,7 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
               <a
                 href="https://www.aalto.fi/en/programmes/masters-programme-in-automation-and-electrical-engineering"
                 target="_blank"
+                rel="noreferrer"
               >
                 Automation and Electrical Engineering
               </a>
@@ -109,6 +110,7 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
               <a
                 href="https://www.aalto.fi/en/programmes/masters-programme-in-computer-communication-and-information-sciences/curriculum-2022-2024#2-acoustics-and-audio-technology--aat-"
                 target="_blank"
+                rel="noreferrer"
               >
                 Computer, Communication and Information Sciences
               </a>
@@ -117,6 +119,7 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
               <a
                 href="https://www.aalto.fi/en/programmes/masters-programme-in-electronics-and-nanotechnology/curriculum-2022-2024#4-micro--and-nanoelectronic-circuit-design"
                 target="_blank"
+                rel="noreferrer"
               >
                 Electronics and Nanotechnology
               </a>
@@ -126,29 +129,33 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
           <div className={style.sideList}>
             Courses and Minors:
             <li>
-              <a href="https://courses.aalto.fi/" target="_blank">
+              <a href="https://courses.aalto.fi/" target="_blank" rel="noreferrer">
                 List of Courses at Aalto
               </a>
             </li>
             <li>
-              <a href="https://www.aalto.fi/en/sivuaineet#/" target="_blank">
+              <a href="https://www.aalto.fi/en/sivuaineet#/" target="_blank" rel="noreferrer">
                 List of Minor Subjets at Aalto
               </a>
             </li>
             <li>
-              <a href="https://www.aalto.fi/en/other-studies/summer-studies" target="_blank">
+              <a href="https://www.aalto.fi/en/other-studies/summer-studies" target="_blank" rel="noreferrer">
                 Summer Courses
               </a>
             </li>
             <div className={style.sideList}>
               Exchange Studies:
               <li>
-                <a href="https://www.aalto.fi/en/other-studies/exchange-studies" target="_blank">
+                <a href="https://www.aalto.fi/en/other-studies/exchange-studies" target="_blank" rel="noreferrer">
                   Aalto's official guide on exchange studies
                 </a>
               </li>
               <li>
-                <a href="https://www.ayy.fi/en/apply-for-financial-support/scholarships" target="_blank">
+                <a
+                  href="https://www.ayy.fi/en/apply-for-financial-support/scholarships"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   The AYY scholarship stipend for exchange studies
                 </a>
               </li>

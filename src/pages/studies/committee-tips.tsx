@@ -1,78 +1,81 @@
 import React, { useState } from 'react';
-import type { HeadFC, HeadProps } from "gatsby"
-import Meta from "@src/components/common/Meta"
-import * as style from "./studies.module.scss"
-import PageLayout from "@src/components/layouts/PageLayout"
-import { StaticImage } from "gatsby-plugin-image"
+import type { HeadFC, HeadProps } from 'gatsby';
+import Meta from '@src/components/common/Meta';
+import * as style from './studies.module.scss';
+import PageLayout from '@src/components/layouts/PageLayout';
+// import { StaticImage } from "gatsby-plugin-image"
 import CollapseBox from '@src/components/common/CollapseBox';
 import { BsDash, BsPlus } from 'react-icons/bs';
 
 interface Props extends PageProps {
-    data: ImageArrayProps
+  data: ImageArrayProps;
 }
 
-const CommitteeTips: React.FC<Props> = ({ pageContext, data }) => {
-  const [allExpanded, setAllExpanded] = useState(false)
+const CommitteeTips: React.FC<Props> = ({ pageContext }) => {
+  const [allExpanded, setAllExpanded] = useState(false);
 
   const toggleCollapse = () => {
-    setAllExpanded(!allExpanded)
-  }
+    setAllExpanded(!allExpanded);
+  };
 
   const toggleOnEnter = (e: React.KeyboardEvent): void => {
-    if (e.key === "Enter")
-      toggleCollapse()
-  }
+    if (e.key === 'Enter') toggleCollapse();
+  };
 
   return (
-    <PageLayout
-      pageContext={pageContext}
-      title="OPTMK:n vinkit"
-    >
+    <PageLayout pageContext={pageContext} title="OPTMK:n vinkit">
       <button className={style.toggleButton} onClick={toggleCollapse} onKeyDown={toggleOnEnter}>
         {allExpanded ? translations.closeAll[lang] : translations.openAll[lang]}
         {allExpanded ? <BsDash /> : <BsPlus />}
       </button>
-      <p>Tervetuloa AS:n opintotoimikunnan vinkkisivulle, täältä löydät hyödyllisiä vinkkejä ja linkkejä
-        opiskeluun!</p>
-      <p>Tämän osion tarkoituksena on helpottaa kaikkia opiskelemaan tehokkaammin ja tuoda esille asioita, joita et
-        välttämättä tiennyt tarvitsevasi. Tänne on siis lähinnä listattu muun muassa asioita, joita ei välttämättä
-        löydä kovin helposti Aallon omilta sivuilta.</p>
-      <p>Tämä vinkkisivu on täysin opiskelijoiden ylläpitämä, joten voit itsekin vaikuttaa tämän sivun sisältöön
-        halutessasi. Sivun päivittelystä vastaa AS:n opintomestari(en tiiä sähköpostii :D), joten otathan yhteyttä,
-        jos haluat lisätä mielestäsi hyödyllistä materiaalia sivuille.</p>
+      <p>Tervetuloa AS:n opintotoimikunnan vinkkisivulle, täältä löydät hyödyllisiä vinkkejä ja linkkejä opiskeluun!</p>
+      <p>
+        Tämän osion tarkoituksena on helpottaa kaikkia opiskelemaan tehokkaammin ja tuoda esille asioita, joita et
+        välttämättä tiennyt tarvitsevasi. Tänne on siis lähinnä listattu muun muassa asioita, joita ei välttämättä löydä
+        kovin helposti Aallon omilta sivuilta.
+      </p>
+      <p>
+        Tämä vinkkisivu on täysin opiskelijoiden ylläpitämä, joten voit itsekin vaikuttaa tämän sivun sisältöön
+        halutessasi. Sivun päivittelystä vastaa AS:n opintomestari(en tiiä sähköpostii :D), joten otathan yhteyttä, jos
+        haluat lisätä mielestäsi hyödyllistä materiaalia sivuille.
+      </p>
 
-      <CollapseBox title={"Tilat Otaniemessä"}>
+      <CollapseBox title={'Tilat Otaniemessä'}>
         <ul>
           <li>Kanttiinit - Listattuna Otaniemen ruokalat, niiden aukioloajat ja tarjoilu</li>
           <li>Aalto Space - Kännykkäsovellus, jolla voi varata tiloja kampukselta esim. ryhmätöitä varten</li>
-          <li>Usefulaaltomap - Tarkka kartta Otaniemen rakennuksista, sen lisäksi antaa vielä lisätietoa eri
+          <li>
+            Usefulaaltomap - Tarkka kartta Otaniemen rakennuksista, sen lisäksi antaa vielä lisätietoa eri
             rakennuksista.
           </li>
         </ul>
       </CollapseBox>
 
-      <CollapseBox title={"Opiskelu"}>
+      <CollapseBox title={'Opiskelu'}>
         <ul>
-          <li>download.aalto.fi - Täältä voit ladata todella hyödyllisiä ohjelmia joihin Aalto-yliopistolla on lisenssi.
+          <li>
+            download.aalto.fi - Täältä voit ladata todella hyödyllisiä ohjelmia joihin Aalto-yliopistolla on lisenssi.
             Esimerkiksi MATLAB ja Microsoft Office.
           </li>
-          <li>vdi.aalto.fi - Voit käyttää tällä sovelluksella koulun tietokoneita etänä, erittäin hyödyllinen jos
+          <li>
+            vdi.aalto.fi - Voit käyttää tällä sovelluksella koulun tietokoneita etänä, erittäin hyödyllinen jos
             esimerkiksi oman koneen ja sovellusten välillä ongelmia.
           </li>
           <li>Panopto - Aallon videopalvelu</li>
         </ul>
       </CollapseBox>
 
-      <CollapseBox title={"Ryhmätyöskentely"}>
+      <CollapseBox title={'Ryhmätyöskentely'}>
         <ul>
           <li>Doodle - Etsi sopivat ajat taamiselle nopeasti ja helposti!</li>
           <li>Google Drive - Monikäyttöinen työväline tiedostojen säilytykseen ja ryhmätöiden tekemiseen.</li>
-          <li>discord.com - Hyvä sovellus ryhmätyöskentelyyn ja kommunikointiin, voi mm. Jakaa näyttöä puhelun aikana.
+          <li>
+            discord.com - Hyvä sovellus ryhmätyöskentelyyn ja kommunikointiin, voi mm. Jakaa näyttöä puhelun aikana.
           </li>
         </ul>
       </CollapseBox>
 
-      <CollapseBox title={"Terveys"}>
+      <CollapseBox title={'Terveys'}>
         <ul>
           <li>Opintopsykologi. Kannattaa olla yhteydessä matalalla kynnyksellä.</li>
         </ul>
@@ -84,11 +87,9 @@ const CommitteeTips: React.FC<Props> = ({ pageContext, data }) => {
         </ul>
       </CollapseBox>
     </PageLayout>
-  )
-}
+  );
+};
 
 export default CommitteeTips;
 
-export const Head: HeadFC<HeadProps> = () => (
-  <Meta lang="fi" title="OPTMK:n vinkit" />
-)
+export const Head: HeadFC<HeadProps> = () => <Meta lang="fi" title="OPTMK:n vinkit" />;
