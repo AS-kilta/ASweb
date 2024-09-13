@@ -85,9 +85,7 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
         {minorData.masters.list[lang] && (
           <ul>
             {minorData.masters.list[lang].map((master: string) => (
-              <li key={master}>
-                <p>{master}</p>
-              </li>
+              <li key={master}>{master}</li>
             ))}
           </ul>
         )}
