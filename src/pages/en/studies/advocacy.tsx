@@ -30,7 +30,7 @@ const Advocacy: React.FC<Props> = ({ pageContext }) => {
       </p>
       <p>
         More information about Hallopeds can be found{' '}
-        <a href="https://beta.halloped.fi/aalto.fi/get-started" target="_blank">
+        <a href="https://beta.halloped.fi/aalto.fi/get-started" target="_blank" rel="noreferrer">
           here
         </a>
         .
