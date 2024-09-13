@@ -74,23 +74,26 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
     <Fragment>
       <div className={style.container}>
         <a href={minorData.link[lang]}>{translations.linkText[lang]}</a>
-        {minorData.desc[lang]}
+        {minorData.desc[lang] && <p>{minorData.desc[lang]}</p>}
 
         <h3 className={style.heading3}>{translations.why[lang]}</h3>
-        {minorData.why[lang]}
+        {minorData.why[lang] && <p>{minorData.why[lang]}</p>}
 
         <h3 className={style.heading3}>{translations.whatMast[lang]}</h3>
-        {minorData.masters.info[lang]}
+        {minorData.masters.info[lang] && <p>{minorData.masters.info[lang]}</p>}
+
         {minorData.masters.list[lang] && (
           <ul>
             {minorData.masters.list[lang].map((master: string) => (
-              <li key={master}>{master}</li>
+              <li key={master}>
+                <p>{master}</p>
+              </li>
             ))}
           </ul>
         )}
 
         <h3 className={style.heading3}>{translations.courses[lang]}</h3>
-        {minorData.courses.info[lang]}
+        {minorData.courses.info[lang] && <p>{minorData.courses.info[lang]}</p>}
         {minorData.courses.list && minorData.courses.list[lang] && (
           <ul>
             {minorData.courses.list[lang].map((cours: string) => (
