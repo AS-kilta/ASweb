@@ -53,3 +53,38 @@ li{
   margin-right: auto;
   width: min(700px, 80%);
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.toggleButton {
+  color: $accent-violet-1;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.heading4 {
+  font-weight: 700;
+  border-bottom: 3px solid;
+  padding-bottom: 0.1em;
+  width: fit-content;
+
+  font-size: clamp(1.2rem, 3vw, 1.55rem) !important;
+  color: black !important;
+  margin-left: 0 !important;
+}
