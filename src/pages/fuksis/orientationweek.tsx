@@ -18,11 +18,7 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
       <div className="image-container">
         <p>Orientaatioviikko on hektistä aikaa, tekemistä on paljon!</p>
         <p>Tässä orientaatioviikon aikataulu, päivittelemme tätä parhaamme mukaan kesän aikana.</p>
-        <StaticImage
-          className="centered-image"
-          src="../../images/images/orientaation_aikataulu.jpg"
-          alt='"DSD_timetable'
-        />
+        <StaticImage className="centered-image" src="../../images/images/AIT_timetable_24.png" alt='"DSD_timetable' />
       </div>
       <div>
         <p>
