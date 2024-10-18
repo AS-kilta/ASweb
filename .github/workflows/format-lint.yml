@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Run Prettier
-        run: npx prettier --check "**/*.{js,jsx,ts,tsx,json,md,mdx,yml,yaml}"
+        run: npm run check-format
 
   eslint_job:
     name: ESLint

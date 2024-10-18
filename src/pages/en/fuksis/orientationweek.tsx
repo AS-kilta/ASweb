@@ -21,7 +21,11 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
           Here is the orientation week schedule as of now, we will try to update this to the best of our ability during
           summer.
         </p>
-        <StaticImage className="centered-image" src="../../../images/images/DSD_timetable.jpg" alt='"DSD_timetable' />
+        <StaticImage
+          className="centered-image"
+          src="../../../images/images/DSD_timetable_24.png"
+          alt='"DSD_timetable'
+        />
       </div>
       <div>
         <p>

@@ -1,0 +1,45 @@
+.button {
+  background: $as-violet-1;
+  color: #fff;
+  opacity: 0;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0.3rem $as-violet-2;
+  width: clamp(2.5rem, 3.5vw, 3.5rem);
+  height: clamp(2.5rem, 3.5vw, 3.5rem);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  transition:
+    visibility 0.15s linear,
+    opacity 0.15s linear;
+
+  svg {
+    width: clamp(2rem, 3vw, 3rem);
+    height: clamp(2rem, 3vw, 3rem);
+  }
+}
+
+.button:hover {
+  box-shadow: 0 0 0.15rem 0.15rem $as-violet-2;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media all and (min-width: $breakpoint-mobile) {
+  .button {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+  .button {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

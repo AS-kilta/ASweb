@@ -59,6 +59,12 @@
         fi: '/fuksis/fuksiguide'
         en: '/en/fuksis/fuksiguide'
     - title:
+        fi: 'MINT Fuksiopas'
+        en: 'MINT Fuksiguide'
+      link:
+        fi: '/fuksis/fuksiguide-mint'
+        en: '/en/fuksis/fuksiguide-mint'
+    - title:
         fi: 'Teekkarikulttuuri'
         en: 'Teekkariculture'
       link:
