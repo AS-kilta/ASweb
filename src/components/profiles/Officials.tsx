@@ -36,7 +36,7 @@ const OfficialCard: React.FC<OfficialCard> = ({ lang, committeeName, official, i
   return (
     <div className={`${style.official_container} ${leader}`}>
       <ProfileImg src={image} alt={official.name} />
-      <div className={style.name}>{official.name}</div>
+      <div>{official.name}</div>
       {official.title.map((title) => (
         <div key={`${committeeName}${official.name}${title[lang]}`} className={style.title}>
           {title[lang]}
