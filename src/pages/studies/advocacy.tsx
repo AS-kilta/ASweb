@@ -25,6 +25,7 @@ const Advocacy: React.FC<Props> = ({ pageContext }) => {
         maisteri-ohjelmalle on oma ohjelmaryhmän, jonka tehtävänä on tukea ohjelmajohtajaa ohjelman suunnittelussa,
         toteutuksessa, arvioinnissa ja kehittämisessä.
       </p>
+      <h2>Hallopedit</h2>
       <p>
         Yhdistyksen jäsenten etua valvovat AYY:n nimittämät Hallopedit eli hallinnon opiskelijaedustajat. Hallopediksi
         haetaan joka syksy eikä aikaisempaa kokemusta edunvalvonnasta vaadita. Jos mielenkiinto heräsi, älä epäröi hakea

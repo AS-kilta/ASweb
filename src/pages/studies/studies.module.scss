@@ -24,22 +24,25 @@
 
 .sidePanel {
   margin-top: -2rem;
-  max-width: 600px;
+  max-width: 500px;
   font-size: 1.2rem;
   margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: auto;
 }
 
 .sideList {
   margin-top: 15px;
+  margin-bottom: 2.5rem;
   line-height: 1.6rem;
   a {
-
     font-weight: 600;
   }
 }
 
-li{
+li {
   margin-left: 15px;
+  margin-top: 0.5rem;
 }
 
 .body {
@@ -49,8 +52,8 @@ li{
 
 .imageLarge {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  margin-top: 2.5rem;
   width: min(700px, 80%);
 }
 
