@@ -3,7 +3,6 @@ import type { HeadFC, HeadProps } from 'gatsby';
 import Meta from '@src/components/common/Meta';
 import * as style from './studies.module.scss';
 import PageLayout from '@src/components/layouts/PageLayout';
-// import { StaticImage } from "gatsby-plugin-image"
 import CollapseBox from '@src/components/common/CollapseBox';
 import { BsDash, BsPlus } from 'react-icons/bs';
 
@@ -25,11 +24,9 @@ const CommitteeTips: React.FC<Props> = ({ pageContext }) => {
   const translations: Translations = {
     openAll: {
       fi: 'Avaa kaikki',
-      en: 'Open all',
     },
     closeAll: {
       fi: 'Sulje kaikki',
-      en: 'Close all',
     },
   };
 
