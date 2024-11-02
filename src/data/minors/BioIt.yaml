@@ -2,6 +2,10 @@ lang:
   fi: true
   en: true
 
+curriculum:
+  fi: '2022-2024'
+  en: '2022-2024'
+
 name:
   fi: 'Bio­informaatio­teknologia'
   en: 'Bioinformation Technology'

@@ -2,6 +2,10 @@ lang:
   fi: true
   en: false
 
+curriculum:
+  fi: '2022-2024'
+  en: '2022-2024'
+
 name:
   fi: 'Kestävät yhdys­kunnat'
   en: 'Kestävät yhdyskunnat'
