@@ -18,6 +18,7 @@ interface InfoAndList {
 }
 
 interface MinorEntry {
+  curriculum: TranslatedEntry;
   name: TranslatedEntry;
   link: TranslatedEntry;
   desc: TranslatedEntry;
@@ -42,6 +43,10 @@ const translations: Translations = {
   closeAll: {
     fi: 'Sulje kaikki',
     en: 'Close all',
+  },
+  curriculum: {
+    fi: 'Opintosuunnitelma',
+    en: 'Curriculum',
   },
   minors: {
     fi: 'Sivuaineet',
@@ -73,15 +78,13 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
   return (
     <Fragment>
       <div className={style.container}>
+        {translations.curriculum[lang]}: {minorData.curriculum[lang]}
         <a href={minorData.link[lang]}>{translations.linkText[lang]}</a>
         {minorData.desc[lang] && <p>{minorData.desc[lang]}</p>}
-
         <h3 className={style.heading3}>{translations.why[lang]}</h3>
         {minorData.why[lang] && <p>{minorData.why[lang]}</p>}
-
         <h3 className={style.heading3}>{translations.whatMast[lang]}</h3>
         {minorData.masters.info[lang] && <p>{minorData.masters.info[lang]}</p>}
-
         {minorData.masters.list[lang] && (
           <ul>
             {minorData.masters.list[lang].map((master: string) => (
@@ -89,7 +92,6 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
             ))}
           </ul>
         )}
-
         <h3 className={style.heading3}>{translations.courses[lang]}</h3>
         {minorData.courses.info[lang] && <p>{minorData.courses.info[lang]}</p>}
         {minorData.courses.list && minorData.courses.list[lang] && (
@@ -112,7 +114,10 @@ export const query = graphql`
           fi
           en
         }
-
+        curriculum {
+          fi
+          en
+        }
         name {
           fi
           en
