@@ -1,0 +1,68 @@
+lang:
+  fi: true
+  en: false
+
+curriculum:
+  fi: '2022-2024'
+  en: '2022-2024'
+
+name:
+  fi: 'Kone­tekniikka'
+  en: 'Konetekniikka'
+
+link:
+  fi: 'https://www.aalto.fi/fi/sivuaineet/konetekniikka-sivuaine'
+  en: 'https://www.aalto.fi/fi/sivuaineet/konetekniikka-sivuaine'
+
+desc:
+  fi: >
+    Konetekniikan sivuaine koostuu pakollisista konetekniikan valmistus- ja mitoitusperiaatteita
+    käsiteltävistä kursseista, sekä valinnaisesta osiosta, josta opiskelija valitsee oman
+    mielenkiintonsa mukaan sopivia syventäviä kursseja koneensuunnittelun, lujuusopin tai
+    kuljetusvälinetekniikan puolelta. Esitietovaatimuksia ei ole, mutta statiikan kertaamisesta voi
+    olla hyötyä varsinkin lujuusopin kursseja valittaessa.
+  en: 'TEKSTIÄ IN INGLISH'
+
+why:
+  fi: >
+    Sivuaine on erittäin hyvin järjestetty ja opetus on todella laadukasta. Kursseilla oppii paljon
+    uutta mielenkiintoista asiaa, ja sisällöt tukevat osaamista niin muissa opinnoissa kuin myös
+    työelämässä. Erityisesti jos pääaineena on automaatio ja robotiikka, konetekniikka tukee
+    ymmärrystä fyysisiin laitteistoihin ja koneistoihin, joita automaatiolla usein pyritään
+    ohjaamaan. Jos sinua kiinnostaa fyysiset laitteet, koneet tai osat sekä niiden suunnittelu,
+    tämä sivuaine on sinulle!
+  en: 'TEKSTIÄ IN INGLISH'
+
+masters:
+  info:
+    fi: >
+      Sivuaine mahdollistaa Master's Programme in Mechanical Engineering -maisteriohjelman.
+    en: 'TEKSTIÄ IN INGLISH'
+  list:
+    fi:
+      - >
+        Master's Programme in Mechanical Engineering
+    en:
+      - 'EMPTY LIST LOL'
+
+courses:
+  info:
+    fi: 'Lue lisää: https://www.aalto.fi/fi/sivuaineet/konetekniikka-sivuaine'
+    en: ''
+  list:
+    fi:
+      - 'KJR-C2005 Tuotesuunnittelu - Kurssin tavoitteena on saavuttaa ymmärrys systemaattisesta
+        tuotesuunnittelusta. Kurssilla tehdään ryhmässä harjoitustyö, jossa päästään
+        suunnittelemaan tuote alusta asti, ja tekemään siitä prototyyppi kurssin lopuksi. Kurssi on
+        järjestetty todella hyvin, ja siellä oppii varmasti paljon uusia ja mielenkiintoisia asioita
+        tuotesuunnitteluun liittyen, eikä esitietoja tarvita.'
+      - 'KJR-C2004 Materiaalitekniikka - Käydään läpi materiaalitekniikan alan käsitteitä ja
+        terminologiaa. Kurssilla on harjoituksia, joiden avulla sisällön oppiminen ja ymmärtäminen
+        helpottuu.'
+      - 'KON-C3002 Koneenosien suunnittelu - Kurssilla käsitellään tärkeimmät koneenosat sekä
+        opetellaan valitsemaan ja mitoittamaan koneenosia tavanomaisiin sovelluksiin. Käsiteltäviä
+        asioita mm: liittämismenetelmät, laakeroinnit, tehonsiirron komponentit, käyttölaitteet ja
+        painelaitteet. Kurssilla lasketaan paljon, mutta laskuihin saa erittäin hyvin tukea, ja niissä
+        pärjää ilman suurempia esitietoja. Erittäin hyödyllinen kurssi!'
+    en:
+      - 'EMPTY LIST LOL'
