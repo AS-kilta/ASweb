@@ -1,0 +1,64 @@
+lang:
+  fi: true
+  en: false
+
+curriculum:
+  fi: '2022-2024'
+  en: '2022-2024'
+
+name:
+  fi: 'Rakennus­tekniikka'
+  en: 'Rakennustekniikka'
+
+link:
+  fi: 'https://www.aalto.fi/fi/sivuaineet/rakennustekniikka-sivuaine'
+  en: 'https://www.aalto.fi/fi/sivuaineet/rakennustekniikka-sivuaine'
+
+desc:
+  fi: >
+    Rakennustekniikan sivuaineessa perehdytään laaja-alaisesti rakennustekniikkaan liittyviin
+    teknisiin, teknologisiin ja teknillistaloudellisiin järjestelmiin, niin suunnittelun, valmistuksen,
+    ylläpidon kuin kierrätyksenkin osalta. Sivuaine koostuu kahdesta pakollisesta fysiikan
+    kursseista sekä valinnaisista materiaalitekniikan, rakennetekniikan, rakentamisen
+    tuotantoprosessien ja -talouden, geologian sekä geotekniikan kursseista. Opiskelija voi valita
+    valinnaisista opinnoista 2-3 kurssia oman mielenkiintonsa mukaan. Valinnaisia kursseja
+    valitessa kannattaa huomioida, että meidän pääaineen kurssi Mekaniikka (ELEC-A3110)
+    vastaa sisällöltään kurssin Dynamiikka (ENG-C1003) sisältöä. Rakennustekniikan
+    sivuaineeseen ei ole erillistä hakua eikä esitietovaatimuksia.
+  en: 'TEKSTIÄ IN INGLISH'
+
+why:
+  fi: >
+    Rakennusalalla nykyään pyritään automatisoimaan asioita, saadakseen esimerkiksi
+    rakennuksien sähkönkulutusta laskettua. Tämä tietenkin hyvin sopii niille jotka opiskelee
+    automaatiota sivuaineena, mutta myös IT opiskelijoille löytyy tekemistä. Sillä rakennuksen
+    automatisointi vaatii niiden välistä vuorovaikutusta ja kenttä verkkojen tekemistä.
+  en: 'TEKSTIÄ IN INGLISH'
+
+masters:
+  info:
+    fi: >
+      Sivuaineen myötä opiskelija voi siirtyä rakennustekniikan maisteriopintoihin, mikäli
+      kandidaatintutkintoon on sisällytettynä etukäteen määritelty sivuainekokonaisuus. Eli riittää,
+      että sivuaine on suoritettu hyväksytysti. Sivuaineen myötä opiskelija voi siirtyä kahteen
+      maisteriohjelmaan, jotka ovat Master's Programme in Building Technology ja Master’s
+      Programme in Geoengineering.
+    en: 'TEKSTIÄ IN INGLISH'
+  list:
+    fi:
+      - >
+        Master's Programme in Building Technology
+      - >
+        Master's Programme in Geoengineering
+    en:
+      - 'EMPTY LIST LOL'
+
+courses:
+  info:
+    fi: 'Opiskelijan suositellaan valitsevan kurssit oman mielenkiintonsa mukaan :)'
+    en: ''
+  list:
+    fi:
+      - 'RAK-C3012 Rakennustekniikan perusteet'
+    en:
+      - 'EMPTY LIST LOL'
