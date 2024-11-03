@@ -16,7 +16,11 @@ body {
   font-size: 18px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: $font-heading;
   margin-bottom: 0.5em;
   margin-top: 1.5em;
@@ -69,7 +73,9 @@ h4 {
   padding-bottom: 0.2em;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   line-height: 1.5;
 
   li:not(:last-child) {
@@ -212,22 +218,20 @@ main a {
     margin-right: auto;
   }
 
-    .box {
-        width: min(400px, 100%);
-    }
+  .box {
+    width: min(400px, 100%);
+  }
 
-    .wide {
-        width: min(400px, 100%);
+  .wide {
+    width: min(400px, 100%);
+  }
 
-    }
-
-    .tall {
-        float: none;
-        display: block;
-        margin-left: 0;
-        margin-right: auto;
-        height: min(500px, 50%);
-        width: min(400px, 100%);
-        margin-left: 0;
-    }
+  .tall {
+    float: none;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    height: min(500px, 50%);
+    width: min(400px, 100%);
+  }
 }
