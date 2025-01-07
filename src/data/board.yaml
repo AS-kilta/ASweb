@@ -16,7 +16,7 @@
   name: 'Leila Lavonen'
   email: 'varapuheenjohtaja@as.fi'
   phone: '+358 449759103'
-  telegram: 'jkimalainen'
+  telegram: 'slerbe'
   picture: '../images/officials/2024/leila_lavonen.jpg'
   description:
     fi: 'Avustaa puheenjohtajaa ja hoitaa sihteerin tehtäviä. Vastaa pöytäkirjojen tekemisestä hallituksen ja killan kokouksista sekä kiltaa koskevan materiaalin arkistoinnista huolehtimisesta.'
@@ -53,7 +53,7 @@
   email: 'fuksikapteeni@as.fi'
   phone: '+358 417455475'
   telegram: 'joel_forsstrom'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/joel_forsstrom.jpg'
   description:
     fi: 'Vastaa killan fuksikasvatuksesta ja -toiminnasta. Järjestää fuksitapahtumia killan, korkeakoulun sekä yliopiston muiden fuksikapteenien kanssa. Toimii esimerkkinä ja tukena fukseille. Työskentelee yhteistyössä ISOpomon kanssa.'
     en: 'The Fuksi Captain is responsible for all fuksi wellbeing and fuksi events. They organize events for fuksis with other guild members, the University and other Fuksi Captains. Collaborates closely with the Tutor Coordinator.'
@@ -65,7 +65,7 @@
   email: 'fuksikapteeni@as.fi'
   phone: '+358 452052581'
   telegram: 'lihasta'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
   description:
     fi: 'Vastaa killan fuksikasvatuksesta ja -toiminnasta. Järjestää fuksitapahtumia killan, korkeakoulun sekä yliopiston muiden fuksikapteenien kanssa. Toimii esimerkkinä ja tukena fukseille. Työskentelee yhteistyössä ISOpomon kanssa.'
     en: 'The Fuksi Captain is responsible for all fuksi wellbeing and fuksi events. They organize events for fuksis with other guild members, the University and other Fuksi Captains. Collaborates closely with the Tutor Coordinator.'
@@ -77,7 +77,7 @@
   email: 'misc@as.fi'
   phone: '+358 451445092'
   telegram: 'DSDokuty'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/aapo_vuokila.jpeg'
   description:
     fi: 'Vastaa killan kansainvälisten ja maisteriopiskelijoiden fuksikasvatuksesta ja -toiminnasta. Työskentelee yhteistyössä fuksikapteenien ja ISOpomon kanssa. Ota yhteyttä MISC:iin jos asiasi koskee kansainvälistä toimintaa.'
     en: "The Master and International Student Captain is responsible of fuksi wellbeing and fuksi events for international and master's students. They collaborate closely with the freshman captains and the tutor boss. Contact the MISC if you are confused international student or if your matter concerns international affairs."
@@ -89,7 +89,7 @@
   email: 'isopomo@as.fi'
   phone: '+358 409655961'
   telegram: 'jareeva'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
   description:
     fi: 'Organisoi ISOhenkilöiden rekryämisen, koulutuksen ja yleisen toiminnan. Työskentelee yhteistyössä fuksikapteenien kanssa.'
     en: 'The Tutor Boss is responsible of recruitment, preparation and general operation of tutors. They collaborate closely with the freshman captains. Contact the Tutor Boss if your matter concerns tutors.'
@@ -101,7 +101,7 @@
   email: 'ie@as.fi'
   phone: '+358 504315265'
   telegram: 'SHilderi'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/santeri_hilden.jpeg'
   description:
     fi: "Järjestää yhdessä Emännän kanssa kiltalaisille mitä moninaisimpia tapahtumia ja huolehtii elintarvikkeiden välittämisestä killistien vatsalaukkuihin. Organisoi huvitoimikunnan toimintaa ja kehittää killan tapahtumakulttuuria.\nOta yhteyttä IE:hen, jos asiasi koskee killan tapahtumia."
     en: 'The Host arranges various events together with the hostess for the guild members. Together with Hostess they lead the Entertainment Committee and work towards even better events. Contact the Host or the Hostess if your matter concerns a guild event.'
@@ -113,7 +113,7 @@
   email: 'ie@as.fi'
   phone: '+358 504315267'
   telegram: 'JesariXD'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/jesperi_hilden.jpeg'
   description:
     fi: "Järjestää yhdessä Isännän kanssa kiltalaisille mitä moninaisimpia tapahtumia ja huolehtii elintarvikkeiden välittämisestä killistien vatsalaukkuihin. Organisoi huvitoimikunnan toimintaa ja kehittää killan tapahtumakulttuuria.\nOta yhteyttä IE:hen, jos asiasi koskee killan tapahtumia."
     en: 'The Hostess arranges various events together with the host for the guild members. Together with Host they lead the Entertainment Committee and work towards even better events. Contact the Hostess or the Host if your matter concerns a guild event.'
@@ -125,7 +125,7 @@
   email: 'opintomestari@as.fi'
   phone: '+358 504315267'
   telegram: 'henkatin'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/henri_rosenberg.jpeg'
   description:
     fi: "Ylläpitää yhteyttä koulun henkilökuntaan, pitää itsensä tietoisena tutkinto-ohjelmassa tapahtuvista muutoksista ja vastaa kiltalaisten edunvalvonnasta. Johtaa killan opintotoimikuntaa.\nOpintomestariin voi ottaa yhteyttä opintoihin liittyvissä asioissa."
     en: "The Master of Studies maintains communications between the guild and the university. They also work as the contact person for the guild's trustees and represent students in the meetings of the university's governing body. Contact the Master of Studies if your matter has to do with your studies or school in general."
@@ -137,7 +137,7 @@
   email: 'yrityssuhdevastaava@as.fi'
   phone: '+358 458871514'
   telegram: 'mikksad'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/sade_mikkonen.jpeg'
   description:
     fi: "Vastaa killan suhteista yrityksiin ja excursioiden järjestämisestä. Organisoi killan mainosmyyntiä sekä kehittää killan mainetta ja kunniaa yritysten silmissä. Johtaa killan yrityssuhdetoimikuntaa. \nOta yhteyttä yrityssuhdemestariin, jos asiasi liittyy yrityssuhteisiin."
     en: 'The Head of Corporate Relations leads the corporate relations committee. They advance the reputation and credit of the guild among the corporations by collaborating with them. They also organize excursions, events and sponsorships. Contact the Head of Corporate Relations if your matter concerns corporate relations.'
@@ -149,7 +149,7 @@
   email: 'kulttuurimestari@as.fi'
   phone: '+358 505753380'
   telegram: 'TIITU5'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
   description:
     fi: 'Pitää yllä killan vanhoja ulkosuhteita sekä luo uusia. Johtaa kulttuuritoimikuntaa ja järjestää sen jäsenten kanssa killale kulttuuritapahtumia. Tykkää pitää yhteyttä moneen eri tahoon ja hengailla myös muun kuin violetin väristen ihmisten kanssa. Ota yhteyttä kulttuurimestariin, jos asiasi liittyy kulttuuriasioihin.'
     en: 'The Master of Culture maintains the external relations with student organisations across Finland and builds new ones. They lead the Culture and Sports Committee, organise various happenings, cultural excursions and events to test different sports. Contact the Master of Culture if your matter concerns culture in any way.'
