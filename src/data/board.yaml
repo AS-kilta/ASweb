@@ -35,11 +35,22 @@
     en: "The treasurer is responsible for taking care of the guild's finances, for instance, paying bills and bookkeeping. Contact the treasure in the financial matters."
 
 - title:
+    fi: 'Yrityssuhdevastaava'
+    en: 'Head of Corporate Relations'
+  name: 'Säde Mikkonen'
+  email: 'yrityssuhdevastaava@as.fi'
+  phone: '+358 458871514'
+  telegram: 'mikksad'
+  picture: '../images/officials/2024/sade_mikkonen.jpeg'
+  description:
+    fi: "Vastaa killan suhteista yrityksiin ja excursioiden järjestämisestä. Organisoi killan mainosmyyntiä sekä kehittää killan mainetta ja kunniaa yritysten silmissä. Johtaa killan yrityssuhdetoimikuntaa. \nOta yhteyttä yrityssuhdemestariin, jos asiasi liittyy yrityssuhteisiin."
+    en: 'The Head of Corporate Relations leads the corporate relations committee. They advance the reputation and credit of the guild among the corporations by collaborating with them. They also organize excursions, events and sponsorships. Contact the Head of Corporate Relations if your matter concerns corporate relations.'
+
+- title:
     fi: 'Viestintämestari'
     en: 'Head of Communications'
   name: 'Saara Miettinen'
   email: 'viestintamestari@as.fi'
-  phone: '+358 458929080'
   telegram: 'vaniljalatte'
   picture: '../images/officials/aebaej_placeholder.png'
   description:
@@ -51,7 +62,6 @@
     en: 'Fuksi Captain'
   name: 'Joel Forsström'
   email: 'fuksikapteeni@as.fi'
-  phone: '+358 417455475'
   telegram: 'joel_forsstrom'
   picture: '../images/officials/2024/joel_forsstrom.jpg'
   description:
@@ -63,8 +73,7 @@
     en: 'Fuksi Captain'
   name: 'Kalle Kajoniemi'
   email: 'fuksikapteeni@as.fi'
-  phone: '+358 452052581'
-  telegram: 'lihasta'
+  telegram: 'kalleinta'
   picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
   description:
     fi: 'Vastaa killan fuksikasvatuksesta ja -toiminnasta. Järjestää fuksitapahtumia killan, korkeakoulun sekä yliopiston muiden fuksikapteenien kanssa. Toimii esimerkkinä ja tukena fukseille. Työskentelee yhteistyössä ISOpomon kanssa.'
@@ -87,7 +96,6 @@
     en: 'ISOboss'
   name: 'Eeva Järvenpää'
   email: 'isopomo@as.fi'
-  phone: '+358 409655961'
   telegram: 'jareeva'
   picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
   description:
@@ -99,7 +107,6 @@
     en: 'Host'
   name: 'Santeri Hildén'
   email: 'ie@as.fi'
-  phone: '+358 504315265'
   telegram: 'SHilderi'
   picture: '../images/officials/2024/santeri_hilden.jpeg'
   description:
@@ -111,7 +118,6 @@
     en: 'Hostess'
   name: 'Jesperi Hildén'
   email: 'ie@as.fi'
-  phone: '+358 504315267'
   telegram: 'JesariXD'
   picture: '../images/officials/2024/jesperi_hilden.jpeg'
   description:
@@ -123,7 +129,6 @@
     en: 'Master of Studies'
   name: 'Henri Rosenberg'
   email: 'opintomestari@as.fi'
-  phone: '+358 504315267'
   telegram: 'henkatin'
   picture: '../images/officials/2024/henri_rosenberg.jpeg'
   description:
@@ -131,24 +136,11 @@
     en: "The Master of Studies maintains communications between the guild and the university. They also work as the contact person for the guild's trustees and represent students in the meetings of the university's governing body. Contact the Master of Studies if your matter has to do with your studies or school in general."
 
 - title:
-    fi: 'Yrityssuhdevastaava'
-    en: 'Head of Corporate Relations'
-  name: 'Säde Mikkonen'
-  email: 'yrityssuhdevastaava@as.fi'
-  phone: '+358 458871514'
-  telegram: 'mikksad'
-  picture: '../images/officials/2024/sade_mikkonen.jpeg'
-  description:
-    fi: "Vastaa killan suhteista yrityksiin ja excursioiden järjestämisestä. Organisoi killan mainosmyyntiä sekä kehittää killan mainetta ja kunniaa yritysten silmissä. Johtaa killan yrityssuhdetoimikuntaa. \nOta yhteyttä yrityssuhdemestariin, jos asiasi liittyy yrityssuhteisiin."
-    en: 'The Head of Corporate Relations leads the corporate relations committee. They advance the reputation and credit of the guild among the corporations by collaborating with them. They also organize excursions, events and sponsorships. Contact the Head of Corporate Relations if your matter concerns corporate relations.'
-
-- title:
     fi: 'Kulttuurimestari'
     en: 'Master of Culture'
   name: 'Tiitus Mustajoki'
   email: 'kulttuurimestari@as.fi'
-  phone: '+358 505753380'
-  telegram: 'TIITU5'
+  telegram: 'kulttuurimestari'
   picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
   description:
     fi: 'Pitää yllä killan vanhoja ulkosuhteita sekä luo uusia. Johtaa kulttuuritoimikuntaa ja järjestää sen jäsenten kanssa killale kulttuuritapahtumia. Tykkää pitää yhteyttä moneen eri tahoon ja hengailla myös muun kuin violetin väristen ihmisten kanssa. Ota yhteyttä kulttuurimestariin, jos asiasi liittyy kulttuuriasioihin.'
