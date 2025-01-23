@@ -152,7 +152,7 @@ export const Head: HeadFC<HeadProps> = () => <Meta lang="fi" title="Yrityksille"
 
 export const query = graphql`
   query ImgQuery {
-    file(relativePath: { eq: "officials/2024/sade_mikkonen.jpeg" }) {
+    file(relativePath: { eq: "officials/2025/sade_mikkonen.jpg" }) {
       childImageSharp {
         gatsbyImageData(placeholder: BLURRED)
       }
