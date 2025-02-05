@@ -57,16 +57,16 @@ const CommitteeTips: React.FC<Props> = ({ pageContext }) => {
           <CollapseBox title={'Navigating in Otaniemi'} expand={allExpanded}>
             <ul>
               <li>
-                <a href="https://kanttiinit.fi">Kanttiinit</a> - All student restaurants in Otaniemi. Also opening hours
-                and the menus can be seen here.
+                <a href="https://kanttiinit.fi">Kanttiinit</a> - All student restaurants in Otaniemi. Opening hours and
+                menus can be easily found there.
               </li>
               <li>
                 <a href="https://www.aalto.fi/en/services/aalto-space-mobile-application">Aalto Space</a> - Mobile app
-                to reserve rooms on campus. For example group projects.
+                to reserve rooms on campus. For example, for working on group projects.
               </li>
               <li>
-                <a href="https://usefulaaltomap.fi/">Usefulaaltomap</a> - An accurate map of Otaniemi, also has good
-                explanation of different buildings.
+                <a href="https://usefulaaltomap.fi/">Usefulaaltomap</a> - An accurate (and useful) map of Otaniemi. The
+                map has details and information about the different buildings.
               </li>
             </ul>
           </CollapseBox>
@@ -74,15 +74,17 @@ const CommitteeTips: React.FC<Props> = ({ pageContext }) => {
           <CollapseBox title={'Studying'} expand={allExpanded}>
             <ul>
               <li>
-                <a href="https://download.aalto.fi">download.aalto.fi</a> - In here you can download useful programs,
-                which Aalto University has license for. For example MATLAB and Microsoft Office.
+                <a href="https://download.aalto.fi">download.aalto.fi</a> - Here you can find and download useful
+                programs, which Aalto University has a license for. For example, MATLAB and Microsoft Office.
               </li>
               <li>
                 <a href="https://vdi.aalto.fi">vdi.aalto.fi</a> - You can use this application to access school
                 computers remotely, which is extremely useful if, for example, you encounter problems with your own
                 computer and applications.
               </li>
-              <li>Panopto - Aalto's video platform</li>
+              <li>
+                <a href="https://aalto.cloud.panopto.eu/">Panopto</a> - Aalto's video platform
+              </li>
             </ul>
           </CollapseBox>
 
@@ -106,20 +108,22 @@ const CommitteeTips: React.FC<Props> = ({ pageContext }) => {
             <ul>
               <li>
                 <a href="https://www.aalto.fi/en/palvelut/individual-counselling-by-study-and-career-counselling-psychologists">
-                  Study psychologist.
+                  Study and counselling psychologist services
                 </a>{' '}
-                It's advisable to contact them with a low threshold.
+                - Low-threshold services for variety of issues relating to stress and what-not.
               </li>
             </ul>
             <h3 className={style.heading4}>FSHS</h3>
             <ul>
               <li>
-                <a href="https://www.yths.fi/en/services/health-examination/oral-health-examination/">Oral health</a>{' '}
-                (for example. wisdom teeth removal), it might take a while after the reservation to get the appointment
+                <a href="https://www.yths.fi/en/services/health-examination/oral-health-examination/">
+                  Oral health examinations
+                </a>{' '}
+                - Proactive measures for having healthy and happy teeth.
               </li>
               <li>
                 {' '}
-                <a href="https://www.yths.fi/en/using-services/contact/">General and mental health services</a> - it's
+                <a href="https://www.yths.fi/en/using-services/contact/">General and mental health services</a> - It's
                 advisable to seek help early!
               </li>
               <li>In addition, there are many other health-related services available.</li>
