@@ -149,6 +149,57 @@ const Subnavi: React.FC<SubnaviProps> = ({ lang, data }) => {
   );
 };
 
+const QuickLinks: React.FC<{ lang: string }> = ({ lang }) => {
+  return (
+    <div className={style.quickLinks}>
+      <Link to={'https://gallery.as.fi'}>
+        <StaticImage
+          src="../../images/icons/gallery.png"
+          alt="Gallery icon"
+          layout="constrained"
+          //width={24}
+          //height={30}
+          placeholder="none"
+          style={{ imageRendering: 'pixelated' }}
+        />
+      </Link>
+      <Link to={'https://ilmo.as.fi'}>
+        <StaticImage
+          src="../../images/icons/ilmov2.png"
+          alt="Signup icon"
+          layout="constrained"
+          // width={32}
+          // height={32}
+          placeholder="none"
+          style={{ imageRendering: 'pixelated' }}
+        />
+      </Link>
+      <Link to={'https://forum.as.fi'}>
+        <StaticImage
+          src="../../images/icons/forum.png"
+          alt="Forum icon"
+          layout="constrained"
+          // width={32}
+          // height={32}
+          placeholder="none"
+          style={{ imageRendering: 'pixelated' }}
+        />
+      </Link>
+      <Link to={lang === 'fi' ? 'https://as.fi/kimble/kimblesaannot.pdf' : 'https://as.fi/kimble/kimble-en.pdf'}>
+        <StaticImage
+          src="../../images/icons/kimble.png"
+          alt="Kimble icon"
+          layout="constrained"
+          // width={32}
+          // height={32}
+          placeholder="none"
+          style={{ imageRendering: 'pixelated' }}
+        />
+      </Link>
+    </div>
+  );
+};
+
 // Types for navigation data scheme
 
 interface SubnaviData {
@@ -219,6 +270,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
         return <NaviItem entry={entry} lang={lang} key={entry.title[lang] + '-' + entry.link[lang]} />;
       })}
       <LangSwitcher lang={lang} slug={slug} translation={translation} />
+      <QuickLinks lang={lang} />
     </ul>
   );
 };

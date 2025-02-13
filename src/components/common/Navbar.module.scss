@@ -58,6 +58,12 @@ $not-focused: transparentize(
   display: block;
 }
 
+.quickLinks {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
 #navbarTop {
   background: $as-violet-1;
   position: sticky;
@@ -144,6 +150,12 @@ $not-focused: transparentize(
   .menuToggle {
     display: none;
   }
+
+  .quickLinks {
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 20px;
+  }
 }
 
 @media all and (max-width: $breakpoint-mobile) {
@@ -199,6 +211,15 @@ $not-focused: transparentize(
     margin: 10px;
     display: flex;
     align-items: center;
+  }
+
+  .quickLinks {
+    gap: 20px;
+    padding: 10px 20px;
+  }
+
+  .quickLinks:hover {
+    background: $accent-violet-1;
   }
 
   #navbarCollapse {
