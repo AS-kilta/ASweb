@@ -5,6 +5,11 @@ import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
 import * as style from './Navbar.module.scss';
 
+import Gallery from '../../images/icons/gallery.inline.svg';
+import Ilmo from '../../images/icons/ilmov2.inline.svg';
+import Forum from '../../images/icons/forum.inline.svg';
+import Kimble from '../../images/icons/kimble.inline.svg';
+
 // Create context for navi callbacks (avoid prop drilling)
 
 interface INaviContext {
@@ -153,48 +158,16 @@ const QuickLinks: React.FC<{ lang: string }> = ({ lang }) => {
   return (
     <div className={style.quickLinks}>
       <Link to={'https://gallery.as.fi'}>
-        <StaticImage
-          src="../../images/icons/gallery.png"
-          alt="Gallery icon"
-          layout="constrained"
-          //width={24}
-          //height={30}
-          placeholder="none"
-          style={{ imageRendering: 'pixelated' }}
-        />
+        <Gallery />
       </Link>
       <Link to={'https://ilmo.as.fi'}>
-        <StaticImage
-          src="../../images/icons/ilmov2.png"
-          alt="Signup icon"
-          layout="constrained"
-          // width={32}
-          // height={32}
-          placeholder="none"
-          style={{ imageRendering: 'pixelated' }}
-        />
+        <Ilmo />
       </Link>
       <Link to={'https://forum.as.fi'}>
-        <StaticImage
-          src="../../images/icons/forum.png"
-          alt="Forum icon"
-          layout="constrained"
-          // width={32}
-          // height={32}
-          placeholder="none"
-          style={{ imageRendering: 'pixelated' }}
-        />
+        <Forum />
       </Link>
       <Link to={lang === 'fi' ? 'https://as.fi/kimble/kimblesaannot.pdf' : 'https://as.fi/kimble/kimble-en.pdf'}>
-        <StaticImage
-          src="../../images/icons/kimble.png"
-          alt="Kimble icon"
-          layout="constrained"
-          // width={32}
-          // height={32}
-          placeholder="none"
-          style={{ imageRendering: 'pixelated' }}
-        />
+        <Kimble />
       </Link>
     </div>
   );

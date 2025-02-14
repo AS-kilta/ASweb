@@ -62,6 +62,19 @@ $not-focused: transparentize(
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  line-height: 0;
+
+  a {
+    height: 32px;
+  }
+
+  a svg {
+    fill: $not-focused !important;
+  }
+
+  a:hover svg {
+    fill: $natural-white !important;
+  }
 }
 
 #navbarTop {
@@ -216,10 +229,12 @@ $not-focused: transparentize(
   .quickLinks {
     gap: 20px;
     padding: 10px 20px;
-  }
 
-  .quickLinks:hover {
-    background: $accent-violet-1;
+    a:hover {
+      background: $accent-violet-1;
+      border-color: $accent-violet-1 !important;
+      border-width: medium !important;
+    }
   }
 
   #navbarCollapse {
