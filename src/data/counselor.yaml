@@ -1,21 +1,18 @@
 - title:
     fi: 'Häirintäyhdyshenkilö'
     en: 'Confidential Counselor'
-  name: 'Arttu Pahta'
-  email: 'arttu.pahta@as.fi'
-  telegram: 'arupto'
-  picture: '../images/officials/2023/arttu_pahta.jpg'
-  description:
-    fi: 'Poissa 11.2. – 30.6.'
-    en: 'Away for 11.2. – 30.6.'
+  name: 'Kaisla Haapoja'
+  email: 'kaisla.haapoja@as.fi'
+  telegram: 'Kaislakettu'
+  picture: '../images/officials/aebaej_placeholder.png'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
     en: 'Confidential Counselor'
-  name: 'Pessi Lyytikäinen'
-  email: 'pessi.lyytikainen@as.fi'
-  telegram: 'Pessimismi'
-  picture: '../images/officials/2023/pessi_lyytikainen.jpg'
+  name: 'Pyry Kiviluoma'
+  email: 'pyry.kiviluoma@as.fi'
+  telegram: 'pyrykiviluoma'
+  picture: '../images/officials/aebaej_placeholder.png'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -23,18 +20,15 @@
   name: 'Joel Forsström'
   email: 'joel.forsstrom@as.fi'
   telegram: 'joel_forsstrom'
-  picture: '../images/officials/2024/joel_forsstrom.jpg'
+  picture: '../images/officials/2025/joel_forstrom.jpg'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
     en: 'Confidential Counselor'
-  name: 'Mimi Määttä'
-  email: 'mimi.maatta@as.fi'
-  telegram: 'mimimaat'
-  picture: '../images/officials/2023/mimi_maatta.jpg'
-  description:
-    fi: 'Yhteydenotot vain englanniksi'
-    en: 'Contact only in English'
+  name: 'Sonja Annala'
+  email: 'sonja.annala@as.fi'
+  telegram: 'SoiQ3'
+  picture: '../images/officials/aebaej_placeholder.png'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -43,6 +37,14 @@
   email: 'kiira.metsoila@as.fi'
   telegram: 'Kiiraiitu'
   picture: '../images/officials/2023/kiira_metsoila.jpg'
+
+- title:
+    fi: 'Häirintäyhdyshenkilö'
+    en: 'Confidential Counselor'
+  name: 'Venla Mäkelä'
+  email: 'venla.makela@as.fi'
+  telegram: 'venlamakela'
+  picture: '../images/officials/aebaej_placeholder.png'
 
 - title:
     fi: 'Vastuuhäirintäyhdyshenkilö'
