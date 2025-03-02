@@ -53,3 +53,7 @@
 - name: 'FGI' # 31.10.2024
   link: 'https://maanmittauslaitos.fi/'
   picture: '../images/sponsors/FGI.jpg'
+
+- name: 'Suomen Automaatioseura RY'
+  link: 'https://www.automaatioseura.fi/'
+  picture: '../images/sponsors/SuomenAutomaatioseura.png'
