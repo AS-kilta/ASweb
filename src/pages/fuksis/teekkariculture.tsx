@@ -43,9 +43,11 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
           Haalareita voi tilata orientaatioviikolla. Lisätilaukset tulevat kalliiksi, joten jos aiot tilata, se
           kannattaa tehdä heti! Tilaus on sitova.
         </p>
+        <StaticImage className="image wide" src="../../images/images/photo_2025-03-11_13-58-09.jpg" alt="" />
         <p>
-          Haalareiden arvo on noin 70 €, mutta kilta tukee fuksien haalaritilauksia siten, että fukseille ensimmäiset
-          haalarit maksavat noin 25 €. Maksat haalarit sitten, kun saat ne. Muista hankkia hieno vyö itse.
+          Haalareiden arvo on noin 70 €, mutta kilta tukee fuksien haalaritilauksia siten, että fukseille oamt haalarit
+          maksavat noin 35 €. Maksat haalarit sitten, kun saat ne. Hienon vyön saat ilmaiseksi, kun liityt TEKin
+          jäseneksi!
         </p>
         <p>
           Jos havaitset haalareissa jotain vikaa tai valitettavaa, niin ilmoitathan asiasta heti. Valmistusvirheistä
@@ -58,7 +60,7 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
 
         <div>
           <p>
-            Teekkarilakki on teekkareiden tunnusmerkki, jonka saa painaa päähänsä ensimmäisenä Wappunaan. Nykyisen
+            Teekkarilakki on teekkarin tärkein tunnusmerkki, jonka saa painaa päähänsä ensimmäisenä Wappunaan. Nykyisen
             mallinen lakki on keikkunut teekkareiden päässä jo yli sadan vuoden ajan. Päällisin puolin se muistuttaa
             tavallista ylioppilaslakkia, mutta sen kuusi kulmaa, musta tuuhea tupsu ja hammasrataskokardi viestivät
             kaukaa kantajansa arvokkuudesta.
@@ -72,9 +74,8 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
         <p>
           Teekkarilakin käyttökausi on toukokuusta syyskuuhun, tai tarkemmin Wapusta Lakinlaskijaisiin.
           Erikoistapauksiin, kuten excursioon tai muuhun teekkarien edustustilaisuuteen voi kuitenkin käyttökauden
-          ulkopuolella hakea lakinkäyttölupaa teekkarijaostolta. Teekkarilakista ei juoda, eikä sitä saa muuten
-          tahallisesti sotkea. Ajan myötä teekkarilakki kuitenkin tummuu ja likaantuu käytössä, jolloin se kertoo
-          omistajan kokeneisuudesta teekkarina.
+          ulkopuolella hakea lakinkäyttölupaa teekkarijaostolta. Teekkarilakista ei saa tahallisesti sotkea. Ajan myötä
+          teekkarilakki kuitenkin tummuu ja likaantuu käytössä, jolloin se kertoo omistajan kokeneisuudesta teekkarina.
         </p>
       </div>
 
@@ -83,8 +84,8 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
       <div>
         <p>
           Teekkarilakkia ei kuka tahansa saa käyttää - se on ansaittava. Jokainen ensimmäisenä vuotenaan kunnostautunut
-          fuksi saa painaa lakin päähänsä mahdollisesti järjestettävänä Wappuna täsmälleen keskiyöllä. Syksyllä taas
-          lakki lasketaan olalle yksissä vuoden suurimmissa bileissä, Lakinlaskijaisissa.
+          ja lakkitutkinnon suorittanut fuksi saa painaa lakin päähänsä mahdollisesti järjestettävänä Wappuna täsmälleen
+          keskiyöllä. Syksyllä taas lakki lasketaan olalle yksissä vuoden suurimmissa bileissä, Lakinlaskijaisissa.
         </p>
       </div>
     </PageLayout>
