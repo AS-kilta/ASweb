@@ -3,7 +3,7 @@ import type { HeadFC, HeadProps } from 'gatsby';
 import Meta from '@src/components/common/Meta';
 import * as style from './membership.module.scss';
 import PageLayout from '@src/components/layouts/PageLayout';
-import heroPic from '../../images/images/Lakkien_jako_2016-100.jpg';
+import heroPic from '../../images/images/photo_2025-03-11_17-32-55.jpg';
 
 const Membership: React.FC<PageProps> = ({ pageContext }) => {
   return (
