@@ -3,8 +3,8 @@ lang:
   en: false
 
 curriculum:
-  fi: '2022-2024'
-  en: '2022-2024'
+  fi: '2024-2026'
+  en: '2024-2026'
 
 name:
   fi: 'Informaatio­verkostot'
@@ -16,34 +16,23 @@ link:
 
 desc:
   fi: >
-    Informaatioverkostojen sivuaineesta saa perustiedot ihmisestä informaation ja tieto-,
-    viestintä- ja visualisointiteknologian käyttäjänä sekä yrityksistä ja organisaatioista kyseisen
-    teknologian hyödyntäjinä. Sivuaineen kurssit koostuvat mm. tietotekniikan, tuotantotalouden
-    ja viestinnän opinnoista. Sivuaineeseen ei ole erillistä hakua ja vaatii esitietona kurssin
-    CS-A1110 Ohjelmointi 1 tai CS-A1111 Ohjelmoinnin peruskurssin Y1.
+    Informaatioverkostojen sivuaineesta saa perustiedot ihmisestä informaation ja tieto-, viestintä- ja visualisointiteknologian käyttäjänä sekä yrityksistä ja organisaatioista kyseisen teknologian hyödyntäjinä. Sivuaineen kurssit koostuvat mm. tietotekniikan, tuotantotalouden ja viestinnän opinnoista. Sivuaineeseen ei ole erillistä hakua ja vaatii esitietona kurssin CS-A1110 Ohjelmointi 1 tai CS-A1111 Ohjelmoinnin peruskurssin Y1.
   en: 'TEKSTIÄ IN INGLISH'
 
 why:
   fi: >
-    Sivuaine eroaa selkeästi pääaineen opinnoista, sillä Informaatioverkostojen opinnoissa
-    yhdistyvät kiehtovalla tavalla tekniikka, viestintä, yhteiskuntatieteet ja liiketoiminta. Sivuaine
-    tukee laajojen kokonaisuuksien ja tiedon hankkimisen asiantuntijuutta ja antaa
-    käytännönläheisemmän näkökulman tekniikkaan.
-    -> ei oo työmaa.
+    Sivuaine eroaa selkeästi pääaineen opinnoista, sillä Informaatioverkostojen opinnoissa yhdistyvät kiehtovalla tavalla tekniikka, viestintä, yhteiskuntatieteet ja liiketoiminta. Sivuaine tukee laajojen kokonaisuuksien ja tiedon hankkimisen asiantuntijuutta ja antaa käytännönläheisemmän näkökulman tekniikkaan. 
+    -> 	ei oo työmaa
+
     Sivuaine sopii erityisesti niille, jotka haluaisivat informaatioverkostojen maisteriohjelmaan.
   en: 'TEKSTIÄ IN INGLISH'
 
 masters:
   info:
     fi: >
-      Sivuaine mahdollistaa informaatioverkostojen maisteriohjelman, Master’s Program in
-      information networks, jonka pääaineita ovat Software Engineering and Architectures,
-      Business and Organisational Design, Digital Ethics, Society and Policy ja User, Data and
-      Design.
-      Vaihtaminen maisteriohjelmaan on mahdollista, jos hakija saavuttaa jatkuvasti erittäin hyviä
-      arvosanoja kotiyliopistossaan. Painotetun GPA:n tulisi olla noin 4 vuodesta riippuen. Kunkin
-      hakijan akateemista suoritusta arvioitaessa painotetaan erityisesti hakukelpoisuuden
-      antavan tutkinnon arvosanoja.
+      Sivuaine mahdollistaa informaatioverkostojen maisteriohjelman, Master’s Program in information networks, jonka pääaineita ovat Software Engineering and Architectures, Business and Organisational Design, Digital Ethics, Society and Policy ja User, Data and Design. 
+
+      Vaihtaminen maisteriohjelmaan on mahdollista, jos hakija saavuttaa jatkuvasti erittäin hyviä arvosanoja kotiyliopistossaan. Painotetun GPA:n tulisi olla noin 4 vuodesta riippuen. Kunkin hakijan akateemista suoritusta arvioitaessa painotetaan erityisesti hakukelpoisuuden antavan tutkinnon arvosanoja.
     en: 'TEKSTIÄ IN INGLISH'
   list:
     fi:
@@ -54,9 +43,9 @@ masters:
       - >
         Digital Ethics
       - >
-        Society and Policy ja User
+        Society and Policy
       - >
-        Data and Design
+        User, Data and Design
     en:
       - 'EMPTY LIST LOL'
 
@@ -66,20 +55,8 @@ courses:
     en: ''
   list:
     fi:
-      - 'CS-C2000 Ihminen havaitsijana - Kurssi keskittyy ihmisen havaintomekanismien
-        toimintaperiaatteisiin ja niiden sovellusmahdollisuuksiin tekniikan alalla. Luennoilla
-        käsitellään muun muassa kontrastiherkkyyttä, liikkeen havaitsemista ja visuaalista
-        tarkkaavaisuutta. Kurssi on mielenkiintoinen ja esimerkit opetettavista asioista ovat omaan
-        arkeen yhdistettäviä. Kurssi laajentaa kuvaa siitä, miten tekniikkaa voidaan hyödyntää.'
-      - 'TU-C9300 Tieteen ja tiedon perusteet - Kurssi keskittyy siihen miten eri tieteet, kuten
-        luonnontieteet, insinööritieteet ja yhteiskuntatieteet lähestyvät samaa ongelmaa ja miten
-        kukin eri tieteenala luo uutta tietoa ja ymmärrystä. Kurssi antaa myös hyvän pohjan
-        monitieteellisyyden sekä laaja-alaisen oppimisen käytännön soveltamisessa. Kurssi koostuu
-        keskustelutuokioista sekä esseistä. Kurssi on mielenkiintoinen ja erityisesti keskustelutuokio
-        herättävät ajattelemaan tiedettä konseptina.'
-      - 'CS-C3120 Human-Computer Interaction - Kurssi keskittyy ihmisen ja tietokoneen väliseen
-        vuorovaikutuksen merkitykseen erilaisten tuotteiden ja palveluiden suunnittelussa. Kurssi siis
-        kattaa perusteet muun muassa käytettävyydestä, käyttäjälähtöisestä suunnittelusta ja
-        prototyyppien valmistuksesta. Kurssi on mielenkiintoinen ja informaatioverkostojen ytimessä.'
+      - 'CS-C2000 Ihminen havaitsijana - Kurssi keskittyy ihmisen havaintomekanismien toimintaperiaatteisiin ja niiden sovellusmahdollisuuksiin tekniikan alalla. Luennoilla käsitellään muun muassa kontrastiherkkyyttä, liikkeen havaitsemista ja visuaalista tarkkaavaisuutta. Kurssi on mielenkiintoinen ja esimerkit opetettavista asioista ovat omaan arkeen yhdistettäviä. Kurssi laajentaa kuvaa siitä, miten tekniikkaa voidaan hyödyntää.'
+      - 'TU-C9300 Tieteen ja tiedon perusteet - Kurssi keskittyy siihen miten eri tieteet, kuten luonnontieteet, insinööritieteet ja yhteiskuntatieteet lähestyvät samaa ongelmaa ja miten kukin eri tieteenala luo uutta tietoa ja ymmärrystä. Kurssi antaa myös hyvän pohjan monitieteellisyyden sekä laaja-alaisen oppimisen käytännön soveltamisessa. Kurssi koostuu keskustelutuokioista sekä esseistä. Kurssi on mielenkiintoinen ja erityisesti keskustelutuokio herättävät ajattelemaan tiedettä konseptina.'
+      - 'CS-C3120 Human-Computer Interaction - Kurssi keskittyy ihmisen ja tietokoneen väliseen vuorovaikutuksen merkitykseen erilaisten tuotteiden ja palveluiden suunnittelussa. Kurssi siis kattaa perusteet muun muassa käytettävyydestä, käyttäjälähtöisestä suunnittelusta ja prototyyppien valmistuksesta. Kurssi on mielenkiintoinen ja informaatioverkostojen ytimessä.'
     en:
       - 'EMPTY LIST LOL'

@@ -3,8 +3,8 @@ lang:
   en: true
 
 curriculum:
-  fi: '2022-2024'
-  en: '2022-2024'
+  fi: '2024-2026'
+  en: '2024-2026'
 
 name:
   fi: 'Tieto­tekniikka'
@@ -16,60 +16,33 @@ link:
 
 desc:
   fi: >
-    Tietotekniikan sivuaine perehdyttää opiskelijan tietokoneen toimintaan ja sen käyttöön
-    työkaluna. Sivuaineen edetessä opiskelijalle tulee tutuksi monet eri ajankohtaiset
-    ohjelmointikielet ja eri rajapinnat ohjelmointiin. Kieliä johon tulee törmäämään ovat mm.
-    Scala (Javan kaltainen), Python, Javascript, SQL, C/C++, sekä komentorivi syntaksi (eli
-    tietokoneen terminaalin käyttö, se musta laatikko). Myös eri käyttöjärjestelmät ja niiden
-    tarjoamat edut ja haitat tulevat tutuksi sivuaineen edetessä. Aiemmasta kokemuksesta ei
-    tarvitse huolehtia, sillä sivuaine on suunniteltu lähtemään aivan nollatasolta. Tietotekniikkaa
-    tieteen alana voisi kuvailla virtuaalisena legomaailmana, mahdollisuudet ovat rajattomat ja
-    tämä sivuaine antaa valmiudet alkaa itse rakentelemaan näillä virtuaalilegoilla.
-  en: 'Computer science'
+    Tietotekniikan sivuaine perehdyttää opiskelijan tietokoneen toimintaan ja sen käyttöön työkaluna. Sivuaineen edetessä opiskelijalle tulee tutuksi monet eri ajankohtaiset ohjelmointikielet ja eri rajapinnat ohjelmointiin. Kieliä johon tulee törmäämään ovat mm. Scala (Javan kaltainen), Python, Javascript, SQL, C/C++, sekä komentorivisyntaksi (eli tietokoneen terminaalin käyttö, se musta laatikko). Myös eri käyttöjärjestelmät ja niiden tarjoamat edut ja haitat tulevat tutuksi sivuaineen edetessä. Aiemmasta kokemuksesta ei tarvitse huolehtia, sillä sivuaine on suunniteltu lähtemään aivan nollatasolta. Tietotekniikkaa tieteen alana voisi kuvailla virtuaalisena legomaailmana, mahdollisuudet ovat rajattomat ja tämä sivuaine antaa valmiudet alkaa itse rakentelemaan näillä virtuaalilegoilla.
+  en: >
+    The Computer Science minor offers students a broad and versatile foundation in programming, algorithms, software development, and theoretical computer science. This minor is highly popular among students due to its strong applicability across various engineering fields. The following insights are compiled from multiple students to provide a comprehensive overview of the minor's benefits and course experiences.
 
 why:
   fi: >
-    Koska Automaatio- ja Informaatiotekniikka ovat molemmat hyvin tietokonepainotteisia aloja,
-    on tietotekniikka luonnollisesti oikein hyvä pari pääaineelle. Molemmat alat hyödyntävät
-    tietokoneita erilaisilla tasoilla ja tietotekniikka tuo itsevarmuutta ja intuitiivista osaamista
-    tietokoneen toiminnasta, mitä pystyy soveltamaan kummallakin alalla. Myös akateemisen
-    elämän ulkopuolella tietotekniikka on oiva kumppani, sillä koko yhteiskunta kodista
-    työpaikalle nojaa tietokoneiden ja tietotekniikan varaan.
+    Koska Automaatio- ja Informaatiotekniikka ovat molemmat hyvin tietokonepainotteisia aloja, on tietotekniikka luonnollisesti oikein hyvä pari pääaineelle. Molemmat alat hyödyntävät tietokoneita erilaisilla tasoilla ja tietotekniikka tuo itsevarmuutta ja intuitiivista osaamista tietokoneen toiminnasta, mitä pystyy soveltamaan kummallakin alalla. Myös akateemisen elämän ulkopuolella tietotekniikka on oiva kumppani, sillä koko yhteiskunta kodista työpaikalle nojaa tietokoneiden ja tietotekniikan varaan.
   en: >
-    Computer science is an extremely versatile field that is useful in virtually every
-    discipline related to engineering. This enables bachelors' students to gain more
-    perspective on courses that they are required to take, like Basic Course in C
-    programming, Object oriented programming with C++, Data Structures and
-    Algorithms, by understanding the theoretical knowledge underlying them.
-    Furthermore, there are courses like Web Software Development and Machine
-    Learning D that provide different perspectives on their future work and enable
-    students to use these features to enhance their future project work.
+    Computer Science is an extremely versatile field that applies to nearly every engineering discipline. For students majoring in Digital Systems and Design, this minor provides deeper theoretical knowledge that complements mandatory courses such as Basic Course in C Programming, Object-Oriented Programming with C++, and Data Structures and Algorithms. Understanding the theoretical foundation behind these courses enhances comprehension and application in various engineering projects. Additionally, courses like Web Software Development and Machine Learning D offer practical perspectives that can be useful in future coursework and projects. The minor allows students to build strong programming and analytical skills, which are valuable across multiple domains of engineering and technology.
+    
+    I chose this minor because of its flexible practical applications and its connection with my Digital Systems and Design degree. Since my major already requires programming, embedded electronics, and signal processing courses, it made sense to deepen my knowledge in these areas. This minor has given me confidence in my future prospects, knowing that my skills are diverse and applicable in various engineering fields.
 
 masters:
   info:
     fi: >
-      Tietotekniikan sivuaineessa on kaksi mahdollista polkua: aloittelijan opintopolku, sekä
-      vaativampi opintopolku. Nimistä huolimatta molemmat lähtevät nollatasosta liikkelle, mutta
-      vaativampi polku on haastavampi ja sitä myötä työläämpi. Vaativampi opintopolku avaa
-      kuitenkin myöhemmin ovet tietotekniikan maisteriin, jos sattuu sivuaineen suorittamisen
-      aikana kiinnostumaan enemmän tietotekniikasta. Aloittelijan opintopolku ei avaa tätä ovea.
-      Jos siis tietää, että ei aio suorittaa tietotekniikan maisteria, voi aloittelijan opintopolku olla
-      hyvä idea. Jos on kuitenkaan yhtään enemmän kiinnostunut tietotekniikasta, on vaativampi
-      opintopolku suositeltava sen tarjoamien mahdollisuuksien takia. Valinnaisia kursseja kannattaa valita oman mielenkiinnon mukaan, mutta ohessa on
-      muutamia suosituksia sivuaineen suorittaneelta.
+      Tietotekniikan sivuaineessa on kaksi mahdollista polkua: aloittelijan opintopolku, sekä vaativampi opintopolku. Nimistä huolimatta molemmat lähtevät nollatasosta liikkelle, mutta vaativampi polku on haastavampi ja sitä myötä työläämpi. Vaativampi opintopolku avaa kuitenkin myöhemmin ovet tietotekniikan maisteriin, jos sattuu sivuaineen suorittamisen aikana kiinnostumaan enemmän tietotekniikasta. Aloittelijan opintopolku ei avaa tätä ovea. Jos siis tietää, että ei aio suorittaa tietotekniikan maisteria, voi aloittelijan opintopolku olla hyvä idea. Jos on kuitenkaan yhtään enemmän kiinnostunut tietotekniikasta, on vaativampi opintopolku suositeltava sen tarjoamien mahdollisuuksien takia.
     en: >
-      This minor is required to transfer to various majors in the Master's Programme in
-      Computer, Communication and Information Sciences (CCIS). More specifically, it is
-      required to transfer to the majors of:
+      The Computer Science minor is required for transferring into various majors within the Master's Programme in Computer, Communication and Information Sciences (CCIS). There is some implicit requirement as to which courses could be included, so check with the responsible professor for more detail. Specifically, it is a prerequisite for the following master's majors:
   list:
     fi:
-      - 'Computer Science SCI3042'
+      - 'Computer Science SCI-3042'
     en:
-      - 'Computer Science SCI3042'
-      - 'Human-Computer Interaction SCI3097'
-      - 'Machine Learning, Data Science and Artificial Intelligence SCI3044'
-      - 'Security and Cloud Computing SCI3084'
-      - 'Software and Service Engineering SCI3043'
+      - 'Computer Science SCI-3042'
+      - 'Human-Computer Interaction SCI-3097'
+      - 'Machine Learning, Data Science and Artificial Intelligence SCI-3044'
+      - 'Security and Cloud Computing SCI-3084'
+      - 'Software and Service Engineering SCI-3043'
 
 courses:
   info:
@@ -77,18 +50,56 @@ courses:
       Koska ohjelmoinnin peruskurssi O1 tai Y1 kuuluu automaatio -ja informaatiotekniikan
       perusopintoihin, rakentuu tietotekniikan sivuaine seuraavanlaisesti: pakollisia kursseja ovat
       O2 tai Y2 sekä tietorakenteet ja algoritmit. Tämän jälkeen jää kolme valinnaista kurssia.
-    en: ''
+
+      Valinnaisia kursseja kannattaa valita oman mielenkiinnon mukaan, mutta ohessa on muutamia suosituksia sivuaineen suorittaneelta. 
+    en: 'All of the courses listed on the minor program are recommended, depending on who you ask. Here are some insights from students who have taken courses within the Computer Science minor:'
   list:
     fi:
-      - 'Tietokannat CS-A1150 ja Web Software Development CS-C3170. Nämä tarjoavat hyvän perusosaamisen nykyaikaiseen verkkosovelluskehitykseen.
-        Näiden jälkeen on hyvät valmiudet esim. kesätöihin software developer -hommissa.'
-      - 'Information Security CS-C3130. Informaatioturvallisuuden peruskurssi on mielenkiintoinen ja yleishyödyllinen kaikille aloille.'
-      - 'Operating Systems CS-C3140. Tarjoaa kattavaa osaamista erilaisten käyttöjärjestelmien rakenteesta.
-        Tämä on myös hyödyllinen lähes kaikessa, mihin liittyy tietokoneet ja teknillinen ala.'
+      - >
+        CS-A1150	Tietokannat (suositellaan)	5	III-V
+        CS-C3170	Web Software Development	5	I-V
+
+        Nämä kaksi tarjoavat hyvän perusosaamisen nykyaikaiseen verkkosovelluskehitykseen. Näiden jälkeen on hyvät valmiudet esim. kesätöihin software developer -hommissa.
+      - >
+        CS-C3130	Information Security		5	I
+
+        Informaatioturvallisuuden peruskurssi on mielenkiintoinen ja yleishyödyllinen kaikille aloille.
+      - >
+        CS-C3140	Operating Systems		5	I-II
+
+        Operating systems tarjoaa kattavaa osaamista erilaisten käyttöjärjestelmien rakenteesta. Tämä on myös hyödyllinen lähes kaikessa, mihin liittyy tietokoneet ja teknillinen ala.
     en:
-      - 'Human-Computer Interaction'
-      - 'Web Software Development'
-      - 'Programming Parallel Computers D,'
-      - 'Machine Learning D'
-      - 'Programming 2'
-      - 'Software Engineering'
+      - 'CS-C3130 Information Security [I]
+         
+         One of my favorite courses in the minor. If you register for the lecture version of the course, you get access to a virtual machine (VM) to experiment with and complete weekly security exercises. The weekly exercises are very practical, allowing you to try real-world "hacking" techniques, such as brute-forcing passwords, creating malicious links to steal user passwords, and attempting buffer overflows on IoT devices. The course material is generally quite good, providing a solid foundation in Information Security. That being said, one thing I don’t really like about this course is that it’s quite hard to get a 5 since the exam is highly theoretical, and you need a solid understanding of all the material to achieve a top grade. However, because the exercises are incredibly cool, I still highly recommend taking this course.'
+      - 'CS-C3120 Human-Computer Interaction [I-II]
+         
+         Human-Computer Interaction (HCI) is an introductory course that looks into how we interact with digital interfaces. It discusses a lot about how choices made by designers affect our day-to-day lives, and how HCI can be more broadly researched, measured and incorporated into our own design processes for any project. I personally enjoyed the reading assignments and open-ended exercises, which encouraged creative thinking. However, the exam felt too open-ended, and the grading could be quite subjective. I also wasn’t a fan of the lecture attendance bonuses, especially since I didn’t find the lectures particularly engaging.
+         
+         [Disagree with the above student] The exams were really easy and predictable. The open ended tasks were a bit of a pain and took the most time. Mandatory lectures are always a bit negative. On the other hand, from a content perspective, the guest lectures hosted by experts in respective fields were good, considering who they brought in.'
+      - 'CS-A1155 Databases for Data Science [IV-V]
+         
+         This course covers relational database systems, specifically SQL, an essential skill in many tech fields today. The mandatory lectures weren’t great as they were taught by the inexperienced teaching assistants rather than by the lecturer, so learning didn’t really happen there. Instead, I’d recommend watching Introduction to Databases by Jennifer Widom (Stanford) on YouTube — it covers all the lecture topics clearly and helps with the weekly exercises. Aside from the exercises, there’s also a group project that applies databases to a real-world scenario, which was interesting. Overall, I’d recommend the course for the skills it teaches, but I wouldn’t rely on the lectures — using outside material is a must.'
+      - 'CS-C2160 Theory of Computation [III-IV]
+         
+         This course covers fundamental mathematical models of computation, including finite automata, regular languages, context-free grammars, and Turing machines. These topics could be particularly interesting for those who enjoy logical problem solving. Every week, there is an opportunity to earn some bonus points by solving a few problems. While these exercises are of moderate difficulty and help reinforce your understanding of the material, you must attend the exercise sessions in person and be ready to present your solution to receive the bonus.'
+      - 'CS-C3240 Machine Learning [I]
+         
+         This course introduces key machine learning topics, including supervised and unsupervised learning, feature engineering (PCA), deep learning, reinforcement learning, and language models. A strong math foundation (linear algebra, probability) is highly recommended before taking it. While some topics are covered too briefly, it serves as a solid introduction to ML. Taking Python for Engineers beforehand is also a good idea. The course consists of a group project (teams of two), peer review, and a short exam with 20 multiple-choice questions. The tricky part? The exam questions are randomized, with some highly specific, obscure details mixed in. Depending on your luck, you might have to retake the exam to get the grade you want.'
+      - 'CS-C3140 Operating Systems [I-II]
+         
+         This course was revamped last year to use Scala instead of C. To be honest, I didn’t put much effort into it—I attended only one lecture and skipped the exercises. The course is highly theoretical, and the slides are overloaded with concepts, making it difficult to follow. Most coding assignments involve simple memory management, similar to the Basic Course in C Programming, but given that it’s only a 5-credit course, you shouldn’t expect to build a full operating system—that’s more of a final project-level task. The worst part for me was using Jupyter Lab, which was frustrating.
+         
+         As for the theoretical content, the slides cover a massive amount of concepts and terminology, making it hard to extract a clear structure just by reading them. I ended up learning by picking out keywords from the slides and assignments and searching for explanations on YouTube. I can’t comment much about the lecture quality since I barely attended, but from what I saw in the first session, it was mostly PowerPoint reading. If you’re just looking for general OS knowledge and don’t need this course on your transcript to prove anything, you can probably skip it.'
+      - 'CS-E4580 Programming Parallel Computers D [V]
+         
+         This is one of the most challenging courses in the minor, requiring you to deeply understand how the CPU and memory interact with your data and how to apply clever optimizations to speed up computations. You’ll work with high-performance C and C++ code, optimize memory layouts, and even get your first hands-on experience with CUDA programming. The course features a leaderboard, where top performers receive a recommendation letter from the professor, exclusive patches, an excursion, and other perks. Personally, I didn’t make it to the top, but it was incredibly rewarding to optimize a program from 30 seconds down to 0.1s. It’s a master’s level course, highly demanding but completely fair—there’s no exam, and the grading is entirely transparent. If you enjoy C++ and are willing to put in the effort, a top grade is guaranteed.'
+      - 'CS-C3100 Computer Graphics [I-II]
+         
+         Another very challenging but rewarding course I took during my studies. This course introduced me to 3D graphics from scratch, covering a wide array of essential topics, including modeling techniques, hierarchical modeling, physical simulation, ray-tracing, and real-time shading. A significant part of the course focused on modeling, such as curves and surfaces with splines and meshes, which gave me the tools to create complex 3D structures. Additionally, hierarchical modeling and physically-based simulations helped me understand how objects interact in dynamic environments. The course also covered ray-tracing and real-time shading, giving me valuable skills for creating realistic lighting and shadows in 3D scenes.
+         
+         However, it’s important to note that you need to be comfortable with C++ programming to succeed in this course. The assignments require a solid understanding of C++, and if you’re not already familiar with it, expect to spend extra time getting up to speed. Additionally, depending on your development environment, you may need to tweak CMake to get everything working properly before you can start the assignments. The course provides plenty of starter code and detailed instructions, but getting your setup right can sometimes be a bit tricky. One of the best parts of the course is the abundance of extra credit opportunities (could go way more than 200%). These points can actually be converted to cover your exam scores, so if you’re willing to go above and beyond, you can significantly boost your overall grade. However, keep in mind that there is still a minimum passing threshold required for both the assignments and the exams. On average, you’ll need around 10 hours of work per week, but the experience is totally worth it if you’re ready to dive into computer graphics and sharpen your programming skills.'
+      - 'CS-C3150 Software Engineering [I-II]
+         
+         This course covers some of the most important general concepts in software development, but the workload is very high with weekly essays.'
+

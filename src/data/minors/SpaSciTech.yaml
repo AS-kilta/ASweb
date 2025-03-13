@@ -1,0 +1,69 @@
+lang:
+  fi: false
+  en: true
+
+curriculum:
+  fi: '2024-2026'
+  en: '2024-2026'
+
+name:
+  fi: ''
+  en: 'Space Science and Technology (minor)'
+
+link:
+  fi: ''
+  en: 'https://www.aalto.fi/en/minors/space-science-and-technology-minor'
+
+desc:
+  fi: 
+  en: >
+    I'm taking the Space Science and Technology Minor. So far it has been amazing, the courses from this minor have been my favorite courses out of all including my major.
+
+why:
+  fi:
+  en: >
+    I really recommend doing this minor and being more involved in space in general. There is a satellite group working on a cubesat, there's me doing an actual association, and there's many events in general and possibilities.
+
+masters:
+  info:
+    fi:
+    en: 'TEKSTIÄ IN INGLISH'
+  list:
+    fi:
+    en:
+      - 'EMPTY LIST LOL'
+
+courses:
+  info:
+    fi: ''
+    en: >
+      As soon as one can, take the ELEC-A4930 Astronomical View of the World [III-IV]. It's a wonderful elective that gives a great perspective on how to look at space in general. I've done basically that course and half the minor now and still Astronomical View of the World is my favorite course.
+
+      Then, don't be afraid to take the other courses as well very soon, in order as presented.
+      
+      I chose these because they seemed most interesting. They are usually a bit challenging, but not if you like what you are doing. I found them to be pretty easy courses (only done AVoW, Intro to Space and Space Instrumentation so far) and I am generally not a smart person. The course quality is the best I have seen. I don't think any of my normal courses come as close to the quality and structure.
+  list:
+    fi:
+    en:
+      - >
+       ELEC-E4210 Intro to Space [I-II]
+       
+       This course is, as suggested by the title, an Introduction to Space. Not in the same sense as the AVoW, but goes in more deep into the details and the physics of space. It still covers a wide range of topics though: Orbits, Plasma Physics, Observation time calculations and the coordinate system of the earth, Blackbody radiation (what brightness means, flux density, etc.). It is overall a course with a very balanced workload and a pretty easy exam. During the course you have a few homework assignments and pre work for them. It is very fun in my opinion and it also helps a lot with future courses, however it is NOT necessary to do before the next courses (the ones below this one).
+      - >
+       ELEC-E4220 Space Instrumentation [I-II]
+       
+       This course is a doctoral level course (apparently) where you take a deep dive into the physics behind the instruments on famous satellites. The first part of the course, you will examine lots of instruments and have homework about explaining how they work. The second part you will take a look into space missions and how they are designed, and you will work on designing your own space mission! This is a big part of the grade in this course and requires you to be in teams. There is no exam, and the workload I think is fairly easy.
+      - >
+       ELEC-E4530 Radio Astronomy [III-IV]
+       
+       Radio Astronomy my beloved. This course is an insanely cool course. You will examine how Radio Astronomy in general is carried out, what you observe, how you observe it, and how to calculate when to observe. Introduction to Space will help you a lot here, but they do take into account people who have not done that course and give you good resources. The whole course you go very deeply into what types of observation techniques exist, how Metsähovi works and how they observe, what instruments and receivers they use, etc. Then you also get to go to Metsähovi! They prepare very cool exercises for that trip, and afterwards you have some practice sessions on Fridays (approx every 2 weeks) which are similar very fun exercises. The grading is a bit different, since you do not have homework per say, but you have to write reports about the practice sessions and do some calculations there. There are a total of 3 reports to be written. Then, in my opinion the coolest exercise session is actually going to Metsähovi and doing a 12 hour observing session in groups. You actually get to do what the professors do when they do observation, it is amazing that they can let us do this! There is an exam at the end of the course but it is very easy.
+      - >
+       ELEC-E4520 Space Physics [IV-V]
+       
+       As the name suggests, this is purely a physics course going into space physics. I have just started this one so I cannot say much about it. From first glance it seems pretty in depth and hence more difficult. It does have a great structure though. It has weekly homeworks and an end exam.
+      - >
+       ELEC-E4240 Satellite Systems [IV-V]
+       
+       This is a super interesting, more hands-on course held by an amazing professor called Jaan Praks. It teaches you about the whole process of creating the satellite, from the initial mission concept and goal, to the launch. It also has weekly different topics like moon instrumentation techniques and how to think about space science missions. It has simple weekly (or sometimes 2 weeks) assignments and the main grade is on the projects of the course, which is making your own in depth cubesat mission for the moon (the topic for my year). It has no exams because of this, but the documentation for the project is pretty long and in-depth, so you have to put in quite a few hours. Luckily it is teamwork, with 4 person teams.
+      - >
+       and others that you may choose
