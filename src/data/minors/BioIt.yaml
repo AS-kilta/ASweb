@@ -3,8 +3,8 @@ lang:
   en: true
 
 curriculum:
-  fi: '2022-2024'
-  en: '2022-2024'
+  fi: '2024-2026'
+  en: '2024-2026'
 
 name:
   fi: 'Bio­informaatio­teknologia'
@@ -16,41 +16,21 @@ link:
 
 desc:
   fi: >
-    Bioinformaatioteknologian sivuaine koostuu kolmesta pakollisesta kurssista ja kahdesta
-    vapaasti valittavasta kurssista. Pakolliset opinnot rakentavat pohjaa, jota tarvitaan muilla
-    kursseilla tai maisterivaiheen opinnoissa. Tämän lisäksi vapaavalinnaisissa opinnoissa on
-    tarjolla paljon kattavammin kursseja, jotka saattavat kuulua myös AR tai IT opintoihin.
+    Bioinformaatioteknologian sivuaine koostuu kolmesta pakollisesta kurssista ja kahdesta vapaasti valittavasta kurssista. Pakolliset opinnot rakentavat pohjaa, jota tarvitaan muilla kursseilla tai maisterivaiheen opinnoissa. Tämän lisäksi vapaavalinnaisissa opinnoissa on tarjolla paljon kattavammin kursseja, jotka saattavat kuulua myös AR tai IT opintoihin.
   en: >
-    The Bioinformation Technology (BioIT) minor in English provides an introduction to various
-    topics that are relevant in the field of bioinformatics and similar fields. Such topics include
-    physiology and cell biology, biophysics, machine learning, statistical tests, electronic circuits,
-    organic chemistry, and more. It should be noted that the minor in English is organized in a
-    more hands-off fashion than other English minors, since some courses such as NBE-C2201
-    Physiology and ELEC-C8722 Molecular and Cell Biology are available in English, but only
-    offer lectures in Finnish, thus requiring adequate time for self-learning.
+    The Bioinformation Technology (BioIT) minor in English provides an introduction to various topics that are relevant in the field of bioinformatics and similar fields. Such topics include physiology and cell biology, biophysics, machine learning, statistical tests, electronic circuits, organic chemistry, and more. It should be noted that the minor in English is organized in a more hands-off fashion than other English minors, since some courses such as NBE-C2201 Physiology and ELEC-C8722 Molecular and Cell Biology are available in English, but only offer lectures in Finnish, thus requiring adequate time for self-learning.
 
 why:
   fi: >
-    BioIT:n sivuaine sopii hyvin henkilöille, joilla on kiinnostusta tekniikkaan ja biologiaan.
-    Kursseilla pääsee oppimaan paljon biologista ilmiöistä ja saamaan tukea muihin opintoihin
-    esim. jos ihmisten mittaamiseen liittyvä teknologia kiinnostaa. BioIT:n sivuaine on myös
-    pakollinen esitietovaatimus Life Sciences -ohjelman maisteriohjelmiin, minkä vuoksi sitä
-    kannattaa harkita. (+yksittäisiä kursseja saatetaan vaatia).
-    BioIT:n opinnot sisältävät myös paljon kursseja, jotka eivät ole niin teknisiä tai matemaattisia,
-    kuten fysiologia tai molekyyli- ja solubiologia. Tämäntyyliset kurssit voivat luoda hyvää
-    vastapainoa pääaineopintoihin luomalla vaihtelevuutta.
-    Lyhyesti BioIT:tä kannattaa harkita, jos sinua kiinnostaa biologia, ihminen, tai
-    koneoppiminen.
+    BioIT:n sivuaine sopii hyvin henkilöille, joilla on kiinnostusta tekniikkaan ja biologiaan. Kursseilla pääsee oppimaan paljon biologista ilmiöistä ja saamaan tukea muihin opintoihin esim. jos ihmisten mittaamiseen liittyvä teknologia kiinnostaa. BioIT:n sivuaine on myös pakollinen esitietovaatimus Life Sciences -ohjelman maisteriohjelmiin, minkä vuoksi sitä kannattaa harkita. (+yksittäisiä kursseja saatetaan vaatia). 
+
+    BioIT:n opinnot sisältävät myös paljon kursseja, jotka eivät ole niin teknisiä tai matemaattisia, kuten fysiologia tai molekyyli- ja solubiologia. Tämäntyyliset kurssit voivat luoda hyvää vastapainoa pääaineopintoihin luomalla vaihtelevuutta. 
+
+    Lyhyesti BioIT:tä kannattaa harkita, jos sinua kiinnostaa biologia, ihminen, tai koneoppiminen. 
   en: >
-    The minor itself is fairly different from other ELEC curricula, but it serves as an interesting
-    sidegrade from standard ELEC education and more common minors such as Computer
-    Science. Courses from these fields are available in this minor, such as ELEC-C9600
-    Electronic Circuits and CS-C3240 Machine Learning, as well as the mathematics course
-    MS-C1620 Statistical Inference. As such, the BioIT minor incorporates many concepts that
-    should be familiar to most engineering students, while also introducing them to more
-    minor-specific topics such as physiology, cell biology, and biophysics. If you're considering a
-    minor that blends familiar engineering topics with a unique focus on biology, then this minor
-    might just be the one for you.
+    The minor itself is fairly different from other ELEC curricula, but it serves as an interesting sidegrade from standard ELEC education and more common minors such as Computer Science. Courses from these fields are available in this minor, such as ELEC-C9600 Electronic Circuits and CS-C3240 Machine Learning, as well as the mathematics course MS-C1620 Statistical Inference. As such, the BioIT minor incorporates many concepts that should be familiar to most engineering students, while also introducing them to more minor-specific topics such as physiology, cell biology, and biophysics. If you’re considering a minor that blends familiar engineering topics with a unique focus on biology, then this minor might just be the one for you.
+
+    I chose this minor for a few reasons: for one, I wanted a specific list of courses I could take for my remaining elective credits that would actively support each other, rather than choosing a bunch of random electives. This minor also serves as a nice pivot away from the curriculum of my major. There’s some overlap between the math courses I had to take and Statistical Inference, as well as some of the programming skills in my major and my other minor (Computer Science) being handy in Machine Learning and the R programming assignments in Statistical Inference. However, the biology, physiology, and biophysics courses in this minor are completely different from anything in my major or the CS minor, and I actually appreciate how different they are; I’m able to take courses on topics that are completely new to me, and which I find very interesting. Above all else, though, the Life Science Technologies master’s programmes look extremely interesting to me, and completing this minor is the only prerequisite for doing that master’s programme, so I at least have the option of doing that programme if I complete this minor.
 
 masters:
   info:
@@ -58,69 +38,33 @@ masters:
       Sivuaine mahdollistaa Life Sciences -ohjelman maisterit. Osaan ohjelmista saattaa olla
       vaatimuksena yksittäisiä kursseja lisäksi esim. kemiaa tai koneoppimista.
     en: >
-      One of the biggest incentives for taking the BioIT minor is that it enables you to take the Life
-      Science Technologies master's programme, which contains six different study tracks. 
-      Most of these tracks contain several study paths of their own, and contain quite a bit of
-      overlap in their first-year curricula. Certain tracks require certain courses to be taken in the
-      minor during bachelor's studies, with many of them requiring Machine Learning, for example.
+      One of the biggest incentives for taking the BioIT minor is that it enables you to take the Life Science Technologies master’s programme, which contains six different study tracks. Most of these tracks contain several study paths of their own, and contain quite a bit of overlap in their first-year curricula. Certain tracks require certain courses to be taken in the minor during bachelor’s studies, with many of them requiring Machine Learning, for example.
   list:
     fi:
       - 'Life Sciences'
     en:
-      - 'Bioinformatics & Digital Health (SCI) - focuses on data analytics, data science/CS,
-        and machine learning in the context of working with biological'
-      - 'Biomedical Engineering (SCI) - focuses on physics, data science, and technology in
-        the context of biological systems & medical technology'
-      - 'Biosensing & Bioelectronics (ELEC) - focuses on electrical & material technologies
-        used in biosensors and bioelectronics'
-      - 'Biosystems & Biomaterials Engineering (CHEM) - adapts chemical engineering
-        knowledge in the context of biological phenomena and material production'
-      - 'Complex Systems (SCI) - focuses on mathematical computations and biological
-        networks to concentrate on complex systems such as the human brain and various
-        biological and social systems'
-      - 'Human Neuroscience & Technology (SCI) - focuses on building a conceptual
-        background for understanding the human brain and technologies associated with
-        researching and analyzing it'
+      - 'Bioinformatics & Digital Health (SCI) - focuses on data analytics, data science/CS, and machine learning in the context of working with biological data'
+      - 'Biomedical Engineering (SCI) - focuses on physics, data science, and technology in the context of biological systems & medical technology'
+      - 'Biosensing & Bioelectronics (ELEC) - focuses on electrical & material technologies used in biosensors and bioelectronics'
+      - 'Biosystems & Biomaterials Engineering (CHEM) - adapts chemical engineering knowledge in the context of biological phenomena and material production'
+      - 'Complex Systems (SCI) - focuses on mathematical computations and biological networks to concentrate on complex systems such as the human brain and various biological and social systems'
+      - 'Human Neuroscience & Technology (SCI) - focuses on building a conceptual background for understanding the human brain and technologies associated with researching and analyzing it'
+
 
 courses:
   info:
     fi: ''
     en: >
-      For the English-language implementation of the minor.
-      It should also be noted that the English implementation of this minor requires the student to
-      take NBE-C2103 Biophysics II: Light & Imaging, as opposed to NBE-C2101 Biophysics,
-      which is only offered in Finnish. However, to my knowledge, the content of the two courses
-      doesn't overlap that much, and a baseline understanding of physics/mechanics should
-      suffice as a prerequisite, along with first-year mathematics and programming skills.
+      It should be noted that the English implementation of this minor requires the student to take NBE-C2103 Biophysics II: Light & Imaging, as opposed to NBE-C2101 Biophysics, which is only offered in Finnish. However, to my knowledge, the content of the two courses doesn’t overlap that much, and a baseline understanding of physics/mechanics should suffice as a prerequisite, along with first-year mathematics and programming skills.
+
+      For the English-language implementation of the minor, I would recommend:
   list:
     fi:
-      - 'NBE-C2101- Biofyysiikka. Kurssilla opetellaan tarkastelemaan biologisia ilmiöitä
-        fysikaalisesta näkökulmasta. Tutustutaan molekyylitason fysikaalisiin ilmiöihin ja tehdään
-        niihin liittyviä laskuja. Suositellaan käymään fysiologian jälkeen.'
-      - 'NBE-C2201 Fysiologia. Kurssilla tutustutaan ihmisen fysiologiaan. Kurssin aikana tullaan
-        käymään suhteellisen kattavasti läpi ihmisen fysiologiset mekanismit ja niiden
-        toimintaperiaatteet. Kurssin suoritus on pitkälti esseemuotoista ja materiaalit kiinnostavia.'
-      - 'ELEC-C8722- Molekyyli- ja solubiologia. Kurssi keskittyy enemmän biologiseen
-        näkökulmaan solutasolla. Sitä vetävät asiantuntiat Aallon ulkopuolelta ja kurssilla luodaan
-        hyvää pohjaa mahdollisille tuleville opinnoille.'
-
+      - 'NBE-C2101- Biofyysiikka. Kurssilla opetellaan tarkastelemaan biologisia ilmiöitä fysikaalisesta näkökulmasta. Tutustutaan molekyylitason fysikaalisiin ilmiöihin ja tehdään niihin liittyviä laskuja. Suositellaan käymään fysiologian jälkeen.'
+      - 'NBE-C2201 Fysiologia. Kurssilla tutustutaan ihmisen fysiologiaan. Kurssin aikana tullaan käymään suhteellisen kattavasti läpi ihmisen fysiologiset mekanismit ja niiden toimintaperiaatteet. Kurssin suoritus on pitkälti esseemuotoista ja materiaalit kiinnostavia.'
+      - 'ELEC-C8722 Molekyyli- ja solubiologia. Kurssi keskittyy enemmän biologiseen näkökulmaan solutasolla. Sitä vetävät asiantuntiat Aallon ulkopuolelta ja kurssilla luodaan hyvää pohjaa mahdollisille tuleville opinnoille.'
     en:
-      - >
-        CS-C3240 Machine learning - a prerequisite for several tracks of the Life Science
-        Technologies master's programme. Introduces ML programming in Python with
-        Jupyter notebooks and offers practice with Pandas dataframes and other important
-        packages. Only prerequisite is basic programming skills, and it only lasts one period.
-      - >
-        MS-C1620 Statistical Inference - a less math-heavy and more theory- and
-        writing-heavy statistics course compared to the first-year probability and statistics
-        course, less calculations and more programming and testing. Teaches students
-        about various tests used in statistics, and assignments often consist of interpreting
-        scenarios, running suitable tests and drawing conclusions from said scenarios. The
-        first-year Introduction to probability and statistics course is a prerequisite, and basic
-        programming knowledge helps as well when learning to use R.
-      - >
-        CHEM-C1220 Principles of General and Organic Chemistry - Haven't taken this one,
-        but it consists of basic laboratory work, writing and balancing chemical equations,
-        and understanding reactions, bonds, and the periodic table. The only prerequisite is a
-        lab safety course (either CHEM-A1010 or CHEM-E0140), and this course also only
-        lasts one period.
+      - 'CS-C3240 Machine learning - a prerequisite for several tracks of the Life Science Technologies master’s programme. Introduces ML programming in Python with Jupyter notebooks and offers practice with Pandas dataframes and other important packages. Only prerequisite is basic programming skills, and it only lasts one period.'
+      - 'MS-C1620 Statistical Inference - a less math-heavy and more theory- and writing-heavy statistics course compared to the first-year probability and statistics course, less calculations and more programming and testing. Teaches students about various tests used in statistics, and assignments often consist of interpreting scenarios, running suitable tests and drawing conclusions from said scenarios. The first-year Introduction to probability and statistics course is a prerequisite, and basic programming knowledge helps as well when learning to use R.'
+      - 'CHEM-C1220 Principles of General and Organic Chemistry - Haven’t taken this one, but it consists of basic laboratory work, writing and balancing chemical equations, and understanding reactions, bonds, and the periodic table. The only prerequisite is a lab safety course (either CHEM-A1010 or CHEM-E0140), and this course also only lasts one period.'
+
