@@ -27,11 +27,10 @@ why:
 masters:
   info:
     fi:
-    en: 'TEKSTIÄ IN INGLISH'
+    en: 
   list:
     fi:
     en:
-      - 'EMPTY LIST LOL'
 
 courses:
   info:
