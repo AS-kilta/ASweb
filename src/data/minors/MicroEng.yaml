@@ -1,0 +1,66 @@
+lang:
+  fi: false
+  en: true
+
+curriculum:
+  fi: '2024-2026'
+  en: '2024-2026'
+
+name:
+  fi:
+  en: 'Microwave Engineering (minor)'
+
+link:
+  fi: ''
+  en: 'https://www.aalto.fi/en/minors/microwave-engineering-minor'
+
+desc:
+  fi:
+  en: >
+    If you are interested in antenna design, radars, satellites, space technology, or wireless communication—just a few of the many applications of microwave engineering—then this minor might interest you. The minor consists of various courses that cover electromagnetic phenomena and the fundamentals of transmission lines. Later on, the courses become more practical, allowing you to build your own radar and antenna.
+
+why:
+  fi:
+  en: >
+    I chose this minor because I was interested in learning more about antennas and their applications. I didn’t mind that most of the courses are master’s level or D courses. If anything, the professors teaching these courses are so good at what they do that I did not feel I struggled too much to learn and understand the concepts. After starting the courses, I discovered the realm of microwave engineering and its applications and became very interested in it. I am particularly eager to learn about space science and technology, as these fields have been an interest of mine for a long time. There, RF engineering has multiple applications, so it only made sense that I focus on this path.
+
+masters:
+  info:
+    fi:
+    en: >
+      The minor is not a prerequisite for any master’s program. In fact, it is one of the study paths within the Electronics and Nanotechnology Master’s Program. However, the knowledge gained from this minor can benefit any of the other study paths in the Electronics and Nanotechnology Master’s Program or the Automation and Electrical Engineering Master’s Program.
+  list:
+    fi:
+    en:
+
+courses:
+  info:
+    fi: ''
+    en: 'These are all the courses that I have completed, am currently completing, or have attempted at the time of writing. The remaining courses can be found through the minor’s link and SISU, as I cannot provide additional information beyond what is available there. This minor information will be updated again next year when I have completed more courses. However, I can confidently say that the workshop courses will likely remain among the best.'
+  list:
+    fi:
+    en:
+      - >
+        ELEC-D9420 Basics of RF Technology [I-II]
+
+        This course is mandatory and provides an introduction to transmission lines and antenna theory. You also learn to use AWR Microwave Office software and design impedance matching circuits. The course has a very long list of prerequisites, but I managed just fine with the math courses from the DSD major, an electronics circuit course, and some electromagnetic field knowledge I studied on my own. In my opinion, the course does not focus much on these topics. The professors are also very clear and knowledgeable in all respects. I enjoyed the lectures and understood a lot just from being there.
+      - >
+        ELEC-E9430 Microwave Engineering D [IV-V]
+
+        This is the next course, in which you learn how to design passive and active components. In the first six weeks of the course, you learn about these components. In the last six, you design a Doppler radar and can use the designs from the first six weeks to accomplish this task. This course feels less demanding in terms of workload compared to the Basics of RF Technology course.
+      - >
+        ELEC-E9450 Antennas and Wave Propagation D [IV-V]
+
+        The name accurately describes the contents of the course. Most of the course covers different types of antennas. The first two lectures focus on electromagnetic radiation, while the last three cover propagation. The electromagnetic radiation part is somewhat heavier on math, requiring vector calculus (Differential and Integral Calculus 3). Compared to Basics of RF Technology, this course includes some mathematical calculations, but nothing too challenging. The professors explain the concepts and mathematics in great detail, which is helpful if you have not taken Calculus 3 (like me) and only have a basic understanding of electromagnetic field theory. The main point is not to be intimidated by the math—you will spend much more time in AWR adjusting capacitor and inductor values than working on mathematical calculations.
+      - >
+        ELEC-E4410 Electromagnetic and circuit simulations [III]
+
+        This course is highly interesting and practical. You will gain more experience with AWR and learn to use COMSOL and CST. These tools are essential if you plan to pursue a career in microwave engineering. However, the course is quite demanding, and the assignments are time-consuming. It is a 5-credit course in period 3, so if you are very busy with other courses, it may be better to take this one in a later year or at another time. The assignments require significant time and effort, and you may need assistance since the software can sometimes be uncooperative. Still, mastering these tools is essential.
+      - >
+        ELEC-D9130 Electromagnetic fields [I-II]
+
+        Interesting but very difficult. I highly recommend taking Calculus 3 before this course, as it heavily relies on mathematics and is highly theoretical. I also suggest checking SISU and MyCourses for past implementations of the course to assess whether it aligns with your interests and whether it is manageable, as it is quite challenging, and the homework assignments can be demanding. When we took it, the TAs had some problems in setting the right difficulty for the final exams. However, Calculus 3 is not strictly required, even if it is listed as a prerequisite.
+      - >
+        ELEC-E3120 Analysis and Design of Electronic Circuits [I-II]
+
+        This course was also among the more challenging ones. There were several lab sessions that were engaging and provided valuable practical knowledge. Prior knowledge of circuit theory is not required, but keep in mind that the course moves at a fast pace. Even though it is listed as a prerequisite, it is not essential for taking any of the first four courses mentioned earlier.
