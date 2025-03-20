@@ -13,7 +13,7 @@ const MinorsPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Sivuaineopas"
-      lead="Täältä löydät tietoa suosituista sivuaineista. Valitettavasti sivuaineita koskevat tiedot perustuvat vanhaan opetussuunnitelmaan."
+      lead="Täältä löydät tietoa suosituista sivuaineista."
       background={heropic}
     >
       <div className={style.table}>
@@ -29,10 +29,6 @@ const MinorsPage: React.FC<PageProps> = ({ pageContext }) => {
             Oppaassa on vasta kaikkein suosituimmat sivuaineet, eli mikäli sinulla on sivuaine jota ei löydy listasta
             niin ilmianna itsesi opintomestarille (opintomestari ät as.fi). Lisäksi muut palautteet, korjausehdotukset
             ja turhat toiveet ovat aina tervetulleita.
-          </p>
-          <p>
-            Opas on alunperin luotu 2022 - 2024 opintosuunitelman mukaan niin ota se huomioon. Eli esimerkiksi kurssien
-            nimet ovat saattaneet sittemmin muuttua.
           </p>
         </div>
 

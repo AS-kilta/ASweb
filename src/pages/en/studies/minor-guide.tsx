@@ -13,7 +13,7 @@ const MinorsPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Minors guide"
-      lead="Here you will find information on popular minors. Unfortunately, the information on the minor is based on the old syllabus"
+      lead="Here you will find information on popular minors."
       background={heropic}
     >
       <div className={style.table}>
@@ -29,10 +29,6 @@ const MinorsPage: React.FC<PageProps> = ({ pageContext }) => {
             The most popular minors have just been added to the guide, and if you have a minor that is not on the list,
             please let the master of studies know (opintomestari at as.fi). In addition, other feedback, correction
             suggestions and unnecessary wishes are always welcome.
-          </p>
-          <p>
-            The guide was originally created according to the 2022 - 2024 curriculum, so take into account that, for
-            example, course names may have changed.
           </p>
         </div>
 
