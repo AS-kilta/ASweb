@@ -3,12 +3,12 @@ lang:
   en: true
 
 curriculum:
-  fi: '2022-2024'
-  en: '2022-2024'
+  fi: '2024-2026'
+  en: '2024-2026'
 
 name:
   fi: 'Matema­tiikka'
-  en: 'Mathematics'
+  en: 'Mathematics (Bachelor level)'
 
 link:
   fi: 'https://www.aalto.fi/fi/sivuaineet/matematiikka-sivuaine'
@@ -16,44 +16,24 @@ link:
 
 desc:
   fi: >
-    Matematiikka on yleishyödyllinen kaikilla teknillisillä aloilla ja valinnanvaraa erikoistumisessa
-    on. Suurin osa kursseista on todella selkeästi toteutettu, mutta mitä syvemmälle erikoistuu,
-    sitä työläämpiä kurssit yleensä ovat. Sivuaineeseen ei ole erillistä hakua, eikä se sisällä
-    mitään esitietovaatimuksia, paitsi tietysti kurssikohtaiset esitietovaatimukset. Kannattaa
-    kysellä opintoneuvojalta/matikan laitokselta, että mitkä kurssit ovat automaatiota tai
-    informaatioteknologiaa opiskeleville hyödyllisiä.
+    Matematiikka on yleishyödyllinen kaikilla teknillisillä aloilla ja valinnanvaraa erikoistumisessa on. Suurin osa kursseista on todella selkeästi toteutettu, mutta mitä syvemmälle erikoistuu, sitä työläämpiä kurssit yleensä ovat. Sivuaineeseen ei ole erillistä hakua, eikä se sisällä mitään esitietovaatimuksia, paitsi tietysti kurssikohtaiset esitietovaatimukset. Kannattaa kysellä opintoneuvojalta/matikan laitokselta, että mitkä kurssit ovat automaatiota tai informaatioteknologiaa opiskeleville hyödyllisiä.
   en: >
-    Mathematics is a very flexible minor, where you are free to choose to study as
-    proof-based pure mathematics or as practical as you like. Our math department
-    offers a wide range of courses which lead to the main 3 modern areas of math
-    studies: algebra, analysis, and topology. If you find some of the courses interesting,
-    you might as well consider pursuing a math minor.
+    The Mathematics minor offers great flexibility, where you are open to dive into either proof-based pure mathematics or more practical applications, depending on your interests. The math department provides a diverse selection of courses, which cover the three main areas of modern mathematics: algebra, analysis, and topology. If you find some of these courses appealing, the minor might be a perfect fit for you.
 
 why:
   fi: >
-    Matematiikkaa tarvitaan aina ja syvempi ymmärrys asioista auttaa hahmottamaan suurempia
-    kokonaisuuksia. Tämän lisäksi se on omasta mielestäni paras tapa parantaa omia
-    ongelmanratkaisutaitoja sekä laskurutiinia.
+    Matematiikkaa tarvitaan aina ja syvempi ymmärrys asioista auttaa hahmottamaan suurempia kokonaisuuksia. Tämän lisäksi se on omasta mielestäni paras tapa parantaa omia ongelmanratkaisutaitoja sekä laskurutiinia.
   en: >
-    Most of the mandatory mathematics courses are computational in nature. Beyond
-    the scope of them, sometimes there is a lack of intuition or a gap in abstract
-    understanding when we encounter certain concepts in major studies. Some
-    examples include Fourier Transform in Signals and Systems, Complex Variables in
-    Electronics, and Advanced Linear Algebra concepts in Photonics, to name a few.
-    Understanding why things are the way they are certainly helps build a solid
-    foundation.
+    While many mandatory mathematics courses in our Digital Systems and Design program are computational, there’s often a gap in abstract understanding when certain concepts appear in major studies. For instance, topics like the Fourier Transform in Signals and Systems, Complex Variables in Electronics, and Advanced Linear Algebra in Photonics could benefit from a deeper mathematical foundation. Gaining a clearer understanding of these topics certainly helps build a solid foundation of the subject matter.
+
+    I’ve always been interested in mathematics under the hood of many fields, especially in areas like Control Theory, Computer Graphics and Cryptography. Taking a course like Metric Spaces in the first year was definitely challenging, but I felt like I was discovering key pieces of a larger puzzle. Ultimately, strengthening my mathematical maturity has proven to be valuable, and it’s an experience that will only benefit me moving forward.
 
 masters:
   info:
     fi: >
-      Sivuaine ei varsinaisesti mahdollista mitään maisteriohjelmia, sillä ”Master's Programme in
-      Mathematics and Operations Researchiin” voi hakea ilman, että on edes käynyt
-      matematiikan sivuainetta.
+      Sivuaine ei varsinaisesti mahdollista mitään maisteriohjelmia, sillä ” Master's Programme in Mathematics and Operations Researchiin” voi hakea ilman, että on edes käynyt matematiikan sivuainetta.
     en: >
-      None. For Master's Programme in Mathematics and Operations Research, Aalto
-      students in the field of technology are eligible without any prerequisites. However, it
-      makes sense to do this master's program when you have a more mathematical
-      background.
+      While this minor doesn’t directly enable any specific master’s programs, it provides a strong foundation for those interested in pursuing the Master's Programme in Mathematics and Operations Research. Aalto students from the field of technology are all eligible for this program without additional prerequisites. However, having a more mathematical background will undoubtedly be beneficial for this advanced study.
   list:
     fi:
       - >
@@ -65,49 +45,55 @@ masters:
 courses:
   info:
     fi: >
-      Matematiikan sivuaineessa on laajin kurssivalikoima ainakin kaikista Aallon sivuaineista.
-      Vaikka Sisu automaattisesti antaa sinulle listan kursseja mitä voit käydä, niin sivuaineeseen
-      saa vapaasti sisällyttää kanditason kurssien lisäksi maisteritason kursseja (MS-E1***), sekä
-      tilastotieteen ja systeemitieteiden opintojen (MS-C2*** ja MS-E2***) kursseja. Ainoa ehto on
-      se, että esitietovaatimukset täyttyvät, mitkä näkyvät kurssikohtaisesti Sisusta. Haluamasi
-      kurssit, jotka eivät ole perinteisten kandikurssien listassa Sisussa, pitää etsiä ja lisätä
-      tutkintoon vapaan muokkauksen tilan avulla.
-      Kannattaa kysellä opintoneuvojalta/matikan laitokselta paremmin mitä suositellaan, mutta
-      itse otin:
+      Matematiikan sivuaineessa on laajin kurssivalikoima ainakin kaikista Aallon sivuaineista. Vaikka Sisu automaattisesti antaa sinulle listan kursseja mitä voit käydä, niin sivuaineeseen saa vapaasti sisällyttää kanditason kurssien lisäksi maisteritason kursseja (MS-E1***), sekä tilastotieteen ja systeemitieteiden opintojen (MS-C2*** ja MS-E2***) kursseja. Ainoa ehto on se, että esitietovaatimukset täyttyvät, mitkä näkyvät kurssikohtaisesti Sisusta. Haluamasi kurssit, jotka eivät ole perinteisten kandikurssien listassa Sisussa, pitää etsiä ja lisätä tutkintoon vapaan muokkauksen tilan avulla.
+
+      Kannattaa kysellä opintoneuvojalta/matikan laitokselta paremmin mitä suositellaan, mutta itse otin:
     en: ''
   list:
     fi:
-      - 'MS-A0401 Diskreetin matematiikan perusteet.
-        Todella helppo kurssi, ehkä hieman haastavampi kuin Diffis 1. Pakollinen kaikille SCI:n
-        opiskelijoille (yleensä otetaan ihan ensimmäisenä vuonna ensimmäisessä periodissa).
-        Kurssi käy pintapuolisesti montaa eri diskreetin matematiikan aihealuetta läpi, kuten
-        verkkoteoriaa, joukko-oppia, kombinatoriikkaa ja todistamista. Suoranaista hyötyä tästä
-        kurssista ei ole sähkötekniikan koulun opinnoissa ole, mutta esimerkiksi todistaminen on
-        hyödyllinen taito ainakin tulevissa matematiikan kursseissa.'
-      - 'MS-A0305 Differentiaali- ja integraalilaskenta 3.
-        Yllättävän helppo kurssi, omasta mielestä ehkä helpompi jopa kuin Diffis 2. Periaatteessa
-        kurssi on Diffis 2, mutta 3D-maailmassa. Sisältönä ovat esimerkiksi karteesiset-, sylinteri ja
-        pallokoordinaattimuunnokset, vektorikentät etc.. Tämä on esitietovaatimuksena todella
-        moneen matikan kurssiin, kuten esimerkiksi Partial Differential Equations -kurssiin.
-        Esitietovaatimus kurssille on Diffis 2.'
-      - 'Linear Algebra MS-C1342.
-        Kurssi ehkä samaa vaikeustasoa Fourier-analyysin kanssa. Kurssi syventää ymmärrystä
-        vektoreista ja matriiseista. Esitietovaatimus kurssille on Diffis 2.'
-      - 'Numerical Analysis MS-C1650.
-        Numeerisia menetelmiä eri ongelmien ratkaisuihin. Kurssi eroaa muista matematiikan
-        kursseista siten, että MATLAB on suuressa osassa numeeristen algoritmien toteutuksissa.
-        Myös Mathematica ja Maple ovat käytössä. Esitietovaatimus kurssille on Diffis 3.'
-      - 'Partial Differential Equations MS-C1350.
-        Erittäin työläs ja haastava kurssi. Kestää kaksi periodia (I-II). Aiheena lähinnä
-        osittaisdifferentiaaliyhtälöt ja niiden käyttö sekä ratkaiseminen. Aiheina mm. Fourier ja
-        PDE:t, Laplace ja PDE:t, lämpöyhtälö ja aaltoliikkeen yhtälö. Esitietovaatimus kurssille on
-        Diffis 3.'
+      - 'MS-A0401 Diskreetin matematiikan perusteet
 
+        Todella helppo kurssi, ehkä hieman haastavampi kuin Diffis 1. Pakollinen kaikille SCI:n opiskelijoille (yleensä otetaan ihan ensimmäisenä vuonna ensimmäisessä periodissa). Kurssi käy pintapuolisesti montaa eri diskreetin matematiikan aihealuetta läpi, kuten verkkoteoriaa, joukko-oppia, kombinatoriikkaa ja todistamista. Suoranaista hyötyä tästä kurssista ei ole sähkötekniikan koulun opinnoissa ole, mutta esimerkiksi todistaminen on hyödyllinen taito ainakin tulevissa matematiikan kursseissa.'
+      - 'MS-A0305 Differentiaali- ja integraalilaskenta 3
+
+        Yllättävän helppo kurssi, omasta mielestä ehkä helpompi jopa kuin Diffis 2. Periaatteessa kurssi on Diffis 2, mutta 3D-maailmassa. Sisältönä ovat esimerkiksi karteesiset-, sylinteri ja pallokoordinaattimuunnokset, vektorikentät etc.. Tämä on esitietovaatimuksena todella moneen matikan kurssiin, kuten esimerkiksi Partial Differential Equations -kurssiin. Esitietovaatimus kurssille on Diffis 2.'
+      - 'Linear Algebra MS-C1342
+
+        Kurssi ehkä samaa vaikeustasoa Fourier-analyysin kanssa. Kurssi syventää ymmärrystä vektoreista ja matriiseista. Esitietovaatimus kurssille on Diffis 2.'
+      - 'Numerical Analysis MS-C1650
+
+        Numeerisia menetelmiä eri ongelmien ratkaisuihin. Kurssi eroaa muista matematiikan kursseista siten, että MATLAB on suuressa osassa numeeristen algoritmien toteutuksissa. Myös Mathematica ja Maple ovat käytössä. Esitietovaatimus kurssille on Diffis 3.'
+      - 'Partial Differential Equations MS-C1350
+
+        Erittäin työläs ja haastava kurssi. Kestää kaksi periodia (I-II). Aiheena lähinnä osittaisdifferentiaaliyhtälöt ja niiden käyttö sekä ratkaiseminen. Aiheina mm. Fourier ja PDE:t, Laplace ja PDE:t, lämpöyhtälö ja aaltoliikkeen yhtälö. Esitietovaatimus kurssille on Diffis 3.'
     en:
-      - 'Metric Spaces'
-      - 'Metric Spaces'
-      - 'Linear Algebra'
-      - 'Abstract Algebra'
-      - 'Complex Analysis'
-      - 'Shapes in Action'
-      - 'Introduction to Optimization'
+      - 'MS-C1541 Metric Spaces [III]
+
+        This is an essential course for anyone wanting to get a true feel for what "real math" is like. Metric spaces give you a solid foundation in abstract mathematical thinking and help you understand more complex concepts in analysis. It’s a challenging course but incredibly rewarding for developing mathematical maturity.'
+      - 'MS-A0311 Differential and Integral Calculus 3 [IV]
+
+        While this course covers important topics, it hasn’t proven to be particularly useful for me just yet. However, it’s still a necessary step in building your mathematical knowledge and serves as a solid foundation for future studies in calculus and analysis.'
+      - 'MS-A0402 Foundations of Discrete Mathematics [IV]
+
+        This is a great course for anyone interested in studying algorithms or computer science. It covers fundamental topics like logic, sets, combinatorics, and graph theory, which are directly applicable to algorithm design and analysis.'
+      - 'MS-C1342 Linear Algebra [V]
+
+        Linear algebra is invaluable, especially for anyone interested in statistics, optimization, or control theory. It’s essential for many applications in engineering, machine learning, and data analysis. If you plan on diving into these areas, this course will provide a critical mathematical foundation.'
+      - 'MS-C1300 Complex Analysis [II]
+
+        Complex analysis is helpful for gaining a deeper understanding of complex numbers, but the course is very theoretical, with a lot of proofs that might be overwhelming for engineers. The exams can be quite challenging, and achieving a grade of 5 requires significant effort. However, it’s still a great subject if you’re looking for a deeper theoretical perspective.'
+      - 'MS-C1081 Abstract Algebra [III]
+
+        Abstract algebra serves as a gentle introduction to group theory, with a bit of ring and field theory. It’s an interesting course that helps you build the foundations of abstract thinking and is a great stepping stone for anyone planning to explore more advanced topics in mathematics.'
+      - 'MS-C1650 Numerical Analysis [V]
+
+        This course uses MATLAB and includes a learning diary instead of an exam, which makes it a bit less stressful. It’s best taken after completing a numerical methods course in engineering, as that provides useful context for the material. It’s a solid course to familiarize yourself with numerical techniques, though not particularly challenging in terms of exams.'
+      - 'MS-C2105 Introduction to Optimization [IV]
+
+        Optimization is a hit or miss depending on your interests. It was once an award-winning course with minimal prerequisites, but it’s been completely revamped and is now more advanced, requiring a solid understanding of linear algebra from the very beginning. The pace is very fast, so be prepared for a steep learning curve.'
+      - 'MS-C1420 Fourier Analysis [I]
+
+        This course is taught in Finnish, which made it difficult for me to follow without English materials. If future offerings include English resources, it would be a great complement to courses like Signals and Systems, which is already quite overwhelming on its own. The topic itself is interesting, especially for signal processing, but the language barrier can be a challenge.'
+      - 'MS-E1542 General Topology D [IV]
+
+        General topology is a good follow-up to Metric Spaces. It’s a fascinating exploration of abstract mathematical concepts, with all the materials available online. The exercise sessions are intensive, with a strong focus on 1-1 mentoring, which is great for personalized learning. However, the course can be quite demanding, so it’s not the easiest one to complete.'
