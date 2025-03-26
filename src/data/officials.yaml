@@ -1,214 +1,244 @@
+#Aspu
 - name:
     fi: 'Fuksitoimikunta'
     en: 'Fuksi Committee'
   members:
-    - name: 'Jenny Ruokolainen'
+    - name: 'Kalle Kajoniemi'
       title:
         - fi: 'Fuksikapteeni'
           en: 'Fuksi Captain'
-      picture: '../images/officials/2024/jenny_ruokolainen.jpg'
+      picture: '../images/officials/2025/kalle_kajoniemi.jpg'
       leader: true
-    - name: 'Eero Huhtala'
+    - name: 'Joel Forsström'
       title:
         - fi: 'Fuksikapteeni'
           en: 'Fuksi Captain'
-      picture: '../images/officials/2024/eero_huhtala.jpeg'
+      picture: '../images/officials/2025/joel_forstrom.jpg'
       leader: true
-    - name: 'Amr Abass'
+    - name: 'Aapo Vuokila'
       title:
         - fi: "Master's and International Student Captain (MISC)"
           en: "Master's and International Student Captain (MISC)"
-      picture: '../images/officials/2024/amr_abass.jpg'
-    - name: 'Lotta Hannelius'
+      picture: '../images/officials/2025/aapo_vuokila.jpg'
+    - name: 'Nam Nguyen'
       title:
         - fi: "Master's and International Student Captain (MISC)"
           en: "Master's and International Student Captain (MISC)"
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Pessi Lyytikäinen'
+      picture: '../images/officials/2024/nam_nguyen.jpeg'
+    - name: 'Eeva Järvenpää'
       title:
         - fi: 'ISOpomo'
           en: 'ISOboss'
         - fi: 'Himo-ISO'
-          en: 'REALLY ISO'
-      picture: '../images/officials/2024/pessi_lyytikainen.jpg'
-    - name: 'Aapo Vuokila'
+          en: 'cravingISO'
+      picture: '../images/officials/2025/eeva_jarvenpaa.jpg'
+    - name: 'Nimród Pocsveiler'
       title:
         - fi: 'DSDeputy'
           en: 'DSDeputy'
-      picture: '../images/officials/2024/aapo_vuokila.jpeg'
+      picture: '../images/officials/2025/nimrod_pocsveiler.jpg'
+    #FuksiaASistentit
+    - name: 'Huiseung Bae'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+      picture: '../images/officials/2025/huiseung_bae.jpg'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+      picture: '../images/officials/2025/milja_janis.jpg'
+    - name: 'Lauri Tuominen'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+      picture: '../images/officials/2025/lauri_tuominen.jpg'
+    - name: 'Vinski Lång'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+      picture: '../images/officials/2025/vinski_lang.jpg'
+    - name: 'Anastasia Parfenova'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+      picture: '../images/officials/2025/anastasia_parfenova.jpg'
+    - name: 'Jere Hasu'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+      picture: '../images/officials/2025/jere_hasu.jpg'
+    #HimoISOT
     - name: 'Kabir Bissessar'
       title:
-        - fi: 'Tosi-ISO'
-          en: 'Really ISO'
+        - fi: 'Himo-ISO'
+          en: 'cravingISO'
       picture: '../images/officials/2024/kabir_bissessar.jpeg'
     - name: 'Aditya Agrawal'
       title:
-        - fi: 'Tosi-ISO'
-          en: 'Really ISO'
+        - fi: 'Himo-ISO'
+          en: 'cravingISO'
       picture: '../images/officials/2024/aditya_agrawal.jpeg'
     - name: 'Taavi Järvinen'
       title:
-        - fi: 'Tosi-ISO'
-          en: 'Really ISO'
+        - fi: 'Himo-ISO'
+          en: 'cravingISO'
       picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Mikko Vanhanen'
       title:
-        - fi: 'Tosi-ISO'
-          en: 'Really ISO'
         - fi: 'Himo-ISO'
-          en: 'REALLY ISO'
+          en: 'cravingISO'
       picture: '../images/officials/2024/mikko_vanhanen.jpeg'
     - name: 'Janina Kemppainen'
       title:
-        - fi: 'Tosi-ISO'
-          en: 'Really ISO'
+        - fi: 'Himo-ISO'
+          en: 'cravingISO'
       picture: '../images/officials/2024/janina_kemppainen.jpeg'
-    - name: 'Eeva Järvenpää'
-      title:
-        - fi: 'Tosi-ISO'
-          en: 'Really ISO'
-      picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
     - name: 'Santeri Hildén'
       title:
-        - fi: 'Tosi-ISO'
-          en: 'Really ISO'
-      picture: '../images/officials/2024/santeri_hilden.jpeg'
-    - name: 'Sophia Lee'
-      title:
         - fi: 'Himo-ISO'
-          en: 'REALLY ISO'
-      picture: '../images/officials/2023/sophia_lee.jpg'
-    - name: 'Mimi Määttä'
+          en: 'cravingISO'
+      picture: '../images/officials/2025/santeri_hilden_2.jpg'
+    - name: 'Jenny Ruokolainen'
       title:
-        - fi: 'Himo-ISO'
-          en: 'REALLY ISO'
-      picture: '../images/officials/2023/mimi_maatta.jpg'
-    - name: 'Tiitus Mustajoki'
-      title:
-        - fi: 'Himo-ISO'
-          en: 'REALLY ISO'
-      picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
-    - name: 'Leevi Hormaluoma'
-      title:
-        - fi: 'FuksikontRolleri'
+        - fi: 'Wanhuli'
           en: 'Fuksi contRoller'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
-    - name: 'Tuomas Nykänen'
+      picture: '../images/officials/2025/jenny_ruokolainen.jpg'
+    - name: 'Eero Huhtala'
       title:
-        - fi: 'FuksikontRolleri'
+        - fi: 'Wanhuli'
           en: 'Fuksi contRoller'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
-    - name: 'Maria Saranpää'
+      picture: '../images/officials/2025/eero_huhtala.jpg'
+    - name: 'Pessi Lyytikäinen'
       title:
         - fi: 'IIISOpomo'
           en: 'IIIIISO Boss'
-      picture: '../images/officials/2023/maria_saranpaa.jpg'
-    - name: 'Anthony Reineck'
+      picture: '../images/officials/2024/pessi_lyytikainen.jpg'
+    - name: 'Amr Abass'
       title:
-        - fi: "Senior Executive Master's and International Student Captain (SEMISC)"
-          en: "Senior Executive Master's and International Student Captain (SEMISC)"
-      picture: '../images/officials/2023/anthony_reineck.jpg'
-    - name: 'Beatriz Glaser'
+        - fi: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+          en: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+      picture: '../images/officials/2024/amr_abass.jpg'
+    - name: 'Lotta Hannelius'
+      title:
+        - fi: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+          en: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+      picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Aapo Vuokila'
       title:
         - fi: 'DSDirector'
           en: 'DSDirector'
-      picture: '../images/officials/2023/beatriz_glaser.jpg'
-
+      picture: '../images/officials/2025/aapo_vuokila.jpg'
+ #Opintotoimikunta     
 - name:
     fi: 'Opintotoimikunta'
     en: 'Study Committee'
   members:
-    - name: 'Mikhail Romanov'
+    - name: 'Henri Rosenberg'
       title:
         - fi: 'Opintomestari'
           en: 'Master of Studies'
-      picture: '../images/officials/2024/mikhail_romanov.jpg'
+      picture: '../images/officials/2025/henri_rosenberg.jpg'
       leader: true
-    - name: 'Valentin Honkonen'
+    - name: 'Daniel Gorbatchev'
+      title:
+        - fi: 'Absinttivastaava'
+          en: 'Abi Manager'
+      picture: '../images/officials/2025/daniel_gorbatchev.jpg'
+    - name: 'Janina Kemppainen'
       title:
         - fi: 'Automaatti'
           en: 'Automaton'
-      picture: '../images/officials/2024/valentin_honkonen.jpeg'
-    - name: 'Henri Rosenberg'
+      picture: '../images/officials/2024/janina_kemppainen.jpeg'
+    - name: 'Tatu Saalasti'
       title:
-        - fi: 'Automaatti'
-          en: 'Automaton'
-      picture: '../images/officials/2024/henri_rosenberg.jpeg'
-    - name: 'Henrik Strack'
+        - fi: 'Maisteri-automaatti'
+          en: 'Master´s automaton'
+      picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Enni Nykänen'
       title:
         - fi: 'Informaatti'
           en: 'Informant'
-      picture: '../images/officials/2024/henrik_starck.jpeg'
-    - name: 'Aditya Agrawal'
-      title:
-        - fi: 'DSDeetti'
-          en: 'DSDent'
-      picture: '../images/officials/2024/aditya_agrawal.jpeg'
-    - name: 'Ki Chun Tong'
+      picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Ki Chun Tong' #Tarkista
       title:
         - fi: 'DSDeetti'
           en: 'DSDent'
       picture: '../images/officials/2024/ki_chun_tong.jpeg'
-    - name: 'Maria Salmensaari'
+    - name: 'Mikhail Romanov'
       title:
         - fi: 'Opintowanhus'
           en: 'Opintowanhus'
-        - fi: 'Maisteri-informaatti'
-          en: "Master's Informant"
-      picture: '../images/officials/2024/maria_salmensaari.jpeg'
-    - name: 'Janina Kemppainen'
+      picture: '../images/officials/2025/mikhail_romanov.jpg'
+    - name: 'Annika Rantala'
       title:
         - fi: 'Absintti'
           en: 'Absinth'
-      picture: '../images/officials/2024/janina_kemppainen.jpeg'
+      picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Isabel Salmi'
       title:
         - fi: 'Absintti'
           en: 'Absinth'
       picture: '../images/officials/2024/isabel_salmi.jpeg'
-    - name: 'Jaakko Aalto'
+    - name: 'Eero Heinonen'
       title:
         - fi: 'Absintti'
           en: 'Absinth'
-      picture: '../images/officials/2024/jaakko_aalto.jpeg'
-    - name: 'Matti Laine'
+      picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Elsa Kuntsi'
       title:
         - fi: 'Absintti'
           en: 'Absinth'
-      picture: '../images/officials/2024/matti_laine.jpeg'
+      picture: '../images/officials/2025/elsa_kuntsi.jpg'
+    - name: 'Sara Timonen'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+      picture: '../images/officials/2025/sara_timonen.jpg'
+    - name: 'Leo Teodosin'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+      picture: '../images/officials/2024/leo_teodosin.jpeg'
+    - name: 'Apollo Ailus'
+      title:
+        - fi: 'Halloped'
+          en: 'Halloped'
+      picture: '../images/officials/2024/apollo_ailus.jpeg'
 
+#Kulttuuri
 - name:
     fi: 'Kulttuuritoimikunta'
     en: 'Cultural Affairs Committee'
   members:
-    - name: 'Elina Leiniö'
+    - name: 'Tiitus Mustajoki'
       title:
         - fi: 'Kulttuurimestari'
           en: 'Master of Culture'
-      picture: '../images/officials/2024/elina_leinio.jpg'
+      picture: '../images/officials/2025/tiitus_mustajoki.jpg'
       leader: true
-    - name: 'Lotta Makkonen'
+    - name: 'Elina Leiniö'
       title:
         - fi: 'Suurkulli'
           en: 'Grand Cultist'
-      picture: '../images/officials/2023/lotta_makkonen.jpg'
-    - name: 'Joonas Törmälä'
-      title:
-        - fi: 'Kultsi'
-          en: 'Cultist'
-        - fi: 'JuomanlASkija'
-          en: 'JuomanlASkija'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
-    - name: 'Ossi Syrjälahti'
+      picture: '../images/officials/2025/elina_leinio.jpg'
+      #Juomanlaskijat
+    - name: 'Matias Kalliokoski'
       title:
         - fi: 'JuomanlASkija'
           en: 'JuomanlASkija'
-      picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+      picture: '../images/officials/2025/matias_kalliokoski.jpg'
+    - name: 'Veerti Juurakko'
+      title:
+        - fi: 'JuomanlASkija'
+          en: 'JuomanlASkija'
+      picture: '../images/officials/2025/veerti_juurakko.jpg'
+      #Kultsit
     - name: 'Eeva Järvenpää'
       title:
         - fi: 'Kultsi'
           en: 'Cultist'
-      picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+      picture: '../images/officials/2025/eeva_jarvenpaa.jpg'
     - name: 'Mikko Vanhanen'
       title:
         - fi: 'Kultsi'
@@ -218,330 +248,317 @@
       title:
         - fi: 'Kultsi'
           en: 'Cultist'
-      picture: '../images/officials/2024/nuutti_laine.jpeg'
-    - name: 'Tommi Väisänen'
+      picture: '../images/officials/2025/nuutti_laine.jpg'
+    - name: 'Tommi Savolainen'
       title:
         - fi: 'Kultsi'
           en: 'Cultist'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Syed Ali Raza'
+    - name: 'Lauri Tuominen'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+      picture: '../images/officials/2025/lauri_tuominen.jpg'
+    - name: 'Sara Heiskanen'
       title:
         - fi: 'Kultsi'
           en: 'Cultist'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Nguyen Vu Minh'
+    - name: 'Leila Lavonen'
       title:
         - fi: 'Kultsi'
           en: 'Cultist'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Arttu Pahta'
+      picture: '../images/officials/2025/leila_lavonen.jpg'
+      #Hyvikset
+    - name: 'Enni Nykänen'
       title:
         - fi: 'Hyvis'
           en: 'Goody'
-      picture: '../images/officials/2023/arttu_pahta_2.jpg'
-    - name: 'Emilia Kuisma'
+      picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Annika Rantala'
       title:
         - fi: 'Hyvis'
           en: 'Goody'
-      picture: '../images/officials/2023/emilia_kuisma.jpg'
-
-    - name: 'Kiira Metsoila'
-      title:
-        - fi: 'Hyvinvointimestari'
-          en: 'Master of Wellbeing'
-      picture: '../images/officials/2023/kiira_metsoila_2.jpg'
-
-    - name: 'Kalle Kyöstiö'
-      title:
-        - fi: 'Wappuministeri'
-          en: 'Wappu Minister'
-        - fi: 'Jäykkäranne'
-          en: 'Jäykkäranne'
-      picture: '../images/officials/2024/kalle_kyostio.jpeg'
-    - name: 'Rasmus Honkalinna'
-      title:
-        - fi: 'Wappuministeri'
-          en: 'Wappu Minister'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Erkka Multanen'
-      title:
-        - fi: 'Jäykkäranne'
-          en: 'Jäykkäranne'
-      picture: '../images/officials/2023/erkka_multanen.jpg'
-
-    - name: 'Aino Valkama'
-      title:
-        - fi: 'rrrRankkavastaava'
-          en: 'rrrRankka Manager'
-        - fi: 'Hyvis'
-          en: 'Goody'
-      picture: '../images/officials/2024/aino_valkama.jpeg'
-    - name: 'Roope Järvinen'
-      title:
-        - fi: 'rrrRankkavastaava'
-          en: 'rrrRankka Manager'
-      picture: '../images/officials/aebaej_placeholder.png'
-
+      #Jäykkäranne
     - name: 'Ossi Syrjälahti'
       title:
-        - fi: 'JuomanlASkija'
-          en: 'Cupbearer'
+        - fi: 'Jäykkäranne'
+          en: 'Jäykkäranne'
       picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
 
+#Liikunta
 - name:
     fi: 'Liikuntatoimikunta'
     en: 'Sports Committee'
   members:
-    - name: 'Pyry Lysmä'
+    - name: 'Elina Mettälä'
       title:
-        - fi: 'Liikuntavastaava'
+        - fi: 'Liikuntamestari'
           en: 'Master of Sports'
-      picture: '../images/officials/2024/pyry_lysma.jpeg'
-      leader: true
-    - name: 'Lotta Makkonen'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2023/lotta_makkonen.jpg'
-    - name: 'Maria Salmensaari'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/maria_salmensaari.jpeg'
-    - name: 'Aapo Heiska'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
       picture: '../images/officials/aebaej_placeholder.png'
+      leader: true
+    - name: 'Sara Lunkka'
+      title:
+        - fi: 'Liikuntamestari'
+          en: 'Master of Sports'
+      picture: '../images/officials/2025/sara_lunkka.jpg'
+      leader: true
+    #ASSASS
+    - name: 'Joel Forsström'
+      title:
+        - fi: 'ASSmASSter'
+          en: 'ASSmASSter'
+      picture: '../images/officials/2025/joel_forstrom.jpg'
+    - name: 'Lyydia Hautala'
+      title:
+        - fi: 'ASSmASSter'
+          en: 'ASSmASSter'
+      picture: '../images/officials/aebaej_placeholder.png'
+    #Juoksija
+    - name: 'Mikhail Romanov'
+      title:
+        - fi: 'Himojuoksija'
+          en: 'Running enthusiast'
+      picture: '../images/officials/2025/mikhail_romanov.jpeg'
+    #Liikkujat
     - name: 'Tuure Survo'
       title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
       picture: '../images/officials/2024/tuure_survo.jpeg'
-    - name: 'Iida Jauhola'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/iida_jauhola.jpeg'
     - name: 'Santeri Parkkonen'
       title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
+      picture: ''
+    - name: 'Pyry Lysmä'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
+      picture: '../images/officials/2024/pyry_lysma.jpeg'
+    - name: 'Hannes Hokkanen'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
+      picture: '../images/officials/2025/hannes_hokkanen.jpg'
+    - name: 'Elsa Kuntsi'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
+      picture: '../images/officials/2025/elsa_kuntsi.jpg'
+    - name: 'Joonas Seppälä'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
+      picture: '../images/officials/2025/joonas_seppala.jpg'
+    - name: 'Leo Rinne'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
+      picture: '../images/officials/2025/leo_rinne.jpg'
+    - name: 'Nea Nurmelin'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
+      picture: '../images/officials/2025/nea_nurmelin.jpg'
+    - name: 'Aada Koskela'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Arttu Härmälä'
+    - name: 'Aurora Mavriqi'
       title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/arttu_harmala.jpg'
-    - name: 'Kaarle Sarnes'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/kaarle_sarnes.jpeg'
-    - name: 'Markus Muilu'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
+        - fi: 'Liikuntatuutori'
+          en: 'Sports tutor'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Paavo Grönqvist'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/paavo_gronqvist.jpeg'
-    - name: 'Säde Mikkonen'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/sade_mikkonen.jpeg'
-    - name: 'Kalle Kajoniemi'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
-    - name: 'Aaro Kantola'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Joonas Törmälä'
-      title:
-        - fi: 'Liikkuja'
-          en: 'Sports Manager'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
 
+#IE
 - name:
     fi: 'Huvitoimikunta'
     en: 'Entertainment Committee'
   members:
-    - name: 'Eeva Järvenpää'
+    - name: 'Jesperi Hildén'
       title:
         - fi: 'Emäntä'
           en: 'Hostess'
-      picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+      picture: '../images/officials/2025/jesperi_hilden.jpg'
       leader: true
-    - name: 'Leila Lavonen'
+    - name: 'Santeri Hildén'
       title:
         - fi: 'Isäntä'
           en: 'Host'
-      picture: '../images/officials/2024/leila_lavonen.jpeg'
+      picture: '../images/officials/2025/santeri_hilden.jpg'
       leader: true
-    - name: 'Eero Huhtala'
+    #miniens
+    - name: 'Pyry Kiviluoma'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2024/eero_huhtala.jpeg'
+      picture: '../images/officials/2025/pyry_kiviluoma.jpg'
+    - name: 'Venla Airaksinen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/venla_airaksinen.jpg'
+    - name: 'Anastasia Parfenova'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/anastasia_parfenova.jpg'
+    - name: 'Sonja Annala'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/sonja_annala.jpg'
     - name: 'Ossi Syrjälahti'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
       picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+    - name: 'Otto Kuusisto'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/otto_kuusisto.jpg'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/milja_janis.jpg'
+    - name: 'Vilja Lohi'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: ''
+    - name: 'Sara Sofia Koivisto'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2024/sara_koivisto.jpeg'
+    - name: 'Lyydia Hautala'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Ottilia Nevala'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: ''
+    - name: 'Daniel Ruotsi'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2024/daniel_ruotsi.jpg'
+    - name: 'Sara Timonen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/sara_timonen.jpg'
+    - name: 'Karoliina Koivu'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/karoliina_koivu.jpg'
+    - name: 'Venla Mäkelä'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/venla_makela.jpg'
     - name: 'Erno Laavola'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2024/erno_laavola.jpeg'
-    - name: 'Emilia Junnonen'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/emilia_junnonen.jpeg'
-    - name: 'Johanna Tiitinen'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/johanna_tiitinen.jpeg'
-    - name: 'Leo Teodosin'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/leo_teodosin.jpeg'
-    - name: 'Janina Kemppainen'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/janina_kemppainen.jpeg'
-    - name: 'Joel Forsström'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/joel_forsstrom.jpg'
-    - name: 'Nia Lehtonen'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Santeri Hildén'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/santeri_hilden.jpeg'
-    - name: 'Kalle Kajoniemi'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
-    - name: 'Erkka Multanen'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2023/erkka_multanen.jpg'
-    - name: 'Pinja Mäkeläinen'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Veeti Kittamaa'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2024/veeti_kittamaa.jpeg'
-    - name: 'Riina Salmi'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Tõnis Pärtel'
-      title:
-        - fi: 'MinIEns'
-          en: 'MinIEns'
-      picture: '../images/officials/2023/tonis_partel.jpg'
+      picture: 'C:\Users\saara\ASweb\src\images\officials\2025\erno_laavola.jpg'
     - name: 'Aleksanteri Pitkenin'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
       picture: '../images/officials/2023/aleksanteri_pitkenin.jpg'
-    - name: 'Vinski Lång'
+    - name: 'Enni Nykänen'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2024/vinski_lang.jpeg'
-    - name: 'Jesperi Hildén'
+      picture: ''
+    - name: 'Rasmus Honkalinna'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2024/jesperi_hilden.jpeg'
+      picture: ''
     - name: 'Mikko Vanhanen'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
       picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Mikhail Romanov'
+    - name: 'Leo Kivinen'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2024/mikhail_romanov.jpg'
-    - name: 'Aditya Agrawal'
+      picture: '../images/officials/2025/leo_kivinen.jpg'
+    - name: 'Matias Kalliokoski'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2024/aditya_agrawal.jpeg'
-    - name: 'Katariina Kokkonen'
+      picture: '../images/officials/2025/matias_kalliokoski.jpg'
+    - name: 'Lauri Tuominen'
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2024/katariina_kokkonen.jpeg'
+      picture: '../images/officials/2025/lauri_tuominen.jpg'
+    - name: 'Akseli Pihlajamaa'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
 
+#Lukkarit
 - name:
     fi: 'Lukkaritoimikunta'
     en: 'Song Leader Committee'
   members:
-    - name: 'Tuomas Nykänen'
+    - name: 'Ilkka Taponen'
       title:
         - fi: 'Lukkarimestari'
           en: 'Master Song Leader'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      picture: '../images/officials/2025/ilkka_taponen.jpg'
       leader: true
-    - name: 'Erkka Multanen'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2023/erkka_multanen.jpg'
-    - name: 'Tiitus Mustajoki'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
-    - name: 'Aaro Saastamoinen'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2023/aaro_saastamoinen.jpg'
-    - name: 'Henrik Starck'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2024/henrik_starck.jpeg'
-    - name: 'Tõnis Pärtel'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2023/tonis_partel.jpg'
 
-    - name: 'Juho Komulainen'
+    - name: 'Anastasia Parfenova'
       title:
         - fi: 'Lukkari'
           en: 'Song Leader'
-      picture: '../images/officials/2023/juho_komulainen.jpg'
+      picture: '../images/officials/2025/anastasia_parfenova.jpg'
+
+    - name: 'Isla Kajoniemi'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+      picture: '../images/officials/2025/isla_kajoniemi.jpg'
+
+    - name: 'Jere Hasu'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+      picture: '../images/officials/2025/jere_hasu.jpg'
+
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+      picture: '../images/officials/2025/saku_parttimaa.jpg'
+
+    - name: 'Veera Melvasalo'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+      picture: '../images/officials/aebaej_placeholder.png'
+
+    - name: 'Vinski Lång'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+      picture: '../images/officials/2025/vinski_lang.jpg'
 
     - name: 'Jenna Kerkkänen'
       title:
@@ -554,142 +571,113 @@
         - fi: 'Lukkari'
           en: 'Song Leader'
       picture: '../images/officials/2024/apollo_ailus.jpeg'
-    - name: 'Ilkka Taponen'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2024/ilkka_taponen.jpeg'
+
     - name: 'Jaakko Tiiri'
       title:
         - fi: 'Lukkari'
           en: 'Song Leader'
       picture: '../images/officials/2024/jaakko_tiiri.jpeg'
-    - name: 'Kalle Kajoniemi'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
-    - name: 'Jesperi Hildén'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2024/jesperi_hilden.jpeg'
+
     - name: 'Veeti Kittamaa'
       title:
         - fi: 'Lukkari'
           en: 'Song Leader'
       picture: '../images/officials/2024/veeti_kittamaa.jpeg'
-    - name: 'Leevi Hormaluoma'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
-    - name: 'Arttu Pahta'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2023/arttu_pahta_2.jpg'
+    
     - name: 'Nuutti Laine'
       title:
         - fi: 'Lukkari'
           en: 'Song Leader'
-      picture: '../images/officials/2024/nuutti_laine.jpeg'
+      picture: '../images/officials/2025/nuutti_laine.jpg'
+    
     - name: 'Rasmus Honkalinna'
       title:
         - fi: 'Lukkari'
           en: 'Song Leader'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Joel Forsström'
-      title:
-        - fi: 'Lukkari'
-          en: 'Song Leader'
-      picture: '../images/officials/2024/joel_forsstrom.jpg'
+
+#ASki
 - name:
     fi: 'ASkitoimikunta'
     en: 'ASki Committee'
   members:
-    - name: 'Santeri Hildén'
+    - name: 'Vinski Lång'
       title:
         - fi: 'ASkimestari'
           en: 'ASkiMaster'
-      picture: '../images/officials/2024/santeri_hilden.jpeg'
+      picture: '../images/officials/2025/vinski_lang.jpg'
       leader: true
-    - name: 'Ossi Syrjälahti'
-      title:
-        - fi: 'ASkimestari'
-          en: 'ASkiMaster'
-      picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
-      leader: true
-    - name: 'Joonas Törmälä'
+    #ASkivahti
+    - name: 'Saara Miettinen'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
-    - name: 'Elias Erke'
+      picture: '../images/officials/2025/saara_miettinen.jpg'
+    - name: 'Joel Forsström'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2023/elias_erke.jpg'
-    - name: 'Zhibin Yan'
+      picture: '../images/officials/2025/joel_forstrom.jpg'
+    - name: 'Hanni Tynjälä'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/aebaej_placeholder.png'
+      picture: '../images/officials/2025/hanni_tynjala.jpg'
     - name: 'Emil Lintunen'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Henrik Starck'
+    - name: 'Eero Huhtala'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/henrik_starck.jpeg'
-    - name: 'Niilo Saharinen'
+      picture: '../images/officials/2025/eero_huhtala.jpg'
+    - name: 'Ossi Syrjälahti'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/niilo_saharinen.jpeg'
-    - name: 'Kalle Kajoniemi'
+      picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+    - name: 'Otto Kuusisto'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
-    - name: 'Hanni Tynjälä'
+      picture: '../images/officials/2025/otto_kuusisto.jpg'
+    - name: 'Eeva Järvenpää'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/hanni_tynjala.jpeg'
-    - name: 'Daniel Ruotsi'
+      picture: '../images/officials/2025/eeva_jarvenpaa.jpg'
+    - name: 'Milja Jänis'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/daniel_ruotsi.jpg'
-    - name: 'Arttu Härmälä'
+      picture: '../images/officials/2025/milja_janis.jpg'
+    - name: 'Rasmus Honkalinna'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/arttu_harmala.jpg'
-    - name: 'Tõnis Pärtel'
+      picture: ''
+    - name: 'Oiva Haapaniemi'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2023/tonis_partel.jpg'
+      picture: ''
+    - name: 'Anastasia Parfenova'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+      picture: '../images/officials/2025/anastasia_parfenova.jpg'
+    - name: 'Jaakko Tiiri'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+      picture: '../images/officials/2024/jaakko_tiiri.jpeg'
     - name: 'Mikko Vanhanen'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
       picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Rasmus Honkalinna'
-      title:
-        - fi: 'ASkivahti'
-          en: 'ASki Guardian'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Jyri Kolu'
-      title:
-        - fi: 'ASkivahti'
-          en: 'ASki Guardian'
-      picture: '../images/officials/2024/jyri_kolu.jpeg'
     - name: 'Uuno Huuskonen'
       title:
         - fi: 'ASkivahti'
@@ -699,299 +687,311 @@
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/jesperi_hilden.jpeg'
+      picture: '../images/officials/2025/jesperi_hilden.jpg'
     - name: 'Veeti Kittamaa'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
       picture: '../images/officials/2024/veeti_kittamaa.jpeg'
-
-    - name: 'Eeva Järvenpää'
+        #vakoojat
+    - name: 'Elias Erke'
       title:
         - fi: 'Vakooja'
           en: 'Vakooja'
-      picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
-    - name: 'Janina Kemppainen'
+      picture: '../images/officials/2025/elias_erke.jpg'
+    - name: 'Elina Leiniö'
       title:
         - fi: 'Vakooja'
           en: 'Vakooja'
-      picture: '../images/officials/2024/janina_kemppainen.jpeg'
+      picture: '../images/officials/2025/elina_leinio.jpg'
 
+#Yrityssuhde
 - name:
     fi: 'Yrityssuhdetoimikunta'
     en: 'Corporate Relations Committee'
   members:
-    - name: 'Akseli Pihlajamaa'
+    - name: 'Säde Mikkonen'
       title:
         - fi: 'Yrityssuhdevastaava'
           en: 'Head of Corporate Relations'
-      picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
+      picture: '../images/officials/2025/sade_mikkonen.jpg'
       leader: true
-    - name: 'Valentin Honkonen'
+    #vice ysvi
+    - name: 'Daniel Gorbatchev'
+      title:
+        - fi: 'Vice-Yrityssuhdevastaava'
+          en: 'Vice Head of Corporate Relations'
+      picture: '../images/officials/2025/daniel_gorbatchev.jpg'
+    #Account Manager
+    - name: 'Pyry Kiviluoma'
       title:
         - fi: 'Account Manager'
           en: 'Account Manager'
-      picture: '../images/officials/2024/valentin_honkonen.jpeg'
-    - name: 'Hajiba Legrara'
+      picture: '../images/officials/2025/pyry_kiviluoma.jpg'
+    - name: 'Huiseung Bae'
       title:
         - fi: 'Account Manager'
           en: 'Account Manager'
-      picture: '../images/officials/2023/hajiba_legrara.jpg'
-    - name: 'Apollo Ailus'
+      picture: '../images/officials/2025/huiseung_bae.jpg'
+    - name: 'Miguel Andrade-Cheneuer'
       title:
         - fi: 'Account Manager'
           en: 'Account Manager'
-      picture: '../images/officials/2024/apollo_ailus.jpeg'
-    - name: 'Pyry Lysmä'
+      picture: '../images/officials/2025/miguel_andrade.jpg'
+    - name: 'Ki Chun Tong'
       title:
         - fi: 'Account Manager'
           en: 'Account Manager'
-      picture: '../images/officials/2024/pyry_lysma.jpeg'
+      picture: '../images/officials/2024/ki_chun_tong.jpeg'
     - name: 'Rasmus Myöhänen'
       title:
         - fi: 'Account Manager'
           en: 'Account Manager'
       picture: '../images/officials/2024/rasmus_myohanen.jpeg'
-    - name: 'Mikko Vanhanen'
+    - name: 'Ella Palviainen'
       title:
         - fi: 'Account Manager'
           en: 'Account Manager'
-      picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Säde Mikkonen'
+      picture: '../images/officials/2025/ella_palviainen.jpg'
+    - name: 'Sara Heiskanen'
       title:
         - fi: 'Account Manager'
           en: 'Account Manager'
-      picture: '../images/officials/2024/sade_mikkonen.jpeg'
-    - name: 'Leevi Hormaluoma'
+      picture: ''
+    - name: 'Venla Simanainen'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+      picture: '../images/officials/2025/venla_simanainen.jpg'
+    - name: 'Leo Rinne'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+      picture: '../images/officials/2025/leo_rinne.jpg'
+    - name: 'Joonas Seppälä'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+      picture: '../images/officials/2025/joonas_seppala.jpg'
+    - name: 'Erno Laavola'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+      picture: '../images/officials/2025/erno_laavola.jpg'
+    #puhis
+    - name: 'Mikhail Romanov'
       title:
         - fi: 'AS Puheenjohtaja'
           en: 'AS Chairperson'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
-    - name: 'Rafael Majaharju'
+      picture: '../images/officials/2025/mikhail_romanov.jpg'
+    #rahis
+    - name: 'Saku Parttimaa'
       title:
         - fi: 'AS Rahastonhoitaja'
           en: 'AS Treasurer'
-      picture: '../images/officials/2024/rafael_majaharju.jpg'
-    - name: 'Lucas Käldström'
+      picture: '../images/officials/2025/saku_parttimaa.jpg'
+      #vanha
+    - name: 'Akseli Pihlajamaa'
       title:
-        - fi: 'Vanha yrityssuhdevastaava'
-          en: 'Old Head of Corporate Relations'
-      picture: '../images/officials/2023/lucas_kaldstrom.jpg'
-    - name: 'Pinja Mäkeläinen'
+        - fi: 'Yrityssuhdeneuvonantaja'
+          en: 'Corporate Relations advisor'
+      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+    #SAS
+    - name: 'Neil Lipes'
       title:
-        - fi: 'TEKSAS yhdyshenkilö'
-          en: 'TEKSAS-liaison'
+        - fi: 'SAS-yhdyshenkilö'
+          en: 'SAS liaison'
       picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Jaakko Aalto'
       title:
-        - fi: 'TEKSAS yhdyshenkilö'
-          en: 'TEKSAS-liaison'
+        - fi: 'SAS-yhdyshenkilö'
+          en: 'SAS liaison'
       picture: '../images/officials/2024/jaakko_aalto.jpeg'
 
+#Taloustoimikunta
 - name:
     fi: 'Taloustoimikunta'
     en: 'Finance Committee'
   members:
-    - name: 'Rafael Majaharju'
+    - name: 'Saku Parttimaa'
       title:
         - fi: 'Rahastonhoitaja'
           en: 'Treasurer'
-      picture: '../images/officials/2024/rafael_majaharju.jpg'
+      picture: '../images/officials/2025/saku_parttimaa.jpg'
       leader: true
-    - name: 'Linda Åström'
-      title:
-        - fi: 'Vanha rahastonhoitaja'
-          en: 'Old Treasurer'
-      picture: '../images/officials/2023/linda_astrom.jpg'
-    - name: 'Henrik Starck'
+    #kolikonkiertäjät
+    - name: 'Hieu Le'
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2024/henrik_starck.jpeg'
-    - name: 'Jaakko Aalto'
+      picture: ''
+    - name: 'Leevi Huotarinen'
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2024/jaakko_aalto.jpeg'
-    - name: 'Lucas Käldström'
+      picture: '../images/officials/2025/leevi_huotarinen.jpg'
+    - name: 'Miksa Pribus'
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2023/lucas_kaldstrom.jpg'
-    - name: 'Mika Viirret'
+      picture: '../images/officials/2025/miksa_peter_pribus.jpg'
+    - name: 'Marie Heikkinen'
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2024/mika_viirret.jpeg'
-    - name: 'Mikko Vanhanen'
+      picture: '../images/officials/2025/marie_heikkinen.jpg'
+    - name: 'Ella Palviainen'
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Säde Mikkonen'
+      picture: '../images/officials/2025/ella_palviainen.jpg'
+    - name: 'Miguel Andrade-Cheneuer'
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2024/sade_mikkonen.jpeg'
+      picture: '../images/officials/2025/miguel_andrade.jpg'
+    - name: 'Akseli Pihlajamaa'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
 
+#Mediatoimikunta
 - name:
     fi: 'Mediatoimikunta'
     en: 'Media Committee'
   members:
-    - name: 'Leena Jääskeläinen'
+    - name: 'Saara Miettinen'
       title:
         - fi: 'Viestintämestari'
           en: 'Head of Communications'
-      picture: '../images/officials/2024/leena_jaaskelainen.jpg'
+      picture: '../images/officials/2025/saara_miettinen.jpg'
       leader: true
-    - name: 'Tetsu Fujimura'
+    #Dokumentoijat
+    - name: 'Kimmo Mäkelä'
       title:
         - fi: 'Dokumentoija'
           en: 'Photographer'
-        - fi: 'Somettaja'
-          en: 'Social Media Manager'
-      picture: '../images/officials/2024/tetsu_fujimura.jpeg'
-    - name: 'Ki Chun Tong'
+      picture: '../images/officials/2025/kimmo_makela.jpg'
+    - name: 'Juho Kerminen'
       title:
         - fi: 'Dokumentoija'
           en: 'Photographer'
-        - fi: 'Kääntäjä/Oikolukija'
-          en: 'Language specialist'
-      picture: '../images/officials/2024/ki_chun_tong.jpeg'
-    - name: 'Alexia Badescu'
+      picture: '../images/officials/2025/juho_kerminen.jpg'
+    - name: 'Veera Melvasalo'
       title:
         - fi: 'Dokumentoija'
           en: 'Photographer'
-        - fi: 'Graafikko'
-          en: 'Graphic designer'
-        - fi: 'Somettaja'
-          en: 'Social Media Manager'
       picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Leevi Hormaluoma'
-      title:
-        - fi: 'Dokumentoija'
-          en: 'Photographer'
-        - fi: 'Graafikko'
-          en: 'Graphic designer'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
-    - name: 'Aino Valkama'
-      title:
-        - fi: 'Dokumentoija'
-          en: 'Photographer'
-      picture: '../images/officials/2024/aino_valkama.jpeg'
     - name: 'Akseli Hilander'
       title:
         - fi: 'Dokumentoija'
           en: 'Photographer'
-        - fi: 'Graafikko'
-          en: 'Graphic designer'
-      picture: '../images/officials/2023/akseli_hilander.jpg'
-    - name: 'Amanda Huttunen'
-      title:
-        - fi: 'Dokumentoija'
-          en: 'Photographer'
-      picture: '../images/officials/aebaej_placeholder.png'
+      picture: '../images/officials/2025/akseli_hilander.jpg'
     - name: 'Ilmari Kallio'
       title:
         - fi: 'Dokumentoija'
           en: 'Photographer'
         - fi: 'Graafikko'
           en: 'Graphic designer'
-      picture: '../images/officials/2024/ilmari_kallio.jpeg'
-    - name: 'Mikko Vanhanen'
-      title:
-        - fi: 'Dokumentoija'
-          en: 'Photographer'
-      picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Meri Hilden'
-      title:
-        - fi: 'Graafikko'
-          en: 'Graphical Designer'
-        - fi: 'Dokumentoija'
-          en: 'Photographer'
-      picture: '../images/officials/aebaej_placeholder.png'
+      picture: '../images/officials/2025/ilmari_kallio.jpg'
+  #Graafikot
     - name: 'Kiira Metsoila'
       title:
         - fi: 'Graafikko'
-          en: 'Graphical Designer'
-      picture: '../images/officials/2023/kiira_metsoila.jpg'
+          en: 'Graphic Designer'
+      picture: '../images/officials/2024/kiira_metsoila.jpeg'
     - name: 'Akseli Pihlajamaa'
       title:
         - fi: 'Graafikko'
-          en: 'Graphical Designer'
-      picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
-    - name: 'Lotta Makkonen'
+          en: 'Graphic Designer'
+      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+    - name: 'Vilja Lohi'
       title:
-        - fi: 'Kääntäjä/Oikolukija'
-          en: 'Language specialist'
-      picture: '../images/officials/2023/lotta_makkonen.jpg'
-    - name: 'Aamo Toivanen'
+        - fi: 'Graafikko'
+          en: 'Graphic Designer'
+      picture: ''
+    - name: 'Venla Mäkelä'
       title:
         - fi: 'Graafikko'
           en: 'Graphic designer'
-      picture: '../images/officials/2024/aamo_toivanen.jpeg'
+      picture: '../images/officials/2025/venla_makela.jpg'
+    #kääntäjät
     - name: 'Elina Leiniö'
       title:
-        - fi: 'Graafikko'
-          en: 'Graphic designer'
-      picture: '../images/officials/2024/elina_leinio.jpg'
+        - fi: 'Kääntäjä & oikolukija'
+          en: 'Translator & proofreader'
+      picture: '../images/officials/2025/elina_leinio.jpg'
+    - name: 'Pessi Lyytikäinen'
+      title:
+        - fi: 'Kääntäjä & oikolukija'
+          en: 'Translator & proofreader'
+      picture: '../images/officials/2024/pessi_lyytikainen.jpg'
 
+
+#Säätö
 - name:
     fi: 'Säätötoimikunta'
     en: 'Tinkering Committee'
   members:
-    - name: 'Kasperi Kaivola'
+    - name: 'Elias Erke'
       title:
         - fi: 'Säätömestari'
           en: 'Master Tinkerer'
-      picture: '../images/officials/2023/kasperi_kaivola.jpg'
+      picture: '../images/officials/2025/elias_erke.jpg'
       leader: true
-    - name: 'Henrik Turtinen'
+    - name: 'Akseli Pihlajamaa'
       title:
         - fi: 'Säätömestari'
           en: 'Master Tinkerer'
-      picture: '../images/officials/2024/henrik_turtinen.jpeg'
+      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
       leader: true
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Yrityssäätäjä'
+          en: 'Corporate fixer'
+      picture: '../images/officials/2025/sade_mikkonen.jpg'
+    #Säätökisälli
     - name: 'Akseli Leino'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
       picture: '../images/officials/2024/akseli_leino.jpeg'
-    - name: 'Niilo Saharinen'
+    - name: 'Santtu Sievänen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/niilo_saharinen.jpeg'
-    - name: 'Elias Erke'
+      picture: ''
+    - name: 'Henrik Turtinen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2023/elias_erke.jpg'
+      picture: '../images/officials/2024/henrik_turtinen.jpeg'
     - name: 'Nam Nguyen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
       picture: '../images/officials/2024/nam_nguyen.jpeg'
-    - name: 'Väinö Kauppila'
+    - name: 'Aarno Koponen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/vaino_kauppila.jpeg'
-    - name: 'Matti Laine'
+      picture: '../images/officials/2025/aarno_koponen.jpg'
+    - name: 'Ilkka Taponen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/matti_laine.jpeg'
+      picture: '../images/officials/2025/ilkka_taponen.jpg'
     - name: 'Pinja Mäkeläinen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Jyri Kolu'
+      picture: '../images/officials/2025/pinja_makelainen.jpg'
+    - name: 'Hanni Tynjälä'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/jyri_kolu.jpeg'
+      picture: '../images/officials/2025/hanni_tynjala.jpg'
     - name: 'Emil Lintunen'
       title:
         - fi: 'Säätökisälli'
@@ -1002,798 +1002,680 @@
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
       picture: '../images/officials/2023/leo_suojarvi.jpg'
-    - name: 'Akseli Pihlajamaa'
+    - name: 'Jaakko Lehto'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
-    - name: 'Severi Casserly'
+      picture: '../images/officials/2025/jaakko_lehto.jpg'
+    - name: 'Arttu Härmälä'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Ki Chun Tong'
+      picture: '../images/officials/2025/arttu_harmala.jpg'
+    - name: 'Lauri Tuominen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/ki_chun_tong.jpeg'
+      picture: '../images/officials/2025/lauri_tuominen.jpg'
     - name: 'Ilmari Kallio'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/ilmari_kallio.jpeg'
-    - name: 'Säde Mikkonen'
+      picture: '../images/officials/2025/ilmari_kallio.jpg'
+    - name: 'Mikko Vanhanen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
-      picture: '../images/officials/2024/sade_mikkonen.jpeg'
+      picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+    - name: 'Hieu Le'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: ''
+    - name: 'Erkka Lehtonen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2025/erkka_lehtonen.jpg'
+    - name: 'Kalle Kyöstiö'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2024/kalle_kyostio.jpeg'
+    - name: 'Väinö Kauppila'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2024/vaino_kauppila.jpeg'
+    - name: 'Erno Laavola'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2025/erno_laavola.jpg'
+    - name: 'Jere Hasu'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2025/jere_hasu.jpg'
+    - name: 'Rika Lintunen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2025/rika_lintunen.jpg'
+    - name: 'Jaakko Ojaniemi'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2025/jaakko_ojaniemi.jpg'
+    - name: 'Jesse Kahilainen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: ''
+    - name: 'Pyry Helin'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: ''
+    - name: 'Nicklas Bouchard'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2025/nicklas_bouchard.jpg'
+    - name: 'Suryakant Sahoo'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: '../images/officials/2025/suryakant_sahoo.jpg'
+    - name: 'Kasperi Kaivola'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: ''
+    - name: 'Sambhav Sharma'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinkerer'
+      picture: ''
 
+#Stimulaatio
 - name:
     fi: 'Stimulaatio-toimikunta'
     en: 'Stimulaatio Committee'
   members:
-    - name: 'Kiira Metsoila'
+    - name: 'Jenny Ruokolainen'
       title:
         - fi: 'Stimulantti'
           en: 'Stimulant'
-      picture: '../images/officials/2023/kiira_metsoila_2.jpg'
+      picture: '../images/officials/2025/jenny_ruokolainen.jpg'
       leader: true
-    - name: 'Rosa Phan'
-      title:
-        - fi: 'Stimulantti'
-          en: 'Stimulant'
-      picture: '../images/officials/2024/roosa_phan.jpeg'
-      leader: true
-    - name: 'Joonas Törmälä'
-      title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
-    - name: 'Tuomas Nykänen'
-      title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
-    - name: 'Aino Valkama'
-      title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2024/aino_valkama.jpeg'
-    - name: 'Lotta Makkonen'
-      title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2023/lotta_makkonen.jpg'
-    - name: 'Leevi Hormaluoma'
-      title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
-    - name: 'Laura Häkkinen'
-      title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2023/laura_hakkinen.jpg'
-    - name: 'Petteri Lahkela'
-      title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2024/petteri_lahkela.jpeg'
     - name: 'Elina Leiniö'
       title:
-        - fi: 'Depressantti'
-          en: 'Depressant'
-      picture: '../images/officials/2024/elina_leinio.jpg'
-    - name: 'Janina Kemppainen'
+        - fi: 'Stimulantti'
+          en: 'Stimulant'
+      picture: '../images/officials/2025/elina_leinio.jpg'
+      leader: true
+      #Eskalaattori
+    - name: 'Leila Lavonen'
+      title:
+        - fi: 'Eskalaattori'
+          en: 'Escalator'
+      picture: '../images/officials/2025/leila_lavonen.jpg'
+    # Killisti
+    - name: 'Mikhail Romanov'
+      title:
+        - fi: 'Killisti'
+          en: 'Killist'
+      picture: '../images/officials/2025/mikhail_romanov.jpg'
+      #Depressantti
+    - name: 'Eeva Järvenpää'
       title:
         - fi: 'Depressantti'
           en: 'Depressant'
-      picture: '../images/officials/2024/janina_kemppainen.jpeg'
-    - name: 'Sannina Honkaharju'
+      picture: '../images/officials/2025/eeva_jarvenpaa.jpg'
+    - name: 'Tapani Pärssinen'
       title:
         - fi: 'Depressantti'
           en: 'Depressant'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Santeri Hildén'
+      picture: ''
+    - name: 'Nea Nurmelin'
       title:
         - fi: 'Depressantti'
           en: 'Depressant'
-      picture: '../images/officials/2024/santeri_hilden.jpeg'
-    - name: 'Tiitus Mustajoki'
+      picture: '../images/officials/2025/nea_nurmelin.jpg'
+    - name: 'Ella Palviainen'
       title:
         - fi: 'Depressantti'
           en: 'Depressant'
-      picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
-    - name: 'Meri Hiipakka'
+      picture: '../images/officials/2025/ella_palviainen.jpg'
+    - name: 'Santeri Vuola'
       title:
         - fi: 'Depressantti'
           en: 'Depressant'
-      picture: '../images/officials/2023/meri_hiipakka.jpg'
-
+      picture: '../images/officials/2025/santeri_vuola.jpg'
+    - name: 'Kiira Metsoila'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+      picture: '../images/officials/2024/kiira_metsoila.jpeg'
+    - name: 'Sara Lunkka'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+      picture: '../images/officials/2025/sara_lunkka.jpg'
+    - name: 'Eero Huhtala'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+      picture: '../images/officials/2025/eero_huhtala.jpg'
+    - name: 'Pessi Lyytikäinen'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+      picture: '../images/officials/2024/pessi_lyytikainen.jpg'
+    
+#Retki
 - name:
     fi: 'Retkitoimikunta'
     en: 'Trek Committee'
   members:
-    - name: 'Amanda Huttunen'
+    - name: 'Lauri Tuominen'
       title:
         - fi: 'Retkimestari'
           en: 'Trek Master'
-      picture: '../images/officials/aebaej_placeholder.png'
+      picture: '../images/officials/2025/lauri_tuominen.jpg'
       leader: true
-    - name: 'Emilia Junnonen'
-      title:
-        - fi: 'Retkimestari'
-          en: 'Trek Master'
-      picture: '../images/officials/2024/emilia_junnonen.jpeg'
-      leader: true
-    - name: 'Joel Forsström'
+  #RETKISÄLLI 
+    - name: 'Daniel Gorbatchev'
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
-      picture: '../images/officials/2024/joel_forsstrom.jpg'
-    - name: 'Joonas Seppälä'
+      picture: '../images/officials/2025/daniel_gorbatchev.jpg'
+    - name: 'Ella Palviainen'
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Mikko Vanhanen'
+      picture: '../images/officials/2025/ella_palviainen.jpg'
+    - name: 'Sonja Annala'
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
-      picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Sumu Pulkki'
+      picture: '../images/officials/2025/sonja_annala.jpg'
+    - name: 'Ossi Syrjälahti'
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Aarni Mäkelä'
-      title:
-        - fi: 'Retkisälli'
-          en: 'Trip-prentice'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Aamo Toivanen'
-      title:
-        - fi: 'Retkisälli'
-          en: 'Trip-prentice'
-      picture: '../images/officials/2024/aamo_toivanen.jpeg'
+      picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
     - name: 'Pyry Lysmä'
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
       picture: '../images/officials/2024/pyry_lysma.jpeg'
-    - name: 'Akseli Leino'
-      title:
-        - fi: 'Retkisälli'
-          en: 'Trip-prentice'
-      picture: '../images/officials/2024/akseli_leino.jpeg'
-    - name: 'Tommi Väisänen'
-      title:
-        - fi: 'Retkisälli'
-          en: 'Trip-prentice'
-      picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Aleksanteri Pitkenin'
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
       picture: '../images/officials/2023/aleksanteri_pitkenin.jpg'
-    - name: 'Leena Jääskeläinen'
+    - name: 'Elsa Kuntsi'
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
-      picture: '../images/officials/2024/leena_jaaskelainen.jpg'
-
+      picture: '../images/officials/2025/elsa_kuntsi.jpg'
+    - name: 'Nicolas Bosnjak'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+      picture: '../images/officials/2025/nicolas_bosnjak.jpg'
+    - name: 'Hannes Hokkanen'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+      picture: '../images/officials/2025/hannes_hokkanen.jpg'
+    - name: 'Matti Latikka'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+      picture: '../images/officials/2025/matti_latikka.jpg'
+    - name: 'Pyry Helin'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+      picture: ''
+    - name: 'Tommi Savolainen'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+      picture: ''
+   
+        
+#GT
 - name:
     fi: 'Kultainen Toimitus'
     en: 'Golden Tomato'
   members:
-    - name: 'Pinja Mäkeläinen'
+    - name: 'Kiira Metsoila'
       title:
         - fi: 'Kultainen Päätoimittaja'
           en: 'Golden Edito-in-Chief'
-      picture: '../images/officials/aebaej_placeholder.png'
+      picture: '../images/officials/2024/kiira_metsoila.jpeg'
       leader: true
-    - name: 'Joonas Törmälä'
-      title:
-        - fi: 'Kultainen Toimittaja'
-          en: 'Golden Editor'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
-    - name: 'Ilkka Taponen'
-      title:
-        - fi: 'Kultainen Toimittaja'
-          en: 'Golden Editor'
-      picture: '../images/officials/2024/ilkka_taponen.jpeg'
+    #toimittajat
     - name: 'Elina Leiniö'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2024/elina_leinio.jpg'
-    - name: 'Kiira Metsoila'
+      picture: '../images/officials/2025/elina_leinio.jpg'
+    - name: 'Ilkka Taponen'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2023/kiira_metsoila_2.jpg'
-    - name: 'Pessi Lyytikäinen'
+      picture: '../images/officials/2025/ilkka_taponen.jpg'
+    - name: 'Jaakko Ojaniemi'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2024/pessi_lyytikainen.jpg'
-    - name: 'Emilia Kuisma'
+      picture: '../images/officials/2025/jaakko_ojaniemi.jpg'
+    - name: 'Pinja Mäkeläinen'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2023/emilia_kuisma.jpg'
+      picture: '../images/officials/2025/pinja_makelainen.jpg'
+    - name: 'Leevi Hormaluoma'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+    - name: 'Nuutti Laine'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+      picture: '../images/officials/2025/nuutti_laine.jpg'
+    - name: 'Veera Ihalainen'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+      picture: ''
+    - name: 'Arttu Pahta'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+      picture: '../images/officials/2023/arttu_pahta_2.jpg'
     - name: 'Jyri Kolu'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
       picture: '../images/officials/2024/jyri_kolu.jpeg'
-    - name: 'Aino Valkama'
+    - name: 'Ki Chun Tong'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2024/aino_valkama.jpeg'
-    - name: 'Tuomas Nykänen'
+      picture: '../images/officials/2024/ki_chun_tong.jpeg'
+    - name: 'Eero Huhtala'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
-    - name: 'Nadja Jensen'
+      picture: '../images/officials/2025/eero_huhtala.jpg'
+    - name: 'Jattamari Raivio'
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2024/nadja_jensen.jpeg'
+      picture: ''
+  
 
+#Stigutoimikunta
 - name:
     fi: 'Stigutoimikunta'
     en: 'Sticker Committee'
   members:
-    - name: 'Ossi Syrjälahti'
+    - name: 'Anastasia Parfenova'
       title:
         - fi: 'Stigulantti'
           en: 'Stigulant'
-      picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+      picture: '../images/officials/2025/anastasia_parfenova.jpg'
       leader: true
-    - name: 'Ilkka Taponen'
+    - name: 'Venla Mäkelä'
       title:
         - fi: 'Stigulantti'
           en: 'Stigulant'
-      picture: '../images/officials/2024/ilkka_taponen.jpeg'
+      picture: '../images/officials/2025/venla_makela.jpg'
       leader: true
-    - name: 'Tuomas Nykänen'
+    #varjo
+    - name: 'Vilja Lohi'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
-    - name: 'Aaro Saastamoinen'
+        - fi: 'Varjostigulantti'
+          en: 'Shadow stigulant'
+      picture: '' 
+    #Stikkerisälli
+    - name: 'Matias Ahokas'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2023/aaro_saastamoinen.jpg'
-    - name: 'Mikhail Romanov'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/matias_ahokas.jpg'
+    - name: 'Veeti Eerola'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/mikhail_romanov.jpg'
-    - name: 'Eero Huhtala'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: ''
+    - name: 'Santeri Vuola'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/eero_huhtala.jpeg'
-    - name: 'Eeva Järvenpää'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/santeri_vuola.jpg'
+    - name: 'Nicolas Bosnjak'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
-    - name: 'Jenny Ruokolainen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/jenny_ruokolainen.jpg'
-    - name: 'Santeri Hildén'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/santeri_hilden.jpeg'
-    - name: 'Ville Hakoniemi'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Mika Viirret'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/mika_viirret.jpeg'
-    - name: 'Henrik Turtinen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/henrik_turtinen.jpeg'
-    - name: 'Veeti Kittamaa'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/veeti_kittamaa.jpeg'
-    - name: 'Erkka Multanen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2023/erkka_multanen.jpg'
-    - name: 'Tõnis Pärtel'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2023/tonis_partel.jpg'
-    - name: 'Leila Lavonen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/leila_lavonen.jpeg'
-    - name: 'Janina Kemppainen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/janina_kemppainen.jpeg'
-    - name: 'Rasmus Honkalinna'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Mikko Vanhanen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Leena Jääskeläinen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/leena_jaaskelainen.jpg'
-    - name: 'Eetu Kurkinen'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/eetu_kurkinen.jpeg'
-    - name: 'Sara Sofia Koivisto'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/sara_koivisto.jpeg'
-    - name: 'Kasperi Kaivola'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2023/kasperi_kaivola.jpg'
-    - name: 'Jesperi Hildén'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/jesperi_hilden.jpeg'
-    - name: 'Kalle Kajoniemi'
-      title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/nicolas_bosnjak.jpg'
     - name: 'Vinski Lång'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/vinski_lang.jpeg'
-    - name: 'Niilo Saharinen'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/vinski_lang.jpg'
+    - name: 'Otto Kuusisto'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/niilo_saharinen.jpeg'
-    - name: 'Arttu Härmälä'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/otto_kuusisto.jpg'
+    - name: 'Tuomas Nykänen'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/arttu_harmala.jpg'
-    - name: 'Erno Westerholm'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+    - name: 'Veeti Kittamaa'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Akseli Pihlajamaa'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+    - name: 'Mikko Kujanpää'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
-    - name: 'Peetu Vuorela'
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: ''
+    - name: 'Ossi Lindroos'
       title:
-        - fi: 'Stikkerisälli'
-          en: 'Sticker'
-      picture: '../images/officials/aebaej_placeholder.png'
-
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/ossi_lindroos.jpg'
+    - name: 'Huy Vu'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: ''
+    - name: 'Jaakko Ojaniemi'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/jaakko_ojaniemi.jpg'
+    - name: 'Anniina Sinisalo'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: ''
+    - name: 'Rasmus Honkalinna'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: ''
+    - name: 'Emil Pekkinen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: ''
+    - name: 'Sonja Annala'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: '../images/officials/2025/sonja_annala.jpg'
+    - name: 'Veera Melvasalo'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+      picture: ''
+    #hali
+    - name: 'Jesperi Hildén'
+      title:
+        - fi: 'Hallitusvakooja'
+          en: 'Board spy'
+      picture: '../images/officials/2025/jesperi_hilden.jpg'
+    - name: 'Kalle Kajoniemi'
+      title:
+        - fi: 'Hallitusvakooja'
+          en: 'Board spy'
+      picture: '../images/officials/2025/kalle_kajoniemi.jpg'
+    - name: 'Saara Miettinen'
+      title:
+        - fi: 'Hallitusvakooja'
+          en: 'Board spy'
+      picture: '../images/officials/2025/saara_miettinen.jpg'
+    - name: 'Joel Forsström'
+      title:
+        - fi: 'Hallitusvakooja'
+          en: 'Board spy'
+      picture: '../images/officials/2025/joel_forstrom.jpg'
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Hallitusvakooja'
+          en: 'Board spy'
+      picture: '../images/officials/2025/sade_mikkonen.jpg'
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Hallitusvakooja'
+          en: 'Board spy'
+      picture: '../images/officials/2025/saku_parttimaa.jpg'
+    #wanhat
+    - name: 'Ilkka Taponen'
+      title:
+        - fi: 'Wanha pieru'
+          en: 'Old fart'
+      picture: '../images/officials/2025/ilkka_taponen.jpg'
+    - name: 'Ossi Syrjälahti'
+      title:
+        - fi: 'Wanha pieru'
+          en: 'Old fart'
+      picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+    
+#ASIC
 - name:
     fi: 'International Committee'
     en: 'International Committee'
   members:
-    - name: 'Amr Abass'
+    - name: 'Aapo Vuokila'
       title:
         - fi: "Master's and International Student Captain (MISC)"
           en: "Master's and International Student Captain (MISC)"
-      picture: '../images/officials/2024/amr_abass.jpg'
+      picture: '../images/officials/2025/aapo_vuokila.jpg'
       leader: true
-    - name: 'Lotta Hannelius'
+    - name: 'Nam Nguyen'
       title:
         - fi: "Master's and International Student Captain (MISC)"
           en: "Master's and International Student Captain (MISC)"
-      picture: '../images/officials/aebaej_placeholder.png'
+      picture: '../images/officials/2024/nam_nguyen.jpeg'
       leader: true
-    - name: 'Oskari Mattila'
+    #DSD
+    - name: 'Nimród Pocsveiler'
+      title:
+        - fi: 'DSDeputy'
+          en: 'DSDeputy'
+      picture: '../images/officials/2025/nimrod_pocsveiler.jpg'
+    #Miscellaneous
+    - name: 'Anna Dukate'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/aebaej_placeholder.png'
+      picture: '../images/officials/2025/anna_dukate.jpg'
     - name: 'Apollo Ailus'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
       picture: '../images/officials/2024/apollo_ailus.jpeg'
-    - name: 'Ariana Marta'
+    - name: 'Chloe Trang Nguyen'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/2023/ariana_marta.jpg'
-    - name: 'Kabir Bissessar'
+      picture: '../images/officials/2025/chloe_trang_nguyen.jpg'
+    - name: 'Huiseung Bae'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/2024/kabir_bissessar.jpeg'
+      picture: '../images/officials/2025/huiseung_bae.jpg'
+    - name: 'Huy Vu'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+      picture: ''
     - name: 'Jaakko Tiiri'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
       picture: '../images/officials/2024/jaakko_tiiri.jpeg'
-    - name: 'Nam Nguyen'
+    - name: 'Leo Rinne'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/2024/nam_nguyen,jpeg'
-    - name: 'Lukas Bletsas'
+      picture: '../images/officials/2025/leo_rinne.jpg'
+    - name: 'Nicke Nordström'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Riccardo Brillato'
+      picture: '../images/officials/2025/nicke_nordström.jpg'
+    - name: 'Nicolas Bosnjak'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Sylvia Cressman'
+      picture: '../images/officials/2025/nicolas_bosnjak.jpg'
+    - name: 'Patxi Tolonen Hurtado'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/2024/sylvia.cressman.jpg'
-    - name: 'Syed Ali Raza'
+      picture: ''
+    - name: 'Anh Kiet Tallink'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/aebaej_placeholder.png'
-
+      picture: '../images/officials/2025/Anh_Kiet_Ta.jpg'
+    - name: 'Tetsu Fujimura'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+      picture: '../images/officials/2024/tetsu_fujimura.jpeg'
+    - name: 'Väinö Kauppila'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+      picture: '../images/officials/2024/vaino_kauppila.jpeg'
+  
+#N-toimikunta
 - name:
     fi: 'N-toimikunta'
     en: 'N-Committee'
   members:
-    - name: 'Lotta Makkonen'
-      title:
-        - fi: 'Seniilisihteeri'
-          en: 'Senile Secretary'
-      picture: '../images/officials/2023/lotta_makkonen.jpg'
-      leader: true
-    - name: 'Meri Hilden'
-      title:
-        - fi: 'Seniilisihteeri'
-          en: 'Senile Secretary'
-      picture: '../images/officials/aebaej_placeholder.png'
-      leader: true
-    - name: 'Joonas Törmälä'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
-    - name: 'Veeti Kahilainen'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Zhibin Yan'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Sakari Ropponen'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/2023/sakari_ropponen.jpg'
-    - name: 'Arttu Pahta'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/2023/arttu_pahta_2.jpg'
-    - name: 'Jaakko Heikkinen'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Matias Vapola'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Elias Haarnoja'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Ville Hakoniemi'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Sannina Honkaharju'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Emil Huttunen'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Meri Hiipakka'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/2023/meri_hiipakka.jpg'
-    - name: 'Jimi Oksman'
-      title:
-        - fi: '1 (yksi)'
-          en: '1 (one)'
-      picture: '../images/officials/2023/jimi_oksman.jpg'
-
-- name:
-    fi: 'Ulkoexcutoimikunta'
-    en: 'Foreign Excursion Committee'
-  members:
-    - name: 'Akseli Hilander'
-      title:
-        - fi: 'Ulkoexcumestari'
-          en: 'Foreign Excursion Master'
-      picture: '../images/officials/2023/akseli_hilander.jpg'
-      leader: true
-    - name: 'Juho Kerminen'
-      title:
-        - fi: 'Ulkoexcumestari'
-          en: 'Foreign Excursion Master'
-      picture: '../images/officials/2024/juho_kerminen.jpeg'
-      leader: true
-    - name: 'Arttu Juvonen'
-      title:
-        - fi: 'Ulkoexcutoimikunnan jäsen'
-          en: 'Member of Foreign Excursion Committee'
-      picture: '../images/officials/2024/arttu_juvonen.jpeg'
-    - name: 'Kiira Metsoila'
-      title:
-        - fi: 'Ulkoexcutoimikunnan jäsen'
-          en: 'Member of Foreign Excursion Committee'
-      picture: '../images/officials/2023/kiira_metsoila_2.jpg'
-    - name: 'Pinja Mäkeläinen'
-      title:
-        - fi: 'Ulkoexcutoimikunnan jäsen'
-          en: 'Member of Foreign Excursion Committee'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Laura Häkkinen'
-      title:
-        - fi: 'Ulkoexcutoimikunnan jäsen'
-          en: 'Member of Foreign Excursion Committee'
-      picture: '../images/officials/2023/laura_hakkinen.jpg'
-    - name: 'Otso Luukkanen'
-      title:
-        - fi: 'Ulkoexcutoimikunnan jäsen'
-          en: 'Member of Foreign Excursion Committee'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Säde Mikkonen'
-      title:
-        - fi: 'Ulkoexcutoimikunnan jäsen'
-          en: 'Member of Foreign Excursion Committee'
-      picture: '../images/officials/2024/sade_mikkonen.jpeg'
-
-- name:
-    fi: 'ATP-työryhmä'
-    en: 'ATP task force'
-  members:
-    - name: 'Joonas Törmälä'
-      title:
-        - fi: 'ATP-päävastaava'
-          en: 'Head of ATP'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
-      leader: true
-    - name: 'Ilkka Taponen'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2024/ilkka_taponen.jpeg'
-    - name: 'Tuomas Nykänen'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
-    - name: 'Mika Viirret'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2024/mika_viirret.jpeg'
-    - name: 'Sakari Ropponen'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2023/sakari_ropponen.jpg'
-    - name: 'Arttu Pahta'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2023/arttu_pahta_2.jpg'
-    - name: 'Meri Hilden'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Elias Haarnoja'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Eero Huhtala'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2024/eero_huhtala.jpeg'
     - name: 'Elina Leiniö'
       title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2024/elina_leinio.jpg'
-    - name: 'Mikko Vanhanen'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2024/mikko_vanhanen.jpeg'
-    - name: 'Pinja Mäkeläinen'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Emilia Kuisma'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2023/emilia_kuisma.jpg'
-    - name: 'Tiitus Mustajoki'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
-    - name: 'Jimi Oksman'
-      title:
-        - fi: 'Torpedo'
-          en: 'Torpedo'
-      picture: '../images/officials/2023/jimi_oksman.jpg'
-
-- name:
-    fi: 'Jatkuvuustoimikunta'
-    en: 'Continuity committee'
-  members:
-    - name: 'Emilia Kuisma'
-      title:
-        - fi: 'Ylikorppi'
-          en: 'Head Raven'
-      picture: '../images/officials/2023/emilia_kuisma.jpg'
+        - fi: 'Seniilisihteeri'
+          en: 'Senile Secretary'
+      picture: '../images/officials/2025/elina_leinio.jpg'
       leader: true
-    - name: 'Aino Valkama'
-      title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2024/aino_valkama.jpeg'
-    - name: 'Niina Tapanainen'
-      title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Lotta Makkonen'
-      title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2023/lotta_makkonen.jpg'
     - name: 'Kiira Metsoila'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2023/kiira_metsoila_2.jpg'
-    - name: 'Juuso Määttä'
+        - fi: 'Seniilisihteeri'
+          en: 'Senile Secretary'
+      picture: '../images/officials/2024/kiira_metsoila.jpeg'
+      leader: true
+
+    #1
+    - name: 'Aino Valkama'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/aebaej_placeholder.png'
+        - fi: '1 (yksi)'
+          en: '1 (one)'
+      picture: '../images/officials/2025/aino_valkama.jpg'
+    - name: 'Tapani Pärssinen'
+      title:
+        - fi: '1 (yksi)'
+          en: '1 (one)'
+      picture: ''
     - name: 'Leevi Hormaluoma'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
+        - fi: '1 (yksi)'
+          en: '1 (one)'
       picture: '../images/officials/2024/leevi_hormaluoma.jpg'
-    - name: 'Lucas Käldström'
+    - name: 'Arttu Pahta'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2023/lucas_kaldstrom.jpg'
-    - name: 'Elias Erke'
+        - fi: '1 (yksi)'
+          en: '1 (one)'
+      picture: '../images/officials/2023/arttu_pahta_2.jpg'
+    - name: 'Emilia Kuisma'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2023/elias_erke.jpg'
-    - name: 'Pinja Mäkeläinen'
+        - fi: '1 (yksi)'
+          en: '1 (one)'
+      picture: '../images/officials/2023/emilia_kuisma.jpg'
+   
+#rrrRankka
+- name:
+    fi: 'rrrRankkatoimikunta'
+    en: 'rrrRankka Committee'
+  members:
+    - name: 'Santeri Hildén'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Jyri Kolu'
+        - fi: 'Majoitus- ja kuljetusministeri'
+          en: 'Minister of Accommodation and Transport'
+      picture: '../images/officials/2025/santeri_hilden.jpg'
+      leader: true
+    - name: 'Antti Lehtinen'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2024/jyri_kolu.jpeg'
-    - name: 'Severi Casserly'
+        - fi: 'Ohjelma- ja ekskursioministeri'
+          en: 'Minister of Program and Excursions'
+      picture: '../images/officials/2025/antti_lehtinen.jpg'
+      leader: true
+    - name: 'Ossi Syrjälahti'
       title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Veeti Kahilainen'
-      title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Emil Huttunen'
-      title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Jimi Oksman'
-      title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2023/jimi_oksman.jpg'
-    - name: 'Meri Hiipakka'
-      title:
-        - fi: 'Korppi'
-          en: 'Raven'
-      picture: '../images/officials/2023/meri_hiipakka.jpg'
+        - fi: 'Turvallisuusvastaava ja Tallink-yhteyshenkilö'
+          en: 'Safety Officer and Tallink liaison'
+      picture: '../images/officials/2024/ossi_syrjalahti.jpeg' 
+      leader: true
 
 - name:
     fi: 'Toimikuntien ulkopuolelta'
     en: 'Outside Committees'
   members:
-    - name: 'Meri Hiipakka'
+    - name: 'Pinja Mäkeläinen'
       title:
         - fi: 'Toiminnantarkastaja'
           en: 'Inspector'
-      picture: '../images/officials/2023/meri_hiipakka.jpg'
-    - name: 'Jimi Oksman'
+      picture: '../images/officials/2025/pinja_makelainen.jpg'
+    - name: 'Aarno Koponen'
       title:
         - fi: 'Toiminnantarkastaja'
           en: 'Inspector'
-      picture: '../images/officials/2023/jimi_oksman.jpg'
-    - name: 'Juuso Määttä'
+      picture: '../images/officials/2025/aarno_koponen.jpg'
+    - name: 'Arttu Pahta'
       title:
         - fi: 'Varatoiminnantarkastaja'
-          en: 'Vice-Inspector'
-      picture: '../images/officials/aebaej_placeholder.png'
-    - name: 'Aino Valkama'
+          en: 'Vice Inspector'
+        - fi: 'Teekkarikokouksen varaedustaja'
+          en: 'Teekkari Assembly vice representative'
+      picture: '../images/officials/2023/arttu_pahta_2.jpg'
+    - name: 'Joonas Törmälä'
       title:
         - fi: 'Varatoiminnantarkastaja'
-          en: 'Vice-Inspector'
-      picture: '../images/officials/2024/aino_valkama.jpeg'
+          en: 'Vice Inspector'
+      picture: '../images/officials/2024/joonas_tormala.jpeg'
     - name: 'Ville Kyrki'
       title:
         - fi: 'Oltermanni'
           en: 'Alderman'
       picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Eero Huhtala'
+      title: 
+        - fi: 'Teekkarikokousedustaja'
+          en: 'Teekkari Assembly representative'
+      picture: '../images/officials/2025/eero_huhtala.jpg'
+    - name: 'Tuomas Nykänen'
+      title: 
+        - fi: 'Teekkarikokousedustaja'
+          en: 'Teekkari Assembly representative'
+      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+    - name: 'Juho Komulainen'
+      title: 
+        - fi: 'Teekkarikokouksen varaedustaja'
+          en: 'Teekkari Assembly vice representative'
+      picture: '../images/officials/2024/juho_komulainen.jpg'
