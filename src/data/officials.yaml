@@ -129,7 +129,7 @@
         - fi: 'DSDirector'
           en: 'DSDirector'
       picture: '../images/officials/2025/aapo_vuokila.jpg'
- #Opintotoimikunta     
+  #Opintotoimikunta
 - name:
     fi: 'Opintotoimikunta'
     en: 'Study Committee'
@@ -286,6 +286,22 @@
         - fi: 'Jäykkäranne'
           en: 'Jäykkäranne'
       picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+      #Wappu
+    - name: 'Vinski Lång'
+      title:
+        - fi: 'Wappuministeri'
+          en: 'Wappu Minister'
+      picture: '../images/officials/2025/vinski_lang.jpg'
+    - name: 'Veeti Kittamaa'
+      title:
+        - fi: 'Wappuministeri'
+          en: 'Wappu Minister'
+      picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+    - name: 'Kalle Kajoniemi'
+      title:
+        - fi: 'Wappuministeri'
+          en: 'Wappu Minister'
+      picture: '../images/officials/2025/kalle_kajoniemi.jpg'
 
 #Liikunta
 - name:
@@ -583,13 +599,13 @@
         - fi: 'Lukkari'
           en: 'Song Leader'
       picture: '../images/officials/2024/veeti_kittamaa.jpeg'
-    
+
     - name: 'Nuutti Laine'
       title:
         - fi: 'Lukkari'
           en: 'Song Leader'
       picture: '../images/officials/2025/nuutti_laine.jpg'
-    
+
     - name: 'Rasmus Honkalinna'
       title:
         - fi: 'Lukkari'
@@ -692,7 +708,8 @@
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+      picture:
+        '../images/officials/2024/veeti_kittamaa.jpeg'
         #vakoojat
     - name: 'Elias Erke'
       title:
@@ -895,7 +912,7 @@
         - fi: 'Graafikko'
           en: 'Graphic designer'
       picture: '../images/officials/2025/ilmari_kallio.jpg'
-  #Graafikot
+    #Graafikot
     - name: 'Kiira Metsoila'
       title:
         - fi: 'Graafikko'
@@ -927,7 +944,6 @@
         - fi: 'Kääntäjä & oikolukija'
           en: 'Translator & proofreader'
       picture: '../images/officials/2024/pessi_lyytikainen.jpg'
-
 
 #Säätö
 - name:
@@ -1173,7 +1189,7 @@
         - fi: 'Depressantti'
           en: 'Depressant'
       picture: '../images/officials/2024/pessi_lyytikainen.jpg'
-    
+
 #Retki
 - name:
     fi: 'Retkitoimikunta'
@@ -1185,7 +1201,7 @@
           en: 'Trek Master'
       picture: '../images/officials/2025/lauri_tuominen.jpg'
       leader: true
-  #RETKISÄLLI 
+    #RETKISÄLLI
     - name: 'Daniel Gorbatchev'
       title:
         - fi: 'Retkisälli'
@@ -1246,8 +1262,7 @@
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
       picture: ''
-   
-        
+
 #GT
 - name:
     fi: 'Kultainen Toimitus'
@@ -1320,7 +1335,6 @@
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
       picture: ''
-  
 
 #Stigutoimikunta
 - name:
@@ -1344,7 +1358,7 @@
       title:
         - fi: 'Varjostigulantti'
           en: 'Shadow stigulant'
-      picture: '' 
+      picture: ''
     #Stikkerisälli
     - name: 'Matias Ahokas'
       title:
@@ -1473,7 +1487,7 @@
         - fi: 'Wanha pieru'
           en: 'Old fart'
       picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
-    
+
 #ASIC
 - name:
     fi: 'International Committee'
@@ -1563,7 +1577,7 @@
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
       picture: '../images/officials/2024/vaino_kauppila.jpeg'
-  
+
 #N-toimikunta
 - name:
     fi: 'N-toimikunta'
@@ -1608,7 +1622,7 @@
         - fi: '1 (yksi)'
           en: '1 (one)'
       picture: '../images/officials/2023/emilia_kuisma.jpg'
-   
+
 #rrrRankka
 - name:
     fi: 'rrrRankkatoimikunta'
@@ -1630,7 +1644,7 @@
       title:
         - fi: 'Turvallisuusvastaava ja Tallink-yhteyshenkilö'
           en: 'Safety Officer and Tallink liaison'
-      picture: '../images/officials/2024/ossi_syrjalahti.jpeg' 
+      picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
       leader: true
 
 - name:
@@ -1665,17 +1679,17 @@
           en: 'Alderman'
       picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Eero Huhtala'
-      title: 
+      title:
         - fi: 'Teekkarikokousedustaja'
           en: 'Teekkari Assembly representative'
       picture: '../images/officials/2025/eero_huhtala.jpg'
     - name: 'Tuomas Nykänen'
-      title: 
+      title:
         - fi: 'Teekkarikokousedustaja'
           en: 'Teekkari Assembly representative'
       picture: '../images/officials/2023/tuomas_nykanen.jpg'
     - name: 'Juho Komulainen'
-      title: 
+      title:
         - fi: 'Teekkarikokouksen varaedustaja'
           en: 'Teekkari Assembly vice representative'
       picture: '../images/officials/2024/juho_komulainen.jpg'
