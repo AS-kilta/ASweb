@@ -157,7 +157,6 @@ board:
       fi: 'Pitää yllä killan vanhoja ulkosuhteita sekä luo uusia. Johtaa kulttuuritoimikuntaa ja järjestää sen jäsenten kanssa killale kulttuuritapahtumia. Tykkää pitää yhteyttä moneen eri tahoon ja hengailla myös muun kuin violetin väristen ihmisten kanssa. Ota yhteyttä kulttuurimestariin, jos asiasi liittyy kulttuuriasioihin.'
       en: 'The Master of Culture maintains the external relations with student organisations across Finland and builds new ones. They lead the Culture and Sports Committee, organise various happenings, cultural excursions and events to test different sports. Contact the Master of Culture if your matter concerns culture in any way.'
 
-
 officials:
   - name:
       fi: 'Fuksitoimikunta'
@@ -2021,7 +2020,6 @@ officials:
             en: 'Alderman'
         picture: '../images/officials/aebaej_placeholder.png'
 
-
 accolades:
   - name:
       fi: 'Kultainen pränikkä'
@@ -2029,79 +2027,79 @@ accolades:
     people:
       - name: Lotta Makkonen
         description:
-          fi: 'Lotta Makkonen on aASiuden perikuva. Hänet tunnetaan valtavan pitkästä urasta killan eteen, 
-            joka on sisältänyt valtavasti sekä näkyvää että näkymätöntä työtä. Lotan ansiot sisältävät miljoona 
-            toimarivirkaa, joiden jälkeen hän jatkoi vielä hallitukseen kulttuurimestariksi. Tästä ura jatkui 
-            stimulanttina, seniilisihteerinä, ASSmASSterinä ja mahdottoman monella pikkuprojektilla. Hän on 
-            uudistanut toimintaa erityisesti kulttuurikentällä, innostanut kanssakiltalaisia ja pitänyt aina 
-            huolta kaikista ympärillään. Lotta säteilee hyvää AS-henkeä koko olemuksellaan, ja saa tehokkaasti 
-            sekä luotettavasti ajettua loppuun kaiken mihin lähtee. 
-            
-            Kultainen ansiomerkki myönnetään äärimmäisen pitkäaikaisesta työpanoksesta killan eteen Lotta 
+          fi: 'Lotta Makkonen on aASiuden perikuva. Hänet tunnetaan valtavan pitkästä urasta killan eteen,
+            joka on sisältänyt valtavasti sekä näkyvää että näkymätöntä työtä. Lotan ansiot sisältävät miljoona
+            toimarivirkaa, joiden jälkeen hän jatkoi vielä hallitukseen kulttuurimestariksi. Tästä ura jatkui
+            stimulanttina, seniilisihteerinä, ASSmASSterinä ja mahdottoman monella pikkuprojektilla. Hän on
+            uudistanut toimintaa erityisesti kulttuurikentällä, innostanut kanssakiltalaisia ja pitänyt aina
+            huolta kaikista ympärillään. Lotta säteilee hyvää AS-henkeä koko olemuksellaan, ja saa tehokkaasti
+            sekä luotettavasti ajettua loppuun kaiken mihin lähtee.
+
+            Kultainen ansiomerkki myönnetään äärimmäisen pitkäaikaisesta työpanoksesta killan eteen Lotta
             Makkoselle!'
 
-          en: 'Lotta Makkonen is the epitome of aASi spirit. She is known for her long-standing dedication 
-            to the guild, contributing extensively in both visible and behind-the-scenes roles. Lotta’s 
-            achievements include countless officer positions, after which she continued in the board as the 
-            Culture Master. Her journey extended further as a Stimulant, Senior Secretary, ASSmASSter, and through 
-            countless smaller projects. She has revitalized cultural activities, inspired fellow guild members, 
-            and always taken care of those around her. Lotta radiates the true AS spirit and effectively and 
+          en: 'Lotta Makkonen is the epitome of aASi spirit. She is known for her long-standing dedication
+            to the guild, contributing extensively in both visible and behind-the-scenes roles. Lotta’s
+            achievements include countless officer positions, after which she continued in the board as the
+            Culture Master. Her journey extended further as a Stimulant, Senior Secretary, ASSmASSter, and through
+            countless smaller projects. She has revitalized cultural activities, inspired fellow guild members,
+            and always taken care of those around her. Lotta radiates the true AS spirit and effectively and
             reliably sees everything she commits to through to completion.
 
-            The Golden Accolade is awarded to Lotta Makkonen for her exceptionally long-standing contribution 
+            The Golden Accolade is awarded to Lotta Makkonen for her exceptionally long-standing contribution
             to the guild.'
 
       - name: Kiira Metsoila
         description:
-          fi: 'Kiira Metsoila on jo vuosien ajan antanut killalle täyden työpanoksensa. Kaikkina niinä vuosina 
-            kun hän on ollut toiminnassa mukana on killassa viety lukuisia asioita eteenpäin ja luotu uutta tyhjästä. 
-            Esimerkkinä voitaneen mainita killan häirintäyhdyshenkilötoiminta, joka on toiminut äärettömän hyvänä 
-            esimerkkinä myös muille Otaniemen killoille. Hän on vastannut kiltalaisten hyvinvoinnista niin IE:nä, 
-            kulttuuritoimikunnan hyvinvointimestarina kuin myös kvartaalitoimikunnan vetäjänä. Kiira on henkilö 
+          fi: 'Kiira Metsoila on jo vuosien ajan antanut killalle täyden työpanoksensa. Kaikkina niinä vuosina
+            kun hän on ollut toiminnassa mukana on killassa viety lukuisia asioita eteenpäin ja luotu uutta tyhjästä.
+            Esimerkkinä voitaneen mainita killan häirintäyhdyshenkilötoiminta, joka on toiminut äärettömän hyvänä
+            esimerkkinä myös muille Otaniemen killoille. Hän on vastannut kiltalaisten hyvinvoinnista niin IE:nä,
+            kulttuuritoimikunnan hyvinvointimestarina kuin myös kvartaalitoimikunnan vetäjänä. Kiira on henkilö
             jota jokaisen kiltalaisen on helppo lähestyä ja kysyä aina apua kun tulee sellainen fiilis.
 
-            Kiira välittää toiminnasta aivan liikaa ja tämä on näkynyt lukuisissa askarteluöissä killan merchin, 
-            stimukoristeiden ja muiden vastaavien projektien parissa, jotta hänen visionsa toteutuisi täsmällisesti 
-            ja budjetin rajoissa. On myös ilo nähdä, että tämän kiltalaisen into ei lopu, ja ensi vuodellekin Kiira 
+            Kiira välittää toiminnasta aivan liikaa ja tämä on näkynyt lukuisissa askarteluöissä killan merchin,
+            stimukoristeiden ja muiden vastaavien projektien parissa, jotta hänen visionsa toteutuisi täsmällisesti
+            ja budjetin rajoissa. On myös ilo nähdä, että tämän kiltalaisen into ei lopu, ja ensi vuodellekin Kiira
             napsi ennätysmäärän toimikuntia johdettavaksi. Tämä kultainen ansiomerkki menee Kiira Metsoilalle!'
-          
-          en: 'For years, Kiira Metsoila has given her all to the guild. Throughout her years of involvement, numerous 
-            initiatives have been advanced, and new ideas have been created from scratch. One prime example is the guild’s 
-            harassment contact person system, which has served as an outstanding model for other guilds in Otaniemi. She 
-            has been responsible for the well-being of guild members in various roles, including as IE, the well-being 
-            master of the cultural committee, and the leader of the quarterly committee. Kiira is someone whom every guild 
+
+          en: 'For years, Kiira Metsoila has given her all to the guild. Throughout her years of involvement, numerous
+            initiatives have been advanced, and new ideas have been created from scratch. One prime example is the guild’s
+            harassment contact person system, which has served as an outstanding model for other guilds in Otaniemi. She
+            has been responsible for the well-being of guild members in various roles, including as IE, the well-being
+            master of the cultural committee, and the leader of the quarterly committee. Kiira is someone whom every guild
             member finds approachable and easy to turn to for help whenever needed.
 
-            Kiira cares deeply about the guild, and this dedication has manifested in numerous late-night crafting sessions, 
-            working on guild merchandise, Stimulant decorations, and other similar projects to ensure her vision is executed 
-            precisely and within budget. It’s also great to see that her passion never fades—next year, she has taken on a 
+            Kiira cares deeply about the guild, and this dedication has manifested in numerous late-night crafting sessions,
+            working on guild merchandise, Stimulant decorations, and other similar projects to ensure her vision is executed
+            precisely and within budget. It’s also great to see that her passion never fades—next year, she has taken on a
             record number of committees to lead.
 
             This Golden Accolade goes to Kiira Metsoila!'
 
       - name: Aino Valkama
         description:
-          fi: 'Aino Valkaman kiltaura on ollut pitkä ja ansiokas, ja hän on usein viitannutkin sitaattiin omalta 
-            orientaatioviikoltaan, “Miten tähän kaikkeen pääsee täysillä mukaan?”. Sen Aino myös toteutti. Hänen matkansa 
-            alkoi, kuten monella muullakin, lukuisilla toimaripesteillä. Tästä matka jatkui hallitukseen, killan 
-            varapuheenjohtajaksi ja jatkui luonnollisesti koko killan johtoon. Hän on ajanut kiltamme hallinnon 
-            ennennäkemättömälle tasolle, luoden lukuisia uudistuksia sääntöjen, CoC:n ja arkiston saralla. Killan 
-            puheenjohtaminen juhlavuonna on myös kokonaisuus, johon harva olisi kyennyt kuin Aino. Voimme kaikki olla 
+          fi: 'Aino Valkaman kiltaura on ollut pitkä ja ansiokas, ja hän on usein viitannutkin sitaattiin omalta
+            orientaatioviikoltaan, “Miten tähän kaikkeen pääsee täysillä mukaan?”. Sen Aino myös toteutti. Hänen matkansa
+            alkoi, kuten monella muullakin, lukuisilla toimaripesteillä. Tästä matka jatkui hallitukseen, killan
+            varapuheenjohtajaksi ja jatkui luonnollisesti koko killan johtoon. Hän on ajanut kiltamme hallinnon
+            ennennäkemättömälle tasolle, luoden lukuisia uudistuksia sääntöjen, CoC:n ja arkiston saralla. Killan
+            puheenjohtaminen juhlavuonna on myös kokonaisuus, johon harva olisi kyennyt kuin Aino. Voimme kaikki olla
             kiitollisia hänelle, sillä Ainon tähänastisista vuosista killassa jää eväitä äärimmäisen pitkälle tulevaisuuteen.
 
-            Hän tuntee killan säännöt, arkiston, reivit ja kaiken hallintoon edes vähän liittyvän paremmin kuin omat taskunsa. 
-            Seuraavan kultaisen ansiomerkin saa killan ehdottomasti korkeinta valtaa pitävä varatoiminnantarkastaja, Aino 
+            Hän tuntee killan säännöt, arkiston, reivit ja kaiken hallintoon edes vähän liittyvän paremmin kuin omat taskunsa.
+            Seuraavan kultaisen ansiomerkin saa killan ehdottomasti korkeinta valtaa pitävä varatoiminnantarkastaja, Aino
             Valkama!'
 
-          en: 'Aino Valkama has had a long and distinguished career in the guild. She often recalls a quote from her own 
-            orientation week: “How can I get fully involved in all of this?” And Aino truly lived up to it. Her journey began, 
-            like many others, with numerous officer roles. From there, she advanced to the board, served as the guild’s Vice 
-            Chair, and naturally continued to lead the entire guild. She has elevated the guild’s administration to 
-            unprecedented levels, implementing numerous reforms in regulations, the Code of Conduct, and the archives. Leading 
-            the guild in its anniversary year is also a challenge that few could have managed as well as Aino. We can all be 
+          en: 'Aino Valkama has had a long and distinguished career in the guild. She often recalls a quote from her own
+            orientation week: “How can I get fully involved in all of this?” And Aino truly lived up to it. Her journey began,
+            like many others, with numerous officer roles. From there, she advanced to the board, served as the guild’s Vice
+            Chair, and naturally continued to lead the entire guild. She has elevated the guild’s administration to
+            unprecedented levels, implementing numerous reforms in regulations, the Code of Conduct, and the archives. Leading
+            the guild in its anniversary year is also a challenge that few could have managed as well as Aino. We can all be
             grateful to her, as the work she has done will benefit the guild far into the future.
 
-            She knows the guild’s rules, archives, raves, and all aspects of administration better than the back of her own 
+            She knows the guild’s rules, archives, raves, and all aspects of administration better than the back of her own
             hand. The next Golden Accolade is awarded to the guild’s absolute authority, Aino Valkama!'
 
   - name:
@@ -2110,64 +2108,67 @@ accolades:
     people:
       - name: Lucas Käldström
         description:
-          fi: 'Lucas on kiltauransa aikana ehtinyt tehdä sellaisia muutoksia toimintaan, mistä tullaan kiittämään vielä 
-            vuosienkin päästä. Tämä on se henkilö jonka tekemistä sopimuksista uudet toimarit kyselevät niistä kerrottaessa, 
-            että “kuka tuollaista on uskaltanut mennä koskaan kysymään”, ja preesensillään killan yrityssuhteissa firmat 
-            soittivat Lucakselle, että voivatko he antaa rahaa killan toimintaan. 
+          fi: 'Lucas on kiltauransa aikana ehtinyt tehdä sellaisia muutoksia toimintaan, mistä tullaan kiittämään vielä
+            vuosienkin päästä. Tämä on se henkilö jonka tekemistä sopimuksista uudet toimarit kyselevät niistä kerrottaessa,
+            että “kuka tuollaista on uskaltanut mennä koskaan kysymään”, ja preesensillään killan yrityssuhteissa firmat
+            soittivat Lucakselle, että voivatko he antaa rahaa killan toimintaan.
 
-            Hänen kädenjälkensä eivät ole niitä mitkä koristavat ASkin seiniä tai joilla on johdettu killan näkyviä päätöksiä, 
-            mutta nämä kädenjäljet ovat jo usean vuoden ajan vaikuttaneet viikoittain toimihenkilöiden ja hallituksen 
-            työskentelytapoihin. Ensimmäisen hallitusvuotensa hän vietti taloustoiminnan johdossa rahastonhoitajana, sitten 
-            killan yrityssuhdevastaavana. 
+            Hänen kädenjälkensä eivät ole niitä mitkä koristavat ASkin seiniä tai joilla on johdettu killan näkyviä päätöksiä,
+            mutta nämä kädenjäljet ovat jo usean vuoden ajan vaikuttaneet viikoittain toimihenkilöiden ja hallituksen
+            työskentelytapoihin. Ensimmäisen hallitusvuotensa hän vietti taloustoiminnan johdossa rahastonhoitajana, sitten
+            killan yrityssuhdevastaavana.
 
-            Erään ansiomerkkiä ehdottaneen sanoin tämä henkilö oli ihan liian fiksu killan hallitukseen ja se lienee syynä 
-            miksi killan toiminta on kehittynyt sellaisella vauhdilla, jota harvemmin on nähdään. Tämä järjestelmävelho ja 
+            Erään ansiomerkkiä ehdottaneen sanoin tämä henkilö oli ihan liian fiksu killan hallitukseen ja se lienee syynä
+            miksi killan toiminta on kehittynyt sellaisella vauhdilla, jota harvemmin on nähdään. Tämä järjestelmävelho ja
             yrityssuhdetaikuri on tietysti Lucas Käldström.'
 
-          en: 'During his time in the guild, Lucas has made impactful changes that will be appreciated for years to come. 
-            He is the kind of person whose agreements make new officers ask, “Who had the guts to even propose that?” And in 
+          en:
+            'During his time in the guild, Lucas has made impactful changes that will be appreciated for years to come.
+            He is the kind of person whose agreements make new officers ask, “Who had the guts to even propose that?” And in
             the realm of corporate relations, companies reached out to him, asking if they could sponsor the guild.
 
-            His contributions are not the kind that adorn ASki’s walls or guide the guild’s visible decisions, but they have 
-            shaped the working methods of officers and board members on a weekly basis for years. His first year in the board 
-            was spent leading financial operations as Treasurer, followed by a tenure as the guild’s Corporate Relations 
+            His contributions are not the kind that adorn ASki’s walls or guide the guild’s visible decisions, but they have
+            shaped the working methods of officers and board members on a weekly basis for years. His first year in the board
+            was spent leading financial operations as Treasurer, followed by a tenure as the guild’s Corporate Relations
             Manager.
 
-            As one nomination put it, “This person was way too smart for the board,” which might explain why the guild has 
-            developed at such an unprecedented pace. This system wizard and corporate relations magician is none other than 
+            As one nomination put it, “This person was way too smart for the board,” which might explain why the guild has
+            developed at such an unprecedented pace. This system wizard and corporate relations magician is none other than
             Lucas Käldström!'
 
       - name: Jimi Oksman
         description:
-          fi: 'Seuraavan ansiomerkin saa henkilö, joka on vakaa kuin kallio ja valtavan suuren kiven vyöryessä kohti TUASia 
-            voi aivan satavarmasti luottaa, että kaikki mahdottomatkin hommat hoituvat ja ne viedään loppuun asti maaliin. 
-            Jimi on pelastanut monta toimijaa pulasta pitkillä hermoillaan ja rationaalisilla ratkaisuilla vaikeisiinkiin 
-            ongelmiin IEn sekä varapuheenjohtajan roolissa, aina tietenkin asiansa hymyssä suin ilmoittaen ja sopivasti vitsiä 
-            vääntäen. 
+          fi:
+            'Seuraavan ansiomerkin saa henkilö, joka on vakaa kuin kallio ja valtavan suuren kiven vyöryessä kohti TUASia
+            voi aivan satavarmasti luottaa, että kaikki mahdottomatkin hommat hoituvat ja ne viedään loppuun asti maaliin.
+            Jimi on pelastanut monta toimijaa pulasta pitkillä hermoillaan ja rationaalisilla ratkaisuilla vaikeisiinkiin
+            ongelmiin IEn sekä varapuheenjohtajan roolissa, aina tietenkin asiansa hymyssä suin ilmoittaen ja sopivasti vitsiä
+            vääntäen.
 
             Tämä hallintokonsultti on Jimi Oksman.'
 
-          en: 'The next accolade goes to a person as steady as a rock—someone you can count on to handle even the most 
-            impossible tasks, no matter how overwhelming the challenge may be. If a giant boulder were rolling towards TUAS, 
+          en: 'The next accolade goes to a person as steady as a rock—someone you can count on to handle even the most
+            impossible tasks, no matter how overwhelming the challenge may be. If a giant boulder were rolling towards TUAS,
             you could rest assured that Jimi would find a rational solution to the problem and see it through to completion.
 
-            Jimi has rescued countless officers from difficult situations with his patience and level-headed problem-solving 
+            Jimi has rescued countless officers from difficult situations with his patience and level-headed problem-solving
             skills, whether in his role as IE or Vice Chair. And he always does so with a smile and a well-timed joke.
 
             This administrative consultant is Jimi Oksman.'
 
       - name: Joonas Törmälä
         description:
-          fi: 'Seuraava ansiomerkki menee henkilölle, joka on toiminut monelle ulkopuoliselle killan kasvoina. Joonas on 
-            pitkän uransa aikana ehtinyt tehdä kaikennäköistä, aina Otatarhan ajojen tallipääliköstä äärimmäisen aktiiviseen 
-            kulttuuriartesaanin työhön. Tästä matka jatkui muunmuassa Fuksikapteeniksi, ja sen jälkeen hän vielä herätti 
-            Automaatioteekkaripäivät pitkästä horroksesta eloon. Ei pidä kuitenkaan vähätellä myöskään Joonaksen pitkään ja 
+          fi: 'Seuraava ansiomerkki menee henkilölle, joka on toiminut monelle ulkopuoliselle killan kasvoina. Joonas on
+            pitkän uransa aikana ehtinyt tehdä kaikennäköistä, aina Otatarhan ajojen tallipääliköstä äärimmäisen aktiiviseen
+            kulttuuriartesaanin työhön. Tästä matka jatkui muunmuassa Fuksikapteeniksi, ja sen jälkeen hän vielä herätti
+            Automaatioteekkaripäivät pitkästä horroksesta eloon. Ei pidä kuitenkaan vähätellä myöskään Joonaksen pitkään ja
             hartaasti jatkunutta AS-hengen levittämistä laajemmassa yhteisössämme.
 
             Tämä killan kasvatti on tietenkin Joonas Törmälä!'
 
-          en: 'The next Golden Accolade goes to someone who has often been the face of the guild for outsiders. Over his long 
-            career, Joonas has done it all—from Otatarhan ajot team leader to an incredibly active culture artisan. His journey 
+          en:
+            'The next Golden Accolade goes to someone who has often been the face of the guild for outsiders. Over his long
+            career, Joonas has done it all—from Otatarhan ajot team leader to an incredibly active culture artisan. His journey
             continued as a Fuksi Captain, and after that, he even revived Automaatioteekkaripäivät from a long dormancy.
 
             One should not overlook Joonas’ long-standing and dedicated efforts to spread AS spirit beyond just our guild.
@@ -2176,80 +2177,87 @@ accolades:
 
       - name: Rosa Phan
         description:
-          fi: 'Rosa Phanilla on ollut poikkeuksellinen polku. Hän on ollut aktiivisesti toiminnassa nyt jo vuosia, laittaen 
-            lukuisia työtunteja killan huvitoiminnan, kulttuurin, 25. juhlavuoden, sekä nyt viimeisenä vielä näiden vuosijuhlien 
-            eteen, vaikka ei ole koskaan opiskellut sekuntiakaan kiltamme opintopoluissa. Rosan työhön voi aina luottaa ja hän on 
-            elävä esimerkki, kuinka aASius on sydämen, eikä haalareiden värin asia. Näistä syistä hopeisen ansiomerkin saa Rosa 
+          fi:
+            'Rosa Phanilla on ollut poikkeuksellinen polku. Hän on ollut aktiivisesti toiminnassa nyt jo vuosia, laittaen
+            lukuisia työtunteja killan huvitoiminnan, kulttuurin, 25. juhlavuoden, sekä nyt viimeisenä vielä näiden vuosijuhlien
+            eteen, vaikka ei ole koskaan opiskellut sekuntiakaan kiltamme opintopoluissa. Rosan työhön voi aina luottaa ja hän on
+            elävä esimerkki, kuinka aASius on sydämen, eikä haalareiden värin asia. Näistä syistä hopeisen ansiomerkin saa Rosa
             Phan!'
 
-          en: 'Rosa Phan has taken an exceptional path. She has been an active contributor for years, dedicating countless 
-            hours to guild entertainment, culture, the 25th anniversary, and most recently, these very annual celebrations—all 
+          en:
+            'Rosa Phan has taken an exceptional path. She has been an active contributor for years, dedicating countless
+            hours to guild entertainment, culture, the 25th anniversary, and most recently, these very annual celebrations—all
             despite never having studied in our guild’s academic programs.
 
-            Rosa’s work is always reliable, and she is a living example that aASius is a matter of the heart, not the color of 
+            Rosa’s work is always reliable, and she is a living example that aASius is a matter of the heart, not the color of
             your overalls.
 
             For these reasons, the Silver Accolade is awarded to Rosa Phan!'
 
       - name: Tiitus Mustajoki
         description:
-          fi: 'Seuraavan hopeisen ansiomerkin ansaitsijan ura on koostunut loputtomista työtunneista ruohonjuuritasolla. 
-            Toimarirooleja Tiitus Mustajoelle on kertynyt jo kymmeniä, ja jokaisen hän on suorittanut erityisen huolellisesti 
-            omalla loistavalla asenteellaan. Tiitus näyttää esimerkkiä nuoremmille tekijäsukupolville etenkin reippaan tekemisen 
-            muodossa ja hänestä tulisi jokaisen katsoa mallia. Seuraava ansiomerkin ansainnut on jokaisen tapahtumanjärjestäjän 
+          fi: 'Seuraavan hopeisen ansiomerkin ansaitsijan ura on koostunut loputtomista työtunneista ruohonjuuritasolla.
+            Toimarirooleja Tiitus Mustajoelle on kertynyt jo kymmeniä, ja jokaisen hän on suorittanut erityisen huolellisesti
+            omalla loistavalla asenteellaan. Tiitus näyttää esimerkkiä nuoremmille tekijäsukupolville etenkin reippaan tekemisen
+            muodossa ja hänestä tulisi jokaisen katsoa mallia. Seuraava ansiomerkin ansainnut on jokaisen tapahtumanjärjestäjän
             kaveri ja ehdoton jokapaikanhöylä, Tiitus Mustajoki.'
 
-          en: 'The next Silver Accolade goes to someone whose guild career has been built on countless hours of hands-on work. 
-            Tiitus Mustajoki has held dozens of officer roles, each one executed with meticulous dedication and an outstanding 
+          en:
+            'The next Silver Accolade goes to someone whose guild career has been built on countless hours of hands-on work.
+            Tiitus Mustajoki has held dozens of officer roles, each one executed with meticulous dedication and an outstanding
             attitude.
 
-            Tiitus leads by example for younger generations, particularly through his energetic approach to getting things 
+            Tiitus leads by example for younger generations, particularly through his energetic approach to getting things
             done. He is a role model for all and someone every event organizer wants as a teammate.
 
             The next accolade is awarded to the ultimate jack-of-all-trades, Tiitus Mustajoki!'
 
       - name: Tuomas Nykänen
         description:
-          fi: 'Tämä rempseä kaveri on jättänyt viime vuosina valtavan kengänjäljen killan toimintaan. Nykänen on pyyteetön, 
-            rehti ja ennen kaikkea työteliäs duunari, joka ei kaihda mitään projektia. Hallituksessa hän toimi Fuksikapteenina, 
-            josta matka jatkui vielä lukkarimestariksi. Erityisiä ansioita Nykäsellä löytyy myös Stigutoimikunnasta, jonka 
-            jäsenenä aikaa on vietetty jo kolme vuotta. Tämän kiltalaisen entinen Volvo niittää myös yhä kulttimainetta sen 
-            aktiivisen käytön johdosta, eikä yhtään turhaan, sillä moni tapahtuma ilman Nykästä olisi ollut mahdoton. 
+          fi:
+            'Tämä rempseä kaveri on jättänyt viime vuosina valtavan kengänjäljen killan toimintaan. Nykänen on pyyteetön,
+            rehti ja ennen kaikkea työteliäs duunari, joka ei kaihda mitään projektia. Hallituksessa hän toimi Fuksikapteenina,
+            josta matka jatkui vielä lukkarimestariksi. Erityisiä ansioita Nykäsellä löytyy myös Stigutoimikunnasta, jonka
+            jäsenenä aikaa on vietetty jo kolme vuotta. Tämän kiltalaisen entinen Volvo niittää myös yhä kulttimainetta sen
+            aktiivisen käytön johdosta, eikä yhtään turhaan, sillä moni tapahtuma ilman Nykästä olisi ollut mahdoton.
 
             Jos se puheesta ei tullut vielä selväksi, seuraava kiltaikoni on Nykänen “Tuomas” Nykänen.'
 
-          en: 'This lively guy has left a massive footprint on the guild in recent years. Nykänen is selfless, honest, and 
-            above all, a hardworking doer who never shies away from a challenge. As a Fuksi Captain, he guided new students, 
+          en:
+            'This lively guy has left a massive footprint on the guild in recent years. Nykänen is selfless, honest, and
+            above all, a hardworking doer who never shies away from a challenge. As a Fuksi Captain, he guided new students,
             and his journey continued as Lukkari Master.
 
-            Nykänen also deserves special recognition for his long-standing contributions to the Stigu Committee, where he has 
-            been active for three years. His former Volvo has even achieved cult status due to its frequent use, and rightfully 
+            Nykänen also deserves special recognition for his long-standing contributions to the Stigu Committee, where he has
+            been active for three years. His former Volvo has even achieved cult status due to its frequent use, and rightfully
             so—many events would have been impossible without him.
 
             If it wasn’t clear from this speech, the next guild icon is Nykänen “Tuomas” Nykänen!'
 
       - name: Elias Erke
         description:
-          fi: 'Elias Erke on killan säätöhengen kasvot ja siinä missä moni vain keksii niitä kuuluisia hyviä ideoita, on tämä 
-            kaveri niitä eturintamassa toteuttamassa. Viestintämestarivuoden ohella hänen suurimpana saavutuksena voidaan pitää 
-            killan nykyisiä nettisivuja, jotka nyt vuoden mittaisen käytön perusteella ovat osoittautuneet sekä näkyväksi 
-            brändi-ilmeeksi kuin myös todella käytettäväksi alustaksi aktiivikäyttäjille. Elias on myös henkilö, joka enemmän 
+          fi:
+            'Elias Erke on killan säätöhengen kasvot ja siinä missä moni vain keksii niitä kuuluisia hyviä ideoita, on tämä
+            kaveri niitä eturintamassa toteuttamassa. Viestintämestarivuoden ohella hänen suurimpana saavutuksena voidaan pitää
+            killan nykyisiä nettisivuja, jotka nyt vuoden mittaisen käytön perusteella ovat osoittautuneet sekä näkyväksi
+            brändi-ilmeeksi kuin myös todella käytettäväksi alustaksi aktiivikäyttäjille. Elias on myös henkilö, joka enemmän
             kuin mielellään opettaa jokaisen killan järjestelmän käyttöä uusille toimijoille ymmärrettävästi ja maanläheisesti.
 
-            Tämän ASkin kahvin tehokkaan lipittäjän ja sohvien suurkuluttajan kaikki ovat varmasti nähneet, jos ASkissa ovat 
+            Tämän ASkin kahvin tehokkaan lipittäjän ja sohvien suurkuluttajan kaikki ovat varmasti nähneet, jos ASkissa ovat
             edes piipahtaneet. Hän on tietenkin Elias Erke.'
 
-          en: 'Elias Erke is the face of the guild’s improvisational spirit. While many come up with great ideas, Elias is the 
+          en:
+            'Elias Erke is the face of the guild’s improvisational spirit. While many come up with great ideas, Elias is the
             one bringing them to life.
 
-            In addition to his Master of Communications year, one of his greatest accomplishments is the guild’s current website, 
-            which, after a year in use, has proven to be both a recognizable branding asset and a genuinely user-friendly 
+            In addition to his Master of Communications year, one of his greatest accomplishments is the guild’s current website,
+            which, after a year in use, has proven to be both a recognizable branding asset and a genuinely user-friendly
             platform.
 
-            Elias is also the go-to person for explaining guild systems to new officers, always making it clear and 
+            Elias is also the go-to person for explaining guild systems to new officers, always making it clear and
             approachable.
 
-            If you’ve ever stepped into ASki, you’ve undoubtedly seen him—the coffee-drinking, sofa-loving presence of the 
+            If you’ve ever stepped into ASki, you’ve undoubtedly seen him—the coffee-drinking, sofa-loving presence of the
             guild. He is, of course, Elias Erke.'
 
   - name:
@@ -2258,106 +2266,124 @@ accolades:
     people:
       - name: Mikko Vanhanen
         description:
-          fi: 'Aloitetaan palkintojen jako yhdestä kiltatoiminnan työmyyrien superstaroista! Tätä kiltalaista vastaan ei 
-            kannata lähteä kisaamaan toimaripestien määrästä. Hän on aina valmis laittamaan kaikkensa minkä tahansa 
-            toimikunnan eteen, erityisiä ansioita hän on saavuttanut tosi-ISOn ja mini-IEn rooleissa. Tämä kiltalainen on 
+          fi: 'Aloitetaan palkintojen jako yhdestä kiltatoiminnan työmyyrien superstaroista! Tätä kiltalaista vastaan ei
+            kannata lähteä kisaamaan toimaripestien määrästä. Hän on aina valmis laittamaan kaikkensa minkä tahansa
+            toimikunnan eteen, erityisiä ansioita hän on saavuttanut tosi-ISOn ja mini-IEn rooleissa. Tämä kiltalainen on
             tietysti Mikko Vanhanen!'
-          en: 'Let’s kick off the awards with one of the superstar work moles of guild activities! You wouldn’t want to 
-            compete with this guild member when it comes to the number of board hijinks. He’s always ready to give his all 
-            for any committee, and he’s earned special accolades in his roles as “tosi-ISO” and “mini-IE.” This guild guy 
+          en: 'Let’s kick off the awards with one of the superstar work moles of guild activities! You wouldn’t want to
+            compete with this guild member when it comes to the number of board hijinks. He’s always ready to give his all
+            for any committee, and he’s earned special accolades in his roles as “tosi-ISO” and “mini-IE.” This guild guy
             is, of course, Mikko Vanhanen!'
       - name: Ki Chun Tong
         description:
-          fi: 'Tämä opiskelija tuli Suomeen selkeän mission kanssa. Hän on ollut keskeinen osa DSD23:sta ja pitänyt 
-            kaikki muut ajan tasalla koko vuoden ajan, keräten tietoa Aalto-yhteisöstä kaikkien hyödyksi. Hän on ollut 
-            moottorina AS:n historian aktiivisimmassa DSD-keskustelussa ja jatkaa edelleen DSD:n tukemista opintotoimikunnan 
+          fi: 'Tämä opiskelija tuli Suomeen selkeän mission kanssa. Hän on ollut keskeinen osa DSD23:sta ja pitänyt
+            kaikki muut ajan tasalla koko vuoden ajan, keräten tietoa Aalto-yhteisöstä kaikkien hyödyksi. Hän on ollut
+            moottorina AS:n historian aktiivisimmassa DSD-keskustelussa ja jatkaa edelleen DSD:n tukemista opintotoimikunnan
             kautta. Hän on Ki Chun Tong!'
           en: 'This student came to Finland with a mission. He’s been a crucial part of DSD23 and kept everyone else on
-            track throughout the year, gathering info about the Aalto-community for the whole year. He’s been the driving 
-            force of the most active DSD chat of AS history and is continuing work supporting DSD through the study committee, 
+            track throughout the year, gathering info about the Aalto-community for the whole year. He’s been the driving
+            force of the most active DSD chat of AS history and is continuing work supporting DSD through the study committee,
             he is Ki Chun Tong!'
       - name: Tuomas Nykänen
         description:
-          fi: 'Seuraavaa Ratkaisija aASia kuvaillaan killan joulupukkina ja näätänä. Hän on killan ehdottomin MEGAMYYRÄ, 
-            jolla on tässä vaiheessa jos minkälaista roolia takana. Hän kuitenkin kerta toisensa jälkeen hyppää tyhmiin 
+          fi: 'Seuraavaa Ratkaisija aASia kuvaillaan killan joulupukkina ja näätänä. Hän on killan ehdottomin MEGAMYYRÄ,
+            jolla on tässä vaiheessa jos minkälaista roolia takana. Hän kuitenkin kerta toisensa jälkeen hyppää tyhmiin
             ideoihin mukaan ja tuo mahtavaa fiilistä jokaiseen sekoiluun, seuraavaa podcastia odotellen, hän on Tuomas Nykänen!'
-          en: 'The next solver aASii is described as the guild’s Santa Claus and a weasel. He is the guild’s ultimate MEGAMOLE, 
-            with all sorts of roles under his belt by now. Time and time again, he jumps into crazy ideas and brings an amazing 
+          en:
+            'The next solver aASii is described as the guild’s Santa Claus and a weasel. He is the guild’s ultimate MEGAMOLE,
+            with all sorts of roles under his belt by now. Time and time again, he jumps into crazy ideas and brings an amazing
             vibe to every bit of chaos. Looking forward to the next podcast, he is Tuomas Nykänen!'
       - name: Jaakko Aalto
         description:
-          fi: 'Killan oma Mr. Cameraman on viime aikoina toiminut erityisen ansiokkaasti opinto-, yrityssuhde- ja taloustoimikunnissa. 
-            Hänen käsiensä jälki näkyy mahtavissa markkinointivideoissa killan ja korkeakoulun sosiaalisessa mediassa. Killan yhteys 
-            SAS:iin menettäisi paljon ilman, ja kaiken lisäksi syksyllä saatamme nähdä upouutta AS merchiä!! Tämä hyvän mielen tyyppi 
+          fi:
+            'Killan oma Mr. Cameraman on viime aikoina toiminut erityisen ansiokkaasti opinto-, yrityssuhde- ja taloustoimikunnissa.
+            Hänen käsiensä jälki näkyy mahtavissa markkinointivideoissa killan ja korkeakoulun sosiaalisessa mediassa. Killan yhteys
+            SAS:iin menettäisi paljon ilman, ja kaiken lisäksi syksyllä saatamme nähdä upouutta AS merchiä!! Tämä hyvän mielen tyyppi
             on Jaakko Aalto!'
-          en: 'The guild’s very own Mr. Cameraman has recently excelled in the study, corporate relations, and finance committees. 
-            His handiwork shines through in amazing marketing videos on the guild’s and the university’s social media. The guild’s 
-            connection to SAS would not be the same without him, and on top of that, we might see brand-new AS merch this fall! This 
+          en:
+            'The guild’s very own Mr. Cameraman has recently excelled in the study, corporate relations, and finance committees.
+            His handiwork shines through in amazing marketing videos on the guild’s and the university’s social media. The guild’s
+            connection to SAS would not be the same without him, and on top of that, we might see brand-new AS merch this fall! This
             bringer of good vibes is Jaakko Aalto!'
       - name: Akseli Hilander
         description:
-          fi: 'Killan sitsien valokuvaajakiintiön vakiotäyttäjänä, tämän kiltalaisen tuotanto viime vuosilta ei kalpene monelle. 
+          fi:
+            'Killan sitsien valokuvaajakiintiön vakiotäyttäjänä, tämän kiltalaisen tuotanto viime vuosilta ei kalpene monelle.
             Hän on jokaisen tapahtumanjärjestäjän ja osallistujan pyyteetön sankari, hän on Akseli Hilander!'
-          en: 'As the go-to photographer for the guild’s sitsit, this guild member’s work over the years stands second to none. 
+          en:
+            'As the go-to photographer for the guild’s sitsit, this guild member’s work over the years stands second to none.
             He is the selfless hero of every event organizer and participant alike—he is Akseli Hilander!'
       - name: Pyry Lysmä
         description:
-          fi: 'Seuraava palkinnon ansaitsija hyppäsi välittömästi puikkoihin, uudistamaan toimintaa. Esimerkillinen toimikunnan 
-            johtaminen alkoi aktiivisella kyselyllä ja selvittämisellä, jatkui brändiuudistuksella ja nyt näemme alkuvuoden tuotokset 
-            yhtenä kaikkien aikojen aktiivisimmista liikuntatoimikunnista. Todellinen tekemisen palo näkyy tästä kiltalaisesta, eli 
+          fi:
+            'Seuraava palkinnon ansaitsija hyppäsi välittömästi puikkoihin, uudistamaan toimintaa. Esimerkillinen toimikunnan
+            johtaminen alkoi aktiivisella kyselyllä ja selvittämisellä, jatkui brändiuudistuksella ja nyt näemme alkuvuoden tuotokset
+            yhtenä kaikkien aikojen aktiivisimmista liikuntatoimikunnista. Todellinen tekemisen palo näkyy tästä kiltalaisesta, eli
             Pyry Lysmästä!'
-          en: 'The next award recipient jumped right into action, leading the way in renewing operations. Their exemplary committee 
-            leadership began with active inquiries and research, followed by a rebranding effort, and now we see the results of their 
-            work in one of the most active sports committees of all time. This guild member’s true passion for action shines through—he 
+          en:
+            'The next award recipient jumped right into action, leading the way in renewing operations. Their exemplary committee
+            leadership began with active inquiries and research, followed by a rebranding effort, and now we see the results of their
+            work in one of the most active sports committees of all time. This guild member’s true passion for action shines through—he
             is Pyry Lysmä!'
       - name: Ilkka Taponen
         description:
-          fi: 'Tämän jokapaikanhöylän löytää lähes poikkeuksetta ASkista. Kyseessä oleva tuore tekijä on ansioitunut varsinkin 
-            Stigutoimikunnan ja Kultaisen Tomaatin rivissä, pelastaen tämän vuoden lehdet aktiivisuudellaan ja taiton tekemisellä! 
+          fi:
+            'Tämän jokapaikanhöylän löytää lähes poikkeuksetta ASkista. Kyseessä oleva tuore tekijä on ansioitunut varsinkin
+            Stigutoimikunnan ja Kultaisen Tomaatin rivissä, pelastaen tämän vuoden lehdet aktiivisuudellaan ja taiton tekemisellä!
             Meidän oma sitsieläimemme on tietenkin Ilkka Taponen'
-          en: 'This all-around doer can almost always be found at ASki. This fresh contributor has especially excelled in the 
-            Stigu committee and Golden Tomato, saving this year’s publications with their dedication and layout skills! Our 
+          en:
+            'This all-around doer can almost always be found at ASki. This fresh contributor has especially excelled in the
+            Stigu committee and Golden Tomato, saving this year’s publications with their dedication and layout skills! Our
             very own sitsi animal is Ilkka Taponen'
       - name: Ossi Syrjälahti
         description:
-          fi: 'Tämä kiltajätti on äärimmäisen tehokas pöhisijä, mutta omaa taidon lähteä jokaiseen haasteeseen leppoisella 
-            asenteella. Hän on toiminut alkuvuoden jopa kahden toimikunnan johdossa. Hän on uudistanut alkuvuoden ASkia, tarjonnut 
-            rrrRankalle loistavaa alkoholitonta kotiviiniä, ja suurimpana saavutuksenaan, saanut Stigutoimikunnan tekemään jotain “:D”. 
+          fi:
+            'Tämä kiltajätti on äärimmäisen tehokas pöhisijä, mutta omaa taidon lähteä jokaiseen haasteeseen leppoisella
+            asenteella. Hän on toiminut alkuvuoden jopa kahden toimikunnan johdossa. Hän on uudistanut alkuvuoden ASkia, tarjonnut
+            rrrRankalle loistavaa alkoholitonta kotiviiniä, ja suurimpana saavutuksenaan, saanut Stigutoimikunnan tekemään jotain “:D”.
             Tämä ratkaisija on Ossi Syrjälahti!'
-          en: 'This guild giant is an extremely efficient whirlwind of activity but has the rare ability to take on every challenge 
-            with a laid-back attitude. Throughout the beginning of the year, he has led not just one but two committees. He has revamped 
-            ASki, provided rrrRanka with excellent alcohol-free homemade wine, and, perhaps his greatest achievement—got the Stigu committee 
+          en:
+            'This guild giant is an extremely efficient whirlwind of activity but has the rare ability to take on every challenge
+            with a laid-back attitude. Throughout the beginning of the year, he has led not just one but two committees. He has revamped
+            ASki, provided rrrRanka with excellent alcohol-free homemade wine, and, perhaps his greatest achievement—got the Stigu committee
             to actually do something “:D”. This problem-solver is Ossi Syrjälahti!'
       - name: Apollo Ailus
         description:
-          fi: 'Tämä kiltalainen on työskennellyt vuosia väsymättä taustalla parantaakseen englanninkielisten opiskelijoiden asemaa AS:ssa. 
-            Hän on keskeinen tekijä killan markkinoinnissa yliopiston ulkopuolella ja yksi pääsyistä siihen, että sitsipöydissä kuullaan 
+          fi:
+            'Tämä kiltalainen on työskennellyt vuosia väsymättä taustalla parantaakseen englanninkielisten opiskelijoiden asemaa AS:ssa.
+            Hän on keskeinen tekijä killan markkinoinnissa yliopiston ulkopuolella ja yksi pääsyistä siihen, että sitsipöydissä kuullaan
             aasisiltoja myös englanniksi. Hän on Apollo Ailus!'
-          en: 'This Guild member has worked tirelessly in the background for years to boost the status of the english-speaking students of 
-            AS. He’s a core part of marketing AS outside the University and one of the main reasons we can hear donkey bridges in english 
+          en:
+            'This Guild member has worked tirelessly in the background for years to boost the status of the english-speaking students of
+            AS. He’s a core part of marketing AS outside the University and one of the main reasons we can hear donkey bridges in english
             as well at our sitsis, he is Apollo Ailus'
       - name: Santeri Hildén
         description:
-          fi: 'Tämä älyttömän positiivinen ja reipas killisti on saanut lyhyen kiltauransa aikana valtavasti aikaan! Hän on viime vuoden 
-            Stilliksen pelastanut taho, joka otti tapahtuman vetovastuun, vaikka ei kuulunut edes toimikuntaan! Tänä vuonna hän jatkaa hyvällä 
+          fi:
+            'Tämä älyttömän positiivinen ja reipas killisti on saanut lyhyen kiltauransa aikana valtavasti aikaan! Hän on viime vuoden
+            Stilliksen pelastanut taho, joka otti tapahtuman vetovastuun, vaikka ei kuulunut edes toimikuntaan! Tänä vuonna hän jatkaa hyvällä
             otteella Stimutoimikunnassa, minIEninä ja tietenkin ASkimestari. Tämä hymypoika on Santeri Hilden!'
-          en: 'This incredibly positive and energetic guild member has achieved so much in a short time! He was the savior of last year’s 
-            Stillis, stepping up to lead the event even though he wasn’t even part of the committee! This year, he continues his great work in the 
+          en:
+            'This incredibly positive and energetic guild member has achieved so much in a short time! He was the savior of last year’s
+            Stillis, stepping up to lead the event even though he wasn’t even part of the committee! This year, he continues his great work in the
             Stimu committee, as a minIE, and of course, as the ASki master. This smiley hero is Santeri Hilden!'
       - name: Hajiba Legrara
         description:
-          fi: 'Seuraava kiltalainen on ollut kriittinen osa AS:n yrityssuhteita jo pitkään. Hän on neuvotellut uusia yhteistyökuvioita, 
-            ylläpitänyt olemassa olevia suhteita ja tuonut ammattimaisuutta toimikunnan työhön. Yritysten lisäksi hän pitää tällä hetkellä 
+          fi:
+            'Seuraava kiltalainen on ollut kriittinen osa AS:n yrityssuhteita jo pitkään. Hän on neuvotellut uusia yhteistyökuvioita,
+            ylläpitänyt olemassa olevia suhteita ja tuonut ammattimaisuutta toimikunnan työhön. Yritysten lisäksi hän pitää tällä hetkellä
             yhteyksiä myös TEKiin killan puolesta! Tämä kiltalainen on tietenkin Hajiba Legrara!'
-          en: 'This next guild member has been a critical part of AS corporate relations for a while now. They’ve negotiated new cooperation, 
-            kept up existing ones and brought professionalism into the work of the committee. In addition to companies, they’re currently keeping 
+          en:
+            'This next guild member has been a critical part of AS corporate relations for a while now. They’ve negotiated new cooperation,
+            kept up existing ones and brought professionalism into the work of the committee. In addition to companies, they’re currently keeping
             contacts with TEK for the guild! This guild member is of course Hajiba Legrara!'
       - name: Emilia Junnonen
         description:
-          fi: 'Tänä keväänä yksi vuoden ehdottomista kohokohdista, nimittäin retkihaaste, palasi suurempana kuin koskaan osaksi tämän kiltalaisen 
-            ansiosta. Lisäksi hän on erityisen ansioitunut minIEn jo toista vuotta. Tällä retkimestarilla on vielä ennennäkemättömiä suunnitelmia 
+          fi:
+            'Tänä keväänä yksi vuoden ehdottomista kohokohdista, nimittäin retkihaaste, palasi suurempana kuin koskaan osaksi tämän kiltalaisen
+            ansiosta. Lisäksi hän on erityisen ansioitunut minIEn jo toista vuotta. Tällä retkimestarilla on vielä ennennäkemättömiä suunnitelmia
             loppuvuodelle, hän on Emppu Junnonen!'
-          en: 'This spring, one of the absolute highlights of the year—the adventure challenge—returned bigger than ever, thanks to this guild member. 
-            In addition, they have excelled as a minIE for the second year in a row. This adventure master still has unprecedented plans for the rest of 
+          en:
+            'This spring, one of the absolute highlights of the year—the adventure challenge—returned bigger than ever, thanks to this guild member.
+            In addition, they have excelled as a minIE for the second year in a row. This adventure master still has unprecedented plans for the rest of
             the year—he is Emppu Junnonen!'
-          
