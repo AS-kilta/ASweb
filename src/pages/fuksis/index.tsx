@@ -9,7 +9,7 @@ import ContactCard from '@src/components/profiles/ContactCard';
 import CircleCard from '@src/components/common/CircleCard';
 import heropic from '@src/images/images/20230502154358-1c055172-xx.jpg';
 import fuksicaptain1 from '@src/images/officials/2024/joel_forsstrom2.jpg';
-import fuksicaptain2 from '@src/images/officials/2024/kalle_kajoniemi.jpeg';
+import fuksicaptain2 from '@src/images/officials/2025/kalle_kajoniemi.jpg';
 
 interface Props extends PageProps {
   data: ImageArrayProps;
@@ -30,7 +30,7 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
     name: 'Kalle Kajoniemi',
     email: 'fuksikapteeni@as.fi',
     phone: '+358 452052581',
-    telegram: 'lihasta',
+    telegram: 'kalleinta',
     picture: fuksicaptain2,
   };
 
