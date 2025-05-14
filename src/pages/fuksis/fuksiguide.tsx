@@ -7,7 +7,7 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout
       pageContext={pageContext}
-      title="Fuksiopas 2024"
+      title="Fuksiopas 2025"
       lead="Fuksiopas sisältää kaiken, mitä sinun tarvitsee tietää tulevasta opiskelijaelämästä ja AS-killasta."
     >
       <div style={{ width: '100%' }}>
@@ -15,17 +15,17 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
           style={{ marginBlock: '1rem' }}
           className="rounded-button"
           target="_blank"
-          href="https://drive.google.com/file/d/1g84Ks-Wdh-ErTSQEiYZJUkdEntJ3tgYF/view?usp=sharing"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           rel="noreferrer"
         >
-          Lataa PDF
+          Julkaistaan piakkoin!
         </a>
-        <iframe
+        {/* <iframe
           src="https://drive.google.com/file/d/1g84Ks-Wdh-ErTSQEiYZJUkdEntJ3tgYF/preview"
           width="100%"
           height="800"
           allow="autoplay"
-        ></iframe>
+        ></iframe> */}
       </div>
     </PageLayout>
   );
