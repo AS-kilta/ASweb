@@ -8,8 +8,8 @@ import PageLayout from '@src/components/layouts/PageLayout';
 import ContactCard from '@src/components/profiles/ContactCard';
 import CircleCard from '@src/components/common/CircleCard';
 import heropic from '@src/images/images/20230502154358-1c055172-xx.jpg';
-import fuksicaptain1 from '@src/images/officials/2024/jenny_ruokolainen.jpg';
-import fuksicaptain2 from '@src/images/officials/2024/eero_huhtala.jpg';
+import fuksicaptain1 from '@src/images/officials/2024/joel_forsstrom2.jpg';
+import fuksicaptain2 from '@src/images/officials/2024/kalle_kajoniemi.jpeg';
 
 interface Props extends PageProps {
   data: ImageArrayProps;
@@ -18,19 +18,19 @@ interface Props extends PageProps {
 const Fuksis: React.FC<Props> = ({ pageContext }) => {
   const data1 = {
     title: 'fuksikapteeni',
-    name: 'Jenny Ruokolainen',
-    email: 'fuksikapteenit@as.fi',
-    phone: '+358452087899',
-    telegram: '@jequilaaa',
+    name: 'Joel Forsström',
+    email: 'fuksikapteeni@as.fi',
+    phone: '+358 417455475',
+    telegram: 'joel_forsstrom',
     picture: fuksicaptain1,
   };
 
   const data2 = {
     title: 'fuksikapteeni',
-    name: 'Eero Huhtala',
-    email: 'fuksikapteenit@as.fi',
-    phone: '+358505977876',
-    telegram: '@epasovelias',
+    name: 'Kalle Kajoniemi',
+    email: 'fuksikapteeni@as.fi',
+    phone: '+358 452052581',
+    telegram: 'lihasta',
     picture: fuksicaptain2,
   };
 
@@ -38,9 +38,24 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
 
   return (
     <PageLayout pageContext={pageContext} title="Fuksina killassa" background={heropic} heroHeight="tall">
+      <div>
+        <br />
+        <p>
+          Hei uusi Fuksi ja tervetuloa Automaatio- ja systeemitekniikan kiltaan! Näille sivuille kootaan pitkin kesää
+          kaikkea materiaalia, josta on apua opintojesi alussa ja ehkäpä jopa koko ensimmäisen vuoden ajan.
+          Fuksikapteenit on ne tyypit, joihin otat yhteyttä kun ihan mikä tahansa on huonosti tai muuten vaan :)
+        </p>
+      </div>
+
       <div style={styleCard} className={boardStyle.board}>
         <ContactCard data={data1} />
         <ContactCard data={data2} />
+      </div>
+      <div>
+        <p>
+          Koski asia sitten pientä juttua tai jotakin isompaa huolta, vastaa Fuksikapteeni parhaansa mukaan vaikka
+          keskellä yötä. (Suositellaan kuitenkin yhteydenottoa päivisin.)
+        </p>
       </div>
 
       <h2 id="1" className="underline">
@@ -88,8 +103,8 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
         <p>
           Telegramia käytetään myös oleellisena osana fuksien tiedotuksessa ja toivotaankin, että kaikki fuksit
           liittyisivät AS-fukseille tarkoitettuun Telegram-ryhmään{' '}
-          <a href="https://t.me/+_yeZhoidAME0OWVk">fuksit 24</a> ja DSD-fuksit myös DSD-fuksien omaan Telegram-ryhmään{' '}
-          <a href="https://t.me/+iu3puQEDrWcxNzY8">DSD fuksit 24</a>
+          <a href="https://t.me/+qQzXeRrsDu9mOWQ8">fuksit 25</a> ja DSD-fuksit myös DSD-fuksien omaan Telegram-ryhmään{' '}
+          <a href="https://t.me/+m0GXxm6Fk58xZTg0">DSD fuksit 25</a>
         </p>
       </div>
 
@@ -104,7 +119,7 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
         </p>
         <p>
           AS-kilta vastaanottaa vuosittain noin 200 fuksia, joiden integroitumisesta kiltaan huolehtii killan
-          fuksikapteenit, apunaan Masters and International Student Captain, ISO-pomo ja Tosi-ISOt. Yhdessä nämä
+          fuksikapteenit, apunaan Masters and International Student Captain, ISO-pomo ja FuksiaASistentit. Yhdessä nämä
           muodostavat killan fuksitoimikunnan, ASPU:n.
         </p>
         <p>

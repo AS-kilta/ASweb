@@ -8,8 +8,8 @@ import PageLayout from '@src/components/layouts/PageLayout';
 import ContactCard from '@src/components/profiles/ContactCard';
 import CircleCard from '@src/components/common/CircleCard';
 import heropic from '@src/images/images/20230502154358-1c055172-xx.jpg';
-import fuksicaptain1 from '@src/images/officials/2024/jenny_ruokolainen.jpg';
-import fuksicaptain2 from '@src/images/officials/2024/eero_huhtala.jpg';
+import fuksicaptain1 from '@src/images/officials/2024/joel_forsstrom2.jpg';
+import fuksicaptain2 from '@src/images/officials/2024/kalle_kajoniemi.jpeg';
 
 interface Props extends PageProps {
   data: ImageArrayProps;
@@ -18,19 +18,19 @@ interface Props extends PageProps {
 const Fuksis: React.FC<Props> = ({ pageContext }) => {
   const data1 = {
     title: 'Fuksicaptain',
-    name: 'Jenny Ruokolainen',
-    email: 'fuksikapteenit@as.fi',
-    phone: '+358452087899',
-    telegram: '@jequilaaa',
+    name: 'Joel Forsström',
+    email: 'fuksikapteeni@as.fi',
+    phone: '+358 417455475',
+    telegram: 'joel_forsstrom',
     picture: fuksicaptain1,
   };
 
   const data2 = {
     title: 'Fuksicaptain',
-    name: 'Eero Huhtala',
-    email: 'fuksikapteenit@as.fi',
-    phone: '+358505977876',
-    telegram: '@epasovelias',
+    name: 'Kalle Kajoniemi',
+    email: 'fuksikapteeni@as.fi',
+    phone: '+358 452052581',
+    telegram: 'lihasta',
     picture: fuksicaptain2,
   };
 
@@ -38,9 +38,26 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
 
   return (
     <PageLayout pageContext={pageContext} title="For Fuksis" background={heropic} heroHeight="tall">
+      <div>
+        <br />
+        <p>
+          Hello new Fuksi and welcome to the Guild of Automation and Systems Technology! Throughout the summer, we'll be
+          gathering all sorts of useful material on these pages to help you get started with your studies — and maybe
+          even support you throughout your whole first year. The Fuksi Captains are the people you should reach out to
+          whenever anything at all is bothering you — or even just for fun! :)
+        </p>
+      </div>
       <div style={styleCard} className={boardStyle.board}>
         <ContactCard data={data1} />
         <ContactCard data={data2} />
+      </div>
+
+      <div>
+        <br />
+        <p>
+          Whether it's something small or a bigger concern, a Fuksi Captain will do their best to help — even in the
+          middle of the night. (Though we do recommend contacting us during the day.)
+        </p>
       </div>
 
       <h2 id="1" className="underline">
@@ -87,8 +104,8 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
         </p>
         <p>
           Telegram is also used as an essential part of informing fuksis, and we hope that all fuksis would join the
-          Telegram group for AS fuksis <a href="https://t.me/+_yeZhoidAME0OWVk">fuksit 24</a> and DSD fuksis also join
-          the own Telegram group for DSD fuksis <a href="https://t.me/+iu3puQEDrWcxNzY8">DSD fuksit 24</a>
+          Telegram group for AS fuksis <a href="https://t.me/+qQzXeRrsDu9mOWQ8">fuksit 25</a> and DSD fuksis also join
+          the own Telegram group for DSD fuksis <a href="https://t.me/+m0GXxm6Fk58xZTg0">DSD fuksit 25</a>
         </p>
       </div>
 
@@ -103,8 +120,8 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
         </p>
         <p>
           The AS guild receives about 200 fuksis every year, whose integration into the guild is taken care of by the
-          guild's Fuksi Captains, assisted by the Masters and International Student Captain, the ISO boss and Tosi-ISOs.
-          Together, these form the guild's fuksicommittee, ASPU.
+          guild's Fuksi Captains, assisted by the Masters and International Student Captain, the ISO boss and Fuksi
+          aASistants. Together, these form the guild's fuksicommittee, ASPU.
         </p>
         <p>
           ASPU is assisted by a large number of ISOs, whose tasks include introducing the fuksis to the campus and
