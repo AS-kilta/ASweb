@@ -3,7 +3,7 @@ import type { HeadFC, HeadProps } from 'gatsby';
 import Meta from '@src/components/common/Meta';
 import PageLayout from '@src/components/layouts/PageLayout';
 //import heropic from "@src/images/images/IMG_6067-Edit.jpg" //pitää vaihtaa
-// import { StaticImage } from 'gatsby-plugin-image';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
   return (
@@ -17,21 +17,15 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
 
       <div className="image-container">
         <p>Orientation week is a hectic week with lots to do and explore!</p>
-        {/* <p>
+        <p>
           Here is the orientation week schedule as of now, we will try to update this to the best of our ability during
           summer.
         </p>
         <StaticImage
           className="centered-image"
-          src="../../../images/images/DSD_timetable_24.png"
-          alt='"DSD_timetable'
-        /> */}
-      </div>
-      <div>
-        <p>
-          The orientation week schedule will be uploaded here as soon as possible and will be updated during the summer
-          to the best of our abilities
-        </p>
+          src="../../../images/images/orientaatioviikon-aikataulu-DSD.png"
+          alt="DSD_timetable"
+        />
       </div>
     </PageLayout>
   );
