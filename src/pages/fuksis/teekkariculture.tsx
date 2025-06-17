@@ -45,9 +45,9 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
         </p>
         <StaticImage className="image wide" src="../../images/images/photo_2025-03-11_13-58-09.jpg" alt="" />
         <p>
-          Haalareiden arvo on noin 70 €, mutta kilta tukee fuksien haalaritilauksia siten, että fukseille oamt haalarit
-          maksavat noin 35 €. Maksat haalarit sitten, kun saat ne. Hienon vyön saat ilmaiseksi, kun liityt TEKin
-          jäseneksi!
+          Haalareiden arvo on noin 70 €, mutta kilta tukee fuksien haalaritilauksia siten, että fukseille ensimmäiset
+          haalarit maksavat tästä noin puolet. Maksat haalarit sitten, kun saat ne. Hienon vyön saat ilmaiseksi, kun
+          liityt TEKin jäseneksi!
         </p>
         <p>
           Jos havaitset haalareissa jotain vikaa tai valitettavaa, niin ilmoitathan asiasta heti. Valmistusvirheistä
