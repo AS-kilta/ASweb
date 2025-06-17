@@ -47,8 +47,8 @@ const Teekkariculture: React.FC<PageProps> = ({ pageContext }) => {
           to order, you should do it as soon as possible! The order is binding.
         </p>
         <p>
-          The value of the overalls is around 80€, but the guild supports overalls orders so that the first overalls for
-          fuksis cost around 30€. Don't forget to get yourself a nice belt!
+          The value of the overalls is around 70€, but the guild supports overalls orders so that the first overalls for
+          fuksis cost around half of that. Don't forget to get yourself a nice belt!
         </p>
         <p>
           If you notice something wrong about the overalls, please report it immediately. Defects caused by

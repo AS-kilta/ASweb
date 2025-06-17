@@ -23,31 +23,9 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
         </p>
         <StaticImage
           className="centered-image"
-          src="../../../images/images/DSD_timetable_24.png"
-          alt='"DSD_timetable'
+          src="../../../images/images/orientaatioviikon-aikataulu-DSD.png"
+          alt="DSD_timetable"
         />
-      </div>
-      <div>
-        <p>
-          More information about University's own program (blue slots) can be found{' '}
-          <a
-            target="_self"
-            href="https://www.aalto.fi/en/programmes/aalto-bachelors-programme-in-science-and-technology/starting-your-studies"
-          >
-            here.
-          </a>
-        </p>
-        <p>
-          If you have any questions about the schedule or starting your studies, don't be afraid to message us at{' '}
-          <a href="mailto:fuksikapteenit@as.fi.com">fuksikapteenit@as.fi</a> or on Telegram{' '}
-          <a target="_self" href="https://t.me/fuksikapteenit">
-            @fuksikapteenit
-          </a>
-          .
-        </p>
-
-        <p>Have a lovely summer!</p>
-        <p>Your Fuksi Captains: Eero and Jenny</p>
       </div>
     </PageLayout>
   );

@@ -7,7 +7,7 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout
       pageContext={pageContext}
-      title="Maisteri- ja vaihto-opiskelijoiden Fuksiopas 2024"
+      title="Maisteri- ja vaihto-opiskelijoiden Fuksiopas 2025"
       lead="Fuksiopas sisältää kaiken, mitä sinun tarvitsee tietää tulevasta opiskelijaelämästä ja AS-killasta."
     >
       <div style={{ width: '100%' }}>
@@ -15,17 +15,18 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
           style={{ marginBlock: '1rem' }}
           className="rounded-button"
           target="_blank"
-          href="https://drive.google.com/file/d/1vYs4y_rdWCzXB-4x7nl-o2d02wzuA4Qv/view?usp=sharing"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           rel="noreferrer"
         >
-          Lataa PDF
+          Julkaistaan piakkoin!
         </a>
-        <iframe
+
+        {/* <iframe
           src="https://drive.google.com/file/d/1vYs4y_rdWCzXB-4x7nl-o2d02wzuA4Qv/preview"
           width="100%"
           height="800"
           allow="autoplay"
-        ></iframe>
+        ></iframe> */}
       </div>
     </PageLayout>
   );

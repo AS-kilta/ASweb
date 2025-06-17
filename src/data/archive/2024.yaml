@@ -1,0 +1,2389 @@
+year: '2024'
+
+board:
+  - title:
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Leevi Hormaluoma'
+    email: 'puheenjohtaja@as.fi'
+    phone: '+358 400366690'
+    telegram: 'askilta'
+    picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+    description:
+      fi: "Johtaa hallitusta ja sitä kautta koko killan toimintaa.\nOta yhteyttä puheenjohtajaan, jos asiasi koskee kiltaa tai et tiedä keneen ottaa yhteyttä."
+      en: "The chairperson leads the guild's board and represents the guild; they are ultimately responsible for keeping the guild's activities on track.  Contact the Chairman if your matter concerns the guild or if you don't know whom to contact."
+
+  - title:
+      fi: 'Varapuheenjohtaja'
+      en: 'Vice Chairperson'
+    name: 'Juho Komulainen'
+    email: 'varapuheenjohtaja@as.fi'
+    phone: '+358 503538597'
+    telegram: 'jkimalainen'
+    picture: '../images/officials/2024/juho_komulainen.jpg'
+    description:
+      fi: 'Avustaa puheenjohtajaa ja hoitaa sihteerin tehtäviä. Vastaa pöytäkirjojen tekemisestä hallituksen ja killan kokouksista sekä kiltaa koskevan materiaalin arkistoinnista huolehtimisesta.'
+      en: 'Works with the chairperson and acts as the secretary. The vice chairperson is responsible for writing the minutes of the board and guild meetings, looking after the archive and badges of honor.'
+
+  - title:
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Rafael Majaharju'
+    email: 'rahastonhoitaja@as.fi'
+    phone: '+358 458737450'
+    telegram: 'majaraffe'
+    picture: '../images/officials/2024/rafael_majaharju.jpg'
+    description:
+      fi: "Huolehtii killan raha-asioista, kuten laskujen maksamisesta ja kirjanpidosta.\nOta yhteyttä rahastonhoitajaan raha-asioissa."
+      en: "The treasurer is responsible for taking care of the guild's finances, for instance, paying bills and bookkeeping. Contact the treasure in the financial matters."
+
+  - title:
+      fi: 'Viestintämestari'
+      en: 'Head of Communications'
+    name: 'Leena Jääskeläinen'
+    email: 'viestintamestari@as.fi'
+    phone: '+358 409626693'
+    telegram: 'jaaskle'
+    picture: '../images/officials/2024/leena_jaaskelainen.jpg'
+    description:
+      fi: "Vastaa jäsenistön tiedottamisesta lähettämällä tiedotteita ja ylläpitämällä kalenteria. Viestintämestari pitää ajan tasalla myös killan sähköpostilistoja ja nettisivujen sisältöä.\nOta yhteyttä viestintämestariin halutessasi tiedottaa killisteille jotakin."
+      en: "The Master of Communication keeps guild members informed about various events and other interesting and important matters. They take care of the guild's channels of communication, email lists, calendar and website, in addition to which they also send a weekly bulletin that explain what is happening and where. Contact the Master of Communication when you want to share information to the guild members."
+
+  - title:
+      fi: 'Fuksikapteeni'
+      en: 'Fuksi Captain'
+    name: 'Jenny Ruokolainen'
+    email: 'fuksikapteeni@as.fi'
+    phone: '+358 452087899'
+    telegram: 'jequilaa'
+    picture: '../images/officials/2024/jenny_ruokolainen.jpg'
+    description:
+      fi: 'Vastaa killan fuksikasvatuksesta ja -toiminnasta. Järjestää fuksitapahtumia killan, korkeakoulun sekä yliopiston muiden fuksikapteenien kanssa. Toimii esimerkkinä ja tukena fukseille. Työskentelee yhteistyössä ISOpomon kanssa.'
+      en: 'The Fuksi Captain is responsible for all fuksi wellbeing and fuksi events. They organize events for fuksis with other guild members, the University and other Fuksi Captains. Collaborates closely with the Tutor Coordinator.'
+
+  - title:
+      fi: 'Fuksikapteeni'
+      en: 'Fuksi Captain'
+    name: 'Eero Huhtala'
+    email: 'fuksikapteeni@as.fi'
+    phone: '+358 505977876'
+    telegram: 'epasovelias'
+    picture: '../images/officials/2024/eero_huhtala.jpg'
+    description:
+      fi: 'Vastaa killan fuksikasvatuksesta ja -toiminnasta. Järjestää fuksitapahtumia killan, korkeakoulun sekä yliopiston muiden fuksikapteenien kanssa. Toimii esimerkkinä ja tukena fukseille. Työskentelee yhteistyössä ISOpomon kanssa.'
+      en: 'The Fuksi Captain is responsible for all fuksi wellbeing and fuksi events. They organize events for fuksis with other guild members, the University and other Fuksi Captains. Collaborates closely with the Tutor Coordinator.'
+
+  - title:
+      fi: "Master's and International Student Captain"
+      en: "Master's and International Student Captain"
+    name: 'Amr Abass'
+    email: 'misc@as.fi'
+    phone: '+358 458646009'
+    telegram: 'abassamr'
+    picture: '../images/officials/2024/amr_abass.jpg'
+    description:
+      fi: 'Vastaa killan kansainvälisten ja maisteriopiskelijoiden fuksikasvatuksesta ja -toiminnasta. Työskentelee yhteistyössä fuksikapteenien ja ISOpomon kanssa. Ota yhteyttä MISC:iin jos asiasi koskee kansainvälistä toimintaa.'
+      en: "The Master and International Student Captain is responsible of fuksi wellbeing and fuksi events for international and master's students. They collaborate closely with the freshman captains and the tutor boss. Contact the MISC if you are confused international student or if your matter concerns international affairs."
+
+  - title:
+      fi: 'ISOpomo'
+      en: 'ISOboss'
+    name: 'Pessi Lyytikäinen'
+    email: 'isopomo@as.fi'
+    phone: '+358 440161705'
+    telegram: 'Pessimismi'
+    picture: '../images/officials/2024/pessi_lyytikainen.jpg'
+    description:
+      fi: 'Organisoi ISOhenkilöiden rekryämisen, koulutuksen ja yleisen toiminnan. Työskentelee yhteistyössä fuksikapteenien kanssa.'
+      en: 'The Tutor Boss is responsible of recruitment, preparation and general operation of tutors. They collaborate closely with the freshman captains. Contact the Tutor Boss if your matter concerns tutors.'
+
+  - title:
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Leila Lavonen'
+    email: 'ie@as.fi'
+    phone: '+358 449759103'
+    telegram: 'slerbe'
+    picture: '../images/officials/2024/leila_lavonen.jpg'
+    description:
+      fi: "Järjestää yhdessä Emännän kanssa kiltalaisille mitä moninaisimpia tapahtumia ja huolehtii elintarvikkeiden välittämisestä killistien vatsalaukkuihin. Organisoi huvitoimikunnan toimintaa ja kehittää killan tapahtumakulttuuria.\nOta yhteyttä IE:hen, jos asiasi koskee killan tapahtumia."
+      en: 'The Host arranges various events together with the hostess for the guild members. Together with Hostess they lead the Entertainment Committee and work towards even better events. Contact the Host or the Hostess if your matter concerns a guild event.'
+
+  - title:
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Eeva Järvenpää'
+    email: 'ie@as.fi'
+    phone: '+358 409655961'
+    telegram: 'jareeva'
+    picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+    description:
+      fi: "Järjestää yhdessä Isännän kanssa kiltalaisille mitä moninaisimpia tapahtumia ja huolehtii elintarvikkeiden välittämisestä killistien vatsalaukkuihin. Organisoi huvitoimikunnan toimintaa ja kehittää killan tapahtumakulttuuria.\nOta yhteyttä IE:hen, jos asiasi koskee killan tapahtumia."
+      en: 'The Hostess arranges various events together with the host for the guild members. Together with Host they lead the Entertainment Committee and work towards even better events. Contact the Hostess or the Host if your matter concerns a guild event.'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Master of Studies'
+    name: 'Mikhail Romanov'
+    email: 'opintomestari@as.fi'
+    phone: '+358 453225588'
+    telegram: 'm_rmnv'
+    picture: '../images/officials/2024/mikhail_romanov.jpg'
+    description:
+      fi: "Ylläpitää yhteyttä koulun henkilökuntaan, pitää itsensä tietoisena tutkinto-ohjelmassa tapahtuvista muutoksista ja vastaa kiltalaisten edunvalvonnasta. Johtaa killan opintotoimikuntaa.\nOpintomestariin voi ottaa yhteyttä opintoihin liittyvissä asioissa."
+      en: "The Master of Studies maintains communications between the guild and the university. They also work as the contact person for the guild's trustees and represent students in the meetings of the university's governing body. Contact the Master of Studies if your matter has to do with your studies or school in general."
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Akseli Pihlajamaa'
+    email: 'yrityssuhdevastaava@as.fi'
+    phone: '+358 452761221'
+    telegram: 'akslay'
+    picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
+    description:
+      fi: "Vastaa killan suhteista yrityksiin ja excursioiden järjestämisestä. Organisoi killan mainosmyyntiä sekä kehittää killan mainetta ja kunniaa yritysten silmissä. Johtaa killan yrityssuhdetoimikuntaa. \nOta yhteyttä yrityssuhdemestariin, jos asiasi liittyy yrityssuhteisiin."
+      en: 'The Head of Corporate Relations leads the corporate relations committee. They advance the reputation and credit of the guild among the corporations by collaborating with them. They also organize excursions, events and sponsorships. Contact the Head of Corporate Relations if your matter concerns corporate relations.'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Master of Culture'
+    name: 'Elina Leiniö'
+    email: 'kulttuurimestari@as.fi'
+    phone: '+358 505753380'
+    telegram: 'elunaheluna'
+    picture: '../images/officials/2024/elina_leinio.jpg'
+    description:
+      fi: 'Pitää yllä killan vanhoja ulkosuhteita sekä luo uusia. Johtaa kulttuuritoimikuntaa ja järjestää sen jäsenten kanssa killale kulttuuritapahtumia. Tykkää pitää yhteyttä moneen eri tahoon ja hengailla myös muun kuin violetin väristen ihmisten kanssa. Ota yhteyttä kulttuurimestariin, jos asiasi liittyy kulttuuriasioihin.'
+      en: 'The Master of Culture maintains the external relations with student organisations across Finland and builds new ones. They lead the Culture and Sports Committee, organise various happenings, cultural excursions and events to test different sports. Contact the Master of Culture if your matter concerns culture in any way.'
+
+officials:
+  - name:
+      fi: 'Fuksitoimikunta'
+      en: 'Fuksi Committee'
+    members:
+      - name: 'Jenny Ruokolainen'
+        title:
+          - fi: 'Fuksikapteeni'
+            en: 'Fuksi Captain'
+        picture: '../images/officials/2024/jenny_ruokolainen.jpg'
+        leader: true
+      - name: 'Eero Huhtala'
+        title:
+          - fi: 'Fuksikapteeni'
+            en: 'Fuksi Captain'
+        picture: '../images/officials/2024/eero_huhtala.jpeg'
+        leader: true
+      - name: 'Amr Abass'
+        title:
+          - fi: "Master's and International Student Captain (MISC)"
+            en: "Master's and International Student Captain (MISC)"
+        picture: '../images/officials/2024/amr_abass.jpg'
+      - name: 'Lotta Hannelius'
+        title:
+          - fi: "Master's and International Student Captain (MISC)"
+            en: "Master's and International Student Captain (MISC)"
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Pessi Lyytikäinen'
+        title:
+          - fi: 'ISOpomo'
+            en: 'ISOboss'
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+        picture: '../images/officials/2024/pessi_lyytikainen.jpg'
+      - name: 'Aapo Vuokila'
+        title:
+          - fi: 'DSDeputy'
+            en: 'DSDeputy'
+        picture: '../images/officials/2024/aapo_vuokila.jpeg'
+      - name: 'Kabir Bissessar'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+        picture: '../images/officials/2024/kabir_bissessar.jpeg'
+      - name: 'Aditya Agrawal'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+        picture: '../images/officials/2024/aditya_agrawal.jpeg'
+      - name: 'Taavi Järvinen'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+        picture: '../images/officials/2024/janina_kemppainen.jpeg'
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+        picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+      - name: 'Santeri Hildén'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+        picture: '../images/officials/2024/santeri_hilden.jpeg'
+      - name: 'Sophia Lee'
+        title:
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+        picture: '../images/officials/2023/sophia_lee.jpg'
+      - name: 'Mimi Määttä'
+        title:
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+        picture: '../images/officials/2023/mimi_maatta.jpg'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+        picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'FuksikontRolleri'
+            en: 'Fuksi contRoller'
+        picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'FuksikontRolleri'
+            en: 'Fuksi contRoller'
+        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      - name: 'Maria Saranpää'
+        title:
+          - fi: 'IIISOpomo'
+            en: 'IIIIISO Boss'
+        picture: '../images/officials/2023/maria_saranpaa.jpg'
+      - name: 'Anthony Reineck'
+        title:
+          - fi: "Senior Executive Master's and International Student Captain (SEMISC)"
+            en: "Senior Executive Master's and International Student Captain (SEMISC)"
+        picture: '../images/officials/2023/anthony_reineck.jpg'
+      - name: 'Beatriz Glaser'
+        title:
+          - fi: 'DSDirector'
+            en: 'DSDirector'
+        picture: '../images/officials/2023/beatriz_glaser.jpg'
+
+  - name:
+      fi: 'Opintotoimikunta'
+      en: 'Study Committee'
+    members:
+      - name: 'Mikhail Romanov'
+        title:
+          - fi: 'Opintomestari'
+            en: 'Master of Studies'
+        picture: '../images/officials/2024/mikhail_romanov.jpg'
+        leader: true
+      - name: 'Valentin Honkonen'
+        title:
+          - fi: 'Automaatti'
+            en: 'Automaton'
+        picture: '../images/officials/2024/valentin_honkonen.jpeg'
+      - name: 'Henri Rosenberg'
+        title:
+          - fi: 'Automaatti'
+            en: 'Automaton'
+        picture: '../images/officials/2024/henri_rosenberg.jpeg'
+      - name: 'Henrik Strack'
+        title:
+          - fi: 'Informaatti'
+            en: 'Informant'
+        picture: '../images/officials/2024/henrik_starck.jpeg'
+      - name: 'Aditya Agrawal'
+        title:
+          - fi: 'DSDeetti'
+            en: 'DSDent'
+        picture: '../images/officials/2024/aditya_agrawal.jpeg'
+      - name: 'Ki Chun Tong'
+        title:
+          - fi: 'DSDeetti'
+            en: 'DSDent'
+        picture: '../images/officials/2024/ki_chun_tong.jpeg'
+      - name: 'Maria Salmensaari'
+        title:
+          - fi: 'Opintowanhus'
+            en: 'Opintowanhus'
+          - fi: 'Maisteri-informaatti'
+            en: "Master's Informant"
+        picture: '../images/officials/2024/maria_salmensaari.jpeg'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+        picture: '../images/officials/2024/janina_kemppainen.jpeg'
+      - name: 'Isabel Salmi'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+        picture: '../images/officials/2024/isabel_salmi.jpeg'
+      - name: 'Jaakko Aalto'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+        picture: '../images/officials/2024/jaakko_aalto.jpeg'
+      - name: 'Matti Laine'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+        picture: '../images/officials/2024/matti_laine.jpeg'
+      - name: 'Leo Teodosin'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Apollo Ailus'
+        title:
+          - fi: 'Halloped'
+            en: 'Halloped'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+  - name:
+      fi: 'Kulttuuritoimikunta'
+      en: 'Cultural Affairs Committee'
+    members:
+      - name: 'Elina Leiniö'
+        title:
+          - fi: 'Kulttuurimestari'
+            en: 'Master of Culture'
+        picture: '../images/officials/2024/elina_leinio.jpg'
+        leader: true
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Suurkulli'
+            en: 'Grand Cultist'
+        picture: '../images/officials/2023/lotta_makkonen.jpg'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+          - fi: 'JuomanlASkija'
+            en: 'JuomanlASkija'
+        picture: '../images/officials/2024/joonas_tormala.jpeg'
+      - name: 'Ossi Syrjälahti'
+        title:
+          - fi: 'JuomanlASkija'
+            en: 'JuomanlASkija'
+        picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+        picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Nuutti Laine'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+        picture: '../images/officials/2024/nuutti_laine.jpeg'
+      - name: 'Tommi Väisänen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Syed Ali Raza'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Nguyen Vu Minh'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+      - name: 'Paavo Nissinen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultist'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Hyvis'
+            en: 'Goody'
+        picture: '../images/officials/2023/arttu_pahta_2.jpg'
+      - name: 'Emilia Kuisma'
+        title:
+          - fi: 'Hyvis'
+            en: 'Goody'
+        picture: '../images/officials/2023/emilia_kuisma.jpg'
+
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Hyvinvointimestari'
+            en: 'Master of Wellbeing'
+        picture: '../images/officials/2023/kiira_metsoila_2.jpg'
+
+      - name: 'Kalle Kyöstiö'
+        title:
+          - fi: 'Wappuministeri'
+            en: 'Wappu Minister'
+          - fi: 'Jäykkäranne'
+            en: 'Jäykkäranne'
+        picture: '../images/officials/2024/kalle_kyostio.jpeg'
+      - name: 'Rasmus Honkalinna'
+        title:
+          - fi: 'Wappuministeri'
+            en: 'Wappu Minister'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'Jäykkäranne'
+            en: 'Jäykkäranne'
+        picture: '../images/officials/2023/erkka_multanen.jpg'
+
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'rrrRankkavastaava'
+            en: 'rrrRankka Manager'
+          - fi: 'Hyvis'
+            en: 'Goody'
+        picture: '../images/officials/2024/aino_valkama.jpeg'
+      - name: 'Roope Järvinen'
+        title:
+          - fi: 'rrrRankkavastaava'
+            en: 'rrrRankka Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+      - name: 'Ossi Syrjälahti'
+        title:
+          - fi: 'JuomanlASkija'
+            en: 'Cupbearer'
+        picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+  - name:
+      fi: 'Liikuntatoimikunta'
+      en: 'Sports Committee'
+    members:
+      - name: 'Pyry Lysmä'
+        title:
+          - fi: 'Liikuntavastaava'
+            en: 'Master of Sports'
+        picture: '../images/officials/2024/pyry_lysma.jpeg'
+        leader: true
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2023/lotta_makkonen.jpg'
+      - name: 'Maria Salmensaari'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/maria_salmensaari.jpeg'
+      - name: 'Aapo Heiska'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Tuure Survo'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/tuure_survo.jpeg'
+      - name: 'Iida Jauhola'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/iida_jauhola.jpeg'
+      - name: 'Santeri Parkkonen'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Arttu Härmälä'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/arttu_harmala.jpg'
+      - name: 'Kaarle Sarnes'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/kaarle_sarnes.jpeg'
+      - name: 'Markus Muilu'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Paavo Grönqvist'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/paavo_gronqvist.jpeg'
+      - name: 'Säde Mikkonen'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/sade_mikkonen.jpeg'
+      - name: 'Kalle Kajoniemi'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
+      - name: 'Aaro Kantola'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/2024/joonas_tormala.jpeg'
+      - name: 'Mikhail Romanov'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Tuomas Laaksonen'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Joonas Seppälä'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+  - name:
+      fi: 'Huvitoimikunta'
+      en: 'Entertainment Committee'
+    members:
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'Emäntä'
+            en: 'Hostess'
+        picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+        leader: true
+      - name: 'Leila Lavonen'
+        title:
+          - fi: 'Isäntä'
+            en: 'Host'
+        picture: '../images/officials/2024/leila_lavonen.jpeg'
+        leader: true
+      - name: 'Eero Huhtala'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/eero_huhtala.jpeg'
+      - name: 'Ossi Syrjälahti'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+      - name: 'Erno Laavola'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/erno_laavola.jpeg'
+      - name: 'Emilia Junnonen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/emilia_junnonen.jpeg'
+      - name: 'Johanna Tiitinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/johanna_tiitinen.jpeg'
+      - name: 'Leo Teodosin'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/leo_teodosin.jpeg'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/janina_kemppainen.jpeg'
+      - name: 'Joel Forsström'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/joel_forsstrom.jpg'
+      - name: 'Nia Lehtonen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Santeri Hildén'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/santeri_hilden.jpeg'
+      - name: 'Kalle Kajoniemi'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2023/erkka_multanen.jpg'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Veeti Kittamaa'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+      - name: 'Riina Salmi'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2023/tonis_partel.jpg'
+      - name: 'Aleksanteri Pitkenin'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2023/aleksanteri_pitkenin.jpg'
+      - name: 'Vinski Lång'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/vinski_lang.jpeg'
+      - name: 'Jesperi Hildén'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/jesperi_hilden.jpeg'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Mikhail Romanov'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/mikhail_romanov.jpg'
+      - name: 'Aditya Agrawal'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/aditya_agrawal.jpeg'
+      - name: 'Katariina Kokkonen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+        picture: '../images/officials/2024/katariina_kokkonen.jpeg'
+
+  - name:
+      fi: 'Lukkaritoimikunta'
+      en: 'Song Leader Committee'
+    members:
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'Lukkarimestari'
+            en: 'Master Song Leader'
+        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+        leader: true
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2023/erkka_multanen.jpg'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
+      - name: 'Aaro Saastamoinen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2023/aaro_saastamoinen.jpg'
+      - name: 'Henrik Starck'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/henrik_starck.jpeg'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2023/tonis_partel.jpg'
+
+      - name: 'Juho Komulainen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2023/juho_komulainen.jpg'
+
+      - name: 'Jenna Kerkkänen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+      - name: 'Apollo Ailus'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/apollo_ailus.jpeg'
+      - name: 'Ilkka Taponen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/ilkka_taponen.jpeg'
+      - name: 'Jaakko Tiiri'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/jaakko_tiiri.jpeg'
+      - name: 'Kalle Kajoniemi'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
+      - name: 'Jesperi Hildén'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/jesperi_hilden.jpeg'
+      - name: 'Veeti Kittamaa'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2023/arttu_pahta_2.jpg'
+      - name: 'Nuutti Laine'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/nuutti_laine.jpeg'
+      - name: 'Rasmus Honkalinna'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Joel Forsström'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/joel_forsstrom.jpg'
+      - name: 'Sakari Ropponen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+        picture: '../images/officials/2024/joel_forsstrom.jpg'
+  - name:
+      fi: 'ASkitoimikunta'
+      en: 'ASki Committee'
+    members:
+      - name: 'Santeri Hildén'
+        title:
+          - fi: 'ASkimestari'
+            en: 'ASkiMaster'
+        picture: '../images/officials/2024/santeri_hilden.jpeg'
+        leader: true
+      - name: 'Ossi Syrjälahti'
+        title:
+          - fi: 'ASkimestari'
+            en: 'ASkiMaster'
+        picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+        leader: true
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/joonas_tormala.jpeg'
+      - name: 'Elias Erke'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2023/elias_erke.jpg'
+      - name: 'Zhibin Yan'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Emil Lintunen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Henrik Starck'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/henrik_starck.jpeg'
+      - name: 'Niilo Saharinen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/niilo_saharinen.jpeg'
+      - name: 'Kalle Kajoniemi'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
+      - name: 'Hanni Tynjälä'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/hanni_tynjala.jpeg'
+      - name: 'Daniel Ruotsi'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/daniel_ruotsi.jpg'
+      - name: 'Arttu Härmälä'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/arttu_harmala.jpg'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2023/tonis_partel.jpg'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Rasmus Honkalinna'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Jyri Kolu'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/jyri_kolu.jpeg'
+      - name: 'Uuno Huuskonen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Jesperi Hildén'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/jesperi_hilden.jpeg'
+      - name: 'Veeti Kittamaa'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+      - name: 'Säde Mikkonen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+        picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'Vakooja'
+            en: 'Vakooja'
+        picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'Vakooja'
+            en: 'Vakooja'
+        picture: '../images/officials/2024/janina_kemppainen.jpeg'
+
+  - name:
+      fi: 'Yrityssuhdetoimikunta'
+      en: 'Corporate Relations Committee'
+    members:
+      - name: 'Akseli Pihlajamaa'
+        title:
+          - fi: 'Yrityssuhdevastaava'
+            en: 'Head of Corporate Relations'
+        picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
+        leader: true
+      - name: 'Valentin Honkonen'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/2024/valentin_honkonen.jpeg'
+      - name: 'Hajiba Legrara'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/2023/hajiba_legrara.jpg'
+      - name: 'Apollo Ailus'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/2024/apollo_ailus.jpeg'
+      - name: 'Pyry Lysmä'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/2024/pyry_lysma.jpeg'
+      - name: 'Rasmus Myöhänen'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/2024/rasmus_myohanen.jpeg'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Säde Mikkonen'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/2024/sade_mikkonen.jpeg'
+      - name: 'Kalle Kyöstiö'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'AS Puheenjohtaja'
+            en: 'AS Chairperson'
+        picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+      - name: 'Rafael Majaharju'
+        title:
+          - fi: 'AS Rahastonhoitaja'
+            en: 'AS Treasurer'
+        picture: '../images/officials/2024/rafael_majaharju.jpg'
+      - name: 'Lucas Käldström'
+        title:
+          - fi: 'Vanha yrityssuhdevastaava'
+            en: 'Old Head of Corporate Relations'
+        picture: '../images/officials/2023/lucas_kaldstrom.jpg'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'TEKSAS yhdyshenkilö'
+            en: 'TEKSAS-liaison'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Jaakko Aalto'
+        title:
+          - fi: 'TEKSAS yhdyshenkilö'
+            en: 'TEKSAS-liaison'
+        picture: '../images/officials/2024/jaakko_aalto.jpeg'
+
+  - name:
+      fi: 'Taloustoimikunta'
+      en: 'Finance Committee'
+    members:
+      - name: 'Rafael Majaharju'
+        title:
+          - fi: 'Rahastonhoitaja'
+            en: 'Treasurer'
+        picture: '../images/officials/2024/rafael_majaharju.jpg'
+        leader: true
+      - name: 'Linda Åström'
+        title:
+          - fi: 'Vanha rahastonhoitaja'
+            en: 'Old Treasurer'
+        picture: '../images/officials/2023/linda_astrom.jpg'
+      - name: 'Henrik Starck'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Member of Committee'
+        picture: '../images/officials/2024/henrik_starck.jpeg'
+      - name: 'Jaakko Aalto'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Member of Committee'
+        picture: '../images/officials/2024/jaakko_aalto.jpeg'
+      - name: 'Lucas Käldström'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Member of Committee'
+        picture: '../images/officials/2023/lucas_kaldstrom.jpg'
+      - name: 'Mika Viirret'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Member of Committee'
+        picture: '../images/officials/2024/mika_viirret.jpeg'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Member of Committee'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Säde Mikkonen'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Member of Committee'
+        picture: '../images/officials/2024/sade_mikkonen.jpeg'
+
+  - name:
+      fi: 'Mediatoimikunta'
+      en: 'Media Committee'
+    members:
+      - name: 'Leena Jääskeläinen'
+        title:
+          - fi: 'Viestintämestari'
+            en: 'Head of Communications'
+        picture: '../images/officials/2024/leena_jaaskelainen.jpg'
+        leader: true
+      - name: 'Tetsu Fujimura'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+          - fi: 'Somettaja'
+            en: 'Social Media Manager'
+        picture: '../images/officials/2024/tetsu_fujimura.jpeg'
+      - name: 'Ki Chun Tong'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+          - fi: 'Kääntäjä/Oikolukija'
+            en: 'Language specialist'
+        picture: '../images/officials/2024/ki_chun_tong.jpeg'
+      - name: 'Alexia Badescu'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+          - fi: 'Graafikko'
+            en: 'Graphic designer'
+          - fi: 'Somettaja'
+            en: 'Social Media Manager'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+          - fi: 'Graafikko'
+            en: 'Graphic designer'
+        picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+        picture: '../images/officials/2024/aino_valkama.jpeg'
+      - name: 'Akseli Hilander'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+          - fi: 'Graafikko'
+            en: 'Graphic designer'
+        picture: '../images/officials/2023/akseli_hilander.jpg'
+      - name: 'Amanda Huttunen'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Ilmari Kallio'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+          - fi: 'Graafikko'
+            en: 'Graphic designer'
+        picture: '../images/officials/2024/ilmari_kallio.jpeg'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'João Vasco'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+      - name: 'Meri Hilden'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphical Designer'
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphical Designer'
+        picture: '../images/officials/2023/kiira_metsoila.jpg'
+      - name: 'Akseli Pihlajamaa'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphical Designer'
+        picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Kääntäjä/Oikolukija'
+            en: 'Language specialist'
+        picture: '../images/officials/2023/lotta_makkonen.jpg'
+      - name: 'Aamo Toivanen'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphic designer'
+        picture: '../images/officials/2024/aamo_toivanen.jpeg'
+      - name: 'Elina Leiniö'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphic designer'
+        picture: '../images/officials/2024/elina_leinio.jpg'
+
+  - name:
+      fi: 'Säätötoimikunta'
+      en: 'Tinkering Committee'
+    members:
+      - name: 'Kasperi Kaivola'
+        title:
+          - fi: 'Säätömestari'
+            en: 'Master Tinkerer'
+        picture: '../images/officials/2023/kasperi_kaivola.jpg'
+        leader: true
+      - name: 'Henrik Turtinen'
+        title:
+          - fi: 'Säätömestari'
+            en: 'Master Tinkerer'
+        picture: '../images/officials/2024/henrik_turtinen.jpeg'
+        leader: true
+      - name: 'Akseli Leino'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/akseli_leino.jpeg'
+      - name: 'Niilo Saharinen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/niilo_saharinen.jpeg'
+      - name: 'Elias Erke'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2023/elias_erke.jpg'
+      - name: 'Nam Nguyen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/nam_nguyen.jpeg'
+      - name: 'Väinö Kauppila'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/vaino_kauppila.jpeg'
+      - name: 'Matti Laine'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/matti_laine.jpeg'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Jyri Kolu'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/jyri_kolu.jpeg'
+      - name: 'Emil Lintunen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Leo Suojärvi'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2023/leo_suojarvi.jpg'
+      - name: 'Akseli Pihlajamaa'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
+      - name: 'Severi Casserly'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Ki Chun Tong'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/ki_chun_tong.jpeg'
+      - name: 'Ilmari Kallio'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/ilmari_kallio.jpeg'
+      - name: 'Säde Mikkonen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+        picture: '../images/officials/2024/sade_mikkonen.jpeg'
+
+  - name:
+      fi: 'Stimulaatio-toimikunta'
+      en: 'Stimulaatio Committee'
+    members:
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Stimulantti'
+            en: 'Stimulant'
+        picture: '../images/officials/2023/kiira_metsoila_2.jpg'
+        leader: true
+      - name: 'Rosa Phan'
+        title:
+          - fi: 'Stimulantti'
+            en: 'Stimulant'
+        picture: '../images/officials/2024/roosa_phan.jpeg'
+        leader: true
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/joonas_tormala.jpeg'
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/aino_valkama.jpeg'
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2023/lotta_makkonen.jpg'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+      - name: 'Laura Häkkinen'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2023/laura_hakkinen.jpg'
+      - name: 'Petteri Lahkela'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/petteri_lahkela.jpeg'
+      - name: 'Elina Leiniö'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/elina_leinio.jpg'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/janina_kemppainen.jpeg'
+      - name: 'Sannina Honkaharju'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Santeri Hildén'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/santeri_hilden.jpeg'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+        picture: '../images/officials/2023/meri_hiipakka.jpg'
+
+  - name:
+      fi: 'Retkitoimikunta'
+      en: 'Trek Committee'
+    members:
+      - name: 'Amanda Huttunen'
+        title:
+          - fi: 'Retkimestari'
+            en: 'Trek Master'
+        picture: '../images/officials/aebaej_placeholder.png'
+        leader: true
+      - name: 'Emilia Junnonen'
+        title:
+          - fi: 'Retkimestari'
+            en: 'Trek Master'
+        picture: '../images/officials/2024/emilia_junnonen.jpeg'
+        leader: true
+      - name: 'Joel Forsström'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/2024/joel_forsstrom.jpg'
+      - name: 'Joonas Seppälä'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Sumu Pulkki'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Aarni Mäkelä'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Aamo Toivanen'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/2024/aamo_toivanen.jpeg'
+      - name: 'Pyry Lysmä'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/2024/pyry_lysma.jpeg'
+      - name: 'Akseli Leino'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/2024/akseli_leino.jpeg'
+      - name: 'Tommi Väisänen'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Aleksanteri Pitkenin'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/2023/aleksanteri_pitkenin.jpg'
+      - name: 'Leena Jääskeläinen'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+        picture: '../images/officials/2024/leena_jaaskelainen.jpg'
+
+  - name:
+      fi: 'Kultainen Toimitus'
+      en: 'Golden Tomato'
+    members:
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Kultainen Päätoimittaja'
+            en: 'Golden Edito-in-Chief'
+        picture: '../images/officials/aebaej_placeholder.png'
+        leader: true
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2024/joonas_tormala.jpeg'
+      - name: 'Ilkka Taponen'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2024/ilkka_taponen.jpeg'
+      - name: 'Elina Leiniö'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2024/elina_leinio.jpg'
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2023/kiira_metsoila_2.jpg'
+      - name: 'Pessi Lyytikäinen'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2024/pessi_lyytikainen.jpg'
+      - name: 'Emilia Kuisma'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2023/emilia_kuisma.jpg'
+      - name: 'Jyri Kolu'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2024/jyri_kolu.jpeg'
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2024/aino_valkama.jpeg'
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      - name: 'Nadja Jensen'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+        picture: '../images/officials/2024/nadja_jensen.jpeg'
+
+  - name:
+      fi: 'Stigutoimikunta'
+      en: 'Sticker Committee'
+    members:
+      - name: 'Ossi Syrjälahti'
+        title:
+          - fi: 'Stigulantti'
+            en: 'Stigulant'
+        picture: '../images/officials/2024/ossi_syrjalahti.jpeg'
+        leader: true
+      - name: 'Ilkka Taponen'
+        title:
+          - fi: 'Stigulantti'
+            en: 'Stigulant'
+        picture: '../images/officials/2024/ilkka_taponen.jpeg'
+        leader: true
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      - name: 'Aaro Saastamoinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2023/aaro_saastamoinen.jpg'
+      - name: 'Mikhail Romanov'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/mikhail_romanov.jpg'
+      - name: 'Eero Huhtala'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/eero_huhtala.jpeg'
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/eeva_jarvenpaa.jpg'
+      - name: 'Jenny Ruokolainen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/jenny_ruokolainen.jpg'
+      - name: 'Santeri Hildén'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/santeri_hilden.jpeg'
+      - name: 'Ville Hakoniemi'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Mika Viirret'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/mika_viirret.jpeg'
+      - name: 'Henrik Turtinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/henrik_turtinen.jpeg'
+      - name: 'Veeti Kittamaa'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/veeti_kittamaa.jpeg'
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2023/erkka_multanen.jpg'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2023/tonis_partel.jpg'
+      - name: 'Leila Lavonen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/leila_lavonen.jpeg'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/janina_kemppainen.jpeg'
+      - name: 'Rasmus Honkalinna'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Leena Jääskeläinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/leena_jaaskelainen.jpg'
+      - name: 'Eetu Kurkinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/eetu_kurkinen.jpeg'
+      - name: 'Sara Sofia Koivisto'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/sara_koivisto.jpeg'
+      - name: 'Kasperi Kaivola'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2023/kasperi_kaivola.jpg'
+      - name: 'Jesperi Hildén'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/jesperi_hilden.jpeg'
+      - name: 'Kalle Kajoniemi'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/kalle_kajoniemi.jpeg'
+      - name: 'Vinski Lång'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/vinski_lang.jpeg'
+      - name: 'Niilo Saharinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/niilo_saharinen.jpeg'
+      - name: 'Arttu Härmälä'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/arttu_harmala.jpg'
+      - name: 'Erno Westerholm'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Akseli Pihlajamaa'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/2024/akseli_pihlajamaa.jpeg'
+      - name: 'Peetu Vuorela'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+  - name:
+      fi: 'International Committee'
+      en: 'International Committee'
+    members:
+      - name: 'Amr Abass'
+        title:
+          - fi: "Master's and International Student Captain (MISC)"
+            en: "Master's and International Student Captain (MISC)"
+        picture: '../images/officials/2024/amr_abass.jpg'
+        leader: true
+      - name: 'Lotta Hannelius'
+        title:
+          - fi: "Master's and International Student Captain (MISC)"
+            en: "Master's and International Student Captain (MISC)"
+        picture: '../images/officials/aebaej_placeholder.png'
+        leader: true
+      - name: 'Oskari Mattila'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Apollo Ailus'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/2024/apollo_ailus.jpeg'
+      - name: 'Ariana Marta'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/2023/ariana_marta.jpg'
+      - name: 'Kabir Bissessar'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/2024/kabir_bissessar.jpeg'
+      - name: 'Jaakko Tiiri'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/2024/jaakko_tiiri.jpeg'
+      - name: 'Nam Nguyen'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/2024/nam_nguyen,jpeg'
+      - name: 'Lukas Bletsas'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Riccardo Brillato'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Sylvia Cressman'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/2024/sylvia.cressman.jpg'
+      - name: 'Syed Ali Raza'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Ariana Marta'
+        title:
+          - fi: 'Miscellaneous'
+            en: 'Miscellaneous'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+  - name:
+      fi: 'N-toimikunta'
+      en: 'N-Committee'
+    members:
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Seniilisihteeri'
+            en: 'Senile Secretary'
+        picture: '../images/officials/2023/lotta_makkonen.jpg'
+        leader: true
+      - name: 'Meri Hilden'
+        title:
+          - fi: 'Seniilisihteeri'
+            en: 'Senile Secretary'
+        picture: '../images/officials/aebaej_placeholder.png'
+        leader: true
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/2024/joonas_tormala.jpeg'
+      - name: 'Veeti Kahilainen'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Zhibin Yan'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Sakari Ropponen'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/2023/sakari_ropponen.jpg'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/2023/arttu_pahta_2.jpg'
+      - name: 'Jaakko Heikkinen'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Matias Vapola'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Elias Haarnoja'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Ville Hakoniemi'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Sannina Honkaharju'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Emil Huttunen'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/2023/meri_hiipakka.jpg'
+      - name: 'Jimi Oksman'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+        picture: '../images/officials/2023/jimi_oksman.jpg'
+
+  - name:
+      fi: 'Ulkoexcutoimikunta'
+      en: 'Foreign Excursion Committee'
+    members:
+      - name: 'Akseli Hilander'
+        title:
+          - fi: 'Ulkoexcumestari'
+            en: 'Foreign Excursion Master'
+        picture: '../images/officials/2023/akseli_hilander.jpg'
+        leader: true
+      - name: 'Juho Kerminen'
+        title:
+          - fi: 'Ulkoexcumestari'
+            en: 'Foreign Excursion Master'
+        picture: '../images/officials/2024/juho_kerminen.jpeg'
+        leader: true
+      - name: 'Arttu Juvonen'
+        title:
+          - fi: 'Ulkoexcutoimikunnan jäsen'
+            en: 'Member of Foreign Excursion Committee'
+        picture: '../images/officials/2024/arttu_juvonen.jpeg'
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Ulkoexcutoimikunnan jäsen'
+            en: 'Member of Foreign Excursion Committee'
+        picture: '../images/officials/2023/kiira_metsoila_2.jpg'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Ulkoexcutoimikunnan jäsen'
+            en: 'Member of Foreign Excursion Committee'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Laura Häkkinen'
+        title:
+          - fi: 'Ulkoexcutoimikunnan jäsen'
+            en: 'Member of Foreign Excursion Committee'
+        picture: '../images/officials/2023/laura_hakkinen.jpg'
+      - name: 'Otso Luukkanen'
+        title:
+          - fi: 'Ulkoexcutoimikunnan jäsen'
+            en: 'Member of Foreign Excursion Committee'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Säde Mikkonen'
+        title:
+          - fi: 'Ulkoexcutoimikunnan jäsen'
+            en: 'Member of Foreign Excursion Committee'
+        picture: '../images/officials/2024/sade_mikkonen.jpeg'
+
+  - name:
+      fi: 'ATP-työryhmä'
+      en: 'ATP task force'
+    members:
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'ATP-päävastaava'
+            en: 'Head of ATP'
+        picture: '../images/officials/2024/joonas_tormala.jpeg'
+        leader: true
+      - name: 'Ilkka Taponen'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2024/ilkka_taponen.jpeg'
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      - name: 'Mika Viirret'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2024/mika_viirret.jpeg'
+      - name: 'Sakari Ropponen'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2023/sakari_ropponen.jpg'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2023/arttu_pahta_2.jpg'
+      - name: 'Meri Hilden'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Elias Haarnoja'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Eero Huhtala'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2024/eero_huhtala.jpeg'
+      - name: 'Elina Leiniö'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2024/elina_leinio.jpg'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2024/mikko_vanhanen.jpeg'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Emilia Kuisma'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2023/emilia_kuisma.jpg'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2024/tiitus_mustajoki.jpeg'
+      - name: 'Jimi Oksman'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/2023/jimi_oksman.jpg'
+      - name: 'Roope Järvinen'
+        title:
+          - fi: 'Torpedo'
+            en: 'Torpedo'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+  - name:
+      fi: 'Jatkuvuustoimikunta'
+      en: 'Continuity committee'
+    members:
+      - name: 'Emilia Kuisma'
+        title:
+          - fi: 'Ylikorppi'
+            en: 'Head Raven'
+        picture: '../images/officials/2023/emilia_kuisma.jpg'
+        leader: true
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2024/aino_valkama.jpeg'
+      - name: 'Niina Tapanainen'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2023/lotta_makkonen.jpg'
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2023/kiira_metsoila_2.jpg'
+      - name: 'Juuso Määttä'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2024/leevi_hormaluoma.jpg'
+      - name: 'Lucas Käldström'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2023/lucas_kaldstrom.jpg'
+      - name: 'Elias Erke'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2023/elias_erke.jpg'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Jyri Kolu'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2024/jyri_kolu.jpeg'
+      - name: 'Severi Casserly'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Veeti Kahilainen'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Emil Huttunen'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Jimi Oksman'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2023/jimi_oksman.jpg'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Korppi'
+            en: 'Raven'
+        picture: '../images/officials/2023/meri_hiipakka.jpg'
+
+  - name:
+      fi: 'Toimikuntien ulkopuolelta'
+      en: 'Outside Committees'
+    members:
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Toiminnantarkastaja'
+            en: 'Inspector'
+        picture: '../images/officials/2023/meri_hiipakka.jpg'
+      - name: 'Jimi Oksman'
+        title:
+          - fi: 'Toiminnantarkastaja'
+            en: 'Inspector'
+        picture: '../images/officials/2023/jimi_oksman.jpg'
+      - name: 'Juuso Määttä'
+        title:
+          - fi: 'Varatoiminnantarkastaja'
+            en: 'Vice-Inspector'
+        picture: '../images/officials/aebaej_placeholder.png'
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'Varatoiminnantarkastaja'
+            en: 'Vice-Inspector'
+        picture: '../images/officials/2024/aino_valkama.jpeg'
+      - name: 'Ville Kyrki'
+        title:
+          - fi: 'Oltermanni'
+            en: 'Alderman'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+accolades:
+  - name:
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
+    people:
+      - name: Lotta Makkonen
+        description:
+          fi: 'Lotta Makkonen on aASiuden perikuva. Hänet tunnetaan valtavan pitkästä urasta killan eteen,
+            joka on sisältänyt valtavasti sekä näkyvää että näkymätöntä työtä. Lotan ansiot sisältävät miljoona
+            toimarivirkaa, joiden jälkeen hän jatkoi vielä hallitukseen kulttuurimestariksi. Tästä ura jatkui
+            stimulanttina, seniilisihteerinä, ASSmASSterinä ja mahdottoman monella pikkuprojektilla. Hän on
+            uudistanut toimintaa erityisesti kulttuurikentällä, innostanut kanssakiltalaisia ja pitänyt aina
+            huolta kaikista ympärillään. Lotta säteilee hyvää AS-henkeä koko olemuksellaan, ja saa tehokkaasti
+            sekä luotettavasti ajettua loppuun kaiken mihin lähtee.
+
+            Kultainen ansiomerkki myönnetään äärimmäisen pitkäaikaisesta työpanoksesta killan eteen Lotta
+            Makkoselle!'
+
+          en: 'Lotta Makkonen is the epitome of aASi spirit. She is known for her long-standing dedication
+            to the guild, contributing extensively in both visible and behind-the-scenes roles. Lotta’s
+            achievements include countless officer positions, after which she continued in the board as the
+            Culture Master. Her journey extended further as a Stimulant, Senior Secretary, ASSmASSter, and through
+            countless smaller projects. She has revitalized cultural activities, inspired fellow guild members,
+            and always taken care of those around her. Lotta radiates the true AS spirit and effectively and
+            reliably sees everything she commits to through to completion.
+
+            The Golden Accolade is awarded to Lotta Makkonen for her exceptionally long-standing contribution
+            to the guild.'
+
+      - name: Kiira Metsoila
+        description:
+          fi: 'Kiira Metsoila on jo vuosien ajan antanut killalle täyden työpanoksensa. Kaikkina niinä vuosina
+            kun hän on ollut toiminnassa mukana on killassa viety lukuisia asioita eteenpäin ja luotu uutta tyhjästä.
+            Esimerkkinä voitaneen mainita killan häirintäyhdyshenkilötoiminta, joka on toiminut äärettömän hyvänä
+            esimerkkinä myös muille Otaniemen killoille. Hän on vastannut kiltalaisten hyvinvoinnista niin IE:nä,
+            kulttuuritoimikunnan hyvinvointimestarina kuin myös kvartaalitoimikunnan vetäjänä. Kiira on henkilö
+            jota jokaisen kiltalaisen on helppo lähestyä ja kysyä aina apua kun tulee sellainen fiilis.
+
+            Kiira välittää toiminnasta aivan liikaa ja tämä on näkynyt lukuisissa askarteluöissä killan merchin,
+            stimukoristeiden ja muiden vastaavien projektien parissa, jotta hänen visionsa toteutuisi täsmällisesti
+            ja budjetin rajoissa. On myös ilo nähdä, että tämän kiltalaisen into ei lopu, ja ensi vuodellekin Kiira
+            napsi ennätysmäärän toimikuntia johdettavaksi. Tämä kultainen ansiomerkki menee Kiira Metsoilalle!'
+
+          en: 'For years, Kiira Metsoila has given her all to the guild. Throughout her years of involvement, numerous
+            initiatives have been advanced, and new ideas have been created from scratch. One prime example is the guild’s
+            harassment contact person system, which has served as an outstanding model for other guilds in Otaniemi. She
+            has been responsible for the well-being of guild members in various roles, including as IE, the well-being
+            master of the cultural committee, and the leader of the quarterly committee. Kiira is someone whom every guild
+            member finds approachable and easy to turn to for help whenever needed.
+
+            Kiira cares deeply about the guild, and this dedication has manifested in numerous late-night crafting sessions,
+            working on guild merchandise, Stimulant decorations, and other similar projects to ensure her vision is executed
+            precisely and within budget. It’s also great to see that her passion never fades—next year, she has taken on a
+            record number of committees to lead.
+
+            This Golden Accolade goes to Kiira Metsoila!'
+
+      - name: Aino Valkama
+        description:
+          fi: 'Aino Valkaman kiltaura on ollut pitkä ja ansiokas, ja hän on usein viitannutkin sitaattiin omalta
+            orientaatioviikoltaan, “Miten tähän kaikkeen pääsee täysillä mukaan?”. Sen Aino myös toteutti. Hänen matkansa
+            alkoi, kuten monella muullakin, lukuisilla toimaripesteillä. Tästä matka jatkui hallitukseen, killan
+            varapuheenjohtajaksi ja jatkui luonnollisesti koko killan johtoon. Hän on ajanut kiltamme hallinnon
+            ennennäkemättömälle tasolle, luoden lukuisia uudistuksia sääntöjen, CoC:n ja arkiston saralla. Killan
+            puheenjohtaminen juhlavuonna on myös kokonaisuus, johon harva olisi kyennyt kuin Aino. Voimme kaikki olla
+            kiitollisia hänelle, sillä Ainon tähänastisista vuosista killassa jää eväitä äärimmäisen pitkälle tulevaisuuteen.
+
+            Hän tuntee killan säännöt, arkiston, reivit ja kaiken hallintoon edes vähän liittyvän paremmin kuin omat taskunsa.
+            Seuraavan kultaisen ansiomerkin saa killan ehdottomasti korkeinta valtaa pitävä varatoiminnantarkastaja, Aino
+            Valkama!'
+
+          en: 'Aino Valkama has had a long and distinguished career in the guild. She often recalls a quote from her own
+            orientation week: “How can I get fully involved in all of this?” And Aino truly lived up to it. Her journey began,
+            like many others, with numerous officer roles. From there, she advanced to the board, served as the guild’s Vice
+            Chair, and naturally continued to lead the entire guild. She has elevated the guild’s administration to
+            unprecedented levels, implementing numerous reforms in regulations, the Code of Conduct, and the archives. Leading
+            the guild in its anniversary year is also a challenge that few could have managed as well as Aino. We can all be
+            grateful to her, as the work she has done will benefit the guild far into the future.
+
+            She knows the guild’s rules, archives, raves, and all aspects of administration better than the back of her own
+            hand. The next Golden Accolade is awarded to the guild’s absolute authority, Aino Valkama!'
+
+  - name:
+      fi: 'Hopeinen pränikkä'
+      en: 'Silvery accolade'
+    people:
+      - name: Lucas Käldström
+        description:
+          fi: 'Lucas on kiltauransa aikana ehtinyt tehdä sellaisia muutoksia toimintaan, mistä tullaan kiittämään vielä
+            vuosienkin päästä. Tämä on se henkilö jonka tekemistä sopimuksista uudet toimarit kyselevät niistä kerrottaessa,
+            että “kuka tuollaista on uskaltanut mennä koskaan kysymään”, ja preesensillään killan yrityssuhteissa firmat
+            soittivat Lucakselle, että voivatko he antaa rahaa killan toimintaan.
+
+            Hänen kädenjälkensä eivät ole niitä mitkä koristavat ASkin seiniä tai joilla on johdettu killan näkyviä päätöksiä,
+            mutta nämä kädenjäljet ovat jo usean vuoden ajan vaikuttaneet viikoittain toimihenkilöiden ja hallituksen
+            työskentelytapoihin. Ensimmäisen hallitusvuotensa hän vietti taloustoiminnan johdossa rahastonhoitajana, sitten
+            killan yrityssuhdevastaavana.
+
+            Erään ansiomerkkiä ehdottaneen sanoin tämä henkilö oli ihan liian fiksu killan hallitukseen ja se lienee syynä
+            miksi killan toiminta on kehittynyt sellaisella vauhdilla, jota harvemmin on nähdään. Tämä järjestelmävelho ja
+            yrityssuhdetaikuri on tietysti Lucas Käldström.'
+
+          en:
+            'During his time in the guild, Lucas has made impactful changes that will be appreciated for years to come.
+            He is the kind of person whose agreements make new officers ask, “Who had the guts to even propose that?” And in
+            the realm of corporate relations, companies reached out to him, asking if they could sponsor the guild.
+
+            His contributions are not the kind that adorn ASki’s walls or guide the guild’s visible decisions, but they have
+            shaped the working methods of officers and board members on a weekly basis for years. His first year in the board
+            was spent leading financial operations as Treasurer, followed by a tenure as the guild’s Corporate Relations
+            Manager.
+
+            As one nomination put it, “This person was way too smart for the board,” which might explain why the guild has
+            developed at such an unprecedented pace. This system wizard and corporate relations magician is none other than
+            Lucas Käldström!'
+
+      - name: Jimi Oksman
+        description:
+          fi:
+            'Seuraavan ansiomerkin saa henkilö, joka on vakaa kuin kallio ja valtavan suuren kiven vyöryessä kohti TUASia
+            voi aivan satavarmasti luottaa, että kaikki mahdottomatkin hommat hoituvat ja ne viedään loppuun asti maaliin.
+            Jimi on pelastanut monta toimijaa pulasta pitkillä hermoillaan ja rationaalisilla ratkaisuilla vaikeisiinkiin
+            ongelmiin IEn sekä varapuheenjohtajan roolissa, aina tietenkin asiansa hymyssä suin ilmoittaen ja sopivasti vitsiä
+            vääntäen.
+
+            Tämä hallintokonsultti on Jimi Oksman.'
+
+          en: 'The next accolade goes to a person as steady as a rock—someone you can count on to handle even the most
+            impossible tasks, no matter how overwhelming the challenge may be. If a giant boulder were rolling towards TUAS,
+            you could rest assured that Jimi would find a rational solution to the problem and see it through to completion.
+
+            Jimi has rescued countless officers from difficult situations with his patience and level-headed problem-solving
+            skills, whether in his role as IE or Vice Chair. And he always does so with a smile and a well-timed joke.
+
+            This administrative consultant is Jimi Oksman.'
+
+      - name: Joonas Törmälä
+        description:
+          fi: 'Seuraava ansiomerkki menee henkilölle, joka on toiminut monelle ulkopuoliselle killan kasvoina. Joonas on
+            pitkän uransa aikana ehtinyt tehdä kaikennäköistä, aina Otatarhan ajojen tallipääliköstä äärimmäisen aktiiviseen
+            kulttuuriartesaanin työhön. Tästä matka jatkui muunmuassa Fuksikapteeniksi, ja sen jälkeen hän vielä herätti
+            Automaatioteekkaripäivät pitkästä horroksesta eloon. Ei pidä kuitenkaan vähätellä myöskään Joonaksen pitkään ja
+            hartaasti jatkunutta AS-hengen levittämistä laajemmassa yhteisössämme.
+
+            Tämä killan kasvatti on tietenkin Joonas Törmälä!'
+
+          en:
+            'The next Golden Accolade goes to someone who has often been the face of the guild for outsiders. Over his long
+            career, Joonas has done it all—from Otatarhan ajot team leader to an incredibly active culture artisan. His journey
+            continued as a Fuksi Captain, and after that, he even revived Automaatioteekkaripäivät from a long dormancy.
+
+            One should not overlook Joonas’ long-standing and dedicated efforts to spread AS spirit beyond just our guild.
+
+            This guild-raised legend is, of course, Joonas Törmälä!'
+
+      - name: Rosa Phan
+        description:
+          fi:
+            'Rosa Phanilla on ollut poikkeuksellinen polku. Hän on ollut aktiivisesti toiminnassa nyt jo vuosia, laittaen
+            lukuisia työtunteja killan huvitoiminnan, kulttuurin, 25. juhlavuoden, sekä nyt viimeisenä vielä näiden vuosijuhlien
+            eteen, vaikka ei ole koskaan opiskellut sekuntiakaan kiltamme opintopoluissa. Rosan työhön voi aina luottaa ja hän on
+            elävä esimerkki, kuinka aASius on sydämen, eikä haalareiden värin asia. Näistä syistä hopeisen ansiomerkin saa Rosa
+            Phan!'
+
+          en:
+            'Rosa Phan has taken an exceptional path. She has been an active contributor for years, dedicating countless
+            hours to guild entertainment, culture, the 25th anniversary, and most recently, these very annual celebrations—all
+            despite never having studied in our guild’s academic programs.
+
+            Rosa’s work is always reliable, and she is a living example that aASius is a matter of the heart, not the color of
+            your overalls.
+
+            For these reasons, the Silver Accolade is awarded to Rosa Phan!'
+
+      - name: Tiitus Mustajoki
+        description:
+          fi: 'Seuraavan hopeisen ansiomerkin ansaitsijan ura on koostunut loputtomista työtunneista ruohonjuuritasolla.
+            Toimarirooleja Tiitus Mustajoelle on kertynyt jo kymmeniä, ja jokaisen hän on suorittanut erityisen huolellisesti
+            omalla loistavalla asenteellaan. Tiitus näyttää esimerkkiä nuoremmille tekijäsukupolville etenkin reippaan tekemisen
+            muodossa ja hänestä tulisi jokaisen katsoa mallia. Seuraava ansiomerkin ansainnut on jokaisen tapahtumanjärjestäjän
+            kaveri ja ehdoton jokapaikanhöylä, Tiitus Mustajoki.'
+
+          en:
+            'The next Silver Accolade goes to someone whose guild career has been built on countless hours of hands-on work.
+            Tiitus Mustajoki has held dozens of officer roles, each one executed with meticulous dedication and an outstanding
+            attitude.
+
+            Tiitus leads by example for younger generations, particularly through his energetic approach to getting things
+            done. He is a role model for all and someone every event organizer wants as a teammate.
+
+            The next accolade is awarded to the ultimate jack-of-all-trades, Tiitus Mustajoki!'
+
+      - name: Tuomas Nykänen
+        description:
+          fi:
+            'Tämä rempseä kaveri on jättänyt viime vuosina valtavan kengänjäljen killan toimintaan. Nykänen on pyyteetön,
+            rehti ja ennen kaikkea työteliäs duunari, joka ei kaihda mitään projektia. Hallituksessa hän toimi Fuksikapteenina,
+            josta matka jatkui vielä lukkarimestariksi. Erityisiä ansioita Nykäsellä löytyy myös Stigutoimikunnasta, jonka
+            jäsenenä aikaa on vietetty jo kolme vuotta. Tämän kiltalaisen entinen Volvo niittää myös yhä kulttimainetta sen
+            aktiivisen käytön johdosta, eikä yhtään turhaan, sillä moni tapahtuma ilman Nykästä olisi ollut mahdoton.
+
+            Jos se puheesta ei tullut vielä selväksi, seuraava kiltaikoni on Nykänen “Tuomas” Nykänen.'
+
+          en:
+            'This lively guy has left a massive footprint on the guild in recent years. Nykänen is selfless, honest, and
+            above all, a hardworking doer who never shies away from a challenge. As a Fuksi Captain, he guided new students,
+            and his journey continued as Lukkari Master.
+
+            Nykänen also deserves special recognition for his long-standing contributions to the Stigu Committee, where he has
+            been active for three years. His former Volvo has even achieved cult status due to its frequent use, and rightfully
+            so—many events would have been impossible without him.
+
+            If it wasn’t clear from this speech, the next guild icon is Nykänen “Tuomas” Nykänen!'
+
+      - name: Elias Erke
+        description:
+          fi:
+            'Elias Erke on killan säätöhengen kasvot ja siinä missä moni vain keksii niitä kuuluisia hyviä ideoita, on tämä
+            kaveri niitä eturintamassa toteuttamassa. Viestintämestarivuoden ohella hänen suurimpana saavutuksena voidaan pitää
+            killan nykyisiä nettisivuja, jotka nyt vuoden mittaisen käytön perusteella ovat osoittautuneet sekä näkyväksi
+            brändi-ilmeeksi kuin myös todella käytettäväksi alustaksi aktiivikäyttäjille. Elias on myös henkilö, joka enemmän
+            kuin mielellään opettaa jokaisen killan järjestelmän käyttöä uusille toimijoille ymmärrettävästi ja maanläheisesti.
+
+            Tämän ASkin kahvin tehokkaan lipittäjän ja sohvien suurkuluttajan kaikki ovat varmasti nähneet, jos ASkissa ovat
+            edes piipahtaneet. Hän on tietenkin Elias Erke.'
+
+          en:
+            'Elias Erke is the face of the guild’s improvisational spirit. While many come up with great ideas, Elias is the
+            one bringing them to life.
+
+            In addition to his Master of Communications year, one of his greatest accomplishments is the guild’s current website,
+            which, after a year in use, has proven to be both a recognizable branding asset and a genuinely user-friendly
+            platform.
+
+            Elias is also the go-to person for explaining guild systems to new officers, always making it clear and
+            approachable.
+
+            If you’ve ever stepped into ASki, you’ve undoubtedly seen him—the coffee-drinking, sofa-loving presence of the
+            guild. He is, of course, Elias Erke.'
+
+  - name:
+      fi: 'RatAS-kunnianosoitukset'
+      en: 'RatAS accolade'
+    people:
+      - name: Mikko Vanhanen
+        description:
+          fi: 'Aloitetaan palkintojen jako yhdestä kiltatoiminnan työmyyrien superstaroista! Tätä kiltalaista vastaan ei
+            kannata lähteä kisaamaan toimaripestien määrästä. Hän on aina valmis laittamaan kaikkensa minkä tahansa
+            toimikunnan eteen, erityisiä ansioita hän on saavuttanut tosi-ISOn ja mini-IEn rooleissa. Tämä kiltalainen on
+            tietysti Mikko Vanhanen!'
+          en: 'Let’s kick off the awards with one of the superstar work moles of guild activities! You wouldn’t want to
+            compete with this guild member when it comes to the number of board hijinks. He’s always ready to give his all
+            for any committee, and he’s earned special accolades in his roles as “tosi-ISO” and “mini-IE.” This guild guy
+            is, of course, Mikko Vanhanen!'
+      - name: Ki Chun Tong
+        description:
+          fi: 'Tämä opiskelija tuli Suomeen selkeän mission kanssa. Hän on ollut keskeinen osa DSD23:sta ja pitänyt
+            kaikki muut ajan tasalla koko vuoden ajan, keräten tietoa Aalto-yhteisöstä kaikkien hyödyksi. Hän on ollut
+            moottorina AS:n historian aktiivisimmassa DSD-keskustelussa ja jatkaa edelleen DSD:n tukemista opintotoimikunnan
+            kautta. Hän on Ki Chun Tong!'
+          en: 'This student came to Finland with a mission. He’s been a crucial part of DSD23 and kept everyone else on
+            track throughout the year, gathering info about the Aalto-community for the whole year. He’s been the driving
+            force of the most active DSD chat of AS history and is continuing work supporting DSD through the study committee,
+            he is Ki Chun Tong!'
+      - name: Tuomas Nykänen
+        description:
+          fi: 'Seuraavaa Ratkaisija aASia kuvaillaan killan joulupukkina ja näätänä. Hän on killan ehdottomin MEGAMYYRÄ,
+            jolla on tässä vaiheessa jos minkälaista roolia takana. Hän kuitenkin kerta toisensa jälkeen hyppää tyhmiin
+            ideoihin mukaan ja tuo mahtavaa fiilistä jokaiseen sekoiluun, seuraavaa podcastia odotellen, hän on Tuomas Nykänen!'
+          en:
+            'The next solver aASii is described as the guild’s Santa Claus and a weasel. He is the guild’s ultimate MEGAMOLE,
+            with all sorts of roles under his belt by now. Time and time again, he jumps into crazy ideas and brings an amazing
+            vibe to every bit of chaos. Looking forward to the next podcast, he is Tuomas Nykänen!'
+      - name: Jaakko Aalto
+        description:
+          fi:
+            'Killan oma Mr. Cameraman on viime aikoina toiminut erityisen ansiokkaasti opinto-, yrityssuhde- ja taloustoimikunnissa.
+            Hänen käsiensä jälki näkyy mahtavissa markkinointivideoissa killan ja korkeakoulun sosiaalisessa mediassa. Killan yhteys
+            SAS:iin menettäisi paljon ilman, ja kaiken lisäksi syksyllä saatamme nähdä upouutta AS merchiä!! Tämä hyvän mielen tyyppi
+            on Jaakko Aalto!'
+          en:
+            'The guild’s very own Mr. Cameraman has recently excelled in the study, corporate relations, and finance committees.
+            His handiwork shines through in amazing marketing videos on the guild’s and the university’s social media. The guild’s
+            connection to SAS would not be the same without him, and on top of that, we might see brand-new AS merch this fall! This
+            bringer of good vibes is Jaakko Aalto!'
+      - name: Akseli Hilander
+        description:
+          fi:
+            'Killan sitsien valokuvaajakiintiön vakiotäyttäjänä, tämän kiltalaisen tuotanto viime vuosilta ei kalpene monelle.
+            Hän on jokaisen tapahtumanjärjestäjän ja osallistujan pyyteetön sankari, hän on Akseli Hilander!'
+          en:
+            'As the go-to photographer for the guild’s sitsit, this guild member’s work over the years stands second to none.
+            He is the selfless hero of every event organizer and participant alike—he is Akseli Hilander!'
+      - name: Pyry Lysmä
+        description:
+          fi:
+            'Seuraava palkinnon ansaitsija hyppäsi välittömästi puikkoihin, uudistamaan toimintaa. Esimerkillinen toimikunnan
+            johtaminen alkoi aktiivisella kyselyllä ja selvittämisellä, jatkui brändiuudistuksella ja nyt näemme alkuvuoden tuotokset
+            yhtenä kaikkien aikojen aktiivisimmista liikuntatoimikunnista. Todellinen tekemisen palo näkyy tästä kiltalaisesta, eli
+            Pyry Lysmästä!'
+          en:
+            'The next award recipient jumped right into action, leading the way in renewing operations. Their exemplary committee
+            leadership began with active inquiries and research, followed by a rebranding effort, and now we see the results of their
+            work in one of the most active sports committees of all time. This guild member’s true passion for action shines through—he
+            is Pyry Lysmä!'
+      - name: Ilkka Taponen
+        description:
+          fi:
+            'Tämän jokapaikanhöylän löytää lähes poikkeuksetta ASkista. Kyseessä oleva tuore tekijä on ansioitunut varsinkin
+            Stigutoimikunnan ja Kultaisen Tomaatin rivissä, pelastaen tämän vuoden lehdet aktiivisuudellaan ja taiton tekemisellä!
+            Meidän oma sitsieläimemme on tietenkin Ilkka Taponen'
+          en:
+            'This all-around doer can almost always be found at ASki. This fresh contributor has especially excelled in the
+            Stigu committee and Golden Tomato, saving this year’s publications with their dedication and layout skills! Our
+            very own sitsi animal is Ilkka Taponen'
+      - name: Ossi Syrjälahti
+        description:
+          fi:
+            'Tämä kiltajätti on äärimmäisen tehokas pöhisijä, mutta omaa taidon lähteä jokaiseen haasteeseen leppoisella
+            asenteella. Hän on toiminut alkuvuoden jopa kahden toimikunnan johdossa. Hän on uudistanut alkuvuoden ASkia, tarjonnut
+            rrrRankalle loistavaa alkoholitonta kotiviiniä, ja suurimpana saavutuksenaan, saanut Stigutoimikunnan tekemään jotain “:D”.
+            Tämä ratkaisija on Ossi Syrjälahti!'
+          en:
+            'This guild giant is an extremely efficient whirlwind of activity but has the rare ability to take on every challenge
+            with a laid-back attitude. Throughout the beginning of the year, he has led not just one but two committees. He has revamped
+            ASki, provided rrrRanka with excellent alcohol-free homemade wine, and, perhaps his greatest achievement—got the Stigu committee
+            to actually do something “:D”. This problem-solver is Ossi Syrjälahti!'
+      - name: Apollo Ailus
+        description:
+          fi:
+            'Tämä kiltalainen on työskennellyt vuosia väsymättä taustalla parantaakseen englanninkielisten opiskelijoiden asemaa AS:ssa.
+            Hän on keskeinen tekijä killan markkinoinnissa yliopiston ulkopuolella ja yksi pääsyistä siihen, että sitsipöydissä kuullaan
+            aasisiltoja myös englanniksi. Hän on Apollo Ailus!'
+          en:
+            'This Guild member has worked tirelessly in the background for years to boost the status of the english-speaking students of
+            AS. He’s a core part of marketing AS outside the University and one of the main reasons we can hear donkey bridges in english
+            as well at our sitsis, he is Apollo Ailus'
+      - name: Santeri Hildén
+        description:
+          fi:
+            'Tämä älyttömän positiivinen ja reipas killisti on saanut lyhyen kiltauransa aikana valtavasti aikaan! Hän on viime vuoden
+            Stilliksen pelastanut taho, joka otti tapahtuman vetovastuun, vaikka ei kuulunut edes toimikuntaan! Tänä vuonna hän jatkaa hyvällä
+            otteella Stimutoimikunnassa, minIEninä ja tietenkin ASkimestari. Tämä hymypoika on Santeri Hilden!'
+          en:
+            'This incredibly positive and energetic guild member has achieved so much in a short time! He was the savior of last year’s
+            Stillis, stepping up to lead the event even though he wasn’t even part of the committee! This year, he continues his great work in the
+            Stimu committee, as a minIE, and of course, as the ASki master. This smiley hero is Santeri Hilden!'
+      - name: Hajiba Legrara
+        description:
+          fi:
+            'Seuraava kiltalainen on ollut kriittinen osa AS:n yrityssuhteita jo pitkään. Hän on neuvotellut uusia yhteistyökuvioita,
+            ylläpitänyt olemassa olevia suhteita ja tuonut ammattimaisuutta toimikunnan työhön. Yritysten lisäksi hän pitää tällä hetkellä
+            yhteyksiä myös TEKiin killan puolesta! Tämä kiltalainen on tietenkin Hajiba Legrara!'
+          en:
+            'This next guild member has been a critical part of AS corporate relations for a while now. They’ve negotiated new cooperation,
+            kept up existing ones and brought professionalism into the work of the committee. In addition to companies, they’re currently keeping
+            contacts with TEK for the guild! This guild member is of course Hajiba Legrara!'
+      - name: Emilia Junnonen
+        description:
+          fi:
+            'Tänä keväänä yksi vuoden ehdottomista kohokohdista, nimittäin retkihaaste, palasi suurempana kuin koskaan osaksi tämän kiltalaisen
+            ansiosta. Lisäksi hän on erityisen ansioitunut minIEn jo toista vuotta. Tällä retkimestarilla on vielä ennennäkemättömiä suunnitelmia
+            loppuvuodelle, hän on Emppu Junnonen!'
+          en:
+            'This spring, one of the absolute highlights of the year—the adventure challenge—returned bigger than ever, thanks to this guild member.
+            In addition, they have excelled as a minIE for the second year in a row. This adventure master still has unprecedented plans for the rest of
+            the year—he is Emppu Junnonen!'
