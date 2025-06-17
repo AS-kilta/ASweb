@@ -47,8 +47,6 @@ const Advocacy: React.FC<Props> = ({ pageContext }) => {
           Akateeminen komitea tekee esitykset korkeakoulukohtaisista opetussuunnitelmista, tutkintovaatimuksista,
           valintaperusteista sekä muista akateemisen komitean toimintaan liittyvistä asioista.
         </p>
-        <p>Jäsenet: Ilmari Ayres, Ville Lairila, Mikhail Romanov, Veera Saarenheimo</p>
-        <p>Varajäsenet: Mikko Sandströn, Aino Kuusi</p>
 
         <h3>Sähkötekniikan kanditaattikoulutusneuvosto</h3>
         <p>
@@ -57,8 +55,6 @@ const Advocacy: React.FC<Props> = ({ pageContext }) => {
           opetuksen laadunvarmistuksesta sekä palautteen käsittelystä. Näiden lisäksi koulutusneuvosto nimeää
           kandidaatintöiden hyväksyjät, päättää diplomitöiden aiheet, valvojat ja ohjaajat sekä arvostelee diplomityöt.
         </p>
-        <p>Jäsenet: Otto Rinne, Mikhail Romanov, Emmi Suikkanen</p>
-        <p>Varajäsenet: Mikko Sandströn, Ki Chung Tong, Veera Saarenheimo</p>
 
         <h3>Sähkötekniikan akateeminen komitea</h3>
         <p>
@@ -68,8 +64,6 @@ const Advocacy: React.FC<Props> = ({ pageContext }) => {
           teemat ja kehittämiskohteet. OpLaan jäsenillä on mahdollisuus osallistua henkilökunnan rekrytointiin. Lisäksi
           OpLaan jäsenille esitellään vuosittain tehdyn opintokyselyn tulokset.
         </p>
-        <p>Jäsenet: Mikko Sandström, Mikhail Romanov, Emmi Suikkanen, Mikael Siikonen</p>
-        <p>Varajäsenet: Max Laine, Otto Rinne, Aino Kuusi</p>
       </div>
     </PageLayout>
   );
