@@ -15,17 +15,17 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
           style={{ marginBlock: '1rem' }}
           className="rounded-button"
           target="_blank"
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://drive.google.com/file/d/1_BKL9n96N7v1mLIpDT6DHKHW7KqME5uo"
           rel="noreferrer"
         >
-          Julkaistaan piakkoin!
+          Lataa PDF
         </a>
-        {/* <iframe
-          src="https://drive.google.com/file/d/1g84Ks-Wdh-ErTSQEiYZJUkdEntJ3tgYF/preview"
+        <iframe
+          src="https://drive.google.com/file/d/1_BKL9n96N7v1mLIpDT6DHKHW7KqME5uo/preview"
           width="100%"
           height="800"
           allow="autoplay"
-        ></iframe> */}
+        ></iframe>
       </div>
     </PageLayout>
   );
