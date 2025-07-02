@@ -17,7 +17,7 @@ interface Props extends PageProps {
 
 const Fuksis: React.FC<Props> = ({ pageContext }) => {
   const data1 = {
-    title: 'Fuksicaptain',
+    title: 'Fuksi Captain',
     name: 'Joel Forsström',
     email: 'fuksikapteeni@as.fi',
     phone: '+358 417455475',
@@ -26,7 +26,7 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
   };
 
   const data2 = {
-    title: 'Fuksicaptain',
+    title: 'Fuksi Captain',
     name: 'Kalle Kajoniemi',
     email: 'fuksikapteeni@as.fi',
     phone: '+358 452052581',
