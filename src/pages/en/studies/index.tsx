@@ -41,24 +41,25 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
           </p>
 
           <h3>
-            2. I didn't like the structure or teaching methods of a course, or want to help improve its structure.
+            2. I didn't like the structure or teaching methods of a course, or want to help improve its structure. How
+            can I give feedback?
           </h3>
           <p>
             Teaching staff publish forms at the end of a course to understand and incorporate student feedback for
-            future semesters. We can also provide feedback to relevant staff. You can also contact the study tutor
+            future semesters. We can also provide feedback to relevant staff. You can contact the study tutor
             (opintomestari@as.fi) or use the telegram bot (@ASFeedbackStudiesBot).
           </p>
 
           <h3>3. I wish to go on an exchange semester. What should I do / Whom should I contact?</h3>
           <p>
             Exchange semester registration typically occurs in January. Some slots can also be selected in the September
-            application period. You can start your research from the website for exchange studies on
-            <a href={'https://www.aalto.fi/en/other-studies/exchange-studies'}>aalto.fi</a>
-            The preparation of an exchange semester is primarily done by a student, and therefore you will have to find
-            a suitable destination, programme, and appropriate courses. We highly recommend contacting your relevant
-            counselors for exchange semester guidance, ensuring you take care of ideal destinations, study plans,
-            exchange grants, and so on! You can also refer to experiences and information from previous students through
-            the Aalto travel reports <a href={'https://wiki.aalto.fi/pages/viewpage.action?pageId=130485578'}>wiki</a>.
+            application period. You can start your research from the website for{' '}
+            <a href={'https://www.aalto.fi/en/other-studies/exchange-studies'}>exchange studies</a>. The preparation of
+            an exchange semester is primarily done by a student, and therefore you will have to find a suitable
+            destination, programme, and appropriate courses. We highly recommend contacting your relevant counselors for
+            exchange semester guidance, ensuring you take care of ideal destinations, study plans, exchange grants, and
+            so on! You can also refer to experiences and information from previous students through the Aalto travel
+            reports <a href={'https://wiki.aalto.fi/pages/viewpage.action?pageId=130485578'}>wiki</a>.
           </p>
 
           <h3>
@@ -134,7 +135,7 @@ const Studies: React.FC<Props> = ({ pageContext }) => {
               </a>
             </li>
             <li>
-              <a href="https://www.aalto.fi/en/sivuaineet#/" target="_blank" rel="noreferrer">
+              <a href="https://www.aalto.fi/en/minors#/" target="_blank" rel="noreferrer">
                 List of Minor Subjets at Aalto
               </a>
             </li>
