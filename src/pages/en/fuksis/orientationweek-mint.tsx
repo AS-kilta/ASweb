@@ -18,35 +18,37 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
       <div className="image-container">
         <p>Orientation week is a hectic week with lots to do and explore!</p>
         <p>
-          Here are the master's and international students' orientation week schedules. Scroll down to find the exchange students' schedule. 
-          To find your way to the locations listed in the schedules, we recommend downloading the {" "}
+          Here are the master's and international students' orientation week schedules. Scroll down to find the exchange
+          students' schedule. To find your way to the locations listed in the schedules, we recommend downloading the{' '}
           <a
             href="https://www.aalto.fi/en/services/aalto-space-mobile-application"
             target="_blank"
             rel="noopener noreferrer"
           >
             Aalto Space
-          </a>
-          {" "} app and actively asking your ISOs for guidance.
+          </a>{' '}
+          app and actively asking your ISOs for guidance.
         </p>
         <p>
-          These schedules are a compilation of activities organized by the guild and events organized by Aalto. {" "}
+          These schedules are a compilation of activities organized by the guild and events organized by Aalto.{' '}
           <em>
-            The locations and schedules may be subject to change, see the {" "}
+            The locations and schedules may be subject to change, see the{' '}
             <a
               href="https://www.aalto.fi/en/programmes/masters-programme-in-automation-and-electrical-engineering/starting-your-studies#7-orientation-week-2025"
               target="_blank"
               rel="noopener noreferrer"
             >
               Aalto schedule for master's students
-            </a> and the {" "}
+            </a>{' '}
+            and the{' '}
             <a
               href="https://events.aalto.fi/en/3X3IKxA7/orientation-for-exchange-students-autumn-2025-4a3bQt1ABp/overview"
               target="_blank"
               rel="noopener noreferrer"
             >
               Aalto schedule for exchange students
-            </a> for the most up-to-date locations and times. These schedules are up to date as of 21.8.
+            </a>{' '}
+            for the most up-to-date locations and times. These schedules are up to date as of 21.8.
           </em>
         </p>
         <h3 id="maisterien-orientaatioviikon-aikataulu">Master's orientation week</h3>
