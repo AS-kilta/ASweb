@@ -48,7 +48,7 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
             >
               vaihto-opiskelijoiden aikataulusta.
             </a>{' '}
-            Nämä aikataulut ovat ajantasaiset 21.8.
+            Viimeksi päivitetty 23.8.
           </em>
         </p>
         <h3 id="maisterien-orientaatioviikon-aikataulu">Maisteriopiskelijoiden orientaatioviikko</h3>
