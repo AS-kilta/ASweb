@@ -48,7 +48,7 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
             >
               Aalto schedule for exchange students
             </a>{' '}
-            for the most up-to-date locations and times. Last updated 23.8.
+            for the most up-to-date locations and times. Last updated 25.8.
           </em>
         </p>
         <h3 id="maisterien-orientaatioviikon-aikataulu">Master's orientation week</h3>
