@@ -526,7 +526,7 @@
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
 
 #Lukkarit
 - name:
@@ -812,7 +812,7 @@
       title:
         - fi: 'Yrityssuhdeneuvonantaja'
           en: 'Corporate Relations advisor'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
     #SAS
     - name: 'Neil Lipes'
       title:
@@ -824,6 +824,12 @@
         - fi: 'SAS-yhdyshenkilö'
           en: 'SAS liaison'
       picture: '../images/officials/2024/jaakko_aalto.jpeg'
+    #TEK
+    - name: 'Aaro Saastamoinen'
+      title:
+        - fi: 'TEK-yhteyshenkilö'
+          en: 'TEK liaison'
+      picture: '../images/officials/2023/aaro_saastamoinen.jpg'
 
 #Taloustoimikunta
 - name:
@@ -871,7 +877,7 @@
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
 
 #Mediatoimikunta
 - name:
@@ -922,7 +928,7 @@
       title:
         - fi: 'Graafikko'
           en: 'Graphic Designer'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
     - name: 'Vilja Lohi'
       title:
         - fi: 'Graafikko'
@@ -960,7 +966,7 @@
       title:
         - fi: 'Säätömestari'
           en: 'Master Tinkerer'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
       leader: true
     - name: 'Säde Mikkonen'
       title:
