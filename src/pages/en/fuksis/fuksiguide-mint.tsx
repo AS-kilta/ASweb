@@ -7,21 +7,22 @@ const Fuksiguide: React.FC<PageProps> = ({ pageContext }) => {
   return (
     <PageLayout
       pageContext={pageContext}
-      title="Master's and International Fuksiguide 2024"
+      title="Master's and International Fuksiguide 2025"
       lead="This guide contains everything you need to know about the university, studying and student life"
     >
       <div style={{ width: '100%' }}>
-        <a
+        {/* <a
           style={{ marginBlock: '1rem' }}
           className="rounded-button"
           target="_blank"
-          href="https://drive.google.com/file/d/1vYs4y_rdWCzXB-4x7nl-o2d02wzuA4Qv/view?usp=sharing"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           rel="noreferrer"
         >
-          Download PDF
-        </a>
+          To be published soon!
+        </a> */}
+
         <iframe
-          src="https://drive.google.com/file/d/1vYs4y_rdWCzXB-4x7nl-o2d02wzuA4Qv/preview"
+          src="https://drive.google.com/file/d/1vEbc5xqyt65PJg3ZqiLVy6DwOSxa-Vnf/preview"
           width="100%"
           height="800"
           allow="autoplay"

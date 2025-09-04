@@ -12,7 +12,7 @@
   name: 'Pyry Kiviluoma'
   email: 'pyry.kiviluoma@as.fi'
   telegram: 'pyrykiviluoma'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2025/pyry_kiviluoma.jpg'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -28,7 +28,7 @@
   name: 'Sonja Annala'
   email: 'sonja.annala@as.fi'
   telegram: 'SoiQ3'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2025/sonja_annala.jpg'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -36,7 +36,7 @@
   name: 'Kiira Metsoila'
   email: 'kiira.metsoila@as.fi'
   telegram: 'Kiiraiitu'
-  picture: '../images/officials/2023/kiira_metsoila.jpg'
+  picture: '../images/officials/2024/kiira_metsoila.jpeg'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -44,7 +44,7 @@
   name: 'Venla Mäkelä'
   email: 'venla.makela@as.fi'
   telegram: 'venlamakela'
-  picture: '../images/officials/aebaej_placeholder.png'
+  picture: '../images/officials/2025/venla_makela.jpg'
 
 - title:
     fi: 'Vastuuhäirintäyhdyshenkilö'
@@ -52,4 +52,4 @@
   name: 'Jenny Ruokolainen'
   email: 'jenny.ruokolainen@as.fi'
   telegram: 'jequilaaa'
-  picture: '../images/officials/2024/jenny_ruokolainen.jpg'
+  picture: '../images/officials/2025/jenny_ruokolainen.jpg'

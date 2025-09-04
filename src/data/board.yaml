@@ -48,14 +48,14 @@
 
 - title:
     fi: 'Viestintämestari'
-    en: 'Head of Communications'
+    en: 'Master of Communications'
   name: 'Saara Miettinen'
   email: 'viestintamestari@as.fi'
   telegram: 'vaniljalatte'
   picture: '../images/officials/2025/saara_miettinen.jpg'
   description:
     fi: "Vastaa jäsenistön tiedottamisesta lähettämällä tiedotteita ja ylläpitämällä kalenteria. Viestintämestari pitää ajan tasalla myös killan sähköpostilistoja ja nettisivujen sisältöä.\nOta yhteyttä viestintämestariin halutessasi tiedottaa killisteille jotakin."
-    en: "The Master of Communication keeps guild members informed about various events and other interesting and important matters. They take care of the guild's channels of communication, email lists, calendar and website, in addition to which they also send a weekly bulletin that explain what is happening and where. Contact the Master of Communication when you want to share information to the guild members."
+    en: "The Master of Communications keeps guild members informed about various events and other interesting and important matters. They take care of the guild's channels of communication, email lists, calendar and website, in addition to which they also send a weekly bulletin that explain what is happening and where. Contact the Master of Communication when you want to share information to the guild members."
 
 - title:
     fi: 'Fuksikapteeni'
@@ -85,7 +85,7 @@
   name: 'Aapo Vuokila'
   email: 'misc@as.fi'
   phone: '+358 451445092'
-  telegram: 'DSDokuty'
+  telegram: 'MISCippari'
   picture: '../images/officials/2025/aapo_vuokila.jpg'
   description:
     fi: 'Vastaa killan kansainvälisten ja maisteriopiskelijoiden fuksikasvatuksesta ja -toiminnasta. Työskentelee yhteistyössä fuksikapteenien ja ISOpomon kanssa. Ota yhteyttä MISC:iin jos asiasi koskee kansainvälistä toimintaa.'
@@ -96,11 +96,11 @@
     en: 'ISOboss'
   name: 'Eeva Järvenpää'
   email: 'isopomo@as.fi'
-  telegram: 'jareeva'
+  telegram: 'asISOpomo'
   picture: '../images/officials/2025/eeva_jarvenpaa.jpg'
   description:
     fi: 'Organisoi ISOhenkilöiden rekryämisen, koulutuksen ja yleisen toiminnan. Työskentelee yhteistyössä fuksikapteenien kanssa.'
-    en: 'The Tutor Boss is responsible of recruitment, preparation and general operation of tutors. They collaborate closely with the freshman captains. Contact the Tutor Boss if your matter concerns tutors.'
+    en: 'The ISOboss is responsible of recruitment, preparation and general operation of tutors. They collaborate closely with the Fuksi Captains. Contact the ISOboss if your matter concerns tutors.'
 
 - title:
     fi: 'Isäntä'
