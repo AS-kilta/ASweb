@@ -76,6 +76,12 @@
       link:
         fi: '/fuksis/orientationweek'
         en: '/en/fuksis/orientationweek'
+    - title:
+        fi: 'MINT Orientaatioviikko'
+        en: 'MINT Orientation week'
+      link:
+        fi: '/fuksis/orientationweek-mint'
+        en: '/en/fuksis/orientationweek-mint'
 - title:
     fi: 'Opinnot'
     en: 'Studies'
