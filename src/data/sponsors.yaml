@@ -1,6 +1,6 @@
-- name: 'Reaktor' # expires in 30.6.2024
-  link: 'https://reaktor.com/'
-  picture: '../images/sponsors/reaktor_white.png'
+# - name: 'Reaktor' # expires in 30.6.2024
+#   link: 'https://reaktor.com/'
+#   picture: '../images/sponsors/reaktor_white.png'
 
 - name: 'Tuxera' # expires in 31.5.2024
   link: 'https://www.tuxera.com/'
@@ -10,9 +10,9 @@
   link: 'https://new.abb.com/fi/'
   picture: '../images/sponsors/ABB.png'
 
-- name: 'Accenture' # expires in 1.4.2024
-  link: 'https://www.accenture.com/fi-en'
-  picture: '../images/sponsors/accenture.png'
+# - name: 'Accenture' # expires in 1.4.2024
+#   link: 'https://www.accenture.com/fi-en'
+#   picture: '../images/sponsors/accenture.png'
 
 - name: 'Valmet' # expires in 31.8.2024
   link: 'https://www.valmet.com/'
@@ -22,37 +22,42 @@
   link: 'https://www.thermofisher.com/fi/en/home.html'
   picture: '../images/sponsors/thermo_fisher.png'
 
-- name: 'CGI' # expires in 1.8.2024
-  link: 'https://www.cgi.com/fi/fi'
-  picture: '../images/sponsors/cgi.png'
+# - name: 'CGI' # expires in 1.8.2024
+#   link: 'https://www.cgi.com/fi/fi'
+#   picture: '../images/sponsors/cgi.png'
 
-- name: 'ATalent' # expires in 1.9.2024
-  link: 'https://atalent.fi/'
-  picture: '../images/sponsors/aTalent_Logo_White.png'
+# - name: 'ATalent' # expires in 1.9.2024
+#   link: 'https://atalent.fi/'
+#   picture: '../images/sponsors/aTalent_Logo_White.png'
 
-- name: 'Sandvik' # expires in 30.6.2024
-  link: 'https://www.home.sandvik/en/'
-  picture: '../images/sponsors/sandvik.png'
+# - name: 'Sandvik' # expires in 30.6.2024
+#   link: 'https://www.home.sandvik/en/'
+#   picture: '../images/sponsors/sandvik.png'
 
 - name: 'Ericsson' # expires in 30.12.2026
   link: 'https://ericsson.com/'
   picture: '../images/sponsors/ericsson_white.png'
 
-- name: 'Accountor'
-  link: 'https://finago.com/'
-  picture: '../images/sponsors/accountor_logo.png'
+# - name: 'Accountor'
+#   link: 'https://finago.com/'
+#   picture: '../images/sponsors/accountor_logo.png'
 
 - name: 'Tietoevry' # expires in 28.2.2025
   link: 'https://tietoevry.com/'
   picture: '../images/sponsors/tietoevry.png'
 
-- name: 'Nokia' # expires in 30.4.2024
+- name: 'Nokia' # expires in 30.4.2026
   link: 'https://nokia.com/'
   picture: '../images/sponsors/nokia.png'
 
-- name: 'FGI' # 31.10.2024
-  link: 'https://maanmittauslaitos.fi/'
-  picture: '../images/sponsors/FGI.jpg'
+# - name: 'FGI' # 31.10.2024
+#   link: 'https://maanmittauslaitos.fi/'
+#   picture: '../images/sponsors/FGI.jpg'
+
+- name: 'Bosch Rexroth'
+  link: 'https://www.boschrexroth.com/fi/fi/'
+  # picture: '../images/sponsors/bosch_rexorh.png' # toinen vaihtoehto, mut toi valkoinen on mun mielestä parempi
+  picture: '../images/sponsors/bosch_rexorh_punainen_X.png'
 
 - name: 'Suomen Automaatioseura RY'
   link: 'https://www.automaatioseura.fi/'
