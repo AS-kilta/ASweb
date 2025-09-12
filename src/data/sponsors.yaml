@@ -54,10 +54,14 @@
 #   link: 'https://maanmittauslaitos.fi/'
 #   picture: '../images/sponsors/FGI.jpg'
 
-- name: 'Bosch Rexroth'
+- name: 'Bosch Rexroth' # 1.6.2026
   link: 'https://www.boschrexroth.com/fi/fi/'
   # picture: '../images/sponsors/bosch_rexorh.png' # toinen vaihtoehto, mut toi valkoinen on mun mielestä parempi
   picture: '../images/sponsors/bosch_rexorh_punainen_X.png'
+
+- name: 'Visual Components' # 31.12.2025
+  link: 'https://www.visualcomponents.com'
+  picture: '../images/sponsors/visual_components.png'
 
 - name: 'Suomen Automaatioseura RY'
   link: 'https://www.automaatioseura.fi/'
