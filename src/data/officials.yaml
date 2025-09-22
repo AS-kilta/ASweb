@@ -336,7 +336,7 @@
       title:
         - fi: 'Himojuoksija'
           en: 'Running enthusiast'
-      picture: '../images/officials/2025/mikhail_romanov.jpeg'
+      picture: '../images/officials/2025/mikhail_romanov.jpg'
     #Liikkujat
     - name: 'Tuure Survo'
       title:
@@ -1099,7 +1099,7 @@
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
       picture: ''
-    - name: 'Nicklas Bouchard'
+    - name: 'Nia Bouchard'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
