@@ -7,58 +7,63 @@ accolades:
     people:
       - name: Elina Leiniö
         description:
-          fi: 'Elina Leiniö on tapahtumajärjestämisen asiantuntija on kiltauran aikana ollut niin monessa roolissa, että koko 
-            listaa ei tämän puheen aikana ehdi luettelemaan. Hän aloitti fuksina minIEninä, josta polku vei huvitoimikunnan 
-            johtoon Emännäksi. AS:n Kimblesääntöjä kunnioittaen hän tuplasi hallituksessa Kulttuurimestarina, huolehtimalla 
-            kiltalaisten hyvinvoinnista ja järjestämällä heille rennompia tapahtumia. Tietenkään kiltauraa ei voinut tähän jättää, 
-            vaan tämä tekijä päätti vielä napata itselleen Stimulantin ja Seniilisihteerin pestit. 
+          fi:
+            'Elina Leiniö on tapahtumajärjestämisen asiantuntija on kiltauran aikana ollut niin monessa roolissa, että koko
+            listaa ei tämän puheen aikana ehdi luettelemaan. Hän aloitti fuksina minIEninä, josta polku vei huvitoimikunnan
+            johtoon Emännäksi. AS:n Kimblesääntöjä kunnioittaen hän tuplasi hallituksessa Kulttuurimestarina, huolehtimalla
+            kiltalaisten hyvinvoinnista ja järjestämällä heille rennompia tapahtumia. Tietenkään kiltauraa ei voinut tähän jättää,
+            vaan tämä tekijä päätti vielä napata itselleen Stimulantin ja Seniilisihteerin pestit.
 
             Kultainen ansiomerkki myönnetään lempeälle ja aina positiiviselle Elina Leiniölle!'
 
-          en: 'Elina Leiniö is an expert in event organization and, during her guild career, has served in so many roles 
-            that it is not possible to list them all during this speech. She began as a freshman as a minIEni, from where 
-            her path led to heading the entertainment committee as Hostess. In accordance with AS’s Kimble rules, she doubled 
-            her responsibilities on the board as Master of Culture, taking care of the well-being of the guild members 
-            and organizing more relaxed events for them. Naturally, her guild career could not end there, as this contributor 
+          en: 'Elina Leiniö is an expert in event organization and, during her guild career, has served in so many roles
+            that it is not possible to list them all during this speech. She began as a freshman as a minIEni, from where
+            her path led to heading the entertainment committee as Hostess. In accordance with AS’s Kimble rules, she doubled
+            her responsibilities on the board as Master of Culture, taking care of the well-being of the guild members
+            and organizing more relaxed events for them. Naturally, her guild career could not end there, as this contributor
             went on to take on the roles of Stimulant and Senile Secretary as well.
 
             Golden Accolade is awarded to the kind and always positive Elina Leiniö!'
 
       - name: Pessi Lyytikäinen
         description:
-          fi: 'Pessi Lyytikäinen iki-ASPUlainen on jo monta vuotta putkeen laittanut kaiken ajan ja jaksamisen likoon fuksikasvatuksen 
-            puolesta. Hän on kiltauransa aikana triplannut AS:n fuksitoimikunnassa, toimimalla niin tosi-ISOna kuin ISOpomona. 
-            Hän on myös syy siihen, ettei killan asiakirjoissa eikä kippareiden viikkotiedotteissa löydy yhtäkään kirjoitus- tai 
-            pilkkuvirheitä, löytäen jokaisen ylimääräisen välilyönninkin. Lisäksi kyseinen henkilö on tehnyt erittäin arvokasta 
-            työtä taatessaan turvallisen ilmapiirin useassa tapahtumassa kahtena eri vuonna. 
-            
+          fi:
+            'Pessi Lyytikäinen iki-ASPUlainen on jo monta vuotta putkeen laittanut kaiken ajan ja jaksamisen likoon fuksikasvatuksen
+            puolesta. Hän on kiltauransa aikana triplannut AS:n fuksitoimikunnassa, toimimalla niin tosi-ISOna kuin ISOpomona.
+            Hän on myös syy siihen, ettei killan asiakirjoissa eikä kippareiden viikkotiedotteissa löydy yhtäkään kirjoitus- tai
+            pilkkuvirheitä, löytäen jokaisen ylimääräisen välilyönninkin. Lisäksi kyseinen henkilö on tehnyt erittäin arvokasta
+            työtä taatessaan turvallisen ilmapiirin useassa tapahtumassa kahtena eri vuonna.
+
             Kultainen ansiomerkki myönnetään huumorintajuiselle Pessi Lyytikäiselle.'
 
-          en: 'Pessi Lyytikäinen is eternal ASPU member that has, for many consecutive years, devoted all of his time and energy to the benefit 
-            of fuksi upbringing. During his guild career, he has tripled his involvement in AS’s fuksi committee, serving 
-            both as a tosiISO and as ISOboss. He is also the reason why there are no spelling or punctuation errors to 
-            be found in the guild’s official documents or in the captains weekly bulletins, as he catches even the smallest 
-            extra space. In addition, this individual has carried out extremely valuable work by ensuring a safe atmosphere at 
-            several events over two different years. 
-            
+          en:
+            'Pessi Lyytikäinen is eternal ASPU member that has, for many consecutive years, devoted all of his time and energy to the benefit
+            of fuksi upbringing. During his guild career, he has tripled his involvement in AS’s fuksi committee, serving
+            both as a tosiISO and as ISOboss. He is also the reason why there are no spelling or punctuation errors to
+            be found in the guild’s official documents or in the captains weekly bulletins, as he catches even the smallest
+            extra space. In addition, this individual has carried out extremely valuable work by ensuring a safe atmosphere at
+            several events over two different years.
+
             Golden Accolade is awarded to good-humored guild member, Pessi Lyytikäinen'
 
       - name: Pinja Mäkeläinen
         description:
-          fi: 'Pinja Mäkeläinen ei välttämättä pidä suurta ääntä itsestään, mutta hänen läsnäolonsa AS-yhteisössä ei ole jäänyt 
-            huomaamatta. Hän aloitti kiltauransa opintomestarina, jossa hän varmisti kiltalaisten äänen kuuluvuuden korkeakoulussa. 
-            Mutta tämä olikin vasta alku, sillä hän jatkoi TEK–SAS-yhdyshenkilöksi, jossa hän neuvotteli killalle kymppitonneja erilaisiin 
-            hankintoihin ja tapahtumiin. Tämän jälkeen hän vielä jatkoi kiltalehden päätoimittajana, toiminnantarkastajana, sekä erittäin 
-            aktiivisena säätäjänä ja assarina Sähköpajalla. Hänet voi myös bongata lähes päivittäin ASkista ylläpitämässä kotoisaa ilmapiiriä 
+          fi:
+            'Pinja Mäkeläinen ei välttämättä pidä suurta ääntä itsestään, mutta hänen läsnäolonsa AS-yhteisössä ei ole jäänyt
+            huomaamatta. Hän aloitti kiltauransa opintomestarina, jossa hän varmisti kiltalaisten äänen kuuluvuuden korkeakoulussa.
+            Mutta tämä olikin vasta alku, sillä hän jatkoi TEK–SAS-yhdyshenkilöksi, jossa hän neuvotteli killalle kymppitonneja erilaisiin
+            hankintoihin ja tapahtumiin. Tämän jälkeen hän vielä jatkoi kiltalehden päätoimittajana, toiminnantarkastajana, sekä erittäin
+            aktiivisena säätäjänä ja assarina Sähköpajalla. Hänet voi myös bongata lähes päivittäin ASkista ylläpitämässä kotoisaa ilmapiiriä
             ja kaahamassa Mario Cartilla.
-            
+
             Kultainen ansiomerkki myönnetään avuliaalle ja aurinkoiselle Pinja Mäkeläiselle.'
 
-          en: 'Pinja Mäkeläinen may not draw much attention to herself, but her presence in the AS community has certainly not gone unnoticed. 
-            She began her guild career as Master of Studies, where she ensured that the voice of the guild members was heard within the 
-            university. But this was only the beginning, as she continued as the TEK–SAS liaison, in which role she negotiated tens of thousands 
-            of euros for the guild for various acquisitions and events. After that, she went on to serve as Golden Editor of the guild magazine, 
-            as an auditor, and as a very active tinkerer and TA at the Sähköpaja. She can also be spotted almost daily in the ASki, maintaining 
+          en:
+            'Pinja Mäkeläinen may not draw much attention to herself, but her presence in the AS community has certainly not gone unnoticed.
+            She began her guild career as Master of Studies, where she ensured that the voice of the guild members was heard within the
+            university. But this was only the beginning, as she continued as the TEK–SAS liaison, in which role she negotiated tens of thousands
+            of euros for the guild for various acquisitions and events. After that, she went on to serve as Golden Editor of the guild magazine,
+            as an auditor, and as a very active tinkerer and TA at the Sähköpaja. She can also be spotted almost daily in the ASki, maintaining
             a cozy atmosphere and racing around on Mario Kart.
 
             Golden Accolade is awarded to the helpful and sunny Pinja Mäkeläinen.'
@@ -69,68 +74,73 @@ accolades:
     people:
       - name: Ossi Syrjälahti
         description:
-          fi: 'On huikeaa, kuinka monta roolia Ossi Syrjälahti on kerännyt kolmen aktiivisen vuoden aikana. Hän aloitti ASkimestarina ja 
-            Stigulanttina heti tupsuvuonna, josta matka jatkui järjestämään rrrRankkaa ja PreWappuCruisea killan Tallink-yhdyshenkilönä. 
-            Tämän ohella hän on ehtinyt toimia erittäin aktiivisesti minIEnä, JuomanlASkija sekä jäykkäranteena. Lisäksi hän on myös vahvistanut 
-            merkkittävästi killan ulkosuhteita aina Turusta Ouluun asti. 
-            
+          fi:
+            'On huikeaa, kuinka monta roolia Ossi Syrjälahti on kerännyt kolmen aktiivisen vuoden aikana. Hän aloitti ASkimestarina ja
+            Stigulanttina heti tupsuvuonna, josta matka jatkui järjestämään rrrRankkaa ja PreWappuCruisea killan Tallink-yhdyshenkilönä.
+            Tämän ohella hän on ehtinyt toimia erittäin aktiivisesti minIEnä, JuomanlASkija sekä jäykkäranteena. Lisäksi hän on myös vahvistanut
+            merkkittävästi killan ulkosuhteita aina Turusta Ouluun asti.
+
             Hopeinen ansiomerkki myönnetään kaksi sitsipöytää kerralla kantavalle killan jättiläiselle: Ossi Syrjälahdelle.'
 
           en:
-            'It is remarkable how many roles Ossi Syrjälahti has accumulated over three active years. He began as ASki Master and Stimulant already 
-            in his freshman year, after which his path continued to organizing rrrRankka and the PreWappuCruise as the guild’s Tallink liaison. 
-            Alongside this, he has had time to serve very actively as a minIEni, JuomanlASkija, and jäykkäranne. In addition, he has significantly 
+            'It is remarkable how many roles Ossi Syrjälahti has accumulated over three active years. He began as ASki Master and Stimulant already
+            in his freshman year, after which his path continued to organizing rrrRankka and the PreWappuCruise as the guild’s Tallink liaison.
+            Alongside this, he has had time to serve very actively as a minIEni, JuomanlASkija, and jäykkäranne. In addition, he has significantly
             strengthened the guild’s external relations, reaching from Turku all the way to Oulu.
 
             The Silver Accolade is awarded to the guild’s giant, capable of carrying two tables at once: Ossi Syrjälahti.'
 
       - name: Eero Huhtala
         description:
-          fi: 'Eero Huhtalan voi varmuudella todeta killan trendsetteriksi. Hän on ehtinyt olla sekä fuksitoiminnassa mukana kipparina 
-            että uudelleen synnyttämässä ATP:tä. Hän on myös kuuluisa killan rallikuski ja hänen autonsa melkeinpä ansaitsisi oman ansiomerkkin, 
-            sillä siitä on ollut apua useassa killan tapahtumassa. Tämä kiltalainen ei ikinä jätä kaveria pulaan vaan tarjoaa aina apua olipa kyse 
-            kaupoilla käynnistä taikka ASkin telkkarin seinälle laittamisesta. 
-            
+          fi:
+            'Eero Huhtalan voi varmuudella todeta killan trendsetteriksi. Hän on ehtinyt olla sekä fuksitoiminnassa mukana kipparina
+            että uudelleen synnyttämässä ATP:tä. Hän on myös kuuluisa killan rallikuski ja hänen autonsa melkeinpä ansaitsisi oman ansiomerkkin,
+            sillä siitä on ollut apua useassa killan tapahtumassa. Tämä kiltalainen ei ikinä jätä kaveria pulaan vaan tarjoaa aina apua olipa kyse
+            kaupoilla käynnistä taikka ASkin telkkarin seinälle laittamisesta.
+
             Hopeinen ansiomerkki myönnetään tietenkin aina positiiviselle Eero Huhtalalle.'
 
-          en: 'Eero Huhtala can certainly be described as the guild’s trendsetter. He has been involved in freshman activities as a fuksi captain 
-            and has also taken part in reviving ATP. He is also known as the guild’s rally driver, and his car almost deserves its own accoladate, 
-            as it has been of help at numerous guild events. This guild member never leaves a friend in need, always offering help whether 
+          en:
+            'Eero Huhtala can certainly be described as the guild’s trendsetter. He has been involved in freshman activities as a fuksi captain
+            and has also taken part in reviving ATP. He is also known as the guild’s rally driver, and his car almost deserves its own accoladate,
+            as it has been of help at numerous guild events. This guild member never leaves a friend in need, always offering help whether
             it is going to the store or mounting the ASki television on the wall.
 
             The Silver Accolade, of course, awarded to the ever-positive Eero Huhtala.'
 
       - name: Jenny Ruokolainen
         description:
-          fi: 'Jenny Ruokolainen on vuosien aikana hoitanut useaa vastuuroolia tunnollisesti ja huolellisesti. Hänen kiltauransa alkoi 
-            killan fuksikasvatuksessa, sekä ohella vastuuhäirintäyhdyshenkilönä varmistamassa turvallista ilmapiiriä. Hän jatkoi härytoiminnan 
-            vastuupestissä vielä toisen vuoden putkeen, mutta tämä ei vielä hänelle riittänyt, sillä hän otti ohjat stimulaatiosta, järjestämällä 
-            killalle taas kerran unohtumattoman vuosijuhlan. 
-            
+          fi:
+            'Jenny Ruokolainen on vuosien aikana hoitanut useaa vastuuroolia tunnollisesti ja huolellisesti. Hänen kiltauransa alkoi
+            killan fuksikasvatuksessa, sekä ohella vastuuhäirintäyhdyshenkilönä varmistamassa turvallista ilmapiiriä. Hän jatkoi härytoiminnan
+            vastuupestissä vielä toisen vuoden putkeen, mutta tämä ei vielä hänelle riittänyt, sillä hän otti ohjat stimulaatiosta, järjestämällä
+            killalle taas kerran unohtumattoman vuosijuhlan.
+
             Hopeinen ansiomerkki myönnetään vastuulliselle ja ihmisläheiselle Jenny Ruokolaiselle.'
 
           en:
-            'Over the years, Jenny Ruokolainen has handled several positions of responsibility with diligence and care. Her guild career began 
-            in the guild’s fuksi upbringing, alongside serving as a harassment contact person, ensuring a safe atmosphere. She continued in the 
-            role responsible harassment contact person for a second consecutive year, but this was still not enough for her, as she went 
+            'Over the years, Jenny Ruokolainen has handled several positions of responsibility with diligence and care. Her guild career began
+            in the guild’s fuksi upbringing, alongside serving as a harassment contact person, ensuring a safe atmosphere. She continued in the
+            role responsible harassment contact person for a second consecutive year, but this was still not enough for her, as she went
             on to take charge of Stimulatio by once again organizing an unforgettable anniversary celebration for the guild.
 
             The Silver Accolade is awarded to the responsible and people-oriented Jenny Ruokolainen.'
 
       - name: Akseli Pihlajanmaa
         description:
-          fi: 'Akseli Pihlajanmaa päätti hypätä suoraan syvään päätyyn ja aloitti killan hallituksessa heti fuksivuonna. Hallitusvuonna hän 
-            johti yrityssuhdetoimikuntaa tunnollisesti loppuun asti, vaikka matkassa olikin mutkia. Vuoden aikana hän myös löysi oman rakkautensa 
-            säätämistä ja killan IT:tä kohtaan, joka johti hänen tiensä säätömestariksi. Säätömestarin vuoden aikana hän on uudelleen aktivoinut 
-            säätötoimikuntaa ja raatanut useita tunteja killan nettisivujen ja muiden palveluiden eteen. 
-            
+          fi:
+            'Akseli Pihlajanmaa päätti hypätä suoraan syvään päätyyn ja aloitti killan hallituksessa heti fuksivuonna. Hallitusvuonna hän
+            johti yrityssuhdetoimikuntaa tunnollisesti loppuun asti, vaikka matkassa olikin mutkia. Vuoden aikana hän myös löysi oman rakkautensa
+            säätämistä ja killan IT:tä kohtaan, joka johti hänen tiensä säätömestariksi. Säätömestarin vuoden aikana hän on uudelleen aktivoinut
+            säätötoimikuntaa ja raatanut useita tunteja killan nettisivujen ja muiden palveluiden eteen.
+
             Hopeinen ansiomerkki myönnetään avuliaalle ja ystävälliselle on Akseli Pihlajanmaalle.'
 
           en:
-            'Akseli Pihlajanmaa decided to jump straight into the deep end and joined the guild board already in his fuksi year. During his board 
-            term, he led the corporate relations committee diligently through to the end, even though the journey was not without its twists and turns. 
-            Over the course of the year, he also discovered a personal passion for tinkering and the guild’s IT, which led him to the role of Tinkering 
-            Master. During his year as Tinkering Master, he has reactivated the tinkering committee and toiled for many hours on behalf of the guild’s 
+            'Akseli Pihlajanmaa decided to jump straight into the deep end and joined the guild board already in his fuksi year. During his board
+            term, he led the corporate relations committee diligently through to the end, even though the journey was not without its twists and turns.
+            Over the course of the year, he also discovered a personal passion for tinkering and the guild’s IT, which led him to the role of Tinkering
+            Master. During his year as Tinkering Master, he has reactivated the tinkering committee and toiled for many hours on behalf of the guild’s
             website and other services.
 
             The Silver Accolade is awarded to the helpful and friendly Akseli Pihlajanmaa.'
@@ -138,17 +148,17 @@ accolades:
       - name: Mikko Vanhanen
         description:
           fi:
-            'Jos toimariroolit voisi hyväksi lukea opintoihin, Mikko Vanhasella olisi kasassa jo toinen kanditutkinto. Hän 
-            on vuosien aikana ehtinyt olla mukana erittäin aktiivisesti monessa toimikunnassa, aina opintotoimikunnasta fuksitoimikuntaan. 
-            Hänet näkeekin useammin sitsikeittiöstä kuin itse juhlapöydässä. Kyseinen tekijä rientää aina apuun tarvitsi Isäntä sitten 
-            rasvakaivon puhdistajaa taikka ASkivahti tukussa kävijää. 
-            
+            'Jos toimariroolit voisi hyväksi lukea opintoihin, Mikko Vanhasella olisi kasassa jo toinen kanditutkinto. Hän
+            on vuosien aikana ehtinyt olla mukana erittäin aktiivisesti monessa toimikunnassa, aina opintotoimikunnasta fuksitoimikuntaan.
+            Hänet näkeekin useammin sitsikeittiöstä kuin itse juhlapöydässä. Kyseinen tekijä rientää aina apuun tarvitsi Isäntä sitten
+            rasvakaivon puhdistajaa taikka ASkivahti tukussa kävijää.
+
             Hopeinen ansiomerkki myönnetään on todelliselle jokapaikanhöylälle, Mikko Vanhaselle.'
 
           en:
-            'If officer roles could be counted toward academic studies, Mikko Vanhanen would already have a second bachelor’s degree. 
-            Over the years, he has been very actively involved in numerous committees, ranging from the study to 
-            the fuksi committee. He is more often seen in the sitsi kitchen than at the banquet table itself. This contributor always 
+            'If officer roles could be counted toward academic studies, Mikko Vanhanen would already have a second bachelor’s degree.
+            Over the years, he has been very actively involved in numerous committees, ranging from the study to
+            the fuksi committee. He is more often seen in the sitsi kitchen than at the banquet table itself. This contributor always
             rushes to help whenever the Host needs a grease trap cleaner or the ASki guard needs someone to make a run to the wholesale store.
 
             The Silver Accolade is awarded to a true jack-of-all-trades, Mikko Vanhanen.'
@@ -159,100 +169,105 @@ accolades:
     people:
       - name: Vinski Lång
         description:
-          fi: 'Vinski Långilla on positiivisuutta yhtä paljon kuin titteleitä killassa. Luennoitsijoiden pitäisi kiittää häntä, 
-            siitä että hän ylläpitää kiltalaisten energiatasoja varmistamalla kahvin ja Noccon saatavuuden ASkissa. Tämän lisäksi hän on 
-            ylläpitänyt Wapun tunnelmaa Wappuministerinä, sekä auttanut IE:tä sitseillä johtamalla lauluja taikka keittiön puolella soppakauha 
+          fi:
+            'Vinski Långilla on positiivisuutta yhtä paljon kuin titteleitä killassa. Luennoitsijoiden pitäisi kiittää häntä,
+            siitä että hän ylläpitää kiltalaisten energiatasoja varmistamalla kahvin ja Noccon saatavuuden ASkissa. Tämän lisäksi hän on
+            ylläpitänyt Wapun tunnelmaa Wappuministerinä, sekä auttanut IE:tä sitseillä johtamalla lauluja taikka keittiön puolella soppakauha
             kädessä. RatAS-kunnianosoitus myönnetään BLÅHAJ:n suojelijalle on Vinski Långille!'
 
-          en: 'Vinski Lång has as much positivity as he has titles within the guild. Lecturers should thank him for maintaining the energy 
-            levels of guild members by ensuring the availability of coffee and Nocco in the ASki. In addition, he has upheld the spirit of Wappu 
-            as Wappu Minister and assisted the IE at sistsi by leading songs or working in the kitchen with a ladle in hand. The RatAS accolade 
+          en:
+            'Vinski Lång has as much positivity as he has titles within the guild. Lecturers should thank him for maintaining the energy
+            levels of guild members by ensuring the availability of coffee and Nocco in the ASki. In addition, he has upheld the spirit of Wappu
+            as Wappu Minister and assisted the IE at sistsi by leading songs or working in the kitchen with a ladle in hand. The RatAS accolade
             is awarded to the protector of BLÅHAJ, Vinski Lång.'
 
       - name: Vilja Lohi
         description:
-          fi: 'Vilja Lohi on loistava esimerkki siitä, että AS-kilta on yhteisö riippumatta opinnoista. Kyseinen toimari käytännössä ylläpitää 
-            killan graafista ilmettä omalla innokkuudellaan suunnitellessaan haalarimerkkejä ja muita desingeja. Tämän reippaan ja iloisen kiltalaisen 
+          fi:
+            'Vilja Lohi on loistava esimerkki siitä, että AS-kilta on yhteisö riippumatta opinnoista. Kyseinen toimari käytännössä ylläpitää
+            killan graafista ilmettä omalla innokkuudellaan suunnitellessaan haalarimerkkejä ja muita desingeja. Tämän reippaan ja iloisen kiltalaisen
             löytää myös killan tapahtumista auttamasta vaikkei hän olisi edes siellä töissä. RatAS-kunnianosoitus myönnetään kiltahymyilijälle, Vilja Lohelle!'
-          
-          en: 'Vilja Lohi is an excellent example of how the AS guild is a community regardless of one’s field of study. This officer practically maintains 
-            the guild’s visual identity through her own enthusiasm by designing overall patches and other designs. This energetic and cheerful guild member can 
+
+          en:
+            'Vilja Lohi is an excellent example of how the AS guild is a community regardless of one’s field of study. This officer practically maintains
+            the guild’s visual identity through her own enthusiasm by designing overall patches and other designs. This energetic and cheerful guild member can
             also be found at guild events helping out even when she is not officially on duty. The RatAS accolade is awarded to the guild’s smile, Vilja Lohi.'
-      
+
       - name: Antti Lehtinen
         description:
-          fi: 'Antti Lehtisen työ killassa on ollut erittäin rrrrRankkaa. Hän on kiltauran keskittänyt yhden taidot kehittämiseen, jossa hän on myöskin 
-            onnistunut. Hän on ehtinyt järjestämään peräti kolme rrrrRankkaa, minkä lisäksi hän on myös varmistanut tiedon siirtymisen seuraavalle sukupolvelle. 
+          fi:
+            'Antti Lehtisen työ killassa on ollut erittäin rrrrRankkaa. Hän on kiltauran keskittänyt yhden taidot kehittämiseen, jossa hän on myöskin
+            onnistunut. Hän on ehtinyt järjestämään peräti kolme rrrrRankkaa, minkä lisäksi hän on myös varmistanut tiedon siirtymisen seuraavalle sukupolvelle.
             RatAS-kunnianosoitus myönnetään killan rrrRankimalle toimarille, Antti Lehtiselle.'
           en:
-            'Antti Lehtinen’s work in the guild has been extremely rrrrRankka. He has focused his guild career on developing a single skill set, in which he 
-            has also succeeded. He has managed to organize no fewer than three rrrrRankka events, in addition to ensuring the transfer of knowledge to the next 
+            'Antti Lehtinen’s work in the guild has been extremely rrrrRankka. He has focused his guild career on developing a single skill set, in which he
+            has also succeeded. He has managed to organize no fewer than three rrrrRankka events, in addition to ensuring the transfer of knowledge to the next
             generation. The RatAS accolade is awarded to the guild’s most rrrrRankka officer, Antti Lehtinen.'
 
       - name: Rasmus Honkalinna
         description:
           fi:
-            'Jos pitäisi lotota, että kuka kiltalainen löytyisi sitseiltä töistä tai voittaa PePun, Ramus Honkalinnan todennäköisyydet olisivat erittäin 
-            korkealla. Hän on viimeiset kaksi vuotta viihdyttänyt kiltalaisia aASinsilloillaan tai vitseillään ASkissa. Kyseinen reipas kiltalainen on myös 
+            'Jos pitäisi lotota, että kuka kiltalainen löytyisi sitseiltä töistä tai voittaa PePun, Ramus Honkalinnan todennäköisyydet olisivat erittäin
+            korkealla. Hän on viimeiset kaksi vuotta viihdyttänyt kiltalaisia aASinsilloillaan tai vitseillään ASkissa. Kyseinen reipas kiltalainen on myös
             uhrannut yöunensa killan telttapaikan vuoksi. RatAS-kunnianosoitus myönnetään Ramus Honkalinnalle.'
           en:
-            'If one were to place a bet on which guild member would be found working at sitsit or winning PePu, Ramus Honkalinna’s odds would be extremely 
-            high. Over the past two years, he has entertained guild members with his aASi bridges or jokes in the ASki. This energetic guild member has also 
+            'If one were to place a bet on which guild member would be found working at sitsit or winning PePu, Ramus Honkalinna’s odds would be extremely
+            high. Over the past two years, he has entertained guild members with his aASi bridges or jokes in the ASki. This energetic guild member has also
             sacrificed his sleep for the sake of the guild’s tent site. The RatAS accolade is awarded to Ramus Honkalinna.'
 
       - name: Jenny Ruokolainen
         description:
           fi:
-            'Jenny Ruokolainen ahmii itselleen titteleitä kuten buffetissa. Hänellä ei ikinä hymy hyydy ja hän aina varmistaa muiden mukavan ja turvallisen 
-            olon killan tapahtumissa. Vastuhärynä tuplaaminen ei myöskään hänelle riittänyt vaan hän päätti haalia itselleen myös killan synttäreiden järjestämisen. 
+            'Jenny Ruokolainen ahmii itselleen titteleitä kuten buffetissa. Hänellä ei ikinä hymy hyydy ja hän aina varmistaa muiden mukavan ja turvallisen
+            olon killan tapahtumissa. Vastuhärynä tuplaaminen ei myöskään hänelle riittänyt vaan hän päätti haalia itselleen myös killan synttäreiden järjestämisen.
             RatAS-kunnianosoitus myönnetään pienelle mutta energiselle Jenny Ruokolaiselle.'
           en:
-            'Jenny Ruokolainen collects titles like at a buffet. Her smile never fades, and she always ensures that others feel comfortable and safe at guild 
-            events. Doubling as the harassment contact person was not enough for her, so she also decided to take on the organization of the guild’s anniversary 
+            'Jenny Ruokolainen collects titles like at a buffet. Her smile never fades, and she always ensures that others feel comfortable and safe at guild
+            events. Doubling as the harassment contact person was not enough for her, so she also decided to take on the organization of the guild’s anniversary
             ball. The RatAS accolade is awarded to the small but energetic Jenny Ruokolainen.'
 
       - name: Eero Huhtala
         description:
           fi:
-            'Eero Huhtalasta on tehty varmaan eniten stickereitä AS:llä, eikä ihme sillä onhan kaverilla charmia. Hän on todellinen kilta-lover 
-            ja onkin viettänyt suurimman osan vapaa-ajastaan muun muassa GT:tä taittaessa, järjestäessään ATP:tä tai vahtiessaan ASkia pelaamalla Mario 
+            'Eero Huhtalasta on tehty varmaan eniten stickereitä AS:llä, eikä ihme sillä onhan kaverilla charmia. Hän on todellinen kilta-lover
+            ja onkin viettänyt suurimman osan vapaa-ajastaan muun muassa GT:tä taittaessa, järjestäessään ATP:tä tai vahtiessaan ASkia pelaamalla Mario
             Karttia. RatAS-kunnianosoitus myönnetään viihdyttävälle Otaniemen rallikuskille, Eero “Epa” Huhtalalle.'
           en:
-            'Eero Huhtala has probably had more stickers made of him than anyone else in AS, and no wonder—he certainly has plenty of charm. He is a true guild 
-            lover and has spent most of his free time, for example, laying out GT, organizing ATP, or guarding the ASki while playing Mario Kart. The RatAS accolade 
+            'Eero Huhtala has probably had more stickers made of him than anyone else in AS, and no wonder—he certainly has plenty of charm. He is a true guild
+            lover and has spent most of his free time, for example, laying out GT, organizing ATP, or guarding the ASki while playing Mario Kart. The RatAS accolade
             is awarded to the entertaining rally driver of Otaniemi, Eero “Epa” Huhtala.'
 
       - name: Juho Kerminen
         description:
           fi:
-            'Juho Kermisen takia ei kannata tehdä sitseillä mitään tyhmää, koska hän tulee ja nappaa siitä kuvan. Hän on jo monta vuotta ahkerasti valokuvannut 
-            killan tapahtumia. Kiltauran huipennuksena hän päätti lähteä uudelleen synnyttämään Ulkoexcua, jonka menoa ja meininkä pääsi kaikki seuraamaan upeasti 
+            'Juho Kermisen takia ei kannata tehdä sitseillä mitään tyhmää, koska hän tulee ja nappaa siitä kuvan. Hän on jo monta vuotta ahkerasti valokuvannut
+            killan tapahtumia. Kiltauran huipennuksena hän päätti lähteä uudelleen synnyttämään Ulkoexcua, jonka menoa ja meininkä pääsi kaikki seuraamaan upeasti
             after moviesta. RatAS-kunnianosoitus myönnetään Mr. cameramanille, Juho Kermiselle.'
           en:
-            'Because of Juho Kerminen, it is not advisable to do anything foolish at sitsi events, as he will come and take a photo of it. For many years, he has 
-            diligently photographed guild events. As the culmination of his guild career, he decided to take part in reviving abroad excursion, allowing everyone to 
+            'Because of Juho Kerminen, it is not advisable to do anything foolish at sitsi events, as he will come and take a photo of it. For many years, he has
+            diligently photographed guild events. As the culmination of his guild career, he decided to take part in reviving abroad excursion, allowing everyone to
             follow its spirit and atmosphere through an impressive aftermovie. The RatAS accolade is awarded to Mr. Cameraman, Juho Kerminen.'
 
       - name: Daniel Gorbatchev
         description:
           fi:
-            'Daniel Gorbatchev on heittäytynyt täysillä kiltatoimintaan. Hän aloitti fuksivuotensa tiedustelemalle keinoja päästä killan hallitukseen. 
-            Tämän lisäksi hän lähti välittömästi vetämään useaa projektia. Talven yli hän on painanut pitkiä päivä yrityssuhteiden sekä abimarkkinoinnin parissa, 
+            'Daniel Gorbatchev on heittäytynyt täysillä kiltatoimintaan. Hän aloitti fuksivuotensa tiedustelemalle keinoja päästä killan hallitukseen.
+            Tämän lisäksi hän lähti välittömästi vetämään useaa projektia. Talven yli hän on painanut pitkiä päivä yrityssuhteiden sekä abimarkkinoinnin parissa,
             varmistamalla että kaikki tietää mikä AS on. RatAS-kunnianosoitus myönnetään nuorelle aASille, Daniel Gorbatcheville.'
           en:
-            'Daniel Gorbatchev has thrown himself fully into guild activities. He began his fuksi year by asking about ways to get onto the guild board. 
-            In addition, he immediately took on leadership of several projects. Throughout the winter, he has put in long days working on corporate relations 
+            'Daniel Gorbatchev has thrown himself fully into guild activities. He began his fuksi year by asking about ways to get onto the guild board.
+            In addition, he immediately took on leadership of several projects. Throughout the winter, he has put in long days working on corporate relations
             and upper secondary school marketing, ensuring that everyone knows what AS is. The RatAS accolade is awarded to the young aASi, Daniel Gorbatchev.'
 
       - name: Akseli Pihlajamaa
         description:
           fi:
-            'Kun killan nettisivuilla on virhe, ilmokone bugaa tai galleria on kaatunut, Akseli Pihlajamaa rientää välittömästi apuun. Hän on reipas apukäsi ja 
-            voitkin löytää kyseisen kaverin lähes aina ASkista säätämästä. Lisäksi hän on valmis auttamaan tapahtumissa, vaikka ei edes kuuluisi järjestävään 
-            toimikuntaan. Ei pidä myöskään unohtaa, että kaverin takataskusta löytyy ammattilaisen pöhinätaidot. RatAS-kunnianosoitus myönnetään kilta-aktiiville 
+            'Kun killan nettisivuilla on virhe, ilmokone bugaa tai galleria on kaatunut, Akseli Pihlajamaa rientää välittömästi apuun. Hän on reipas apukäsi ja
+            voitkin löytää kyseisen kaverin lähes aina ASkista säätämästä. Lisäksi hän on valmis auttamaan tapahtumissa, vaikka ei edes kuuluisi järjestävään
+            toimikuntaan. Ei pidä myöskään unohtaa, että kaverin takataskusta löytyy ammattilaisen pöhinätaidot. RatAS-kunnianosoitus myönnetään kilta-aktiiville
             on Akseli Pihlajamaalle.'
           en:
-            'When there is an error on the guild website, the registration system bugs out, or the gallery crashes, Akseli Pihlajamaa rushes to help immediately. 
-            He is an energetic helping hand, and you can almost always find him in the ASki tinkering away. In addition, he is willing to help at events even when 
-            he is not part of the organizing committee. It should also not be forgotten that he has professional-level hustle skills in his back pocket. The RatAS 
+            'When there is an error on the guild website, the registration system bugs out, or the gallery crashes, Akseli Pihlajamaa rushes to help immediately.
+            He is an energetic helping hand, and you can almost always find him in the ASki tinkering away. In addition, he is willing to help at events even when
+            he is not part of the organizing committee. It should also not be forgotten that he has professional-level hustle skills in his back pocket. The RatAS
             accoladate is awarded to the guild activist Akseli Pihlajamaa.'
