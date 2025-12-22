@@ -2,8 +2,8 @@ import React from 'react';
 import type { HeadFC, HeadProps } from 'gatsby';
 import Meta from '@src/components/common/Meta';
 import PageLayout from '@src/components/layouts/PageLayout';
-//import heropic from "@src/images/images/IMG_6067-Edit.jpg" //pitää vaihtaa
-import { StaticImage } from 'gatsby-plugin-image';
+// import heropic from "@src/images/images/IMG_6067-Edit.jpg" //pitää vaihtaa
+// import { StaticImage } from 'gatsby-plugin-image';
 
 const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
   return (
@@ -16,10 +16,12 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
       <h2 id="orientaatioviikon-aikataulu"></h2>
 
       <div className="image-container">
-        <p>Orientaatioviikko on hektistä aikaa, tekemistä on paljon!</p>
         <p>
-          Tässä ovat maisteriopiskelijoiden ja kansainvälisten opiskelijoiden orientaatioviikon aikataulut. Löytääksesi
-          perille aikatauluissa mainittuihin paikkoihin suosittelemme lataamaan{' '}
+          Kevään 2026 orientaatioviikon aikataulu on jaettu teille koulun toimesta. Tsekkaa sähköposti! Julkaisemme
+          killan orientaatioviikon aktiviteetit tänne lähempänä viikkoa.
+        </p>
+        <p>
+          Suosittelemme lataamaan{' '}
           <a
             href="https://www.aalto.fi/en/services/aalto-space-mobile-application"
             target="_blank"
@@ -27,9 +29,9 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
           >
             Aalto Space
           </a>{' '}
-          -sovelluksen ja pyytämään aktiivisesti neuvoja ISOilta.
+          -sovelluksen löytääksesi kampuksen tiloja ja pyytämään aktiivisesti neuvoja ISOilta.
         </p>
-        <p>
+        {/* <p>
           Nämä aikataulut ovat yhdistelmä killan järjestämistä aktiviteeteista ja Aallon järjestämistä tapahtumista.{' '}
           <em>
             Paikat ja aikataulut saattavat muuttua, joten katso myös ajantasaisimmat tiedot{' '}
@@ -62,7 +64,7 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
           className="centered-image"
           src="../../images/images/orientaatioviikon-aikataulu-MINT-exchange.png"
           alt="Orientaatioviikon aikataulu vaihto-opiskelijoille."
-        />
+        /> */}
       </div>
     </PageLayout>
   );
