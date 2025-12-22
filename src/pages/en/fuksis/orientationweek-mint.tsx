@@ -2,8 +2,8 @@ import React from 'react';
 import type { HeadFC, HeadProps } from 'gatsby';
 import Meta from '@src/components/common/Meta';
 import PageLayout from '@src/components/layouts/PageLayout';
-//import heropic from "@src/images/images/IMG_6067-Edit.jpg" //pitää vaihtaa
-import { StaticImage } from 'gatsby-plugin-image';
+// import heropic from "@src/images/images/IMG_6067-Edit.jpg" //pitää vaihtaa
+// import { StaticImage } from 'gatsby-plugin-image';
 
 const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
   return (
@@ -16,10 +16,12 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
       <h2 id="orientaatioviikon-aikataulu"></h2>
 
       <div className="image-container">
-        <p>Orientation week is a hectic week with lots to do and explore!</p>
         <p>
-          Here are the master's and international students' orientation week schedules. Scroll down to find the exchange
-          students' schedule. To find your way to the locations listed in the schedules, we recommend downloading the{' '}
+          The Spring 2026 orientation schedule has been shared with you by the school, check your emails for more info!
+          We will publish the guild activities of orientation week here closer to the week.
+        </p>
+        <p>
+          The To find your way to the locations around campus, we recommend downloading the{' '}
           <a
             href="https://www.aalto.fi/en/services/aalto-space-mobile-application"
             target="_blank"
@@ -29,7 +31,7 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
           </a>{' '}
           app and actively asking your ISOs for guidance.
         </p>
-        <p>
+        {/* <p>
           These schedules are a compilation of activities organized by the guild and events organized by Aalto.{' '}
           <em>
             The locations and schedules may be subject to change, see the{' '}
@@ -62,7 +64,7 @@ const Orientaatioviikko: React.FC<PageProps> = ({ pageContext }) => {
           className="centered-image"
           src="../../../images/images/orientaatioviikon-aikataulu-MINT-exchange.png"
           alt="Orientation week schedule for exchange students."
-        />
+        /> */}
       </div>
     </PageLayout>
   );
