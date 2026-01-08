@@ -9,7 +9,7 @@ const ConfidentialCounselorPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Confidential Counselors"
-      lead="Contact a Confidential Counselor if you see or encounter harassment in guild events or spaces."
+      lead="Contact a Confidential Counselor if you see or encounter harassment in guild events or spaces. You can also report it anomanously by pressing the button below."
     >
       <a
         style={{ marginBlock: '1rem' }}

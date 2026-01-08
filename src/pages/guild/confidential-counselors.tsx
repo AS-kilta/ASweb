@@ -9,7 +9,7 @@ const ConfidentialCounselorPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Häirintä&shy;yhdys&shy;henkilöt"
-      lead="Ota yhteyttä häirintä&shy;yhdys&shy;henkilöön, jos näet tai koet killan tapahtumissa tai tiloissa häirintää."
+      lead="Ota yhteyttä häirintä&shy;yhdys&shy;henkilöön, jos näet tai koet killan tapahtumissa tai tiloissa häirintää. Voit ilmoittaa tilanteen myös nimettömästi alla olevasta painikkeesta."
     >
       <a
         style={{ marginBlock: '1rem' }}
