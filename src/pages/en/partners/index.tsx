@@ -15,12 +15,12 @@ interface Props extends PageProps {
 
 const Partners: React.FC<Props> = ({ pageContext, data }) => {
   const ysvData: ContactInfo = {
-    title: 'Head of Corporate Relations',
-    name: 'Säde Mikkonen',
+    title: 'Yrityssuhdevastaava',
+    name: 'Daniel Gorbatchev',
     email: 'yrityssuhdevastaava@as.fi',
-    phone: '+358 458871514',
-    picture: data.file,
-    telegram: '@mikksad',
+    phone: '+358 407770660',
+    picture: '../images/officials/2026/Daniel_Gorbatchev.jpg',
+    telegram: '@danikorpo',
   };
 
   return (

@@ -20,7 +20,6 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
     title: 'Fuksi Captain',
     name: 'Joel Forsström',
     email: 'fuksikapteeni@as.fi',
-    phone: '+358 417455475',
     telegram: 'joel_forsstrom',
     picture: fuksicaptain1,
   };
@@ -29,7 +28,6 @@ const Fuksis: React.FC<Props> = ({ pageContext }) => {
     title: 'Fuksi Captain',
     name: 'Kalle Kajoniemi',
     email: 'fuksikapteeni@as.fi',
-    phone: '+358 452052581',
     telegram: 'kalleinta',
     picture: fuksicaptain2,
   };
