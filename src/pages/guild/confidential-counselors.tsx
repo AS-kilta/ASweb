@@ -9,8 +9,17 @@ const ConfidentialCounselorPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Häirintä&shy;yhdys&shy;henkilöt"
-      lead="Ota yhteyttä häirintä&shy;yhdys&shy;henkilöön, jos näet tai koet killan tapahtumissa tai tiloissa häirintää."
+      lead="Ota yhteyttä häirintä&shy;yhdys&shy;henkilöön, jos näet tai koet killan tapahtumissa tai tiloissa häirintää. Voit ilmoittaa tilanteen myös nimettömästi alla olevasta painikkeesta."
     >
+      <a
+        style={{ marginBlock: '1rem' }}
+        className="rounded-button"
+        target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeFna7bOgli1Nj_UVHR_0aNRmURtYY_u40uwhqdfCZRmYsEmQ/viewform?usp=dialog"
+        rel="noreferrer"
+      >
+        Ilmoita häirinnästä
+      </a>
       <ConfidentialCounselors lang={pageContext.lang} />
     </PageLayout>
   );
