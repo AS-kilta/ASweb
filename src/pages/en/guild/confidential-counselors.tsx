@@ -9,8 +9,17 @@ const ConfidentialCounselorPage: React.FC<PageProps> = ({ pageContext }) => {
     <PageLayout
       pageContext={pageContext}
       title="Confidential Counselors"
-      lead="Contact a Confidential Counselor if you see or encounter harassment in guild events or spaces."
+      lead="Contact a Confidential Counselor if you see or encounter harassment in guild events or spaces. You can also report it anonymously by pressing the button below."
     >
+      <a
+        style={{ marginBlock: '1rem' }}
+        className="rounded-button"
+        target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeFna7bOgli1Nj_UVHR_0aNRmURtYY_u40uwhqdfCZRmYsEmQ/viewform?usp=dialog"
+        rel="noreferrer"
+      >
+        Report harassment
+      </a>
       <ConfidentialCounselors lang={pageContext.lang} />
     </PageLayout>
   );

@@ -1,9 +1,9 @@
 - title:
     fi: 'Häirintäyhdyshenkilö'
     en: 'Confidential Counselor'
-  name: 'Kaisla Haapoja'
-  email: 'kaisla.haapoja@as.fi'
-  telegram: 'Kaislakettu'
+  name: 'Saara Miettinen'
+  email: 'saara.miettinen@as.fi'
+  telegram: 'Saaratoniini'
   picture: '../images/officials/aebaej_placeholder.png'
 
 - title:
@@ -17,10 +17,10 @@
 - title:
     fi: 'Häirintäyhdyshenkilö'
     en: 'Confidential Counselor'
-  name: 'Joel Forsström'
-  email: 'joel.forsstrom@as.fi'
-  telegram: 'joel_forsstrom'
-  picture: '../images/officials/2025/joel_forstrom.jpg'
+  name: 'Joel Ventola'
+  email: 'joel.ventola@as.fi'
+  telegram: 'jventola'
+  picture: '../images/officials/aebaej_placeholder.png'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -33,23 +33,23 @@
 - title:
     fi: 'Häirintäyhdyshenkilö'
     en: 'Confidential Counselor'
-  name: 'Kiira Metsoila'
-  email: 'kiira.metsoila@as.fi'
-  telegram: 'Kiiraiitu'
-  picture: '../images/officials/2024/kiira_metsoila.jpeg'
+  name: 'Otto Peltonen'
+  email: 'otto.peltonen@as.fi'
+  telegram: 'LahenLevein'
+  picture: '../images/officials/aebaej_placeholder.png'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
     en: 'Confidential Counselor'
-  name: 'Venla Mäkelä'
-  email: 'venla.makela@as.fi'
-  telegram: 'venlamakela'
-  picture: '../images/officials/2025/venla_makela.jpg'
-
-- title:
-    fi: 'Vastuuhäirintäyhdyshenkilö'
-    en: 'Responsible Confidential Counselor'
   name: 'Jenny Ruokolainen'
   email: 'jenny.ruokolainen@as.fi'
   telegram: 'jequilaaa'
   picture: '../images/officials/2025/jenny_ruokolainen.jpg'
+
+- title:
+    fi: 'Vastuuhäirintäyhdyshenkilö'
+    en: 'Responsible Confidential Counselor'
+  name: 'Venla Mäkelä'
+  email: 'venla.makela@as.fi'
+  telegram: 'venlamakela'
+  picture: '../images/officials/2025/venla_makela.jpg'

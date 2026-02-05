@@ -13,7 +13,7 @@
       title:
         - fi: 'Fuksikapteeni'
           en: 'Fuksi Captain'
-      picture: '../images/officials/2025/joel_forstrom.jpg'
+      picture: '../images/officials/2025/joel_forsstrom2.jpg'
       leader: true
     - name: 'Aapo Vuokila'
       title:
@@ -325,7 +325,7 @@
       title:
         - fi: 'ASSmASSter'
           en: 'ASSmASSter'
-      picture: '../images/officials/2025/joel_forstrom.jpg'
+      picture: '../images/officials/2025/joel_forsstrom2.jpg'
     - name: 'Lyydia Hautala'
       title:
         - fi: 'ASSmASSter'
@@ -336,7 +336,7 @@
       title:
         - fi: 'Himojuoksija'
           en: 'Running enthusiast'
-      picture: '../images/officials/2025/mikhail_romanov.jpeg'
+      picture: '../images/officials/2025/mikhail_romanov.jpg'
     #Liikkujat
     - name: 'Tuure Survo'
       title:
@@ -526,7 +526,7 @@
       title:
         - fi: 'MinIEns'
           en: 'MinIEns'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
 
 #Lukkarit
 - name:
@@ -633,7 +633,7 @@
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2025/joel_forstrom.jpg'
+      picture: '../images/officials/2025/joel_forsstrom2.jpg'
     - name: 'Hanni Tynjälä'
       title:
         - fi: 'ASkivahti'
@@ -812,7 +812,7 @@
       title:
         - fi: 'Yrityssuhdeneuvonantaja'
           en: 'Corporate Relations advisor'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
     #SAS
     - name: 'Neil Lipes'
       title:
@@ -824,6 +824,12 @@
         - fi: 'SAS-yhdyshenkilö'
           en: 'SAS liaison'
       picture: '../images/officials/2024/jaakko_aalto.jpeg'
+    #TEK
+    - name: 'Aaro Saastamoinen'
+      title:
+        - fi: 'TEK-yhteyshenkilö'
+          en: 'TEK liaison'
+      picture: '../images/officials/2023/aaro_saastamoinen.jpg'
 
 #Taloustoimikunta
 - name:
@@ -871,7 +877,7 @@
       title:
         - fi: 'Kolikonkiertäjä'
           en: 'Member of Committee'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
 
 #Mediatoimikunta
 - name:
@@ -922,7 +928,7 @@
       title:
         - fi: 'Graafikko'
           en: 'Graphic Designer'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
     - name: 'Vilja Lohi'
       title:
         - fi: 'Graafikko'
@@ -960,7 +966,7 @@
       title:
         - fi: 'Säätömestari'
           en: 'Master Tinkerer'
-      picture: '../images/officials/2025/akseli_pihlajamaa.jpg'
+      picture: '../images/officials/2024/akseli_pihlajamaa.jpg'
       leader: true
     - name: 'Säde Mikkonen'
       title:
@@ -1093,7 +1099,7 @@
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
       picture: ''
-    - name: 'Nicklas Bouchard'
+    - name: 'Nia Bouchard'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinkerer'
@@ -1465,7 +1471,7 @@
       title:
         - fi: 'Hallitusvakooja'
           en: 'Board spy'
-      picture: '../images/officials/2025/joel_forstrom.jpg'
+      picture: '../images/officials/2025/joel_forsstrom2.jpg'
     - name: 'Säde Mikkonen'
       title:
         - fi: 'Hallitusvakooja'
