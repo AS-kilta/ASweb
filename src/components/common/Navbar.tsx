@@ -6,7 +6,7 @@ import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 import * as style from './Navbar.module.scss';
 
 import Gallery from '../../images/icons/gallery.inline.svg';
-import Ilmo from '../../images/icons/ilmov2.inline.svg';
+import Ilmo from '../../images/icons/ilmov3.svg';
 import Forum from '../../images/icons/forum.inline.svg';
 import Kimble from '../../images/icons/kimble.inline.svg';
 
