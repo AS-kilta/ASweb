@@ -15,7 +15,7 @@
     en: 'Vice Chairperson'
   name: 'Eeva Järvenpää'
   email: 'varapuheenjohtaja@as.fi'
-  telegram: 'asISOpomo'
+  telegram: 'eewuli'
   picture: '../images/officials/2026/Eeva_Jarvenpaa.jpg'
   description:
     fi: 'Avustaa puheenjohtajaa ja hoitaa sihteerin tehtäviä. Vastaa pöytäkirjojen tekemisestä hallituksen ja killan kokouksista sekä kiltaa koskevan materiaalin arkistoinnista huolehtimisesta.'
@@ -27,7 +27,7 @@
   name: 'Marie Heikkinen'
   email: 'rahastonhoitaja@as.fi'
   phone: '+358 403536370'
-  telegram: 'marieheikkinen'
+  telegram: 'maksuhairiot'
   picture: '../images/officials/2026/Marie_Heikkinen.jpg'
   description:
     fi: "Huolehtii killan raha-asioista, kuten laskujen maksamisesta ja kirjanpidosta.\nOta yhteyttä rahastonhoitajaan raha-asioissa."
