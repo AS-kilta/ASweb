@@ -16,11 +16,11 @@ interface Props extends PageProps {
 const Partners: React.FC<Props> = ({ pageContext, data }) => {
   const ysvData: ContactInfo = {
     title: 'Yrityssuhdevastaava',
-    name: 'Säde Mikkonen',
+    name: 'Daniel Gorbatchev',
     email: 'yrityssuhdevastaava@as.fi',
-    phone: '+358 458871514',
+    phone: '+358 407770660',
     picture: data.file,
-    telegram: '@mikksad',
+    telegram: '@danikorpo',
   };
 
   return (
@@ -152,7 +152,7 @@ export const Head: HeadFC<HeadProps> = () => <Meta lang="fi" title="Yrityksille"
 
 export const query = graphql`
   query ImgQuery {
-    file(relativePath: { eq: "officials/2025/sade_mikkonen.jpg" }) {
+    file(relativePath: { eq: "officials/2026/Daniel_Gorbatchev.jpg" }) {
       childImageSharp {
         gatsbyImageData(placeholder: BLURRED)
       }
