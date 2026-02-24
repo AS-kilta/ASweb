@@ -16,6 +16,7 @@
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-offline": "^6.13.2",
+    "gatsby-plugin-react-svg": "^3.3.0",
     "gatsby-plugin-sass": "^6.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-remark-autolink-headers": "^6.13.1",

@@ -5,6 +5,11 @@ import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
 import * as style from './Navbar.module.scss';
 
+import Gallery from '../../images/icons/gallery.inline.svg';
+import Ilmo from '../../images/icons/ilmov3.inline.svg';
+import Forum from '../../images/icons/forum.inline.svg';
+import Kimble from '../../images/icons/kimble.inline.svg';
+
 // Create context for navi callbacks (avoid prop drilling)
 
 interface INaviContext {
@@ -149,6 +154,25 @@ const Subnavi: React.FC<SubnaviProps> = ({ lang, data }) => {
   );
 };
 
+const QuickLinks: React.FC<{ lang: string }> = ({ lang }) => {
+  return (
+    <div className={style.quickLinks}>
+      <Link to={'https://gallery.as.fi'}>
+        <Gallery />
+      </Link>
+      <Link to={'https://ilmo.as.fi'}>
+        <Ilmo />
+      </Link>
+      <Link to={'https://forum.as.fi'}>
+        <Forum />
+      </Link>
+      <Link to={lang === 'fi' ? 'https://as.fi/kimble/kimblesaannot.pdf' : 'https://as.fi/kimble/kimble-en.pdf'}>
+        <Kimble />
+      </Link>
+    </div>
+  );
+};
+
 // Types for navigation data scheme
 
 interface SubnaviData {
@@ -219,6 +243,7 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
         return <NaviItem entry={entry} lang={lang} key={entry.title[lang] + '-' + entry.link[lang]} />;
       })}
       <LangSwitcher lang={lang} slug={slug} translation={translation} />
+      <QuickLinks lang={lang} />
     </ul>
   );
 };
