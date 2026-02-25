@@ -30,9 +30,9 @@
 #   link: 'https://atalent.fi/'
 #   picture: '../images/sponsors/aTalent_Logo_White.png'
 
-# - name: 'Sandvik' # expires in 30.6.2024
-#   link: 'https://www.home.sandvik/en/'
-#   picture: '../images/sponsors/sandvik.png'
+- name: 'Sandvik' # expires in 30.6.2024
+  link: 'https://www.home.sandvik/en/'
+  picture: '../images/sponsors/sandvik.png'
 
 - name: 'Ericsson' # expires in 30.12.2026
   link: 'https://ericsson.com/'
