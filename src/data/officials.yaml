@@ -86,7 +86,7 @@
       title:
         - fi: 'Himo-aASistentti'
           en: 'Craving aASistant'
-      picture: '../images/officials/2025/vinksi_lang.jpg'
+      picture: '../images/officials/2025/vinski_lang.jpg'
     - name: 'Anastasia Parfenova'
       title:
         - fi: 'Himo-aASistentti'
@@ -266,7 +266,7 @@
       title:
         - fi: 'Kultsi'
           en: 'Cultist'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
     - name: 'Jenny Ruokolainen'
       title:
         - fi: 'Kultsi'
@@ -360,7 +360,7 @@
       title:
         - fi: 'Kimblekippari'
           en: 'Kimble Captain'
-      picture: '../images/officials/2025/SamuliVilen.jpg'
+      picture: '../images/officials/2026/SamuliVilen.jpg'
 
 #Liikunta
 - name:
@@ -718,7 +718,7 @@
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../images/officials/2026/PinjaMakeläinen.jpg'
+      picture: '../images/officials/2026/PinjaMakelainen.jpg'
     - name: 'Milja Jänis'
       title:
         - fi: 'ASkivahti'
@@ -869,13 +869,13 @@
       title:
         - fi: 'Yrityssuhdeneuvonantaja'
           en: 'Corporate Relations Advisor'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
     #SAS
     - name: 'Matti Laine'
       title:
         - fi: 'SAS-yhdyshenkilö'
           en: 'SAS liaison'
-      picture: '../images/officials/2026/MattiLaine.png'
+      picture: '../images/officials/2026/MattiLaine.jpg'
     - name: 'Neil Lipes'
       title:
         - fi: 'SAS-yhdyshenkilö'
@@ -958,7 +958,7 @@
       title:
         - fi: 'Vara-VM'
           en: 'Vice-HC'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
     #Dokumentoijat
     - name: 'Leevi Oksanen'
       title:
@@ -969,7 +969,7 @@
       title:
         - fi: 'Dokumentoija'
           en: 'Photographer'
-      picture: '../images/officials/2026/ottoVaskola.jpg'
+      picture: '../images/officials/2026/OttoVaskola.jpg'
     - name: 'Phuong Thieu'
       title:
         - fi: 'Dokumentoija'
@@ -1012,11 +1012,11 @@
           en: 'Graphic Designer'
       picture: '../images/officials/2026/AnnaDukate.jpg'
     #somettajat
-    - name: 'Nora Jasyluite'
+    - name: 'Nora Jasulaityte'
       title:
         - fi: 'Somettaja'
           en: 'Social Media Manager'
-      picture: '../images/officials/2026/NoraJasyluite.jpg'
+      picture: '../images/officials/2026/NoraJasulaityte.jpg'
     - name: 'Karoliina Koivu'
       title:
         - fi: 'Somettaja'
@@ -1131,7 +1131,7 @@
       title:
         - fi: 'Säätökisälli'
           en: 'Tinker bell'
-      picture: '../images/officials/2024/akseli_leino.jpg'
+      picture: '../images/officials/2024/akseli_leino.jpeg'
     - name: 'Jaakko Lehto'
       title:
         - fi: 'Säätökisälli'
@@ -1186,7 +1186,7 @@
       title:
         - fi: 'Säätökisälli'
           en: 'Tinker bell'
-      picture: '../images/officials/2026/PinjaMakeläinen.jpg'
+      picture: '../images/officials/2026/PinjaMakelainen.jpg'
     - name: 'Ilkka Taponen'
       title:
         - fi: 'Säätökisälli'
@@ -1241,7 +1241,7 @@
       title:
         - fi: 'Säätökisälli'
           en: 'Tinker bell'
-      picture: '../images/officials/2024/daniel_ruotsi.jpeg'
+      picture: '../images/officials/2024/daniel_ruotsi.jpg'
     - name: 'Santtu Sievonen'
       title:
         - fi: 'Säätökisälli'
@@ -1337,7 +1337,7 @@
       title:
         - fi: 'Depressantti'
           en: 'Depressant'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
 
 #Retki
 - name:
@@ -1366,7 +1366,7 @@
       title:
         - fi: 'Retkisälli'
           en: 'Trip-prentice'
-      picture: '../images/officials/2025/Daniel_Gorbatchev.jpg'
+      picture: '../images/officials/2026/Daniel_Gorbatchev.jpg'
     - name: 'Samuli Sarmala'
       title:
         - fi: 'Retkisälli'
@@ -1484,7 +1484,7 @@
       title:
         - fi: 'Kultainen Toimittaja'
           en: 'Golden Editor'
-      picture: '../images/officials/2026/PinjaMakeläinen.jpg'
+      picture: '../images/officials/2026/PinjaMakelainen.jpg'
     #Kultaiset graafikot
     - name: 'Saara Miettinen'
       title:
@@ -1501,7 +1501,7 @@
       title:
         - fi: 'Kultainen taittaja'
           en: 'Golden Designer'
-      picture: '../images/officials/2025/SakuParttimaa.jpg'
+      picture: '../images/officials/2026/SakuParttimaa.jpg'
 
 #Stigutoimikunta
 - name:
@@ -1550,7 +1550,7 @@
       title:
         - fi: 'Degenerantti'
           en: 'Degenerate'
-      picture: '../images/officials/2024/veeti_kittamaa.jpg'
+      picture: '../images/officials/2024/veeti_kittamaa.jpeg'
     - name: 'Petra Ojala'
       title:
         - fi: 'Degenerantti'
@@ -1600,7 +1600,7 @@
       title:
         - fi: 'Degenerantti'
           en: 'Degenerate'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
     - name: 'Henri Paasonen'
       title:
         - fi: 'Degenerantti'
@@ -1640,7 +1640,7 @@
       title:
         - fi: 'Degenerantti'
           en: 'Degenerate'
-      picture: '../images/officials/2025/vinksi_lang.jpg'
+      picture: '../images/officials/2025/vinski_lang.jpg'
     - name: 'Erkka Multanen'
       title:
         - fi: 'Degenerantti'
@@ -1718,7 +1718,7 @@
       title:
         - fi: "Master's and International Student Captain (MISC)"
           en: "Master's and International Student Captain (MISC)"
-      picture: '../images/officials/2026/Jere_Hasu.jpeg'
+      picture: '../images/officials/2026/Jere_Hasu.jpg'
       leader: true
     #Miscellaneous
     - name: 'Anna Dukate'
@@ -1730,7 +1730,7 @@
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/2026/BrisNevalainen.jpeg'
+      picture: '../images/officials/2026/BrisNevalainen.jpg'
     - name: 'Kiet Ta'
       title:
         - fi: 'Miscellaneous'
@@ -1750,7 +1750,7 @@
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../images/officials/2026/SofiaElomaa.jpeg'
+      picture: '../images/officials/2026/SofiaElomaa.jpg'
     - name: 'Jianing Hu'
       title:
         - fi: 'Miscellaneous'
@@ -1810,13 +1810,13 @@
       title:
         - fi: 'Viihde-, mikki- ja ohjelmavaltuutettu'
           en: 'Entertainment, Microphone and Program Commissioner'
-      picture: '../images/officials/2024/veeti_kittamaa.jpg'
+      picture: '../images/officials/2024/veeti_kittamaa.jpeg'
       leader: true
     - name: 'Jesperi Hildén'
       title:
         - fi: 'Urheilu- ja kuntoutusministeri'
           en: 'Minister of Sports and Rehabilitation'
-      picture: '../images/officials/2025/jesperi_hilden.jpeg'
+      picture: '../images/officials/2025/jesperi_hilden.jpg'
       leader: true
 
 #Jatkuvuustoimikunta
@@ -1849,7 +1849,7 @@
       title:
         - fi: 'Mentori'
           en: 'Mentor'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpeg'
+      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
     - name: 'Saku Parttimaa'
       title:
         - fi: 'Mentori'
@@ -1859,13 +1859,13 @@
       title:
         - fi: 'Mentori'
           en: 'Mentor'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
     #Merkkiohjesääntötyöryhmän puheenjohtajat
     - name: 'Joonas Törmälä'
       title:
         - fi: 'Merkkiohjesääntötyöryhmän puheenjohtaja'
           en: 'Chair of Badge regulations working group'
-      picture: '../images/officials/2024/joonas_tormala.jpg'
+      picture: '../images/officials/2024/joonas_tormala.jpeg'
     - name: 'Kiira Metsoila'
       title:
         - fi: 'Merkkiohjesääntötyöryhmän puheenjohtaja'
@@ -1886,12 +1886,12 @@
       title:
         - fi: 'Merkkiohjesääntötyöryhmä'
           en: 'Badge regulations working group'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpeg'
+      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
     - name: 'Säde Mikkonen'
       title:
         - fi: 'Merkkiohjesääntötyöryhmä'
           en: 'Badge regulations working group'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
     - name: 'Tiitus Mustajoki'
       title:
         - fi: 'Merkkiohjesääntötyöryhmä'
@@ -1939,7 +1939,7 @@
       title:
         - fi: 'Ulkoexcutoimikunnan jäsen'
           en: 'Member of International Excursion Committee'
-      picture: '../images/officials/2025/sade_mikkonen.jpg'
+      picture: '../images/officials/2026/SädeMikkonen.jpg'
     - name: 'Nia Lehtonen'
       title:
         - fi: 'Ulkoexcutoimikunnan jäsen'
@@ -1959,7 +1959,7 @@
       title:
         - fi: 'Ulkoexcutoimikunnan jäsen'
           en: 'Member of International Excursion Committee'
-      picture: '../images/officials/2025/tonis_partel.jpg'
+      picture: '../images/officials/2023/tonis_partel.jpg'
 
 #Toimikuntien ulkopuolella
 
@@ -1971,7 +1971,7 @@
       title:
         - fi: 'Toiminnantarkastaja'
           en: 'Inspector'
-      picture: '../images/officials/2024/tuomas_nykanen.jpg'
+      picture: '../images/officials/2023/tuomas_nykanen.jpg'
     - name: 'Henrik Starck'
       title:
         - fi: 'Toiminnantarkastaja'
@@ -1986,7 +1986,7 @@
       title:
         - fi: 'Varatoiminnantarkastaja'
           en: 'Vice Inspector'
-      picture: '../images/officials/2024/pessi_lyytikainen.jpeg'
+      picture: '../images/officials/2024/pessi_lyytikainen.jpg'
     - name: 'Ville Kyrki'
       title:
         - fi: 'Oltermanni'
