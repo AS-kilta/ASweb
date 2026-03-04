@@ -35,37 +35,37 @@
         - fi: 'DSDeputy'
           en: 'DSDeputy'
       picture: '../images/officials/2026/AlexVu.jpg'
-    # #FuksiaASistentit (ei vielä valittu)
-    # - name: ''
-    #   title:
-    #     - fi: 'FuksiaASistentti'
-    #       en: 'Fuksi aASistant'
-    #   picture: '../images/officials/2025/.jpg'
-    # - name: ''
-    #   title:
-    #     - fi: 'FuksiaASistentti'
-    #       en: 'Fuksi aASistant'
-    #   picture: '../images/officials/2025/.jpg'
-    # - name: ''
-    #   title:
-    #     - fi: 'FuksiaASistentti'
-    #       en: 'Fuksi aASistant'
-    #   picture: '../images/officials/2025/.jpg'
-    # - name: ''
-    #   title:
-    #     - fi: 'FuksiaASistentti'
-    #       en: 'Fuksi aASistant'
-    #   picture: '../images/officials/2025/.jpg'
-    # - name: ''
-    #   title:
-    #     - fi: 'FuksiaASistentti'
-    #       en: 'Fuksi aASistant'
-    #   picture: '../images/officials/2025/.jpg'
-    # - name: ''
-    #   title:
-    #     - fi: 'FuksiaASistentti'
-    #       en: 'Fuksi aASistant'
-    #   picture: '../images/officials/2025/.jpg'
+     #FuksiaASistentit (ei vielä valittu)
+   - name: 'Matias Kalliokoski'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+      picture: '../images/officials/2025/matias_kalliokoski.jpg'
+    - name: 'Sara Timonen'
+      title:
+         - fi: 'FuksiaASistentti'
+           en: 'Fuksi aASistant'
+       picture: '../images/officials/2026/SaraTimonen.jpg'
+    - name: 'Timi Lehtisyrjä'
+      title:
+         - fi: 'FuksiaASistentti'
+           en: 'Fuksi aASistant'
+      picture: '../images/officials/2026/TimiLehtisyrjä.jpg'
+    - name: 'Iiro Sällinen'
+      title:
+         - fi: 'FuksiaASistentti'
+           en: 'Fuksi aASistant'
+      picture: '../images/officials/2026/IiroSallinen.jpg'
+    - name: 'Saimi Tuomi'
+      title:
+         - fi: 'FuksiaASistentti'
+           en: 'Fuksi aASistant'
+      picture: '../images/officials/aebaej_placeholder.png'
+    - name: 'Sofia Elomaa'
+      title:
+         - fi: 'FuksiaASistentti'
+           en: 'Fuksi aASistant'
+      picture: '../images/officials/2026/SofiaElomaa.jpg'
     #Himo-aASistentit
     - name: 'Huiseung Bae'
       title:
@@ -353,7 +353,7 @@
       #Kimlekipparit
     - name: 'Isla Kajoniemi'
       title:
-        - fi: 'Kimlekippari'
+        - fi: 'Kimblekippari'
           en: 'Kimble Captain'
       picture: '../images/officials/2026/IslaKajoniemi.jpg'
     - name: 'Samuli Vilen'
@@ -1828,27 +1828,37 @@
       title:
         - fi: 'Jatkuvuustoimikunnan puheenjohtaja'
           en: 'Chair of Continuity Committee'
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
       picture: '../images/officials/2025/tiitus_mustajoki.jpg'
       leader: true
     - name: 'Eero Huhtala'
       title:
         - fi: 'Mentori'
           en: 'Mentor'
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
       picture: '../images/officials/2025/eero_huhtala.jpg'
     - name: 'Elina Leiniö'
       title:
         - fi: 'Mentori'
           en: 'Mentor'
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
       picture: '../images/officials/2025/elina_leinio.jpg'
     - name: 'Joonas Törmälä'
       title:
         - fi: 'Mentori'
           en: 'Mentor'
+        - fi: 'Merkkiohjesääntötyöryhmän puheenjohtaja'
+          en: 'Chair of Badge regulations working group'
       picture: '../images/officials/2024/joonas_tormala.jpeg'
     - name: 'Leevi Hormaluoma'
       title:
         - fi: 'Mentori'
           en: 'Mentor'
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
       picture: '../images/officials/2024/leevi_hormaluoma.jpg'
     - name: 'Saku Parttimaa'
       title:
@@ -1859,44 +1869,14 @@
       title:
         - fi: 'Mentori'
           en: 'Mentor'
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
       picture: '../images/officials/2026/SädeMikkonen.jpg'
-    #Merkkiohjesääntötyöryhmän puheenjohtajat
-    - name: 'Joonas Törmälä'
-      title:
-        - fi: 'Merkkiohjesääntötyöryhmän puheenjohtaja'
-          en: 'Chair of Badge regulations working group'
-      picture: '../images/officials/2024/joonas_tormala.jpeg'
     - name: 'Kiira Metsoila'
       title:
         - fi: 'Merkkiohjesääntötyöryhmän puheenjohtaja'
           en: 'Chair of Badge regulations working group'
       picture: '../images/officials/2024/kiira_metsoila.jpeg'
-    #Merkkiohjesääntötyöryhmä
-    - name: 'Eero Huhtala'
-      title:
-        - fi: 'Merkkiohjesääntötyöryhmä'
-          en: 'Badge regulations working group'
-      picture: '../images/officials/2025/eero_huhtala.jpg'
-    - name: 'Elina Leiniö'
-      title:
-        - fi: 'Merkkiohjesääntötyöryhmä'
-          en: 'Badge regulations working group'
-      picture: '../images/officials/2025/elina_leinio.jpg'
-    - name: 'Leevi Hormaluoma'
-      title:
-        - fi: 'Merkkiohjesääntötyöryhmä'
-          en: 'Badge regulations working group'
-      picture: '../images/officials/2024/leevi_hormaluoma.jpg'
-    - name: 'Säde Mikkonen'
-      title:
-        - fi: 'Merkkiohjesääntötyöryhmä'
-          en: 'Badge regulations working group'
-      picture: '../images/officials/2026/SädeMikkonen.jpg'
-    - name: 'Tiitus Mustajoki'
-      title:
-        - fi: 'Merkkiohjesääntötyöryhmä'
-          en: 'Badge regulations working group'
-      picture: '../images/officials/2025/tiitus_mustajoki.jpg'
 
 #Ulkoexcutmk
 - name:
