@@ -36,7 +36,7 @@
           en: 'DSDeputy'
       picture: '../images/officials/2026/AlexVu.jpg'
      #FuksiaASistentit (ei vielä valittu)
-   - name: 'Matias Kalliokoski'
+    - name: 'Matias Kalliokoski'
       title:
         - fi: 'FuksiaASistentti'
           en: 'Fuksi aASistant'
@@ -45,7 +45,7 @@
       title:
          - fi: 'FuksiaASistentti'
            en: 'Fuksi aASistant'
-       picture: '../images/officials/2026/SaraTimonen.jpg'
+      picture: '../images/officials/2026/SaraTimonen.jpg'
     - name: 'Timi Lehtisyrjä'
       title:
          - fi: 'FuksiaASistentti'
