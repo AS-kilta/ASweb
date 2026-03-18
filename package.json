@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "AS",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.0.19",
@@ -46,6 +46,9 @@
     "ASweb"
   ],
   "license": "0BSD",
+  "overrides": {
+    "msgpackr": "^1.11.2"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
