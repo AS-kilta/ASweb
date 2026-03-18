@@ -22,6 +22,10 @@ Download installation package from https://nodejs.org and run it.
 
 The easiest way to install and switch between node versions is to use nvm script (https://github.com/nvm-sh/nvm). Follow to installation instructions in README to install the tool and use it to install node.
 
+### Node with Nix Flake
+
+This repository has a Nix Flake with a development shell. If you have Nix package manager on your machine, you can just run `nix develop` and a shell with the correct node version will open.
+
 ### Clone the repository and install dependencies
 
 Clone this repository and change into the directory.
