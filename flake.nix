@@ -2,7 +2,7 @@
   description = "AS-guild homesite";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     systems.url = "github:nix-systems/default";
   };
 
@@ -13,7 +13,7 @@
       system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          nodejs = pkgs.nodejs_18;
+          nodejs = pkgs.nodejs_24;
         in
         {
           default = pkgs.mkShell {
