@@ -1,0 +1,27 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+
+const description = 'Orientaatioviikon aikataulu MINT fukseille.';
+---
+
+<BaseLayout title="MINT Orientaatioviikko" description={description} lang="fi" slug="fuksis/orientationweek-mint">
+  <h2 id="orientaatioviikon-aikataulu"></h2>
+
+  <div class="image-container">
+    <p>
+      Kevään 2026 orientaatioviikon aikataulu on jaettu teille koulun toimesta. Tsekkaa sähköposti! Julkaisemme
+      killan orientaatioviikon aktiviteetit tänne lähempänä viikkoa.
+    </p>
+    <p>
+      Suosittelemme lataamaan{' '}
+      <a
+        href="https://www.aalto.fi/en/services/aalto-space-mobile-application"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Aalto Space
+      </a>{' '}
+      -sovelluksen löytääksesi kampuksen tiloja ja pyytämään aktiivisesti neuvoja ISOilta.
+    </p>
+  </div>
+</BaseLayout>

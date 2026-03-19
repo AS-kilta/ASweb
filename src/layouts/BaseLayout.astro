@@ -1,0 +1,97 @@
+---
+import Navbar from '@components/common/Navbar';
+import Hero from '@components/common/Hero';
+import Footer from '@components/common/Footer';
+import BackToTop from '@components/common/BackToTop';
+import { getCollection, getEntry } from 'astro:content';
+import { SITE_METADATA } from '@src/consts';
+
+import '@styles/main.scss';
+import '@fontsource-variable/open-sans';
+import '@fontsource-variable/montserrat';
+
+interface Props {
+  title?: string;
+  lead?: string;
+  description?: string;
+  background?: any;
+  heroHeight?: 'short' | 'tall';
+  documentStyle?: string;
+  lang?: 'fi' | 'en';
+  slug?: string;
+  translation?: string;
+  robots?: string;
+  contentMaxWidth?: string;
+}
+
+const {
+  title = SITE_METADATA.title.fi,
+  lead,
+  description,
+  background,
+  heroHeight = 'short',
+  documentStyle = '',
+  lang = 'fi',
+  slug = '',
+  translation,
+  robots,
+  contentMaxWidth = '900px'
+} = Astro.props;
+
+const naviEntry = await getEntry('navigation', 'navi');
+const naviData = naviEntry?.data ?? [];
+
+const sponsorsCollection = await getCollection('sponsors');
+const sponsors = sponsorsCollection[0]?.data ?? [];
+
+const fullTitle = `${title && title !== SITE_METADATA.title[lang] ? title + ' | ' : ''}${SITE_METADATA.title[lang]}`;
+const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    {robots && <meta name="robots" content={robots} />}
+  </head>
+  <body>
+    <div id="layout-container">
+      <Navbar client:load lang={lang} slug={slug} translation={translation} naviData={naviData} />
+      <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
+      <main id="layout-content" class={documentStyle}>
+        <slot />
+      </main>
+      <Footer lang={lang} sponsors={sponsors} />
+    </div>
+    <BackToTop client:load lang={lang} />
+  </body>
+</html>
+
+<style lang="scss" define:vars={{ contentMaxWidth }}>
+#layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  & > * {
+    width: 100%;
+  }
+}
+
+#layout-content {
+  flex-grow: 1;
+  background: $natural-white;
+
+  width: 100%;
+  max-width: var(--contentMaxWidth);
+  margin-inline: auto;
+  padding-inline: 2rem;
+
+  margin-bottom: 5rem;
+}
+</style>

@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import masters_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-masters.png';
+import exchange_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-exchange.png';
+
+const description = 'The orientation week schedule for MINT fuksis';
+---
+
+<BaseLayout title="MINT Orientation week" heroHeight="short" description={description} lang="en" slug="fuksis/orientationweek-mint">
+  <h2 id="orientaatioviikon-aikataulu"></h2>
+
+  <div class="image-container">
+    <p>
+      The Spring 2026 orientation schedule has been shared with you by the school, check your emails for more info!
+      We will publish the guild activities of orientation week here closer to the week.
+    </p>
+    <p>
+      To find your way to the locations around campus, we recommend downloading the{' '}
+      <a
+        href="https://www.aalto.fi/en/services/aalto-space-mobile-application"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Aalto Space
+      </a>{' '}
+      app and actively asking your ISOs for guidance.
+    </p>
+
+    {/* Uncomment and use these images when the schedule is updated */}
+    {/*
+    <h3 id="maisterien-orientaatioviikon-aikataulu">Master's orientation week</h3>
+    <Image
+      class="centered-image"
+      src={masters_timetable}
+      alt="Orientation week schedule for master's students."
+    />
+    <h3 id="vaihtareiden-orientaatioviikon-aikataulu">Exchange students' orientation week</h3>
+    <Image
+      class="centered-image"
+      src={exchange_timetable}
+      alt="Orientation week schedule for exchange students."
+    />
+    */}
+  </div>
+</BaseLayout>

@@ -1,0 +1,1617 @@
+year: '2023'
+
+board:
+  - title:
+      fi: 'Puheenjohtaja'
+      en: 'Chairperson'
+    name: 'Aino Valkama'
+    email: 'puheenjohtaja@as.fi'
+    phone: '+358 445100902'
+    telegram: 'kuningasaino'
+    description:
+      fi: "Johtaa hallitusta ja sitä kautta koko killan toimintaa.\nOta yhteyttä puheenjohtajaan, jos asiasi koskee kiltaa tai et tiedä keneen ottaa yhteyttä."
+      en: "The chairperson leads the guild's board and represents the guild; they are ultimately responsible for keeping the guild's activities on track.  Contact the Chairman if your matter concerns the guild or if you don't know whom to contact."
+
+  - title:
+      fi: 'Varapuheenjohtaja'
+      en: 'Vice Chairperson'
+    name: 'Jimi Oksman'
+    email: 'varapuheenjohtaja@as.fi'
+    phone: '+358 451240250'
+    telegram: 'jimboksman'
+    description:
+      fi: 'Avustaa puheenjohtajaa ja hoitaa sihteerin tehtäviä. Vastaa pöytäkirjojen tekemisestä hallituksen ja killan kokouksista sekä kiltaa koskevan materiaalin arkistoinnista huolehtimisesta.'
+      en: 'Works with the chairperson and acts as the secretary. The vice chairperson is responsible for writing the minutes of the board and guild meetings, looking after the archive and badges of honor.'
+
+  - title:
+      fi: 'Rahastonhoitaja'
+      en: 'Treasurer'
+    name: 'Linda Åström'
+    email: 'rahastonhoitaja@as.fi'
+    phone: '+358 401720020'
+    telegram: 'Lindaastrom'
+    description:
+      fi: "Huolehtii killan raha-asioista, kuten laskujen maksamisesta ja kirjanpidosta.\nOta yhteyttä rahastonhoitajaan raha-asioissa."
+      en: "The treasurer is responsible for taking care of the guild's finances, for instance, paying bills and bookkeeping. Contact the treasure in the financial matters."
+
+  - title:
+      fi: 'Viestintämestari'
+      en: 'Head of Communications'
+    name: 'Elias Erke'
+    email: 'viestintamestari@as.fi'
+    phone: '+358 443071808'
+    telegram: 'eliasjuhani'
+    description:
+      fi: "Vastaa jäsenistön tiedottamisesta lähettämällä tiedotteita ja ylläpitämällä kalenteria. Viestintämestari pitää ajan tasalla myös killan sähköpostilistoja ja nettisivujen sisältöä.\nOta yhteyttä viestintämestariin halutessasi tiedottaa killisteille jotakin."
+      en: "The Master of Communication keeps guild members informed about various events and other interesting and important matters. They take care of the guild's channels of communication, email lists, calendar and website, in addition to which they also send a weekly bulletin that explain what is happening and where. Contact the Master of Communication when you want to share information to the guild members."
+
+  - title:
+      fi: 'Fuksikapteeni'
+      en: 'Fuksi Captain'
+    name: 'Tuomas Nykänen'
+    email: 'fuksikapteeni@as.fi'
+    phone: '+358 440160401'
+    telegram: 'Ykanen'
+    description:
+      fi: 'Vastaa killan fuksikasvatuksesta ja -toiminnasta. Järjestää fuksitapahtumia killan, korkeakoulun sekä yliopiston muiden fuksikapteenien kanssa. Toimii esimerkkinä ja tukena fukseille. Työskentelee yhteistyössä ISOpomon kanssa.'
+      en: 'The Fuksi Captain is responsible for all fuksi wellbeing and fuksi events. They organize events for fuksis with other guild members, the University and other Fuksi Captains. Collaborates closely with the Tutor Coordinator.'
+
+  - title:
+      fi: "Master's and International Student Captain"
+      en: "Master's and International Student Captain"
+    name: 'Anthony Reineck'
+    email: 'misc@as.fi'
+    phone: '+358 453218202'
+    telegram: 'AnthonyReineck'
+    description:
+      fi: 'Vastaa killan kansainvälisten ja maisteriopiskelijoiden fuksikasvatuksesta ja -toiminnasta. Työskentelee yhteistyössä fuksikapteenien ja ISOpomon kanssa. Ota yhteyttä MISC:iin jos asiasi koskee kansainvälistä toimintaa.'
+      en: "The Master and International Student Captain is responsible of fuksi wellbeing and fuksi events for international and master's students. They collaborate closely with the freshman captains and the tutor boss. Contact the MISC if you are confused international student or if your matter concerns international affairs."
+
+  - title:
+      fi: 'ISOpomo'
+      en: 'ISOboss'
+    name: 'Maria Saranpää'
+    email: 'isopomo@as.fi'
+    phone: '+358 452701007'
+    telegram: 'sarashead'
+    description:
+      fi: 'Organisoi ISOhenkilöiden rekryämisen, koulutuksen ja yleisen toiminnan. Työskentelee yhteistyössä fuksikapteenien kanssa.'
+      en: 'The Tutor Boss is responsible of recruitment, preparation and general operation of tutors. They collaborate closely with the freshman captains. Contact the Tutor Boss if your matter concerns tutors.'
+
+  - title:
+      fi: 'Isäntä'
+      en: 'Host'
+    name: 'Emilia Kuisma'
+    email: 'ie@as.fi'
+    phone: '+358 405846096'
+    telegram: 'epkk1'
+    description:
+      fi: "Järjestää yhdessä Emännän kanssa kiltalaisille mitä moninaisimpia tapahtumia ja huolehtii elintarvikkeiden välittämisestä killistien vatsalaukkuihin. Organisoi huvitoimikunnan toimintaa ja kehittää killan tapahtumakulttuuria.\nOta yhteyttä IE:hen, jos asiasi koskee killan tapahtumia."
+      en: 'The Host arranges various events together with the hostess for the guild members. Together with Hostess they lead the Entertainment Committee and work towards even better events. Contact the Host or the Hostess if your matter concerns a guild event.'
+
+  - title:
+      fi: 'Emäntä'
+      en: 'Hostess'
+    name: 'Elina Leiniö'
+    email: 'ie@as.fi'
+    phone: '+358 505753380'
+    telegram: 'elunaheluna'
+    description:
+      fi: "Järjestää yhdessä Isännän kanssa kiltalaisille mitä moninaisimpia tapahtumia ja huolehtii elintarvikkeiden välittämisestä killistien vatsalaukkuihin. Organisoi huvitoimikunnan toimintaa ja kehittää killan tapahtumakulttuuria.\nOta yhteyttä IE:hen, jos asiasi koskee killan tapahtumia."
+      en: 'The Hostess arranges various events together with the host for the guild members. Together with Host they lead the Entertainment Committee and work towards even better events. Contact the Hostess or the Host if your matter concerns a guild event.'
+
+  - title:
+      fi: 'Opintomestari'
+      en: 'Master of Studies'
+    name: 'Maria Salmensaari'
+    email: 'opintomestari@as.fi'
+    phone: '+358 451530301'
+    telegram: 'mariabestt'
+    description:
+      fi: "Ylläpitää yhteyttä koulun henkilökuntaan, pitää itsensä tietoisena tutkinto-ohjelmassa tapahtuvista muutoksista ja vastaa kiltalaisten edunvalvonnasta. Johtaa killan opintotoimikuntaa.\nOpintomestariin voi ottaa yhteyttä opintoihin liittyvissä asioissa."
+      en: "The Master of Studies maintains communications between the guild and the university. They also work as the contact person for the guild's trustees and represent students in the meetings of the university's governing body. Contact the Master of Studies if your matter has to do with your studies or school in general."
+
+  - title:
+      fi: 'Yrityssuhdevastaava'
+      en: 'Head of Corporate Relations'
+    name: 'Lucas Käldström'
+    email: 'yrityssuhdevastaava@as.fi'
+    phone: '+358 458911847'
+    telegram: 'luxask'
+    description:
+      fi: "Vastaa killan suhteista yrityksiin ja excursioiden järjestämisestä. Organisoi killan mainosmyyntiä sekä kehittää killan mainetta ja kunniaa yritysten silmissä. Johtaa killan yrityssuhdetoimikuntaa. \nOta yhteyttä yrityssuhdemestariin, jos asiasi liittyy yrityssuhteisiin."
+      en: 'The Head of Corporate Relations leads the corporate relations committee. They advance the reputation and credit of the guild among the corporations by collaborating with them. They also organize excursions, events and sponsorships. Contact the Head of Corporate Relations if your matter concerns corporate relations.'
+
+  - title:
+      fi: 'Kulttuurimestari'
+      en: 'Master of Culture'
+    name: 'Lotta Makkonen'
+    email: 'kulttuurimestari@as.fi'
+    phone: '+358 442764000'
+    telegram: 'kellottaa'
+    description:
+      fi: 'Pitää yllä killan vanhoja ulkosuhteita sekä luo uusia. Johtaa kulttuuritoimikuntaa ja järjestää sen jäsenten kanssa killale kulttuuritapahtumia. Tykkää pitää yhteyttä moneen eri tahoon ja hengailla myös muun kuin violetin väristen ihmisten kanssa. Ota yhteyttä kulttuurimestariin, jos asiasi liittyy kulttuuriasioihin.'
+      en:
+
+officials:
+  - name:
+      fi: 'Fuksitoimikunta'
+      en: 'Fuksi Committee'
+    members:
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'Fuksikapteeni'
+            en: 'Fuksi Captain'
+          - fi: 'IIIIISOpomo'
+            en: 'IIIIISO Boss'
+        leader: true
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'Fuksikapteeni'
+            en: 'Fuksi Captain'
+        leader: true
+      - name: 'Anthony Reineck'
+        title:
+          - fi: "Master's and International Student Captain (MISC)"
+            en: "Master's and International Student Captain (MISC)"
+      - name: 'Maria Saranpää'
+        title:
+          - fi: 'ISOpomo'
+            en: 'ISOboss'
+      - name: 'Beatriz Glaser'
+        title:
+          - fi: 'DSDeputy'
+            en: 'DSDeputy'
+      - name: 'Mimi Määttä'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+      - name: 'Pessi Lyytikäinen'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+      - name: 'Sophia Lee'
+        title:
+          - fi: 'Tosi-ISO'
+            en: 'Really ISO'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'SuurFuksikapteeni'
+            en: 'Great Fuksi Captain'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'SuurFuksikapteeni'
+            en: 'Great Fuksi Captain'
+      - name: 'Oskari Helosuo'
+        title:
+          - fi: "Senior Executive Master's and International Student Captain (SEMISC)"
+            en: "Senior Executive Master's and International Student Captain (SEMISC)"
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+      - name: 'Katarina Pichna'
+        title:
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'Himo-ISO'
+            en: 'REALLY ISO'
+
+  - name:
+      fi: 'Opintotoimikunta'
+      en: 'Study Committee'
+    members:
+      - name: 'Maria Salmensaari'
+        title:
+          - fi: 'Opintomestari'
+            en: 'Master of Studies'
+        leader: true
+      - name: 'Emil Huttunen'
+        title:
+          - fi: 'Hallopedi'
+            en: 'Halloped'
+      - name: 'Panu Tamminen'
+        title:
+          - fi: 'Hallopedi'
+            en: 'Halloped'
+      - name: 'Elias Haarnoja'
+        title:
+          - fi: 'Hallopedi'
+            en: 'Halloped'
+      - name: 'Akseli Konttas'
+        title:
+          - fi: 'Hallopedi'
+            en: 'Halloped'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Hallopedi'
+            en: 'Halloped'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Hallopedi'
+            en: 'Halloped'
+      - name: 'Mikaela Rautavirta'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+      - name: 'Miikka Joutsela'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+      - name: 'Apollo Ailus'
+        title:
+          - fi: 'Absintti'
+            en: 'Absinth'
+          - fi: 'Hallopedi'
+            en: 'Halloped'
+      - name: 'Iida Jauhola'
+        title:
+          - fi: 'Automaatti'
+            en: 'Automaton'
+      - name: 'Onni Bernström'
+        title:
+          - fi: 'Informaatti'
+            en: 'Informant'
+      - name: 'Hajiba Legrara'
+        title:
+          - fi: 'DSDeetti'
+            en: 'DSDent'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Maisteri-informaatti'
+            en: "Master's Informant"
+      - name: 'Tapani Pärssinen'
+        title:
+          - fi: 'Maisteri-automaatti'
+            en: "Master's Automaton"
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Opintowanhus'
+            en: 'Opintowanhus'
+  - name:
+      fi: 'Kulttuuritoimikunta'
+      en: 'Cultural Affairs Committee'
+    members:
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Kulttuurimestari'
+            en: 'Master of Culture'
+        leader: true
+      - name: 'Jaakko Heikkinen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Ariana Marta'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Antti Tiusanen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Aleksanteri Pitkenin'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Elias Haarnoja'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Mohammad Shahidul'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Paavo Nissinen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Nia Lehtonen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Laura Häkkinen'
+        title:
+          - fi: 'Kultsi'
+            en: 'Cultural Journeyperson'
+      - name: 'Roope Järvinen'
+        title:
+          - fi: 'Wappuministeri'
+            en: 'Wappu Minister'
+      - name: 'Ville Hakoniemi'
+        title:
+          - fi: 'Wappuministeri'
+            en: 'Wappu Minister'
+      - name: 'Mikko Hokkanen'
+        title:
+          - fi: 'Jäykkäranne'
+            en: 'Jäykkäranne'
+  - name:
+      fi: 'Liikuntatoimikunta'
+      en: 'Sports Committee'
+    members:
+      - name: 'Elias Haarnoja'
+        title:
+          - fi: 'Liikuntavastaava'
+            en: 'Master of Sports'
+        leader: true
+      - name: 'Mohammad Shahidul'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Akseli Leino'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Meri Hildén'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Aleksi Palomäki'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Iida Jauhola'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Jenny Ruokolainen'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Miikka Joutsela'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Liikkuja'
+            en: 'Sports Manager'
+  - name:
+      fi: 'Huvitoimikunta'
+      en: 'Entertainment Committee'
+    members:
+      - name: 'Elina Leiniö'
+        title:
+          - fi: 'Emäntä'
+            en: 'Hostess'
+        leader: true
+      - name: 'Emilia Kuisma'
+        title:
+          - fi: 'Isäntä'
+            en: 'Host'
+        leader: true
+      - name: 'Onni Bernström'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Laura Häkkinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Iida Jauhola'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Emilia Junnonen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Leena Jääskeläinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Viivi-Maari Kallinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Leila Lavonen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Nia Lehtonen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Pessi Lyytikäinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Ariana Marta'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Paavo Nissinen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Aleksanteri Pitkenin'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Antti Tiusanen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Annina Toimela'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'MinIEns'
+            en: 'MinIEns'
+
+  - name:
+      fi: 'Lukkaritoimikunta'
+      en: 'Song Leader Committee'
+    members:
+      - name: 'Kalle Rantala'
+        title:
+          - fi: 'Lukkarimestari'
+            en: 'Master Song Leader'
+        leader: true
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Aaro Saastamoinen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Henrik Starck'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Ariana Marta'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Marcell Berta'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Juho Komulainen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Verneri Hakkarainen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Roope Järvinen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Jenna Kerkkänen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Patrick Linnanen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Ville Hakoniemi'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Apollo Ailus'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+      - name: 'Fernanda Jokinen'
+        title:
+          - fi: 'Lukkari'
+            en: 'Song Leader'
+  - name:
+      fi: 'ASkitoimikunta'
+      en: 'ASki Committee'
+    members:
+      - name: 'Meri Hildén'
+        title:
+          - fi: 'ASkimestari'
+            en: 'ASkiMaster'
+        leader: true
+      - name: 'Veera Ihalainen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Elina Leiniö'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Emil Lintunen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Juho Kerminen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Jimi Oksman'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Zhibin Yan'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Elias Haarnoja'
+        title:
+          - fi: 'ASkivahti'
+            en: 'ASki Guardian'
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Vakooja'
+            en: 'Vakooja'
+
+  - name:
+      fi: 'Yrityssuhdetoimikunta'
+      en: 'Corporate Relations Committee'
+    members:
+      - name: 'Lucas Käldström'
+        title:
+          - fi: 'Yrityssuhdevastaava'
+            en: 'Head of Corporate Relations'
+        leader: true
+      - name: 'Susanna Vilkka'
+        title:
+          - fi: 'Varayrityssuhdevastaava'
+            en: 'Assistant Head of Corporate Relations'
+      - name: 'Beatriz Glaser'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Hajiba Legrara'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Samuel Mikkola'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Noora Virtanen'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Viljami Pirttijärvi'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Mikaela Rautavirta'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Santeri Hildén'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Lauri Rasinen'
+        title:
+          - fi: 'Account Manager'
+            en: 'Account Manager'
+      - name: 'Nia Lehtonen'
+        title:
+          - fi: 'AS25-vastaava'
+            en: 'AS25-Liaison'
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'AS Puheenjohtaja'
+            en: 'AS Chairperson'
+      - name: 'Linda Åström'
+        title:
+          - fi: 'AS Rahastonhoitaja'
+            en: 'AS Treasurer'
+      - name: 'Roope Järvinen'
+        title:
+          - fi: 'Vanha yrityssuhdevastaava'
+            en: 'Old Head of Corporate Relations'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'TEKSAS yhdyshenkilö'
+            en: 'TEKSAS-liaison'
+  - name:
+      fi: 'Taloustoimikunta'
+      en: 'Finance Committee'
+    members:
+      - name: 'Linda Åström'
+        title:
+          - fi: 'Rahastonhoitaja'
+            en: 'Treasurer'
+        leader: true
+      - name: 'Susanna Vilkka'
+        title:
+          - fi: 'RahASsistentti'
+            en: 'ASsistant Treasurer'
+      - name: 'David Rombach'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Coin Collector'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Coin Collector'
+      - name: 'Kabir Bissessar'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Coin Collector'
+      - name: 'Jaakko Aalto'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Coin Collector'
+      - name: 'Nia Lehtonen'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Coin Collector'
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'Kolikonkiertäjä'
+            en: 'Coin Collector'
+      - name: 'Rafael Majaharju'
+        title:
+          - fi: 'Sijoitusvastaava'
+            en: 'Investment Manager'
+      - name: 'Lucas Käldström'
+        title:
+          - fi: 'Vanha rahastonhoitaja'
+            en: 'Old Treasurer'
+
+  - name:
+      fi: 'Mediatoimikunta'
+      en: 'Media Committee'
+    members:
+      - name: 'Elias Erke'
+        title:
+          - fi: 'Viestintämestari'
+            en: 'Head of Communications'
+        leader: true
+      - name: 'Jimi Oksman'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Elias Haarnoja'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Akseli Hilander'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Amanda Huttunen'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Rika Lintunen'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Dokumentoija'
+            en: 'Photographer'
+      - name: 'Leena Jääskeläinen'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphical Designer'
+      - name: 'Meri Hildén'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphical Designer'
+      - name: 'Viivi-Maari Kallinen'
+        title:
+          - fi: 'Graafikko'
+            en: 'Graphical Designer'
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Kääntäjä/Oikolukija'
+            en: 'Language specialist'
+      - name: 'Helmi Takala'
+        title:
+          - fi: 'Kääntäjä/Oikolukija'
+            en: 'Language specialist'
+      - name: 'Sophia Lee'
+        title:
+          - fi: 'Somettaja'
+            en: 'Social Media Manager'
+
+  - name:
+      fi: 'Säätötoimikunta'
+      en: 'Tinkering Committee'
+    members:
+      - name: 'Kasperi Kaivola'
+        title:
+          - fi: 'Säätömestari'
+            en: 'Master Tinkerer'
+        leader: true
+      - name: 'Henrik Turtinen'
+        title:
+          - fi: 'Säätömestari'
+            en: 'Master Tinkerer'
+        leader: true
+      - name: 'Akseli Leino'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Niilo Saharinen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Otso Luukkanen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Juho Kerminen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Rika Lintunen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Sakari Ropponen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Jyri Kolu'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Emil Lintunen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Leo Suojärvi'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Miska Mynttinen'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Severi Casserly'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Zhibin Yan'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+      - name: 'Elias Mäntykoski'
+        title:
+          - fi: 'Säätökisälli'
+            en: 'Tinkerer'
+  - name:
+      fi: 'Stimulaatio-toimikunta'
+      en: 'Stimulaatio Committee'
+    members:
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Stimulantti'
+            en: 'Stimulant'
+        leader: true
+      - name: 'Meri Hildén'
+        title:
+          - fi: 'Stimulantti'
+            en: 'Stimulant'
+        leader: true
+      - name: 'Rosa Phan'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+      - name: 'Sannina Honkaharju'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+      - name: 'Kalle Rantala'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+      - name: 'Kasperi Kaivola'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+      - name: 'Pinja Mäkeläinen'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+      - name: 'Laura Häkkinen'
+        title:
+          - fi: 'Depressantti'
+            en: 'Depressant'
+
+  - name:
+      fi: 'AS25-toimikunta'
+      en: 'AS25 Committee'
+    members:
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Kvartaalimestari'
+            en: 'Quarter Master'
+        leader: true
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Tapahtumavastaava'
+            en: 'Event Coordinator'
+      - name: 'Kalle Rantala'
+        title:
+          - fi: 'Tapahtumavastaava'
+            en: 'Event Coordinator'
+      - name: 'Laura Häkkinen'
+        title:
+          - fi: 'Tapahtumavastaava'
+            en: 'Event Coordinator'
+      - name: 'Jaakko Heikkinen'
+        title:
+          - fi: 'Tapahtumavastaava'
+            en: 'Event Coordinator'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Tapahtumavastaava'
+            en: 'Event Coordinator'
+      - name: 'Veera Ihalainen'
+        title:
+          - fi: 'Markkinointivastaava'
+            en: 'Marketing Coordinator'
+      - name: 'Sannina Honkaharju'
+        title:
+          - fi: 'Markkinointivastaava'
+            en: 'Marketing Coordinator'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Markkinointivastaava'
+            en: 'Marketing Coordinator'
+      - name: 'Meri Hildén'
+        title:
+          - fi: 'Stimuvastaava'
+            en: 'Stimulaatio Liaison'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Stimuvastaava'
+            en: 'Stimulaatio Liaison'
+      - name: 'Rosa Phan'
+        title:
+          - fi: 'Dokumentointivastaava'
+            en: 'Photographer'
+      - name: 'Kasperi Kaivola'
+        title:
+          - fi: 'Dokumentointivastaava'
+            en: 'Photographer'
+      - name: 'Nia Lehtonen'
+        title:
+          - fi: 'Sponsorivastaava'
+            en: 'Sponsor Coordinator'
+      - name: 'Juha Lehto'
+        title:
+          - fi: 'Web-vastaava'
+            en: 'Web Coordinator'
+  - name:
+      fi: 'Retkitoimikunta'
+      en: 'Trek Committee'
+    members:
+      - name: 'Rami Ghoniem'
+        title:
+          - fi: 'Retkimestari'
+            en: 'Trek Master'
+        leader: true
+      - name: 'Niilo Heinonen'
+        title:
+          - fi: 'Retkimestari'
+            en: 'Trek Master'
+        leader: true
+      - name: 'Iivo Angerpuro'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'Joonatan Tammisto'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'Akseli Konttas'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'Lucas Käldström'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'Dovlat Ibragimow'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'Ariana Marta'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'David Rombach'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'Okko Siipola'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+      - name: 'Veli-Matti Järn'
+        title:
+          - fi: 'Retkisälli'
+            en: 'Trip-prentice'
+  - name:
+      fi: 'Kultainen Toimitus'
+      en: 'Golden Tomato'
+    members:
+      - name: 'Jyri Kolu'
+        title:
+          - fi: 'Kultainen Päätoimittaja'
+            en: 'Golden Edito-in-Chief'
+        leader: true
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+      - name: 'Roope Järvinen'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+      - name: 'Ville Lähteenkorva'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+      - name: 'Roope Pääkkönen'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+      - name: 'Arttu Rintala'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+      - name: 'Sakari Ropponen'
+        title:
+          - fi: 'Kultainen Toimittaja'
+            en: 'Golden Editor'
+
+  - name:
+      fi: 'Bränditoimikunta'
+      en: 'Brand Committee'
+    members:
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Brändivastaava'
+            en: 'Brand Master'
+        leader: true
+      - name: 'Meri Hildén'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Elias Erke'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Aino Valkama'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Jyri Kolu'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Kiira Metsoila'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Jimi Oksman'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Emil Huttunen'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Niina Tapanainen'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Lotta Makkonen'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Tiitus Mustajoki'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+      - name: 'Leevi Hormaluoma'
+        title:
+          - fi: 'Brändääjä'
+            en: 'Brander'
+
+  - name:
+      fi: 'Stigutoimikunta'
+      en: 'Sticker Committee'
+    members:
+      - name: 'Aaro Saastamoinen'
+        title:
+          - fi: 'Stigulantti'
+            en: 'Stigulant'
+        leader: true
+      - name: 'Okko Siipola'
+        title:
+          - fi: 'Stigulantti'
+            en: 'Stigulant'
+        leader: true
+      - name: 'Alex Korpela'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Eetu Kurkinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Eeva Järvenpää'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Elias Mäntykoski'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Erkka Multanen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Henrik Turtinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Janina Kemppainen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Joonatan Tammisto'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Kasperi Kaivola'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Leena Jääskeläinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Mika Viirret'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Mikko Vanhanen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Petteri Lahkela'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Roope Järvinen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Tõnis Pärtel'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Tuomas Luotamo'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Tuomas Nykänen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Ville Hakoniemi'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Ville Lähteenkorva'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Panu Tamminen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Lassi Ihalainen'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+      - name: 'Arttu Pahta'
+        title:
+          - fi: 'Stikkerisälli'
+            en: 'Sticker'
+
+  - name:
+      fi: 'International Committee'
+      en: 'International Committee'
+    members:
+      - name: 'Anthony Reineck'
+        title:
+          - fi: "Master's and International Student Captain (MISC)"
+            en: "Master's and International Student Captain (MISC)"
+        leader: true
+      - name: 'Beatriz Glaser'
+        title:
+          - fi: 'DSDeputy'
+            en: 'DSDeputy'
+      - name: 'Mimi Määttä'
+        title:
+          - fi: 'International Committee Member'
+            en: 'International Committee Member'
+      - name: 'Amr Abass'
+        title:
+          - fi: 'International Committee Member'
+            en: 'International Committee Member'
+      - name: 'Lucas Käldström'
+        title:
+          - fi: 'International Committee Member'
+            en: 'International Committee Member'
+      - name: 'Oskari Helosuo'
+        title:
+          - fi: 'International Committee Member'
+            en: 'International Committee Member'
+      - name: 'Mohammad Shahidul'
+        title:
+          - fi: 'International Committee Member'
+            en: 'International Committee Member'
+      - name: 'Kabir Bissessar'
+        title:
+          - fi: 'International Committee Member'
+            en: 'International Committee Member'
+      - name: 'Sylvia Cressman'
+        title:
+          - fi: 'International Committee Member'
+            en: 'International Committee Member'
+
+  - name:
+      fi: 'N-toimikunta'
+      en: 'N-Committee'
+    members:
+      - name: 'Sakari Ropponen'
+        title:
+          - fi: 'Seniilisihteeri'
+            en: 'Senile Secretary'
+        leader: true
+      - name: 'Veeti Kahilainen'
+        title:
+          - fi: 'Seniilisihteeri'
+            en: 'Senile Secretary'
+        leader: true
+      - name: 'Alex Korpela'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Santeri Sipilä'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Tiia-Maria Hyvönen'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Akseli Konttas'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Henri Toivola'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Emil Huttunen'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Leo Talsta'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Arttu Rintala'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Aku Heinonen'
+        title:
+          - fi: '1 (yksi)'
+            en: '1 (one)'
+      - name: 'Meri Hiipakka'
+        title:
+          - fi: 'Wanhainhoitaja'
+            en: 'Caregiver'
+      - name: 'Meri Hildén'
+        title:
+          - fi: 'Wanhainhoitaja'
+            en: 'Caregiver'
+      - name: 'Joonas Törmälä'
+        title:
+          - fi: 'Wanhainhoitaja'
+            en: 'Caregiver'
+  - name:
+      fi: 'Toimikuntien ulkopuolelta'
+      en: 'Outside Committees'
+    members:
+      - name: 'Helena Kaisanlahti'
+        title:
+          - fi: 'Toiminnantarkastaja'
+            en: 'Inspector'
+      - name: 'Akseli Konttas'
+        title:
+          - fi: 'Toiminnantarkastaja'
+            en: 'Inspector'
+      - name: 'Juuso Määttä'
+        title:
+          - fi: 'Varatoiminnantarkastaja'
+            en: 'Vice-Inspector'
+      - name: 'Sakari Ropponen'
+        title:
+          - fi: 'Varatoiminnantarkastaja'
+            en: 'Vice-Inspector'
+      - name: 'Ville Kyrki'
+        title:
+          - fi: 'Oltermanni'
+            en: 'Alderman'
+accolades:
+  - name:
+      fi: 'Kultainen pränikkä'
+      en: 'Golden accolade'
+    people:
+      - name: Sakari Ropponen
+        description:
+          fi: 'Sakari Ropponen on kaikille tuttu ja aina
+            hyväntuulinen ja kannustava, kaikki huomioon ottava aasi. Hän on luonut
+            pitkän kiltauran, johon on kuulunut esimerkiksi ansiokkaasti suoritetut
+            kulttuurimestarius, lukkarimestarius, askimestarius, ja ulkoexcumestarius.
+            Tämä mestari on tunnettu siitä, että hänellä on lämmin ja avoin asenne
+            kaikkia kiltalaisia kohtaan. Hän toivottaa tervetulleeksi aina uudet kiltalaiset ja
+            huolehtii myös vanhoista: häntä kuvastaa hyvin, että hän toimii esimerkiksi
+            tänä vuonna sekä ISOna että toisena seniilisihteerinä, herätellen henkiin killan
+            uinumassa ollutta N-toimintaa. Hän säteilee aina hyvää kiltahenkeä ja tuo
+            ympärilleen oleville iloa pelkällä olemuksellaan. Tällä kiltalaisella on sydän
+            täyttä kultaa, ja haluamme kiittää häntä äärimmäisen ansaitulla kultaisella
+            ansiomerkillä.'
+          en: ''
+      - name: Meri Hilden
+        description:
+          fi: 'Meri Hilden on toiminut fuksista asti aktiivisesti
+            killassa lukuisissa eri rooleissa. Hänen IE-vuotensa aikana killan sitsien ja
+            sitsiruokien taso nousi merkittävästi ja on sen jälkeen pysynyt yhtä korkeana
+            ja kiitettävänä. Heti työessun laskettuaan hän lähti toteuttamaan killan
+            viestintää viestintämestarina ja on ollut aktiivisesti edistämässä killan graafista
+            ilmettä ja viestinnän sujuvuutta. Ja heti työkynän laskettuaan tämä aasi ryhtyi
+            kunnostamaan erittäin kiitettävällä otteella kiltahuonettamme ASkia, jonka
+            mukavuus ja ilme ovat mullistuneet tänä vuonna. Killassa hänen
+            kädenjälkensä näkyy siis vielä pitkään, lukuisilla eri sektoreilla. ASkin
+            remppaus ei tietenkään ole ollut tarpeeksi työnsarkaa tälle vuodelle - hän on
+            toiminut tänä vuonna myös tämän vuosijuhlan toisena arkkitehtina, eli
+            Stimulanttina. Suurten roolien lomassa hän on toiminut myös erilaisissa
+            toimaripesteissä. Kaikki hänet tuntevat tietävät, miten sydämellinen, toimelias,
+            ja helposti kaikkien kanssa toimeentuleva persoona hän on - tämän aasin
+            kanssa työskentely on aina mukavaa. Ja aivan yhtä helppoa on myöntää
+            hänelle viime vuosien valtavasta työpanoksesta ja esimerkillisestä
+            kiltahengestä kultainen ansiomerkki.'
+          en: ''
+      - name: Meri Hiipakka
+        description:
+          fi: 'Meri Hiipakan toiminta erityisesti AS:n brändiuudistuksen osalta on
+            kiltaan jälkensä jättävää jaansiokasta. Tämä fuksista asti aktiivinen
+            aasi on toiminut killan hallituksessa ensin kulttuurimestarina ja sitten
+            puheenjohtajana. Työntäyteisen puhisvuodenkin jälkeen hän otti haasteekseen
+            johtaa killan Bränditoimikuntaa ja myös toteuttaa toisena Stimulanttina tätä
+            kunnianhimoista AS25-Stimulaatiota. Hän on pitkään jo ennen brändimestariuttaan
+            tehnyt töitä killan brändiuudistuksen ja erityisesti sen hallinnollisen puolen
+            parissa, ja vienyt tätä monta vuotta kestänyttä projektia eteenpäin suurella
+            tarmolla. Ilman häntä monet uudistukset eivät olisi koskaan tapahtuneet - hän on
+            jaksanut perehtyä ja paneutua asioihin sellaisella pieteetillä, mikä hyödyttää
+            kiltaa vuosiksi eteenpäin. Hänen työotteensa hallitus- ja toimarirooleissa on
+            ollut ihailtavaa ja AS on onnekas siitä, että hän on ollut mukana edistämässä
+            killan toimintaa jo vuosia. Ja mikä hienointa, hän on ottanut ensi vuodeksi
+            haltuun killan toiseksi seksikkäimmän roolin heti varatoiminnantarkastajan
+            jälkeen.'
+          en: ''
+
+  - name:
+      fi: 'Hopeinen pränikkä'
+      en: 'Silvery accolade'
+    people:
+      - name: Arttu Pahta
+        description:
+          fi: 'Arttu Pahta on
+            toiminut aktiivisesti AS:n fuksitoiminnassa kahdessa pitkässä roolissa, sekä
+            ISOpomona että fuksikapteenina. AS:n fuksitoimikunnan virkojen lisäksi hän
+            on hoitanut hyvällä otteella lukuisat toimaripestit, esimerkiksi apuIE:nä,
+            depressanttina ja AS25-toimikunnan jäsenenä. Hän on työotteeltaan reipas,
+            aina ystävällinen ja luonteeltaan aurinkoinen - suorastaan hymypatsaan ja
+            tietenkin myös hopeisen ansiomerkin arvoinen.'
+          en: ''
+      - name: Kalle Rantala
+        description:
+          fi: 'AS:lla riittää fuksitoiminnassa ansioituneita, hymyileväisiä, työotteeltaan
+            ripeitä ja vitseiltään nopeita kiltalaisia. Tämän seuraavan hopeisen
+            ansiomerkin saajan puhetta ei onneksi tarvitse täysin kopioida edellisestä,
+            sillä hän on ansioitunut fuksikapteeniuden lisäksi myös esimerkiksi
+            kiltalehtemme GT:n päätoimittajana sekä lukkarimestarina. Otafestin isä,
+            aasinsiltojen rakentaja sekä tietenkin hupiukko, Kalle Rantala!'
+          en: ''
+      - name: Kiira Metsoila
+        description:
+          fi: 'Kiira Metsoilaan liittyy
+            salaliittoteoria. Huhutaan nimittäin, että vaikka hänen päällepäin näkyvä ja
+            loistavasti suoritettu pestinsä AS25-kvartaalimestarina ja killan historian
+            ensimmäisenä vastuuhäirintäyhdyshenkilönä ovatkin työntäyteisiä rooleja, niin
+            hän tekee killassa salaa myös paljon kaikkea muuta - esimerkiksi valaa
+            puheenjohtajiston Stillis-käädyt, suunnittelee tapahtumagrafiikoita, järjestelee
+            Vakoa, ja tekee ihan kaiken mihin apua pyydetään. Teorian mukaan hänet myös tapaa
+            aina auttamasta ties minkä tapahtuman keittiöpuolelta, vanhan
+            IE-aistin kutittaessa. Me tarkistimme tämän salaliittoteorian
+            paikkansapitävyyden ja totesimme, että KYLLÄ, tästä uskomattoman
+            kiitettävästä kiltatyöstä sekä valossa että varjoissa, hän ansaitsee hopeisen
+            ansiomerkin!'
+          en: ''
+      - name: Leevi Hormaluoma
+        description:
+          fi: 'ISO, ISOmpi, IIIISOIn. Kilta-CV, nimittäin, ja äänikin. Leevi Hormaluoman
+            AS-ura alkoi fuksina hallituksessa viestintämestarin roolissa,
+            missä hän lähti uudistamaan AS:n valokuvausskeneä ja somepresenssiä.
+            Viestinnän tason nosto ei tietenkään riittänyt, vaan hän lähti heti perään taas
+            hallitukseen ISOpomoksi ja heti sen jälkeen ryhtyi vielä fuksikapteeniksi. AS:n
+            fuksitoimikunnassa hän on ollut toimintaa eteenpäin vievä ja uudistava voima,
+            ja killassa näkyvä ja hypeä nostattava hahmo. Kuulimme myös huhua, että
+            hän vissiin nappasi ensi vuodellekin jonkin ISOhkon roolin, mutta ei mennä
+            asioiden edelle - ansiokkaasta kiltatoiminnasta hopeisen ansiomerkin on ansainnut
+            Leevi Hormaluoma!'
+          en: ''
+      - name: Pinja Mäkeläinen
+        description:
+          fi: 'Pinja Mäkeläinen kuuluu niihin henkilöihin, jonka koko
+            työmäärää killan hyväksi ei näe ulospäin. Hän toimi hallituksessa vuoden
+            opintomestarina, jonka jälkeen hän on AS25-juhlavuoden edistämiseksi
+            toiminut ansiokkaasti, pitkäjänteisesti ja ihailtavalla asenteella killan
+            SAS-yhdyshenkilönä edistäen juhlavuoden taloutta, siten mahdollistaen näin
+            upean juhlavuoden, ja edistäen myös killan sekä SAS:in parempaa
+            yhteistyötä. Hän on aina iloinen, hymyilevä ja kannustava, hoitaa kaiken
+            toimarirooleista hallitusvirkaan aurinkoisesti ja pyyteettömästi, ja on aivan
+            esimerkillinen aasi -  Pinja Mäkeläinen!'
+          en: ''
+      - name: Pessi Lyytikäinen
+        description:
+          fi: 'Pessi Lyytikäinen on jokaisen tapahtumanjärjestäjän sankari. Väsymätön tekijä.
+            Sormet salaa pelissä lähes jokaisessa AS:n fuksitoimikunnan ja IE:n tapahtumassa.
+            Näin on kuvailtu tätä seuraavaa hopeisen ansiomerkin saajaa, jonka energinen ja
+            sydämellinen ote kiltahommiin on vakuuttanut jokaisen, joka hänen kanssaan
+            on tehnyt vuosien varrella töitä. Meidän onneksemme hän lähtee
+            vaikuttamaan killan hallituksessa ensi vuonna ISOpomona, mutta hän
+            ansaitsee pränikän ansiokkaasta toiminnastaan jo nyt.'
+          en: ''
+      - name: Veera Ihalainen
+        description:
+          fi: 'Veera Ihalainen on ollut aktiivisesti killan
+            toiminnassa mukana jo fuksivuodestaan ja vaikuttanut killassa esimerkiksi
+            fuksikapteenina. Hänen ansiostaan killan DSD-opiskelijoiden asema ja
+            integraatio kiltaan ovat kohentuneet huomattavasti, ja hän pitää edelleen
+            DSD-puolesta huolta esimerkiksi ajamalla AS:n asioita ja parantamalla aivan
+            kaikkien Otaniemen KV-opiskelijoiden asemaa uuden ETCo-toimikunnan
+            puolella. Ei tällä kertaa aasinsiltojen rakentaja, vaan piirtäjä, Veera Ihalainen!'
+          en: ''
+
+  - name:
+      fi: 'RatAS-kunnianosoitukset'
+      en: 'RatAS accolade'
+    people:
+      - name: Leena Jääskeläinen
+        description:
+          fi: Aloitetaan palkintojen jako grafiikoiden nousevasta tähdestä. Toimareilla
+            on tänä vuonna uskomattoman hienot läystäkkeet, hallituksella on aivan upeat
+            paidat ja vyölaukut, ja toivottavasti tämän kiltalaisen kädenjälkeä pääsemme
+            näkemään monissa muissakin tulevissa projekteissa. Kiitos valtavasta työpanoksestasi,
+            Leena Jääskeläinen!
+          en: ''
+      - name: Pinja Mäkeläinen
+        description:
+          fi: 'Seuraavan RatAS-palkinnon saaja on aina luotettava, iloinen ja valmiina auttamaan
+            missä tahansa hommassa. Tämän aurinkoisen ja hyvää mieltä ympärilleen luovalla
+            aasilla on ihailtava työote ja aika usein hänen hallitusvuonnaan opintomestarina
+            hänen suustaan kuului: “mä voin hoitaa”. Aina menossa mukana ja hymy huulilla,
+            Pinja Mäkeläinen!'
+          en: ''
+      - name: Tõnis Pärtel
+        description:
+          fi: Tämä ratkaisija-aasi on fuksista lähtien ollut hyvällä asenteella mukana kaikissa
+            niissä kiltapesteissä, mihin hän on lähtenyt. Päivisin keittiössä, iltaisin
+            lukkaroimassa, ja ISOlla asenteella ISOna - Tõnis Pärtel!
+          en: ''
+      - name: Veeti Kahilainen
+        description:
+          fi: Letkee, rento, hauska mies ja hyvä asenne. Siitä on esimerkillinen aasi tehty.
+            Pitemmittä puheitta, Veeti Kahilainen!
+          en: ''
+      - name: Aleksanteri Pitkenin
+        description:
+          fi: Tiedättekin jo, että mikään tässä killassa ei toimisi ilman toimareita. Esimerkiksi
+            joskus, kun IE:llä palaa pullat kesken sitsien tai vegaaniset viinit unohtuvat
+            kauppaan, tarvitaan ratkaisija-aASeja kuskaamaan heitä ympäriinsä. Seuraava
+            palkinnonsaaja onkin sitsien pelastamisen lisäksi tehnyt esimerkillistä duunia
+            muissakin apueIE- ja kulttuuritoimarihommissaan. Kiitos hyvästä työstä, Aleksanteri
+            Pitkenin!
+          en: ''
+      - name: Axel Åberg
+        description:
+          fi: "Tämä killisti on kerännyt toimarinakkeja kuin kauniita kesäkukkasia, ja kilta
+            haluaakin nyt ojentaa hänelle niistä kudotun kuvitteellisen nakkiseppeleen.
+            Hän on ollut fuksista asti aktiivisesti ympäri kiltaa kaikessa menossa mukana
+            - voisi jopa sanoa, että hän on pyörinyt AS:n axelin ympäri.. :D \nJäykkäranteen
+            henkinen tukieläin, Axel Åberg!"
+          en: ''
+      - name: Iida Jauhola
+        description:
+          fi: Tässä killassa osataan pyörittää persettä - ja se pyöritys vaatii ASSASS:in
+            onnistunutta pyöritystä. Ja onhan tämä seuraavan RatAS-palkinnon saaja pyörinyt
+            menestyksekkäästi muissakin killan toimarirooleissa, kuin mahtavan tanssiryhmämme
+            vetovastuussa. Kiitos kun vedät hyvin, Iida Jauhola!
+          en: ''
+      - name: Roope Järvinen
+        description:
+          fi: "Aina hyvät vibat ja vielä paremmat soittolistat. Tämä mies nostattaa aina
+            biletunnelman kattoon ja on tehnyt näin aivan ensimmäisistä fuksiviikoista alkaen.
+            Hän on aina ihailtavan rehellinen, sanavalmis, innostava ja kannustava, valmiina
+            auttamaan ja oikeastaan ihan mitä vaan, niin hän on imus.\nKultainen mies ja
+            pornot viikset, Roope Järvinen!"
+          en: ''
+      - name: Rami Ghoniem
+        description:
+          fi: Seuraavan RatAS-palkinnon saaja on menestyksekkäästi ollut luotsaamassa ihanaa
+            retkitoimikuntaamme jo toista vuotta putkeen. Toimikunta on ollut yksi killan
+            suosituimmista ja toteuttanut todella siistejä reissuja, haasteita ja elämyksiä
+            kiltalaisille. Kiitos meidän vahvistetusti Ensimmäinen Retkimestarimme, Rami
+            Ghoniem!
+          en: ''
+      - name: Tiitus Mustajoki
+        description:
+          fi: Tällä mahtavalla kiltalaisella on sormet pelissä vaikka ja missä killan toiminnassa.
+            Jo fuksivuonna hän lähti innolla killan toimintaan ja viihtyi hyvin esimerkiksi
+            kameran takana. Juhlavuoden suunnittelun ja killan brändäyksen ohella on tämä
+            TOSI toimija myös mukana ISOSTI ISO- ja fuksitoiminnassa. Häneltä löytyy äärettömästi
+            kiinnostusta kehittää killan eri osa-alueita ja osaamista mixata vaikkapa ASSASS:in
+            musiikit. Seuraava RatAS-palkinnon saaja on tietenkin Tiitus Mustajoki!
+          en: ''
+      - name: Bia Glazer
+        description:
+          fi: This guild member has been extremely active since she was a fuksi, and she’s
+            really never seen without a smile on her face and an amazing attitude in everything
+            she does. She’s worn many hats in different committees, but she’s made the most
+            visible impact on the guild’s DSD and international culture. Currently, as our
+            first ever DSDeputy, she’s helping to make the guild better than ever for all
+            international and DSD students. The next awardee is of course Bia Glazer!
+          en: This guild member has been extremely active since she was a fuksi, and she’s
+            really never seen without a smile on her face and an amazing attitude in everything
+            she does. She’s worn many hats in different committees, but she’s made the most
+            visible impact on the guild’s DSD and international culture. Currently, as our
+            first ever DSDeputy, she’s helping to make the guild better than ever for all
+            international and DSD students. The next awardee is of course Bia Glazer!
+      - name: Ville Hakoniemi
+        description:
+          fi: Jos jollain kiltalaisella on Aivan Sama-henkeä, niin se on tämä aasi. Oli
+            duunina sitten liikkatoimikunnan vetäminen, lukkarointi tai Ulliksella AS:n
+            teltan pystyttäminen aamuviideltä, niin se hoituu kunnialla. Kiitos Wappuministeri
+            ilman pensseleitä, Ville Hakoniemi!
+          en: ''
+      - name: Henrik Turtinen
+        description:
+          fi: Kiltamme säätö- ja stigukulttuuri ovat voimissaan ja äärimmäisen tärkeä osa
+            AS:ää. Säätää ei voi kuitenkaan killassa ilman Säätömestareita eikä kokonainen
+            toimikunta voi saada aikaiseksi tasan yhtä stigupäkkiä vuodessa ilman Stigulantteja.
+            Niinpä laitamme RatAkSen pyörimään Henrik Turtiselle!
+          en: ''

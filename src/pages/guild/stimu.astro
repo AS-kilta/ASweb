@@ -1,0 +1,51 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+
+import logo_tekstilla from '@src/assets/logo_tekstilla.svg';
+
+const lang = 'fi';
+const slug = '/guild/stimu';
+---
+
+<BaseLayout title="Stimulaatio hype!!" lang={lang} slug={slug} robots="none">
+  <div id="stimu">
+    <Image src={logo_tekstilla} alt="Something's wrong I can feel it..." />
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+@import '@styles/_variables.scss';
+
+@keyframes logo {
+  from { rotate: 0deg; }
+  to { rotate: 360deg; }
+}
+
+#stimu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 3vh;
+  animation-name: logo;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media all and (max-width: $breakpoint-mobile) {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  @media all and (min-width: $breakpoint-mobile) {
+    width: 60vh;
+    height: 60vh;
+  }
+}
+</style>

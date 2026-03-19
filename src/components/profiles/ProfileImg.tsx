@@ -1,23 +1,30 @@
 import React from 'react';
-import { GatsbyImage } from 'gatsby-plugin-image';
 import * as style from './ProfileImg.module.scss';
+import placeholder from '@assets/officials/aebaej_placeholder.png';
 
 interface ProfileImgProps {
-  src?: string | DynamicImageData;
+  src?: string | { src: string; width?: number; height?: number };
   alt?: string;
 }
 
 const ProfileImg: React.FC<ProfileImgProps> = ({ src, alt }) => {
-  const imgSrc: string | DynamicImageData = src ?? '/images/aebaej_placeholder.png';
+  const defaultPlaceholder = placeholder.src;
   const altText: string = alt ?? '';
+
+  let imgSrc: string;
+  if (!src) {
+    imgSrc = defaultPlaceholder;
+  } else if (typeof src === 'string') {
+    imgSrc = src === '' ? defaultPlaceholder : src;
+  } else {
+    // If it's an object (like from Astro's Image or gatsbyImageData structure)
+    // we try to find a 'src' property.
+    imgSrc = (src as any).src || (src as any).images?.fallback?.src || defaultPlaceholder;
+  }
 
   return (
     <div className={style.profile_img}>
-      {typeof imgSrc === 'string' ? (
-        <img src={imgSrc} alt={altText} />
-      ) : (
-        <GatsbyImage image={imgSrc.childImageSharp.gatsbyImageData} alt={alt ?? ''} />
-      )}
+      <img src={imgSrc} alt={altText} />
     </div>
   );
 };
