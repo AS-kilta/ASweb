@@ -1,26 +1,46 @@
 .event_list {
+  --event-list-padding-left: 0;
+  --event-list-padding-top: 0.2rem;
+  --event-list-font-family: inherit;
+  --event-list-item-gap: 1.5rem;
+  --event-list-item-margin-bottom: 2rem;
+  --event-list-text-line-height: 1.4;
+  --event-list-summary-font-weight: bold;
+  --event-list-summary-font-size: 2.4rem;
+  --event-list-summary-line-height: 1.1;
+  --event-list-summary-margin-bottom: 0.2em;
+  --event-list-date-bg: #{$arduino-blue};
+  --event-list-date-color: white;
+  --event-list-date-font-size: 1.5rem;
+  --event-list-date-width: 3.5em;
+  --event-list-date-padding: 1em;
+  --event-list-date-mobile-font-size: 1.1rem;
+  --event-list-date-mobile-font-weight: 600;
+
   list-style: none;
-  padding-left: 0 !important;
-  padding-top: 0.2rem;
+  padding-left: var(--event-list-padding-left);
+  padding-top: var(--event-list-padding-top);
   margin: 0;
+  font-family: var(--event-list-font-family);
 
   .eventListItem {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+    gap: var(--event-list-item-gap);
+    margin-bottom: var(--event-list-item-margin-bottom);
   }
 
   p {
     margin: 0;
-    line-height: 1.4;
+    line-height: var(--event-list-text-line-height);
   }
 
   .summary {
-    font-weight: bold;
-    line-height: 1.1;
-    margin-bottom: 0.2em;
+    font-weight: var(--event-list-summary-font-weight);
+    font-size: var(--event-list-summary-font-size);
+    line-height: var(--event-list-summary-line-height);
+    margin-bottom: var(--event-list-summary-margin-bottom);
   }
 
   .date {
@@ -28,18 +48,18 @@
     justify-content: center;
     align-items: center;
 
-    background-color: $arduino-blue;
-    color: white;
+    background-color: var(--event-list-date-bg);
+    color: var(--event-list-date-color);
 
-    font-size: 1.5rem;
+    font-size: var(--event-list-date-font-size);
     aspect-ratio: 1;
     flex-shrink: 0;
-    width: 3.5em;
-    padding: 1em;
+    width: var(--event-list-date-width);
+    padding: var(--event-list-date-padding);
 
     @media (max-width: $breakpoint-mobile) {
-      font-size: 1.1rem;
-      font-weight: 600;
+      font-size: var(--event-list-date-mobile-font-size);
+      font-weight: var(--event-list-date-mobile-font-weight);
     }
   }
 }

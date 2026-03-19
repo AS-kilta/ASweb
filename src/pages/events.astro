@@ -1,0 +1,43 @@
+---
+import EventList from "@components/events/EventList";
+---
+
+<h1>Upcoming Events</h1>
+
+<EventList
+  number={5}
+  lang="fi"
+  client:load
+  listStyle={{
+    "--event-list-padding-left": "3rem",
+    "--event-list-padding-top": "0.2rem",
+    "--event-list-item-gap": "1.5rem",
+    "--event-list-item-margin-bottom": "2rem",
+    "--event-list-text-line-height": "1",
+    "--event-list-summary-font-weight": "700",
+    "--event-list-summary-font-size": "2rem",
+    "--event-list-summary-line-height": "1.1",
+    "--event-list-summary-margin-bottom": "0.2em",
+    "--event-list-date-bg": "#07cfba",
+    "--event-list-date-color": "white",
+    "--event-list-date-font-size": "2rem",
+    "--event-list-date-width": "2.5em",
+    "--event-list-date-padding": "0.7em",
+    "--event-list-date-mobile-font-size": "2rem",
+    "--event-list-date-mobile-font-weight": "600",
+    "--event-list-font-family": "'Space Mono', monospace"
+  }}
+/>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Space+Mono&display=swap"
+  rel="stylesheet"
+/>
+
+<style>
+  h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 4rem;
+    text-align: center;
+  }
+</style>
