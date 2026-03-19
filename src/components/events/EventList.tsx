@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import * as style from './EventList.module.scss';
 
 const getStartDate = () => new Date().toISOString();
@@ -31,21 +31,34 @@ interface CalendarEvent {
   fullDay: boolean;
 }
 
-const parseEventData = (data: json, number: number) => {
+interface GoogleCalendarItem {
+  id: string;
+  summary: string;
+  description?: string;
+  location?: string;
+  organizer?: { self?: boolean };
+  start: { date?: string; dateTime?: string };
+  end: { date?: string; dateTime?: string };
+}
+
+interface GoogleCalendarResponse {
+  items?: GoogleCalendarItem[];
+}
+
+const parseEventData = (data: GoogleCalendarResponse, number: number): CalendarEvent[] => {
   if (!data.items || !Array.isArray(data.items)) {
     throw new Error('Invalid calendar data');
   }
 
-  const filteredEventData = data.items.filter((item) => item.organizer.self).slice(0, number);
-  const events: CalendarEvent[] = filteredEventData.map((item) => {
-    const start = new Date(item.start.date ?? item.start.dateTime);
-    const end = new Date(item.end.date ?? item.end.dateTime);
-    const fullDay = !!item.start.date;
+  const filteredEventData = data.items.filter((item) => item.organizer?.self).slice(0, number);
+
+  return filteredEventData.map((item) => {
+    const start = new Date(item.start.date ?? item.start.dateTime ?? '');
+    const end = new Date(item.end.date ?? item.end.dateTime ?? '');
+    const fullDay = Boolean(item.start.date);
     const { id, summary, description, location } = item;
     return { id, summary, start, end, description, location, fullDay };
   });
-
-  return events;
 };
 
 const dateOptions: Intl.DateTimeFormatOptions = {
@@ -55,38 +68,84 @@ const dateOptions: Intl.DateTimeFormatOptions = {
   month: 'numeric',
   day: 'numeric',
 };
-const timeOptions: Intl.DateTimeFormatOptions = { hour: '2-digit', minute: '2-digit' };
 
-const EventList: React.FC<{ number: number; lang: string }> = ({ number = 5, lang = 'fi' }) => {
+const timeOptions: Intl.DateTimeFormatOptions = {
+  hour: '2-digit',
+  minute: '2-digit',
+};
+
+type EventListCssVars = React.CSSProperties & {
+  '--event-list-padding-left'?: string;
+  '--event-list-padding-top'?: string;
+  '--event-list-margin'?: string;
+  '--event-list-font-family'?: string;
+  '--event-list-item-gap'?: string;
+  '--event-list-item-margin-bottom'?: string;
+  '--event-list-p-line-height'?: string;
+  '--event-list-summary-font-size'?: string;
+  '--event-list-summary-font-weight'?: string;
+  '--event-list-summary-line-height'?: string;
+  '--event-list-summary-margin-bottom'?: string;
+  '--event-list-date-bg'?: string;
+  '--event-list-date-color'?: string;
+  '--event-list-date-font-size'?: string;
+  '--event-list-date-width'?: string;
+  '--event-list-date-padding'?: string;
+  '--event-list-date-border-radius'?: string;
+};
+
+export interface EventListProps {
+  number?: number;
+  lang?: string;
+  className?: string;
+  listClassName?: string;
+  style?: EventListCssVars;
+  listStyle?: EventListCssVars;
+}
+
+const EventList: React.FC<EventListProps> = ({
+  number = 5,
+  lang = 'fi',
+  className,
+  listClassName,
+  style: wrapperStyle,
+  listStyle,
+}) => {
   const [events, setEvents] = useState<CalendarEvent[]>([]);
 
   useEffect(() => {
     getEvents(number)
-      .then((events) => {
-        setEvents(events);
-      })
+      .then((loadedEvents) => setEvents(loadedEvents))
       .catch((error) => {
-        console.error(error);
+        console.error('Failed to load events:', error);
       });
-  }, []);
+  }, [number]);
 
-  const renderEvent = (event: CalendarEvent) => {
-    const datetimeOptions = event.fullDay ? dateOptions : { ...dateOptions, ...timeOptions };
-    return (
-      <li key={event.summary} className={style.eventListItem}>
-        <div className={style.date}>
-          {event.start.getDate()}.{event.start.getMonth() + 1}.
-        </div>
-        <div>
-          <div className={style.summary}>{event.summary}</div>
-          <time>{event.start.toLocaleString(lang, datetimeOptions)}</time>
-          <p>{event.description}</p>
-        </div>
-      </li>
-    );
-  };
+  const datetimeFor = (event: CalendarEvent) => (event.fullDay ? dateOptions : { ...dateOptions, ...timeOptions });
 
-  return <ul className={style.event_list}>{events.map(renderEvent)}</ul>;
+  const renderEvent = (event: CalendarEvent) => (
+    <li key={event.id} className={style.eventListItem}>
+      <div className={style.date}>
+        {event.start.getDate()}.{event.start.getMonth() + 1}.
+      </div>
+      <div>
+        <div className={style.summary}>{event.summary}</div>
+        <time>{event.start.toLocaleString(lang, datetimeFor(event))}</time>
+        {event.description && <p>{event.description}</p>}
+      </div>
+    </li>
+  );
+
+  const wrapperClassName = [style.eventListRoot, className].filter(Boolean).join(' ');
+  const ulClassName = [style.event_list, listClassName].filter(Boolean).join(' ');
+
+  return (
+    <div className={wrapperClassName} style={wrapperStyle}>
+      <ul className={ulClassName} style={listStyle}>
+        {events.map(renderEvent)}
+      </ul>
+    </div>
+  );
 };
 
 export default EventList;
