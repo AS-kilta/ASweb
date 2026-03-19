@@ -1,0 +1,1643 @@
+#Aspu
+- name:
+    fi: 'Fuksitoimikunta'
+    en: 'Fuksi Committee'
+  members:
+    - name: 'Elsa Kuntsi'
+      title:
+        - fi: 'Fuksikapteeni'
+          en: 'Fuksi Captain'
+      leader: true
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'Fuksikapteeni'
+          en: 'Fuksi Captain'
+      leader: true
+    - name: 'Jere Hasu'
+      title:
+        - fi: "Master's and International Student Captain (MISC)"
+          en: "Master's and International Student Captain (MISC)"
+    - name: 'Nimród Pocsveiler'
+      title:
+        - fi: "Master's and International Student Captain (MISC)"
+          en: "Master's and International Student Captain (MISC)"
+    - name: 'Nicolas Bosnjak'
+      title:
+        - fi: 'ISOpomo'
+          en: 'ISOboss'
+    - name: 'Alex Vu'
+      title:
+        - fi: 'DSDeputy'
+          en: 'DSDeputy'
+      #FuksiaASistentit (ei vielä valittu)
+    - name: 'Matias Kalliokoski'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+    - name: 'Sara Timonen'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+    - name: 'Timi Lehtisyrjä'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+    - name: 'Iiro Sällinen'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+    - name: 'Saimi Tuomi'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+    - name: 'Sofia Elomaa'
+      title:
+        - fi: 'FuksiaASistentti'
+          en: 'Fuksi aASistant'
+    #Himo-aASistentit
+    - name: 'Huiseung Bae'
+      title:
+        - fi: 'Himo-aASistentti'
+          en: 'Craving aASistant'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'Himo-aASistentti'
+          en: 'Craving aASistant'
+    - name: 'Lauri Tuominen'
+      title:
+        - fi: 'Himo-aASistentti'
+          en: 'Craving aASistant'
+    - name: 'Vinski Lång'
+      title:
+        - fi: 'Himo-aASistentti'
+          en: 'Craving aASistant'
+    - name: 'Anastasia Parfenova'
+      title:
+        - fi: 'Himo-aASistentti'
+          en: 'Craving aASistant'
+    - name: 'Jere Hasu'
+      title:
+        - fi: 'Himo-aASistentti'
+          en: 'Craving aASistant'
+    - name: 'Joel Forsström'
+      title:
+        - fi: 'Wanhuli'
+          en: 'Fuksi contRoller'
+    - name: 'Kalle Kajoniemi'
+      title:
+        - fi: 'Wanhuli'
+          en: 'Fuksi contRoller'
+    - name: 'Eeva Järvenpää'
+      title:
+        - fi: 'IIISOpomo'
+          en: 'IIIIISO Boss'
+    - name: 'Aapo Vuokila'
+      title:
+        - fi: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+          en: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+    - name: 'Nam Nguyen'
+      title:
+        - fi: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+          en: 'Senior Executive Master´s and International Student Captain (SEMISC)'
+    - name: 'Nimród Pocsveiler'
+      title:
+        - fi: 'DSDirector'
+          en: 'DSDirector'
+  #Opintotoimikunta
+- name:
+    fi: 'Opintotoimikunta'
+    en: 'Study Committee'
+  members:
+    - name: 'Anastasia Parfenova'
+      title:
+        - fi: 'Opintomestari'
+          en: 'Master of Studies'
+      leader: true
+    - name: 'Enni Nykänen'
+      title:
+        - fi: 'Absinttivastaava'
+          en: 'Abi Manager'
+    - name: 'Helmi Haapanen'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Isabel Salmi'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Kalle Kajoniemi'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Sofia Elomaa'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Sara Timonen'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Ada Salaspuro'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Ella Palviainen'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Nooa Lindfors'
+      title:
+        - fi: 'Absintti'
+          en: 'Absinth'
+    - name: 'Sonja Annala'
+      title:
+        - fi: 'Miniopis'
+          en: 'Minimaster'
+    - name: 'Viktor Solianoi'
+      title:
+        - fi: 'Miniopis'
+          en: 'Minimaster'
+    - name: 'Kiet Ta'
+      title:
+        - fi: 'Miniopis'
+          en: 'Minimaster'
+    - name: 'Henri Rosenberg'
+      title:
+        - fi: 'Opintowanhus'
+          en: 'Opintowanhus'
+    - name: 'Matti Laine'
+      title:
+        - fi: 'Halloped'
+          en: 'Halloped'
+
+#Kulttuuri
+- name:
+    fi: 'Kulttuuritoimikunta'
+    en: 'Cultural Affairs Committee'
+  members:
+    - name: 'Lauri Tuominen'
+      title:
+        - fi: 'Kulttuurimestari'
+          en: 'Master of Culture'
+      leader: true
+    - name: 'Tiitus Mustajoki'
+      title:
+        - fi: 'Suurkulli'
+          en: 'Grand Cultist'
+      #Juomanlaskijat
+    - name: 'Matias Kalliokoski'
+      title:
+        - fi: 'JuomanlASkija'
+          en: 'JuomanlASkija'
+    - name: 'Veerti Juurakko'
+      title:
+        - fi: 'JuomanlASkija'
+          en: 'JuomanlASkija'
+      #Kultsit
+    - name: 'Violet Bris Nevalainen'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Nooa Virtala'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Jesperi Hildén'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Leila Lavonen'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Ossi Syrjälahti'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Jenny Ruokolainen'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Nuutti Laine'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Ossi Lindroos'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Mikko Kujanpää'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Rasmus Honkalinna'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+    - name: 'Ras Hjelt'
+      title:
+        - fi: 'Kultsi'
+          en: 'Cultist'
+      #Hyvikset
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Hyvinvointimestari'
+          en: 'Master of Well-being'
+    - name: 'Saara Miettinen'
+      title:
+        - fi: 'Hyvis'
+          en: 'Goody'
+    - name: 'Eeva Järvenpää'
+      title:
+        - fi: 'Hyvis'
+          en: 'Goody'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'Hyvis'
+          en: 'Goody'
+    - name: 'Elsa Kuntsi'
+      title:
+        - fi: 'Hyvis'
+          en: 'Goody'
+    - name: 'Matti Laine'
+      title:
+        - fi: 'Hyvis'
+          en: 'Goody'
+    - name: 'Sara Timonen'
+      title:
+        - fi: 'Hyvis'
+          en: 'Goody'
+      #Jäykkäranne
+    - name: 'Otto Kuusisto'
+      title:
+        - fi: 'Jäykkäranne'
+          en: 'Jäykkäranne'
+      #Wappu
+    - name: 'Marie Heikkinen'
+      title:
+        - fi: 'Wappulauttaministeri'
+          en: 'Wappu Ferry Minister'
+    - name: 'Vilja Lohi'
+      title:
+        - fi: 'Wappulauttaministeri'
+          en: 'Wappu Ferry Minister'
+      #Kimlekipparit
+    - name: 'Isla Kajoniemi'
+      title:
+        - fi: 'Kimblekippari'
+          en: 'Kimble Captain'
+    - name: 'Samuli Vilen'
+      title:
+        - fi: 'Kimblekippari'
+          en: 'Kimble Captain'
+
+#Liikunta
+- name:
+    fi: 'Liikuntatoimikunta'
+    en: 'Sports Committee'
+  members:
+    - name: 'Timi Lehtisyrjä'
+      title:
+        - fi: 'Liikuntamestari'
+          en: 'Master of Sports'
+      leader: true
+    - name: 'Okko Sälevaara'
+      title:
+        - fi: 'Liikuntamestari'
+          en: 'Master of Sports'
+      leader: true
+    #ASSASS
+    - name: 'Karoliina Koivu'
+      title:
+        - fi: 'ASSmASSter'
+          en: 'ASSmASSter'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'ASSmASSter'
+          en: 'ASSmASSter'
+    #Juoksija
+    - name: 'Markus Nikander'
+      title:
+        - fi: 'Himojuoksija'
+          en: 'Running Enthusiast'
+    #Liikkujat
+    - name: 'Leo Rinne'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Veeti Kittamaa'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Rasmus Virolane'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Samuli Sarmala'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Sofia Elomaa'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Kaisu Parviainen'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Tatu Salonen'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Lucas Bosnjak'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+    - name: 'Hannes Hokkanen'
+      title:
+        - fi: 'Liikuntatuutori'
+          en: 'Sports Tutor'
+
+#IE
+- name:
+    fi: 'Huvitoimikunta'
+    en: 'Entertainment Committee'
+  members:
+    - name: 'Vilja Lohi'
+      title:
+        - fi: 'Emäntä'
+          en: 'Hostess'
+      leader: true
+    - name: 'Venla Mäkelä'
+      title:
+        - fi: 'Isäntä'
+          en: 'Host'
+      leader: true
+    #miniens
+    - name: 'Ossi Syrjälahti'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Leo Kivinen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Matias Kalliokoski'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Sonja Annala'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Pyry Kiviluoma'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Karoliina Koivu'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Akseli Pihlajamaa'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Otto Kuusisto'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Sara Timonen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Joel Heikkala'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Joel Ventola'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Okko Sälevaara'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Lili Hülber'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Sara Heiskanen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Niklas Narinen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Magnus Mäki'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Pietari Winberg'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Tatu Salonen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Emma Lahtinen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Saimi Tuomi'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Timi Lehtisyrjä'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+    - name: 'Kaisu Parviainen'
+      title:
+        - fi: 'MinIEns'
+          en: 'MinIEns'
+
+#Lukkarit
+- name:
+    fi: 'Lukkaritoimikunta'
+    en: 'Song Leader Committee'
+  members:
+    - name: 'Apollo Ailus'
+      title:
+        - fi: 'Lukkarimestari'
+          en: 'Master Song Leader'
+      leader: true
+
+    - name: 'Rasmus Honkalinna'
+      title:
+        - fi: 'Lukkarimestari'
+          en: 'Master Song Leader'
+      leader: true
+
+    - name: 'Violet Bris Nevalainen'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Ki Chun Tong'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Ilkka Taponen'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Jere Hasu'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Leo Kivinen'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Jesperi Hildén'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Veeti Kittamaa'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Jaakko Ojaniemi'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Jaakko Lehto'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Nooa Lindfors'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+    - name: 'Nimród Pocsveiler'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Isla Kajoniemi'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Nuutti Laine'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+    - name: 'Igor Oinonen'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+    - name: 'Alex Vu'
+      title:
+        - fi: 'Lukkari'
+          en: 'Song Leader'
+
+#ASki
+- name:
+    fi: 'ASkitoimikunta'
+    en: 'ASki Committee'
+  members:
+    - name: 'Matti Laine'
+      title:
+        - fi: 'ASkimestari'
+          en: 'ASkiMaster'
+      leader: true
+    #ASkivahti
+    - name: 'Oiva Haapaniemi'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Mikko Kujanpää'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Leo Kivinen'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Pinja Mäkeläinen'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Elsa Kuntsi'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Rasmus Virolane'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Violet Bris Nevalainen'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Mikko Vanhanen'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Pinja Raijas'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Ossi Lindroos'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Lotta Raveala'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Rasmus Honkalinna'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+    - name: 'Emil Lintunen'
+      title:
+        - fi: 'ASkivahti'
+          en: 'ASki Guardian'
+        #vakoojat
+    - name: 'Saara Miettinen'
+      title:
+        - fi: 'Vakooja'
+          en: 'Vakooja'
+    - name: 'Aarno Koponen'
+      title:
+        - fi: 'Vakooja'
+          en: 'Vakooja'
+    - name: 'Hanni Tynjälä'
+      title:
+        - fi: 'Vakooja'
+          en: 'Vakooja'
+
+#Yrityssuhde
+- name:
+    fi: 'Yrityssuhdetoimikunta'
+    en: 'Corporate Relations Committee'
+  members:
+    - name: 'Daniel Gorbatchev'
+      title:
+        - fi: 'Yrityssuhdevastaava'
+          en: 'Head of Corporate Relations'
+      leader: true
+    #vice ysvi
+    - name: 'Jaakko Lehto'
+      title:
+        - fi: 'Vice-Yrityssuhdevastaava'
+          en: 'Vice Head of Corporate Relations'
+    #Social Media Rep
+    - name: 'Leevi Oksanen'
+      title:
+        - fi: 'Social Media Rep'
+          en: 'Social Media Rep'
+    - name: 'Ki Chun Tong'
+      title:
+        - fi: 'Social Media Rep'
+          en: 'Social Media Rep'
+    #Event-Based Partnerships
+    - name: 'Emma Lahtinen'
+      title:
+        - fi: 'Event-Based Partnerships'
+          en: 'Event-Based Partnerships'
+    - name: 'Arvo Mattilainen'
+      title:
+        - fi: 'Event-Based Partnerships'
+          en: 'Event-Based Partnerships'
+    #Account Manager
+    - name: 'Mark Niidusaar'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+    - name: 'Nooa Lindfors'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+    - name: 'Mikhail Romanov'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+    - name: 'Pavlo Yakymenko'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+    - name: 'Pyry Kiviluoma'
+      title:
+        - fi: 'Account Manager'
+          en: 'Account Manager'
+    #puhis
+    - name: 'Santeri Hildén'
+      title:
+        - fi: 'AS Puheenjohtaja'
+          en: 'AS Chairperson'
+    #rahis
+    - name: 'Marie Heikkinen'
+      title:
+        - fi: 'AS Rahastonhoitaja'
+          en: 'AS Treasurer'
+      #vanha
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Yrityssuhdeneuvonantaja'
+          en: 'Corporate Relations Advisor'
+    #SAS
+    - name: 'Matti Laine'
+      title:
+        - fi: 'SAS-yhdyshenkilö'
+          en: 'SAS liaison'
+    - name: 'Neil Lipes'
+      title:
+        - fi: 'SAS-yhdyshenkilö'
+          en: 'SAS liaison'
+    #TEK
+    - name: 'Tuomas Nykänen'
+      title:
+        - fi: 'TEK-yhteyshenkilö'
+          en: 'TEK liaison'
+
+#Taloustoimikunta
+- name:
+    fi: 'Taloustoimikunta'
+    en: 'Finance Committee'
+  members:
+    - name: 'Marie Heikkinen'
+      title:
+        - fi: 'Rahastonhoitaja'
+          en: 'Treasurer'
+      leader: true
+    #kolikonkiertäjät
+    - name: 'Enni Nykänen'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+    - name: 'Kaisu Parviainen'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+    - name: 'Sofia Elomaa'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+    - name: 'Kaisla Haapoja'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+    - name: 'Ella Palviainen'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+    - name: 'Lotta Raveala'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+    - name: 'Sara Heiskanen'
+      title:
+        - fi: 'Kolikonkiertäjä'
+          en: 'Member of Committee'
+    #Vanha rahis
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Vanha rahastonhoitaja'
+          en: 'Old Treasurer'
+
+#Mediatoimikunta
+- name:
+    fi: 'Mediatoimikunta'
+    en: 'Media Committee'
+  members:
+    - name: 'Joel Forsström'
+      title:
+        - fi: 'Viestintämestari'
+          en: 'Head of Communications'
+      leader: true
+    #Vara-VM
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Vara-VM'
+          en: 'Vice-HC'
+    #Dokumentoijat
+    - name: 'Leevi Oksanen'
+      title:
+        - fi: 'Dokumentoija'
+          en: 'Photographer'
+    - name: 'Otto Vaskola'
+      title:
+        - fi: 'Dokumentoija'
+          en: 'Photographer'
+    - name: 'Phuong Thieu'
+      title:
+        - fi: 'Dokumentoija'
+          en: 'Photographer'
+    - name: 'Nooa Lindfors'
+      title:
+        - fi: 'Dokumentoija'
+          en: 'Photographer'
+    - name: 'Leila Lavonen'
+      title:
+        - fi: 'Dokumentoija'
+          en: 'Photographer'
+    #Graafikot
+    - name: 'Vilja Lohi'
+      title:
+        - fi: 'Graafikko'
+          en: 'Graphic Designer'
+    - name: 'Venla Mäkelä'
+      title:
+        - fi: 'Graafikko'
+          en: 'Graphic Designer'
+    - name: 'Petra Ojala'
+      title:
+        - fi: 'Graafikko'
+          en: 'Graphic Designer'
+    - name: 'Akseli Pihlajamaa'
+      title:
+        - fi: 'Graafikko'
+          en: 'Graphic Designer'
+    - name: 'Anna Dukate'
+      title:
+        - fi: 'Graafikko'
+          en: 'Graphic Designer'
+    #somettajat
+    - name: 'Nora Jasulaityte'
+      title:
+        - fi: 'Somettaja'
+          en: 'Social Media Manager'
+    - name: 'Karoliina Koivu'
+      title:
+        - fi: 'Somettaja'
+          en: 'Social Media Manager'
+    - name: 'Tommi Savolainen'
+      title:
+        - fi: 'Somettaja'
+          en: 'Social Media Manager'
+    - name: 'Kaisu Parviainen'
+      title:
+        - fi: 'Somettaja'
+          en: 'Social Media Manager'
+    #kääntäjät
+    - name: 'Jaakko Ojaniemi'
+      title:
+        - fi: 'Kääntäjä & oikolukija'
+          en: 'Language specialist & Proofreader'
+    - name: 'Sofia Elomaa'
+      title:
+        - fi: 'Kääntäjä & oikolukija'
+          en: 'Language specialist & Proofreader'
+    - name: 'Venla Sormunen'
+      title:
+        - fi: 'Kääntäjä & oikolukija'
+          en: 'Language specialist & Proofreader'
+    - name: 'Helmi Haapanen'
+      title:
+        - fi: 'Kääntäjä & oikolukija'
+          en: 'Language specialist & Proofreader'
+    #Dronevastaava
+    - name: 'Aapo Vuokila'
+      title:
+        - fi: 'Dronevastaava'
+          en: 'Drone Responsible'
+
+#Säätö
+- name:
+    fi: 'Säätötoimikunta'
+    en: 'Tinkering Committee'
+  members:
+    - name: 'Akseli Pihlajamaa'
+      title:
+        - fi: 'Säätömestari'
+          en: 'Tinker Balls'
+      leader: true
+    - name: 'Santeri Pyykkönen'
+      title:
+        - fi: 'Säätömestari'
+          en: 'Tinker Balls'
+      leader: true
+    #Säätökisälli
+    - name: 'Aapo Lemettinen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Emil Ahvonen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Aarno Koponen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Aleksi Sarja'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Arvo Mattilainen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Nicolas Bosnjak'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Daniel Lewis'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Emil Lintunen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Oiva Haapaniemi'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Hannes Hokkanen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Hanni Tynjälä'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Akseli Leino'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Jaakko Lehto'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Jere Hasu'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Jonatan Paunonen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Veeti Kittamaa'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Ossi Syrjälahti'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Leo Kivinen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Vilja Lohi'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Mikko Kujanpää'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Markus Muilu'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Matti Laine'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Pinja Mäkeläinen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Ilkka Taponen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Uuno Huuskonen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Venla Mäkelä'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Violet Bris Nevalainen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Pyry Kiviluoma'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Elias Erke'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Rasmus Virolane'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Iiro Sällinen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Nooa Lindfors'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Nuutti Laine'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Daniel Ruotsi'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Santtu Sievonen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Daniel Gorbatchev'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Rika Lintunen'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Karl Joosep Onoper'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Long Lé'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+    - name: 'Quang Dat Le'
+      title:
+        - fi: 'Säätökisälli'
+          en: 'Tinker bell'
+#Stimulaatio
+- name:
+    fi: 'Stimulaatio-toimikunta'
+    en: 'Stimulaatio Committee'
+  members:
+    - name: 'Leila Lavonen'
+      title:
+        - fi: 'Stimulantti'
+          en: 'Stimulant'
+      leader: true
+    - name: 'Saara Miettinen'
+      title:
+        - fi: 'Stimulantti'
+          en: 'Stimulant'
+      leader: true
+      #Eskalaattori
+    - name: 'Eeva Järvenpää'
+      title:
+        - fi: 'Eskalaattori'
+          en: 'Escalator'
+    # Killisti
+    - name: 'Henri Rosenberg'
+      title:
+        - fi: 'Killisti'
+          en: 'Killist'
+      #Depressantti
+    - name: 'Joel Forsström'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+    - name: 'Mikhail Romanov'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+    - name: 'Eero Huhtala'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+    - name: 'Enja Hakkarainen'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+    - name: 'Mikko Vanhanen'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Depressantti'
+          en: 'Depressant'
+
+#Retki
+- name:
+    fi: 'Retkitoimikunta'
+    en: 'Trek Committee'
+  members:
+    - name: 'Ossi Syrjälahti'
+      title:
+        - fi: 'Retkimestari'
+          en: 'Trek Master'
+      leader: true
+    - name: 'Jesperi Hildén'
+      title:
+        - fi: 'Retkimestari'
+          en: 'Trek Master'
+      leader: true
+    #RETKISÄLLI
+    - name: 'Rasmus Virolane'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Daniel Gorbatchev'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Samuli Sarmala'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Vilja Lohi'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Lucas Bosnjak'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Ella Palviainen'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Jonatan Paunonen'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Lauri Tuominen'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Niklas Haarnoja'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+    - name: 'Sonja Annala'
+      title:
+        - fi: 'Retkisälli'
+          en: 'Trip-prentice'
+
+#GT
+- name:
+    fi: 'Kultainen Toimitus'
+    en: 'Golden Tomato'
+  members:
+    - name: 'Ilkka Taponen'
+      title:
+        - fi: 'Kultainen Päätoimittaja'
+          en: 'Golden Editor-in-Chief'
+      leader: true
+    #toimittajat
+    - name: 'Elsa Kuntsi'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Hanni Tynjälä'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Jaakko Ojaniemi'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Jattamari Raivio'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Ki Chun Tong'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Leila Lavonen'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Mikko Kujanpää'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Mikko Vanhanen'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Noora Hannula'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Nuutti Laine'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Petra Ojala'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    - name: 'Pinja Mäkeläinen'
+      title:
+        - fi: 'Kultainen Toimittaja'
+          en: 'Golden Editor'
+    #Kultaiset graafikot
+    - name: 'Saara Miettinen'
+      title:
+        - fi: 'Kultainen graafikko'
+          en: 'Golden Artist'
+    - name: 'Venla Mäkelä'
+      title:
+        - fi: 'Kultainen graafikko'
+          en: 'Golden Artist'
+    #Kultainen taittaja
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Kultainen taittaja'
+          en: 'Golden Designer'
+
+#Stigutoimikunta
+- name:
+    fi: 'Stigutoimikunta'
+    en: 'Sticker Committee'
+  members:
+    - name: 'Ossi Lindroos'
+      title:
+        - fi: 'Stigulantti'
+          en: 'Stigulant'
+      leader: true
+    - name: 'Mikko Kujanpää'
+      title:
+        - fi: 'Stigulantti'
+          en: 'Stigulant'
+      leader: true
+    #Stikkerisälli
+    - name: 'Tuomas Nykänen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Otto Moilanen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Leo Kivinen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Veeti Eerola'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Jesperi Hildén'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Veeti Kittamaa'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Petra Ojala'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Saara Miettinen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Henri Rosenberg'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Matias Ahokas'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Jaakko Ojaniemi'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Jaakko Lehto'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Eero Huhtala'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Sonja Annala'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Henri Paasonen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Noora Hannula'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Niklas Narinen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Jenny Ruokolainen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Santeri Vuola'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Rasmus Honkalinna'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Sara Timonen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Vinski Lång'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Erkka Multanen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Oiva Haapaniemi'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Nooa Virtala'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Akseli Pihlajamaa'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Eemil Taipale'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Marie Heikkinen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Nicolas Bosnjak'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Lauri Tuominen'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Elsa Kuntsi'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    - name: 'Milja Jänis'
+      title:
+        - fi: 'Degenerantti'
+          en: 'Degenerate'
+    #wanhat
+    - name: 'Ilkka Taponen'
+      title:
+        - fi: 'Tosi Wanha pieru'
+          en: 'Very Old fart'
+    - name: 'Ossi Syrjälahti'
+      title:
+        - fi: 'Tosi Wanha pieru'
+          en: 'Very Old fart'
+
+#ASIC
+- name:
+    fi: 'International Committee'
+    en: 'International Committee'
+  members:
+    - name: 'Nimród Pocsveiler'
+      title:
+        - fi: "Master's and International Student Captain (MISC)"
+          en: "Master's and International Student Captain (MISC)"
+      leader: true
+    - name: 'Jere Hasu'
+      title:
+        - fi: "Master's and International Student Captain (MISC)"
+          en: "Master's and International Student Captain (MISC)"
+      leader: true
+    #Miscellaneous
+    - name: 'Anna Dukate'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Violet Bris Nevalainen'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Kiet Ta'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Eemil Taipale'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Valtteri Kanstrén'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Sofia Elomaa'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Jianing Hu'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Isla Kajoniemi'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Minnea Orho'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Alex Vu'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Chloe Trang Nguyen'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+    - name: 'Kunal Selvan'
+      title:
+        - fi: 'Miscellaneous'
+          en: 'Miscellaneous'
+#N-toimikunta
+- name:
+    fi: 'N-toimikunta'
+    en: 'N-Committee'
+  members:
+    - name: 'Tiitus Mustajoki'
+      title:
+        - fi: 'Seniilisihteeri'
+          en: 'Senile Secretary'
+      leader: true
+    - name: 'Viivi-Maari Kallinen'
+      title:
+        - fi: 'Seniilisihteeri'
+          en: 'Senile Secretary'
+      leader: true
+
+#rrrRankka
+- name:
+    fi: 'rrrRankkatoimikunta'
+    en: 'rrrRankka Committee'
+  members:
+    - name: 'Vinski Lång'
+      title:
+        - fi: 'Oulu-, turvallisuus- ja viisumivastaava'
+          en: 'Oulu Affairs, Security and Visas Responsible'
+      leader: true
+    - name: 'Veeti Kittamaa'
+      title:
+        - fi: 'Viihde-, mikki- ja ohjelmavaltuutettu'
+          en: 'Entertainment, Microphone and Program Commissioner'
+      leader: true
+    - name: 'Jesperi Hildén'
+      title:
+        - fi: 'Urheilu- ja kuntoutusministeri'
+          en: 'Minister of Sports and Rehabilitation'
+      leader: true
+
+#Jatkuvuustoimikunta
+- name:
+    fi: 'Jatkuvuustoimikunta'
+    en: 'Continuity Committee'
+  members:
+    - name: 'Tiitus Mustajoki'
+      title:
+        - fi: 'Jatkuvuustoimikunnan puheenjohtaja'
+          en: 'Chair of Continuity Committee'
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
+      leader: true
+    - name: 'Joonas Törmälä'
+      title:
+        - fi: 'Merkkiohjesääntötyöryhmän puheenjohtaja'
+          en: 'Chair of Badge regulations working group'
+        - fi: 'Mentori'
+          en: 'Mentor'
+    - name: 'Kiira Metsoila'
+      title:
+        - fi: 'Merkkiohjesääntötyöryhmän puheenjohtaja'
+          en: 'Chair of Badge regulations working group'
+    - name: 'Eero Huhtala'
+      title:
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
+        - fi: 'Mentori'
+          en: 'Mentor'
+    - name: 'Elina Leiniö'
+      title:
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
+        - fi: 'Mentori'
+          en: 'Mentor'
+    - name: 'Leevi Hormaluoma'
+      title:
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
+        - fi: 'Mentori'
+          en: 'Mentor'
+    - name: 'Saku Parttimaa'
+      title:
+        - fi: 'Mentori'
+          en: 'Mentor'
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Merkkiohjesääntötyöryhmä'
+          en: 'Badge regulations working group'
+        - fi: 'Mentori'
+          en: 'Mentor'
+
+#Ulkoexcutmk
+- name:
+    fi: 'Ulkoexcu-toimikunta'
+    en: 'International Excursion Committee'
+  members:
+    - name: 'Matti Laine'
+      title:
+        - fi: 'Ulkoexcumestari'
+          en: 'Master of International Excursion'
+      leader: true
+    #jäsenet
+    - name: 'Juho Kerminen'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Otso Luukkanen'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Akseli Hilander'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Aleksanteri Pitkenin'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Eero Huhtala'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Säde Mikkonen'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Nia Lehtonen'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Minnea Orho'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Ella Palviainen'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+    - name: 'Tönis Pärtel'
+      title:
+        - fi: 'Ulkoexcutoimikunnan jäsen'
+          en: 'Member of International Excursion Committee'
+
+#Toimikuntien ulkopuolella
+
+- name:
+    fi: 'Toimikuntien ulkopuolelta'
+    en: 'Outside Committees'
+  members:
+    - name: 'Tuomas Nykänen'
+      title:
+        - fi: 'Toiminnantarkastaja'
+          en: 'Inspector'
+    - name: 'Henrik Starck'
+      title:
+        - fi: 'Toiminnantarkastaja'
+          en: 'Inspector'
+    - name: 'Eero Huhtala'
+      title:
+        - fi: 'Varatoiminnantarkastaja'
+          en: 'Vice Inspector'
+        - fi: 'Teekkarikokousedustaja'
+          en: 'Teekkari Assembly representative'
+    - name: 'Pessi Lyytikäinen'
+      title:
+        - fi: 'Varatoiminnantarkastaja'
+          en: 'Vice Inspector'
+    - name: 'Ville Kyrki'
+      title:
+        - fi: 'Oltermanni'
+          en: 'Alderman'
+    - name: 'Tuomas Nykänen'
+      title:
+        - fi: 'Teekkarikokousedustaja'
+          en: 'Teekkari Assembly representative'
+    - name: 'Kalle Kajoniemi'
+      title:
+        - fi: 'Teekkarikokouksen varaedustaja'
+          en: 'Teekkari Assembly vice representative'
+    - name: 'Tiitus Mustajoki'
+      title:
+        - fi: 'Teekkarikokouksen varaedustaja'
+          en: 'Teekkari Assembly vice representative'

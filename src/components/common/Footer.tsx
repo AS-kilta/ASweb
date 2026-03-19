@@ -1,59 +1,31 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import { BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
 
 import * as style from './Footer.module.scss';
-import { GatsbyImage } from 'gatsby-plugin-image';
 
 interface SponsorData {
-  node: {
-    name: string;
-    link: string;
-    picture: DynamicImageData;
+  name: string;
+  link: string;
+  picture?: {
+    src: string;
+    width: number;
+    height: number;
+    format: string;
   };
 }
 
-interface SponsorDataScheme {
-  allSponsorsYaml: {
-    edges: SponsorData[];
-  };
-}
-
-const Sponsor: React.FC<{ image: DynamicImageData; name: string }> = ({ image, name }) => {
+const Sponsor: React.FC<{ image?: SponsorData['picture']; name: string }> = ({ image, name }) => {
   if (image != null)
-    return <GatsbyImage image={image.childImageSharp.gatsbyImageData} objectFit="contain" alt={name} />;
-  else return <text>{name}</text>;
+    return <img src={image.src} width={100} alt={name} style={{ objectFit: 'contain' }} />;
+  else return <span>{name}</span>;
 };
 
-const Sponsors: React.FC = () => {
-  const data: SponsorDataScheme = useStaticQuery(graphql`
-    query getSponsorData {
-      allSponsorsYaml {
-        edges {
-          node {
-            name
-            link
-            picture {
-              childImageSharp {
-                gatsbyImageData(
-                  width: 100
-                  placeholder: BLURRED
-                  backgroundColor: "transparent"
-                  transformOptions: { fit: CONTAIN }
-                )
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
-
+const Sponsors: React.FC<{ sponsors: SponsorData[] }> = ({ sponsors }) => {
   return (
     <div id={style.sponsors}>
-      {data.allSponsorsYaml.edges.map((entry) => (
-        <a className={style.sponsor} key={entry.node.name} href={entry.node.link}>
-          <Sponsor image={entry.node.picture} name={entry.node.name} />
+      {sponsors.map((entry) => (
+        <a className={style.sponsor} key={entry.name} href={entry.link}>
+          <Sponsor image={entry.picture} name={entry.name} />
         </a>
       ))}
     </div>
@@ -87,7 +59,7 @@ const translations: Translations = {
   },
 };
 
-const Footer: React.FC<{ lang: string }> = ({ lang }) => {
+const Footer: React.FC<{ lang: 'fi' | 'en'; sponsors: SponsorData[] }> = ({ lang, sponsors }) => {
   return (
     <div id={style.footer}>
       <div id={style.content}>
@@ -131,7 +103,7 @@ const Footer: React.FC<{ lang: string }> = ({ lang }) => {
         </div>
         <div id={style.partners}>
           <div className={style.title}>AS Partners</div>
-          <Sponsors />
+          <Sponsors sponsors={sponsors} />
         </div>
       </div>
     </div>

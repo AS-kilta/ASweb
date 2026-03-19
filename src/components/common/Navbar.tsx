@@ -1,9 +1,8 @@
 import React, { useState, useContext, createContext } from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
 import * as style from './Navbar.module.scss';
+import logo from '@src/assets/aswhite.png';
 
 // Create context for navi callbacks (avoid prop drilling)
 
@@ -20,16 +19,9 @@ const SiteLogo: React.FC<{ lang: string }> = ({ lang }) => {
 
   return (
     <div className={style.navbarLogo}>
-      <Link onClick={naviCtx?.hideNav} to={lang === 'fi' ? '/' : '/en'}>
-        <StaticImage
-          src="../../images/aswhite.png"
-          alt="AS logo"
-          layout="constrained"
-          width={40}
-          height={40}
-          placeholder="none"
-        />
-      </Link>
+      <a onClick={naviCtx?.hideNav} href={lang === 'fi' ? '/' : '/en'}>
+        <img src={logo.src} alt="AS logo" width={40} height={40} />
+      </a>
     </div>
   );
 };
@@ -42,19 +34,23 @@ interface NaviLinkProps {
 const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
   const naviCtx = useContext(NaviContext);
   const local = link.startsWith('/');
+  const [currentPath, setCurrentPath] = useState('');
+
+  // We can only check window in client-side
+  React.useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
+
+  const isActive = currentPath === link || (link !== '/' && currentPath.startsWith(link));
 
   return (
-    <>
-      {local ? (
-        <Link onClick={naviCtx?.hideNav} className={style.naviLink} activeClassName={style.active} to={link}>
-          {title}
-        </Link>
-      ) : (
-        <a onClick={naviCtx?.hideNav} className={style.naviLink} href={link}>
-          {title}
-        </a>
-      )}
-    </>
+    <a
+      onClick={naviCtx?.hideNav}
+      className={`${style.naviLink} ${isActive ? style.active : ''}`}
+      href={link}
+    >
+      {title}
+    </a>
   );
 };
 
@@ -87,7 +83,7 @@ const LangSwitcher: React.FC<LangSwitcherProps> = ({ lang, slug, translation }) 
     link = `/en${slug}`;
     title = 'In English';
   } else {
-    link = slug.substring(3) || '/';
+    link = slug.startsWith('/en') ? slug.substring(3) || '/' : slug;
     title = 'Suomeksi';
   }
 
@@ -162,57 +158,18 @@ interface NaviData {
   subnavi?: SubnaviData[];
 }
 
-interface NaviDataScheme {
-  allNaviYaml: {
-    edges: [
-      {
-        node: NaviData;
-      },
-    ];
-  };
-}
-
 interface NavCollapseProps {
   lang: string;
   slug: string;
   translation?: string;
   isExpanded: boolean;
+  naviData: NaviData[];
 }
 
-const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded }) => {
-  const data: NaviDataScheme = useStaticQuery(graphql`
-    query getNaviData {
-      allNaviYaml {
-        edges {
-          node {
-            title {
-              fi
-              en
-            }
-            link {
-              fi
-              en
-            }
-            subnavi {
-              title {
-                fi
-                en
-              }
-              link {
-                fi
-                en
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
-
+const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isExpanded, naviData }) => {
   return (
     <ul id={style.navbarCollapse} className={isExpanded ? style.show : ''}>
-      {data.allNaviYaml.edges.map((edge) => {
-        const entry = edge.node;
+      {naviData.map((entry) => {
         if (!entry.title[lang] || !entry.link[lang]) {
           return null;
         }
@@ -227,9 +184,10 @@ interface NavbarProps {
   lang: string;
   slug: string;
   translation?: string;
+  naviData: NaviData[];
 }
 
-const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
+const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData }) => {
   const [navExpanded, expandNav] = useState(false);
 
   const toggleNav = (): void => {
@@ -252,7 +210,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation }) => {
     <nav id={style.navbarTop} className={navExpanded ? style.expanded : ''} aria-label="Main Navigation">
       <NaviContext.Provider value={ctx}>
         <SiteLogo lang={lang} />
-        <NavCollapse lang={lang} slug={slug} translation={translation} isExpanded={navExpanded} />
+        <NavCollapse lang={lang} slug={slug} translation={translation} isExpanded={navExpanded} naviData={naviData} />
         <button
           className={`${style.menuToggle} button-reset`}
           onClick={toggleNav}

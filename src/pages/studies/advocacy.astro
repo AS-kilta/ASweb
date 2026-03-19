@@ -1,0 +1,74 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+
+import hallopedihommii from '@src/assets/images/hallopedihommii.png';
+
+const lang = 'fi';
+const slug = '/studies/advocacy';
+---
+
+<BaseLayout title="Edunvalvonta" lang={lang} slug={slug}>
+  <div>
+    <p>
+      Automaatio- ja systeemitekniikan killlan opiskelijoiden koskevia päätöksiä tehdään Sähkötekniikan
+      korkeakoulussa useassa eri toimielimessä. Näitä ovat muun muassa Sähkötekniikan akateeminen komitea,
+      Sähkötekniikan kanditaattikoulutusneuvosto, Sähkötekniikan korkeakoulun opetuksen laatutoimikunta (paremmin
+      tunnetusti OpLaa). Usein killan puheenjohtaja ja opintomestari edustavat kiltalaisia näissä toimielimissä.
+    </p>
+    <p>
+      Lisäksi on olemassa Aalto-tason toimielimiä. Näitä ovat mm. kielikeskuksen ohjausryhmä, ravintolatoimikunta ja
+      Aalto-yliopiston yhdenvertaisuus-, monimuotoisuus- ja inklusiivisuustoimikunta. Myös jokaiselle
+      maisteri-ohjelmalle on oma ohjelmaryhmän, jonka tehtävänä on tukea ohjelmajohtajaa ohjelman suunnittelussa,
+      toteutuksessa, arvioinnissa ja kehittämisessä.
+    </p>
+    <h2>Hallopedit</h2>
+    <p>
+      Yhdistyksen jäsenten etua valvovat AYY:n nimittämät Hallopedit eli hallinnon opiskelijaedustajat. Hallopediksi
+      haetaan joka syksy eikä aikaisempaa kokemusta edunvalvonnasta vaadita. Jos mielenkiinto heräsi, älä epäröi
+      hakea hallopediksi jo ensi syksynä!
+    </p>
+    <p>
+      Lisää Halloped-toiminnasta löydät:{' '}
+      <a href="https://beta.halloped.fi/aalto.fi/get-started" target="_blank" rel="noreferrer">
+        beta.halloped.fi/aalto.fi/get-started
+      </a>
+    </p>
+
+    <Image class="image-large" src={hallopedihommii} alt="" />
+
+    <h2>Toimielimet</h2>
+    <h3>Sähkötekniikan akateeminen komitea</h3>
+    <p>
+      Akateeminen komitea tekee esitykset korkeakoulukohtaisista opetussuunnitelmista, tutkintovaatimuksista,
+      valintaperusteista sekä muista akateemisen komitean toimintaan liittyvistä asioista.
+    </p>
+
+    <h3>Sähkötekniikan kanditaattikoulutusneuvosto</h3>
+    <p>
+      Koulutusneuvosto tekee akateemiselle komitealle ehdotukset koulutusohjelmien opetussuunnitelmista,
+      tutkintovaatimuksista ja valintaperusteista. Koulutusneuvosto päättää koulutusohjelmien kehityksestä,
+      opetuksen laadunvarmistuksesta sekä palautteen käsittelystä. Näiden lisäksi koulutusneuvosto nimeää
+      kandidaatintöiden hyväksyjät, päättää diplomitöiden aiheet, valvojat ja ohjaajat sekä arvostelee diplomityöt.
+    </p>
+
+    <h3>Sähkötekniikan akateeminen komitea</h3>
+    <p>
+      Opetuksen laatutoimikunta (OpLaa) on sähkötekniikan korkeakoulun toimikunta, jonka tavoitteena on tehdä
+      yhteistyötä koulun johdon, laitosten, oppimispalveluiden ja kiltojen edustajien kanssa. Se pyrkii kehittämään
+      opetusta huomioiden Aalto-yliopiston ja ELEC:n tavoitteiden lisäksi muut opetusta ja oppimista kehittävät
+      teemat ja kehittämiskohteet. OpLaan jäsenillä on mahdollisuus osallistua henkilökunnan rekrytointiin. Lisäksi
+      OpLaan jäsenille esitellään vuosittain tehdyn opintokyselyn tulokset.
+    </p>
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+.image-large {
+  display: block;
+  margin: auto;
+  margin-top: 2.5rem;
+  width: min(700px, 80%);
+  height: auto;
+}
+</style>

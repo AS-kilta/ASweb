@@ -1,0 +1,11 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import CommitteeTipsContent from '@components/studies/CommitteeTips';
+
+const lang = 'fi';
+const slug = '/studies/committee-tips';
+---
+
+<BaseLayout title="OPTMK:n vinkit" lang={lang} slug={slug}>
+  <CommitteeTipsContent client:load lang={lang} />
+</BaseLayout>

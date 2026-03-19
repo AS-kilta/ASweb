@@ -1,0 +1,22 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import ConfidentialCounselors from '@components/profiles/ConfidentialCounselor';
+import { getCollection } from 'astro:content';
+
+const counselorsEntries = await getCollection('counselors');
+const counselorsData = counselorsEntries[0]?.data ?? [];
+
+const description = 'Confidential counselors are here for you.';
+const lang = 'en';
+const slug = '/en/guild/confidential-counselors';
+---
+
+<BaseLayout
+  title="Confidential Counselors"
+  lead="Confidential counselors are here for you."
+  description={description}
+  lang={lang}
+  slug={slug}
+>
+  <ConfidentialCounselors data={counselorsData} lang={lang} />
+</BaseLayout>

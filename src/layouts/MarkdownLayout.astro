@@ -1,0 +1,23 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+
+const pathname = Astro.url.pathname;
+const lang = frontmatter.lang ?? (pathname.startsWith('/en/') ? 'en' : 'fi');
+const slug = pathname;
+---
+
+<BaseLayout
+  title={frontmatter.title}
+  lead={frontmatter.lead}
+  description={frontmatter.description}
+  background={frontmatter.background}
+  heroHeight={frontmatter.heroHeight}
+  documentStyle={frontmatter.documentStyle ?? 'document'}
+  robots={frontmatter.robots}
+  lang={lang}
+  slug={slug}
+>
+  <slot />
+</BaseLayout>

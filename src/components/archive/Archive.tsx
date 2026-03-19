@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
 import CollapseBox from '../common/CollapseBox';
 import { BsPlus, BsDash } from 'react-icons/bs';
 import * as style from './Archive.module.scss';
@@ -42,12 +41,6 @@ interface ArchiveEntry {
   board?: BoardMember[];
   officials?: CommitteeData[];
   accolades?: Accolades[];
-}
-
-interface ArchiveData {
-  allArchiveYaml: {
-    nodes: ArchiveEntry[];
-  };
 }
 
 const translations: Translations = {
@@ -147,50 +140,7 @@ const Accolades: React.FC<{ accolades: Accolades; lang: string }> = ({ accolades
   );
 };
 
-export const query = graphql`
-  query GetArchiveData {
-    allArchiveYaml {
-      nodes {
-        year
-        board {
-          name
-          title {
-            fi
-            en
-          }
-        }
-        officials {
-          members {
-            name
-            title {
-              fi
-              en
-            }
-          }
-          name {
-            fi
-            en
-          }
-        }
-        accolades {
-          name {
-            fi
-            en
-          }
-          people {
-            name
-            description {
-              fi
-              en
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
-const Archive: React.FC<{ lang: string }> = ({ lang }) => {
+const Archive: React.FC<{ lang: string; data: ArchiveEntry[] }> = ({ lang, data }) => {
   const [allExpanded, setAllExpanded] = useState(false);
 
   const toggleCollapse = () => {
@@ -201,10 +151,8 @@ const Archive: React.FC<{ lang: string }> = ({ lang }) => {
     if (e.key === 'Enter') toggleCollapse();
   };
 
-  const rawData: ArchiveData = useStaticQuery(query);
-
-  // Create a copy of queried archive data and sort the array
-  const data: ArchiveEntry[] = rawData.allArchiveYaml.nodes
+  // Sort the array
+  const sortedData: ArchiveEntry[] = data
     .slice()
     .sort((a: ArchiveEntry, b: ArchiveEntry) => Number(b.year) - Number(a.year));
 
@@ -215,7 +163,7 @@ const Archive: React.FC<{ lang: string }> = ({ lang }) => {
         {allExpanded ? <BsDash /> : <BsPlus />}
       </button>
       <h2 className={style.heading2}>{translations.formerOfficials[lang]}</h2>
-      {data.map((entry: ArchiveEntry) => {
+      {sortedData.map((entry: ArchiveEntry) => {
         if (entry.year && (entry.board || entry.officials))
           return (
             <CollapseBox key={`officials-${entry.year}`} title={entry.year} expand={allExpanded}>
@@ -226,7 +174,7 @@ const Archive: React.FC<{ lang: string }> = ({ lang }) => {
         else return null;
       })}
       <h2 className={style.heading2}>{translations.accolades[lang]}</h2>
-      {data.map((entry: ArchiveEntry) => {
+      {sortedData.map((entry: ArchiveEntry) => {
         return (
           entry.year &&
           entry.accolades && (
@@ -238,7 +186,7 @@ const Archive: React.FC<{ lang: string }> = ({ lang }) => {
           )
         );
       })}
-      {data
+      {sortedData
         .filter((entry: ArchiveEntry) => !entry.year)
         .map((entry: ArchiveEntry, i: number) => {
           return (

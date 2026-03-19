@@ -1,19 +1,10 @@
-import { PageProps as GatsbyPageProps } from 'gatsby';
-import { IGatsbyImageData } from 'gatsby-plugin-image';
-
 interface CustomPageProps {
   slug: string;
-  lang: string;
+  lang: 'fi' | 'en';
   translation?: string;
 }
 
 declare global {
-  // PageProps with customized pageContext
-
-  interface PageProps extends GatsbyPageProps {
-    pageContext: PageProps['pageContext'] & CustomPageProps;
-  }
-
   // Type declaration for SCSS modules
 
   declare module '*.scss' {
@@ -32,37 +23,6 @@ declare global {
   interface Translations {
     [key: string]: TranslatedEntry;
   }
-
-  // Type for image data for dynamic images
-
-  interface DynamicImageData {
-    childImageSharp: {
-      gatsbyImageData: IGatsbyImageData;
-    };
-    base?: string;
-  }
-
-  // Type for queried data from page queries
-
-  interface MdxProps {
-    mdx: {
-      fields: {
-        lang: string;
-      };
-      frontmatter: {
-        [key: string]: string;
-      };
-    };
-    pageContext: unknown;
-  }
-
-  interface ImageFileProps {
-    file: DynamicImageData;
-  }
-
-  interface ImageArrayProps {
-    allFile: {
-      nodes: DynamicImageData[];
-    };
-  }
 }
+
+export type { CustomPageProps };

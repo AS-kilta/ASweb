@@ -58,6 +58,10 @@ $not-focused: transparentize(
   display: block;
 }
 
+.menuToggle {
+  display: none;
+}
+
 #navbarTop {
   background: $as-violet-1;
   position: sticky;
@@ -95,6 +99,11 @@ $not-focused: transparentize(
   #navbarTop {
     flex-wrap: nowrap;
     justify-content: center;
+    padding-inline: 2rem;
+    
+    & > * {
+      max-width: 1400px;
+    }
   }
 
   #navbarCollapse {
@@ -142,7 +151,7 @@ $not-focused: transparentize(
   }
 
   .menuToggle {
-    display: none;
+    display: none !important;
   }
 }
 

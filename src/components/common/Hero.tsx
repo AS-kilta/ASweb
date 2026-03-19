@@ -2,12 +2,12 @@ import React from 'react';
 
 import * as style from './Hero.module.scss';
 
-import * as sassVars from '@src/styles/_exports.module.scss';
+import * as sassVars from '@styles/_exports.module.scss';
 
 export interface HeroProps {
   title: string;
   lead?: string;
-  background?: string;
+  background?: string | { src: string };
   heroHeight?: 'short' | 'tall';
 }
 
@@ -17,9 +17,11 @@ const Hero: React.FC<HeroProps> = ({ title, lead, background, heroHeight = 'shor
     height = 'min(600px, 60vh)';
   }
 
-  const customStyle: React.CSSProperties = background
+  const bgUrl = typeof background === 'string' ? background : background?.src;
+
+  const customStyle: React.CSSProperties = bgUrl
     ? {
-        background: `url(${background}) ${sassVars.backgroundViolet}`,
+        background: `url(${bgUrl}) ${sassVars.backgroundViolet}`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundBlendMode: 'soft-light',

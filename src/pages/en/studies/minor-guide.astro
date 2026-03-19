@@ -1,0 +1,22 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Minors from '@components/minors/Minors';
+import { getCollection } from 'astro:content';
+
+const minorsEntries = await getCollection('minors');
+const minorsData = minorsEntries.map(entry => entry.data);
+
+const description = 'Here you can find info on minor subjects recommended by the AS guild.';
+const lang = 'en';
+const slug = '/en/studies/minor-guide';
+---
+
+<BaseLayout
+  title="Minor Guide"
+  lead="Here you can find info on minor subjects recommended by the AS guild."
+  description={description}
+  lang={lang}
+  slug={slug}
+>
+  <Minors data={minorsData} lang={lang} />
+</BaseLayout>

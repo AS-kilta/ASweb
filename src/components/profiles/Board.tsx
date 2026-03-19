@@ -1,66 +1,29 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import ContactCard from '@src/components/profiles/ContactCard';
-import type { ContactInfo } from '@src/components/profiles/ContactCard';
+import ContactCard from '@components/profiles/ContactCard';
+import type { ContactInfo } from '@components/profiles/ContactCard';
 import * as style from './Board.module.scss';
 
 interface BoardMember {
-  node: {
-    title: TranslatedEntry;
-    name: string;
-    email: string;
-    phone: string;
-    telegram: string;
-    picture: DynamicImageData;
-    description: TranslatedEntry;
-  };
+  title: TranslatedEntry;
+  name: string;
+  email: string;
+  phone?: string;
+  telegram: string;
+  picture?: any;
+  description: TranslatedEntry;
 }
 
-interface BoardData {
-  allBoardYaml: {
-    edges: BoardMember[];
-  };
-}
-
-const Board: React.FC<{ lang: string }> = ({ lang }) => {
-  const data: BoardData = useStaticQuery(graphql`
-    query getBoardData {
-      allBoardYaml {
-        edges {
-          node {
-            title {
-              fi
-              en
-            }
-            name
-            email
-            phone
-            telegram
-            picture {
-              childImageSharp {
-                gatsbyImageData(width: 1000, placeholder: BLURRED)
-              }
-            }
-            description {
-              fi
-              en
-            }
-          }
-        }
-      }
-    }
-  `);
-
+const Board: React.FC<{ lang: string; data: BoardMember[] }> = ({ lang, data }) => {
   return (
     <div className={style.board}>
-      {data.allBoardYaml.edges.map((member) => {
+      {data.map((member) => {
         const contactData: ContactInfo = {
-          ...member.node,
-          title: member.node.title[lang],
-          description: member.node.description[lang],
-          picture: member.node.picture,
+          ...member,
+          title: member.title[lang],
+          description: member.description[lang],
+          picture: member.picture,
         };
-        return <ContactCard key={member.node.name} data={contactData} />;
+        return <ContactCard key={member.name} data={contactData} />;
       })}
     </div>
   );

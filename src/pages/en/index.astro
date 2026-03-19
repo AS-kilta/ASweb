@@ -1,0 +1,90 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import SnapWidget from '@components/instagram/SnapWidget';
+import EventList from '@components/events/EventList';
+
+import heroimg from '@assets/images/20201029195159-eef0d345-xx.jpg';
+import whatIsAsImg from '@assets/images/20210917174935-70c53c15-xx.jpg';
+import karkkiKalleImg from '@assets/images/karkki_kalle.jpg';
+
+const description =
+  'AS is a student organisation that brings together Aalto University students from many different fields. \
+Our guild includes students from Automation and Robotics, Information Technology, Digital Systems and Design \
+and other related programmes.';
+
+const lang = 'en';
+const slug = '/en';
+---
+
+<BaseLayout
+  title="Guild of Automation and Systems Technology"
+  background={heroimg}
+  heroHeight="tall"
+  lang={lang}
+  slug={slug}
+  description={description}
+  contentMaxWidth="1400px"
+>
+  <div class="even-columns frontpagebox">
+    <div style="text-align: center">
+      <h2>What is AS?</h2>
+      <p>
+        AS is a student organisation that brings together Aalto University students from many different fields. Our
+        guild includes students from Automation and Robotics, Information Technology, Digital Systems and Design and
+        other related programmes. The guild organises leisure activities for its members, looks after their
+        interests in matters related to their studies and maintains relations with companies in the field.
+      </p>
+    </div>
+    <Image src={whatIsAsImg} alt="What is AS?" />
+  </div>
+  <div class="even-columns frontpagebox">
+    <Image class="no-mobile" src={karkkiKalleImg} alt="Karkki-Kalle" />
+    <div class="eventsContainer">
+      <h2>Events</h2>
+      <EventList client:load number={5} lang={lang} />
+      <a
+        href="https://calendar.google.com/calendar/embed?src=as.tiedottaja%40gmail.com&ctz=Europe%2FHelsinki"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Events calendar
+      </a>
+    </div>
+  </div>
+  <h2 class="center-text">Instagram</h2>
+  <SnapWidget client:load />
+</BaseLayout>
+
+<style lang="scss">
+.eventsContainer {
+  width: 100%;
+}
+
+.frontpagebox {
+  max-width: 1600px;
+
+  & > :not(img) {
+    padding: 3rem;
+    margin-inline: auto;
+  }
+
+  p {
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+  }
+
+  :global(img) {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+  .frontpagebox {
+    & > :not(img) {
+      padding: 3rem 0;
+    }
+  }
+}
+</style>
