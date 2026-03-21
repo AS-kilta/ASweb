@@ -2,7 +2,7 @@ import React from 'react';
 import type { HeadFC, HeadProps } from 'gatsby';
 import Meta from '@src/components/common/Meta';
 import PageLayout from '@src/components/layouts/PageLayout';
-import SnapWidget from '@src/components/instagram/SnapWidget';
+import InstagramWidget from '@src/components/instagram/InstagramWidget';
 import EventList from '@src/components/events/EventList';
 import * as style from '../index.module.scss';
 
@@ -45,7 +45,7 @@ const IndexPage: React.FC<PageProps> = ({ pageContext }) => {
         </div>
       </div>
       <h2 className="center-text">Instagram</h2>
-      <SnapWidget />
+      <InstagramWidget />
     </PageLayout>
   );
 };
