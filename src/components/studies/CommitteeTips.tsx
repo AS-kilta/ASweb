@@ -46,41 +46,79 @@ const CommitteeTipsContent: React.FC<Props> = ({ lang }) => {
       {
         title: 'Tilat Otaniemessä',
         items: [
-          { label: 'Kanttiinit', url: 'https://kanttiinit.fi', desc: ' - Listattuna Otaniemen ruokalat, niiden aukioloajat ja tarjoilu' },
-          { label: 'Aalto Space', url: 'https://www.aalto.fi/en/services/aalto-space-mobile-application', desc: ' - Kännykkäsovellus, jolla voi varata tiloja kampukselta esim. ryhmätöitä varten' },
-          { label: 'Usefulaaltomap', url: 'https://usefulaaltomap.fi/', desc: ' - Tarkka kartta Otaniemen rakennuksista, sen lisäksi antaa vielä lisätietoa eri rakennuksista.' },
+          {
+            label: 'Kanttiinit',
+            url: 'https://kanttiinit.fi',
+            desc: ' - Listattuna Otaniemen ruokalat, niiden aukioloajat ja tarjoilu',
+          },
+          {
+            label: 'Aalto Space',
+            url: 'https://www.aalto.fi/en/services/aalto-space-mobile-application',
+            desc: ' - Kännykkäsovellus, jolla voi varata tiloja kampukselta esim. ryhmätöitä varten',
+          },
+          {
+            label: 'Usefulaaltomap',
+            url: 'https://usefulaaltomap.fi/',
+            desc: ' - Tarkka kartta Otaniemen rakennuksista, sen lisäksi antaa vielä lisätietoa eri rakennuksista.',
+          },
         ],
       },
       {
         title: 'Opiskelu',
         items: [
-          { label: 'download.aalto.fi', url: 'https://download.aalto.fi', desc: ' - Täältä voit ladata todella hyödyllisiä ohjelmia joihin Aalto-yliopistolla on lisenssi. Esimerkiksi MATLAB ja Microsoft Office.' },
-          { label: 'vdi.aalto.fi', url: 'https://vdi.aalto.fi', desc: ' - Voit käyttää tällä sovelluksella koulun tietokoneita etänä, erittäin hyödyllinen jos esimerkiksi oman koneen ja sovellusten välillä ongelmia.' },
+          {
+            label: 'download.aalto.fi',
+            url: 'https://download.aalto.fi',
+            desc: ' - Täältä voit ladata todella hyödyllisiä ohjelmia joihin Aalto-yliopistolla on lisenssi. Esimerkiksi MATLAB ja Microsoft Office.',
+          },
+          {
+            label: 'vdi.aalto.fi',
+            url: 'https://vdi.aalto.fi',
+            desc: ' - Voit käyttää tällä sovelluksella koulun tietokoneita etänä, erittäin hyödyllinen jos esimerkiksi oman koneen ja sovellusten välillä ongelmia.',
+          },
           { label: 'Panopto', url: '', desc: ' - Aallon videopalvelu' },
         ],
       },
       {
         title: 'Ryhmätyöskentely',
         items: [
-          { label: 'Doodle', url: 'https://doodle.com/en/', desc: ' - Etsi sopivat ajat taamiselle nopeasti ja helposti!' },
-          { label: 'Google Drive', url: 'https://drive.google.com', desc: ' - Monikäyttöinen työväline tiedostojen säilytykseen ja ryhmätöiden tekemiseen.' },
-          { label: 'discord.com', url: 'https://discord.com', desc: ' - Hyvä sovellus ryhmätyöskentelyyn ja kommunikointiin, voi mm. Jakaa näyttöä puhelun aikana.' },
+          {
+            label: 'Doodle',
+            url: 'https://doodle.com/en/',
+            desc: ' - Etsi sopivat ajat taamiselle nopeasti ja helposti!',
+          },
+          {
+            label: 'Google Drive',
+            url: 'https://drive.google.com',
+            desc: ' - Monikäyttöinen työväline tiedostojen säilytykseen ja ryhmätöiden tekemiseen.',
+          },
+          {
+            label: 'discord.com',
+            url: 'https://discord.com',
+            desc: ' - Hyvä sovellus ryhmätyöskentelyyn ja kommunikointiin, voi mm. Jakaa näyttöä puhelun aikana.',
+          },
         ],
       },
       {
         title: 'Terveys',
         items: [
-          { label: 'Opintopsykologi.', url: 'https://www.aalto.fi/fi/palvelut/opintopsykologien-ja-uraohjauspsykologien-yksiloohjaus', desc: ' Kannattaa olla yhteydessä matalalla kynnyksellä.' },
+          {
+            label: 'Opintopsykologi.',
+            url: 'https://www.aalto.fi/fi/palvelut/opintopsykologien-ja-uraohjauspsykologien-yksiloohjaus',
+            desc: ' Kannattaa olla yhteydessä matalalla kynnyksellä.',
+          },
         ],
         extra: (
           <>
             <h3 className={style.heading4}>YTHS</h3>
             <ul>
               <li>
-                <a href="https://www.yths.fi/palvelut/terveystarkastukset/suunterveyden-tarkastukset/">Hammashoito</a> (esim. viisaudenhampaat), kannattaa hakeutua vuosi ennen valmistumista!
+                <a href="https://www.yths.fi/palvelut/terveystarkastukset/suunterveyden-tarkastukset/">Hammashoito</a>{' '}
+                (esim. viisaudenhampaat), kannattaa hakeutua vuosi ennen valmistumista!
               </li>
               <li>
-                <a href="https://www.yths.fi/asiointi/yhteydenotto/">Yleis- ja mielenterveys palvelut</a> - kannattaa hakeutua ajoissa!
+                <a href="https://www.yths.fi/asiointi/yhteydenotto/">Yleis- ja mielenterveys palvelut</a> - kannattaa
+                hakeutua ajoissa!
               </li>
               <li>Lisäksi paljon kaikkea muuta terveyteen liittyvää.</li>
             </ul>
@@ -92,41 +130,79 @@ const CommitteeTipsContent: React.FC<Props> = ({ lang }) => {
       {
         title: 'Navigating in Otaniemi',
         items: [
-          { label: 'Kanttiinit', url: 'https://kanttiinit.fi', desc: ' - All student restaurants in Otaniemi. Also opening hours and the menus can be seen here.' },
-          { label: 'Aalto Space', url: 'https://www.aalto.fi/en/services/aalto-space-mobile-application', desc: ' - Mobile app to reserve rooms on campus. For example group projects.' },
-          { label: 'Usefulaaltomap', url: 'https://usefulaaltomap.fi/', desc: ' - An accurate map of Otaniemi, also has good explanation of different buildings.' },
+          {
+            label: 'Kanttiinit',
+            url: 'https://kanttiinit.fi',
+            desc: ' - All student restaurants in Otaniemi. Also opening hours and the menus can be seen here.',
+          },
+          {
+            label: 'Aalto Space',
+            url: 'https://www.aalto.fi/en/services/aalto-space-mobile-application',
+            desc: ' - Mobile app to reserve rooms on campus. For example group projects.',
+          },
+          {
+            label: 'Usefulaaltomap',
+            url: 'https://usefulaaltomap.fi/',
+            desc: ' - An accurate map of Otaniemi, also has good explanation of different buildings.',
+          },
         ],
       },
       {
         title: 'Studying',
         items: [
-          { label: 'download.aalto.fi', url: 'https://download.aalto.fi', desc: ' - In here you can download useful programs, which Aalto University has license for. For example MATLAB and Microsoft Office.' },
-          { label: 'vdi.aalto.fi', url: 'https://vdi.aalto.fi', desc: ' - You can use this application to access school computers remotely, which is extremely useful if, for example, you encounter problems with your own computer and applications.' },
+          {
+            label: 'download.aalto.fi',
+            url: 'https://download.aalto.fi',
+            desc: ' - In here you can download useful programs, which Aalto University has license for. For example MATLAB and Microsoft Office.',
+          },
+          {
+            label: 'vdi.aalto.fi',
+            url: 'https://vdi.aalto.fi',
+            desc: ' - You can use this application to access school computers remotely, which is extremely useful if, for example, you encounter problems with your own computer and applications.',
+          },
           { label: 'Panopto', url: '', desc: " - Aalto's video platform" },
         ],
       },
       {
         title: 'Groupwork',
         items: [
-          { label: 'Doodle', url: 'https://doodle.com/en/', desc: ' - Find suitable times for the meeting quickly and easily!' },
-          { label: 'Google Drive', url: 'https://drive.google.com', desc: ' - A versatile tool for file storage and collaborative work.' },
-          { label: 'discord.com', url: 'https://discord.com', desc: ' - A great application for group collaboration and communication, which allows, among other things, screen sharing during calls.' },
+          {
+            label: 'Doodle',
+            url: 'https://doodle.com/en/',
+            desc: ' - Find suitable times for the meeting quickly and easily!',
+          },
+          {
+            label: 'Google Drive',
+            url: 'https://drive.google.com',
+            desc: ' - A versatile tool for file storage and collaborative work.',
+          },
+          {
+            label: 'discord.com',
+            url: 'https://discord.com',
+            desc: ' - A great application for group collaboration and communication, which allows, among other things, screen sharing during calls.',
+          },
         ],
       },
       {
         title: 'Healthcare',
         items: [
-          { label: 'Study psychologist.', url: 'https://www.aalto.fi/en/palvelut/individual-counselling-by-study-and-career-counselling-psychologists', desc: " It's advisable to contact them with a low threshold." },
+          {
+            label: 'Study psychologist.',
+            url: 'https://www.aalto.fi/en/palvelut/individual-counselling-by-study-and-career-counselling-psychologists',
+            desc: " It's advisable to contact them with a low threshold.",
+          },
         ],
         extra: (
           <>
             <h3 className={style.heading4}>FSHS</h3>
             <ul>
               <li>
-                <a href="https://www.yths.fi/en/services/health-examination/oral-health-examination/">Oral health</a> (for example. wisdom teeth removal), it might take a while after the reservation to get the appointment
+                <a href="https://www.yths.fi/en/services/health-examination/oral-health-examination/">Oral health</a>{' '}
+                (for example. wisdom teeth removal), it might take a while after the reservation to get the appointment
               </li>
               <li>
-                <a href="https://www.yths.fi/en/using-services/contact/">General and mental health services</a> - it's advisable to seek help early!
+                <a href="https://www.yths.fi/en/using-services/contact/">General and mental health services</a> - it's
+                advisable to seek help early!
               </li>
               <li>In addition, there are many other health-related services available.</li>
             </ul>

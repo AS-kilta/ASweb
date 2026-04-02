@@ -6,7 +6,8 @@ import { getCollection } from 'astro:content';
 const boardEntries = await getCollection('board');
 const boardData = boardEntries[0]?.data ?? [];
 
-const description = 'Täältä löydät killan hallituksen yhteystiedot. Koko hallituksen tavoittaa osoitteesta hallitus ät as.fi.';
+const description =
+  'Täältä löydät killan hallituksen yhteystiedot. Koko hallituksen tavoittaa osoitteesta hallitus ät as.fi.';
 const lang = 'fi';
 const slug = '/guild/board';
 ---

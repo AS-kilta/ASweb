@@ -3,6 +3,7 @@ import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import pluginReactConfig from 'eslint-plugin-react/configs/recommended.js';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintPluginAstro from 'eslint-plugin-astro';
 
 export default [
   { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
@@ -15,10 +16,11 @@ export default [
       },
     },
   },
-  { ignores: ['.cache/*', 'node_modules/*', 'public/*'] },
+  { ignores: ['.cache/*', 'node_modules/*', 'public/*', 'dist/*', '.astro/*'] },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReactConfig,
+  ...eslintPluginAstro.configs.recommended,
   eslintConfigPrettier,
   {
     rules: {

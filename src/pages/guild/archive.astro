@@ -4,7 +4,7 @@ import Archive from '@components/archive/Archive';
 import { getCollection } from 'astro:content';
 
 const archiveEntries = await getCollection('archive');
-const archiveData = archiveEntries.map(entry => entry.data);
+const archiveData = archiveEntries.map((entry) => entry.data);
 
 const description = 'Täältä löydät killan vanhat hallitukset, toimihenkilöt ja kunnianosoitukset.';
 const lang = 'fi';
@@ -18,5 +18,5 @@ const slug = '/guild/archive';
   lang={lang}
   slug={slug}
 >
-  <Archive data={archiveData} lang={lang} />
+  <Archive client:load data={archiveData} lang={lang} />
 </BaseLayout>

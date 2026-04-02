@@ -35,7 +35,7 @@ const {
   slug = '',
   translation,
   robots,
-  contentMaxWidth = '900px'
+  contentMaxWidth = '900px',
 } = Astro.props;
 
 const naviEntry = await getEntry('navigation', 'navi');
@@ -48,7 +48,7 @@ const fullTitle = `${title && title !== SITE_METADATA.title[lang] ? title + ' | 
 const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={lang}>
   <head>
     <meta charset="UTF-8" />
@@ -73,25 +73,38 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
 </html>
 
 <style lang="scss" define:vars={{ contentMaxWidth }}>
-#layout-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  align-items: center;
-  & > * {
-    width: 100%;
+  #layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    & > * {
+      width: 100%;
+    }
   }
-}
 
-#layout-content {
-  flex-grow: 1;
-  background: $natural-white;
+  #layout-content {
+    flex-grow: 1;
+    background: $natural-white;
 
-  width: 100%;
-  max-width: var(--contentMaxWidth);
-  margin-inline: auto;
-  padding-inline: 2rem;
+    width: 100%;
+    max-width: var(--contentMaxWidth);
+    margin-inline: auto;
 
-  margin-bottom: 5rem;
-}
+    margin-bottom: 5rem;
+
+    & > * {
+      padding-inline: 2rem;
+    }
+
+    & > img,
+    & > .image,
+    & > .full-bleed,
+    & > .even-columns,
+    & > .table-cards,
+    & > .introduction,
+    & > .underline-decorator {
+      padding-inline: 0;
+    }
+  }
 </style>

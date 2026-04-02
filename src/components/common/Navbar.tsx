@@ -33,7 +33,6 @@ interface NaviLinkProps {
 
 const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
   const naviCtx = useContext(NaviContext);
-  const local = link.startsWith('/');
   const [currentPath, setCurrentPath] = useState('');
 
   // We can only check window in client-side
@@ -44,11 +43,7 @@ const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
   const isActive = currentPath === link || (link !== '/' && currentPath.startsWith(link));
 
   return (
-    <a
-      onClick={naviCtx?.hideNav}
-      className={`${style.naviLink} ${isActive ? style.active : ''}`}
-      href={link}
-    >
+    <a onClick={naviCtx?.hideNav} className={`${style.naviLink} ${isActive ? style.active : ''}`} href={link}>
       {title}
     </a>
   );

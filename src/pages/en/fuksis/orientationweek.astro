@@ -6,7 +6,13 @@ import timetable from '@src/assets/images/orientaatioviikon-aikataulu-DSD.jpg';
 const description = 'The orientation week schedule for fuksis';
 ---
 
-<BaseLayout title="DSD Orientation week" heroHeight="short" description={description} lang="en" slug="fuksis/orientationweek">
+<BaseLayout
+  title="DSD Orientation week"
+  heroHeight="short"
+  description={description}
+  lang="en"
+  slug="fuksis/orientationweek"
+>
   <h2 id="Orientaatioviikon aikataulu"></h2>
 
   <div class="image-container">
@@ -15,10 +21,6 @@ const description = 'The orientation week schedule for fuksis';
       Here is the orientation week schedule as of now, we will try to update this to the best of our ability during
       summer.
     </p>
-    <Image
-      class="centered-image"
-      src={timetable}
-      alt="DSD_timetable"
-    />
+    <Image class="centered-image" src={timetable} alt="DSD_timetable" />
   </div>
 </BaseLayout>

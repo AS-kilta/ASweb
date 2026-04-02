@@ -4,7 +4,7 @@ import Minors from '@components/minors/Minors';
 import { getCollection } from 'astro:content';
 
 const minorsEntries = await getCollection('minors');
-const minorsData = minorsEntries.map(entry => entry.data);
+const minorsData = minorsEntries.map((entry) => entry.data);
 
 const description = 'Täältä löydät tietoa sivuaineista, joita AS-kilta suosittelee.';
 const lang = 'fi';
@@ -18,5 +18,5 @@ const slug = '/studies/minor-guide';
   lang={lang}
   slug={slug}
 >
-  <Minors data={minorsData} lang={lang} />
+  <Minors client:load data={minorsData} lang={lang} />
 </BaseLayout>

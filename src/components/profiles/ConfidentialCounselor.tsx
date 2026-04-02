@@ -9,7 +9,7 @@ interface Counselor {
   email: string;
   phone?: string;
   telegram: string;
-  picture?: any;
+  picture?: unknown;
   description?: TranslatedEntry;
 }
 

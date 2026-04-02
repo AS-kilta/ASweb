@@ -7,13 +7,19 @@ import exchange_timetable from '@src/assets/images/orientaatioviikon-aikataulu-M
 const description = 'The orientation week schedule for MINT fuksis';
 ---
 
-<BaseLayout title="MINT Orientation week" heroHeight="short" description={description} lang="en" slug="fuksis/orientationweek-mint">
+<BaseLayout
+  title="MINT Orientation week"
+  heroHeight="short"
+  description={description}
+  lang="en"
+  slug="fuksis/orientationweek-mint"
+>
   <h2 id="orientaatioviikon-aikataulu"></h2>
 
   <div class="image-container">
     <p>
-      The Spring 2026 orientation schedule has been shared with you by the school, check your emails for more info!
-      We will publish the guild activities of orientation week here closer to the week.
+      The Spring 2026 orientation schedule has been shared with you by the school, check your emails for more info! We
+      will publish the guild activities of orientation week here closer to the week.
     </p>
     <p>
       To find your way to the locations around campus, we recommend downloading the{' '}
@@ -28,7 +34,8 @@ const description = 'The orientation week schedule for MINT fuksis';
     </p>
 
     {/* Uncomment and use these images when the schedule is updated */}
-    {/*
+    {
+      /*
     <h3 id="maisterien-orientaatioviikon-aikataulu">Master's orientation week</h3>
     <Image
       class="centered-image"
@@ -41,6 +48,7 @@ const description = 'The orientation week schedule for MINT fuksis';
       src={exchange_timetable}
       alt="Orientation week schedule for exchange students."
     />
-    */}
+    */
+    }
   </div>
 </BaseLayout>

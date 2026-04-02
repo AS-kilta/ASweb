@@ -6,7 +6,8 @@ import { getCollection } from 'astro:content';
 const boardEntries = await getCollection('board');
 const boardData = boardEntries[0]?.data ?? [];
 
-const description = 'Here you can find contact info of the guild board. You can reach the whole board via hallitus at as.fi.';
+const description =
+  'Here you can find contact info of the guild board. You can reach the whole board via hallitus at as.fi.';
 const lang = 'en';
 const slug = '/en/guild/board';
 ---

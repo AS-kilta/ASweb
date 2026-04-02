@@ -1,8 +1,8 @@
 {
   "name": "asweb",
   "private": true,
-  "description": "New website for AS",
-  "version": "1.0.0",
+  "description": "AS-guild homesite",
+  "version": "2.0.0",
   "author": "AS",
   "engines": {
     "node": "24.x"
@@ -16,7 +16,6 @@
     "@fontsource-variable/open-sans": "^5.0.29",
     "@mdx-js/react": "^2.1.3",
     "astro": "^6.1.3",
-    "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
@@ -25,11 +24,14 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.6.0",
+    "astro-eslint-parser": "^1.4.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-astro": "^1.6.0",
     "eslint-plugin-react": "^7.34.3",
     "globals": "^15.8.0",
     "prettier": "3.3.2",
+    "prettier-plugin-astro": "^0.14.1",
     "typescript-eslint": "^7.15.0"
   },
   "keywords": [
@@ -49,7 +51,9 @@
     "astro": "astro",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,yaml,astro}\"",
     "check-format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,yml,yaml,astro}\"",
-    "lint": "npx eslint ."
+    "lint": "npx eslint .",
+    "check": "astro check",
+    "validate": "npm run format && npm run lint && npm run check"
   },
   "repository": {
     "type": "git",

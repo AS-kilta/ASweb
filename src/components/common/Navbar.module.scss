@@ -99,7 +99,7 @@ $not-focused: transparentize(
   #navbarTop {
     flex-wrap: nowrap;
     justify-content: center;
-    padding-inline: 2rem;
+    padding-inline: 0;
     
     & > * {
       max-width: 1400px;

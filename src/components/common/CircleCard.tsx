@@ -12,11 +12,11 @@ const CircleCard: React.FC<CCard> = ({ title, link, targetSelf }) => {
   if (targetSelf) target = '_self';
 
   return (
-    <circle className={style.badge}>
+    <div className={style.badge}>
       <a href={link} target={target}>
         {title}
       </a>
-    </circle>
+    </div>
   );
 };
 

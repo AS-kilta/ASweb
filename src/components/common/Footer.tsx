@@ -15,8 +15,7 @@ interface SponsorData {
 }
 
 const Sponsor: React.FC<{ image?: SponsorData['picture']; name: string }> = ({ image, name }) => {
-  if (image != null)
-    return <img src={image.src} width={100} alt={name} style={{ objectFit: 'contain' }} />;
+  if (image != null) return <img src={image.src} width={100} alt={name} style={{ objectFit: 'contain' }} />;
   else return <span>{name}</span>;
 };
 

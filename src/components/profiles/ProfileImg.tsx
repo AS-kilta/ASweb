@@ -19,7 +19,8 @@ const ProfileImg: React.FC<ProfileImgProps> = ({ src, alt }) => {
   } else {
     // If it's an object (like from Astro's Image or gatsbyImageData structure)
     // we try to find a 'src' property.
-    imgSrc = (src as any).src || (src as any).images?.fallback?.src || defaultPlaceholder;
+    const srcObj = src as { src?: string; images?: { fallback?: { src?: string } } };
+    imgSrc = srcObj.src || srcObj.images?.fallback?.src || defaultPlaceholder;
   }
 
   return (

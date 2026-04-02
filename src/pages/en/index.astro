@@ -32,8 +32,8 @@ const slug = '/en';
       <p>
         AS is a student organisation that brings together Aalto University students from many different fields. Our
         guild includes students from Automation and Robotics, Information Technology, Digital Systems and Design and
-        other related programmes. The guild organises leisure activities for its members, looks after their
-        interests in matters related to their studies and maintains relations with companies in the field.
+        other related programmes. The guild organises leisure activities for its members, looks after their interests in
+        matters related to their studies and maintains relations with companies in the field.
       </p>
     </div>
     <Image src={whatIsAsImg} alt="What is AS?" />
@@ -57,34 +57,34 @@ const slug = '/en';
 </BaseLayout>
 
 <style lang="scss">
-.eventsContainer {
-  width: 100%;
-}
-
-.frontpagebox {
-  max-width: 1600px;
-
-  & > :not(img) {
-    padding: 3rem;
-    margin-inline: auto;
-  }
-
-  p {
-    font-size: clamp(1.2rem, 2vw, 1.4rem);
-  }
-
-  :global(img) {
-    object-fit: cover;
+  .eventsContainer {
     width: 100%;
-    height: 100%;
   }
-}
 
-@media all and (max-width: $breakpoint-mobile) {
   .frontpagebox {
+    max-width: 1600px;
+
     & > :not(img) {
-      padding: 3rem 0;
+      padding: 3rem;
+      margin-inline: auto;
+    }
+
+    p {
+      font-size: clamp(1.2rem, 2vw, 1.4rem);
+    }
+
+    :global(img) {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
     }
   }
-}
+
+  @media all and (max-width: $breakpoint-mobile) {
+    .frontpagebox {
+      & > :not(img) {
+        padding: 3rem 0;
+      }
+    }
+  }
 </style>

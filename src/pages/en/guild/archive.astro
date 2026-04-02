@@ -4,9 +4,9 @@ import Archive from '@components/archive/Archive';
 import { getCollection } from 'astro:content';
 
 const archiveEntries = await getCollection('archive');
-const archiveData = archiveEntries.map(entry => entry.data);
+const archiveData = archiveEntries.map((entry) => entry.data);
 
-const description = 'Here you can find the guild\'s former boards, officials and accolades.';
+const description = "Here you can find the guild's former boards, officials and accolades.";
 const lang = 'en';
 const slug = '/en/guild/archive';
 ---
@@ -18,5 +18,5 @@ const slug = '/en/guild/archive';
   lang={lang}
   slug={slug}
 >
-  <Archive data={archiveData} lang={lang} />
+  <Archive client:load data={archiveData} lang={lang} />
 </BaseLayout>

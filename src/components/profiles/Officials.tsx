@@ -6,7 +6,7 @@ import * as style from './Officials.module.scss';
 interface Member {
   name: string;
   title: TranslatedEntry[];
-  picture?: any;
+  picture?: unknown;
   leader?: boolean;
 }
 
