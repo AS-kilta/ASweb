@@ -44,3 +44,25 @@ jobs:
 
       - name: Run ESLint
         run: npm run lint
+
+  check_filesize_job:
+    name: Check file size
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Get Changed Files from GitHub Actions Marketplace
+        id: changed-files
+        uses: tj-actions/changed-files@2f7c5bfce28377bc069a65ba478de0a74aa0ca32
+
+      - name: Check file size
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [ -f "$file" ] && [ $(stat -f%z "$file" 2>/dev/null || stat -c%s "$file") -gt 307200 ]; then
+              echo "File $file is larger than 300k"
+              exit 1
+            fi
+          done
