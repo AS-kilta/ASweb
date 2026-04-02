@@ -1,0 +1,22 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Board from '@components/profiles/Board';
+import { getCollection } from 'astro:content';
+
+const boardEntries = await getCollection('board');
+const boardData = boardEntries[0]?.data ?? [];
+
+const description = 'Täältä löydät killan hallituksen yhteystiedot. Koko hallituksen tavoittaa osoitteesta hallitus ät as.fi.';
+const lang = 'fi';
+const slug = '/guild/board';
+---
+
+<BaseLayout
+  title="Hallitus"
+  lead="Koko hallituksen tavoittaa osoitteesta hallitus ät as.fi."
+  description={description}
+  lang={lang}
+  slug={slug}
+>
+  <Board data={boardData} lang={lang} />
+</BaseLayout>

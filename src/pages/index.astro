@@ -1,0 +1,90 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import SnapWidget from '@components/instagram/SnapWidget';
+import EventList from '@components/events/EventList';
+
+import heroimg from '../assets/images/20201029195159-eef0d345-xx.jpg';
+import whatIsAsImg from '../assets/images/20210917174935-70c53c15-xx.jpg';
+import karkkiKalleImg from '../assets/images/karkki_kalle.jpg';
+
+const description =
+  'AS on opiskelijajärjestö, joka yhdistää Aalto-yliopiston opiskelijoita monelta eri alalta. \
+Kiltaamme kuuluu Automaation ja robotiikan, Informaatioteknologian ja Digital Systems and Designin \
+sekä niitä lähellä olevien tutkinto-ohjelmien opiskelijoita.';
+
+const lang = 'fi';
+const slug = '/';
+---
+
+<BaseLayout
+  title="Automaatio- ja systeemitekniikan kilta"
+  background={heroimg}
+  heroHeight="tall"
+  lang={lang}
+  slug={slug}
+  description={description}
+  contentMaxWidth="1400px"
+>
+  <div class="even-columns frontpagebox">
+    <div style="text-align: center">
+      <h2>Mikä AS?</h2>
+      <p>
+        AS on opiskelijajärjestö, joka yhdistää Aalto-yliopiston opiskelijoita monelta eri alalta. Kiltaamme kuuluu
+        Automaation ja robotiikan, Informaatioteknologian ja Digital Systems and Designin sekä niitä lähellä olevien
+        tutkinto-ohjelmien opiskelijoita. Kilta järjestää jäsenilleen vapaa-ajan toimintaa, valvoo heidän etuaan
+        opintoihin liittyvissä asioissa ja ylläpitää suhteita alan yrityksiin.
+      </p>
+    </div>
+    <Image src={whatIsAsImg} alt="Mikä AS?" />
+  </div>
+  <div class="even-columns frontpagebox">
+    <Image class="no-mobile" src={karkkiKalleImg} alt="Karkki-Kalle" />
+    <div class="eventsContainer">
+      <h2>Tapahtumat</h2>
+      <EventList client:load number={5} lang={lang} />
+      <a
+        href="https://calendar.google.com/calendar/embed?src=as.tiedottaja%40gmail.com&ctz=Europe%2FHelsinki"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Tapahtumakalenteri
+      </a>
+    </div>
+  </div>
+  <h2 class="center-text">Instagram</h2>
+  <SnapWidget client:load />
+</BaseLayout>
+
+<style lang="scss">
+.eventsContainer {
+  width: 100%;
+}
+
+.frontpagebox {
+  max-width: 1600px;
+
+  & > :not(img) {
+    padding: 3rem;
+    margin-inline: auto;
+  }
+
+  p {
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+  }
+
+  :global(img) {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+  .frontpagebox {
+    & > :not(img) {
+      padding: 3rem 0;
+    }
+  }
+}
+</style>

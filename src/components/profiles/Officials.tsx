@@ -1,44 +1,34 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
 
-import ProfileImg from '@src/components/profiles/ProfileImg';
+import ProfileImg from '@components/profiles/ProfileImg';
 import * as style from './Officials.module.scss';
 
 interface Member {
   name: string;
   title: TranslatedEntry[];
-  picture: DynamicImageData;
+  picture?: any;
   leader?: boolean;
 }
 
 interface Committee {
-  node: {
-    name: TranslatedEntry;
-    members: Member[];
-  };
+  name: TranslatedEntry;
+  members: Member[];
 }
 
-interface OfficialCard {
+interface OfficialCardProps {
   lang: string;
   committeeName: string;
   official: Member;
-  image?: DynamicImageData;
 }
 
-interface OfficialsData {
-  allOfficialsYaml: {
-    edges: Committee[];
-  };
-}
-
-const OfficialCard: React.FC<OfficialCard> = ({ lang, committeeName, official, image }) => {
+const OfficialCard: React.FC<OfficialCardProps> = ({ lang, committeeName, official }) => {
   const leader = official.leader ? style.leader : '';
   return (
     <div className={`${style.official_container} ${leader}`}>
-      <ProfileImg src={image} alt={official.name} />
+      <ProfileImg src={official.picture} alt={official.name} />
       <div>{official.name}</div>
-      {official.title.map((title) => (
-        <div key={`${committeeName}${official.name}${title[lang]}`} className={style.title}>
+      {official.title.map((title, idx) => (
+        <div key={`${committeeName}${official.name}${title[lang]}${idx}`} className={style.title}>
           {title[lang]}
         </div>
       ))}
@@ -47,7 +37,7 @@ const OfficialCard: React.FC<OfficialCard> = ({ lang, committeeName, official, i
 };
 
 const CommitteeSection: React.FC<{ lang: string; committee: Committee }> = ({ lang, committee }) => {
-  const { name, members }: { name: TranslatedEntry; members: Member[] } = committee.node;
+  const { name, members } = committee;
   return (
     <div className={style.officials_section}>
       <h2 className={style.heading2} id={name[lang]}>
@@ -56,10 +46,9 @@ const CommitteeSection: React.FC<{ lang: string; committee: Committee }> = ({ la
       <div className={style.officials_list}>
         {members.map((official) => (
           <OfficialCard
-            key={`${committee.node.name[lang]}${official.name}`}
-            committeeName={committee.node.name[lang]}
+            key={`${committee.name[lang]}${official.name}`}
+            committeeName={committee.name[lang]}
             lang={lang}
-            image={official.picture}
             official={official}
           />
         ))}
@@ -68,39 +57,11 @@ const CommitteeSection: React.FC<{ lang: string; committee: Committee }> = ({ la
   );
 };
 
-const Officials: React.FC<{ lang: string }> = ({ lang }) => {
-  const data: OfficialsData = useStaticQuery(graphql`
-    query getOfficialsData {
-      allOfficialsYaml {
-        edges {
-          node {
-            members {
-              leader
-              name
-              picture {
-                childImageSharp {
-                  gatsbyImageData(placeholder: BLURRED, width: 200)
-                }
-              }
-              title {
-                en
-                fi
-              }
-            }
-            name {
-              en
-              fi
-            }
-          }
-        }
-      }
-    }
-  `);
-
+const Officials: React.FC<{ lang: string; data: Committee[] }> = ({ lang, data }) => {
   return (
     <>
-      {data.allOfficialsYaml.edges.map((entry) => (
-        <CommitteeSection key={entry.node.name[lang]} lang={lang} committee={entry} />
+      {data.map((committee) => (
+        <CommitteeSection key={committee.name[lang]} lang={lang} committee={committee} />
       ))}
     </>
   );

@@ -70,3 +70,7 @@ yarn-error.log
 
 # VSCode workspace config
 .vscode
+
+#Astro files
+.astro
+dist

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Navbar from '@src/components/common/Navbar';
-import Hero, { HeroProps } from '@src/components/common/Hero';
+import Navbar from '@components/common/Navbar';
+import Hero, { HeroProps } from '@components/common/Hero';
 import BackToTop from '../common/BackToTop';
-import Footer from '@src/components/common/Footer';
+import Footer from '@components/common/Footer';
 
 import * as style from './PageLayout.module.scss';
 

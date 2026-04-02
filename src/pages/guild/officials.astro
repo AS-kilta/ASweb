@@ -1,0 +1,23 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Officials from '@components/profiles/Officials';
+import { getCollection } from 'astro:content';
+
+const officialsEntries = await getCollection('officials');
+const officialsData = officialsEntries[0]?.data ?? [];
+
+const description = 'Täältä löydät killan toimihenkilöiden yhteystiedot.';
+const lang = 'fi';
+const slug = '/guild/officials';
+---
+
+<BaseLayout
+  title="Toimihenkilöt"
+  lead="Täältä löydät killan toimihenkilöiden yhteystiedot."
+  description={description}
+  lang={lang}
+  slug={slug}
+  contentMaxWidth="1400px"
+>
+  <Officials data={officialsData} lang={lang} />
+</BaseLayout>

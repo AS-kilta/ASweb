@@ -1,0 +1,22 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Archive from '@components/archive/Archive';
+import { getCollection } from 'astro:content';
+
+const archiveEntries = await getCollection('archive');
+const archiveData = archiveEntries.map(entry => entry.data);
+
+const description = 'Täältä löydät killan vanhat hallitukset, toimihenkilöt ja kunnianosoitukset.';
+const lang = 'fi';
+const slug = '/guild/archive';
+---
+
+<BaseLayout
+  title="Arkisto"
+  lead="Täältä löydät killan vanhat hallitukset, toimihenkilöt ja kunnianosoitukset."
+  description={description}
+  lang={lang}
+  slug={slug}
+>
+  <Archive data={archiveData} lang={lang} />
+</BaseLayout>

@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
 import CollapseBox from '../common/CollapseBox';
 import { BsPlus, BsDash } from 'react-icons/bs';
 import * as style from './Minors.module.scss';
@@ -27,12 +26,6 @@ interface MinorEntry {
   courses: InfoAndList;
 
   lang: Lang;
-}
-
-interface MinorsData {
-  allMinorsYaml: {
-    nodes: MinorEntry[];
-  };
 }
 
 const translations: Translations = {
@@ -106,60 +99,7 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
   );
 };
 
-export const query = graphql`
-  query GetMinorsData {
-    allMinorsYaml {
-      nodes {
-        lang {
-          fi
-          en
-        }
-        curriculum {
-          fi
-          en
-        }
-        name {
-          fi
-          en
-        }
-        link {
-          fi
-          en
-        }
-        desc {
-          fi
-          en
-        }
-        why {
-          fi
-          en
-        }
-        masters {
-          info {
-            fi
-            en
-          }
-          list {
-            fi
-            en
-          }
-        }
-        courses {
-          info {
-            fi
-            en
-          }
-          list {
-            fi
-            en
-          }
-        }
-      }
-    }
-  }
-`;
-
-const Minors: React.FC<{ lang: string }> = ({ lang }) => {
+const Minors: React.FC<{ lang: string; data: MinorEntry[] }> = ({ lang, data }) => {
   const [allExpanded, setAllExpanded] = useState(false);
 
   const toggleCollapse = () => {
@@ -169,11 +109,6 @@ const Minors: React.FC<{ lang: string }> = ({ lang }) => {
   const toggleOnEnter = (e: React.KeyboardEvent): void => {
     if (e.key === 'Enter') toggleCollapse();
   };
-
-  const rawData: MinorsData = useStaticQuery(query);
-
-  // Create a copy of queried archive data and sort the array
-  const data: MinorEntry[] = rawData.allMinorsYaml.nodes.slice();
 
   return (
     <div className={style.container}>

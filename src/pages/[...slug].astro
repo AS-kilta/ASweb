@@ -1,0 +1,44 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const pageEntries = await getCollection('pages');
+  return pageEntries.map(entry => {
+    let slug = entry.id;
+    if (slug.endsWith('index')) {
+      slug = slug.slice(0, -5);
+    }
+    if (slug.endsWith('/')) {
+      slug = slug.slice(0, -1);
+    }
+    return {
+      params: { slug: slug || undefined },
+      props: { entry },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const { title, lead, description, background, heroHeight, documentStyle = 'document', robots, contentMaxWidth } = entry.data;
+
+const lang = entry.id.startsWith('en/') ? 'en' : 'fi';
+const slug = '/' + (entry.id.endsWith('index') ? entry.id.slice(0, -5) : entry.id);
+---
+
+<BaseLayout
+  title={title}
+  lead={lead}
+  description={description}
+  background={background}
+  heroHeight={heroHeight}
+  documentStyle={documentStyle}
+  lang={lang}
+  slug={slug}
+  robots={robots}
+  contentMaxWidth={contentMaxWidth}
+>
+  <Content />
+</BaseLayout>

@@ -1,0 +1,24 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Officials from '@components/profiles/Officials';
+import { getCollection } from 'astro:content';
+
+const officialsEntries = await getCollection('officials');
+const officialsData = officialsEntries[0]?.data ?? [];
+
+const description = 'Here you can find contact info of the guild officials.';
+const lang = 'en';
+const slug = '/en/guild/officials';
+---
+
+<BaseLayout
+  title="Officials"
+  lead="Here you can find the contact information for the guild's officials."
+  description={description}
+  lang={lang}
+  slug={slug}
+  contentMaxWidth="1400px"
+>
+
+  <Officials data={officialsData} lang={lang} />
+</BaseLayout>

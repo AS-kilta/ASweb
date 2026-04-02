@@ -22,6 +22,7 @@ h3,
 h4,
 h5 {
   font-family: $font-heading;
+  color: $as-violet-1;
   margin-bottom: 0.5em;
   margin-top: 1.5em;
 }
@@ -153,25 +154,6 @@ main a {
 .no-mobile.no-mobile {
   @media (max-width: $breakpoint-mobile) {
     display: none;
-  }
-}
-
-.toc {
-  & > h3 {
-    // Hide the plugin generated header
-    display: none;
-  }
-
-  a {
-    font-weight: 400;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  li {
-    line-height: 1.2;
   }
 }
 
