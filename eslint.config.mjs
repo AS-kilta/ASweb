@@ -24,8 +24,16 @@ export default [
   eslintConfigPrettier,
   {
     rules: {
-      "react/prop-types": "off",
-      "react/no-unescaped-entities": "off",
-    }
+      'react/react-in-jsx-scope': 'off',
+      'react/jsx-uses-react': 'off',
+      'react/prop-types': 'off',
+      'react/no-unescaped-entities': 'off',
+    },
+  },
+  {
+    files: ['**/*.astro'],
+    rules: {
+      'react/no-unknown-property': 'off',
+    },
   },
 ];

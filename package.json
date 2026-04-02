@@ -48,11 +48,10 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,yaml,astro}\"",
-    "check-format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,yml,yaml,astro}\"",
-    "lint": "npx eslint .",
     "check": "astro check",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,yaml,astro}\"",
+    "format-check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,yml,yaml,astro}\"",
+    "lint": "npx eslint .",
     "validate": "npm run format && npm run lint && npm run check"
   },
   "repository": {
