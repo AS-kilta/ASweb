@@ -5,6 +5,7 @@ import Footer from '@components/common/Footer';
 import BackToTop from '@components/common/BackToTop';
 import { getCollection, getEntry } from 'astro:content';
 import { SITE_METADATA } from '@src/consts';
+import type { ImageMetadata } from 'astro';
 
 import '@styles/main.scss';
 import '@fontsource-variable/open-sans';
@@ -14,7 +15,7 @@ interface Props {
   title?: string;
   lead?: string;
   description?: string;
-  background?: any;
+  background?: string | ImageMetadata;
   heroHeight?: 'short' | 'tall';
   documentStyle?: string;
   lang?: 'fi' | 'en';

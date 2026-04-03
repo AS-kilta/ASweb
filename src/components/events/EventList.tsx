@@ -31,15 +31,39 @@ interface CalendarEvent {
   fullDay: boolean;
 }
 
-const parseEventData = (data: any, number: number) => {
+interface GoogleCalendarEvent {
+  id: string;
+  summary: string;
+  description?: string;
+  location?: string;
+  start: {
+    date?: string;
+    dateTime?: string;
+  };
+  end: {
+    date?: string;
+    dateTime?: string;
+  };
+  organizer?: {
+    self?: boolean;
+  };
+}
+
+interface GoogleCalendarResponse {
+  items?: GoogleCalendarEvent[];
+}
+
+const parseEventData = (data: GoogleCalendarResponse, number: number) => {
   if (!data.items || !Array.isArray(data.items)) {
     return [];
   }
 
-  const filteredEventData = data.items.filter((item: any) => item.organizer?.self).slice(0, number);
-  const events: CalendarEvent[] = filteredEventData.map((item: any) => {
-    const start = new Date(item.start.date ?? item.start.dateTime);
-    const end = new Date(item.end.date ?? item.end.dateTime);
+  const filteredEventData = data.items
+    .filter((item: GoogleCalendarEvent) => item.organizer?.self)
+    .slice(0, number);
+  const events: CalendarEvent[] = filteredEventData.map((item: GoogleCalendarEvent) => {
+    const start = new Date(item.start.date ?? (item.start.dateTime as string));
+    const end = new Date(item.end.date ?? (item.end.dateTime as string));
     const fullDay = !!item.start.date;
     const { id, summary, description, location } = item;
     return { id, summary, start, end, description, location, fullDay };

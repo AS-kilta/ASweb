@@ -7,8 +7,7 @@ const SnapWidget: React.FC = () => {
       <iframe
         title="Instagram feed"
         loading="lazy"
-        frameBorder="0"
-        scrolling="no"
+        style={{ border: 0, overflow: 'hidden' }}
         src="https://snapwidget.com/embed/787765"
       ></iframe>
     </div>
