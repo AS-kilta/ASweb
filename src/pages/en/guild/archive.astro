@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import ArchiveComponent from '@components/archive/Archive';
 import { getCollection } from 'astro:content';
+import img from '@assets/images/archive.jpg';
 
 const archiveEntries = await getCollection('archive');
 const archiveData = archiveEntries.map((entry) => entry.data);
@@ -15,6 +16,7 @@ const slug = '/en/guild/archive';
   title="Archive"
   lead="Here you can find the guild's former boards, officials and accolades."
   description={description}
+  background={img}
   lang={lang}
   slug={slug}
 >

@@ -13,10 +13,17 @@ const slug = '/guild/confidential-counselors';
 
 <BaseLayout
   title="Häirintäyhdyshenkilöt"
-  lead="Häirintäyhdyshenkilöt ovat täällä sinua varten."
+  lead="Ota yhteyttä häirintä­yhdys­henkilöön, jos näet tai koet killan tapahtumissa tai tiloissa häirintää. Voit ilmoittaa tilanteen myös nimettömästi alla olevasta painikkeesta."
   description={description}
   lang={lang}
   slug={slug}
 >
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSeFna7bOgli1Nj_UVHR_0aNRmURtYY_u40uwhqdfCZRmYsEmQ/viewform?usp=dialog"
+    class="rounded-button center-block"
+    style={{ marginBlock: '2rem' }}
+    target="_blank"
+    rel="noreferrer">Ilmoita häirinnästä</a
+  >
   <ConfidentialCounselorsComponent data={counselorsData} lang={lang} />
 </BaseLayout>

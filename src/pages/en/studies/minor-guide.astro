@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Minors from '@components/minors/Minors';
 import { getCollection } from 'astro:content';
+import img from '@assets/images/archive.jpg';
 
 const minorsEntries = await getCollection('minors');
 const minorsData = minorsEntries.map((entry) => entry.data);
@@ -15,6 +16,7 @@ const slug = '/en/studies/minor-guide';
   title="Minor Guide"
   lead="Here you can find info on minor subjects recommended by the AS guild."
   description={description}
+  background={img}
   lang={lang}
   slug={slug}
 >

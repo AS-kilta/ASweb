@@ -12,8 +12,8 @@ const description =
   'Hei abi! Mietitkö jo, mihin hakisit lukion jälkeen opiskelemaan? Lue täältä lisää automaation, robotiikan ja informaatioteknologian opinnoista Aalto-yliopistossa!';
 ---
 
-<BaseLayout title="Abeille" description={description} lang="fi" slug="/abit">
-  <div style={{ marginBlock: '6rem' }}>
+<BaseLayout title="Abeille" description={description} lang="fi" slug="/abit" contentMaxWidth="1300px">
+  <div style={{ marginBlock: '6rem', maxWidth: '900px', marginInline: 'auto' }}>
     <h2 class="underline">Opinnot</h2>
     <p>
       Yliopiston kurssit jaetaan pakollisiin pääainekursseihin, vapaasti valittavaan sivuaineeseen ja muihin vapaasti
@@ -206,7 +206,7 @@ const description =
       Lue lisää Digital Systems and Design opinnoista Intosta
     </a>
   </section>
-  <section style={{ marginBlock: '6rem' }}>
+  <section style={{ marginBlock: '6rem', maxWidth: '900px', marginInline: 'auto' }}>
     <h2>Hakeminen</h2>
     <p>Automaatio ja Robotiikan sekä Informaatioteknologian pääaineisiin voi hakea seuraavilla tavoilla</p>
     <ul>
@@ -241,15 +241,14 @@ const description =
 <style lang="scss">
   .full_width_bg {
     box-sizing: border-box;
-    max-width: unset;
+    width: 100vw;
+    padding-inline: calc((100vw - 100%) / 2);
+    margin-inline: calc((100vw - 100%) / -2);
     padding-block: 1em;
 
     text-align: center;
     color: white;
     background-color: $as-violet-1;
-    box-shadow:
-      10rem 0 0 0 $as-violet-1,
-      -10rem 0 0 0 $as-violet-1;
   }
 
   .columns {
