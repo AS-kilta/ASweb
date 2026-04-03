@@ -61,6 +61,9 @@ jobs:
       - name: Check file size
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [ "$file" = "package-lock.json" ]; then
+              continue
+            fi
             if [ -f "$file" ] && [ $(stat -f%z "$file" 2>/dev/null || stat -c%s "$file") -gt 307200 ]; then
               echo "File $file is larger than 300k"
               exit 1
