@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BsArrowUpShort } from 'react-icons/bs';
-import * as style from './BackToTop.module.scss';
+import style from './BackToTop.module.scss';
 
 const BackToTop: React.FC<{ lang: string }> = ({ lang }) => {
   const [visible, setVisible] = useState<boolean>(false);

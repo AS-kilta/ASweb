@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import Officials from '@components/profiles/Officials';
+import OfficialsComponent from '@components/profiles/Officials';
 import { getCollection } from 'astro:content';
 
 const officialsEntries = await getCollection('officials');
@@ -19,5 +19,5 @@ const slug = '/guild/officials';
   slug={slug}
   contentMaxWidth="1400px"
 >
-  <Officials data={officialsData} lang={lang} />
+  <OfficialsComponent data={officialsData} lang={lang} />
 </BaseLayout>

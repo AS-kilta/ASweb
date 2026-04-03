@@ -23,7 +23,7 @@ Download installation package from https://nodejs.org and run it.
 
 ### Node with Linux & macOS
 
-The easiest way to install and switch between node versions is to use nvm script (https://github.com/nvm-sh/nvm). Follow to installation instructions in README to install the tool and use it to install node.
+The easiest way to install and switch between node versions is to use nvm script [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm). Follow to installation instructions in README to install the tool and use it to install node.
 
 ### Node with Nix Flake
 
@@ -45,20 +45,20 @@ Install dependencies with
 npm i
 ```
 
-## How to run (development build)
+## How to run development server
 
-Run `npm start` or `npm run dev` in project directory. This runs the `astro dev` command, which runs the development build
-and starts the development server with file watching enabled. After the build completes, the site is accessible at http://localhost:4321.
+Run `npm start` or `npm run dev` in project directory. This runs the `astro dev` command, which runs the development build and starts the development server with file watching enabled. After the build completes, the site is accessible at [http://localhost:4321](http://localhost:4321).
 
-## How to run (production build)
+## How to build for production
 
-Run `npm run build` in project directory. This first cleans the old build files by running `gatsby clean`, runs the production build on the site (`gatsby build`)
-and finally starts the server. The source files are not being watched while the server is running, i.e. changes in source files do not trigger a rebuild.
-After the build completes, the site is accessible at http://localhost:9000.
+Run `npm run build` in project directory. This builds the production version of the site into `/dist` directory in the project root.
 
 ## How to contribute
 
-Create a new local branch for your feature. Develop, test and commit your changes, then push your local branch to remote. Open a pull request from your branch to
-master. The GitHub Actions pipeline builds and deploys the development version of the site to a staging environment. After the PR is merged to master, the pipeline runs builds and deploys the site to the production environment.
+1. Create a new local branch for your feature.
+2. Develop, test and commit your changes. Use `npm run validate` to run all the necessary tests.
+3. Push your local branch to remote. Open a pull request from your branch to `master`.
+4. The GitHub Actions pipeline builds and deploys the development version of the site to a staging environment.
+5. After the PR is merged to `master`, the pipeline runs builds and deploys the site to the production environment.
 
 **And finally, nauti spagetista!**

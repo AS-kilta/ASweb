@@ -1,7 +1,7 @@
 import React, { useState, useContext, createContext } from 'react';
 import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
-import * as style from './Navbar.module.scss';
+import style from './Navbar.module.scss';
 import logo from '@src/assets/aswhite.png';
 
 // Create context for navi callbacks (avoid prop drilling)

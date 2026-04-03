@@ -1,5 +1,5 @@
 import React from 'react';
-import * as style from './ArticleCard.module.scss';
+import style from './ArticleCard.module.scss';
 import ProfileImg from './ProfileImg';
 
 const ArticleCard: React.FC<{

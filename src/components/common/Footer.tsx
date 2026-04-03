@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
 
-import * as style from './Footer.module.scss';
+import style from './Footer.module.scss';
 
 interface SponsorData {
   name: string;

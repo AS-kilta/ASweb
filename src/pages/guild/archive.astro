@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import Archive from '@components/archive/Archive';
+import ArchiveComponent from '@components/archive/Archive';
 import { getCollection } from 'astro:content';
 
 const archiveEntries = await getCollection('archive');
@@ -18,5 +18,5 @@ const slug = '/guild/archive';
   lang={lang}
   slug={slug}
 >
-  <Archive client:load data={archiveData} lang={lang} />
+  <ArchiveComponent client:load data={archiveData} lang={lang} />
 </BaseLayout>

@@ -10,41 +10,45 @@
   box-sizing: border-box;
 }
 
+html {
+  background: $natural-black;
+}
+
 body {
   background: $natural-white;
+  color: $natural-black;
   font-family: $font-body;
   font-size: 18px;
+  margin: 0;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: $font-heading;
   color: $as-violet-1;
   margin-bottom: 0.5em;
   margin-top: 1.5em;
+  font-weight: 700;
 }
 
 h1 {
   font-size: clamp(1.8rem, 4vw, 2.75rem);
-  font-weight: 500;
 }
 
 h2 {
   font-size: clamp(1.5rem, 3.25vw, 2.4rem);
-  font-weight: 400;
 }
 
 h3 {
   font-size: clamp(1.3rem, 2.8vw, 2.1rem);
-  font-weight: 300;
 }
 
 h4 {
   font-size: clamp(1.1rem, 2.1vw, 1.8rem);
-  font-weight: 300;
 }
 
 [id] {
@@ -90,6 +94,16 @@ dl {
 
 p {
   line-height: 1.6;
+}
+
+a {
+  color: $natural-black;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: lighten($natural-black, 20%);
+  }
 }
 
 main a {

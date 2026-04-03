@@ -1,15 +1,53 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 
-const { frontmatter } = Astro.props;
+const { frontmatter, headings } = Astro.props;
 
 const pathname = Astro.url.pathname;
 const lang = frontmatter.lang ?? (pathname.startsWith('/en/') ? 'en' : 'fi');
 const slug = pathname;
+
+interface TocEntry {
+  depth: number;
+  text: string;
+  slug: string;
+  subheadings: TocEntry[];
+}
+
+function buildToc(headings: { depth: number; text: string; slug: string }[]) {
+  const toc: TocEntry[] = [];
+  const parentHeadings = new Map<number, TocEntry>();
+
+  headings.forEach((h) => {
+    const entry: TocEntry = { ...h, subheadings: [] };
+    parentHeadings.set(h.depth, entry);
+
+    if (h.depth === 2) {
+      toc.push(entry);
+    } else {
+      const parent = parentHeadings.get(h.depth - 1);
+      if (parent) {
+        parent.subheadings.push(entry);
+      } else {
+        // If no parent found, treat it as top-level for this depth
+        toc.push(entry);
+      }
+    }
+  });
+
+  return toc;
+}
+
+const toc = frontmatter.toc ? buildToc(headings.filter((h: any) => h.depth > 1 && h.depth < 4)) : [];
+const tocTitle = lang === 'en' ? 'Table of Contents' : 'Sisällysluettelo';
+
+// Use the first H1 as the title if available, otherwise fallback to frontmatter title
+const firstH1 = headings.find((h: any) => h.depth === 1);
+const pageTitle = firstH1 ? firstH1.text : frontmatter.title;
 ---
 
 <BaseLayout
-  title={frontmatter.title}
+  title={pageTitle}
   lead={frontmatter.lead}
   description={frontmatter.description}
   background={frontmatter.background}
@@ -19,5 +57,28 @@ const slug = pathname;
   lang={lang}
   slug={slug}
 >
+  {
+    frontmatter.toc && toc.length > 0 && (
+      <nav class="toc">
+        <h2>{tocTitle}</h2>
+        <ul>
+          {toc.map((h) => (
+            <li>
+              <a href={`#${h.slug}`}>{h.text}</a>
+              {h.subheadings.length > 0 && (
+                <ul>
+                  {h.subheadings.map((sub) => (
+                    <li>
+                      <a href={`#${sub.slug}`}>{sub.text}</a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )
+  }
   <slot />
 </BaseLayout>

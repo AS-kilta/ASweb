@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import Board from '@components/profiles/Board';
+import BoardComponent from '@components/profiles/Board';
 import { getCollection } from 'astro:content';
 
 const boardEntries = await getCollection('board');
@@ -19,5 +19,5 @@ const slug = '/en/guild/board';
   lang={lang}
   slug={slug}
 >
-  <Board data={boardData} lang={lang} />
+  <BoardComponent data={boardData} lang={lang} />
 </BaseLayout>

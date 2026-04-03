@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import * as style from './CollapseText.module.scss';
+import style from './CollapseText.module.scss';
 import { BsPlus, BsDash } from 'react-icons/bs';
 
 interface Props {

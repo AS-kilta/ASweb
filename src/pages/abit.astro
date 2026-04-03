@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import ArticleCard from '@components/profiles/ArticleCard';
-import * as style from './abit.module.scss';
 
 import Antti_Regelin from '@src/assets/abimarkkinointi/Antti_Regelin.jpg';
 import Johan_Sarpoma from '@src/assets/abimarkkinointi/Johan_Sarpoma.jpg';
@@ -13,7 +12,7 @@ const description =
   'Hei abi! Mietitkö jo, mihin hakisit lukion jälkeen opiskelemaan? Lue täältä lisää automaation, robotiikan ja informaatioteknologian opinnoista Aalto-yliopistossa!';
 ---
 
-<BaseLayout title="Abeille" description={description} lang="fi" slug="abit">
+<BaseLayout title="Abeille" description={description} lang="fi" slug="/abit">
   <div style={{ marginBlock: '6rem' }}>
     <h2 class="underline">Opinnot</h2>
     <p>
@@ -32,12 +31,12 @@ const description =
     </p>
   </div>
 
-  <h2 class={style.heading2 + ' ' + style.full_width_bg}>AS-killan alla on 3 eri hakukohdetta</h2>
+  <h2 class="heading2 full_width_bg">AS-killan alla on 3 eri hakukohdetta</h2>
 
-  <section class={style.major}>
+  <section class="major">
     <h2 class="underline">Automaatio ja robotiikka</h2>
-    <div class={style.columns}>
-      <div class={style.intro}>
+    <div class="columns">
+      <div class="intro">
         <p>
           Kiinnostaako, miten teollisuuden robottikäsivarret ja automaatiojärjestelmät toimivat? Haluatko päästä
           koodaamaan lähelle rautaa? Automaation piirissä pääsee tutustumaan mm. tietokoneiden ja koneiden väliseen
@@ -46,7 +45,7 @@ const description =
           vaikka yhdistellä alueita oman kiinnostuksen mukaan.
         </p>
       </div>
-      <div class={style.testimonials}>
+      <div class="testimonials">
         <ArticleCard
           name="Antti Regelin"
           image={Antti_Regelin}
@@ -63,7 +62,7 @@ const description =
       </div>
     </div>
     <h3 class="underline">Esimerkkejä pääainekursseista</h3>
-    <dl class={style.course_examples}>
+    <dl class="course_examples">
       <div>
         <dt>Sähköpaja</dt>
         <dd>
@@ -84,7 +83,7 @@ const description =
       </div>
     </dl>
     <a
-      class={style.find_more + ' rounded-button'}
+      class="find_more rounded-button"
       target="_blank"
       href="https://www.aalto.fi/fi/koulutustarjonta/automaatio-ja-robotiikka-tekniikan-kandidaatti-ja-diplomi-insinoori"
       rel="noreferrer"
@@ -93,10 +92,10 @@ const description =
     </a>
   </section>
 
-  <section class={style.major}>
+  <section class="major">
     <h2 class="underline">Informaatio&shy;teknologia</h2>
-    <div class={' columns'}>
-      <div class={style.intro}>
+    <div class="columns">
+      <div class="intro">
         <p>
           Verkkoon kytkettyjen laitteiden määrä kasvaa räjähdysmäisesti ja esineiden internet on kaikkien huulilla.
           IT-pääaineessa pääset tutustumaan, mitä trendikkäiden termien takana oikeasti tapahtuu! Saat kattavan pohjan
@@ -105,7 +104,7 @@ const description =
           koneoppimiseen sekä signaalin, puheen ja kielen prosessointiin.
         </p>
       </div>
-      <div class={style.testimonials}>
+      <div class="testimonials">
         <ArticleCard
           name="Niina Tapanainen"
           image={Niina_Tapanainen}
@@ -115,7 +114,7 @@ const description =
       </div>
     </div>
     <h3 class="underline">Esimerkkejä pääainekursseista</h3>
-    <dl class={style.course_examples}>
+    <dl class="course_examples">
       <div>
         <dt>Sähköpaja</dt>
         <dd>
@@ -136,7 +135,7 @@ const description =
       </div>
     </dl>
     <a
-      class={style.find_more + ' rounded-button'}
+      class="find_more rounded-button"
       target="_blank"
       href="https://www.aalto.fi/fi/koulutustarjonta/informaatioteknologia-tekniikan-kandidaatti-ja-diplomi-insinoori"
       rel="noreferrer"
@@ -145,10 +144,10 @@ const description =
     </a>
   </section>
 
-  <section class={style.major}>
+  <section class="major">
     <h2 class="underline">Digital systems and Design</h2>
-    <div class={style.columns}>
-      <div class={style.intro}>
+    <div class="columns">
+      <div class="intro">
         <p>
           Kiinnostaako kansainvälisyys ja mahdollisuus aloittaa opiskelu englanniksi jo kandivaiheessa? Digital Systems
           and Design on yksi Aallon uusista ja moderneista englanninkielisistä kandipääaineista. Tämän monipuolisen
@@ -158,7 +157,7 @@ const description =
           aloille.
         </p>
       </div>
-      <div class={style.testimonials}>
+      <div class="testimonials">
         <ArticleCard
           name="Veera Ihalainen"
           image={Veera_Ihalainen}
@@ -175,7 +174,7 @@ const description =
       </div>
     </div>
     <h3 class="underline">Esimerkkejä pääainekursseista</h3>
-    <dl class={style.course_examples}>
+    <dl class="course_examples">
       <div>
         <dt>Design Thinking and Electronic Prototyping</dt>
         <dd>
@@ -199,7 +198,7 @@ const description =
       </div>
     </dl>
     <a
-      class={style.find_more + ' rounded-button'}
+      class="find_more rounded-button"
       target="_blank"
       href="https://www.aalto.fi/fi/koulutustarjonta/aalto-bachelors-programme-in-science-and-technology-digital-systems-and-design"
       rel="noreferrer"
@@ -238,3 +237,68 @@ const description =
     </p>
   </section>
 </BaseLayout>
+
+<style lang="scss">
+  .full_width_bg {
+    box-sizing: border-box;
+    max-width: unset;
+    padding-block: 1em;
+
+    text-align: center;
+    color: white;
+    background-color: $as-violet-1;
+    box-shadow:
+      10rem 0 0 0 $as-violet-1,
+      -10rem 0 0 0 $as-violet-1;
+  }
+
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .intro,
+  .testimonials {
+    flex: 1 1 40ch;
+  }
+
+  .testimonials > * {
+    margin-bottom: 2rem;
+  }
+
+  .major {
+    max-width: 1300px;
+    margin-block: 6rem;
+    gap: 2rem;
+  }
+
+  .course_examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    & > * {
+      flex: 1 1 25ch;
+    }
+
+    dt {
+      margin: 0 0 0.5em;
+      font-weight: 700;
+    }
+    dd {
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
+
+  .find_more {
+    display: block;
+    max-width: max-content;
+    margin: 2rem auto;
+  }
+
+  .heading2 {
+    font-size: clamp(1.75rem, 2vw, 2.25rem);
+    color: white !important;
+  }
+</style>

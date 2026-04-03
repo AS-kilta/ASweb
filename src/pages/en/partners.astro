@@ -5,7 +5,7 @@ import ContactCard from '@components/profiles/ContactCard';
 import CircleCard from '@components/common/CircleCard';
 
 import heroPic from '@src/assets/images/DSC_0376.jpg';
-import ysvPic from '@src/assets/officials/aebaej_placeholder.png';
+import ysvPic from '@src/assets/officials/2026/Daniel_Gorbatchev.jpg';
 import img1613 from '@src/assets/images/DSC01613.jpg';
 import img0533 from '@src/assets/images/IMG_0533.jpg';
 import yjAlkupamaus from '@src/assets/images/yj_alkupamaus_2017-100.jpg';
@@ -44,7 +44,7 @@ const slug = '/en/partners';
     </p>
   </div>
 
-  <h2>Cooperation with the guild</h2>
+  <h2 class="underline">Cooperation with the guild</h2>
   <p>
     <strong>
       The Guild of Automation and Systems Technology is an organization for students of Automation and Robotics,
@@ -68,7 +68,7 @@ const slug = '/en/partners';
     same time support our guild's activities. Below are some of the most common ways of cooperation.
   </p>
 
-  <h2>Forms of cooperation</h2>
+  <h2 class="underline">Forms of cooperation</h2>
   <div class="table-cards">
     <CircleCard title="Recruiting visibility" link="./partners#Recruiting" targetSelf={true} />
     <CircleCard title="Overalls" link="./partners#Overalls" targetSelf={true} />
@@ -173,6 +173,17 @@ const slug = '/en/partners';
     font-size: 1.5rem;
     font-style: italic;
     max-width: 500px;
+
+    &::before,
+    &::after {
+      font-size: 4em;
+      opacity: 0.3;
+      line-height: 0;
+      vertical-align: bottom;
+      pointer-events: none;
+      display: -webkit-inline-box;
+      -webkit-min-logical-width: 0.5em;
+    }
   }
 
   .table-cards {

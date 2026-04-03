@@ -1,13 +1,13 @@
 import React, { Fragment, useState } from 'react';
 import CollapseBox from '../common/CollapseBox';
 import { BsPlus, BsDash } from 'react-icons/bs';
-import * as style from './Archive.module.scss';
+import style from './Archive.module.scss';
 import CollapseText from '../common/CollapseText';
 
 interface CommitteeMember {
   title: TranslatedEntry[];
   name: string;
-  picture?: string;
+  picture?: DynamicImageData | string;
   leader?: boolean;
 }
 
@@ -22,7 +22,7 @@ interface BoardMember {
   email?: string;
   phone?: string;
   telegram?: string;
-  picture?: string;
+  picture?: DynamicImageData | string;
   description?: TranslatedEntry;
 }
 

@@ -1,8 +1,7 @@
 import React from 'react';
 
-import * as style from './Hero.module.scss';
-
-import * as sassVars from '@styles/_exports.module.scss';
+import style from './Hero.module.scss';
+import sassVars from '@styles/_exports.module.scss';
 
 export interface HeroProps {
   title: string;

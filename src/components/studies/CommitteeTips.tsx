@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CollapseBox from '@components/common/CollapseBox';
 import { BsDash, BsPlus } from 'react-icons/bs';
-import * as style from './studies.module.scss';
+import style from './studies.module.scss';
 
 interface Props {
   lang: 'fi' | 'en';

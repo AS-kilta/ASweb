@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import ConfidentialCounselors from '@components/profiles/ConfidentialCounselor';
+import ConfidentialCounselorsComponent from '@components/profiles/ConfidentialCounselor';
 import { getCollection } from 'astro:content';
 
 const counselorsEntries = await getCollection('counselors');
@@ -18,5 +18,5 @@ const slug = '/en/guild/confidential-counselors';
   lang={lang}
   slug={slug}
 >
-  <ConfidentialCounselors data={counselorsData} lang={lang} />
+  <ConfidentialCounselorsComponent data={counselorsData} lang={lang} />
 </BaseLayout>

@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, z, type SchemaContext } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const translatedEntry = z.any();
@@ -38,7 +38,7 @@ const navigation = defineCollection({
 
 const board = defineCollection({
   loader: glob({ pattern: 'board.yaml', base: './src/data' }),
-  schema: ({ image }) =>
+  schema: ({ image }: SchemaContext) =>
     z.array(
       z.object({
         title: translatedEntry,
@@ -54,7 +54,7 @@ const board = defineCollection({
 
 const officials = defineCollection({
   loader: glob({ pattern: 'officials.yaml', base: './src/data' }),
-  schema: ({ image }) =>
+  schema: ({ image }: SchemaContext) =>
     z.array(
       z.object({
         name: translatedEntry,
@@ -75,7 +75,7 @@ const officials = defineCollection({
 
 const counselors = defineCollection({
   loader: glob({ pattern: 'counselor.yaml', base: './src/data' }),
-  schema: ({ image }) =>
+  schema: ({ image }: SchemaContext) =>
     z.array(
       z.object({
         title: translatedEntry,
@@ -91,7 +91,7 @@ const counselors = defineCollection({
 
 const sponsors = defineCollection({
   loader: glob({ pattern: 'sponsors.yaml', base: './src/data' }),
-  schema: ({ image }) =>
+  schema: ({ image }: SchemaContext) =>
     z.array(
       z.object({
         name: z.string(),
@@ -103,7 +103,7 @@ const sponsors = defineCollection({
 
 const archive = defineCollection({
   loader: glob({ pattern: '**/[^_]*.yaml', base: './src/data/archive' }),
-  schema: ({ image }) =>
+  schema: ({ image }: SchemaContext) =>
     z.object({
       year: z.string().optional(),
       board: z
@@ -132,6 +132,19 @@ const archive = defineCollection({
                 picture: image().optional(),
                 description: translatedEntry.optional(),
                 leader: z.boolean().optional(),
+              })
+            ),
+          })
+        )
+        .optional(),
+      accolades: z
+        .array(
+          z.object({
+            name: translatedEntry,
+            people: z.array(
+              z.object({
+                name: z.string(),
+                description: translatedEntry,
               })
             ),
           })

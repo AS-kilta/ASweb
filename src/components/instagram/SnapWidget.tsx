@@ -1,5 +1,5 @@
 import React from 'react';
-import * as style from './SnapWidget.module.scss';
+import style from './SnapWidget.module.scss';
 
 const SnapWidget: React.FC = () => {
   return (

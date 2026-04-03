@@ -1,71 +1,123 @@
 @use '_variables' as *;
 
+$indent-step: 1rem;
+$indent-step-mobile: 0.5rem;
+
+// Helper mixin for indentation levels
+@mixin level-indent($level) {
+  margin-left: $level * $indent-step;
+  @media (max-width: $breakpoint-mobile) {
+    margin-left: $level * $indent-step-mobile;
+  }
+}
+
 @mixin documents {
   .document {
     margin-bottom: 5rem;
     line-height: 1.6;
     color: $natural-black;
     overflow-wrap: break-word;
+    flex-direction: column;
+
+    & > * {
+      order: 10;
+      @include level-indent(0);
+      margin-top: 1.5rem; // Default spacing between elements
+      margin-bottom: 0;
+    }
+
+    & > h1 {
+      order: 1;
+      display: none;
+      margin: 0 !important;
+    }
 
     h1, h2, h3, h4, h5, h6 {
       color: $as-violet-1;
       font-family: $font-heading;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: clamp(2rem, 5vw, 3rem);
       font-weight: 700;
-      text-align: center;
-      margin-bottom: 2rem;
     }
 
-    h2 {
-      font-size: clamp(1.6rem, 4vw, 2.2rem);
-      font-weight: 600;
-      border-bottom: 2px solid $as-violet-2;
-      padding-bottom: 0.3rem;
-      margin-top: 3rem;
+    h2, h3, h4 {
+      margin-top: 3rem; // Keep section separation
+      margin-bottom: 0.5rem;
     }
 
-    h3 {
-      font-size: clamp(1.3rem, 3vw, 1.8rem);
-      font-weight: 600;
+    p, ul, ol, blockquote, table, pre, img {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
 
-    h4 {
-      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-      font-weight: 600;
+    // BASE LEVELS
+    h2 ~ * { @include level-indent(1); }
+    h3 ~ * { @include level-indent(2); }
+    h4 ~ * { @include level-indent(3); }
+
+    // RESET RULES
+    :is(h3, h4) ~ h2 ~ * { @include level-indent(1); }
+    h4 ~ h3 ~ * { @include level-indent(2); }
+    :is(h3, h4) ~ h2 ~ :is(h3, h4) ~ * { @include level-indent(2); }
+    :is(h3, h4) ~ h2 ~ h3 ~ h4 ~ * { @include level-indent(3); }
+
+    // HEADINGS INDENTATION
+    h2 { @include level-indent(0); font-size: clamp(1.6rem, 4vw, 2.2rem); border-bottom: 2px solid $as-violet-2; padding-bottom: 0.3rem; margin-left: 0 !important; }
+    h3 { @include level-indent(1); font-size: clamp(1.3rem, 3vw, 1.8rem); margin-top: 2rem; margin-left: $indent-step !important; @media (max-width: $breakpoint-mobile) { margin-left: $indent-step-mobile !important; } }
+    h4 { @include level-indent(2); font-size: clamp(1.1rem, 2.5vw, 1.5rem); margin-left: ($indent-step * 2) !important; @media (max-width: $breakpoint-mobile) { margin-left: ($indent-step-mobile * 2) !important; } }
+
+    :is(h3, h4) ~ h2 { margin-left: 0 !important; }
+    h4 ~ h3 { margin-left: $indent-step !important; @media (max-width: $breakpoint-mobile) { margin-left: $indent-step-mobile !important; } }
+
+    hr { 
+      border: none; 
+      border-top: 1px solid $as-violet-2; 
+      margin: 3rem 0; 
+      margin-left: 0 !important;
+      width: 100%;
     }
 
-    p {
-      margin-bottom: 1.2rem;
+    .toc {
+      order: 2;
+      background: rgba($as-violet-1, 0.03);
+      padding: 1.5rem;
+      border: 1px solid $as-violet-2;
+      border-radius: 1rem;
+      margin-top: 1.5rem !important;
+      margin-bottom: 1rem !important;
+      margin-left: 0 !important;
+
+      & > h3, & > h2 {
+        text-align: left;
+        margin-top: 0;
+        margin-left: 0 !important;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        li {
+          margin-bottom: 0.25rem;
+          margin-left: 0 !important;
+          a { font-weight: 400; text-decoration: none; &:hover { text-decoration: underline; } }
+          ul { padding-left: 1.5rem; margin-top: 0.25rem; margin-left: 0 !important; }
+        }
+      }
     }
 
     a {
-      color: $as-violet-1;
+      color: $natural-black;
       text-decoration: underline;
       text-underline-offset: 0.2rem;
       font-weight: 600;
       transition: color 0.2s ease;
-
-      &:hover {
-        color: $accent-violet-1;
-      }
+      &:hover { color: lighten($natural-black, 20%); }
     }
 
     ul, ol {
-      margin-bottom: 1.2rem;
       padding-left: 2rem;
-
       li {
         margin-bottom: 0.5rem;
-
-        &::marker {
-          color: $as-violet-1;
-          font-weight: bold;
-        }
+        &::marker { color: $as-violet-1; font-weight: bold; }
       }
     }
 
@@ -77,33 +129,14 @@
       background: rgba($as-violet-2, 0.1);
     }
 
-    hr {
-      border: none;
-      border-top: 1px solid $as-violet-2;
-      margin: 3rem 0;
-    }
-
     table {
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 2rem;
       font-size: 0.95rem;
-
-      th, td {
-        border: 1px solid #ddd;
-        padding: 0.75rem;
-        text-align: left;
-      }
-
-      th {
-        background-color: rgba($as-violet-1, 0.05);
-        color: $as-violet-1;
-        font-weight: 700;
-      }
-
-      tr:nth-child(even) {
-        background-color: rgba($as-violet-1, 0.02);
-      }
+      th, td { border: 1px solid #ddd; padding: 0.75rem; text-align: left; }
+      th { background-color: rgba($as-violet-1, 0.05); color: $as-violet-1; font-weight: 700; }
+      tr:nth-child(even) { background-color: rgba($as-violet-1, 0.02); }
     }
 
     code {
@@ -119,64 +152,9 @@
       padding: 1rem;
       overflow-x: auto;
       margin-bottom: 1.5rem;
-
-      code {
-        background-color: transparent;
-        padding: 0;
-        color: inherit;
-        font-size: inherit;
-      }
+      code { background-color: transparent; padding: 0; color: inherit; font-size: inherit; }
     }
 
-    img {
-      max-width: 100%;
-      height: auto;
-      margin: 1rem 0;
-    }
-
-    .toc {
-      background: rgba($as-violet-1, 0.03);
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-      border: 1px solid $as-violet-2;
-
-      & > h3, & > h2 {
-        display: none; // Hide the "Table of Contents" title if generated by plugin
-      }
-
-      &::before {
-        content: "Sisällysluettelo / Table of Contents";
-        display: block;
-        font-weight: 700;
-        font-family: $font-heading;
-        color: $as-violet-1;
-        margin-bottom: 1rem;
-        font-size: 1.2rem;
-      }
-
-      ul {
-        list-style: none;
-        padding-left: 0;
-        margin-bottom: 0;
-
-        li {
-          margin-bottom: 0.25rem;
-          
-          a {
-            font-weight: 400;
-            text-decoration: none;
-            
-            &:hover {
-              text-decoration: underline;
-            }
-          }
-          
-          ul {
-            padding-left: 1.5rem;
-            margin-top: 0.25rem;
-          }
-        }
-      }
-    }
+    img { max-width: 100%; height: auto; margin: 1rem 0; }
   }
 }

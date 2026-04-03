@@ -4,8 +4,8 @@ export const SITE_METADATA = {
     en: 'Guild of Automation and Systems Technology',
   },
   description: {
-    fi: 'AS:n uudet nettisivut',
-    en: 'New website for AS',
+    fi: 'AS-killan nettisivut',
+    en: 'AS-guild website',
   },
   author: 'AS',
 };

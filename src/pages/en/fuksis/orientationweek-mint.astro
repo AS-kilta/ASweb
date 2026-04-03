@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import { Image } from 'astro:assets';
-import masters_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-masters.png';
-import exchange_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-exchange.png';
+//import { Image } from 'astro:assets';
+//import masters_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-masters.png';
+//import exchange_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-exchange.png';
 
 const description = 'The orientation week schedule for MINT fuksis';
 ---
@@ -12,7 +12,7 @@ const description = 'The orientation week schedule for MINT fuksis';
   heroHeight="short"
   description={description}
   lang="en"
-  slug="fuksis/orientationweek-mint"
+  slug="/en/fuksis/orientationweek-mint"
 >
   <h2 id="orientaatioviikon-aikataulu"></h2>
 
@@ -33,8 +33,8 @@ const description = 'The orientation week schedule for MINT fuksis';
       app and actively asking your ISOs for guidance.
     </p>
 
-    {/* Uncomment and use these images when the schedule is updated */}
-    {
+    <!-- Uncomment and use these images when the schedule is updated -->
+    <!--
       /*
     <h3 id="maisterien-orientaatioviikon-aikataulu">Master's orientation week</h3>
     <Image
@@ -48,7 +48,6 @@ const description = 'The orientation week schedule for MINT fuksis';
       src={exchange_timetable}
       alt="Orientation week schedule for exchange students."
     />
-    */
-    }
+    -->
   </div>
 </BaseLayout>

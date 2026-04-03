@@ -14,8 +14,12 @@
 
 .contact_card {
   a {
-    color: $accent-violet-1;
+    color: $natural-black;
     text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   text-align: center;

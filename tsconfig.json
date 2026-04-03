@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -11,7 +11,7 @@
     "jsxImportSource": "react",
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"],
+      "@src/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@assets/*": ["./src/assets/*"],
       "@data/*": ["./src/data/*"],

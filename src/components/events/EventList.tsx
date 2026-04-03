@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import * as style from './EventList.module.scss';
+import style from './EventList.module.scss';
 
 const getStartDate = () => new Date().toISOString();
 
@@ -31,13 +31,13 @@ interface CalendarEvent {
   fullDay: boolean;
 }
 
-const parseEventData = (data: json, number: number) => {
+const parseEventData = (data: any, number: number) => {
   if (!data.items || !Array.isArray(data.items)) {
-    throw new Error('Invalid calendar data');
+    return [];
   }
 
-  const filteredEventData = data.items.filter((item) => item.organizer.self).slice(0, number);
-  const events: CalendarEvent[] = filteredEventData.map((item) => {
+  const filteredEventData = data.items.filter((item: any) => item.organizer?.self).slice(0, number);
+  const events: CalendarEvent[] = filteredEventData.map((item: any) => {
     const start = new Date(item.start.date ?? item.start.dateTime);
     const end = new Date(item.end.date ?? item.end.dateTime);
     const fullDay = !!item.start.date;

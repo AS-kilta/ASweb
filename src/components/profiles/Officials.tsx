@@ -1,12 +1,12 @@
 import React from 'react';
 
 import ProfileImg from '@components/profiles/ProfileImg';
-import * as style from './Officials.module.scss';
+import style from './Officials.module.scss';
 
 interface Member {
   name: string;
   title: TranslatedEntry[];
-  picture?: unknown;
+  picture?: DynamicImageData | string;
   leader?: boolean;
 }
 

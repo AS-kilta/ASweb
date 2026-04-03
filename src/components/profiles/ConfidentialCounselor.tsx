@@ -1,15 +1,15 @@
 import React from 'react';
 import ContactCard from '@components/profiles/ContactCard';
 import type { ContactInfo } from '@components/profiles/ContactCard';
-import * as style from './ConfidentialCounselor.module.scss';
+import style from './ConfidentialCounselor.module.scss';
 
 interface Counselor {
   title: TranslatedEntry;
   name: string;
   email: string;
   phone?: string;
-  telegram: string;
-  picture?: unknown;
+  telegram?: string;
+  picture?: DynamicImageData | string;
   description?: TranslatedEntry;
 }
 

@@ -67,8 +67,8 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
         <slot />
       </main>
       <Footer lang={lang} sponsors={sponsors} />
+      <BackToTop client:load lang={lang} />
     </div>
-    <BackToTop client:load lang={lang} />
   </body>
 </html>
 
@@ -92,19 +92,6 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
     margin-inline: auto;
 
     margin-bottom: 5rem;
-
-    & > * {
-      padding-inline: 2rem;
-    }
-
-    & > img,
-    & > .image,
-    & > .full-bleed,
-    & > .even-columns,
-    & > .table-cards,
-    & > .introduction,
-    & > .underline-decorator {
-      padding-inline: 0;
-    }
+    padding-inline: 1.5rem;
   }
 </style>

@@ -2,15 +2,13 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import ContactCard from '@components/profiles/ContactCard';
 import CircleCard from '@components/common/CircleCard';
-import * as style from '@src/pages/fuksis/fuksis.module.scss';
-import * as boardStyle from '@components/profiles/Board.module.scss';
-import * as ccStyle from '@components/common/CircleCard.module.scss';
+import style from '@src/pages/fuksis/fuksis.module.scss';
+import boardStyle from '@components/profiles/Board.module.scss';
+import ccStyle from '@components/common/CircleCard.module.scss';
 
 import heropic from '@src/assets/images/20230502154358-1c055172-xx.jpg';
-import placeholder from '@src/assets/officials/aebaej_placeholder.png';
-
-const fuksicaptain1 = placeholder;
-const fuksicaptain2 = placeholder;
+import fuksicaptain1 from '@src/assets/officials/2025/joel_forsstrom2.jpg';
+import fuksicaptain2 from '@src/assets/officials/2025/kalle_kajoniemi.jpg';
 
 const description = 'Hi there, fuksi! Start by reading this.';
 
@@ -33,7 +31,14 @@ const data2 = {
 const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
 ---
 
-<BaseLayout title="For Fuksis" background={heropic} heroHeight="tall" description={description} lang="en" slug="fuksis">
+<BaseLayout
+  title="For Fuksis"
+  background={heropic}
+  heroHeight="tall"
+  description={description}
+  lang="en"
+  slug="/en/fuksis"
+>
   <div>
     <br />
     <p>

@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import CollapseBox from '../common/CollapseBox';
 import { BsPlus, BsDash } from 'react-icons/bs';
-import * as style from './Minors.module.scss';
+import style from './Minors.module.scss';
 
 interface Lang {
   [key: string]: boolean;
@@ -12,18 +12,18 @@ interface TranslatedList {
 }
 
 interface InfoAndList {
-  info: TranslatedEntry;
-  list: TranslatedList;
+  info?: TranslatedEntry;
+  list?: TranslatedList;
 }
 
 interface MinorEntry {
   curriculum: TranslatedEntry;
   name: TranslatedEntry;
-  link: TranslatedEntry;
-  desc: TranslatedEntry;
-  why: TranslatedEntry;
-  masters: InfoAndList;
-  courses: InfoAndList;
+  link?: TranslatedEntry;
+  desc?: TranslatedEntry;
+  why?: TranslatedEntry;
+  masters?: InfoAndList;
+  courses?: InfoAndList;
 
   lang: Lang;
 }
@@ -72,27 +72,19 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
     <Fragment>
       <div className={style.container}>
         {translations.curriculum[lang]}: {minorData.curriculum[lang]}
-        <a href={minorData.link[lang]}>{translations.linkText[lang]}</a>
-        {minorData.desc[lang] && <p>{minorData.desc[lang]}</p>}
+        {minorData.link?.[lang] && <a href={minorData.link[lang]}>{translations.linkText[lang]}</a>}
+        {minorData.desc?.[lang] && <p>{minorData.desc?.[lang]}</p>}
         <h3 className={style.heading3}>{translations.why[lang]}</h3>
-        {minorData.why[lang] && <p>{minorData.why[lang]}</p>}
+        {minorData.why?.[lang] && <p>{minorData.why?.[lang]}</p>}
         <h3 className={style.heading3}>{translations.whatMast[lang]}</h3>
-        {minorData.masters.info[lang] && <p>{minorData.masters.info[lang]}</p>}
-        {minorData.masters.list[lang] && (
-          <ul>
-            {minorData.masters.list[lang].map((master: string) => (
-              <li key={master}>{master}</li>
-            ))}
-          </ul>
+        {minorData.masters?.info?.[lang] && <p>{minorData.masters?.info?.[lang]}</p>}
+        {minorData.masters?.list?.[lang] && (
+          <ul>{minorData.masters?.list?.[lang].map((master: string) => <li key={master}>{master}</li>)}</ul>
         )}
         <h3 className={style.heading3}>{translations.courses[lang]}</h3>
-        {minorData.courses.info[lang] && <p>{minorData.courses.info[lang]}</p>}
-        {minorData.courses.list && minorData.courses.list[lang] && (
-          <ul>
-            {minorData.courses.list[lang].map((course: string) => (
-              <li key={course}>{course}</li>
-            ))}
-          </ul>
+        {minorData.courses?.info?.[lang] && <p>{minorData.courses?.info?.[lang]}</p>}
+        {minorData.courses?.list?.[lang] && (
+          <ul>{minorData.courses?.list?.[lang].map((course: string) => <li key={course}>{course}</li>)}</ul>
         )}
       </div>
     </Fragment>

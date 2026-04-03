@@ -1,5 +1,5 @@
 import React from 'react';
-import * as style from './ProfileImg.module.scss';
+import style from './ProfileImg.module.scss';
 import placeholder from '@assets/officials/aebaej_placeholder.png';
 
 interface ProfileImgProps {
