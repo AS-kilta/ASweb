@@ -58,9 +58,7 @@ const parseEventData = (data: GoogleCalendarResponse, number: number) => {
     return [];
   }
 
-  const filteredEventData = data.items
-    .filter((item: GoogleCalendarEvent) => item.organizer?.self)
-    .slice(0, number);
+  const filteredEventData = data.items.filter((item: GoogleCalendarEvent) => item.organizer?.self).slice(0, number);
   const events: CalendarEvent[] = filteredEventData.map((item: GoogleCalendarEvent) => {
     const start = new Date(item.start.date ?? (item.start.dateTime as string));
     const end = new Date(item.end.date ?? (item.end.dateTime as string));

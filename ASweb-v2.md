@@ -36,10 +36,10 @@ git checkout branch_name
 
 # WARNING!!!
 # Remove commits starting from head. 1 removes 1 commit, 2 removes 2, and so on...
-# The changes are not lost, just uncommitted.
+# The changes are not lost, just uncommitted and return as non-committed changes.
 git reset HEAD~1
 
-# Stash changes
+# Stash all changes
 git add .
 git stash -m "my feature"
 ```
@@ -55,7 +55,7 @@ git branch -D branch_name
 
 ### `.astro` files
 
-This new file type is similar to Svelte or Vue components. It consists of frontmatter inside triple dashes, structured tags (like HTML), and style tags. Place your JS and TS inside the frontmatter.
+This new file type is similar to Svelte or Vue components. It consists of frontmatter inside triple dashes, structured tags (like HTML), and style tag. Place your JS and TS inside the frontmatter.
 
 ### New file structure
 

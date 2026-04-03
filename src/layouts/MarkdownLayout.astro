@@ -38,18 +38,12 @@ function buildToc(headings: { depth: number; text: string; slug: string }[]) {
   return toc;
 }
 
-const toc = frontmatter.toc
-  ? buildToc(headings.filter((h: { depth: number }) => h.depth > 1 && h.depth < 4))
-  : [];
+const toc = frontmatter.toc ? buildToc(headings.filter((h: { depth: number }) => h.depth > 1 && h.depth < 4)) : [];
 const tocTitle = lang === 'en' ? 'Table of Contents' : 'Sisällysluettelo';
-
-// Use the first H1 as the title if available, otherwise fallback to frontmatter title
-const firstH1 = headings.find((h: { depth: number }) => h.depth === 1);
-const pageTitle = firstH1 ? (firstH1 as { text: string }).text : frontmatter.title;
 ---
 
 <BaseLayout
-  title={pageTitle}
+  title={frontmatter.title}
   lead={frontmatter.lead}
   description={frontmatter.description}
   background={frontmatter.background}
@@ -64,16 +58,16 @@ const pageTitle = firstH1 ? (firstH1 as { text: string }).text : frontmatter.tit
       <nav class="toc">
         <h2>{tocTitle}</h2>
         <ul>
-            {toc.map((h) => (
-              <li>
-                <a href={`#${h.slug}`}>{h.text}</a>
-                {h.subheadings.length > 0 && (
-                  <ul>
-                    {h.subheadings.map((sub) => (
-                      <li>
-                        <a href={`#${sub.slug}`}>{sub.text}</a>
-                      </li>
-                    ))}
+          {toc.map((h) => (
+            <li>
+              <a href={`#${h.slug}`}>{h.text}</a>
+              {h.subheadings.length > 0 && (
+                <ul>
+                  {h.subheadings.map((sub) => (
+                    <li>
+                      <a href={`#${sub.slug}`}>{sub.text}</a>
+                    </li>
+                  ))}
                 </ul>
               )}
             </li>

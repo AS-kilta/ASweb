@@ -28,8 +28,11 @@ $indent-step-mobile: 0.5rem;
 
     & > h1 {
       order: 1;
-      display: none;
+      display: block;
       margin: 0 !important;
+      margin-left: 0 !important;
+      font-size: 2.5rem;
+      text-align: left;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -76,7 +79,7 @@ $indent-step-mobile: 0.5rem;
     }
 
     .toc {
-      order: 2;
+      order: 3;
       background: rgba($as-violet-1, 0.03);
       padding: 1.5rem;
       border: 1px solid $as-violet-2;

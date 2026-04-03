@@ -1,5 +1,5 @@
 import { defineCollection, type SchemaContext } from 'astro:content';
-import z from "astro/zod";
+import z from 'astro/zod';
 import { glob } from 'astro/loaders';
 
 const translatedEntry = z.any();
