@@ -1,0 +1,58 @@
+---
+import EventList from '@components/events/EventList';
+---
+
+<h1>Upcoming Events</h1>
+
+<div class="content">
+  <EventList number={5} lang="fi" client:load />
+</div>
+
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Space+Mono&display=swap" rel="stylesheet" />
+
+<style>
+  h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    margin: 25px;
+  }
+
+  .content {
+    height: 90%;
+    width: 95%;
+    margin: auto;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .content .event_list .eventListItem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 40px;
+  }
+
+  .content .event_list p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+
+  .content .event_list .summary {
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 0.2em;
+  }
+
+  .content .event_list .date {
+    aspect-ratio: 1;
+    flex-shrink: 0;
+    width: 3.5em;
+    padding: 1em;
+    border-radius: 5px;
+  }
+</style>
