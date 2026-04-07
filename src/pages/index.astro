@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
-import SnapWidget from '@components/instagram/SnapWidget';
+import InstagramWidget from '@components/instagram/InstagramWidget';
 import EventList from '@components/events/EventList';
 
 import heroimg from '../assets/images/20201029195159-eef0d345-xx.jpg';
@@ -53,7 +53,7 @@ const slug = '/';
     </div>
   </div>
   <h2 class="center-text">Instagram</h2>
-  <SnapWidget client:load />
+  <InstagramWidget client:load />
 </BaseLayout>
 
 <style lang="scss">
