@@ -88,19 +88,19 @@ const EventList: React.FC<{ number: number; lang: string }> = ({ number = 5, lan
   const datetimeFor = (event: CalendarEvent) => (event.fullDay ? dateOptions : { ...dateOptions, ...timeOptions });
 
   const renderEvent = (event: CalendarEvent) => (
-    <li key={event.id} className={style.eventListItem}>
-      <div className={style.date}>
+    <li key={event.id} className="eventListItem">
+      <div className="date">
         {event.start.getDate()}.{event.start.getMonth() + 1}.
       </div>
       <div>
-        <div className={style.summary}>{event.summary}</div>
+        <div className="summary">{event.summary}</div>
         <time>{event.start.toLocaleString(lang, datetimeFor(event))}</time>
         {event.description && <p>{event.description}</p>}
       </div>
     </li>
   );
 
-  return <ul className={style.event_list}>{events.map(renderEvent)}</ul>;
+  return <ul className="event_list">{events.map(renderEvent)}</ul>;
 };
 
 export default EventList;

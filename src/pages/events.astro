@@ -10,7 +10,7 @@ import EventList from '@components/events/EventList';
 
 <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Space+Mono&display=swap" rel="stylesheet" />
 
-<style>
+<style is:global>
   h1 {
     font-family: 'Space Mono', monospace;
     font-weight: 700;
@@ -31,15 +31,21 @@ import EventList from '@components/events/EventList';
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-    font-size: 40px;
+    gap: 30px;
+    margin-bottom: 40px;
+    font-size: 50px;
   }
 
   .content .event_list p {
     margin: 0;
     line-height: 1.4;
-    font-size: 20px;
+    font-size: 40px;
+  }
+
+  .content .event_list time {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 40px;
   }
 
   .content .event_list .summary {
@@ -51,8 +57,9 @@ import EventList from '@components/events/EventList';
   .content .event_list .date {
     aspect-ratio: 1;
     flex-shrink: 0;
-    width: 3.5em;
-    padding: 1em;
+    width: 175px;
+    padding: 10px;
     border-radius: 5px;
+    font-size: 50px;
   }
 </style>

@@ -1,10 +1,10 @@
-.event_list {
+:global(.event_list) {
   list-style: none;
   padding-left: 0 !important;
   padding-top: 0.2rem;
   margin: 0;
 
-  .eventListItem {
+  :global(.eventListItem) {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -17,13 +17,13 @@
     line-height: 1.4;
   }
 
-  .summary {
+  :global(.summary) {
     font-weight: bold;
     line-height: 1.1;
     margin-bottom: 0.2em;
   }
 
-  .date {
+  :global(.date) {
     display: inline-flex;
     justify-content: center;
     align-items: center;
