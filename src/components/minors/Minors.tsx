@@ -1,8 +1,7 @@
 import React, { Fragment, useState } from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
 import CollapseBox from '../common/CollapseBox';
 import { BsPlus, BsDash } from 'react-icons/bs';
-import * as style from './Minors.module.scss';
+import style from './Minors.module.scss';
 
 interface Lang {
   [key: string]: boolean;
@@ -13,26 +12,20 @@ interface TranslatedList {
 }
 
 interface InfoAndList {
-  info: TranslatedEntry;
-  list: TranslatedList;
+  info?: TranslatedEntry;
+  list?: TranslatedList;
 }
 
 interface MinorEntry {
   curriculum: TranslatedEntry;
   name: TranslatedEntry;
-  link: TranslatedEntry;
-  desc: TranslatedEntry;
-  why: TranslatedEntry;
-  masters: InfoAndList;
-  courses: InfoAndList;
+  link?: TranslatedEntry;
+  desc?: TranslatedEntry;
+  why?: TranslatedEntry;
+  masters?: InfoAndList;
+  courses?: InfoAndList;
 
   lang: Lang;
-}
-
-interface MinorsData {
-  allMinorsYaml: {
-    nodes: MinorEntry[];
-  };
 }
 
 const translations: Translations = {
@@ -79,87 +72,26 @@ const Minor: React.FC<{ minorData: MinorEntry; lang: string }> = ({ minorData, l
     <Fragment>
       <div className={style.container}>
         {translations.curriculum[lang]}: {minorData.curriculum[lang]}
-        <a href={minorData.link[lang]}>{translations.linkText[lang]}</a>
-        {minorData.desc[lang] && <p>{minorData.desc[lang]}</p>}
+        {minorData.link?.[lang] && <a href={minorData.link[lang]}>{translations.linkText[lang]}</a>}
+        {minorData.desc?.[lang] && <p>{minorData.desc?.[lang]}</p>}
         <h3 className={style.heading3}>{translations.why[lang]}</h3>
-        {minorData.why[lang] && <p>{minorData.why[lang]}</p>}
+        {minorData.why?.[lang] && <p>{minorData.why?.[lang]}</p>}
         <h3 className={style.heading3}>{translations.whatMast[lang]}</h3>
-        {minorData.masters.info[lang] && <p>{minorData.masters.info[lang]}</p>}
-        {minorData.masters.list[lang] && (
-          <ul>
-            {minorData.masters.list[lang].map((master: string) => (
-              <li key={master}>{master}</li>
-            ))}
-          </ul>
+        {minorData.masters?.info?.[lang] && <p>{minorData.masters?.info?.[lang]}</p>}
+        {minorData.masters?.list?.[lang] && (
+          <ul>{minorData.masters?.list?.[lang].map((master: string) => <li key={master}>{master}</li>)}</ul>
         )}
         <h3 className={style.heading3}>{translations.courses[lang]}</h3>
-        {minorData.courses.info[lang] && <p>{minorData.courses.info[lang]}</p>}
-        {minorData.courses.list && minorData.courses.list[lang] && (
-          <ul>
-            {minorData.courses.list[lang].map((course: string) => (
-              <li key={course}>{course}</li>
-            ))}
-          </ul>
+        {minorData.courses?.info?.[lang] && <p>{minorData.courses?.info?.[lang]}</p>}
+        {minorData.courses?.list?.[lang] && (
+          <ul>{minorData.courses?.list?.[lang].map((course: string) => <li key={course}>{course}</li>)}</ul>
         )}
       </div>
     </Fragment>
   );
 };
 
-export const query = graphql`
-  query GetMinorsData {
-    allMinorsYaml {
-      nodes {
-        lang {
-          fi
-          en
-        }
-        curriculum {
-          fi
-          en
-        }
-        name {
-          fi
-          en
-        }
-        link {
-          fi
-          en
-        }
-        desc {
-          fi
-          en
-        }
-        why {
-          fi
-          en
-        }
-        masters {
-          info {
-            fi
-            en
-          }
-          list {
-            fi
-            en
-          }
-        }
-        courses {
-          info {
-            fi
-            en
-          }
-          list {
-            fi
-            en
-          }
-        }
-      }
-    }
-  }
-`;
-
-const Minors: React.FC<{ lang: string }> = ({ lang }) => {
+const Minors: React.FC<{ lang: string; data: MinorEntry[] }> = ({ lang, data }) => {
   const [allExpanded, setAllExpanded] = useState(false);
 
   const toggleCollapse = () => {
@@ -169,11 +101,6 @@ const Minors: React.FC<{ lang: string }> = ({ lang }) => {
   const toggleOnEnter = (e: React.KeyboardEvent): void => {
     if (e.key === 'Enter') toggleCollapse();
   };
-
-  const rawData: MinorsData = useStaticQuery(query);
-
-  // Create a copy of queried archive data and sort the array
-  const data: MinorEntry[] = rawData.allMinorsYaml.nodes.slice();
 
   return (
     <div className={style.container}>

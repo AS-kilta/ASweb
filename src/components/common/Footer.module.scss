@@ -2,6 +2,8 @@
   background: $natural-black;
   color: $natural-white;
   font-family: $font-heading;
+  width: 100%;
+  display: block;
 
   a {
     color: #fff;
@@ -10,7 +12,7 @@
 
 #content {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: space-between;
   padding: 2rem 0;
 }
@@ -47,10 +49,10 @@
 #sponsors {
   display: flex;
   gap: 2rem;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-flow: row wrap;
-  column-gap: 60px;
+  column-gap: 2rem;
 }
 
 .sponsor {
@@ -89,7 +91,12 @@
   #content {
     margin: 0 auto;
     flex-direction: column;
-    max-width: 90%;
+    width: 100%;
+    padding-inline: 1.5rem;
+  }
+  
+  #sponsors {
+    justify-content: center;
   }
 
   #contact {

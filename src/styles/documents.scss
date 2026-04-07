@@ -1,61 +1,163 @@
 @use '_variables' as *;
 
+$indent-step: 1rem;
+$indent-step-mobile: 0.5rem;
+
+// Helper mixin for indentation levels
+@mixin level-indent($level) {
+  margin-left: $level * $indent-step;
+  @media (max-width: $breakpoint-mobile) {
+    margin-left: $level * $indent-step-mobile;
+  }
+}
+
 @mixin documents {
   .document {
     margin-bottom: 5rem;
+    line-height: 1.6;
+    color: $natural-black;
+    overflow-wrap: break-word;
+    flex-direction: column;
 
-    h1, h2, h3, h4{
-        color: $as-violet-1;
+    & > * {
+      order: 10;
+      @include level-indent(0);
+      margin-top: 1.5rem; // Default spacing between elements
+      margin-bottom: 0;
     }
 
-    h1 {
-      //long main title / other big title
-      font-size: clamp(1.8rem, 4vw, 2.75rem);
-      font-weight: 600;
-      margin-left: auto;
-      margin-right: auto;
+    & > h1 {
+      order: 1;
+      display: block;
+      margin: 0 !important;
+      margin-left: 0 !important;
+      font-size: 2.5rem;
+      text-align: left;
     }
 
-    h2 {
-      //chapter / underlined title
-      font-size: clamp(1.5rem, 3.25vw, 2.4rem);
-      font-weight: 600;
-      margin-left: auto;
-      margin-right: auto;
-      border-bottom: 3px solid;
-      padding-bottom: 0.1em;
-    }
-
-    h3 {
-      // article/pykälä / smaller regular title
-      font-size: clamp(1.3rem, 2.8vw, 2.1rem);
-      font-weight: 600;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    h4 {
-      // subsection/clause
-      font-size: clamp(1.1rem, 2.1vw, 1.8rem);
-      font-weight: 500;
-      margin-left: auto;
-      margin-right: auto;
-      font-style: italic;
-    }
-
-    ul li::marker, ol li::marker {
+    h1, h2, h3, h4, h5, h6 {
       color: $as-violet-1;
+      font-family: $font-heading;
+      font-weight: 700;
+    }
+
+    h2, h3, h4 {
+      margin-top: 3rem; // Keep section separation
+      margin-bottom: 0.5rem;
+    }
+
+    p, ul, ol, blockquote, table, pre, img {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    // BASE LEVELS
+    h2 ~ * { @include level-indent(1); }
+    h3 ~ * { @include level-indent(2); }
+    h4 ~ * { @include level-indent(3); }
+
+    // RESET RULES
+    :is(h3, h4) ~ h2 ~ * { @include level-indent(1); }
+    h4 ~ h3 ~ * { @include level-indent(2); }
+    :is(h3, h4) ~ h2 ~ :is(h3, h4) ~ * { @include level-indent(2); }
+    :is(h3, h4) ~ h2 ~ h3 ~ h4 ~ * { @include level-indent(3); }
+
+    // HEADINGS INDENTATION
+    h2 { @include level-indent(0); font-size: clamp(1.6rem, 4vw, 2.2rem); border-bottom: 2px solid $as-violet-2; padding-bottom: 0.3rem; margin-left: 0 !important; }
+    h3 { @include level-indent(1); font-size: clamp(1.3rem, 3vw, 1.8rem); margin-top: 2rem; margin-left: $indent-step !important; @media (max-width: $breakpoint-mobile) { margin-left: $indent-step-mobile !important; } }
+    h4 { @include level-indent(2); font-size: clamp(1.1rem, 2.5vw, 1.5rem); margin-left: ($indent-step * 2) !important; @media (max-width: $breakpoint-mobile) { margin-left: ($indent-step-mobile * 2) !important; } }
+
+    :is(h3, h4) ~ h2 { margin-left: 0 !important; }
+    h4 ~ h3 { margin-left: $indent-step !important; @media (max-width: $breakpoint-mobile) { margin-left: $indent-step-mobile !important; } }
+
+    hr { 
+      border: none; 
+      border-top: 1px solid $as-violet-2; 
+      margin: 3rem 0; 
+      margin-left: 0 !important;
+      width: 100%;
+    }
+
+    .toc {
+      order: 3;
+      background: rgba($as-violet-1, 0.03);
+      padding: 1.5rem;
+      border: 1px solid $as-violet-2;
+      border-radius: 1rem;
+      margin-top: 1.5rem !important;
+      margin-bottom: 1rem !important;
+      margin-left: 0 !important;
+
+      & > h3, & > h2 {
+        text-align: left;
+        margin-top: 0;
+        margin-left: 0 !important;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        li {
+          margin-bottom: 0.25rem;
+          margin-left: 0 !important;
+          a { font-weight: 400; text-decoration: none; &:hover { text-decoration: underline; } }
+          ul { padding-left: 1.5rem; margin-top: 0.25rem; margin-left: 0 !important; }
+        }
+      }
+    }
+
+    a {
+      color: $natural-black;
+      text-decoration: underline;
+      text-underline-offset: 0.2rem;
+      font-weight: 600;
+      transition: color 0.2s ease;
+      &:hover { color: lighten($natural-black, 20%); }
     }
 
     ul, ol {
-      padding-left: 3rem;
-      margin-top: 0.5rem;
-      margin-bottom: 1rem;
+      padding-left: 2rem;
+      li {
+        margin-bottom: 0.5rem;
+        &::marker { color: $as-violet-1; font-weight: bold; }
+      }
     }
 
-    p {
-      margin-top: 0.5rem;
-      margin-bottom: 1rem;
+    blockquote {
+      border-left: 4px solid $as-violet-2;
+      padding: 0.5rem 0 0.5rem 1.5rem;
+      margin: 1.5rem 0;
+      font-style: italic;
+      background: rgba($as-violet-2, 0.1);
     }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+      th, td { border: 1px solid #ddd; padding: 0.75rem; text-align: left; }
+      th { background-color: rgba($as-violet-1, 0.05); color: $as-violet-1; font-weight: 700; }
+      tr:nth-child(even) { background-color: rgba($as-violet-1, 0.02); }
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      background-color: rgba($as-violet-1, 0.05);
+      padding: 0.2rem 0.4rem;
+      font-size: 0.9em;
+    }
+
+    pre {
+      background-color: #2d2d2d;
+      color: #f8f8f2;
+      padding: 1rem;
+      overflow-x: auto;
+      margin-bottom: 1.5rem;
+      code { background-color: transparent; padding: 0; color: inherit; font-size: inherit; }
+    }
+
+    img { max-width: 100%; height: auto; margin: 1rem 0; }
   }
 }

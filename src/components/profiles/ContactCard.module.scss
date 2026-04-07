@@ -5,7 +5,6 @@
 }
 
 .icon_field {
-  margin-left: -1rem;
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
@@ -15,8 +14,12 @@
 
 .contact_card {
   a {
-    color: $accent-violet-1;
+    color: $natural-black;
     text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   text-align: center;

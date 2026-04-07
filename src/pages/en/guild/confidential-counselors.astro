@@ -1,0 +1,29 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import ConfidentialCounselorsComponent from '@components/profiles/ConfidentialCounselor';
+import { getCollection } from 'astro:content';
+
+const counselorsEntries = await getCollection('counselors');
+const counselorsData = counselorsEntries[0]?.data ?? [];
+
+const description = 'Confidential counselors are here for you.';
+const lang = 'en';
+const slug = '/en/guild/confidential-counselors';
+---
+
+<BaseLayout
+  title="Confidential Counselors"
+  lead="Contact a Confidential Counselor if you see or encounter harassment in guild events or spaces. You can also report it anonymously by pressing the button below."
+  description={description}
+  lang={lang}
+  slug={slug}
+>
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSeFna7bOgli1Nj_UVHR_0aNRmURtYY_u40uwhqdfCZRmYsEmQ/viewform?usp=dialog"
+    class="rounded-button center-block"
+    style={{ marginBlock: '2rem' }}
+    target="_blank"
+    rel="noreferrer">Report harassment</a
+  >
+  <ConfidentialCounselorsComponent data={counselorsData} lang={lang} />
+</BaseLayout>

@@ -1,0 +1,34 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Minors from '@components/minors/Minors';
+import { getCollection } from 'astro:content';
+import img from '@assets/images/archive.jpg';
+
+const minorsEntries = await getCollection('minors');
+const minorsData = minorsEntries.map((entry) => entry.data);
+
+const description = 'Täältä löydät tietoa sivuaineista, joita AS-kilta suosittelee.';
+const lang = 'fi';
+const slug = '/studies/minor-guide';
+---
+
+<BaseLayout
+  title="Sivuaineopas"
+  lead="Täältä löydät tietoa sivuaineista, joita AS-kilta suosittelee."
+  description={description}
+  background={img}
+  lang={lang}
+  slug={slug}
+>
+  <p>
+    Tervetuloa lukemaan AS:n omaa sivuaineopasta! Opas on luotu yksittäisten kiltalaisten toimesta, ja pohjautuen heidän
+    kokemuksiin eri opinnoista.
+  </p>
+  <p>Tästä suuret kiitokset jokaiselle joka on antanut oman panoksensa tämän luomiseen.</p>
+  <p>
+    Oppaassa on vasta kaikkein suosituimmat sivuaineet, eli mikäli sinulla on sivuaine jota ei löydy listasta niin
+    ilmianna itsesi opintomestarille (opintomestari ät as.fi). Lisäksi muut palautteet, korjausehdotukset ja turhat
+    toiveet ovat aina tervetulleita.
+  </p>
+  <Minors client:load data={minorsData} lang={lang} />
+</BaseLayout>

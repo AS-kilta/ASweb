@@ -203,12 +203,10 @@ officials:
         title:
           - fi: 'Tosi-ISO'
             en: 'ReallyISO'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Pessi Lyytikäinen'
         title:
           - fi: 'Tosi-ISO'
             en: 'ReallyISO'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Erkka Multanen'
         title:
           - fi: 'Tosi-ISO'
@@ -229,7 +227,6 @@ officials:
         title:
           - fi: 'Automaatti'
             en: 'Automaton'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Juho Kerminen'
         title:
           - fi: 'Informaatti'
@@ -409,7 +406,6 @@ officials:
         title:
           - fi: 'Liikkuja'
             en: 'Sports Manager'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Leevi Hormaluoma'
         title:
           - fi: 'Liikkuja'
@@ -419,8 +415,6 @@ officials:
         title:
           - fi: 'Liikkuja'
             en: 'Sports Manager'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
-
   - name:
       fi: 'Huvitoimikunta'
       en: 'Entertainment Committee'
@@ -501,7 +495,6 @@ officials:
         title:
           - fi: 'MinIEn'
             en: 'MinIEn'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Sannina Honkaharju'
         title:
           - fi: 'MinIEn'
@@ -521,12 +514,10 @@ officials:
         title:
           - fi: 'MinIEn'
             en: 'MinIEn'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Maria Saranpää'
         title:
           - fi: 'MinIEn'
             en: 'MinIEn'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Nia Lehtonen'
         title:
           - fi: 'MinIEn'
@@ -781,7 +772,6 @@ officials:
         title:
           - fi: 'rrrRankkavastaava'
             en: 'rrrRankka Correspondent'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Aku Heinonen'
         title:
           - fi: 'Yrityssuhdeneuvonantaja'
@@ -807,12 +797,10 @@ officials:
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Joona Harju'
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Topias Malinen'
         title:
           - fi: 'Toimikunnan jäsen'
@@ -832,17 +820,14 @@ officials:
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Deepanker Kanjarla'
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'David Rombach'
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Mimi Määttä'
         title:
           - fi: 'Toimikunnan jäsen'
@@ -857,12 +842,10 @@ officials:
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Saku Kovanen'
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Ville Eronen'
         title:
           - fi: 'Toimikunnan jäsen'
@@ -882,8 +865,6 @@ officials:
         title:
           - fi: 'Toimikunnan jäsen'
             en: 'Member of Committee'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
-
   - name:
       fi: 'Mediatoimikunta'
       en: 'Media Committee'
@@ -923,7 +904,6 @@ officials:
         title:
           - fi: 'Viestijä'
             en: 'Communicator'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Axel Åberg'
         title:
           - fi: 'Viestijä'
@@ -938,7 +918,6 @@ officials:
         title:
           - fi: 'Viestijä'
             en: 'Communicator'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Elias Haarnoja'
         title:
           - fi: 'Viestijä'
@@ -1020,7 +999,6 @@ officials:
         title:
           - fi: 'Säätökisälli'
             en: 'Tinkerer'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Sakari Ropponen'
         title:
           - fi: 'Säätökisälli'
@@ -1045,8 +1023,6 @@ officials:
         title:
           - fi: 'Säätökisälli'
             en: 'Tinkerer'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
-
   - name:
       fi: 'Stimulaatio-toimikunta'
       en: 'Stimulaatio Committee'
@@ -1185,7 +1161,6 @@ officials:
         title:
           - fi: 'Retkisälli'
             en: 'Trip-prentice'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Ville Strengell'
         title:
           - fi: 'Retkisälli'
@@ -1200,12 +1175,10 @@ officials:
         title:
           - fi: 'Retkisälli'
             en: 'Trip-prentice'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Karla Rodriguez'
         title:
           - fi: 'Retkisälli'
             en: 'Trip-prentice'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Tiia-Maria Hyvönen'
         title:
           - fi: 'Retkisälli'
@@ -1235,7 +1208,6 @@ officials:
         title:
           - fi: 'Retkisälli'
             en: 'Trip-prentice'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Iivo Angerpuro'
         title:
           - fi: 'Retkisälli'
@@ -1245,7 +1217,6 @@ officials:
         title:
           - fi: 'Retkisälli'
             en: 'Trip-prentice'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Joonatan Tammisto'
         title:
           - fi: 'Retkisälli'
@@ -1270,8 +1241,6 @@ officials:
         title:
           - fi: 'Retkisälli'
             en: 'Trip-prentice'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
-
   - name:
       fi: 'Ulkoexcutoimikunta'
       en: 'Abroad excursion Committee'
@@ -1446,7 +1415,6 @@ officials:
         title:
           - fi: 'Stikkerisälli'
             en: 'Sticker Journeyperson'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
       - name: 'Rosa Phan'
         title:
           - fi: 'Stikkerisälli'
@@ -1511,7 +1479,6 @@ officials:
         title:
           - fi: 'Oltermanni'
             en: 'Alderman'
-        picture: 'https://as.fi/static/toimijat/aebaej_placeholder.png'
 accolades:
   - name:
       fi: 'Kultainen pränikkä'

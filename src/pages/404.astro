@@ -1,0 +1,14 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+
+const lang = 'fi';
+const slug = '/404';
+---
+
+<BaseLayout title="Sivua ei löytynyt" lang={lang} slug={slug}>
+  <div style="text-align: center; padding: 5rem 0;">
+    <h1>404: Sivua ei löytynyt</h1>
+    <p>Hups! Etsimääsi sivua ei ole olemassa.</p>
+    <a href="/" class="rounded-button" style="margin: 2rem auto;">Takaisin etusivulle</a>
+  </div>
+</BaseLayout>

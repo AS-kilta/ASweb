@@ -1,5 +1,5 @@
 import React from 'react';
-import * as style from './CircleCard.module.scss';
+import style from './CircleCard.module.scss';
 
 interface CCard {
   title: string;
@@ -12,11 +12,11 @@ const CircleCard: React.FC<CCard> = ({ title, link, targetSelf }) => {
   if (targetSelf) target = '_self';
 
   return (
-    <circle className={style.badge}>
+    <div className={style.badge}>
       <a href={link} target={target}>
         {title}
       </a>
-    </circle>
+    </div>
   );
 };
 
