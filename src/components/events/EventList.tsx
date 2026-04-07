@@ -100,7 +100,11 @@ const EventList: React.FC<{ number: number; lang: string }> = ({ number = 5, lan
     </li>
   );
 
-  return <ul className="event_list">{events.map(renderEvent)}</ul>;
+  return (
+    <div className={style.container}>
+      <ul className="event_list">{events.map(renderEvent)}</ul>
+    </div>
+  );
 };
 
 export default EventList;

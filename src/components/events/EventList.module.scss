@@ -1,45 +1,47 @@
-:global(.event_list) {
-  list-style: none;
-  padding-left: 0 !important;
-  padding-top: 0.2rem;
-  margin: 0;
-
-  :global(.eventListItem) {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-  }
-
-  p {
+.container {
+  :global(.event_list) {
+    list-style: none;
+    padding-left: 0 !important;
+    padding-top: 0.2rem;
     margin: 0;
-    line-height: 1.4;
-  }
 
-  :global(.summary) {
-    font-weight: bold;
-    line-height: 1.1;
-    margin-bottom: 0.2em;
-  }
+    :global(.eventListItem) {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
 
-  :global(.date) {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    p {
+      margin: 0;
+      line-height: 1.4;
+    }
 
-    background-color: $arduino-blue;
-    color: white;
+    :global(.summary) {
+      font-weight: bold;
+      line-height: 1.1;
+      margin-bottom: 0.2em;
+    }
 
-    font-size: 1.5rem;
-    aspect-ratio: 1;
-    flex-shrink: 0;
-    width: 3.5em;
-    padding: 1em;
+    :global(.date) {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
 
-    @media (max-width: $breakpoint-mobile) {
-      font-size: 1.1rem;
-      font-weight: 600;
+      background-color: $arduino-blue;
+      color: white;
+
+      font-size: 1.5rem;
+      aspect-ratio: 1;
+      flex-shrink: 0;
+      width: 3.5em;
+      padding: 1em;
+
+      @media (max-width: $breakpoint-mobile) {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
     }
   }
 }
