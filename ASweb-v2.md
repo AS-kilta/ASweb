@@ -61,8 +61,8 @@ This new file type is similar to Svelte or Vue components. It consists of frontm
 
 - `./public` is for assets that are directly available to the web.
 - `./src/assets` is for mostly pictures and icons.
-- `./src/components` is for UI components. Astro supports 
+- `./src/components` is for UI components. Astro supports multiple UI libraries such as React, Svelte, and Vue.
 - `./src/data` is for website data such as profiles, minor guides, and navigation.
 - `./src/layouts` is for reusable page templates. Used on basically every page.
 - `./src/pages` is the website root. Create `.astro` pages here and they are automatically routed based on the folder structure.
-- `./src/styles` is for CSS files.
+- `./src/styles` is for CSS/SCSS files.
