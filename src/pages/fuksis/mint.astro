@@ -1,0 +1,257 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import ContactCard from '@components/profiles/ContactCard';
+import CircleCard from '@components/common/CircleCard';
+import style from './fuksis.module.scss';
+import boardStyle from '@components/profiles/Board.module.scss';
+import ccStyle from '@components/common/CircleCard.module.scss';
+
+import heropic from '@src/assets/images/20230502154358-1c055172-xx.jpg';
+import fuksicaptain1 from '@src/assets/officials/2026/Jere_Hasu.jpg';
+import fuksicaptain2 from '@src/assets/officials/2026/NimrodPocsveiler.jpg';
+
+const description = 'Hei uusi MINT-fuksi! Aloita lukemalla tämä.';
+
+const data1 = {
+  title: "MISC (Master's and International Student Captain)",
+  name: 'Jere Hasu',
+  email: 'misc@as.fi',
+  telegram: 'JereHa',
+  picture: fuksicaptain1,
+};
+
+const data2 = {
+  title: "MISC (Master's and International Student Captain)",
+  name: 'Nimród Pocsveiler',
+  email: 'misc@as.fi',
+  telegram: 'TheDSDictator',
+  picture: fuksicaptain2,
+};
+
+const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
+---
+
+<BaseLayout
+  title="MINT-fuksina killassa"
+  background={heropic}
+  heroHeight="tall"
+  description={description}
+  lang="fi"
+  slug="/fuksis/mint"
+>
+  <div>
+    <br />
+    <p>
+      Hei uusi maisteri- tai vaihto-opiskelija (tästä eteenpäin MINT eli Master's and INTernational)! Onnittelut
+      opiskelupaikasta ja lämpimästi tervetuloa Automaatio- ja systeemitekniikan kiltaan! Me ollaan sun MISC:it Nimród
+      ja Jere ja meidän tehtävänä on tukea sua fuksivuoden seikkailuissa kohti teekkarilakkia. Näille sivuille ilmestyy
+      pitkin kesää kaikenlaista materiaalia, josta on apua opintojesi alussa ja ehkäpä koko vuoden ajan. MISC:einä me
+      ollaan ne tyypit, joihin voit ottaa yhteyttä kun jokin askarruttaa!
+    </p>
+  </div>
+
+  <div style={styleCard} class={boardStyle.board}>
+    <ContactCard data={data1} />
+    <ContactCard data={data2} />
+  </div>
+  <div>
+    <p>Jos mikään mietityttää tai on epäselvää älä pelkää olla yhteydessä meihin :)</p>
+  </div>
+
+  <h2 id="1" class="underline">Ennen opintojen alkua</h2>
+
+  <h3 id="Orientaion">Orientaatioviikko ja VarASlähtö</h3>
+  <div>
+    <p>
+      Orientaatioviikko järjestetään elokuun viimeisellä viikolla, 24.-28.8. On suositeltavaa olla viikolla paikalla,
+      joten se kannattaa merkitä kalenteriin jo nyt!
+    </p>
+    <p>
+      Fuksivuoden rientoihin on mahdollisuus ottaa varaslähtö lauantaina 15.8. klo 14 alkaen Alvarin aukiolla,
+      Otaniemessä. VarASlähdössä pääset tutustumaan uusiin fukseihin, ISOihin eli tutoreihin ja meihin jo ennen
+      orientaatioviikkoa. Lisää tietoa VarASlähdöstä tulee myöhemmin Telegramiin!
+    </p>
+  </div>
+
+  <h3 id="Telegram">Telegram</h3>
+  <div>
+    <p>
+      Telegram, kavereiden kesken “tg”, on Otaniemen käytetyin sovellus kommunikaatioon. Telegram on myös meidän
+      killassa oleellinen osa tiedotusta ja me toivotaankin, että kaikki MINT-fuksit liittyvät MINT-fukseille
+      tarkoitettuun Telegram-ryhmään <a href="https://t.me/+PtDQOEUKIkFhNTNk">AS MINT Fuksis '26</a> sekä ryhmään kaikille
+      sähkötekniikan korkeakoulun MINT-fukseille <a href="https://t.me/elecInt26">ELEC International 26-27</a>.
+      Laittakaa seurantaan myös <a href="https://t.me/MINTannouncements26">AS MINT Annoucements '26</a>. Tälle kanavalle
+      lähetetään kaikki sinua koskeva tärkeä info, jotta mikään ei jää huomaamatta! Näillä kanavilla kommunikaatio on
+      suurimmaksi osaksi englanniksi.
+    </p>
+  </div>
+
+  <div class={style.cardlist}>
+    <CircleCard
+      title="Ota opiskelupaikka vastaan"
+      link="https://opintopolku.fi/konfo/fi/sivu/paikan-vastaanotto-ja-ilmoittautuminen-korkeakouluun"
+    />
+    <CircleCard
+      title="Ilmoittaudu läsnäolevaksi"
+      link="https://www.aalto.fi/fi/hakemukset-ohjeet-ja-saannot/lukuvuosi-ilmoittautuminen"
+    />
+    <CircleCard
+      title="Liity killan jäseneksi"
+      link="https://kide.app/memberships/9864c555-8dbe-40c8-9246-064ca682e587"
+    />
+    <CircleCard title="Hae opiskelijakorttia" link="https://www.frank.fi/opiskelijakortti/" />
+    <div class={ccStyle.badge}>
+      Hae asuntoa&nbsp;
+      <a href="https://domo.ayy.fi" target="_blank" rel="noreferrer"> AYY:ltä </a>
+      &nbsp;tai&nbsp;
+      <a href="https://hoas.fi" target="_blank" rel="noreferrer"> HOASilta </a>
+    </div>
+    <CircleCard title="Hanki matkakortti" link="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti" />
+    <CircleCard title="Lue fuksiopas" link="./fuksis/fuksiguide-mint" targetSelf />
+    <CircleCard title="Liity MINT-fuksien Telegram-ryhmään" link="./mint#Telegram" targetSelf />
+  </div>
+
+  <h2 id="Kilta" class="underline">Yleistä tietoa</h2>
+
+  <h3 id="Kilta">Kilta ja fuksit</h3>
+  <div>
+    <p>
+      AS-kilta on AYY:n alainen erityisasemayhdistys, joka yhdistää Automaation ja robotiikan, Informaatioteknologian,
+      Digital Systems and Design kandi-pääaineiden opiskelijoita, maisteriopikselijoita pääaineista Control, Robotics
+      and Autonomous Systems, Communications Engineering,Signal Processing and Data Science, Speech and Language
+      Technology, Communications and Data Science sekä Space Science and Technology sekä vaihto-opiskelijoita
+      samankaltaisista pääaineista. Kiltaan kuuluu myös muiden koulutusohjelmien opiskelijoita, joita kiinnostaa AS:n
+      toiminta. Kilta järjestää jäsenilleen monipuolista ohjelmaa, valvoo heidän etujaan korkeakoulun toimielimissä sekä
+      tekee yhteistyötä muiden opiskelijayhdistysten ja yritysten kanssa.
+    </p>
+    <p>
+      AS vastaanottaa vuosittain noin 130 MINT-fuksia, joiden integroitumisesta kiltaan huolehtii killan MISC:it,
+      apunaan killan kandipuolen Fuksikapteenit, ISOpomo, DSDeputy ja fuksiaASistentit. Yhdessä nämä muodostavat killan
+      fuksitoimikunnan eli ASPUn.
+    </p>
+    <p>
+      ASPUn apuna toimii lisäksi suuri joukko innokkaita ISOja, joiden tehtävä on olla teidän tukena koko fuksivuoden
+      ajan opintoihin ja opiskelijaelämään liittyvissä asioissa. Olemme sijoittaneet sinut fuksiryhmään, johon kuuluu
+      noin kahdenkymmenen muun fuksin lisäksi muutama ISO. Pääset tutustumaan omaan fuksiryhmääsi VarASlähdössä ja
+      orientaatioviikolla. Koko ASPU ja ISOt on täällä teitä varten!
+    </p>
+  </div>
+
+  <h3 id='lakkitutkinto""'>Lakkitutkinto</h3>
+  <div>
+    <p>
+      Teekkarilakki on ehdottomasti teekkarin tärkein tunnusmerkki, eikä sitä saa kuka tahansa käyttää. Voit saada
+      oikeuden teekkarilakin käyttämiseen suorittamalla lakkitutkinnon, jolloin pääset painamaan lakin päähäsi
+      mahdollisena Wappuna täsmälleen keskiyönä.
+    </p>
+    <p>
+      Lakkitutkinnon sisältö on täsmennetty fuksipistekortissa, jollaisen jokainen fuksi saa heti orientaatioviikon
+      alussa. Älä kuitenkaan huoli, jos korttien jako menee silloin ohi, sillä pistekortin saat myös myöhemmin kysymällä
+      MISC:eiltä.
+    </p>
+    <p>
+      Fuksipistekortin pisteiden suorittaminen tarjoaa loistavan mahdollisuuden tutustua kaikkeen siihen, mitä Otaniemi
+      opiskelijoille tarjoaa. Pisteistä ei kuitenkaan kannata stressata, sillä lakkitutkintoon vaadittavat pisteet saa
+      kasaan helposti, ja kun opiskelijaelämästä innostuu, niitä tuntuu tulevan vähän joka suunnasta!
+    </p>
+  </div>
+
+  <h3 id="haalarit">Haalarit</h3>
+  <div>
+    <p>
+      Haalarit ovat opiskelijan tunnistettavin merkki. Jokaisella Aallon killalla ja osakunnalla on oman värisensä
+      haalarit. AS:n opiskelijoilla on violetit haalarit, joissa on musta hiha, jota koristaa valkoinen tasku. Lisäksi
+      haalareissa on arduinonsininen reisitasku. Omat haalarisi voit tilata orientaatioviikolla. Haalareita saa tuunata
+      omannäköiseksi, esimerkiksi ompelemalla niihin haalarimerkkejä. Muistathan, että merkit tulee ommella kiinni
+      käsin!
+    </p>
+    <p>
+      Mikäli havaitset haalareissa jotakin vikaa tai valitettavaa, ilmoitathan asiasta heti MISC:eille, sillä
+      valmistusvirheistä johtuvat viat korjataan. Kaikki osat, kuten napit ja vetoketju, eivät välttämättä kestä kovinta
+      menoa, mutta niitä on onneksi helppo korjata itse. Voit kysyä tarpeen tullen vinkkejä vanhemmilta kiltalaisilta!
+    </p>
+  </div>
+
+  <h3 id="linkkeja">Hyödyllisiä linkkejä</h3>
+
+  <div class={style.table}>
+    <div class={style.list}>
+      <h4 class={style.list__title}>OPINNOT</h4>
+      <ul>
+        <li>
+          <a href="https://mycourses.aalto.fi/" target="_blank" rel="noreferrer"> MyCourses </a>{' '}
+          (Täältä löytyy tietoa kursseista)
+        </li>
+        <li>
+          <a href="https://sisu.aalto.fi/student/" target="_blank" rel="noreferrer"> Sisu </a>{' '}
+          (Täällä tapahtuu kursseille, välikokeisiin ja tentteihin ilmoittautuminen)
+        </li>
+        <li>
+          <a href="https://www.aalto.fi/fi/sahkotekniikan-korkeakoulu" target="_blank" rel="noreferrer">
+            Sähkötekniikan korkeakoulu
+          </a>
+        </li>
+        <li>
+          <a href="https://aalto.fi/" target="_blank" rel="noreferrer"> Aalto-yliopisto </a>
+        </li>
+        <li>
+          <a href="https://aalto.fi/fi/opiskelijan-opas/" target="_blank" rel="noreferrer"> Opiskelijan opas </a>{' '}
+          (Tietoa ja ohjeita opinnoista)
+        </li>
+        <li>
+          <a href="https://www.aalto.fi/fi/palvelut/aalto-space-mobiilisovellus" target="_blank" rel="noreferrer">
+            Aalto Space -sovellus
+          </a>{' '}
+          (Varaa Otaniemen tiloja opiskeluun)
+        </li>
+      </ul>
+    </div>
+    <div class={style.list}>
+      <h4 class={style.list__title}>TERVEYDENHOITO</h4>
+      <ul>
+        <li>
+          <a href="https://www.yths.fi/" target="_blank" rel="noreferrer"> YTHS </a>
+        </li>
+        <li>Otaniemi: Otakaari 12</li>
+        <li>Töölö: Töölönkatu 37 a</li>
+      </ul>
+    </div>
+    <div class={style.list}>
+      <h4 class={style.list__title}>LIIKKUMINEN</h4>
+      <ul>
+        <li>
+          <a href="https://www.hsl.fi/" target="_blank" rel="noreferrer"> HELSINGIN SEUDUN LIIKENNE </a>
+        </li>
+        <li>
+          <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti" target="_blank" rel="noreferrer"> Matkakortti </a>
+        </li>
+        <li>
+          <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-sovellus" target="_blank" rel="noreferrer"> HSL-sovellus </a>
+        </li>
+      </ul>
+    </div>
+    <div class={style.list}>
+      <h4 class={style.list__title}>RUOKAILU</h4>
+      <ul>
+        <li>
+          <a href="https://kanttiinit.fi/" target="_blank" rel="noreferrer"> Kanttiinit </a>{' '}
+          (opiskelijaravintoloiden ruokalistat)
+        </li>
+      </ul>
+    </div>
+    <div class={style.list}>
+      <h4 class={style.list__title}>ASUMINEN</h4>
+      <ul>
+        <li>
+          <a href="https://ayyasunnot.fi/" target="_blank" rel="noreferrer"> AYY-asumisinfo </a>
+        </li>
+        <li>
+          <a href="https://domo.ayy.fi/" target="_blank" rel="noreferrer"> Domo-asuntopalvelu (AYY) </a>
+        </li>
+        <li>
+          <a href="https://hoas.fi/" target="_blank" rel="noreferrer"> HOAS </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</BaseLayout>

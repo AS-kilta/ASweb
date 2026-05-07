@@ -59,20 +59,26 @@
         fi: '/fuksis/fuksiguide'
         en: '/en/fuksis/fuksiguide'
     - title:
-        fi: 'Maisterien ja vaihtarien Fuksiopas'
-        en: 'Masters and exchange Fuksiguide'
-      link:
-        fi: '/fuksis/fuksiguide-mint'
-        en: '/en/fuksis/fuksiguide-mint'
-    - title:
         fi: 'Orientaatioviikko'
         en: 'DSD Orientation week'
       link:
         fi: '/fuksis/orientationweek'
         en: '/en/fuksis/orientationweek'
     - title:
+        fi: 'Maisterifukseille ja vaihto-opiskelijoille'
+        en: "Master's fuksis and exchange students"
+      link:
+        fi: '/fuksis/mint'
+        en: '/en/fuksis/mint'
+    - title:
+        fi: 'Maisterien ja vaihtarien Fuksiopas'
+        en: "Master's and exchange Fuksiguide"
+      link:
+        fi: '/fuksis/fuksiguide-mint'
+        en: '/en/fuksis/fuksiguide-mint'
+    - title:
         fi: 'Maisterien ja vaihtarien Orientaatioviikko'
-        en: 'Masters and exchange Orientation week'
+        en: "Master's and exchange Orientation week"
       link:
         fi: '/fuksis/orientationweek-mint'
         en: '/en/fuksis/orientationweek-mint'
