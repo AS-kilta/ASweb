@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import ContactCard from '@components/profiles/ContactCard';
 import CircleCard from '@components/common/CircleCard';
+import Links from '@components/fuksis/Links.astro';
 import style from './fuksis.module.scss';
 import boardStyle from '@components/profiles/Board.module.scss';
 import ccStyle from '@components/common/CircleCard.module.scss';
@@ -176,85 +177,5 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
   </div>
 
   <h3 id="linkkeja">Hyödyllisiä linkkejä</h3>
-
-  <div class={style.table}>
-    <div class={style.list}>
-      <h4 class={style.list__title}>OPINNOT</h4>
-      <ul>
-        <li>
-          <a href="https://mycourses.aalto.fi/" target="_blank" rel="noreferrer"> MyCourses </a>{' '}
-          (Täältä löytyy tietoa kursseista)
-        </li>
-        <li>
-          <a href="https://sisu.aalto.fi/student/" target="_blank" rel="noreferrer"> Sisu </a>{' '}
-          (Täällä tapahtuu kursseille, välikokeisiin ja tentteihin ilmoittautuminen)
-        </li>
-        <li>
-          <a href="https://www.aalto.fi/fi/sahkotekniikan-korkeakoulu" target="_blank" rel="noreferrer">
-            Sähkötekniikan korkeakoulu
-          </a>
-        </li>
-        <li>
-          <a href="https://aalto.fi/" target="_blank" rel="noreferrer"> Aalto-yliopisto </a>
-        </li>
-        <li>
-          <a href="https://aalto.fi/fi/opiskelijan-opas/" target="_blank" rel="noreferrer"> Opiskelijan opas </a>{' '}
-          (Tietoa ja ohjeita opinnoista)
-        </li>
-        <li>
-          <a href="https://www.aalto.fi/fi/palvelut/aalto-space-mobiilisovellus" target="_blank" rel="noreferrer">
-            Aalto Space -sovellus
-          </a>{' '}
-          (Varaa Otaniemen tiloja opiskeluun)
-        </li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>TERVEYDENHOITO</h4>
-      <ul>
-        <li>
-          <a href="https://www.yths.fi/" target="_blank" rel="noreferrer"> YTHS </a>
-        </li>
-        <li>Otaniemi: Otakaari 12</li>
-        <li>Töölö: Töölönkatu 37 a</li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>LIIKKUMINEN</h4>
-      <ul>
-        <li>
-          <a href="https://www.hsl.fi/" target="_blank" rel="noreferrer"> HELSINGIN SEUDUN LIIKENNE </a>
-        </li>
-        <li>
-          <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti" target="_blank" rel="noreferrer"> Matkakortti </a>
-        </li>
-        <li>
-          <a href="https://www.hsl.fi/liput-ja-hinnat/hsl-sovellus" target="_blank" rel="noreferrer"> HSL-sovellus </a>
-        </li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>RUOKAILU</h4>
-      <ul>
-        <li>
-          <a href="https://kanttiinit.fi/" target="_blank" rel="noreferrer"> Kanttiinit </a>{' '}
-          (opiskelijaravintoloiden ruokalistat)
-        </li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>ASUMINEN</h4>
-      <ul>
-        <li>
-          <a href="https://ayyasunnot.fi/" target="_blank" rel="noreferrer"> AYY-asumisinfo </a>
-        </li>
-        <li>
-          <a href="https://domo.ayy.fi/" target="_blank" rel="noreferrer"> Domo-asuntopalvelu (AYY) </a>
-        </li>
-        <li>
-          <a href="https://hoas.fi/" target="_blank" rel="noreferrer"> HOAS </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <Links />
 </BaseLayout>
