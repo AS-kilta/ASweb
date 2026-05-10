@@ -2,29 +2,30 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import ContactCard from '@components/profiles/ContactCard';
 import CircleCard from '@components/common/CircleCard';
+import Links from '@components/fuksis/Links_eng.astro';
 import style from '@src/pages/fuksis/fuksis.module.scss';
 import boardStyle from '@components/profiles/Board.module.scss';
 import ccStyle from '@components/common/CircleCard.module.scss';
 
 import heropic from '@src/assets/images/20230502154358-1c055172-xx.jpg';
-import fuksicaptain1 from '@src/assets/officials/2025/joel_forsstrom2.jpg';
-import fuksicaptain2 from '@src/assets/officials/2025/kalle_kajoniemi.jpg';
+import fuksicaptain1 from '@src/assets/officials/2026/Milja_Janis.jpg';
+import fuksicaptain2 from '@src/assets/officials/2026/Elsa_Kuntsi.jpg';
 
 const description = 'Hi there, fuksi! Start by reading this.';
 
 const data1 = {
   title: 'Fuksi Captain',
-  name: 'Joel Forsström',
+  name: 'Milja Jänis',
   email: 'fuksikapteeni@as.fi',
-  telegram: 'joel_forsstrom',
+  telegram: 'kalavelho',
   picture: fuksicaptain1,
 };
 
 const data2 = {
   title: 'Fuksi Captain',
-  name: 'Kalle Kajoniemi',
+  name: 'Elsa Kuntsi',
   email: 'fuksikapteeni@as.fi',
-  telegram: 'kalleinta',
+  telegram: 'saippuamarja',
   picture: fuksicaptain2,
 };
 
@@ -42,26 +43,53 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
   <div>
     <br />
     <p>
-      Hello new Fuksi and welcome to the Guild of Automation and Systems Technology! Throughout the summer, we'll be
-      gathering all sorts of useful material on these pages to help you get started with your studies — and maybe even
-      support you throughout your whole first year. The Fuksi Captains are the people you should reach out to whenever
-      anything at all is bothering you — or even just for fun! :)
+      Hello new fuksi! Congratulations on your study place and a warm welcome to the Guild of Automation and Systems
+      Technology! We are your Fuksi Captains Elsa and Milja, and our job is to support you in your fuksi year’s
+      adventures towards your teekkari cap. All sorts of useful material will be gathered here throughout the summer to
+      help you get started with your studies and support you through your whole first year. As the Fuksi Captains, we
+      are the people you can reach out to whenever anything at all is bothering you, or even just for fun!
     </p>
   </div>
+
   <div style={styleCard} class={boardStyle.board}>
     <ContactCard data={data1} />
     <ContactCard data={data2} />
   </div>
-
   <div>
-    <br />
-    <p>
-      Whether it's something small or a bigger concern, a Fuksi Captain will do their best to help — even in the middle
-      of the night. (Though we do recommend contacting us during the day.)
-    </p>
+    <p>Whether it’s something small or a big concern, we will answer and do our best to help. :)</p>
   </div>
 
   <h2 id="1" class="underline">Before the start of your studies</h2>
+
+  <h3 id="Orientaion">Orientation week and VarASlähtö</h3>
+  <div>
+    <p>
+      Orientation week will be organised in the last week of August, 24.-28.8. You should already mark this in your
+      calendar! The eventful week starts on Monday the 24th of August at 9:00 with a delicious breakfast at the
+      Undergraduate Centre (Otakaari 1).
+    </p>
+    <p>
+      You have a chance to get a head start to the events of the fuksi year on Saturday the 15th of August starting at
+      14:00 on Alvari Square (Alvarinaukio), in Otaniemi. In VarASlähtö you can get to know fellow new fuksis, ISOs
+      (tutors), and us already before orientation week. More information about VarASlähtö will be shared later on
+      Telegram!
+    </p>
+  </div>
+
+  <h3 id="Telegram">Telegram</h3>
+  <div>
+    <p>
+      Telegram, known as “tg” among friends, is the most used app for communication in Otaniemi. Telegram is also used
+      in our guild as an essential tool in giving out very important information to fuksis, and we hope that all fuksis
+      join the Telegram group for <a href="https://t.me/+_mVvsclQIKsxOGQ0">AS bachelor fuksis</a> and DSD (Digital systems
+      and design) fuksis also join the group for <a href="https://t.me/+P9iw4WYk4xMxN2Jk">DSD fuksis</a>. In addition,
+      we recommend following the <a href="https://t.me/ASFuksitiedotus26"
+        >announcements channel for AS bachelor fuksis</a
+      >. All important information that you need to know will be sent to this channel, so that you won’t miss anything!
+    </p>
+  </div>
+
+  <h3 id="1" class="underline">Checklist before the Autumn</h3>
 
   <div class={style.cardlist}>
     <CircleCard
@@ -85,143 +113,68 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
     </div>
     <CircleCard title="Apply for a study grant" link="https://www.kela.fi/opintotuki" />
     <CircleCard title="Get a HSL travel card" link="https://www.hsl.fi/en/tickets-and-fares/hsl-card" />
+    <CircleCard title="Read the fuksiguide" link="./fuksis/fuksiguide" targetSelf />
     <CircleCard title="Join the AS fuksis Telegram group" link="./fuksis#Telegram" targetSelf />
-    <CircleCard title="Useful links" link="./fuksis#links" targetSelf />
   </div>
 
-  <h3 id="Telegram">Telegram</h3>
-  <div>
-    <p>
-      Otaniemi's most used application for communication and information. Telegram, known as "tg" among friends, is
-      definitely Otaniemi teekkari's most important application. In its basic functions, it resembles any messaging app,
-      but its additional features have captured the hearts of the teekkaris. It contains, for example, stickers, and
-      also works online or on a computer!
-    </p>
-    <p>
-      Telegram is also used as an essential part of informing fuksis, and we hope that all fuksis would join the
-      Telegram group for AS fuksis <a href="https://t.me/+qQzXeRrsDu9mOWQ8">fuksit 25</a> and DSD fuksis also join the own
-      Telegram group for DSD fuksis <a href="https://t.me/+m0GXxm6Fk58xZTg0">DSD fuksit 25</a>
-    </p>
-  </div>
+  <h2 id="Kilta" class="underline">General information</h2>
 
-  <h3 id="Guild">Guild and Fuksis</h3>
+  <h3 id="Kilta">Guild and Fuksis</h3>
   <div>
     <p>
-      AS guild is a special status association under AYY, which unites students of Automation and Robotics, Information
-      Technology and Digital Systems and Design majors. The guild may also include students from other education
-      programs who are interested in AS's activities. The guild organizes many events for its members, monitors their
-      interests in the university's institutions and cooperates with other student associations and companies.
+      AS guild is a special status association under AYY, uniting students of Automation and Robotics, Information
+      Technology as well as Digital Systems and Design majors. The guild also includes students from other programmes
+      who are interested in AS’s activities. AS organises many events for its members, advocates for them at the
+      university’s bodies and cooperates with other student associations and companies.
     </p>
     <p>
-      The AS guild receives about 200 fuksis every year, whose integration into the guild is taken care of by the
-      guild's Fuksi Captains, assisted by the Masters and International Student Captain, the ISO boss and Fuksi
-      aASistants. Together, these form the guild's fuksicommittee, ASPU.
+      AS welcomes over 200 bachelor fuksis each year, whose integration into the guild is taken care of by the guild’s
+      Fuksi Captains with help from the Master's and International Student Captains (MISCs), the ISOboss, DSDeputy and
+      Fuksi aASistants. Together these form the guild’s Fuksi Committee, ASPU.
     </p>
     <p>
-      ASPU is assisted by a large number of ISOs, whose tasks include introducing the fuksis to the campus and student
-      life on their first days, and organizing entertainment for their fuksigroups throughout the year.
+      ASPU is assisted by a large number of enthusiastic ISOs, whose job it is to support you throughout the whole year
+      regarding anything to do with studies or student life. We have placed you in a fuksi group that consists of around
+      10 fuksis as well as a few ISOs. You will get to know your fuksi group in VarASlähtö and during the orientation
+      week. All of ASPU and every ISO is here for you!
     </p>
   </div>
 
-  <h3 id="Fuksipointcard">Fuksi points card</h3>
+  <h3 id='lakkitutkinto""'>Cap degree</h3>
   <div>
     <p>
-      A fuksi who has collected enough points for the fuksi points card is entitled to receive a teekkari cap at the
-      possible Wappu. Points are accumulated in several categories, including, for example, getting to know the teekkari
-      culture, study-related events, and various volunteer activities at the guild and elsewhere. When filling out the
-      points card, it's a great opportunity to get to know everything that Aalto University, AYY, the guilds and
-      Otaniemi have to offer students.
+      The tekkari cap is without a doubt the most important emblem of a teekkari, and not just anyone can wear it. You
+      can receive your teekkari cap by completing the cap degree, whereupon you will get to put the cap on your head at
+      the possible Wappu at exactly midnight.
     </p>
     <p>
-      Points cards are distributed on the first day of the orientation week. If the fuksis can't make it, they can get a
-      point card from the Captains by asking later. The entries on the points card are accepted by the Captains, and you
-      can always ask them about the points when the opportunity arises. You shouldn't stress about points, because if
-      you get excited about things, they seem to come from every direction!
+      The contents of the cap degree are specified in the fuksi point card, which every fuksi will receive right at the
+      beginning of the orientation week. Don’t worry if you can’t make it though – you can also get it later from the
+      Captains.
+    </p>
+    <p>
+      Filling out the point card is a great opportunity to get to know everything that Aalto, AYY, the guilds, and
+      Otaniemi in general have to offer. There’s no need to stress about the points, because it’s easy to get enough
+      points for the cap degree, and when student life hooks you in, they seem to come from every direction!
+    </p>
+  </div>
+
+  <h3 id="haalarit">Overalls</h3>
+  <div>
+    <p>
+      Overalls are an outfit from which a Finnish student can be recognised. Every guild has overalls in their own
+      signature colour. Students of AS have purple overalls that have a black sleeve with a white pocket, and an
+      arduino-blue pocket on the thigh. You can order your own overalls during the orientation week. You can decorate
+      your overalls to your liking, for example by sewing on overall patches. Remember that patches should be sewn on by
+      hand!
+    </p>
+    <p>
+      If you notice something wrong with the overalls, please report it immediately. Defects caused by manufacturing
+      errors will be repaired. Not all parts, such as the buttons and the zipper, can withstand super heavy use, but
+      they are quite easy to fix yourself. You can ask older guild members for tips!
     </p>
   </div>
 
   <h3 id="links">Useful links</h3>
-
-  <div class={style.table}>
-    <div class={style.list}>
-      <h4 class={style.list__title}>STUDIES</h4>
-      <ul>
-        <li>
-          <a href="https://mycourses.aalto.fi/?lang=en" target="_blank" rel="noreferrer"> MyCourses </a>{' '}
-          (Here you can find information about courses)
-        </li>
-        <li>
-          <a href="https://sisu.aalto.fi/student/" target="_blank" rel="noreferrer"> Sisu </a>{' '}
-          (Registration for courses, midterms and exams takes place here)
-        </li>
-        <li>
-          <a href="https://www.aalto.fi/en/school-of-electrical-engineering" target="_blank" rel="noreferrer">
-            School of Electrical Engineering
-          </a>
-        </li>
-        <li>
-          <a href="https://aalto.fi/en" target="_blank" rel="noreferrer"> Aalto University </a>
-        </li>
-        <li>
-          <a href="https://www.aalto.fi/en/student-guide" target="_blank" rel="noreferrer"> Student guide </a>{' '}
-          (Information and instructions about studies)
-        </li>
-        <li>
-          <a href="https://www.aalto.fi/en/services/aalto-space-mobile-application" target="_blank" rel="noreferrer">
-            Aalto Space application
-          </a>{' '}
-          (Reserve spaces for studying)
-        </li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>HEALTH CARE</h4>
-      <ul>
-        <li>
-          <a href="https://www.yths.fi/en/frontpage/" target="_blank" rel="noreferrer"> YTHS </a>
-        </li>
-        <li>Otaniemi: Otakaari 12</li>
-        <li>Töölö: Töölönkatu 37 a</li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>TRANSPORT</h4>
-      <ul>
-        <li>
-          <a href="https://www.hsl.fi/en" target="_blank" rel="noreferrer"> HELSIKI REGION TRANSPORT </a>
-        </li>
-        <li>
-          <a href="https://www.hsl.fi/en/tickets-and-fares/hsl-card" target="_blank" rel="noreferrer"> Travel card </a>
-        </li>
-        <li>
-          <a href="https://www.hsl.fi/en/tickets-and-fares/hsl-app" target="_blank" rel="noreferrer">
-            HSL application
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>EATING</h4>
-      <ul>
-        <li>
-          <a href="https://kanttiinit.fi/" target="_blank" rel="noreferrer"> Canteens </a>{' '}
-          (student cafeteria menus)
-        </li>
-      </ul>
-    </div>
-    <div class={style.list}>
-      <h4 class={style.list__title}>HOUSING</h4>
-      <ul>
-        <li>
-          <a href="https://www.ayy.fi/en/housing" target="_blank" rel="noreferrer"> AYY housing info </a>
-        </li>
-        <li>
-          <a href="https://domo.ayy.fi/en" target="_blank" rel="noreferrer"> Domo housing service (AYY) </a>
-        </li>
-        <li>
-          <a href="https://hoas.fi/en" target="_blank" rel="noreferrer"> HOAS </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <Links />
 </BaseLayout>

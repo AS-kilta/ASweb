@@ -59,26 +59,26 @@
         fi: '/fuksis/fuksiguide'
         en: '/en/fuksis/fuksiguide'
     - title:
-        fi: 'MINT Fuksiopas'
-        en: 'MINT Fuksiguide'
-      link:
-        fi: '/fuksis/fuksiguide-mint'
-        en: '/en/fuksis/fuksiguide-mint'
-    - title:
-        fi: 'Teekkarikulttuuri'
-        en: 'Teekkariculture'
-      link:
-        fi: '/fuksis/teekkariculture'
-        en: '/en/fuksis/teekkariculture'
-    - title:
         fi: 'Orientaatioviikko'
         en: 'DSD Orientation week'
       link:
         fi: '/fuksis/orientationweek'
         en: '/en/fuksis/orientationweek'
     - title:
-        fi: 'MINT Orientaatioviikko'
-        en: 'MINT Orientation week'
+        fi: 'Maisterifukseille ja vaihto-opiskelijoille'
+        en: "Master's fuksis and exchange students"
+      link:
+        fi: '/fuksis/mint'
+        en: '/en/fuksis/mint'
+    - title:
+        fi: 'Maisterien ja vaihtarien Fuksiopas'
+        en: "Master's and exchange Fuksiguide"
+      link:
+        fi: '/fuksis/fuksiguide-mint'
+        en: '/en/fuksis/fuksiguide-mint'
+    - title:
+        fi: 'Maisterien ja vaihtarien Orientaatioviikko'
+        en: "Master's and exchange Orientation week"
       link:
         fi: '/fuksis/orientationweek-mint'
         en: '/en/fuksis/orientationweek-mint'

@@ -2,30 +2,30 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import ContactCard from '@components/profiles/ContactCard';
 import CircleCard from '@components/common/CircleCard';
-import Links from '@components/fuksis/Links.astro';
 import style from './fuksis.module.scss';
+import Links from '@components/fuksis/Links.astro';
 import boardStyle from '@components/profiles/Board.module.scss';
 import ccStyle from '@components/common/CircleCard.module.scss';
 
 import heropic from '@src/assets/images/20230502154358-1c055172-xx.jpg';
-import fuksicaptain1 from '@src/assets/officials/2026/Milja_Janis.jpg';
-import fuksicaptain2 from '@src/assets/officials/2026/Elsa_Kuntsi.jpg';
+import fuksicaptain1 from '@src/assets/officials/2026/Jere_Hasu.jpg';
+import fuksicaptain2 from '@src/assets/officials/2026/NimrodPocsveiler.jpg';
 
-const description = 'Hei uusi fuksi! Aloita lukemalla tämä.';
+const description = 'Hei uusi MINT-fuksi! Aloita lukemalla tämä.';
 
 const data1 = {
-  title: 'fuksikapteeni',
-  name: 'Milja Jänis',
-  email: 'fuksikapteeni@as.fi',
-  telegram: 'kalavelho',
+  title: "MISC (Master's and International Student Captain)",
+  name: 'Jere Hasu',
+  email: 'misc@as.fi',
+  telegram: 'JereHa',
   picture: fuksicaptain1,
 };
 
 const data2 = {
-  title: 'fuksikapteeni',
-  name: 'Elsa Kuntsi',
-  email: 'fuksikapteeni@as.fi',
-  telegram: 'saippuamarja',
+  title: "MISC (Master's and International Student Captain)",
+  name: 'Nimród Pocsveiler',
+  email: 'misc@as.fi',
+  telegram: 'TheDSDictator',
   picture: fuksicaptain2,
 };
 
@@ -33,21 +33,21 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
 ---
 
 <BaseLayout
-  title="Fuksina killassa"
+  title="MINT-fuksina killassa"
   background={heropic}
   heroHeight="tall"
   description={description}
   lang="fi"
-  slug="/fuksis"
+  slug="/fuksis/mint"
 >
   <div>
     <br />
     <p>
-      Hei uusi fuksi! Onnittelut opiskelupaikasta ja lämpimästi tervetuloa Automaatio- ja systeemitekniikan kiltaan! Me
-      ollaan sun fuksikapteenit Elsa ja Milja ja meidän tehtävänä on tukea sua fuksivuoden seikkailuissa kohti
-      teekkarilakkia. Näille sivuille ilmestyy pitkin kesää kaikenlaista materiaalia, josta on apua opintojesi alussa ja
-      ehkäpä jopa koko ensimmäisen vuoden ajan. Fuksikapteeneina me ollaan ne tyypit, joihin voit ottaa yhteyttä kun
-      mikä tahansa on huonosti tai ihan muuten vaan!
+      Hei uusi maisteri- tai vaihto-opiskelija (tästä eteenpäin MINT eli Master's and INTernational)! Onnittelut
+      opiskelupaikasta ja lämpimästi tervetuloa Automaatio- ja systeemitekniikan kiltaan! Me ollaan sun MISC:it Nimród
+      ja Jere ja meidän tehtävänä on tukea sua fuksivuoden seikkailuissa kohti teekkarilakkia. Näille sivuille ilmestyy
+      pitkin kesää kaikenlaista materiaalia, josta on apua opintojesi alussa ja ehkäpä koko vuoden ajan. MISC:einä me
+      ollaan ne tyypit, joihin voit ottaa yhteyttä kun jokin askarruttaa!
     </p>
   </div>
 
@@ -56,10 +56,7 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
     <ContactCard data={data2} />
   </div>
   <div>
-    <p>
-      Koski asiasi sitten jotain ihan pientä juttua tai isompaa huolta, me vastataan ja autetaan aina parhaamme mukaan.
-      :)
-    </p>
+    <p>Jos mikään mietityttää tai on epäselvää älä pelkää olla yhteydessä meihin :)</p>
   </div>
 
   <h2 id="1" class="underline">Ennen opintojen alkua</h2>
@@ -67,9 +64,8 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
   <h3 id="Orientaion">Orientaatioviikko ja VarASlähtö</h3>
   <div>
     <p>
-      Orientaatioviikko järjestetään elokuun viimeisellä viikolla, 24.-28.8. Tämä kannattaa merkitä kalenteriin jo nyt!
-      Tapahtumatäyteinen viikko lähtee käyntiin maanantaina 24.8. klo 9.00, jolloin Kandidaattikeskuksessa (Otakaari 1)
-      on tarjolla maukasta aamupalaa.
+      Orientaatioviikko järjestetään elokuun viimeisellä viikolla, 24.-28.8. On suositeltavaa olla viikolla paikalla,
+      joten se kannattaa merkitä kalenteriin jo nyt!
     </p>
     <p>
       Fuksivuoden rientoihin on mahdollisuus ottaa varaslähtö lauantaina 15.8. klo 14 alkaen Alvarin aukiolla,
@@ -82,11 +78,12 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
   <div>
     <p>
       Telegram, kavereiden kesken “tg”, on Otaniemen käytetyin sovellus kommunikaatioon. Telegram on myös meidän
-      killassa oleellinen osa fuksien tiedotusta ja me toivotaankin, että kaikki fuksit liittyvät AS-kandifukseille
-      tarkoitettuun Telegram-ryhmään <a href="https://t.me/+_mVvsclQIKsxOGQ0">AS Fuksit ‘26</a> ja DSD-fuksit myös DSD-fuksien
-      omaan Telegram-ryhmään <a href="https://t.me/+P9iw4WYk4xMxN2Jk">DSD Fuksis ‘26</a>. Laittakaa seurantaan myös <a
-        href="https://t.me/ASFuksitiedotus26">AS-kandifuksien tiedotuskanava</a
-      >. Tälle kanavalle lähetetään kaikki sinua koskeva tärkeä info, jotta mikään ei jää huomaamatta!
+      killassa oleellinen osa tiedotusta ja me toivotaankin, että kaikki MINT-fuksit liittyvät MINT-fukseille
+      tarkoitettuun Telegram-ryhmään <a href="https://t.me/+PtDQOEUKIkFhNTNk">AS MINT Fuksis '26</a> sekä ryhmään kaikille
+      sähkötekniikan korkeakoulun MINT-fukseille <a href="https://t.me/elecInt26">ELEC International 26-27</a>.
+      Laittakaa seurantaan myös <a href="https://t.me/MINTannouncements26">AS MINT Annoucements '26</a>. Tälle kanavalle
+      lähetetään kaikki sinua koskeva tärkeä info, jotta mikään ei jää huomaamatta! Näillä kanavilla kommunikaatio on
+      suurimmaksi osaksi englanniksi.
     </p>
   </div>
 
@@ -114,8 +111,8 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
     </div>
     <CircleCard title="Hae opintotukea" link="https://www.kela.fi/opiskelu" />
     <CircleCard title="Hanki matkakortti" link="https://www.hsl.fi/liput-ja-hinnat/hsl-kortti" />
-    <CircleCard title="Lue fuksiopas" link="./fuksis/fuksiguide" targetSelf />
-    <CircleCard title="Liity AS-fuksien Telegram-ryhmään" link="./fuksis#Telegram" targetSelf />
+    <CircleCard title="Lue fuksiopas" link="./fuksiguide-mint" targetSelf />
+    <CircleCard title="Liity MINT-fuksien Telegram-ryhmään" link="./mint#Telegram" targetSelf />
   </div>
 
   <h2 id="Kilta" class="underline">Yleistä tietoa</h2>
@@ -123,20 +120,23 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
   <h3 id="Kilta">Kilta ja fuksit</h3>
   <div>
     <p>
-      AS-kilta on AYY:n alainen erityisasemayhdistys, joka yhdistää Automaation ja robotiikan, Informaatioteknologian
-      sekä Digital Systems and Design pääaineiden opiskelijoita. Kiltaan kuuluu myös muiden koulutusohjelmien
-      opiskelijoita, joita kiinnostaa AS:n toiminta. Kilta järjestää jäsenilleen monipuolista ohjelmaa, valvoo heidän
-      etujaan korkeakoulun toimielimissä sekä tekee yhteistyötä muiden opiskelijayhdistysten ja yritysten kanssa.
+      AS-kilta on AYY:n alainen erityisasemayhdistys, joka yhdistää Automaation ja robotiikan, Informaatioteknologian,
+      Digital Systems and Design kandi-pääaineiden opiskelijoita, maisteriopikselijoita pääaineista Control, Robotics
+      and Autonomous Systems, Communications Engineering,Signal Processing and Data Science, Speech and Language
+      Technology, Communications and Data Science sekä Space Science and Technology sekä vaihto-opiskelijoita
+      samankaltaisista pääaineista. Kiltaan kuuluu myös muiden koulutusohjelmien opiskelijoita, joita kiinnostaa AS:n
+      toiminta. Kilta järjestää jäsenilleen monipuolista ohjelmaa, valvoo heidän etujaan korkeakoulun toimielimissä sekä
+      tekee yhteistyötä muiden opiskelijayhdistysten ja yritysten kanssa.
     </p>
     <p>
-      AS vastaanottaa vuosittain yli 200 kandifuksia, joiden integroitumisesta kiltaan huolehtii killan fuksikapteenit,
-      apunaan Master's and International Student Captainit (MISC), ISOpomo, DSDeputy ja fuksiaASistentit. Yhdessä nämä
-      muodostavat killan fuksitoimikunnan eli ASPUn.
+      AS vastaanottaa vuosittain noin 130 MINT-fuksia, joiden integroitumisesta kiltaan huolehtii killan MISC:it,
+      apunaan killan kandipuolen Fuksikapteenit, ISOpomo, DSDeputy ja fuksiaASistentit. Yhdessä nämä muodostavat killan
+      fuksitoimikunnan eli ASPUn.
     </p>
     <p>
       ASPUn apuna toimii lisäksi suuri joukko innokkaita ISOja, joiden tehtävä on olla teidän tukena koko fuksivuoden
       ajan opintoihin ja opiskelijaelämään liittyvissä asioissa. Olemme sijoittaneet sinut fuksiryhmään, johon kuuluu
-      noin kymmenen muun fuksin lisäksi muutama ISO. Pääset tutustumaan omaan fuksiryhmääsi VarASlähdössä ja
+      noin kahdenkymmenen muun fuksin lisäksi muutama ISO. Pääset tutustumaan omaan fuksiryhmääsi VarASlähdössä ja
       orientaatioviikolla. Koko ASPU ja ISOt on täällä teitä varten!
     </p>
   </div>
@@ -151,7 +151,7 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
     <p>
       Lakkitutkinnon sisältö on täsmennetty fuksipistekortissa, jollaisen jokainen fuksi saa heti orientaatioviikon
       alussa. Älä kuitenkaan huoli, jos korttien jako menee silloin ohi, sillä pistekortin saat myös myöhemmin kysymällä
-      kippareilta.
+      MISC:eiltä.
     </p>
     <p>
       Fuksipistekortin pisteiden suorittaminen tarjoaa loistavan mahdollisuuden tutustua kaikkeen siihen, mitä Otaniemi
@@ -170,7 +170,7 @@ const styleCard = { '--profile-img-size': '20rem', marginBottom: '5rem' };
       käsin!
     </p>
     <p>
-      Mikäli havaitset haalareissa jotakin vikaa tai valitettavaa, ilmoitathan asiasta heti fuksikapteeneille, sillä
+      Mikäli havaitset haalareissa jotakin vikaa tai valitettavaa, ilmoitathan asiasta heti MISC:eille, sillä
       valmistusvirheistä johtuvat viat korjataan. Kaikki osat, kuten napit ja vetoketju, eivät välttämättä kestä kovinta
       menoa, mutta niitä on onneksi helppo korjata itse. Voit kysyä tarpeen tullen vinkkejä vanhemmilta kiltalaisilta!
     </p>
