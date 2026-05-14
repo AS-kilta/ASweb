@@ -117,7 +117,7 @@
       title:
         - fi: Senior Executive Master´s and International Student Captain (SEMISC)
           en: Senior Executive Master´s and International Student Captain (SEMISC)
-      picture: '@src/assets/officials/2024/nam_nguyen.jpeg'
+      picture: '@src/assets/officials/2024/nam_nguyen.avif'
     - name: Nimród Pocsveiler
       title:
         - fi: DSDirector
@@ -146,7 +146,7 @@
       title:
         - fi: Absintti
           en: Absinth
-      picture: '@src/assets/officials/2024/isabel_salmi.jpeg'
+      picture: '@src/assets/officials/2024/isabel_salmi.avif'
     - name: Kalle Kajoniemi
       title:
         - fi: Absintti
@@ -249,7 +249,7 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2024/ossi_syrjalahti.jpeg'
+      picture: '@src/assets/officials/2024/ossi_syrjalahti.avif'
     - name: Säde Mikkonen
       title:
         - fi: Kultsi
@@ -382,7 +382,7 @@
       title:
         - fi: Liikuntatuutori
           en: Sports Tutor
-      picture: '@src/assets/officials/2024/veeti_kittamaa.jpeg'
+      picture: '@src/assets/officials/2024/veeti_kittamaa.avif'
     - name: Rasmus Virolane
       title:
         - fi: Liikuntatuutori
@@ -436,7 +436,7 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2024/ossi_syrjalahti.jpeg'
+      picture: '@src/assets/officials/2024/ossi_syrjalahti.avif'
     - name: Leo Kivinen
       title:
         - fi: MinIEns
@@ -549,7 +549,7 @@
         - fi: Lukkarimestari
           en: Master Song Leader
       leader: true
-      picture: '@src/assets/officials/2024/apollo_ailus.jpeg'
+      picture: '@src/assets/officials/2024/apollo_ailus.avif'
     - name: Rasmus Honkalinna
       title:
         - fi: Lukkarimestari
@@ -589,7 +589,7 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2024/veeti_kittamaa.jpeg'
+      picture: '@src/assets/officials/2024/veeti_kittamaa.avif'
     - name: Saku Parttimaa
       title:
         - fi: Lukkari
@@ -686,7 +686,7 @@
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2024/mikko_vanhanen.jpeg'
+      picture: '@src/assets/officials/2024/mikko_vanhanen.avif'
     - name: Pinja Raijas
       title:
         - fi: ASkivahti
@@ -1034,7 +1034,7 @@
           en: Tinker Bell
       picture: '@src/assets/officials/2026/HanniTynjälä.avif'
     - name: Akseli Leino
-      picture: '@src/assets/officials/2024/akseli_leino.jpeg'
+      picture: '@src/assets/officials/2024/akseli_leino.avif'
       title:
         - fi: Säätökisälli
           en: Tinker Bell
@@ -1135,7 +1135,7 @@
           en: Tinker Bell
       picture: '@src/assets/officials/2026/NuuttiLaine.avif'
     - name: Daniel Ruotsi
-      picture: '@src/assets/officials/2024/daniel_ruotsi.jpg'
+      picture: '@src/assets/officials/2024/daniel_ruotsi.avif'
       title:
         - fi: Säätökisälli
           en: Tinker Bell
@@ -1760,10 +1760,10 @@
   members:
     - name: Tuomas Nykänen
       title:
-        - fi: Toiminnantarkastaja
+        - fi: Toiminnantarkastajajpg
           en: Inspector
     - name: Henrik Starck
-      picture: '@src/assets/officials/2024/henrik_starck.jpeg'
+      picture: '@src/assets/officials/2024/henrik_starck.avif'
       title:
         - fi: Toiminnantarkastaja
           en: Inspector
@@ -1775,7 +1775,7 @@
         - fi: Teekkarikokousedustaja
           en: Teekkari Assembly representative
     - name: Pessi Lyytikäinen
-      picture: '@src/assets/officials/2024/pessi_lyytikainen.jpg'
+      picture: '@src/assets/officials/2024/pessi_lyytikainen.avif'
       title:
         - fi: Varatoiminnantarkastaja
           en: Vice Inspector
