@@ -38,7 +38,7 @@
       title:
         - fi: FuksiaASistentti
           en: Fuksi aASistant
-      picture: '@src/assets/officials/2025/matias_kalliokoski.jpg'
+      picture: '@src/assets/officials/2025/matias_kalliokoski.avif'
     - name: Sara Timonen
       title:
         - fi: FuksiaASistentti
@@ -67,7 +67,7 @@
       title:
         - fi: Himo-aASistentti
           en: Craving aASistant
-      picture: '@src/assets/officials/2025/huiseung_bae.jpg'
+      picture: '@src/assets/officials/2025/huiseung_bae.avif'
     - name: Milja Jänis
       title:
         - fi: Himo-aASistentti
@@ -82,7 +82,7 @@
       title:
         - fi: Himo-aASistentti
           en: Craving aASistant
-      picture: '@src/assets/officials/2025/vinski_lang.jpg'
+      picture: '@src/assets/officials/2025/vinski_lang.avif'
     - name: Anastasia Parfenova
       title:
         - fi: Himo-aASistentti
@@ -102,7 +102,7 @@
       title:
         - fi: Wanhuli
           en: Fuksi contRoller
-      picture: '@src/assets/officials/2025/kalle_kajoniemi.jpg'
+      picture: '@src/assets/officials/2025/kalle_kajoniemi.avif'
     - name: Eeva Järvenpää
       title:
         - fi: IIISOpomo
@@ -112,7 +112,7 @@
       title:
         - fi: Senior Executive Master´s and International Student Captain (SEMISC)
           en: Senior Executive Master´s and International Student Captain (SEMISC)
-      picture: '@src/assets/officials/2025/aapo_vuokila.jpg'
+      picture: '@src/assets/officials/2025/aapo_vuokila.avif'
     - name: Nam Nguyen
       title:
         - fi: Senior Executive Master´s and International Student Captain (SEMISC)
@@ -151,7 +151,7 @@
       title:
         - fi: Absintti
           en: Absinth
-      picture: '@src/assets/officials/2025/kalle_kajoniemi.jpg'
+      picture: '@src/assets/officials/2025/kalle_kajoniemi.avif'
     - name: Sofia Elomaa
       title:
         - fi: Absintti
@@ -171,7 +171,7 @@
       title:
         - fi: Absintti
           en: Absinth
-      picture: '@src/assets/officials/2025/ella_palviainen.jpg'
+      picture: '@src/assets/officials/2025/ella_palviainen.avif'
     - name: Nooa Lindfors
       title:
         - fi: Absintti
@@ -190,12 +190,12 @@
       title:
         - fi: Miniopis
           en: Minimaster
-      picture: '@src/assets/officials/2025/Anh_Kiet_Ta.jpg'
+      picture: '@src/assets/officials/2025/Anh_Kiet_Ta.avif'
     - name: Henri Rosenberg
       title:
         - fi: Opintowanhus
           en: Opintowanhus
-      picture: '@src/assets/officials/2025/henri_rosenberg.jpg'
+      picture: '@src/assets/officials/2025/henri_rosenberg.avif'
     - name: Matti Laine
       title:
         - fi: Halloped
@@ -215,17 +215,17 @@
       title:
         - fi: Suurkulli
           en: Grand Cultist
-      picture: '@src/assets/officials/2025/tiitus_mustajoki.jpg'
+      picture: '@src/assets/officials/2025/tiitus_mustajoki.avif'
     - name: Matias Kalliokoski
       title:
         - fi: JuomanlASkija
           en: JuomanlASkija
-      picture: '@src/assets/officials/2025/matias_kalliokoski.jpg'
+      picture: '@src/assets/officials/2025/matias_kalliokoski.avif'
     - name: Veerti Juurakko
       title:
         - fi: JuomanlASkija
           en: JuomanlASkija
-      picture: '@src/assets/officials/2025/veerti_juurakko.jpg'
+      picture: '@src/assets/officials/2025/veerti_juurakko.avif'
     - name: Violet Bris Nevalainen
       title:
         - fi: Kultsi
@@ -239,12 +239,12 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2025/jesperi_hilden.jpg'
+      picture: '@src/assets/officials/2025/jesperi_hilden.avif'
     - name: Leila Lavonen
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2025/leila_lavonen.jpg'
+      picture: '@src/assets/officials/2025/leila_lavonen.avif'
     - name: Ossi Syrjälahti
       title:
         - fi: Kultsi
@@ -259,7 +259,7 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2025/jenny_ruokolainen.jpg'
+      picture: '@src/assets/officials/2025/jenny_ruokolainen.avif'
     - name: Nuutti Laine
       title:
         - fi: Kultsi
@@ -269,7 +269,7 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2025/ossi_lindroos.jpg'
+      picture: '@src/assets/officials/2025/ossi_lindroos.avif'
     - name: Mikko Kujanpää
       title:
         - fi: Kultsi
@@ -292,7 +292,7 @@
       title:
         - fi: Hyvis
           en: Goody
-      picture: '@src/assets/officials/2025/saara_miettinen.jpg'
+      picture: '@src/assets/officials/2025/saara_miettinen.avif'
     - name: Eeva Järvenpää
       title:
         - fi: Hyvis
@@ -322,7 +322,7 @@
       title:
         - fi: Jäykkäranne
           en: Jäykkäranne
-      picture: '@src/assets/officials/2025/otto_kuusisto.jpg'
+      picture: '@src/assets/officials/2025/otto_kuusisto.avif'
     - name: Marie Heikkinen
       title:
         - fi: Wappulauttaministeri
@@ -377,7 +377,7 @@
       title:
         - fi: Liikuntatuutori
           en: Sports Tutor
-      picture: '@src/assets/officials/2025/leo_rinne.jpg'
+      picture: '@src/assets/officials/2025/leo_rinne.avif'
     - name: Veeti Kittamaa
       title:
         - fi: Liikuntatuutori
@@ -415,7 +415,7 @@
       title:
         - fi: Liikuntatuutori
           en: Sports Tutor
-      picture: '@src/assets/officials/2025/hannes_hokkanen.jpg'
+      picture: '@src/assets/officials/2025/hannes_hokkanen.avif'
 - name:
     fi: Huvitoimikunta
     en: Entertainment Committee
@@ -441,12 +441,12 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2025/leo_kivinen.jpg'
+      picture: '@src/assets/officials/2025/leo_kivinen.avif'
     - name: Matias Kalliokoski
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2025/matias_kalliokoski.jpg'
+      picture: '@src/assets/officials/2025/matias_kalliokoski.avif'
     - name: Sonja Annala
       title:
         - fi: MinIEns
@@ -456,7 +456,7 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2025/pyry_kiviluoma.jpg'
+      picture: '@src/assets/officials/2025/pyry_kiviluoma.avif'
     - name: Karoliina Koivu
       title:
         - fi: MinIEns
@@ -471,7 +471,7 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2025/otto_kuusisto.jpg'
+      picture: '@src/assets/officials/2025/otto_kuusisto.avif'
     - name: Sara Timonen
       title:
         - fi: MinIEns
@@ -569,7 +569,7 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2025/ilkka_taponen.jpg'
+      picture: '@src/assets/officials/2025/ilkka_taponen.avif'
     - name: Jere Hasu
       title:
         - fi: Lukkari
@@ -579,12 +579,12 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2025/leo_kivinen.jpg'
+      picture: '@src/assets/officials/2025/leo_kivinen.avif'
     - name: Jesperi Hildén
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2025/jesperi_hilden.jpg'
+      picture: '@src/assets/officials/2025/jesperi_hilden.avif'
     - name: Veeti Kittamaa
       title:
         - fi: Lukkari
@@ -657,7 +657,7 @@
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2025/leo_kivinen.jpg'
+      picture: '@src/assets/officials/2025/leo_kivinen.avif'
     - name: Pinja Mäkeläinen
       title:
         - fi: ASkivahti
@@ -695,7 +695,7 @@
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2025/ossi_lindroos.jpg'
+      picture: '@src/assets/officials/2025/ossi_lindroos.avif'
     - name: Lotta Raveala
       title:
         - fi: ASkivahti
@@ -713,7 +713,7 @@
       title:
         - fi: Vakooja
           en: Vakooja
-      picture: '@src/assets/officials/2025/saara_miettinen.jpg'
+      picture: '@src/assets/officials/2025/saara_miettinen.avif'
     - name: Aarno Koponen
       title:
         - fi: Vakooja
@@ -771,7 +771,7 @@
       title:
         - fi: Account Manager
           en: Account Manager
-      picture: '@src/assets/officials/2025/mikhail_romanov.jpg'
+      picture: '@src/assets/officials/2025/mikhail_romanov.avif'
     - name: Pavlo Yakymenko
       title:
         - fi: Account Manager
@@ -781,7 +781,7 @@
       title:
         - fi: Account Manager
           en: Account Manager
-      picture: '@src/assets/officials/2025/pyry_kiviluoma.jpg'
+      picture: '@src/assets/officials/2025/pyry_kiviluoma.avif'
     - name: Santeri Hildén
       title:
         - fi: AS Puheenjohtaja
@@ -843,7 +843,7 @@
       title:
         - fi: Kolikonkiertäjä
           en: Member of Committee
-      picture: '@src/assets/officials/2025/ella_palviainen.jpg'
+      picture: '@src/assets/officials/2025/ella_palviainen.avif'
     - name: Lotta Raveala
       title:
         - fi: Kolikonkiertäjä
@@ -897,7 +897,7 @@
       title:
         - fi: Dokumentoija
           en: Photographer
-      picture: '@src/assets/officials/2025/leila_lavonen.jpg'
+      picture: '@src/assets/officials/2025/leila_lavonen.avif'
     - name: Vilja Lohi
       title:
         - fi: Graafikko
@@ -965,7 +965,7 @@
       title:
         - fi: Dronevastaava
           en: Drone Responsible
-      picture: '@src/assets/officials/2025/aapo_vuokila.jpg'
+      picture: '@src/assets/officials/2025/aapo_vuokila.avif'
 - name:
     fi: Säätötoimikunta
     en: Tinkering Committee
@@ -1112,7 +1112,7 @@
         - fi: Säätökisälli
           en: Tinker Bell
     - name: Elias Erke
-      picture: '@src/assets/officials/2025/elias_erke.jpg'
+      picture: '@src/assets/officials/2025/elias_erke.avif'
       title:
         - fi: Säätökisälli
           en: Tinker Bell
@@ -1140,7 +1140,7 @@
         - fi: Säätökisälli
           en: Tinker Bell
     - name: Santtu Sievonen
-      picture: '@src/assets/officials/2025/santtu_sievanen.jpg'
+      picture: '@src/assets/officials/2025/santtu_sievanen.avif'
       title:
         - fi: Säätökisälli
           en: Tinker Bell
@@ -1150,7 +1150,7 @@
           en: Tinker Bell
       picture: '@src/assets/officials/2026/Daniel_Gorbatchev.jpg'
     - name: Rika Lintunen
-      picture: '@src/assets/officials/2025/rika_lintunen.jpg'
+      picture: '@src/assets/officials/2025/rika_lintunen.avif'
       title:
         - fi: Säätökisälli
           en: Tinker Bell
@@ -1199,7 +1199,7 @@
         - fi: Depressantti
           en: Depressant
     - name: Eero Huhtala
-      picture: '@src/assets/officials/2025/eero_huhtala.jpg'
+      picture: '@src/assets/officials/2025/eero_huhtala.avif'
       title:
         - fi: Depressantti
           en: Depressant
@@ -1438,7 +1438,7 @@
           en: Degenerate
       picture: '@src/assets/officials/2026/JaakkoLehto.jpg'
     - name: Eero Huhtala
-      picture: '@src/assets/officials/2025/eero_huhtala.jpg'
+      picture: '@src/assets/officials/2025/eero_huhtala.avif'
       title:
         - fi: Degenerantti
           en: Degenerate
@@ -1669,7 +1669,7 @@
         - fi: Merkkiohjesääntötyöryhmän puheenjohtaja
           en: Chair of Badge regulations working group
     - name: Eero Huhtala
-      picture: '@src/assets/officials/2025/eero_huhtala.jpg'
+      picture: '@src/assets/officials/2025/eero_huhtala.avif'
       title:
         - fi: Merkkiohjesääntötyöryhmä
           en: Badge regulations working group
@@ -1710,7 +1710,7 @@
       leader: true
       picture: '@src/assets/officials/2026/MattiLaine.jpg'
     - name: Juho Kerminen
-      picture: '@src/assets/officials/2025/juho_kerminen.jpg'
+      picture: '@src/assets/officials/2025/juho_kerminen.avif'
       title:
         - fi: Ulkoexcutoimikunnan jäsen
           en: Member of International Excursion Committee
@@ -1719,7 +1719,7 @@
         - fi: Ulkoexcutoimikunnan jäsen
           en: Member of International Excursion Committee
     - name: Akseli Hilander
-      picture: '@src/assets/officials/2025/akseli_hilander.jpg'
+      picture: '@src/assets/officials/2025/akseli_hilander.avif'
       title:
         - fi: Ulkoexcutoimikunnan jäsen
           en: Member of International Excursion Committee
@@ -1728,7 +1728,7 @@
         - fi: Ulkoexcutoimikunnan jäsen
           en: Member of International Excursion Committee
     - name: Eero Huhtala
-      picture: '@src/assets/officials/2025/eero_huhtala.jpg'
+      picture: '@src/assets/officials/2025/eero_huhtala.avif'
       title:
         - fi: Ulkoexcutoimikunnan jäsen
           en: Member of International Excursion Committee
@@ -1768,7 +1768,7 @@
         - fi: Toiminnantarkastaja
           en: Inspector
     - name: Eero Huhtala
-      picture: '@src/assets/officials/2025/eero_huhtala.jpg'
+      picture: '@src/assets/officials/2025/eero_huhtala.avif'
       title:
         - fi: Varatoiminnantarkastaja
           en: Vice Inspector

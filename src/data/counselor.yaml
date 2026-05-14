@@ -4,7 +4,7 @@
   name: 'Saara Miettinen'
   email: 'saara.miettinen@as.fi'
   telegram: 'Saaratoniini'
-  picture: '@src/assets/officials/2025/saara_miettinen.jpg'
+  picture: '@src/assets/officials/2025/saara_miettinen.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -12,7 +12,7 @@
   name: 'Pyry Kiviluoma'
   email: 'pyry.kiviluoma@as.fi'
   telegram: 'pyrykiviluoma'
-  picture: '@src/assets/officials/2025/pyry_kiviluoma.jpg'
+  picture: '@src/assets/officials/2025/pyry_kiviluoma.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -44,7 +44,7 @@
   name: 'Jenny Ruokolainen'
   email: 'jenny.ruokolainen@as.fi'
   telegram: 'jequilaaa'
-  picture: '@src/assets/officials/2025/jenny_ruokolainen.jpg'
+  picture: '@src/assets/officials/2025/jenny_ruokolainen.avif'
 
 - title:
     fi: 'Vastuuhäirintäyhdyshenkilö'
