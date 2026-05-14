@@ -6,9 +6,6 @@
 
     flake-parts.url = "github:hercules-ci/flake-parts";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
-
-    git-hooks.url = "github:cachix/git-hooks.nix";
-    git-hooks.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {flake-parts, ...} @ inputs:
@@ -19,25 +16,11 @@
         "x86_64-linux"
       ];
 
-      imports = with inputs; [
-        git-hooks.flakeModule
-      ];
-
       perSystem = {
         config,
         pkgs,
         ...
       }: {
-        pre-commit = {
-          check.enable = true;
-          settings.package = pkgs.prek;
-          settings.hooks = {
-            alejandra.enable = true;
-            deadnix.enable = true;
-            statix.enable = true;
-          };
-        };
-
         packages.default = pkgs.buildNpmPackage {
           pname = "ASweb";
           version = "2.0.0";
@@ -56,7 +39,6 @@
 
         devShells.default = pkgs.mkShellNoCC {
           inputsFrom = with config; [
-            pre-commit.devShell
             packages.default
           ];
 
@@ -68,13 +50,6 @@
             inherit (config.packages.default) nodejs;
             npmRoot = ./.;
           };
-
-          shellHook = with config; ''
-            ${pre-commit.shellHook}
-
-            # disable Astro telemetry
-            npx astro telemetry disable
-          '';
         };
       };
     };
