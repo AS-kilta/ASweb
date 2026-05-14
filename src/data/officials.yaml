@@ -7,33 +7,33 @@
         - fi: Fuksikapteeni
           en: Fuksi Captain
       leader: true
-      picture: '@src/assets/officials/2026/Elsa_Kuntsi.jpg'
+      picture: '@src/assets/officials/2026/Elsa_Kuntsi.avif'
     - name: Milja Jänis
       title:
         - fi: Fuksikapteeni
           en: Fuksi Captain
       leader: true
-      picture: '@src/assets/officials/2026/Milja_Janis.jpg'
+      picture: '@src/assets/officials/2026/Milja_Janis.avif'
     - name: Jere Hasu
       title:
         - fi: Master's and International Student Captain (MISC)
           en: Master's and International Student Captain (MISC)
-      picture: '@src/assets/officials/2026/Jere_Hasu.jpg'
+      picture: '@src/assets/officials/2026/Jere_Hasu.avif'
     - name: Nimród Pocsveiler
       title:
         - fi: Master's and International Student Captain (MISC)
           en: Master's and International Student Captain (MISC)
-      picture: '@src/assets/officials/2026/NimrodPocsveiler.jpg'
+      picture: '@src/assets/officials/2026/NimrodPocsveiler.avif'
     - name: Nicolas Bosnjak
       title:
         - fi: ISOpomo
           en: ISOboss
-      picture: '@src/assets/officials/2026/Nicolas_Bosnjak.jpg'
+      picture: '@src/assets/officials/2026/Nicolas_Bosnjak.avif'
     - name: Alex Vu
       title:
         - fi: DSDeputy
           en: DSDeputy
-      picture: '@src/assets/officials/2026/AlexVu.jpg'
+      picture: '@src/assets/officials/2026/AlexVu.avif'
     - name: Matias Kalliokoski
       title:
         - fi: FuksiaASistentti
@@ -43,17 +43,17 @@
       title:
         - fi: FuksiaASistentti
           en: Fuksi aASistant
-      picture: '@src/assets/officials/2026/SaraTimonen.jpg'
+      picture: '@src/assets/officials/2026/SaraTimonen.avif'
     - name: Timi Lehtisyrjä
       title:
         - fi: FuksiaASistentti
           en: Fuksi aASistant
-      picture: '@src/assets/officials/2026/TimiLehtisyrjä.jpg'
+      picture: '@src/assets/officials/2026/TimiLehtisyrjä.avif'
     - name: Iiro Sällinen
       title:
         - fi: FuksiaASistentti
           en: Fuksi aASistant
-      picture: '@src/assets/officials/2026/IiroSallinen.jpg'
+      picture: '@src/assets/officials/2026/IiroSallinen.avif'
     - name: Saimi Tuomi
       title:
         - fi: FuksiaASistentti
@@ -62,7 +62,7 @@
       title:
         - fi: FuksiaASistentti
           en: Fuksi aASistant
-      picture: '@src/assets/officials/2026/SofiaElomaa.jpg'
+      picture: '@src/assets/officials/2026/SofiaElomaa.avif'
     - name: Huiseung Bae
       title:
         - fi: Himo-aASistentti
@@ -72,12 +72,12 @@
       title:
         - fi: Himo-aASistentti
           en: Craving aASistant
-      picture: '@src/assets/officials/2026/Milja_Janis.jpg'
+      picture: '@src/assets/officials/2026/Milja_Janis.avif'
     - name: Lauri Tuominen
       title:
         - fi: Himo-aASistentti
           en: Craving aASistant
-      picture: '@src/assets/officials/2026/Lauri_Tuominen.jpg'
+      picture: '@src/assets/officials/2026/Lauri_Tuominen.avif'
     - name: Vinski Lång
       title:
         - fi: Himo-aASistentti
@@ -87,17 +87,17 @@
       title:
         - fi: Himo-aASistentti
           en: Craving aASistant
-      picture: '@src/assets/officials/2026/Anastasia_Parfenova.jpg'
+      picture: '@src/assets/officials/2026/Anastasia_Parfenova.avif'
     - name: Jere Hasu
       title:
         - fi: Himo-aASistentti
           en: Craving aASistant
-      picture: '@src/assets/officials/2026/Jere_Hasu.jpg'
+      picture: '@src/assets/officials/2026/Jere_Hasu.avif'
     - name: Joel Forsström
       title:
         - fi: Wanhuli
           en: Fuksi contRoller
-      picture: '@src/assets/officials/2026/Joel_Forsstrom.jpg'
+      picture: '@src/assets/officials/2026/Joel_Forsstrom.avif'
     - name: Kalle Kajoniemi
       title:
         - fi: Wanhuli
@@ -107,7 +107,7 @@
       title:
         - fi: IIISOpomo
           en: IIIIISO Boss
-      picture: '@src/assets/officials/2026/Eeva_Jarvenpaa.jpg'
+      picture: '@src/assets/officials/2026/Eeva_Jarvenpaa.avif'
     - name: Aapo Vuokila
       title:
         - fi: Senior Executive Master´s and International Student Captain (SEMISC)
@@ -122,7 +122,7 @@
       title:
         - fi: DSDirector
           en: DSDirector
-      picture: '@src/assets/officials/2026/NimrodPocsveiler.jpg'
+      picture: '@src/assets/officials/2026/NimrodPocsveiler.avif'
 - name:
     fi: Opintotoimikunta
     en: Study Committee
@@ -132,7 +132,7 @@
         - fi: Opintomestari
           en: Master of Studies
       leader: true
-      picture: '@src/assets/officials/2026/Anastasia_Parfenova.jpg'
+      picture: '@src/assets/officials/2026/Anastasia_Parfenova.avif'
     - name: Enni Nykänen
       title:
         - fi: Absinttivastaava
@@ -141,7 +141,7 @@
       title:
         - fi: Absintti
           en: Absinth
-      picture: '@src/assets/officials/2026/HelmiHaapanen.jpg'
+      picture: '@src/assets/officials/2026/HelmiHaapanen.avif'
     - name: Isabel Salmi
       title:
         - fi: Absintti
@@ -156,17 +156,17 @@
       title:
         - fi: Absintti
           en: Absinth
-      picture: '@src/assets/officials/2026/SofiaElomaa.jpg'
+      picture: '@src/assets/officials/2026/SofiaElomaa.avif'
     - name: Sara Timonen
       title:
         - fi: Absintti
           en: Absinth
-      picture: '@src/assets/officials/2026/SaraTimonen.jpg'
+      picture: '@src/assets/officials/2026/SaraTimonen.avif'
     - name: Ada Salaspuro
       title:
         - fi: Absintti
           en: Absinth
-      picture: '@src/assets/officials/2026/AdaSalaspuro.jpg'
+      picture: '@src/assets/officials/2026/AdaSalaspuro.avif'
     - name: Ella Palviainen
       title:
         - fi: Absintti
@@ -180,12 +180,12 @@
       title:
         - fi: Miniopis
           en: Minimaster
-      picture: '@src/assets/officials/2026/SonjaAnnala.jpg'
+      picture: '@src/assets/officials/2026/SonjaAnnala.avif'
     - name: Viktor Solianoi
       title:
         - fi: Miniopis
           en: Minimaster
-      picture: '@src/assets/officials/2026/ViktorSolianoi.jpg'
+      picture: '@src/assets/officials/2026/ViktorSolianoi.avif'
     - name: Kiet Ta
       title:
         - fi: Miniopis
@@ -200,7 +200,7 @@
       title:
         - fi: Halloped
           en: Halloped
-      picture: '@src/assets/officials/2026/MattiLaine.jpg'
+      picture: '@src/assets/officials/2026/MattiLaine.avif'
 - name:
     fi: Kulttuuritoimikunta
     en: Cultural Affairs Committee
@@ -210,7 +210,7 @@
         - fi: Kulttuurimestari
           en: Master of Culture
       leader: true
-      picture: '@src/assets/officials/2026/Lauri_Tuominen.jpg'
+      picture: '@src/assets/officials/2026/Lauri_Tuominen.avif'
     - name: Tiitus Mustajoki
       title:
         - fi: Suurkulli
@@ -230,7 +230,7 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2026/BrisNevalainen.jpg'
+      picture: '@src/assets/officials/2026/BrisNevalainen.avif'
     - name: Nooa Virtala
       title:
         - fi: Kultsi
@@ -254,7 +254,7 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2026/SädeMikkonen.jpg'
+      picture: '@src/assets/officials/2026/SädeMikkonen.avif'
     - name: Jenny Ruokolainen
       title:
         - fi: Kultsi
@@ -264,7 +264,7 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2026/NuuttiLaine.jpg'
+      picture: '@src/assets/officials/2026/NuuttiLaine.avif'
     - name: Ossi Lindroos
       title:
         - fi: Kultsi
@@ -274,7 +274,7 @@
       title:
         - fi: Kultsi
           en: Cultist
-      picture: '@src/assets/officials/2026/MikkoKujanpaa.jpg'
+      picture: '@src/assets/officials/2026/MikkoKujanpaa.avif'
     - name: Rasmus Honkalinna
       title:
         - fi: Kultsi
@@ -287,7 +287,7 @@
       title:
         - fi: Hyvinvointimestari
           en: Master of Well-being
-      picture: '@src/assets/officials/2026/SakuParttimaa.jpg'
+      picture: '@src/assets/officials/2026/SakuParttimaa.avif'
     - name: Saara Miettinen
       title:
         - fi: Hyvis
@@ -297,27 +297,27 @@
       title:
         - fi: Hyvis
           en: Goody
-      picture: '@src/assets/officials/2026/Eeva_Jarvenpaa.jpg'
+      picture: '@src/assets/officials/2026/Eeva_Jarvenpaa.avif'
     - name: Milja Jänis
       title:
         - fi: Hyvis
           en: Goody
-      picture: '@src/assets/officials/2026/Milja_Janis.jpg'
+      picture: '@src/assets/officials/2026/Milja_Janis.avif'
     - name: Elsa Kuntsi
       title:
         - fi: Hyvis
           en: Goody
-      picture: '@src/assets/officials/2026/Elsa_Kuntsi.jpg'
+      picture: '@src/assets/officials/2026/Elsa_Kuntsi.avif'
     - name: Matti Laine
       title:
         - fi: Hyvis
           en: Goody
-      picture: '@src/assets/officials/2026/MattiLaine.jpg'
+      picture: '@src/assets/officials/2026/MattiLaine.avif'
     - name: Sara Timonen
       title:
         - fi: Hyvis
           en: Goody
-      picture: '@src/assets/officials/2026/SaraTimonen.jpg'
+      picture: '@src/assets/officials/2026/SaraTimonen.avif'
     - name: Otto Kuusisto
       title:
         - fi: Jäykkäranne
@@ -327,22 +327,22 @@
       title:
         - fi: Wappulauttaministeri
           en: Wappu Ferry Minister
-      picture: '@src/assets/officials/2026/Marie_Heikkinen.jpg'
+      picture: '@src/assets/officials/2026/Marie_Heikkinen.avif'
     - name: Vilja Lohi
       title:
         - fi: Wappulauttaministeri
           en: Wappu Ferry Minister
-      picture: '@src/assets/officials/2026/Vilja_Lohi.jpg'
+      picture: '@src/assets/officials/2026/Vilja_Lohi.avif'
     - name: Isla Kajoniemi
       title:
         - fi: Kimblekippari
           en: Kimble Captain
-      picture: '@src/assets/officials/2026/IslaKajoniemi.jpg'
+      picture: '@src/assets/officials/2026/IslaKajoniemi.avif'
     - name: Samuli Vilen
       title:
         - fi: Kimblekippari
           en: Kimble Captain
-      picture: '@src/assets/officials/2026/SamuliVilen.jpg'
+      picture: '@src/assets/officials/2026/SamuliVilen.avif'
 - name:
     fi: Liikuntatoimikunta
     en: Sports Committee
@@ -352,23 +352,23 @@
         - fi: Liikuntamestari
           en: Master of Sports
       leader: true
-      picture: '@src/assets/officials/2026/TimiLehtisyrjä.jpg'
+      picture: '@src/assets/officials/2026/TimiLehtisyrjä.avif'
     - name: Okko Sälevaara
       title:
         - fi: Liikuntamestari
           en: Master of Sports
       leader: true
-      picture: '@src/assets/officials/2026/OkkoSälevaara.jpg'
+      picture: '@src/assets/officials/2026/OkkoSälevaara.avif'
     - name: Karoliina Koivu
       title:
         - fi: ASSmASSter
           en: ASSmASSter
-      picture: '@src/assets/officials/2026/KaroliinaKoivu.jpg'
+      picture: '@src/assets/officials/2026/KaroliinaKoivu.avif'
     - name: Milja Jänis
       title:
         - fi: ASSmASSter
           en: ASSmASSter
-      picture: '@src/assets/officials/2026/Milja_Janis.jpg'
+      picture: '@src/assets/officials/2026/Milja_Janis.avif'
     - name: Markus Nikander
       title:
         - fi: Himojuoksija
@@ -391,17 +391,17 @@
       title:
         - fi: Liikuntatuutori
           en: Sports Tutor
-      picture: '@src/assets/officials/2026/SamuliSarmala.jpg'
+      picture: '@src/assets/officials/2026/SamuliSarmala.avif'
     - name: Sofia Elomaa
       title:
         - fi: Liikuntatuutori
           en: Sports Tutor
-      picture: '@src/assets/officials/2026/SofiaElomaa.jpg'
+      picture: '@src/assets/officials/2026/SofiaElomaa.avif'
     - name: Kaisu Parviainen
       title:
         - fi: Liikuntatuutori
           en: Sports Tutor
-      picture: '@src/assets/officials/2026/KaisuParviainen.jpg'
+      picture: '@src/assets/officials/2026/KaisuParviainen.avif'
     - name: Tatu Salonen
       title:
         - fi: Liikuntatuutori
@@ -410,7 +410,7 @@
       title:
         - fi: Liikuntatuutori
           en: Sports Tutor
-      picture: '@src/assets/officials/2026/LucasBosnjak.jpg'
+      picture: '@src/assets/officials/2026/LucasBosnjak.avif'
     - name: Hannes Hokkanen
       title:
         - fi: Liikuntatuutori
@@ -425,13 +425,13 @@
         - fi: Emäntä
           en: Hostess
       leader: true
-      picture: '@src/assets/officials/2026/Vilja_Lohi.jpg'
+      picture: '@src/assets/officials/2026/Vilja_Lohi.avif'
     - name: Venla Mäkelä
       title:
         - fi: Isäntä
           en: Host
       leader: true
-      picture: '@src/assets/officials/2026/Venla_Makela.jpg'
+      picture: '@src/assets/officials/2026/Venla_Makela.avif'
     - name: Ossi Syrjälahti
       title:
         - fi: MinIEns
@@ -451,7 +451,7 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/SonjaAnnala.jpg'
+      picture: '@src/assets/officials/2026/SonjaAnnala.avif'
     - name: Pyry Kiviluoma
       title:
         - fi: MinIEns
@@ -461,12 +461,12 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/KaroliinaKoivu.jpg'
+      picture: '@src/assets/officials/2026/KaroliinaKoivu.avif'
     - name: Akseli Pihlajamaa
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/AkseliPihlajamaa.jpg'
+      picture: '@src/assets/officials/2026/AkseliPihlajamaa.avif'
     - name: Otto Kuusisto
       title:
         - fi: MinIEns
@@ -476,47 +476,47 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/SaraTimonen.jpg'
+      picture: '@src/assets/officials/2026/SaraTimonen.avif'
     - name: Joel Heikkala
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/JoelHeikkala.jpg'
+      picture: '@src/assets/officials/2026/JoelHeikkala.avif'
     - name: Joel Ventola
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/JoelVentola.jpg'
+      picture: '@src/assets/officials/2026/JoelVentola.avif'
     - name: Okko Sälevaara
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/OkkoSälevaara.jpg'
+      picture: '@src/assets/officials/2026/OkkoSälevaara.avif'
     - name: Lili Hülber
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/LiliHülber.jpg'
+      picture: '@src/assets/officials/2026/LiliHülber.avif'
     - name: Sara Heiskanen
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/SaraHeiskanen.jpg'
+      picture: '@src/assets/officials/2026/SaraHeiskanen.avif'
     - name: Niklas Narinen
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/NiklasNarinen.jpg'
+      picture: '@src/assets/officials/2026/NiklasNarinen.avif'
     - name: Magnus Mäki
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/MagnusMäki.jpg'
+      picture: '@src/assets/officials/2026/MagnusMäki.avif'
     - name: Pietari Winberg
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/PietariWinberg.jpg'
+      picture: '@src/assets/officials/2026/PietariWinberg.avif'
     - name: Tatu Salonen
       title:
         - fi: MinIEns
@@ -525,7 +525,7 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/EmmaLahtinen.jpg'
+      picture: '@src/assets/officials/2026/EmmaLahtinen.avif'
     - name: Saimi Tuomi
       title:
         - fi: MinIEns
@@ -534,12 +534,12 @@
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/TimiLehtisyrjä.jpg'
+      picture: '@src/assets/officials/2026/TimiLehtisyrjä.avif'
     - name: Kaisu Parviainen
       title:
         - fi: MinIEns
           en: MinIEns
-      picture: '@src/assets/officials/2026/KaisuParviainen.jpg'
+      picture: '@src/assets/officials/2026/KaisuParviainen.avif'
 - name:
     fi: Lukkaritoimikunta
     en: Song Leader Committee
@@ -559,12 +559,12 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/BrisNevalainen.jpg'
+      picture: '@src/assets/officials/2026/BrisNevalainen.avif'
     - name: Ki Chun Tong
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/KiChunTong.jpg'
+      picture: '@src/assets/officials/2026/KiChunTong.avif'
     - name: Ilkka Taponen
       title:
         - fi: Lukkari
@@ -574,7 +574,7 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/Jere_Hasu.jpg'
+      picture: '@src/assets/officials/2026/Jere_Hasu.avif'
     - name: Leo Kivinen
       title:
         - fi: Lukkari
@@ -594,17 +594,17 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/SakuParttimaa.jpg'
+      picture: '@src/assets/officials/2026/SakuParttimaa.avif'
     - name: Jaakko Ojaniemi
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/JaakkoOjaniemi.jpg'
+      picture: '@src/assets/officials/2026/JaakkoOjaniemi.avif'
     - name: Jaakko Lehto
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/JaakkoLehto.jpg'
+      picture: '@src/assets/officials/2026/JaakkoLehto.avif'
     - name: Nooa Lindfors
       title:
         - fi: Lukkari
@@ -613,17 +613,17 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/NimrodPocsveiler.jpg'
+      picture: '@src/assets/officials/2026/NimrodPocsveiler.avif'
     - name: Isla Kajoniemi
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/IslaKajoniemi.jpg'
+      picture: '@src/assets/officials/2026/IslaKajoniemi.avif'
     - name: Nuutti Laine
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/NuuttiLaine.jpg'
+      picture: '@src/assets/officials/2026/NuuttiLaine.avif'
     - name: Igor Oinonen
       title:
         - fi: Lukkari
@@ -632,7 +632,7 @@
       title:
         - fi: Lukkari
           en: Song Leader
-      picture: '@src/assets/officials/2026/AlexVu.jpg'
+      picture: '@src/assets/officials/2026/AlexVu.avif'
 - name:
     fi: ASkitoimikunta
     en: ASki Committee
@@ -642,17 +642,17 @@
         - fi: ASkimestari
           en: ASkiMaster
       leader: true
-      picture: '@src/assets/officials/2026/MattiLaine.jpg'
+      picture: '@src/assets/officials/2026/MattiLaine.avif'
     - name: Oiva Haapaniemi
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2026/OivaHaapaniemi.jpg'
+      picture: '@src/assets/officials/2026/OivaHaapaniemi.avif'
     - name: Mikko Kujanpää
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2026/MikkoKujanpaa.jpg'
+      picture: '@src/assets/officials/2026/MikkoKujanpaa.avif'
     - name: Leo Kivinen
       title:
         - fi: ASkivahti
@@ -662,17 +662,17 @@
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2026/PinjaMakelainen.jpg'
+      picture: '@src/assets/officials/2026/PinjaMakelainen.avif'
     - name: Milja Jänis
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2026/Milja_Janis.jpg'
+      picture: '@src/assets/officials/2026/Milja_Janis.avif'
     - name: Elsa Kuntsi
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2026/Elsa_Kuntsi.jpg'
+      picture: '@src/assets/officials/2026/Elsa_Kuntsi.avif'
     - name: Rasmus Virolane
       title:
         - fi: ASkivahti
@@ -681,7 +681,7 @@
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2026/BrisNevalainen.jpg'
+      picture: '@src/assets/officials/2026/BrisNevalainen.avif'
     - name: Mikko Vanhanen
       title:
         - fi: ASkivahti
@@ -700,7 +700,7 @@
       title:
         - fi: ASkivahti
           en: ASki Guardian
-      picture: '@src/assets/officials/2026/LottaRaveala.jpg'
+      picture: '@src/assets/officials/2026/LottaRaveala.avif'
     - name: Rasmus Honkalinna
       title:
         - fi: ASkivahti
@@ -718,12 +718,12 @@
       title:
         - fi: Vakooja
           en: Vakooja
-      picture: '@src/assets/officials/2026/AarnoKoponen.jpg'
+      picture: '@src/assets/officials/2026/AarnoKoponen.avif'
     - name: Hanni Tynjälä
       title:
         - fi: Vakooja
           en: Vakooja
-      picture: '@src/assets/officials/2026/HanniTynjälä.jpg'
+      picture: '@src/assets/officials/2026/HanniTynjälä.avif'
 - name:
     fi: Yrityssuhdetoimikunta
     en: Corporate Relations Committee
@@ -733,32 +733,32 @@
         - fi: Yrityssuhdevastaava
           en: Head of Corporate Relations
       leader: true
-      picture: '@src/assets/officials/2026/Daniel_Gorbatchev.jpg'
+      picture: '@src/assets/officials/2026/Daniel_Gorbatchev.avif'
     - name: Jaakko Lehto
       title:
         - fi: Vice-Yrityssuhdevastaava
           en: Vice Head of Corporate Relations
-      picture: '@src/assets/officials/2026/JaakkoLehto.jpg'
+      picture: '@src/assets/officials/2026/JaakkoLehto.avif'
     - name: Leevi Oksanen
       title:
         - fi: Social Media Rep
           en: Social Media Rep
-      picture: '@src/assets/officials/2026/LeeviOksanen.jpg'
+      picture: '@src/assets/officials/2026/LeeviOksanen.avif'
     - name: Ki Chun Tong
       title:
         - fi: Social Media Rep
           en: Social Media Rep
-      picture: '@src/assets/officials/2026/KiChunTong.jpg'
+      picture: '@src/assets/officials/2026/KiChunTong.avif'
     - name: Emma Lahtinen
       title:
         - fi: Event-Based Partnerships
           en: Event-Based Partnerships
-      picture: '@src/assets/officials/2026/EmmaLahtinen.jpg'
+      picture: '@src/assets/officials/2026/EmmaLahtinen.avif'
     - name: Arvo Mattilainen
       title:
         - fi: Event-Based Partnerships
           en: Event-Based Partnerships
-      picture: '@src/assets/officials/2026/ArvoMattilainen.jpg'
+      picture: '@src/assets/officials/2026/ArvoMattilainen.avif'
     - name: Mark Niidusaar
       title:
         - fi: Account Manager
@@ -776,7 +776,7 @@
       title:
         - fi: Account Manager
           en: Account Manager
-      picture: '@src/assets/officials/2026/PavloYakymenko.jpg'
+      picture: '@src/assets/officials/2026/PavloYakymenko.avif'
     - name: Pyry Kiviluoma
       title:
         - fi: Account Manager
@@ -786,22 +786,22 @@
       title:
         - fi: AS Puheenjohtaja
           en: AS Chairperson
-      picture: '@src/assets/officials/2026/Santeri_Hilden.jpg'
+      picture: '@src/assets/officials/2026/Santeri_Hilden.avif'
     - name: Marie Heikkinen
       title:
         - fi: AS Rahastonhoitaja
           en: AS Treasurer
-      picture: '@src/assets/officials/2026/Marie_Heikkinen.jpg'
+      picture: '@src/assets/officials/2026/Marie_Heikkinen.avif'
     - name: Säde Mikkonen
       title:
         - fi: Yrityssuhdeneuvonantaja
           en: Corporate Relations Advisor
-      picture: '@src/assets/officials/2026/SädeMikkonen.jpg'
+      picture: '@src/assets/officials/2026/SädeMikkonen.avif'
     - name: Matti Laine
       title:
         - fi: SAS-yhdyshenkilö
           en: SAS liaison
-      picture: '@src/assets/officials/2026/MattiLaine.jpg'
+      picture: '@src/assets/officials/2026/MattiLaine.avif'
     - name: Neil Lipes
       title:
         - fi: SAS-yhdyshenkilö
@@ -819,7 +819,7 @@
         - fi: Rahastonhoitaja
           en: Treasurer
       leader: true
-      picture: '@src/assets/officials/2026/Marie_Heikkinen.jpg'
+      picture: '@src/assets/officials/2026/Marie_Heikkinen.avif'
     - name: Enni Nykänen
       title:
         - fi: Kolikonkiertäjä
@@ -828,17 +828,17 @@
       title:
         - fi: Kolikonkiertäjä
           en: Member of Committee
-      picture: '@src/assets/officials/2026/KaisuParviainen.jpg'
+      picture: '@src/assets/officials/2026/KaisuParviainen.avif'
     - name: Sofia Elomaa
       title:
         - fi: Kolikonkiertäjä
           en: Member of Committee
-      picture: '@src/assets/officials/2026/SofiaElomaa.jpg'
+      picture: '@src/assets/officials/2026/SofiaElomaa.avif'
     - name: Kaisla Haapoja
       title:
         - fi: Kolikonkiertäjä
           en: Member of Committee
-      picture: '@src/assets/officials/2026/KaislaHaapoja.jpg'
+      picture: '@src/assets/officials/2026/KaislaHaapoja.avif'
     - name: Ella Palviainen
       title:
         - fi: Kolikonkiertäjä
@@ -848,17 +848,17 @@
       title:
         - fi: Kolikonkiertäjä
           en: Member of Committee
-      picture: '@src/assets/officials/2026/LottaRaveala.jpg'
+      picture: '@src/assets/officials/2026/LottaRaveala.avif'
     - name: Sara Heiskanen
       title:
         - fi: Kolikonkiertäjä
           en: Member of Committee
-      picture: '@src/assets/officials/2026/SaraHeiskanen.jpg'
+      picture: '@src/assets/officials/2026/SaraHeiskanen.avif'
     - name: Saku Parttimaa
       title:
         - fi: Vanha rahastonhoitaja
           en: Old Treasurer
-      picture: '@src/assets/officials/2026/SakuParttimaa.jpg'
+      picture: '@src/assets/officials/2026/SakuParttimaa.avif'
 - name:
     fi: Mediatoimikunta
     en: Media Committee
@@ -868,27 +868,27 @@
         - fi: Viestintämestari
           en: Head of Communications
       leader: true
-      picture: '@src/assets/officials/2026/Joel_Forsstrom.jpg'
+      picture: '@src/assets/officials/2026/Joel_Forsstrom.avif'
     - name: Säde Mikkonen
       title:
         - fi: Vara-VM
           en: Vice-HC
-      picture: '@src/assets/officials/2026/SädeMikkonen.jpg'
+      picture: '@src/assets/officials/2026/SädeMikkonen.avif'
     - name: Leevi Oksanen
       title:
         - fi: Dokumentoija
           en: Photographer
-      picture: '@src/assets/officials/2026/LeeviOksanen.jpg'
+      picture: '@src/assets/officials/2026/LeeviOksanen.avif'
     - name: Otto Vaskola
       title:
         - fi: Dokumentoija
           en: Photographer
-      picture: '@src/assets/officials/2026/OttoVaskola.jpg'
+      picture: '@src/assets/officials/2026/OttoVaskola.avif'
     - name: Phuong Thieu
       title:
         - fi: Dokumentoija
           en: Photographer
-      picture: '@src/assets/officials/2026/PhuongThieu.jpg'
+      picture: '@src/assets/officials/2026/PhuongThieu.avif'
     - name: Nooa Lindfors
       title:
         - fi: Dokumentoija
@@ -902,12 +902,12 @@
       title:
         - fi: Graafikko
           en: Graphic Designer
-      picture: '@src/assets/officials/2026/Vilja_Lohi.jpg'
+      picture: '@src/assets/officials/2026/Vilja_Lohi.avif'
     - name: Venla Mäkelä
       title:
         - fi: Graafikko
           en: Graphic Designer
-      picture: '@src/assets/officials/2026/Venla_Makela.jpg'
+      picture: '@src/assets/officials/2026/Venla_Makela.avif'
     - name: Petra Ojala
       title:
         - fi: Graafikko
@@ -916,22 +916,22 @@
       title:
         - fi: Graafikko
           en: Graphic Designer
-      picture: '@src/assets/officials/2026/AkseliPihlajamaa.jpg'
+      picture: '@src/assets/officials/2026/AkseliPihlajamaa.avif'
     - name: Anna Dukate
       title:
         - fi: Graafikko
           en: Graphic Designer
-      picture: '@src/assets/officials/2026/AnnaDukate.jpg'
+      picture: '@src/assets/officials/2026/AnnaDukate.avif'
     - name: Nora Jasulaityte
       title:
         - fi: Somettaja
           en: Social Media Manager
-      picture: '@src/assets/officials/2026/NoraJasulaityte.jpg'
+      picture: '@src/assets/officials/2026/NoraJasulaityte.avif'
     - name: Karoliina Koivu
       title:
         - fi: Somettaja
           en: Social Media Manager
-      picture: '@src/assets/officials/2026/KaroliinaKoivu.jpg'
+      picture: '@src/assets/officials/2026/KaroliinaKoivu.avif'
     - name: Tommi Savolainen
       title:
         - fi: Somettaja
@@ -940,27 +940,27 @@
       title:
         - fi: Somettaja
           en: Social Media Manager
-      picture: '@src/assets/officials/2026/KaisuParviainen.jpg'
+      picture: '@src/assets/officials/2026/KaisuParviainen.avif'
     - name: Jaakko Ojaniemi
       title:
         - fi: Kääntäjä & oikolukija
           en: Language specialist & Proofreader
-      picture: '@src/assets/officials/2026/JaakkoOjaniemi.jpg'
+      picture: '@src/assets/officials/2026/JaakkoOjaniemi.avif'
     - name: Sofia Elomaa
       title:
         - fi: Kääntäjä & oikolukija
           en: Language specialist & Proofreader
-      picture: '@src/assets/officials/2026/SofiaElomaa.jpg'
+      picture: '@src/assets/officials/2026/SofiaElomaa.avif'
     - name: Venla Sormunen
       title:
         - fi: Kääntäjä & oikolukija
           en: Language specialist & Proofreader
-      picture: '@src/assets/officials/2026/VenlaSormunen.jpg'
+      picture: '@src/assets/officials/2026/VenlaSormunen.avif'
     - name: Helmi Haapanen
       title:
         - fi: Kääntäjä & oikolukija
           en: Language specialist & Proofreader
-      picture: '@src/assets/officials/2026/HelmiHaapanen.jpg'
+      picture: '@src/assets/officials/2026/HelmiHaapanen.avif'
     - name: Aapo Vuokila
       title:
         - fi: Dronevastaava
@@ -975,7 +975,7 @@
         - fi: Säätömestari
           en: Tinker Ball
       leader: true
-      picture: '@src/assets/officials/2026/AkseliPihlajamaa.jpg'
+      picture: '@src/assets/officials/2026/AkseliPihlajamaa.avif'
     - name: Santeri Pyykkönen
       title:
         - fi: Säätömestari
@@ -985,7 +985,7 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/AapoLemettinen.jpg'
+      picture: '@src/assets/officials/2026/AapoLemettinen.avif'
     - name: Emil Ahvonen
       title:
         - fi: Säätökisälli
@@ -994,27 +994,27 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/AarnoKoponen.jpg'
+      picture: '@src/assets/officials/2026/AarnoKoponen.avif'
     - name: Aleksi Sarja
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/AleksiSarja.jpg'
+      picture: '@src/assets/officials/2026/AleksiSarja.avif'
     - name: Arvo Mattilainen
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/ArvoMattilainen.jpg'
+      picture: '@src/assets/officials/2026/ArvoMattilainen.avif'
     - name: Nicolas Bosnjak
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/Nicolas_Bosnjak.jpg'
+      picture: '@src/assets/officials/2026/Nicolas_Bosnjak.avif'
     - name: Daniel Lewis
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/DanielLewis.jpg'
+      picture: '@src/assets/officials/2026/DanielLewis.avif'
     - name: Emil Lintunen
       title:
         - fi: Säätökisälli
@@ -1023,7 +1023,7 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/OivaHaapaniemi.jpg'
+      picture: '@src/assets/officials/2026/OivaHaapaniemi.avif'
     - name: Hannes Hokkanen
       title:
         - fi: Säätökisälli
@@ -1032,7 +1032,7 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/HanniTynjälä.jpg'
+      picture: '@src/assets/officials/2026/HanniTynjälä.avif'
     - name: Akseli Leino
       picture: '@src/assets/officials/2024/akseli_leino.jpeg'
       title:
@@ -1042,17 +1042,17 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/JaakkoLehto.jpg'
+      picture: '@src/assets/officials/2026/JaakkoLehto.avif'
     - name: Jere Hasu
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/Jere_Hasu.jpg'
+      picture: '@src/assets/officials/2026/Jere_Hasu.avif'
     - name: Jonatan Paunonen
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/JonatanPaunonen.jpg'
+      picture: '@src/assets/officials/2026/JonatanPaunonen.avif'
     - name: Veeti Kittamaa
       title:
         - fi: Säätökisälli
@@ -1069,12 +1069,12 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/Vilja_Lohi.jpg'
+      picture: '@src/assets/officials/2026/Vilja_Lohi.avif'
     - name: Mikko Kujanpää
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/MikkoKujanpaa.jpg'
+      picture: '@src/assets/officials/2026/MikkoKujanpaa.avif'
     - name: Markus Muilu
       title:
         - fi: Säätökisälli
@@ -1083,12 +1083,12 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/MattiLaine.jpg'
+      picture: '@src/assets/officials/2026/MattiLaine.avif'
     - name: Pinja Mäkeläinen
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/PinjaMakelainen.jpg'
+      picture: '@src/assets/officials/2026/PinjaMakelainen.avif'
     - name: Ilkka Taponen
       title:
         - fi: Säätökisälli
@@ -1101,12 +1101,12 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/Venla_Makela.jpg'
+      picture: '@src/assets/officials/2026/Venla_Makela.avif'
     - name: Violet Bris Nevalainen
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/BrisNevalainen.jpg'
+      picture: '@src/assets/officials/2026/BrisNevalainen.avif'
     - name: Pyry Kiviluoma
       title:
         - fi: Säätökisälli
@@ -1124,7 +1124,7 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/IiroSallinen.jpg'
+      picture: '@src/assets/officials/2026/IiroSallinen.avif'
     - name: Nooa Lindfors
       title:
         - fi: Säätökisälli
@@ -1133,7 +1133,7 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/NuuttiLaine.jpg'
+      picture: '@src/assets/officials/2026/NuuttiLaine.avif'
     - name: Daniel Ruotsi
       picture: '@src/assets/officials/2024/daniel_ruotsi.jpg'
       title:
@@ -1148,7 +1148,7 @@
       title:
         - fi: Säätökisälli
           en: Tinker Bell
-      picture: '@src/assets/officials/2026/Daniel_Gorbatchev.jpg'
+      picture: '@src/assets/officials/2026/Daniel_Gorbatchev.avif'
     - name: Rika Lintunen
       picture: '@src/assets/officials/2025/rika_lintunen.avif'
       title:
@@ -1184,7 +1184,7 @@
       title:
         - fi: Eskalaattori
           en: Escalator
-      picture: '@src/assets/officials/2026/Eeva_Jarvenpaa.jpg'
+      picture: '@src/assets/officials/2026/Eeva_Jarvenpaa.avif'
     - name: Henri Rosenberg
       title:
         - fi: Killisti
@@ -1193,7 +1193,7 @@
       title:
         - fi: Depressantti
           en: Depressant
-      picture: '@src/assets/officials/2026/Joel_Forsstrom.jpg'
+      picture: '@src/assets/officials/2026/Joel_Forsstrom.avif'
     - name: Mikhail Romanov
       title:
         - fi: Depressantti
@@ -1207,7 +1207,7 @@
       title:
         - fi: Depressantti
           en: Depressant
-      picture: '@src/assets/officials/2026/SakuParttimaa.jpg'
+      picture: '@src/assets/officials/2026/SakuParttimaa.avif'
     - name: Enja Hakkarainen
       title:
         - fi: Depressantti
@@ -1220,7 +1220,7 @@
       title:
         - fi: Depressantti
           en: Depressant
-      picture: '@src/assets/officials/2026/SädeMikkonen.jpg'
+      picture: '@src/assets/officials/2026/SädeMikkonen.avif'
 - name:
     fi: Retkitoimikunta
     en: Trek Committee
@@ -1243,22 +1243,22 @@
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/Daniel_Gorbatchev.jpg'
+      picture: '@src/assets/officials/2026/Daniel_Gorbatchev.avif'
     - name: Samuli Sarmala
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/SamuliSarmala.jpg'
+      picture: '@src/assets/officials/2026/SamuliSarmala.avif'
     - name: Vilja Lohi
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/Vilja_Lohi.jpg'
+      picture: '@src/assets/officials/2026/Vilja_Lohi.avif'
     - name: Lucas Bosnjak
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/LucasBosnjak.jpg'
+      picture: '@src/assets/officials/2026/LucasBosnjak.avif'
     - name: Ella Palviainen
       title:
         - fi: Retkisälli
@@ -1267,22 +1267,22 @@
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/JonatanPaunonen.jpg'
+      picture: '@src/assets/officials/2026/JonatanPaunonen.avif'
     - name: Lauri Tuominen
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/Lauri_Tuominen.jpg'
+      picture: '@src/assets/officials/2026/Lauri_Tuominen.avif'
     - name: Niklas Haarnoja
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/NiklasHaarnoja.jpg'
+      picture: '@src/assets/officials/2026/NiklasHaarnoja.avif'
     - name: Sonja Annala
       title:
         - fi: Retkisälli
           en: Trip-prentice
-      picture: '@src/assets/officials/2026/SonjaAnnala.jpg'
+      picture: '@src/assets/officials/2026/SonjaAnnala.avif'
 - name:
     fi: Kultainen Toimitus
     en: Golden Tomato
@@ -1296,17 +1296,17 @@
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/Elsa_Kuntsi.jpg'
+      picture: '@src/assets/officials/2026/Elsa_Kuntsi.avif'
     - name: Hanni Tynjälä
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/HanniTynjälä.jpg'
+      picture: '@src/assets/officials/2026/HanniTynjälä.avif'
     - name: Jaakko Ojaniemi
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/JaakkoOjaniemi.jpg'
+      picture: '@src/assets/officials/2026/JaakkoOjaniemi.avif'
     - name: Jattamari Raivio
       title:
         - fi: Kultainen Toimittaja
@@ -1315,7 +1315,7 @@
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/KiChunTong.jpg'
+      picture: '@src/assets/officials/2026/KiChunTong.avif'
     - name: Leila Lavonen
       title:
         - fi: Kultainen Toimittaja
@@ -1324,7 +1324,7 @@
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/MikkoKujanpaa.jpg'
+      picture: '@src/assets/officials/2026/MikkoKujanpaa.avif'
     - name: Mikko Vanhanen
       title:
         - fi: Kultainen Toimittaja
@@ -1333,7 +1333,7 @@
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/Milja_Janis.jpg'
+      picture: '@src/assets/officials/2026/Milja_Janis.avif'
     - name: Noora Hannula
       title:
         - fi: Kultainen Toimittaja
@@ -1342,7 +1342,7 @@
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/NuuttiLaine.jpg'
+      picture: '@src/assets/officials/2026/NuuttiLaine.avif'
     - name: Petra Ojala
       title:
         - fi: Kultainen Toimittaja
@@ -1351,7 +1351,7 @@
       title:
         - fi: Kultainen Toimittaja
           en: Golden Editor
-      picture: '@src/assets/officials/2026/PinjaMakelainen.jpg'
+      picture: '@src/assets/officials/2026/PinjaMakelainen.avif'
     - name: Saara Miettinen
       title:
         - fi: Kultainen graafikko
@@ -1360,12 +1360,12 @@
       title:
         - fi: Kultainen graafikko
           en: Golden Artist
-      picture: '@src/assets/officials/2026/Venla_Makela.jpg'
+      picture: '@src/assets/officials/2026/Venla_Makela.avif'
     - name: Saku Parttimaa
       title:
         - fi: Kultainen taittaja
           en: Golden Designer
-      picture: '@src/assets/officials/2026/SakuParttimaa.jpg'
+      picture: '@src/assets/officials/2026/SakuParttimaa.avif'
 - name:
     fi: Stigutoimikunta
     en: Sticker Committee
@@ -1380,7 +1380,7 @@
         - fi: Stigulantti
           en: Stigulant
       leader: true
-      picture: '@src/assets/officials/2026/MikkoKujanpaa.jpg'
+      picture: '@src/assets/officials/2026/MikkoKujanpaa.avif'
     - name: Tuomas Nykänen
       title:
         - fi: Degenerantti
@@ -1421,22 +1421,22 @@
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/SakuParttimaa.jpg'
+      picture: '@src/assets/officials/2026/SakuParttimaa.avif'
     - name: Matias Ahokas
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/MatiasAhokas.jpg'
+      picture: '@src/assets/officials/2026/MatiasAhokas.avif'
     - name: Jaakko Ojaniemi
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/JaakkoOjaniemi.jpg'
+      picture: '@src/assets/officials/2026/JaakkoOjaniemi.avif'
     - name: Jaakko Lehto
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/JaakkoLehto.jpg'
+      picture: '@src/assets/officials/2026/JaakkoLehto.avif'
     - name: Eero Huhtala
       picture: '@src/assets/officials/2025/eero_huhtala.avif'
       title:
@@ -1446,12 +1446,12 @@
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/SonjaAnnala.jpg'
+      picture: '@src/assets/officials/2026/SonjaAnnala.avif'
     - name: Säde Mikkonen
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/SädeMikkonen.jpg'
+      picture: '@src/assets/officials/2026/SädeMikkonen.avif'
     - name: Henri Paasonen
       title:
         - fi: Degenerantti
@@ -1464,7 +1464,7 @@
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/NiklasNarinen.jpg'
+      picture: '@src/assets/officials/2026/NiklasNarinen.avif'
     - name: Jenny Ruokolainen
       title:
         - fi: Degenerantti
@@ -1481,7 +1481,7 @@
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/SaraTimonen.jpg'
+      picture: '@src/assets/officials/2026/SaraTimonen.avif'
     - name: Vinski Lång
       title:
         - fi: Degenerantti
@@ -1494,7 +1494,7 @@
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/OivaHaapaniemi.jpg'
+      picture: '@src/assets/officials/2026/OivaHaapaniemi.avif'
     - name: Nooa Virtala
       title:
         - fi: Degenerantti
@@ -1503,7 +1503,7 @@
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/AkseliPihlajamaa.jpg'
+      picture: '@src/assets/officials/2026/AkseliPihlajamaa.avif'
     - name: Eemil Taipale
       title:
         - fi: Degenerantti
@@ -1512,27 +1512,27 @@
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/Marie_Heikkinen.jpg'
+      picture: '@src/assets/officials/2026/Marie_Heikkinen.avif'
     - name: Nicolas Bosnjak
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/Nicolas_Bosnjak.jpg'
+      picture: '@src/assets/officials/2026/Nicolas_Bosnjak.avif'
     - name: Lauri Tuominen
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/Lauri_Tuominen.jpg'
+      picture: '@src/assets/officials/2026/Lauri_Tuominen.avif'
     - name: Elsa Kuntsi
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/Elsa_Kuntsi.jpg'
+      picture: '@src/assets/officials/2026/Elsa_Kuntsi.avif'
     - name: Milja Jänis
       title:
         - fi: Degenerantti
           en: Degenerate
-      picture: '@src/assets/officials/2026/Milja_Janis.jpg'
+      picture: '@src/assets/officials/2026/Milja_Janis.avif'
     - name: Ilkka Taponen
       title:
         - fi: Tosi Wanha pieru
@@ -1550,23 +1550,23 @@
         - fi: Master's and International Student Captain (MISC)
           en: Master's and International Student Captain (MISC)
       leader: true
-      picture: '@src/assets/officials/2026/NimrodPocsveiler.jpg'
+      picture: '@src/assets/officials/2026/NimrodPocsveiler.avif'
     - name: Jere Hasu
       title:
         - fi: Master's and International Student Captain (MISC)
           en: Master's and International Student Captain (MISC)
       leader: true
-      picture: '@src/assets/officials/2026/Jere_Hasu.jpg'
+      picture: '@src/assets/officials/2026/Jere_Hasu.avif'
     - name: Anna Dukate
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/AnnaDukate.jpg'
+      picture: '@src/assets/officials/2026/AnnaDukate.avif'
     - name: Violet Bris Nevalainen
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/BrisNevalainen.jpg'
+      picture: '@src/assets/officials/2026/BrisNevalainen.avif'
     - name: Kiet Ta
       title:
         - fi: Miscellaneous
@@ -1579,32 +1579,32 @@
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/ValtteriKanstren.jpg'
+      picture: '@src/assets/officials/2026/ValtteriKanstren.avif'
     - name: Sofia Elomaa
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/SofiaElomaa.jpg'
+      picture: '@src/assets/officials/2026/SofiaElomaa.avif'
     - name: Jianing Hu
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/JianingHu.jpg'
+      picture: '@src/assets/officials/2026/JianingHu.avif'
     - name: Isla Kajoniemi
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/IslaKajoniemi.jpg'
+      picture: '@src/assets/officials/2026/IslaKajoniemi.avif'
     - name: Minnea Orho
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/MinneaOrho.jpg'
+      picture: '@src/assets/officials/2026/MinneaOrho.avif'
     - name: Alex Vu
       title:
         - fi: Miscellaneous
           en: Miscellaneous
-      picture: '@src/assets/officials/2026/AlexVu.jpg'
+      picture: '@src/assets/officials/2026/AlexVu.avif'
     - name: Chloe Trang Nguyen
       title:
         - fi: Miscellaneous
@@ -1627,7 +1627,7 @@
         - fi: Seniilisihteeri
           en: Senile Secretary
       leader: true
-      picture: '@src/assets/officials/2026/Viivi-MaariKallinen.jpg'
+      picture: '@src/assets/officials/2026/Viivi-MaariKallinen.avif'
 - name:
     fi: rrrRankkatoimikunta
     en: rrrRankka Committee
@@ -1691,14 +1691,14 @@
       title:
         - fi: Mentori
           en: Mentor
-      picture: '@src/assets/officials/2026/SakuParttimaa.jpg'
+      picture: '@src/assets/officials/2026/SakuParttimaa.avif'
     - name: Säde Mikkonen
       title:
         - fi: Merkkiohjesääntötyöryhmä
           en: Badge regulations working group
         - fi: Mentori
           en: Mentor
-      picture: '@src/assets/officials/2026/SädeMikkonen.jpg'
+      picture: '@src/assets/officials/2026/SädeMikkonen.avif'
 - name:
     fi: Ulkoexcu-toimikunta
     en: International Excursion Committee
@@ -1708,7 +1708,7 @@
         - fi: Ulkoexcumestari
           en: Master of International Excursion
       leader: true
-      picture: '@src/assets/officials/2026/MattiLaine.jpg'
+      picture: '@src/assets/officials/2026/MattiLaine.avif'
     - name: Juho Kerminen
       picture: '@src/assets/officials/2025/juho_kerminen.avif'
       title:
@@ -1736,7 +1736,7 @@
       title:
         - fi: Ulkoexcutoimikunnan jäsen
           en: Member of International Excursion Committee
-      picture: '@src/assets/officials/2026/SädeMikkonen.jpg'
+      picture: '@src/assets/officials/2026/SädeMikkonen.avif'
     - name: Nia Lehtonen
       title:
         - fi: Ulkoexcutoimikunnan jäsen
@@ -1745,7 +1745,7 @@
       title:
         - fi: Ulkoexcutoimikunnan jäsen
           en: Member of International Excursion Committee
-      picture: '@src/assets/officials/2026/MinneaOrho.jpg'
+      picture: '@src/assets/officials/2026/MinneaOrho.avif'
     - name: Ella Palviainen
       title:
         - fi: Ulkoexcutoimikunnan jäsen

@@ -20,7 +20,7 @@
   name: 'Joel Ventola'
   email: 'joel.ventola@as.fi'
   telegram: 'jventola'
-  picture: '@src/assets/officials/2026/JoelVentola.jpg'
+  picture: '@src/assets/officials/2026/JoelVentola.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -28,7 +28,7 @@
   name: 'Sonja Annala'
   email: 'sonja.annala@as.fi'
   telegram: 'SoiQ3'
-  picture: '@src/assets/officials/2026/SonjaAnnala.jpg'
+  picture: '@src/assets/officials/2026/SonjaAnnala.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -36,7 +36,7 @@
   name: 'Otto Peltonen'
   email: 'otto.peltonen@as.fi'
   telegram: 'LahenLevein'
-  picture: '@src/assets/officials/2026/OttoPeltonen.jpg'
+  picture: '@src/assets/officials/2026/OttoPeltonen.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -52,4 +52,4 @@
   name: 'Venla Mäkelä'
   email: 'venla.makela@as.fi'
   telegram: 'venlamakela'
-  picture: '@src/assets/officials/2026/Venla_Makela.jpg'
+  picture: '@src/assets/officials/2026/Venla_Makela.avif'
