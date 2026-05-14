@@ -1,0 +1,58 @@
+lang:
+  fi: true
+  en: false
+
+curriculum:
+  fi: '2024-2026'
+  en: '2024-2026'
+
+name:
+  fi: 'Elektroniikka ja sähkötekniikka (ELECin opiskelijat)'
+  en: 'Nada'
+
+link:
+  fi: 'https://www.aalto.fi/fi/sivuaineet/elektroniikka-ja-sahkotekniikka-sivuaine-elecin-opiskelijat'
+  en: 'https://www.aalto.fi/fi/sivuaineet/rakennustekniikka-sivuaine'
+
+desc:
+  fi: >
+    ELECin opiskelijoille suunnattu elektroniikan ja sähkötekniikan sivuaine koostuu viidestä vapaavalintaisesta kurssista, jotka opiskelija voi valita kymmenen kurssin joukosta. Sivuaineen sisältö on hyvin muokattavissa omien mielenkiinnon kohteiden mukaan. Tarjolla olevien kurssien joukosta löytyy aiheita aina sähköisten piirien analyysistä kvanttifysiikkaan. Sivuaine on oiva valinta esimerkiksi niille, jotka ovat kiinnostuneita automaatioon liittyvästä sähkötekniikasta tai haluavat jatkaa elektroniikan ja nanotekniikan maisteriohjelmaan.
+  en: 'TEKSTIÄ IN INGLISH'
+
+why:
+  fi: >
+    Elektroniikan ja sähkötekniikan sivuaine kannattaisi valita, jos sinua kiinnostaa oppia lisää sähköisten piirien toiminnasta, elektroniikassa käytetyistä komponenteista ja materiaaleista, sähkömagneettisista kentistä ja antenneista tai kvanttiteoriasta. Sivuaineesta voi halutessaan tehdä hyvin monipuolisen käymällä eri aihepiireihin liittyviä kursseja, tai on mahdollista myös keskittyä enemmän esimerkiksi sähköisten piirien analyysiin. Koska sähkötekniikka on myös tärkeä osa automaatiota, tukee tämä sivuaine hyvin automaation ja robotiikan pääaineopintoja. Joillakin kursseilla esimerkiksi käydään hyvin samankaltaisia konsepteja kuin automaation pääainekursseilla, mutta eri asiayhteyksissä, mikä tukee näiden aiheiden laajempaa ymmärtämistä.
+  en: 'TEKSTIÄ IN INGLISH'
+
+masters:
+  info:
+    fi: >
+      Sivuaine ei ole ELECin opiskelijoille pakollinen, mutta kuitenkin hyvin suositeltava, jos aiot hakea Aallon Electronics and Nanotechnology -maisteriohjelmaan. Sivuaine nimittäin tarjoaa varsin hyvät esitiedot maisteriohjelman pääaineisiin, joita ovat:
+    en: 'TEKSTIÄ IN INGLISH'
+  list:
+    fi:
+      - >
+        Microelectronic Circuit Design
+      - >
+        Microvawe Engineering
+      - >
+        Photonics and Nanotechnology
+      - >
+        Space Science and Technology
+      - >
+        Wireless and RF Engineering
+    en:
+      - 'EMPTY LIST LOL'
+
+courses:
+  info:
+    fi: ''
+    en: ''
+  list:
+    fi:
+      - >
+        ELEC-C4140 Kenttäteoria (I-II). Kurssi on käytännössä jatkoa perusopintojen kurssille ELEC-A4130 Sähkö ja magnetismi. Kurssilla perehdytään syvällisemmin Maxwellin yhtälöihin, ja etenkin kurssin alkupuolella on hyötyä myös kurssin MS-A0305 Differentiaali- ja integraalilaskenta 3 sisällöistä. Kurssin loppupuolella perehdytään antennien toimintaan, ja kurssi onkin erinomainen pohja, jos olet kiinnostunut antennisuunnittelusta maisteriopinnoissa. Kurssi kannattaa käydä heti toisen kandivuoden syksyllä.
+      - >
+        ELEC-C9230 Elektroniikka (I-II). Kurssilla perehdytään epälineaaristen elektroniikkakomponenttien, kuten diodien ja transistorien toimintaan. Kurssin loppupuoli koostuu takaisinkytkettyjen piirien ja operaatiovahvistimien toiminnan analyysistä. Etenkin piirien takaisinkytkentäanalyysi tukee automaation ja robotiikan pääaineopintoja, koska se muistuttaa hyvin paljon säätöteorian takaisinkytkentöjen analyysiä. Yleisesti suositellaan käymään kurssi ELEC-C9120 Sähköisten järjestelmien analyysi esitietoina ennen tätä kurssia, mutta se ei ole välttämätöntä.
+    en:
+      - 'EMPTY LIST LOL'
