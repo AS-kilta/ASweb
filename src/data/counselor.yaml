@@ -4,7 +4,7 @@
   name: 'Saara Miettinen'
   email: 'saara.miettinen@as.fi'
   telegram: 'Saaratoniini'
-  picture: '@src/assets/officials/2025/saara_miettinen.jpg'
+  picture: '@src/assets/officials/2025/saara_miettinen.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -12,7 +12,7 @@
   name: 'Pyry Kiviluoma'
   email: 'pyry.kiviluoma@as.fi'
   telegram: 'pyrykiviluoma'
-  picture: '@src/assets/officials/2025/pyry_kiviluoma.jpg'
+  picture: '@src/assets/officials/2025/pyry_kiviluoma.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -20,7 +20,7 @@
   name: 'Joel Ventola'
   email: 'joel.ventola@as.fi'
   telegram: 'jventola'
-  picture: '@src/assets/officials/2026/JoelVentola.jpg'
+  picture: '@src/assets/officials/2026/JoelVentola.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -28,7 +28,7 @@
   name: 'Sonja Annala'
   email: 'sonja.annala@as.fi'
   telegram: 'SoiQ3'
-  picture: '@src/assets/officials/2026/SonjaAnnala.jpg'
+  picture: '@src/assets/officials/2026/SonjaAnnala.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -36,7 +36,7 @@
   name: 'Otto Peltonen'
   email: 'otto.peltonen@as.fi'
   telegram: 'LahenLevein'
-  picture: '@src/assets/officials/2026/OttoPeltonen.jpg'
+  picture: '@src/assets/officials/2026/OttoPeltonen.avif'
 
 - title:
     fi: 'Häirintäyhdyshenkilö'
@@ -44,7 +44,7 @@
   name: 'Jenny Ruokolainen'
   email: 'jenny.ruokolainen@as.fi'
   telegram: 'jequilaaa'
-  picture: '@src/assets/officials/2025/jenny_ruokolainen.jpg'
+  picture: '@src/assets/officials/2025/jenny_ruokolainen.avif'
 
 - title:
     fi: 'Vastuuhäirintäyhdyshenkilö'
@@ -52,4 +52,4 @@
   name: 'Venla Mäkelä'
   email: 'venla.makela@as.fi'
   telegram: 'venlamakela'
-  picture: '@src/assets/officials/2026/Venla_Makela.jpg'
+  picture: '@src/assets/officials/2026/Venla_Makela.avif'
