@@ -32,6 +32,10 @@
           check.enable = true;
           settings.package = pkgs.prek;
           settings.hooks = {
+            alejandra.enable = true;
+            deadnix.enable = true;
+            statix.enable = true;
+
             eslint.enable = true;
             prettier.enable = true;
           };
