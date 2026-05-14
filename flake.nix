@@ -35,9 +35,6 @@
             alejandra.enable = true;
             deadnix.enable = true;
             statix.enable = true;
-
-            eslint.enable = true;
-            prettier.enable = true;
           };
         };
 
