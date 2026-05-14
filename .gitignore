@@ -74,3 +74,10 @@ yarn-error.log
 #Astro files
 .astro
 dist
+
+# Nix build output
+result
+result-*
+
+# pre-commit config
+.pre-commit-config.yaml
