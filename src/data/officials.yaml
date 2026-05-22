@@ -1762,6 +1762,8 @@
       title:
         - fi: Toiminnantarkastaja
           en: Inspector
+        - fi: Teekkarikokousedustaja
+          en: Teekkari Assembly representative
     - name: Henrik Starck
       picture: '@src/assets/officials/2024/henrik_starck.avif'
       title:
@@ -1783,10 +1785,6 @@
       title:
         - fi: Oltermanni
           en: Alderman
-    - name: Tuomas Nykänen
-      title:
-        - fi: Teekkarikokousedustaja
-          en: Teekkari Assembly representative
     - name: Kalle Kajoniemi
       title:
         - fi: Teekkarikokouksen varaedustaja
