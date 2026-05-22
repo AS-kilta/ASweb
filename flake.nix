@@ -37,6 +37,18 @@
           '';
         };
 
+        packages.serve = pkgs.writeShellApplication {
+          name = "asweb-serve";
+          runtimeInputs = with pkgs; [
+            python3
+          ];
+          text = ''
+            python3 -m http.server \
+              -d ${config.packages.default} \
+              8000
+          '';
+        };
+
         devShells.default = pkgs.mkShellNoCC {
           inputsFrom = with config; [
             packages.default
