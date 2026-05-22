@@ -3,25 +3,54 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    systems.url = "github:nix-systems/default";
+
+    flake-parts.url = "github:hercules-ci/flake-parts";
+    flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, systems, ... }@inputs:
-    let forEachSystem = nixpkgs.lib.genAttrs (import systems); in
-  {
-    devShells = forEachSystem (
-      system:
-        let
-          pkgs = nixpkgs.legacyPackages.${system};
+  outputs = {flake-parts, ...} @ inputs:
+    flake-parts.lib.mkFlake {inherit inputs;} {
+      systems = [
+        "aarch64-darwin"
+        "aarch64-linux"
+        "x86_64-linux"
+      ];
+
+      perSystem = {
+        config,
+        pkgs,
+        ...
+      }: {
+        packages.default = pkgs.buildNpmPackage {
+          pname = "ASweb";
+          version = "2.0.0";
+
+          src = ./.;
+
+          npmDeps = pkgs.importNpmLock {npmRoot = ./.;};
+          npmConfigHook = pkgs.importNpmLock.npmConfigHook;
           nodejs = pkgs.nodejs_24;
-        in
-        {
-          default = pkgs.mkShell {
-            buildInputs = [
-              nodejs
-            ];
+
+          installPhase = ''
+            mkdir "$out"
+            mv dist/* "$out"
+          '';
+        };
+
+        devShells.default = pkgs.mkShellNoCC {
+          inputsFrom = with config; [
+            packages.default
+          ];
+
+          packages = with pkgs; [
+            importNpmLock.hooks.linkNodeModulesHook
+          ];
+
+          npmDeps = pkgs.importNpmLock.buildNodeModules {
+            inherit (config.packages.default) nodejs;
+            npmRoot = ./.;
           };
-        }
-    );
-  };
+        };
+      };
+    };
 }

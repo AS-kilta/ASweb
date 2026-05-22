@@ -53,6 +53,7 @@ typings/
 
 # dotenv environment variable files
 .env*
+.direnv/
 
 # gatsby files
 .cache/
@@ -73,3 +74,7 @@ yarn-error.log
 #Astro files
 .astro
 dist
+
+# Nix build output
+result
+result-*
