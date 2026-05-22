@@ -38,7 +38,7 @@ const translations: Translations = {
     en: 'Close all',
   },
   curriculum: {
-    fi: 'Opintosuunnitelma',
+    fi: 'Opetussuunnitelma',
     en: 'Curriculum',
   },
   minors: {
