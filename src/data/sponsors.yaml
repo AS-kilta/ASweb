@@ -66,3 +66,7 @@
 - name: 'Suomen Automaatioseura RY'
   link: 'https://www.automaatioseura.fi/'
   picture: '@assets/sponsors/SuomenAutomaatioseura.png'
+
+- name: 'UpCloud'
+  link: 'https://upcloud.com/'
+  picture: '@assets/sponsors/Upcloud_Logo_White.svg'
