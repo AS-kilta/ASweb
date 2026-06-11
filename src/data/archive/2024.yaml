@@ -1666,38 +1666,38 @@ officials:
     members:
       - name: 'Jenny Ruokolainen'
         title:
-        fi: 'Vastuuhäirintäyhdyshenkilö'
-        en: 'Responsible Confidential Counselor'
-        picture: '../images/officials/2025/jenny_ruokolainen.jpg'  
+          fi: 'Vastuuhäirintäyhdyshenkilö'
+          en: 'Responsible Confidential Counselor'
+        picture: '../images/officials/2025/jenny_ruokolainen.jpg'
 
       - name: 'Arttu Pahta'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
         picture: '../images/officials/aebaej_placeholder.png'
 
       - name: 'Pessi Lyytikäinen'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
         picture: '../images/officials/2025/pyry_kiviluoma.jpg'
 
       - name: 'Joel Forsström'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
         picture: '../images/officials/2025/joel_forstrom.jpg'
 
       - name: 'Mimi Määttä'
         title:
           fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
-        picture: '../images/officials/aebaej_placeholder.png"
+          en: 'Confidential Counselor'
+        picture: '../images/officials/aebaej_placeholder.png'
 
       - name: 'Kiira Metsoila'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
         picture: '../images/officials/2024/kiira_metsoila.jpeg'
 
 
