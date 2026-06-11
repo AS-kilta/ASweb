@@ -1372,45 +1372,45 @@ officials:
     members:
       - name: 'Kiira Metsoila'
         title:
-        fi: 'Vastuuhäirintäyhdyshenkilö'
-        en: 'Responsible Confidential Counselor'
-        picture: '../images/officials/2024/kiira_metsoila.jpeg' 
+          fi: 'Vastuuhäirintäyhdyshenkilö'
+          en: 'Responsible Confidential Counselor'
+        picture: '../images/officials/2024/kiira_metsoila.jpeg'
 
       - name: 'Arttu Pahta'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
         picture: '../images/officials/aebaej_placeholder.png'
 
       - name: 'Pessi Lyytikäinen'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
         picture: '../images/officials/2025/pyry_kiviluoma.jpg'
 
       - name: 'Meri Hiipakka'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
-        picture: '../images/officials/aebaej_placeholder.png"
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
+        picture: '../images/officials/aebaej_placeholder.png'
 
       - name: 'Mimi Määttä'
         title:
           fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
-        picture: '../images/officials/aebaej_placeholder.png"
+          en: 'Confidential Counselor'
+        picture: '../images/officials/aebaej_placeholder.png'
 
       - name: 'Vesta Kulomaa'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
-        picture: '../images/officials/aebaej_placeholder.png"
-      
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
+        picture: '../images/officials/aebaej_placeholder.png'
+
       - name: 'Iida Jauhola'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
-        picture: '../images/officials/aebaej_placeholder.png"
+          fi: 'Häirintäyhdyshenkilö'
+          en: 'Confidential Counselor'
+        picture: '../images/officials/aebaej_placeholder.png'
 
 accolades:
   - name:
