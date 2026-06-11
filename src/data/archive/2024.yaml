@@ -1680,7 +1680,7 @@ officials:
         title:
           fi: 'Häirintäyhdyshenkilö'
           en: 'Confidential Counselor'
-        picture: '../images/officials/2025/pyry_kiviluoma.jpg'
+        picture: '../images/officials/aebaej_placeholder.png'
 
       - name: 'Joel Forsström'
         title:
@@ -1699,7 +1699,6 @@ officials:
           fi: 'Häirintäyhdyshenkilö'
           en: 'Confidential Counselor'
         picture: '../images/officials/2024/kiira_metsoila.jpeg'
-
 
 accolades:
   - name:
