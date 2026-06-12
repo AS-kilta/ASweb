@@ -1372,38 +1372,38 @@ officials:
     members:
       - name: 'Kiira Metsoila'
         title:
-          fi: 'Vastuuhäirintäyhdyshenkilö'
-          en: 'Responsible Confidential Counselor'
+          - fi: 'Vastuuhäirintäyhdyshenkilö'
+            en: 'Responsible Confidential Counselor'
 
       - name: 'Arttu Pahta'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Pessi Lyytikäinen'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Meri Hiipakka'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Mimi Määttä'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Vesta Kulomaa'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Iida Jauhola'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
 accolades:
   - name:

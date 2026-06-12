@@ -1666,33 +1666,33 @@ officials:
     members:
       - name: 'Jenny Ruokolainen'
         title:
-          fi: 'Vastuuhäirintäyhdyshenkilö'
-          en: 'Responsible Confidential Counselor'
+          - fi: 'Vastuuhäirintäyhdyshenkilö'
+            en: 'Responsible Confidential Counselor'
 
       - name: 'Arttu Pahta'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Pessi Lyytikäinen'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Joel Forsström'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Mimi Määttä'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Kiira Metsoila'
         title:
-          fi: 'Häirintäyhdyshenkilö'
-          en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
 accolades:
   - name:

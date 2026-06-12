@@ -1825,38 +1825,38 @@ officials:
     members:
       - name: 'Jenny Ruokolainen'
         title:
-        fi: 'Vastuuhäirintäyhdyshenkilö'
-        en: 'Responsible Confidential Counselor'
+          - fi: 'Vastuuhäirintäyhdyshenkilö'
+            en: 'Responsible Confidential Counselor'
 
       - name: 'Kaisla Haapoja'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Pyry Kiviluoma'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Joel Forsström'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Sonja Annala'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Kiira Metsoila'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
       - name: 'Venla Mäkelä'
         title:
-        fi: 'Häirintäyhdyshenkilö'
-        en: 'Confidential Counselor'
+          - fi: 'Häirintäyhdyshenkilö'
+            en: 'Confidential Counselor'
 
 accolades:
   - name:
