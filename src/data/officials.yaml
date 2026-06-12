@@ -886,7 +886,7 @@
       title:
         - fi: 'TEK-yhteyshenkilö'
           en: 'TEK liaison'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      picture: '../images/officials/aebaej_placeholder.png'
 
 #Taloustoimikunta
 - name:
@@ -1525,7 +1525,7 @@
       title:
         - fi: 'Degenerantti'
           en: 'Degenerate'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Otto Moilanen'
       title:
         - fi: 'Degenerantti'
@@ -1944,7 +1944,7 @@
       title:
         - fi: 'Ulkoexcutoimikunnan jäsen'
           en: 'Member of International Excursion Committee'
-      picture: '../images/officials/2023/tonis_partel.jpg'
+      picture: '../images/officials/aebaej_placeholder.png'
 
 #ATP-tmk
 - name:
@@ -2018,7 +2018,7 @@
       title:
         - fi: 'Torpedo'
           en: 'Torpedo'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Saara Miettinen'
       title:
         - fi: 'Torpedo'
@@ -2034,6 +2034,7 @@
         - fi: 'WanhATPieru'
           en: 'WanhATPieru'
       picture: '../images/officials/2024/joonas_tormala.jpeg'
+
 
 #ATP-tmk
 - name:
@@ -2057,7 +2058,7 @@
       title:
         - fi: 'Toiminnantarkastaja'
           en: 'Inspector'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Henrik Starck'
       title:
         - fi: 'Toiminnantarkastaja'
@@ -2084,7 +2085,7 @@
       title:
         - fi: 'Teekkarikokousedustaja'
           en: 'Teekkari Assembly representative'
-      picture: '../images/officials/2023/tuomas_nykanen.jpg'
+      picture: '../images/officials/aebaej_placeholder.png'
     - name: 'Kalle Kajoniemi'
       title:
         - fi: 'Teekkarikokouksen varaedustaja'

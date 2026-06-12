@@ -150,7 +150,7 @@ board:
       en: 'The Master of Culture maintains the external relations with student organisations across Finland and builds new ones. They lead the Culture and Sports Committee, organise various happenings, cultural excursions and events to test different sports. Contact the Master of Culture if your matter concerns culture in any way.'
 
 officials:
-  #Aspu
+    #Aspu
   - name:
       fi: 'Fuksitoimikunta'
       en: 'Fuksi Committee'
@@ -644,7 +644,7 @@ officials:
         title:
           - fi: 'MinIEns'
             en: 'MinIEns'
-        picture: '../images/officials/aebaej_placeholder.png'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Enni Nykänen'
         title:
           - fi: 'MinIEns'
@@ -1170,7 +1170,7 @@ officials:
         title:
           - fi: 'Säätökisälli'
             en: 'Tinkerer'
-        picture: '../images/officials/2023/leo_suojarvi.jpg'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Jaakko Lehto'
         title:
           - fi: 'Säätökisälli'
@@ -1384,7 +1384,7 @@ officials:
         title:
           - fi: 'Retkisälli'
             en: 'Trip-prentice'
-        picture: '../images/officials/aebaej_placeholder.png'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Elsa Kuntsi'
         title:
           - fi: 'Retkisälli'
@@ -1467,7 +1467,7 @@ officials:
         title:
           - fi: 'Kultainen Toimittaja'
             en: 'Golden Editor'
-        picture: '../images/officials/aebaej_placeholder.png'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Jyri Kolu'
         title:
           - fi: 'Kultainen Toimittaja'
@@ -1547,7 +1547,7 @@ officials:
         title:
           - fi: 'Degenerantti'
             en: 'Degenerate'
-        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Veeti Kittamaa'
         title:
           - fi: 'Degenerantti'
@@ -1769,12 +1769,12 @@ officials:
         title:
           - fi: '1 (yksi)'
             en: '1 (one)'
-        picture: '../images/officials/aebaej_placeholder.png'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Emilia Kuisma'
         title:
           - fi: '1 (yksi)'
             en: '1 (one)'
-        picture: '../images/officials/2023/emilia_kuisma.jpg'
+        picture: '../images/officials/aebaej_placeholder.png"
 
   #rrrRankka
   - name:
@@ -1820,7 +1820,7 @@ officials:
             en: 'Vice Inspector'
           - fi: 'Teekkarikokouksen varaedustaja'
             en: 'Teekkari Assembly vice representative'
-        picture: '../images/officials/aebaej_placeholder.png'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Joonas Törmälä'
         title:
           - fi: 'Varatoiminnantarkastaja'
@@ -1840,12 +1840,60 @@ officials:
         title:
           - fi: 'Teekkarikokousedustaja'
             en: 'Teekkari Assembly representative'
-        picture: '../images/officials/2023/tuomas_nykanen.jpg'
+        picture: '../images/officials/aebaej_placeholder.png"
       - name: 'Juho Komulainen'
         title:
           - fi: 'Teekkarikokouksen varaedustaja'
             en: 'Teekkari Assembly vice representative'
         picture: '../images/officials/2024/juho_komulainen.jpg'
+
+  #Häryt
+  - name:
+      fi: 'Häirintäyhdyshenkilöt'
+      en: 'Confidential counselors'
+    members:
+      - name: 'Jenny Ruokolainen'
+        title:
+        fi: 'Vastuuhäirintäyhdyshenkilö'
+        en: 'Responsible Confidential Counselor'
+        picture: '../images/officials/2025/jenny_ruokolainen.jpg'  
+
+      - name: 'Kaisla Haapoja'
+        title:
+        fi: 'Häirintäyhdyshenkilö'
+        en: 'Confidential Counselor'
+        picture: '../images/officials/aebaej_placeholder.png'
+
+      - name: 'Pyry Kiviluoma'
+        title:
+        fi: 'Häirintäyhdyshenkilö'
+        en: 'Confidential Counselor'
+        picture: '../images/officials/2025/pyry_kiviluoma.jpg'
+
+      - name: 'Joel Forsström'
+        title:
+        fi: 'Häirintäyhdyshenkilö'
+        en: 'Confidential Counselor'
+        picture: '../images/officials/2025/joel_forstrom.jpg'
+
+      - name: 'Sonja Annala'
+        title:
+        fi: 'Häirintäyhdyshenkilö'
+        en: 'Confidential Counselor'
+        picture: '../images/officials/2025/sonja_annala.jpg'
+
+      - name: 'Kiira Metsoila'
+        title:
+        fi: 'Häirintäyhdyshenkilö'
+        en: 'Confidential Counselor'
+        picture: '../images/officials/2024/kiira_metsoila.jpeg'
+
+      - name: 'Venla Mäkelä'
+        title:
+        fi: 'Häirintäyhdyshenkilö'
+        en: 'Confidential Counselor'
+        picture: '../images/officials/2025/venla_makela.jpg'  
+
 
 accolades:
   - name:
