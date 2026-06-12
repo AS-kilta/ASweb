@@ -237,11 +237,11 @@
           en: 'JuomanlASkija'
       picture: '../assets/officials/2025/veerti_juurakko.avif'
       #Kultsit
-    - name: 'Violet Bris Nevalainen'
+    - name: 'Violet Nevalainen'
       title:
         - fi: 'Kultsi'
           en: 'Cultist'
-      picture: '../assets/officials/2026/BrisNevalainen.avif'
+      picture: '../assets/officials/2026/VioletNevalainen.avif'
     - name: 'Nooa Virtala'
       title:
         - fi: 'Kultsi'
@@ -591,11 +591,11 @@
       picture: '../assets/officials/aebaej_placeholder.png'
       leader: true
 
-    - name: 'Violet Bris Nevalainen'
+    - name: 'Violet Nevalainen'
       title:
         - fi: 'Lukkari'
           en: 'Song Leader'
-      picture: '../assets/officials/2026/BrisNevalainen.avif'
+      picture: '../assets/officials/2026/VioletNevalainen.avif'
 
     - name: 'Ki Chun Tong'
       title:
@@ -734,11 +734,11 @@
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
       picture: '../assets/officials/aebaej_placeholder.png'
-    - name: 'Violet Bris Nevalainen'
+    - name: 'Violet Nevalainen'
       title:
         - fi: 'ASkivahti'
           en: 'ASki Guardian'
-      picture: '../assets/officials/2026/BrisNevalainen.avif'
+      picture: '../assets/officials/2026/VioletNevalainen.avif'
     - name: 'Mikko Vanhanen'
       title:
         - fi: 'ASkivahti'
@@ -1202,11 +1202,11 @@
         - fi: 'Säätökisälli'
           en: 'Tinker bell'
       picture: '../assets/officials/2026/Venla_Makela.avif'
-    - name: 'Violet Bris Nevalainen'
+    - name: 'Violet Nevalainen'
       title:
         - fi: 'Säätökisälli'
           en: 'Tinker bell'
-      picture: '../assets/officials/2026/BrisNevalainen.avif'
+      picture: '../assets/officials/2026/VioletNevalainen.avif'
     - name: 'Pyry Kiviluoma'
       title:
         - fi: 'Säätökisälli'
@@ -1726,11 +1726,11 @@
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
       picture: '../assets/officials/2026/AnnaDukate.avif'
-    - name: 'Violet Bris Nevalainen'
+    - name: 'Violet Nevalainen'
       title:
         - fi: 'Miscellaneous'
           en: 'Miscellaneous'
-      picture: '../assets/officials/2026/BrisNevalainen.avif'
+      picture: '../assets/officials/2026/VioletNevalainen.avif'
     - name: 'Kiet Ta'
       title:
         - fi: 'Miscellaneous'
