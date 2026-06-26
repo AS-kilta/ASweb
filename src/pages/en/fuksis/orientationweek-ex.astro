@@ -1,0 +1,26 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import timetable from '@src/assets/images/EX_orientaatio.png';
+
+const description = 'The orientation week schedule for exchange students';
+---
+
+<BaseLayout
+  title="Exchange students Orientation week"
+  heroHeight="short"
+  description={description}
+  lang="en"
+  slug="/en/fuksis/orientationweek-ex"
+>
+  <h2 id="orientaatioviikon-aikataulu"></h2>
+
+  <div class="image-container">
+    <p>Orientation week is a hectic week with lots to do and explore!</p>
+    <p>
+      Here is the orientation week schedule as of now, we will try to update this to the best of our ability during
+      summer.
+    </p>
+    <Image class="centered-image" src={timetable} alt="timetable" />
+  </div>
+</BaseLayout>

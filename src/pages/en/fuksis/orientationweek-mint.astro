@@ -1,38 +1,33 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-//import { Image } from 'astro:assets';
-//import masters_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-masters.png';
-//import exchange_timetable from '@src/assets/images/orientaatioviikon-aikataulu-MINT-exchange.png';
+import { Image } from 'astro:assets';
+import timetable from '@src/assets/images/M_orientaatio.png';
 
-const description = 'The orientation week schedule for MINT fuksis';
+const description = "The orientation week schedule for Master's fuksis";
 ---
 
 <BaseLayout
-  title="MINT Orientation week"
+  title="Master's Orientation week"
   heroHeight="short"
   description={description}
   lang="en"
   slug="/en/fuksis/orientationweek-mint"
 >
   <h2 id="orientaatioviikon-aikataulu"></h2>
-  <!-- Uncomment and use these images when the schedule is updated -->
-  <!--
-      /*
-    <h3 id="maisterien-orientaatioviikon-aikataulu">Master's orientation week</h3>
-    <Image
-      class="centered-image"
-      src={masters_timetable}
-      alt="Orientation week schedule for master's students."
-    />
-    <h3 id="vaihtareiden-orientaatioviikon-aikataulu">Exchange students' orientation week</h3>
-    <Image
-      class="centered-image"
-      src={exchange_timetable}
-      alt="Orientation week schedule for exchange students."
-    />
-    -->
-  <p>
-    OHO, you are very eager!!! The MISCs recommend you rest for the summer, and check back later if the orientation week
-    schedule has dropped here:)
-  </p>
-</BaseLayout>
+
+  <div class="image-container">
+    <p>Orientation week is a hectic week with lots to do and explore!</p>
+    <p>
+      Here is the orientation week schedule as of now, we will try to update this to the best of our ability during
+      summer.
+    </p>
+    <Image class="centered-image" src={timetable} alt="timetable" />
+
+    <p>
+      More information about the programme organized by ELEC can be found in the: <a
+        href="https://events.aalto.fi/en/3X3IKxA7/orientation-for-new-masters-students-in-the-school-of-electrical-engineering-4a3bQtmNrx/sessions?t=202608251730"
+        >ELEC orientation schedule</a
+      >
+    </p>
+  </div></BaseLayout
+>

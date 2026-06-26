@@ -1,35 +1,29 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import timetable from '@src/assets/images/M_orientaatio.png';
 
-const description = 'Orientaatioviikon aikataulu Maisteri-fukseille sekä vaihto-opiskelijoille';
+const description = 'Orientaatioviikon aikataulu Maisteri-fukseille';
 ---
 
 <BaseLayout
-  title="Maisteri ja vaihtari Orientaatioviikko"
+  title="Maisteri-fuksien orientaatioviikko"
   description={description}
   lang="fi"
   slug="/fuksis/orientationweek-mint"
 >
   <h2 id="orientaatioviikon-aikataulu"></h2>
 
-  <!--<div class="image-container">
+  <div class="image-container">
+    <p>Orientaatioviikko on hektistä aikaa, tekemistä on paljon!</p>
+    <p>Tässä orientaatioviikon aikataulu, päivittelemme tätä parhaamme mukaan kesän aikana.</p>
+    <Image class="centered-image" src={timetable} alt="timetable" />
+
     <p>
-      Kevään 2026 orientaatioviikon aikataulu on jaettu teille koulun toimesta. Tsekkaa sähköposti! Julkaisemme killan
-      orientaatioviikon aktiviteetit tänne lähempänä viikkoa.
-    </p>
-    <p>
-      Suosittelemme lataamaan{' '}
-      <a
-        href="https://www.aalto.fi/en/services/aalto-space-mobile-application"
-        target="_blank"
-        rel="noopener noreferrer"
+      Tarkempaa tietoa koulun järjestämästä ohjelmasta voi löytää <a
+        href="https://events.aalto.fi/en/3X3IKxA7/orientation-for-new-masters-students-in-the-school-of-electrical-engineering-4a3bQtmNrx/sessions?t=202608251730"
+        >ELEC:in orientaatio-aikataulusta</a
       >
-        Aalto Space
-      </a>{' '}
-      -sovelluksen löytääksesi kampuksen tiloja ja pyytämään aktiivisesti neuvoja ISOilta.
-      </p>-->
-  <p>
-    OHO, oletpa sinä innokas!!! MISC:it suosittelevat kuitenkin rentoutumaan kesällä ja kurkkaamaan hieman myöhemmin
-    olisiko orientaatioviikon aikataulu ilmestynyt tänne :)
-  </p>
-</BaseLayout>
+    </p>
+  </div></BaseLayout
+>
