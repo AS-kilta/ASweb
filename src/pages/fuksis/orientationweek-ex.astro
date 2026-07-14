@@ -1,16 +1,16 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
-import timetable from '@src/assets/images/M_orientaatio.png';
+import timetable from '@src/assets/images/EX_orientaatio.png';
 
-const description = 'Orientaatioviikon aikataulu Maisteri-fukseille';
+const description = 'Orientaatioviikon aikataulu vaihto-opiskelijoille';
 ---
 
 <BaseLayout
-  title="Maisteri-fuksien orientaatioviikko"
+  title="Vaihto-opiskelijoiden orientaatioviikko"
   description={description}
   lang="fi"
-  slug="/fuksis/orientationweek-mint"
+  slug="/fuksis/orientationweek-ex"
 >
   <h2 id="orientaatioviikon-aikataulu"></h2>
 
@@ -18,13 +18,6 @@ const description = 'Orientaatioviikon aikataulu Maisteri-fukseille';
     <p>Orientaatioviikko on hektistä aikaa, tekemistä on paljon!</p>
     <p>Tässä orientaatioviikon aikataulu, päivittelemme tätä parhaamme mukaan kesän aikana.</p>
     <Image class="centered-image" src={timetable} alt="timetable" />
-
-    <p>
-      Tarkempaa tietoa koulun järjestämästä ohjelmasta voi löytää <a
-        href="https://events.aalto.fi/en/3X3IKxA7/orientation-for-new-masters-students-in-the-school-of-electrical-engineering-4a3bQtmNrx/sessions?t=202608251730"
-        >ELEC:in orientaatio-aikataulusta</a
-      >
-    </p>
   </div>
   <style>
     .centered-image {

@@ -1,17 +1,17 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
-import timetable from '@src/assets/images/M_orientaatio.png';
+import timetable from '@src/assets/images/EX_orientaatio.png';
 
-const description = "The orientation week schedule for Master's fuksis";
+const description = 'The orientation week schedule for exchange students';
 ---
 
 <BaseLayout
-  title="Master's Orientation week"
+  title="Exchange students Orientation week"
   heroHeight="short"
   description={description}
   lang="en"
-  slug="/en/fuksis/orientationweek-mint"
+  slug="/en/fuksis/orientationweek-ex"
 >
   <h2 id="orientaatioviikon-aikataulu"></h2>
 
@@ -22,14 +22,8 @@ const description = "The orientation week schedule for Master's fuksis";
       summer.
     </p>
     <Image class="centered-image" src={timetable} alt="timetable" />
-
-    <p>
-      More information about the programme organized by ELEC can be found in the: <a
-        href="https://events.aalto.fi/en/3X3IKxA7/orientation-for-new-masters-students-in-the-school-of-electrical-engineering-4a3bQtmNrx/sessions?t=202608251730"
-        >ELEC orientation schedule</a
-      >
-    </p>
   </div>
+
   <style>
     .centered-image {
       display: block;

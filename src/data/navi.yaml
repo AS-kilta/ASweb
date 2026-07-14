@@ -77,11 +77,17 @@
         fi: '/fuksis/fuksiguide-mint'
         en: '/en/fuksis/fuksiguide-mint'
     - title:
-        fi: 'Maisterien ja vaihtarien Orientaatioviikko'
-        en: "Master's and exchange Orientation week"
+        fi: 'Maisterien Orientaatioviikko'
+        en: "Master's Orientation week"
       link:
         fi: '/fuksis/orientationweek-mint'
         en: '/en/fuksis/orientationweek-mint'
+    - title:
+        fi: 'Vaihtarien Orientaatioviikko'
+        en: 'Exchange Orientation week'
+      link:
+        fi: '/fuksis/orientationweek-ex'
+        en: '/en/fuksis/orientationweek-ex'
 - title:
     fi: 'Opinnot'
     en: 'Studies'
