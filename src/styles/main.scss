@@ -132,6 +132,12 @@ main a {
   text-decoration: none;
 }
 
+.vertically-aligned-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
