@@ -6,15 +6,13 @@ layout: '@layouts/MarkdownLayout.astro'
 ---
 # Automaatio- ja systeemitekniikan kilta ry:n jäsenrekisterin tietosuojaseloste
 
-Tämä on EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen rekisteri- ja tietosuojaseloste. 
-Laatimispäivämäärä 24.5.2018. Viimeinen muutos 06.03.2025
+Tämä on EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen rekisteri- ja tietosuojaseloste.
+Laatimispäivämäärä 24.5.2018. Viimeinen muutos 18.08.2026.
 
-## 1. Rekisterin pitäjä
+## 1. Rekisterinpitäjä
 
 Automaatio- ja systeemitekniikan kilta ry (myöhemmin “Kilta”)
-
-PL 15500
-00076 Aalto
+PL 15500 00076 Aalto
 
 ## 2. Rekisteriasioita hoitava henkilö
 
@@ -26,70 +24,134 @@ Automaatio- ja systeemitekniikan kilta ry:n jäsenrekisteri
 
 ## 4. Rekisterin käyttötarkoitus
 
-EU:n yleisen tietosuoja-asetuksen mukainen oikeusperuste henkilötietojen käsittelylle on 
-lakisääteinen velvoite.
+EU:n yleisen tietosuoja-asetuksen mukaiset henkilötietojen käsittelyn oikeusperusteet ovat:
+- Lakisääteinen velvoite (GDPR 6(1)(c)) jäsenluettelon ylläpitämiseksi yhdistyslain mukaisesti
+  sekä lakisääteisten kirjanpitovelvoitteiden täyttämiseksi.
+- Killan oikeutettu etu (GDPR 6(1)(f)) jäsenyyden hallinnoimiseksi, jäsenviestinnän toteuttamiseksi,
+  jäsenmaksujen käsittelemiseksi sekä jäsenrekisterijärjestelmän ylläpidon ja tietoturvan varmistamiseksi.
+- Rekisteröidyn suostumus (GDPR 6(1)(a)) vapaaehtoisten alumnitoimintaan liittyvien tietojen käsittelyn
+  ja jäsenyyteen liittymättömän sähköpostiviestinnän osalta.
 
-Henkilötietojen käsittelyn tarkoitus on yhdistyslain (503/1989) 11§ vaatima jäsenrekisterin 
-ylläpito sekä yhdistyksen jäsenten yhteystietojen ylläpito.
+Henkilötietojen käsittelyn tarkoituksena on jäsenrekisterin ylläpito, jäsenyyksien ja jäsenmaksujen hallinnointi,
+jäsenten kanssa viestiminen, jäsenyyteen perustuvien oikeuksien ja velvollisuuksien toteuttaminen sekä
+jäsenrekisterijärjestelmän ylläpito ja tietoturvan varmistaminen.
 
+## 5. Rekisterin tietosisältö
 
-## 5. Rekisterien sisältämät tiedot henkilöistä
-
+Jäsenen perustiedot:
 - Täydellinen nimi
 - Kotipaikka
 - Sähköpostiosoite
-- Jäsentyyppi (varsinainen jäsen / vanha jäsen / ulkoinen jäsen)
-- AYY:n jäsenyys (kyllä / ei)
-- Myöntymys tai myöntymyksen puute jäsentietojen jakamiseksi Killan alumnitoimintaa varten tämän valmistuttua
-- Syy Kiltaan liittymiseen
-- Jäsenyyden tila (voimassa / astumassa voimaan / passiivinen / päättynyt)
+- Ensisijainen kieli (valinnainen)
 
-Tietoja säilytetään 365 päivää jäsenyyden vanhenemisesta, jonka jälkeen ne poistetaan 
-rekisteristä automaattisesti.
+Jäsenyystiedot:
+- Jäsenyyden tyyppi (varsinainen jäsen, ulkojäsen, alumnijäsen), alkamis- ja päättymispäivä, tila
+- Opiskelija-asema (itse ilmoitettu; voidaan vahvistaa Aalto-sähköpostilla)
+- Maksuhistoria, Stripe-asiakastunnus
+- Syy Kiltaan liittymiseen
+
+Suostumus (vapaaehtoisia):
+- Suostumus jäsentietojen käyttämiseen Killan alumnitoiminnassa jäsenen valmistumisen jälkeen
+- Jäsenyyteen liittymättömät sähköpostit. 
+
+Toissijaiset sähköpostiosoitteet:
+- Lisäsähköpostiosoitteet vaihtoehtoiseen kirjautumiseen
+- Sähköpostin verkkotunnus (esim. aalto.fi)
+- Vahvistuksen tila ja ajankohta
+- Vanhenemispäivä verkkotunnuksella vahvistetuille sähköposteille
+
+Huom: Toissijaiset sähköpostit ovat vapaaehtoisia, paitsi että aalto.fi-sähköpostin vahvistus vaaditaan
+tietyille jäsenyystyypeille (esim. opiskelijajäsenyys).
+
+Avainkoodit / Passkeys (valinnaisia):
+- Julkiset avaimet salasanattomaan kirjautumiseen
+- Laitteen nimi, yhteystavat, synkronointitila
+- Viimeisimmän käyttökerran ajankohta
+
+Tekniset tiedot:
+- Istuntotunnisteet, kirjautumiskoodit
+- Tarkastusloki eri säilytysajoilla:
+  - Turvallisuustapahtumat (kirjautumiset, epäonnistuneet yritykset): 6 kuukautta
+  - kirjanpitoaineistoon sisältyvät maksu- ja tositetiedot 
+  - Käyttäjätietojen muutokset (sähköposti, ylläpitäjäoikeudet): 3 vuotta
+- IP-osoitteet ja selaintiedot: säilytetään lokien mukana
+- Pyyntörajoitustiedot (tilapäisiä, poistetaan automaattisesti)
+
+Täydellisen nimen ja kotipaikan antaminen on jäsenluettelon ylläpitämiseksi lakisääteisesti tarpeen.
+Jäsenyyden tyypistä riippuen myös jäsenyyden edellytysten osoittamiseksi tarvittavat tiedot voivat
+olla välttämättömiä jäsenyyden myöntämiseksi tai ylläpitämiseksi. Muut erikseen vapaaehtoisiksi
+merkityt tiedot ja suostumukset eivät ole jäsenyyden edellytys. Vapaaehtoisen suostumuksen antamatta
+jättäminen ei vaikuta jäsenyyteen.
 
 ## 6. Rekisterin tietolähteet
 
-Rekisteriin lisättävät tiedot saadaan jäseneltä itseltään hänen liittyessään ja maksettuaan 
-jäsenmaksun.
+Rekisteriin tallennettavat perustiedot ja jäsenyystiedot saadaan pääasiassa jäseneltä itseltään jäseneksi
+liittymisen, jäsenmaksun maksamisen ja tietojen päivittämisen yhteydessä.
+
+Maksuihin liittyviä tietoja saadaan käytettävältä maksupalveluntarjoajalta. Jäsenrekisterijärjestelmän
+käytön yhteydessä syntyy lisäksi teknisiä tietoja, kuten kirjautumis-, istunto-, IP-osoite-, selain-,
+tietoturva- ja muutoslokitietoja.
 
 ## 7. Tietojen luovutus
 
-Tietoja voidaan käyttää Killan toiminnassa Killan hallituksen määräämällä tavalla. 
+Henkilötietoja käsitellään jäsenyyden ylläpitämiseen ja hallinnointiin, jäsenmaksujen käsittelyyn,
+jäsenten kanssa viestimiseen, jäsenyyteen perustuvien oikeuksien ja velvollisuuksien toteuttamiseen
+sekä jäsenrekisterijärjestelmän ylläpitoon ja tietoturvan varmistamiseen.
 
-Yhdistyslain 11 § 2 momentin mukaisesti kaikilla Killan jäsenillä on oikeus tutustua tietoihin 
-kaikkien jäsenten nimestä, kotipaikasta ja jäsentyypistä. 
+Yhdistyslain 11 §:n mukaisesti Killan jäsenelle varataan pyynnöstä mahdollisuus tutustua jäsenluetteloon
+merkittyihin jäsenten täydellisiin nimiin ja kotipaikkoihin. Muuhun jäsenluetteloon merkittyyn tietoon
+jäsenellä on oikeus tutustua yhdistyslain mukaisissa tilanteissa, jos hän osoittaa etunsa yhdistyksen jäsenenä
+sitä vaativan.
 
-Rekisterinpitäjä ei pääsääntöisesti luovuta tietoja kolmansille osapuolille eikä luovuta tietoja 
-EU:n tai ETA:n ulkopuolelle.
-
-Ainoat poikkeukset tietojen siirtoon EU:n ulkopuolelle ovat tietojen käsittelijänä toimivat 
-Google Workspace -palvelu sekä Treanglo Oy (Kide.app). Tietoja voidaan käsitellä Googlen ja 
-Treanglo Oy:n toimesta kolmansissa maissa EU:n ja ETA-alueen ulkopuolella. Näissä tilanteissa 
-huolehditaan asianmukaisesta tietosuojan tasosta esimerkiksi komission vakiolausekkeilla ja 
-muilla vastaavilla järjestelyillä.
+Henkilötietojen käsittelyssä käytetään Killan lukuun toimivia palveluntarjoajia muun muassa jäsenrekisterin
+hostingiin ja tietokantaan, maksujen käsittelyyn, sähköpostien lähettämiseen sekä varmuuskopiointiin. Näissä
+palveluissa henkilötietoja käsitellään ETA-alueella.
 
 ## 8. Rekisterin suojauksen periaatteet
 
-Jäsenrekisteriä ja sen varmuuskopioita säilyttää Killan rahastonhoitaja sähköisessä muodossa 
-suojattuna. Jäsenrekisterin tietoihin on pääsy vain Killan hallituksella. 
+Jäsenrekisteriä ja sen varmuuskopioita säilytetään sähköisesti Killan käyttämissä suojatuissa tietojärjestelmissä
+ja palveluissa. Pääsy henkilötietoihin on rajattu niille Killan hallituksen jäsenille ja järjestelmän teknisille
+ylläpitäjille, joiden tehtävät edellyttävät henkilötietojen käsittelyä. Käyttöoikeudet rajataan tehtävän
+edellyttämään laajuuteen.
 
 ## 9. Tietojen siirto EU tai ETA-alueen ulkopuolelle
 
-Tietoja voidaan siirtää EU:n tai ETA-alueen ulkopuolelle palveluntarjoajan sitoutuessa 
-tietosuoja-asetuksen artikloihin 44-50.
+Henkilötietoja käsitellään pääsääntöisesti Euroopan talousalueella. Google Workspace -palvelua käytettäessä
+henkilötietoja voidaan käsitellä myös ETA-alueen ulkopuolella. Tällaisissa siirroissa käytetään soveltuvaa
+GDPR:n V luvun mukaista siirtoperustetta, kuten Euroopan komission tietosuojan riittävyyttä koskevaa päätöstä
+tai komission hyväksymiä vakiolausekkeita, sekä tarvittaessa täydentäviä suojatoimia.
 
 ## 10. Tietojen tarkastusoikeus ja oikeus vaatia tiedon korjaamista
 
-Jokaisella rekisterissä olevalla henkilöllä on oikeus tarkistaa rekisteriin tallennetut 
-tietonsa ja vaatia mahdollisen virheellisen tiedon korjaamista.
-Pyynnön voi tehdä kirjallisena Killalle. Pyyntö tulee allekirjoittaa henkilökohtaisesti. Pyynnön 
-voi tehdä myös käymällä henkilökohtaisesti Killan kiltahuoneella esittämällä tarkistuspyyntönsä 
-hallituksen edustajalle. Oikeuttaan käyttävän on tällöin kyettävä todistamaan henkilöllisyytensä. 
-Rekisterinpitäjä vastaa rekisterissä olevalle henkilölle EU:n tietosuoja-asetuksessa säädetyssä 
-ajassa. 
+Rekisteröidyllä on soveltuvan tietosuojalainsäädännön mukaisesti oikeus saada pääsy itseään koskeviin
+henkilötietoihin ja saada niistä jäljennös sekä vaatia virheellisten tai puutteellisten tietojen oikaisemista.
+
+Rekisteröidyllä on soveltuvin osin oikeus pyytää henkilötietojensa poistamista tai käsittelyn rajoittamista sekä
+vastustaa Killan oikeutettuun etuun perustuvaa henkilötietojen käsittelyä. Lakisääteiseen velvoitteeseen
+perustuvia tietoja ei voida poistaa rekisteröidyn pyynnöstä silloin, kun niiden säilyttäminen on lain mukaan
+edelleen tarpeen.
+
+Suostumukseen perustuvan käsittelyn osalta rekisteröity voi peruuttaa suostumuksensa milloin tahansa.
+Suostumuksen peruuttaminen ei vaikuta ennen sen peruuttamista suoritetun käsittelyn lainmukaisuuteen.
+
+Rekisteröity voi käyttää oikeuksiaan ottamalla yhteyttä Killaan osoitteessa rahastonhoitaja@as.fi.
+Rekisterinpitäjä voi tarvittaessa pyytää lisätietoja pyynnön esittäjän henkilöllisyyden vahvistamiseksi.
+Rekisteröidyllä on oikeus tehdä henkilötietojen käsittelystä valitus tietosuojavaltuutetun toimistolle.
 
 ## 11. Rekisterin tietojen säilytysaika
 
-Rekisterissä säilytetään vain Killan jäsenten tietoja. Jäsenyyden päättyessä tiedot poistetaan 
-365 päivän kuluttua. Erikoistapauksissa tietoja voidaan säilyttää pidempään. Erikoistapauksista 
-ja niiden syistä ilmoitetaan asianomaisille erikseen.
+Jäsenyyden hallinnointiin liittyvät henkilötiedot poistetaan pääsääntöisesti 365 päivän kuluttua jäsenyyden
+päättymisestä, ellei tietojen pidempi säilyttäminen ole tarpeen lakisääteisen velvoitteen täyttämiseksi tai muun
+tässä selosteessa määritellyn käsittelytarkoituksen vuoksi.
+
+Teknisillä tiedoilla on seuraavat säilytysajat:
+- kirjautumiskoodit: 10 minuuttia
+- istuntotunnisteet: 30 päivää
+- avainkoodit: kunnes käyttäjä poistaa ne tai käyttäjätili poistetaan
+- toissijaiset sähköpostiosoitteet: kunnes käyttäjä poistaa ne tai käyttäjätili poistetaan
+- Aalto.fi-sähköpostin vahvistus: 6 kuukautta
+- turvallisuustapahtumien lokit: 6 kuukautta
+- käyttäjätietojen muutoksia koskevat lokit: 3 vuotta
+- pyyntörajoitustiedot: tilapäisesti, minkä jälkeen ne poistetaan automaattisesti
+
+Kirjanpitoaineistoon sisältyviä tietoja säilytetään kirjanpitolainsäädännön edellyttämän ajan.
