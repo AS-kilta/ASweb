@@ -70,3 +70,7 @@
 - name: 'UpCloud'
   link: 'https://upcloud.com/'
   picture: '@assets/sponsors/Upcloud_Logo_White.svg'
+
+- name: 'Dispelix'
+  link: 'https://dispelix.com'
+  picture: '@assets/sponsors/dispelix.png'
