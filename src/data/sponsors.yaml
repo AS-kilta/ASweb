@@ -32,7 +32,7 @@
 
 - name: 'Sandvik' # expires in 30.6.2024
   link: 'https://www.home.sandvik/en/'
-  picture: '@assets/sponsors/sandvik.png'
+  picture: '@assets/sponsors/sandvik_logotype_white_rgb300.png'
 
 - name: 'Ericsson' # expires in 30.12.2026
   link: 'https://ericsson.com/'
