@@ -186,7 +186,11 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData }) =>
   const [navExpanded, expandNav] = useState(false);
 
   const toggleNav = (): void => {
-    navExpanded ? document.body.classList.remove('hideoverflow') : document.body.classList.add('hideoverflow');
+    if (navExpanded) {
+      document.body.classList.remove('hideoverflow');
+    } else {
+      document.body.classList.add('hideoverflow');
+    }
     expandNav(!navExpanded);
   };
 
