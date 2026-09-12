@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use 'reset';
 @use 'documents';
 @include documents.documents;
@@ -102,7 +103,7 @@ a {
   transition: color 0.2s ease;
 
   &:hover {
-    color: lighten($natural-black, 20%);
+    color: color.adjust($natural-black, $lightness: 20%);
   }
 }
 

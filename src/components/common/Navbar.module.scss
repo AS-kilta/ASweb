@@ -1,7 +1,6 @@
-$not-focused: transparentize(
-  $color: $natural-white,
-  $amount: 0.25,
-);
+@use 'sass:color';
+
+$not-focused: color.adjust($natural-white, $alpha: -0.2);
 
 .naviLink {
   font-size: 1rem;
@@ -161,7 +160,7 @@ $not-focused: transparentize(
     flex-grow: 0;
     flex-basis: 75px;
     padding-inline: 1rem;
-    border-left: solid 2px transparentize($color: $natural-white, $amount: 0.5);
+    border-left: solid 2px color.adjust($natural-white, $alpha: -0.5);
 
     svg {
       width: 2rem;

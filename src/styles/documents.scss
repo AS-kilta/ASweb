@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use '_variables' as *;
 
 $indent-step: 1rem;
@@ -113,7 +114,7 @@ $indent-step-mobile: 0.5rem;
       text-underline-offset: 0.2rem;
       font-weight: 600;
       transition: color 0.2s ease;
-      &:hover { color: lighten($natural-black, 20%); }
+      &:hover { color: color.adjust($natural-black, $lightness: 20%); }
     }
 
     ul, ol {

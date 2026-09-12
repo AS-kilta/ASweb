@@ -176,7 +176,8 @@ const slug = '/en/studies';
 </BaseLayout>
 
 <style lang="scss">
-  @import '@styles/_variables.scss';
+  @use 'sass:color';
+  @use '@styles/_variables.scss';
 
   .studies-container {
     display: flex;
@@ -194,7 +195,7 @@ const slug = '/en/studies';
 
   .side-panel {
     flex: 1;
-    background-color: lighten($as-violet-2, 20%);
+    background-color: color.adjust($as-violet-2, $lightness: 20%);
     padding: 2rem;
     margin-block-start: 1em;
     height: fit-content;
