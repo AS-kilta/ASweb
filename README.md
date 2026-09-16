@@ -5,9 +5,9 @@
 
 ## Technologies
 
-- Astro 6 & React 18
-- TypeScript 5.9
-- Sass 1.77
+- Astro 7 & React 19
+- TypeScript 6.0
+- Sass 1.104
 
 and various other plugins, packages etc. as dependencies
 

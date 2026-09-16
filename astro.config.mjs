@@ -21,6 +21,7 @@ export default defineConfig({
     resolve: {
       alias: {
         '@src': '/src',
+        '@styles': '/src/styles',
       },
     },
     css: {
