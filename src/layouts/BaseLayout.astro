@@ -2,6 +2,7 @@
 import Navbar from '@components/common/Navbar';
 import TopBanner, { type BannerConfig } from '@components/common/TopBanner';
 import Hero from '@components/common/Hero';
+import HeroCarousel, { type CarouselSlide, type CarouselConfig } from '@components/common/HeroCarousel';
 import Footer from '@components/common/Footer';
 import BackToTop from '@components/common/BackToTop';
 import { getCollection, getEntry } from 'astro:content';
@@ -18,6 +19,7 @@ interface Props {
   description?: string;
   background?: string | ImageMetadata;
   heroHeight?: 'short' | 'tall';
+  carousel?: boolean | string | CarouselSlide[] | CarouselConfig;
   showBanner?: boolean;
   banner?: boolean | BannerConfig;
   documentStyle?: string;
@@ -34,6 +36,7 @@ const {
   description,
   background,
   heroHeight = 'short',
+  carousel = false,
   showBanner = true,
   banner,
   documentStyle = '',
@@ -49,6 +52,71 @@ if (showBanner && banner !== false) {
   const bannerSource = (typeof banner === 'object' ? banner : (await getEntry('banner', 'banner'))?.data) as BannerConfig | null;
   if (bannerSource && bannerSource.enabled !== false && Array.isArray(bannerSource.items) && bannerSource.items.length > 0) {
     bannerResolved = bannerSource;
+  }
+}
+
+let carouselResolved: CarouselConfig | null = null;
+if (carousel) {
+  const assetImages = import.meta.glob<{ default: ImageMetadata }>(
+    '/src/assets/**/*.{jpeg,jpg,png,gif,webp,avif,svg}',
+    { eager: true }
+  );
+  const entryName = typeof carousel === 'string' ? carousel : 'default';
+  let carouselEntry = await getEntry('carousel', entryName);
+  if (!carouselEntry && entryName !== 'default') {
+    carouselEntry = await getEntry('carousel', 'default');
+  }
+  const source = typeof carousel === 'object' && !Array.isArray(carousel) ? carousel : carouselEntry?.data;
+  const rawItems = (Array.isArray(carousel) ? carousel : source?.items ?? []) as CarouselSlide[];
+
+  if (rawItems.length > 0) {
+    const items = rawItems.map((item) => {
+      const slide = { ...item };
+
+      // Pre-resolve localized title and lead based on page lang
+      if (typeof slide.title === 'object' && slide.title !== null) {
+        slide.title = (slide.title as Record<string, string>)[lang] ?? (slide.title as Record<string, string>).fi;
+      }
+      if (typeof slide.lead === 'object' && slide.lead !== null) {
+        slide.lead = (slide.lead as Record<string, string>)[lang] ?? (slide.lead as Record<string, string>).fi;
+      }
+
+      // Resolve string paths against assetImages if not already resolved as ImageMetadata
+      if (typeof slide.src === 'string') {
+        const normalized = slide.src
+          .replace(/^@assets\//, '/src/assets/')
+          .replace(/^@src\//, '/src/')
+          .replace(/^\/?images\//, '/src/assets/images/');
+
+        for (const [key, asset] of Object.entries(assetImages)) {
+          if (
+            key === normalized ||
+            key.endsWith(slide.src.replace(/^@assets\//, '')) ||
+            key.endsWith('/' + slide.src.split('/').pop())
+          ) {
+            slide.src = asset.default.src;
+            break;
+          }
+        }
+      }
+
+      // Ensure slide.src is always a plain string URL for clean Astro island prop serialization
+      if (slide.src && typeof slide.src !== 'string') {
+        const extracted =
+          (slide.src as { src?: string })?.src ??
+          (slide.src as { default?: { src?: string } })?.default?.src ??
+          (slide.src as { default?: string })?.default;
+        slide.src = typeof extracted === 'string' ? extracted : String(slide.src);
+      }
+
+      return slide;
+    });
+
+    carouselResolved = {
+      items,
+      autoplay: typeof source?.autoplay === 'boolean' ? source.autoplay : true,
+      interval: typeof source?.interval === 'number' ? source.interval : 6000,
+    };
   }
 }
 
@@ -96,7 +164,13 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
         )
       }
       <Navbar client:load lang={lang} slug={slug} translation={translation} naviData={naviData} />
-      <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
+      {
+        carouselResolved && carouselResolved.items.length > 0 ? (
+          <HeroCarousel client:load {...carouselResolved} />
+        ) : (
+          <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
+        )
+      }
       <main id="layout-content" class={documentStyle}>
         <slot />
       </main>

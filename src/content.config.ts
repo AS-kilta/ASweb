@@ -12,6 +12,7 @@ const pages = defineCollection({
     layout: z.string().optional(),
     description: z.string().optional(),
     background: z.string().optional(),
+    carousel: z.union([z.boolean(), z.string()]).optional(),
     heroHeight: z.string().optional(),
     documentStyle: z.string().optional(),
     robots: z.string().optional(),
@@ -186,6 +187,25 @@ const minors = defineCollection({
   }),
 });
 
+const carouselItemSchema = ({ image }: SchemaContext) =>
+  z.object({
+    src: z.union([image(), z.string()]),
+    alt: z.string().optional(),
+    title: z.union([z.string(), z.record(z.string(), z.string())]).optional(),
+    lead: z.union([z.string(), z.record(z.string(), z.string())]).optional(),
+    overlay: z.boolean().optional(),
+  });
+
+const carousel = defineCollection({
+  loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/carousel' }),
+  schema: ({ image }: SchemaContext) =>
+    z.object({
+      autoplay: z.boolean().optional(),
+      interval: z.number().optional(),
+      items: z.array(carouselItemSchema({ image })),
+    }),
+});
+
 const bannerItemSchema = z.object({
   text: z.union([z.string(), z.record(z.string(), z.string())]),
   link: z
@@ -223,5 +243,6 @@ export const collections = {
   sponsors: sponsors,
   archive: archive,
   minors: minors,
+  carousel: carousel,
   banner: banner,
 };
