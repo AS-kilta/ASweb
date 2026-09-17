@@ -1,5 +1,6 @@
 ---
 import Navbar from '@components/common/Navbar';
+import TopBanner, { type BannerConfig } from '@components/common/TopBanner';
 import Hero from '@components/common/Hero';
 import Footer from '@components/common/Footer';
 import BackToTop from '@components/common/BackToTop';
@@ -17,6 +18,8 @@ interface Props {
   description?: string;
   background?: string | ImageMetadata;
   heroHeight?: 'short' | 'tall';
+  showBanner?: boolean;
+  banner?: boolean | BannerConfig;
   documentStyle?: string;
   lang?: 'fi' | 'en';
   slug?: string;
@@ -31,6 +34,8 @@ const {
   description,
   background,
   heroHeight = 'short',
+  showBanner = true,
+  banner,
   documentStyle = '',
   lang = 'fi',
   slug = '',
@@ -38,6 +43,14 @@ const {
   robots,
   contentMaxWidth = '900px',
 } = Astro.props;
+
+let bannerResolved: BannerConfig | null = null;
+if (showBanner && banner !== false) {
+  const bannerSource = (typeof banner === 'object' ? banner : (await getEntry('banner', 'banner'))?.data) as BannerConfig | null;
+  if (bannerSource && bannerSource.enabled !== false && Array.isArray(bannerSource.items) && bannerSource.items.length > 0) {
+    bannerResolved = bannerSource;
+  }
+}
 
 const naviEntry = await getEntry('navigation', 'navi');
 const naviData = naviEntry?.data ?? [];
@@ -77,6 +90,11 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
   </head>
   <body>
     <div id="layout-container">
+      {
+        bannerResolved && bannerResolved.items.length > 0 && (
+          <TopBanner client:load config={bannerResolved} lang={lang} />
+        )
+      }
       <Navbar client:load lang={lang} slug={slug} translation={translation} naviData={naviData} />
       <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
       <main id="layout-content" class={documentStyle}>

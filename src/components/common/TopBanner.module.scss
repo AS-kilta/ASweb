@@ -1,0 +1,125 @@
+.banner {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: $arduino-blue;
+  color: $natural-black;
+  padding: 7px 0;
+  font-size: 0.9rem;
+  font-family: $font-heading;
+  font-weight: 600;
+  line-height: 1.4;
+  overflow: hidden;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+.marqueeContainer {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  user-select: none;
+}
+
+.marqueeTrack {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: marqueeScroll 45s linear infinite;
+
+  &:hover,
+  &:focus-within {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.marqueeGroup {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 1.5rem;
+  padding-right: 1.5rem;
+  white-space: nowrap;
+}
+
+.itemSeparator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+  user-select: none;
+  padding: 0 0.25rem;
+}
+
+.asLogoMarker {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* Banner Item contents */
+.bannerItemContent {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  white-space: nowrap;
+}
+
+.itemText {
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+.itemLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: inherit;
+  font-weight: 700;
+  transition: opacity 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 0.8;
+  }
+}
+
+.countdownBadge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.12);
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border: 1px solid currentColor;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.countdownEnded {
+  opacity: 0.75;
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation: none;
+    overflow-x: auto;
+  }
+}

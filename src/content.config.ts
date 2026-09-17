@@ -186,6 +186,34 @@ const minors = defineCollection({
   }),
 });
 
+const bannerItemSchema = z.object({
+  text: z.union([z.string(), z.record(z.string(), z.string())]),
+  link: z
+    .union([
+      z.string(),
+      z.object({
+        url: z.string(),
+        text: z.union([z.string(), z.record(z.string(), z.string())]).optional(),
+      }),
+    ])
+    .optional(),
+  startDate: z.union([z.string(), z.date()]).optional(),
+  endDate: z.union([z.string(), z.date()]).optional(),
+  countdown: z.union([z.string(), z.date()]).optional(),
+});
+
+const banner = defineCollection({
+  loader: glob({ pattern: 'banner.yaml', base: './src/data' }),
+  schema: z.union([
+    z.array(bannerItemSchema),
+    z.object({
+      enabled: z.boolean().optional(),
+      items: z.array(bannerItemSchema).optional(),
+    }),
+    z.record(z.string(), z.any()),
+  ]),
+});
+
 export const collections = {
   pages: pages,
   navigation: navigation,
@@ -195,4 +223,5 @@ export const collections = {
   sponsors: sponsors,
   archive: archive,
   minors: minors,
+  banner: banner,
 };
