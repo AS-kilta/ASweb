@@ -1,8 +1,11 @@
-import React, { useState, useContext, createContext } from 'react';
+import React, { useState, useEffect, useContext, createContext } from 'react';
 import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
 import style from './Navbar.module.scss';
-import logo from '@src/assets/aswhite.png';
+import ASPixelSvgRaw from '@src/assets/logos/as-pixel.svg?raw';
+import ASFourierSvgRaw from '@src/assets/logos/as-fourier.svg?raw';
+
+const LOGO_ANIMATIONS = [ASPixelSvgRaw, ASFourierSvgRaw];
 
 // Create context for navi callbacks (avoid prop drilling)
 
@@ -16,11 +19,36 @@ const NaviContext = createContext<INaviContext | undefined>(undefined);
 
 const SiteLogo: React.FC<{ lang: string }> = ({ lang }) => {
   const naviCtx = useContext(NaviContext);
+  const [animIndex, setAnimIndex] = useState(0);
+  const [animKey, setAnimKey] = useState(0);
+
+  // Pick a random animation on client mount
+  useEffect(() => {
+    setAnimIndex(Math.floor(Math.random() * LOGO_ANIMATIONS.length));
+  }, []);
+
+  const triggerAnimation = () => {
+    setAnimIndex(Math.floor(Math.random() * LOGO_ANIMATIONS.length));
+    setAnimKey((prev) => prev + 1);
+  };
+
+  const currentSvg = LOGO_ANIMATIONS[animIndex] ?? LOGO_ANIMATIONS[0];
 
   return (
     <div className={style.navbarLogo}>
-      <a onClick={naviCtx?.hideNav} href={lang === 'fi' ? '/' : '/en'}>
-        <img src={logo.src} alt="AS logo" width={40} height={40} />
+      <a
+        onClick={naviCtx?.hideNav}
+        href={lang === 'fi' ? '/' : '/en'}
+        aria-label="Etusivulle"
+        onMouseEnter={triggerAnimation}
+        onFocus={triggerAnimation}
+      >
+        <span
+          key={`${animIndex}-${animKey}`}
+          className={style.navbarLogoImg}
+          dangerouslySetInnerHTML={{ __html: currentSvg }}
+          aria-hidden="true"
+        />
       </a>
     </div>
   );
