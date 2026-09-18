@@ -61,12 +61,20 @@
   padding: 0 0.25rem;
 }
 
-.asLogoMarker {
+.starMarker {
   width: 14px;
   height: 14px;
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    fill: currentColor;
+  }
 }
 
 /* Banner Item contents */

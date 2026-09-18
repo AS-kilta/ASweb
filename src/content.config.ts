@@ -13,6 +13,7 @@ const pages = defineCollection({
     description: z.string().optional(),
     background: z.string().optional(),
     carousel: z.union([z.boolean(), z.string()]).optional(),
+    banner: z.union([z.boolean(), z.string()]).optional(),
     heroHeight: z.string().optional(),
     documentStyle: z.string().optional(),
     robots: z.string().optional(),

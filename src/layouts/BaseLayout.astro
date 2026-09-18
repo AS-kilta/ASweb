@@ -1,6 +1,6 @@
 ---
 import Navbar from '@components/common/Navbar';
-import TopBanner, { type BannerConfig } from '@components/common/TopBanner';
+import TopBanner, { type BannerConfig, type BannerItem } from '@components/common/TopBanner';
 import Hero from '@components/common/Hero';
 import HeroCarousel, { type CarouselSlide, type CarouselConfig } from '@components/common/HeroCarousel';
 import Footer from '@components/common/Footer';
@@ -20,8 +20,7 @@ interface Props {
   background?: string | ImageMetadata;
   heroHeight?: 'short' | 'tall';
   carousel?: boolean | string | CarouselSlide[] | CarouselConfig;
-  showBanner?: boolean;
-  banner?: boolean | BannerConfig;
+  banner?: boolean | string | BannerItem[] | BannerConfig;
   documentStyle?: string;
   lang?: 'fi' | 'en';
   slug?: string;
@@ -37,8 +36,7 @@ const {
   background,
   heroHeight = 'short',
   carousel = false,
-  showBanner = true,
-  banner,
+  banner = true,
   documentStyle = '',
   lang = 'fi',
   slug = '',
@@ -48,10 +46,50 @@ const {
 } = Astro.props;
 
 let bannerResolved: BannerConfig | null = null;
-if (showBanner && banner !== false) {
-  const bannerSource = (typeof banner === 'object' ? banner : (await getEntry('banner', 'banner'))?.data) as BannerConfig | null;
-  if (bannerSource && bannerSource.enabled !== false && Array.isArray(bannerSource.items) && bannerSource.items.length > 0) {
-    bannerResolved = bannerSource;
+if (banner !== false) {
+  let bannerSource: BannerConfig | null = null;
+
+  if (Array.isArray(banner)) {
+    bannerSource = { enabled: true, items: banner };
+  } else if (typeof banner === 'object' && banner !== null) {
+    bannerSource = banner;
+  } else {
+    const entryName = typeof banner === 'string' ? banner : 'banner';
+    bannerSource = (await getEntry('banner', entryName))?.data as BannerConfig | null;
+  }
+
+  if (
+    bannerSource &&
+    bannerSource.enabled !== false &&
+    Array.isArray(bannerSource.items) &&
+    bannerSource.items.length > 0
+  ) {
+    const localizedItems = bannerSource.items.map((item) => {
+      const text =
+        typeof item.text === 'object' && item.text !== null
+          ? (item.text as Record<string, string>)[lang] ?? (item.text as Record<string, string>).fi ?? ''
+          : item.text ?? '';
+
+      let link = item.link;
+      if (typeof item.link === 'object' && item.link !== null) {
+        const linkText =
+          typeof item.link.text === 'object' && item.link.text !== null
+            ? (item.link.text as Record<string, string>)[lang] ?? (item.link.text as Record<string, string>).fi
+            : item.link.text;
+        link = { ...item.link, text: linkText };
+      }
+
+      return {
+        ...item,
+        text,
+        link,
+      };
+    });
+
+    bannerResolved = {
+      enabled: bannerSource.enabled,
+      items: localizedItems,
+    };
   }
 }
 
@@ -159,8 +197,8 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
   <body>
     <div id="layout-container">
       {
-        bannerResolved && bannerResolved.items.length > 0 && (
-          <TopBanner client:load config={bannerResolved} lang={lang} />
+        bannerResolved && Array.isArray(bannerResolved.items) && bannerResolved.items.length > 0 && (
+          <TopBanner client:load {...bannerResolved} />
         )
       }
       <Navbar client:load lang={lang} slug={slug} translation={translation} naviData={naviData} />
