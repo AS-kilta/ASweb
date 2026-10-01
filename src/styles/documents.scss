@@ -80,7 +80,7 @@ $indent-step-mobile: 0.5rem;
 
     .toc {
       order: 3;
-      background: rgba($as-violet-1, 0.03);
+      background: color-mix(in srgb, $as-violet-1 3%, transparent);
       padding: 1.5rem;
       border: 1px solid $as-violet-2;
       border-radius: 1rem;
@@ -113,7 +113,7 @@ $indent-step-mobile: 0.5rem;
       text-underline-offset: 0.2rem;
       font-weight: 600;
       transition: color 0.2s ease;
-      &:hover { color: lighten($natural-black, 20%); }
+      &:hover { color: color-mix(in srgb, $natural-black 80%, white); }
     }
 
     ul, ol {
@@ -129,7 +129,7 @@ $indent-step-mobile: 0.5rem;
       padding: 0.5rem 0 0.5rem 1.5rem;
       margin: 1.5rem 0;
       font-style: italic;
-      background: rgba($as-violet-2, 0.1);
+      background: color-mix(in srgb, $as-violet-2 10%, transparent);
     }
 
     table {
@@ -138,13 +138,13 @@ $indent-step-mobile: 0.5rem;
       margin-bottom: 2rem;
       font-size: 0.95rem;
       th, td { border: 1px solid #ddd; padding: 0.75rem; text-align: left; }
-      th { background-color: rgba($as-violet-1, 0.05); color: $as-violet-1; font-weight: 700; }
-      tr:nth-child(even) { background-color: rgba($as-violet-1, 0.02); }
+      th { background-color: color-mix(in srgb, $as-violet-1 5%, transparent); color: $as-violet-1; font-weight: 700; }
+      tr:nth-child(even) { background-color: color-mix(in srgb, $as-violet-1 2%, transparent); }
     }
 
     code {
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      background-color: rgba($as-violet-1, 0.05);
+      background-color: color-mix(in srgb, $as-violet-1 5%, transparent);
       padding: 0.2rem 0.4rem;
       font-size: 0.9em;
     }

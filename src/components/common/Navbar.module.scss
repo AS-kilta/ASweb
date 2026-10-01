@@ -1,7 +1,4 @@
-$not-focused: transparentize(
-  $color: $natural-white,
-  $amount: 0.25,
-);
+$not-focused: color-mix(in srgb, $natural-white 75%, transparent);
 
 .naviLink {
   font-size: 1rem;
@@ -75,7 +72,8 @@ $not-focused: transparentize(
     display: block;
   }
 
-  ul, li {
+  ul,
+  li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -96,7 +94,34 @@ $not-focused: transparentize(
   }
 }
 
+.navbarLogo {
+  // Before JS runs (or if data-anim-variant is not set), hide all variants except the first
+  &:not([data-anim-variant]) .logoVariant:not(:first-child) {
+    display: none !important;
+  }
+
+  // When data-anim-variant is set, hide all variants by default...
+  &[data-anim-variant] .logoVariant {
+    display: none !important;
+  }
+
+  // ...and display only the matching active variant
+  @for $i from 0 through 20 {
+    &[data-anim-variant='#{$i}'] .logoVariant[data-variant='#{$i}'] {
+      display: inline-flex !important;
+    }
+  }
+}
+
 .navbarLogoImg {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoVariant {
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -115,7 +140,7 @@ $not-focused: transparentize(
     flex-wrap: nowrap;
     justify-content: center;
     padding-inline: 0;
-    
+
     & > * {
       max-width: 1400px;
     }
@@ -178,7 +203,7 @@ $not-focused: transparentize(
     flex-grow: 0;
     flex-basis: 75px;
     padding-inline: 1rem;
-    border-left: solid 2px transparentize($color: $natural-white, $amount: 0.5);
+    border-left: solid 2px color-mix(in srgb, $natural-white 50%, transparent);
 
     svg {
       width: 2rem;
@@ -220,7 +245,8 @@ $not-focused: transparentize(
     color: $natural-white;
   }
 
-  .navbarLogo, .menuToggle {
+  .navbarLogo,
+  .menuToggle {
     padding: 5px;
     margin: 10px 1.5rem;
     display: flex;

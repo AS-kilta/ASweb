@@ -1,0 +1,16 @@
+colors:
+  as-violet: '#610396'
+  as-violet-1: '#610396'
+  as-violet-2: '#bf99d6'
+  natural-white: '#f9faf3'
+  natural-black: '#1b1b1b'
+  accent-violet-1: '#721ea2'
+  background-violet: '#661a76'
+  arduino-blue: '#04b0b8'
+
+startDate:
+endDate:
+carousel: default
+logo:
+  - '@assets/logos/as-pixel.svg'
+  - '@assets/logos/as-fourier.svg'

@@ -102,7 +102,7 @@ a {
   transition: color 0.2s ease;
 
   &:hover {
-    color: lighten($natural-black, 20%);
+    color: color-mix(in srgb, $natural-black 80%, white);
   }
 }
 

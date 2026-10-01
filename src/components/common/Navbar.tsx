@@ -1,11 +1,9 @@
-import React, { useState, useEffect, useContext, createContext } from 'react';
+import React, { useState, useContext, createContext } from 'react';
 import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
 import style from './Navbar.module.scss';
 import ASPixelSvgRaw from '@src/assets/logos/as-pixel.svg?raw';
 import ASFourierSvgRaw from '@src/assets/logos/as-fourier.svg?raw';
-
-const LOGO_ANIMATIONS = [ASPixelSvgRaw, ASFourierSvgRaw];
 
 // Create context for navi callbacks (avoid prop drilling)
 
@@ -17,25 +15,42 @@ interface INaviContext {
 
 const NaviContext = createContext<INaviContext | undefined>(undefined);
 
-const SiteLogo: React.FC<{ lang: string }> = ({ lang }) => {
+const DEFAULT_LOGOS = [ASPixelSvgRaw, ASFourierSvgRaw];
+
+interface SiteLogoProps {
+  lang: string;
+  logos: string[];
+}
+
+const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logos }) => {
   const naviCtx = useContext(NaviContext);
-  const [animIndex, setAnimIndex] = useState(0);
+  const [activeVariant, setActiveVariant] = useState<number | null>(null);
   const [animKey, setAnimKey] = useState(0);
 
-  // Pick a random animation on client mount
-  useEffect(() => {
-    setAnimIndex(Math.floor(Math.random() * LOGO_ANIMATIONS.length));
-  }, []);
+  const hasMultiple = logos.length > 1;
 
   const triggerAnimation = () => {
-    setAnimIndex(Math.floor(Math.random() * LOGO_ANIMATIONS.length));
+    if (hasMultiple) {
+      setActiveVariant(Math.floor(Math.random() * logos.length));
+    }
     setAnimKey((prev) => prev + 1);
   };
 
-  const currentSvg = LOGO_ANIMATIONS[animIndex] ?? LOGO_ANIMATIONS[0];
-
   return (
-    <div className={style.navbarLogo}>
+    <div
+      id="site-logo-container"
+      className={style.navbarLogo}
+      data-variant-count={hasMultiple ? logos.length : undefined}
+      data-anim-variant={activeVariant !== null ? String(activeVariant) : undefined}
+      suppressHydrationWarning
+    >
+      {hasMultiple && (
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var el=document.getElementById('site-logo-container');if(el&&!el.hasAttribute('data-anim-variant')){var c=parseInt(el.getAttribute('data-variant-count')||'1',10);el.setAttribute('data-anim-variant',Math.floor(Math.random()*c).toString());}})();`,
+          }}
+        />
+      )}
       <a
         onClick={naviCtx?.hideNav}
         href={lang === 'fi' ? '/' : '/en'}
@@ -43,12 +58,17 @@ const SiteLogo: React.FC<{ lang: string }> = ({ lang }) => {
         onMouseEnter={triggerAnimation}
         onFocus={triggerAnimation}
       >
-        <span
-          key={`${animIndex}-${animKey}`}
-          className={style.navbarLogoImg}
-          dangerouslySetInnerHTML={{ __html: currentSvg }}
-          aria-hidden="true"
-        />
+        <span className={style.navbarLogoImg}>
+          {logos.map((svgContent, idx) => (
+            <span
+              key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
+              className={style.logoVariant}
+              data-variant={idx}
+              dangerouslySetInnerHTML={{ __html: svgContent }}
+              aria-hidden="true"
+            />
+          ))}
+        </span>
       </a>
     </div>
   );
@@ -203,15 +223,20 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
   );
 };
 
-interface NavbarProps {
+export interface NavbarProps {
   lang: string;
   slug: string;
   translation?: string;
   naviData: NaviData[];
+  logoAnimations?: string[];
+  logos?: string[];
 }
 
-const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData }) => {
+const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logoAnimations, logos }) => {
   const [navExpanded, expandNav] = useState(false);
+
+  const activeLogos =
+    logoAnimations && logoAnimations.length > 0 ? logoAnimations : logos && logos.length > 0 ? logos : DEFAULT_LOGOS;
 
   const toggleNav = (): void => {
     navExpanded ? document.body.classList.remove('hideoverflow') : document.body.classList.add('hideoverflow');
@@ -232,7 +257,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData }) =>
   return (
     <nav id={style.navbarTop} className={navExpanded ? style.expanded : ''} aria-label="Main Navigation">
       <NaviContext.Provider value={ctx}>
-        <SiteLogo lang={lang} />
+        <SiteLogo lang={lang} logos={activeLogos} />
         <NavCollapse lang={lang} slug={slug} translation={translation} isExpanded={navExpanded} naviData={naviData} />
         <button
           className={`${style.menuToggle} button-reset`}

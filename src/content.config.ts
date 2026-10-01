@@ -14,6 +14,7 @@ const pages = defineCollection({
     background: z.string().optional(),
     carousel: z.union([z.boolean(), z.string()]).optional(),
     banner: z.union([z.boolean(), z.string()]).optional(),
+    theme: z.union([z.boolean(), z.string()]).optional(),
     heroHeight: z.string().optional(),
     documentStyle: z.string().optional(),
     robots: z.string().optional(),
@@ -235,6 +236,18 @@ const banner = defineCollection({
   ]),
 });
 
+const theme = defineCollection({
+  loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/theme' }),
+  schema: z.object({
+    colors: z.record(z.string(), z.any()).nullable().optional(),
+    startDate: z.union([z.string(), z.date()]).nullable().optional(),
+    endDate: z.union([z.string(), z.date()]).nullable().optional(),
+    carousel: z.union([z.string(), z.boolean()]).nullable().optional(),
+    logo: z.any().optional(),
+    logos: z.array(z.string()).optional(),
+  }),
+});
+
 export const collections = {
   pages: pages,
   navigation: navigation,
@@ -246,4 +259,5 @@ export const collections = {
   minors: minors,
   carousel: carousel,
   banner: banner,
+  theme: theme,
 };

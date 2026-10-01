@@ -8,6 +8,9 @@ import BackToTop from '@components/common/BackToTop';
 import { getCollection, getEntry } from 'astro:content';
 import { SITE_METADATA } from '@src/consts';
 import type { ImageMetadata } from 'astro';
+import { resolveTheme, type ThemeConfig } from '@src/utils/theme';
+
+export type { ThemeConfig };
 
 import '@styles/main.scss';
 import '@fontsource-variable/open-sans';
@@ -21,6 +24,7 @@ interface Props {
   heroHeight?: 'short' | 'tall';
   carousel?: boolean | string | CarouselSlide[] | CarouselConfig;
   banner?: boolean | string | BannerItem[] | BannerConfig;
+  theme?: string;
   documentStyle?: string;
   lang?: 'fi' | 'en';
   slug?: string;
@@ -37,6 +41,7 @@ const {
   heroHeight = 'short',
   carousel = false,
   banner = true,
+  theme,
   documentStyle = '',
   lang = 'fi',
   slug = '',
@@ -93,13 +98,16 @@ if (banner !== false) {
   }
 }
 
+const resolvedTheme = await resolveTheme(theme);
+
 let carouselResolved: CarouselConfig | null = null;
 if (carousel) {
   const assetImages = import.meta.glob<{ default: ImageMetadata }>(
     '/src/assets/**/*.{jpeg,jpg,png,gif,webp,avif,svg}',
     { eager: true }
   );
-  const entryName = typeof carousel === 'string' ? carousel : 'default';
+  const themeCarouselName = typeof resolvedTheme.carousel === 'string' ? resolvedTheme.carousel : 'default';
+  const entryName = typeof carousel === 'string' ? carousel : themeCarouselName;
   let carouselEntry = await getEntry('carousel', entryName);
   if (!carouselEntry && entryName !== 'default') {
     carouselEntry = await getEntry('carousel', 'default');
@@ -193,6 +201,8 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
           'opsz' 24;
       }
     </style>
+    <!-- Theme CSS Variables -->
+    <style id="theme-colors" set:html={`:root { ${resolvedTheme.cssVariables} }`}></style>
   </head>
   <body>
     <div id="layout-container">
@@ -201,7 +211,14 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
           <TopBanner client:load {...bannerResolved} />
         )
       }
-      <Navbar client:load lang={lang} slug={slug} translation={translation} naviData={naviData} />
+      <Navbar
+        client:load
+        lang={lang}
+        slug={slug}
+        translation={translation}
+        naviData={naviData}
+        logoAnimations={resolvedTheme.logoAnimations.length > 0 ? resolvedTheme.logoAnimations : undefined}
+      />
       {
         carouselResolved && carouselResolved.items.length > 0 ? (
           <HeroCarousel client:load {...carouselResolved} />
