@@ -2,10 +2,6 @@ import React, { useState, useContext, createContext } from 'react';
 import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
 import style from './Navbar.module.scss';
-import ASPixelSvgRaw from '@src/assets/logos/as-pixel.svg?raw';
-import ASFourierSvgRaw from '@src/assets/logos/as-fourier.svg?raw';
-
-// Create context for navi callbacks (avoid prop drilling)
 
 interface INaviContext {
   navExpanded: boolean;
@@ -14,8 +10,6 @@ interface INaviContext {
 }
 
 const NaviContext = createContext<INaviContext | undefined>(undefined);
-
-const DEFAULT_LOGOS = [ASPixelSvgRaw, ASFourierSvgRaw];
 
 interface SiteLogoProps {
   lang: string;
@@ -27,7 +21,7 @@ const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logos }) => {
   const [activeVariant, setActiveVariant] = useState<number | null>(null);
   const [animKey, setAnimKey] = useState(0);
 
-  const hasMultiple = logos.length > 1;
+  const hasMultiple = logos && logos.length > 1;
 
   const triggerAnimation = () => {
     if (hasMultiple) {
@@ -35,6 +29,10 @@ const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logos }) => {
     }
     setAnimKey((prev) => prev + 1);
   };
+
+  if (!logos || logos.length === 0) {
+    return null;
+  }
 
   return (
     <div
@@ -59,15 +57,27 @@ const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logos }) => {
         onFocus={triggerAnimation}
       >
         <span className={style.navbarLogoImg}>
-          {logos.map((svgContent, idx) => (
-            <span
-              key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
-              className={style.logoVariant}
-              data-variant={idx}
-              dangerouslySetInnerHTML={{ __html: svgContent }}
-              aria-hidden="true"
-            />
-          ))}
+          {logos.map((logoItem, idx) => {
+            const isSvg = logoItem.trim().startsWith('<svg');
+            return isSvg ? (
+              <span
+                key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
+                className={style.logoVariant}
+                data-variant={idx}
+                dangerouslySetInnerHTML={{ __html: logoItem }}
+                aria-hidden="true"
+              />
+            ) : (
+              <span
+                key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
+                className={style.logoVariant}
+                data-variant={idx}
+                aria-hidden="true"
+              >
+                <img src={logoItem} alt="Logo" />
+              </span>
+            );
+          })}
         </span>
       </a>
     </div>
@@ -83,7 +93,6 @@ const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
   const naviCtx = useContext(NaviContext);
   const [currentPath, setCurrentPath] = useState('');
 
-  // We can only check window in client-side
   React.useEffect(() => {
     setCurrentPath(window.location.pathname);
   }, []);
@@ -236,7 +245,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logo
   const [navExpanded, expandNav] = useState(false);
 
   const activeLogos =
-    logoAnimations && logoAnimations.length > 0 ? logoAnimations : logos && logos.length > 0 ? logos : DEFAULT_LOGOS;
+    logos && logos.length > 0 ? logos : logoAnimations && logoAnimations.length > 0 ? logoAnimations : [];
 
   const toggleNav = (): void => {
     navExpanded ? document.body.classList.remove('hideoverflow') : document.body.classList.add('hideoverflow');

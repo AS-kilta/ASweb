@@ -6,9 +6,8 @@ import HeroCarousel, { type CarouselSlide, type CarouselConfig } from '@componen
 import Footer from '@components/common/Footer';
 import BackToTop from '@components/common/BackToTop';
 import { getCollection, getEntry } from 'astro:content';
-import { SITE_METADATA } from '@src/consts';
+import { SITE_METADATA, DEFAULT_THEME, type ThemeConfig } from '@src/consts';
 import type { ImageMetadata } from 'astro';
-import { resolveTheme, type ThemeConfig } from '@src/utils/theme';
 
 export type { ThemeConfig };
 
@@ -98,16 +97,143 @@ if (banner !== false) {
   }
 }
 
-const resolvedTheme = await resolveTheme(theme);
+const rawSvgs = import.meta.glob<string>('/src/assets/**/*.svg', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+});
+
+function resolveLogo(pathOrSvg: string): string | null {
+  if (!pathOrSvg) return null;
+  const trimmed = pathOrSvg.trim();
+  if (trimmed.startsWith('<svg') || trimmed.startsWith('<?xml')) {
+    return trimmed;
+  }
+  const normalized = trimmed
+    .replace(/^@assets\//, '/src/assets/')
+    .replace(/^@src\//, '/src/')
+    .replace(/^\/?assets\//, '/src/assets/');
+
+  if (rawSvgs[normalized]) {
+    return rawSvgs[normalized];
+  }
+
+  const filename = trimmed.split('/').pop()?.toLowerCase();
+  for (const [key, content] of Object.entries(rawSvgs)) {
+    if (key === normalized || (filename && key.toLowerCase().endsWith('/' + filename))) {
+      return content;
+    }
+  }
+
+  return trimmed;
+}
+
+function parseThemeDate(dateVal: string | Date | null | undefined, isEnd = false): Date | null {
+  if (!dateVal) return null;
+  if (dateVal instanceof Date) return dateVal;
+  if (typeof dateVal === 'string') {
+    const trimmed = dateVal.trim();
+    if (!trimmed) return null;
+    if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
+      return new Date(trimmed + (isEnd ? 'T23:59:59.999Z' : 'T00:00:00.000Z'));
+    }
+    const d = new Date(trimmed);
+    return isNaN(d.getTime()) ? null : d;
+  }
+  return null;
+}
+
+function isThemeActive(themeData: ThemeConfig, now: Date): boolean {
+  const start = parseThemeDate(themeData.startDate, false);
+  const end = parseThemeDate(themeData.endDate, true);
+
+  if (!start && !end) return false;
+
+  if (start && now.getTime() < start.getTime()) {
+    return false;
+  }
+  if (end && now.getTime() > end.getTime()) {
+    return false;
+  }
+  return true;
+}
+
+function extractLogos(themeData?: ThemeConfig | null): string[] {
+  if (!themeData?.logos) return [];
+  if (typeof themeData.logos === 'string') {
+    return [themeData.logos];
+  }
+  if (Array.isArray(themeData.logos)) {
+    return themeData.logos.filter((item): item is string => typeof item === 'string');
+  }
+  return [];
+}
+
+const now = new Date();
+let activeThemeData: ThemeConfig | null = null;
+
+if (theme && typeof theme === 'string') {
+  const requestedEntry = await getEntry('theme', theme);
+  if (requestedEntry) {
+    activeThemeData = (requestedEntry.data as ThemeConfig) ?? null;
+  }
+} else {
+  const allThemes = await getCollection('theme');
+  const activeScheduledThemes = allThemes.filter((entry) => {
+    return isThemeActive((entry.data as ThemeConfig) ?? {}, now);
+  });
+
+  if (activeScheduledThemes.length === 1) {
+    activeThemeData = (activeScheduledThemes[0].data as ThemeConfig) ?? null;
+  } else if (activeScheduledThemes.length > 1) {
+    console.warn(
+      `[Theme] Scheduling conflict: ${activeScheduledThemes.length} themes active (${activeScheduledThemes.map((t) => t.id).join(', ')}). Using default theme.`
+    );
+    activeThemeData = null;
+  }
+}
+
+const mergedColors = { ...DEFAULT_THEME.colors };
+if (activeThemeData?.colors) {
+  for (const [key, val] of Object.entries(activeThemeData.colors)) {
+    if (typeof val === 'string' && val.trim()) {
+      mergedColors[key] = val.trim();
+    }
+  }
+  if (activeThemeData.colors['as-violet'] && !activeThemeData.colors['as-violet-1']) {
+    mergedColors['as-violet-1'] = activeThemeData.colors['as-violet'];
+  }
+}
+
+const themeCssVariables = Object.entries(mergedColors)
+  .map(([key, val]) => {
+    const prop = key.startsWith('--') ? key : `--${key}`;
+    return `${prop}: ${val};`;
+  })
+  .join(' ');
+
+const themeCarouselName =
+  activeThemeData?.carousel !== undefined && activeThemeData?.carousel !== null
+    ? activeThemeData.carousel
+    : DEFAULT_THEME.carousel;
+
+let logoList = extractLogos(activeThemeData);
+if (logoList.length === 0) {
+  logoList = [...DEFAULT_THEME.logos];
+}
+
+const themeLogos = logoList
+  .map(resolveLogo)
+  .filter((logo): logo is string => typeof logo === 'string' && logo.length > 0);
 
 let carouselResolved: CarouselConfig | null = null;
-if (carousel) {
+if (carousel && (typeof carousel !== 'boolean' || themeCarouselName !== false)) {
   const assetImages = import.meta.glob<{ default: ImageMetadata }>(
     '/src/assets/**/*.{jpeg,jpg,png,gif,webp,avif,svg}',
     { eager: true }
   );
-  const themeCarouselName = typeof resolvedTheme.carousel === 'string' ? resolvedTheme.carousel : 'default';
-  const entryName = typeof carousel === 'string' ? carousel : themeCarouselName;
+  const resolvedCarouselName = typeof themeCarouselName === 'string' ? themeCarouselName : 'default';
+  const entryName = typeof carousel === 'string' ? carousel : resolvedCarouselName;
   let carouselEntry = await getEntry('carousel', entryName);
   if (!carouselEntry && entryName !== 'default') {
     carouselEntry = await getEntry('carousel', 'default');
@@ -119,7 +245,6 @@ if (carousel) {
     const items = rawItems.map((item) => {
       const slide = { ...item };
 
-      // Pre-resolve localized title and lead based on page lang
       if (typeof slide.title === 'object' && slide.title !== null) {
         slide.title = (slide.title as Record<string, string>)[lang] ?? (slide.title as Record<string, string>).fi;
       }
@@ -127,7 +252,6 @@ if (carousel) {
         slide.lead = (slide.lead as Record<string, string>)[lang] ?? (slide.lead as Record<string, string>).fi;
       }
 
-      // Resolve string paths against assetImages if not already resolved as ImageMetadata
       if (typeof slide.src === 'string') {
         const normalized = slide.src
           .replace(/^@assets\//, '/src/assets/')
@@ -146,7 +270,6 @@ if (carousel) {
         }
       }
 
-      // Ensure slide.src is always a plain string URL for clean Astro island prop serialization
       if (slide.src && typeof slide.src !== 'string') {
         const extracted =
           (slide.src as { src?: string })?.src ??
@@ -202,7 +325,7 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
       }
     </style>
     <!-- Theme CSS Variables -->
-    <style id="theme-colors" set:html={`:root { ${resolvedTheme.cssVariables} }`}></style>
+    <style id="theme-colors" set:html={`:root { ${themeCssVariables} }`}></style>
   </head>
   <body>
     <div id="layout-container">
@@ -217,7 +340,7 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
         slug={slug}
         translation={translation}
         naviData={naviData}
-        logoAnimations={resolvedTheme.logoAnimations.length > 0 ? resolvedTheme.logoAnimations : undefined}
+        logos={themeLogos.length > 0 ? themeLogos : undefined}
       />
       {
         carouselResolved && carouselResolved.items.length > 0 ? (

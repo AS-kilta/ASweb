@@ -128,10 +128,12 @@ $not-focused: color-mix(in srgb, $natural-white 75%, transparent);
   align-items: center;
   justify-content: center;
 
-  svg {
+  svg,
+  img {
     width: 40px;
     height: 40px;
     display: block;
+    object-fit: contain;
   }
 }
 

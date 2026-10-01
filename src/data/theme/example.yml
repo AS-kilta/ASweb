@@ -1,0 +1,42 @@
+# ==========================================
+# AS-Web Theme Configuration Example
+# ==========================================
+# Themes can override colors, the hero carousel configuration,
+# and navbar logo animations.
+# Unspecified properties will inherit from default site settings (src/consts.ts).
+
+# Active time window (optional)
+# Supports 'YYYY-MM-DD' or ISO 8601 strings (e.g. '2026-10-01T00:00:00Z').
+# If startDate and endDate are omitted, the theme is inactive unless explicitly
+# requested by a page layout via the theme prop.
+# If multiple themes are active simultaneously, a conflict is detected and the
+# default theme is used instead.
+startDate: '2099-01-01'
+endDate: '2099-01-31'
+
+# Named color variables to override (optional)
+# Available theme variables:
+#   - as-violet-1
+#   - as-violet-2
+#   - natural-white
+#   - natural-black
+#   - accent-violet-1
+#   - background-violet
+#   - arduino-blue
+colors:
+  as-violet-1: '#e02888'
+  as-violet-2: '#fca5d5'
+  accent-violet-1: '#be185d'
+  background-violet: '#831843'
+
+# Image carousel configuration (optional)
+# Name of the carousel config file in `src/data/carousel/<name>.yaml`
+# Defaults to 'default'. Set to false to disable hero carousel.
+carousel: default
+
+# Logo animations shown in the navbar (optional)
+# Can be a single path, list of paths, or raw SVG strings.
+# When multiple logos are provided, one is selected at random and on hover.
+logos:
+  - '@assets/logos/as-fourier.svg'
+  - '@assets/logos/as-pixel.svg'

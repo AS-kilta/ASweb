@@ -239,12 +239,11 @@ const banner = defineCollection({
 const theme = defineCollection({
   loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/theme' }),
   schema: z.object({
-    colors: z.record(z.string(), z.any()).nullable().optional(),
-    startDate: z.union([z.string(), z.date()]).nullable().optional(),
-    endDate: z.union([z.string(), z.date()]).nullable().optional(),
-    carousel: z.union([z.string(), z.boolean()]).nullable().optional(),
-    logo: z.any().optional(),
-    logos: z.array(z.string()).optional(),
+    startDate: z.union([z.string(), z.date()]).optional(),
+    endDate: z.union([z.string(), z.date()]).optional(),
+    colors: z.record(z.string(), z.string()).optional(),
+    carousel: z.union([z.string(), z.boolean()]).optional(),
+    logos: z.union([z.string(), z.array(z.string())]).optional(),
   }),
 });
 
