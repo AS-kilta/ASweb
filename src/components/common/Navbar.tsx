@@ -248,7 +248,11 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logo
     logos && logos.length > 0 ? logos : logoAnimations && logoAnimations.length > 0 ? logoAnimations : [];
 
   const toggleNav = (): void => {
-    navExpanded ? document.body.classList.remove('hideoverflow') : document.body.classList.add('hideoverflow');
+    if (navExpanded) {
+      document.body.classList.remove('hideoverflow');
+    } else {
+      document.body.classList.add('hideoverflow');
+    }
     expandNav(!navExpanded);
   };
 
