@@ -1,0 +1,28 @@
+# ==========================================
+# AS-Web Hero Carousel Configuration Example
+# ==========================================
+# Place custom carousel configs in `src/data/carousel/<name>.yaml` (or `.yml`).
+#
+# How to use:
+# 1. In a theme: set `carousel: <name>` (e.g. `carousel: example`) in your theme YAML.
+# 2. In a page layout: pass `carousel="<name>"` in `<BaseLayout carousel="example" ... />`.
+#
+# If a page passes `carousel={true}`, it will automatically resolve to the active theme's
+# carousel setting (which defaults to 'default').
+
+# Enable or disable automatic slide rotation (optional, default: true)
+autoplay: false
+
+# Time each slide is shown in milliseconds (optional, default: 6000)
+interval: 6000
+
+# Carousel slide items
+items:
+  # Example slide with image and localized text overlay
+  - title:
+      fi: 'Automaatio- ja systeemitekniikan kilta'
+      en: 'Guild of Automation and Systems Technology'
+    src: '@assets/images/carousel/stimu-28-bg.avif'
+    alt: 'StimuBG'
+    # overlay: adds a subtle dark gradient backdrop to keep text legible (default: false)
+    overlay: false
