@@ -11,7 +11,7 @@
 # carousel setting (which defaults to 'default').
 
 # Enable or disable automatic slide rotation (optional, default: true)
-autoplay: true
+autoplay: false
 
 # Time each slide is shown in milliseconds (optional, default: 6000)
 interval: 6000
@@ -20,12 +20,9 @@ interval: 6000
 items:
   # Example slide with image and localized text overlay
   - title:
-      fi: 'Esimerkkiotsikko suomeksi'
-      en: 'Example Title in English'
-    lead:
-      fi: 'Esimerkkikuvausteksti, joka näkyy kuvan päällä.'
-      en: 'Example description text shown on top of the slide image.'
-    src: '@assets/images/20201029195159-eef0d345-xx.jpg'
-    alt: 'Esimerkkikuva'
+      fi: 'Automaatio- ja systeemitekniikan kilta'
+      en: 'Guild of Automation and Systems Technology'
+    src: '@assets/images/carousel/stimu-28-bg.avif'
+    alt: 'StimuBG'
     # overlay: adds a subtle dark gradient backdrop to keep text legible (default: false)
-    overlay: true
+    overlay: false
