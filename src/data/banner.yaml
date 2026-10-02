@@ -1,0 +1,73 @@
+# ==============================================================================
+# AS-Web Top Notification Banner Configuration
+# ==============================================================================
+# This file controls the sticky notification banner displayed at the very top of
+# the site above the main navigation.
+#
+# Available Options:
+#
+#   enabled: (boolean)
+#     Master switch for the top banner across the site. Set to false to hide
+#     the banner completely. Individual pages can also override this by passing
+#     `banner={false}` to <BaseLayout>.
+#
+#   items: (array)
+#     List of announcement items to display. If multiple items are currently
+#     active (based on their scheduling dates), the banner automatically rotates
+#     between them with a subtle transition and play/pause controls.
+#
+# Item Properties:
+#
+#   text: (string or object, required)
+#     The announcement message. Can be a localized object:
+#       text:
+#         fi: 'Viesti suomeksi'
+#         en: 'Message in English'
+#     or a simple unlocalized string:
+#       text: 'Single language announcement'
+#
+#   link: (string or object, optional)
+#     Call-to-action link. Can be a plain URL:
+#       link: '/guild/stimu'
+#     or an object with custom button text:
+#       link:
+#         url: '/guild/stimu'
+#         text:
+#           fi: 'Lue lisää →'
+#           en: 'Read more →'
+#
+#   startDate: (ISO string or YYYY-MM-DD, optional)
+#     When this announcement starts appearing on the website.
+#     Supports ISO timestamps (e.g. '2026-08-15T00:00:00Z').
+#     If omitted, the item is shown immediately.
+#
+#   endDate: (ISO string or YYYY-MM-DD, optional)
+#     When this announcement automatically disappears from the website.
+#     If omitted, the item remains active indefinitely.
+#
+#   countdown: (ISO timestamp, optional)
+#     Enables a live ticking countdown badge next to the announcement.
+#     Format: ISO 8601 string, e.g. '2026-11-14T18:00:00+03:00'.
+#     The badge shows remaining days and hours (e.g. "12 pv 4 t") until the event.
+# ==============================================================================
+
+enabled: false
+
+items:
+  - text:
+      fi: 'AS:n 56. vuosijuhla Stimulaatio lähestyy!'
+      en: 'AS 56th Annual Ball Stimulaatio is approaching!'
+    link:
+      url: '/guild/stimu'
+      text:
+        fi: 'Lue lisää →'
+        en: 'Read more →'
+    startDate: '2026-08-15T00:00:00Z'
+    endDate: '2026-11-20T23:59:59Z'
+    countdown: '2026-11-14T18:00:00+03:00'
+
+  - text:
+      fi: 'Kiltahuoneen kahvinkeitin on huollettu ja tuoretta kahvia tarjolla!'
+      en: 'The guild room coffee machine has been serviced and fresh coffee is served!'
+    startDate: '2026-09-10T00:00:00Z'
+    endDate: '2026-10-15T00:00:00Z'

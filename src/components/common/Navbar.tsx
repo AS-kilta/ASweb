@@ -2,9 +2,6 @@ import React, { useState, useContext, createContext } from 'react';
 import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
 
 import style from './Navbar.module.scss';
-import logo from '@src/assets/aswhite.png';
-
-// Create context for navi callbacks (avoid prop drilling)
 
 interface INaviContext {
   navExpanded: boolean;
@@ -14,13 +11,74 @@ interface INaviContext {
 
 const NaviContext = createContext<INaviContext | undefined>(undefined);
 
-const SiteLogo: React.FC<{ lang: string }> = ({ lang }) => {
+interface SiteLogoProps {
+  lang: string;
+  logos: string[];
+}
+
+const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logos }) => {
   const naviCtx = useContext(NaviContext);
+  const [activeVariant, setActiveVariant] = useState<number | null>(null);
+  const [animKey, setAnimKey] = useState(0);
+
+  const hasMultiple = logos && logos.length > 1;
+
+  const triggerAnimation = () => {
+    if (hasMultiple) {
+      setActiveVariant(Math.floor(Math.random() * logos.length));
+    }
+    setAnimKey((prev) => prev + 1);
+  };
+
+  if (!logos || logos.length === 0) {
+    return null;
+  }
 
   return (
-    <div className={style.navbarLogo}>
-      <a onClick={naviCtx?.hideNav} href={lang === 'fi' ? '/' : '/en'}>
-        <img src={logo.src} alt="AS logo" width={40} height={40} />
+    <div
+      id="site-logo-container"
+      className={style.navbarLogo}
+      data-variant-count={hasMultiple ? logos.length : undefined}
+      data-anim-variant={activeVariant !== null ? String(activeVariant) : undefined}
+      suppressHydrationWarning
+    >
+      {hasMultiple && (
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var el=document.getElementById('site-logo-container');if(el&&!el.hasAttribute('data-anim-variant')){var c=parseInt(el.getAttribute('data-variant-count')||'1',10);el.setAttribute('data-anim-variant',Math.floor(Math.random()*c).toString());}})();`,
+          }}
+        />
+      )}
+      <a
+        onClick={naviCtx?.hideNav}
+        href={lang === 'fi' ? '/' : '/en'}
+        aria-label="Etusivulle"
+        onMouseEnter={triggerAnimation}
+        onFocus={triggerAnimation}
+      >
+        <span className={style.navbarLogoImg}>
+          {logos.map((logoItem, idx) => {
+            const isSvg = logoItem.trim().startsWith('<svg');
+            return isSvg ? (
+              <span
+                key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
+                className={style.logoVariant}
+                data-variant={idx}
+                dangerouslySetInnerHTML={{ __html: logoItem }}
+                aria-hidden="true"
+              />
+            ) : (
+              <span
+                key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
+                className={style.logoVariant}
+                data-variant={idx}
+                aria-hidden="true"
+              >
+                <img src={logoItem} alt="Logo" />
+              </span>
+            );
+          })}
+        </span>
       </a>
     </div>
   );
@@ -35,7 +93,6 @@ const NaviLink: React.FC<NaviLinkProps> = ({ title, link }) => {
   const naviCtx = useContext(NaviContext);
   const [currentPath, setCurrentPath] = useState('');
 
-  // We can only check window in client-side
   React.useEffect(() => {
     setCurrentPath(window.location.pathname);
   }, []);
@@ -175,15 +232,20 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
   );
 };
 
-interface NavbarProps {
+export interface NavbarProps {
   lang: string;
   slug: string;
   translation?: string;
   naviData: NaviData[];
+  logoAnimations?: string[];
+  logos?: string[];
 }
 
-const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData }) => {
+const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logoAnimations, logos }) => {
   const [navExpanded, expandNav] = useState(false);
+
+  const activeLogos =
+    logos && logos.length > 0 ? logos : logoAnimations && logoAnimations.length > 0 ? logoAnimations : [];
 
   const toggleNav = (): void => {
     if (navExpanded) {
@@ -208,7 +270,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData }) =>
   return (
     <nav id={style.navbarTop} className={navExpanded ? style.expanded : ''} aria-label="Main Navigation">
       <NaviContext.Provider value={ctx}>
-        <SiteLogo lang={lang} />
+        <SiteLogo lang={lang} logos={activeLogos} />
         <NavCollapse lang={lang} slug={slug} translation={translation} isExpanded={navExpanded} naviData={naviData} />
         <button
           className={`${style.menuToggle} button-reset`}

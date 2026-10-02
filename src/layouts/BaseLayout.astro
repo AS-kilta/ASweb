@@ -1,11 +1,15 @@
 ---
 import Navbar from '@components/common/Navbar';
+import TopBanner, { type BannerConfig, type BannerItem } from '@components/common/TopBanner';
 import Hero from '@components/common/Hero';
+import HeroCarousel, { type CarouselSlide, type CarouselConfig } from '@components/common/HeroCarousel';
 import Footer from '@components/common/Footer';
 import BackToTop from '@components/common/BackToTop';
 import { getCollection, getEntry } from 'astro:content';
-import { SITE_METADATA } from '@src/consts';
+import { SITE_METADATA, DEFAULT_THEME, type ThemeConfig } from '@src/consts';
 import type { ImageMetadata } from 'astro';
+
+export type { ThemeConfig };
 
 import '@styles/main.scss';
 import '@fontsource-variable/open-sans';
@@ -17,6 +21,9 @@ interface Props {
   description?: string;
   background?: string | ImageMetadata;
   heroHeight?: 'short' | 'tall';
+  carousel?: boolean | string | CarouselSlide[] | CarouselConfig;
+  banner?: boolean | string | BannerItem[] | BannerConfig;
+  theme?: string;
   documentStyle?: string;
   lang?: 'fi' | 'en';
   slug?: string;
@@ -31,6 +38,9 @@ const {
   description,
   background,
   heroHeight = 'short',
+  carousel = false,
+  banner = true,
+  theme,
   documentStyle = '',
   lang = 'fi',
   slug = '',
@@ -38,6 +48,246 @@ const {
   robots,
   contentMaxWidth = '900px',
 } = Astro.props;
+
+let bannerResolved: BannerConfig | null = null;
+if (banner !== false) {
+  let bannerSource: BannerConfig | null = null;
+
+  if (Array.isArray(banner)) {
+    bannerSource = { enabled: true, items: banner };
+  } else if (typeof banner === 'object' && banner !== null) {
+    bannerSource = banner;
+  } else {
+    const entryName = typeof banner === 'string' ? banner : 'banner';
+    bannerSource = (await getEntry('banner', entryName))?.data as BannerConfig | null;
+  }
+
+  if (
+    bannerSource &&
+    bannerSource.enabled !== false &&
+    Array.isArray(bannerSource.items) &&
+    bannerSource.items.length > 0
+  ) {
+    const localizedItems = bannerSource.items.map((item) => {
+      const text =
+        typeof item.text === 'object' && item.text !== null
+          ? (item.text as Record<string, string>)[lang] ?? (item.text as Record<string, string>).fi ?? ''
+          : item.text ?? '';
+
+      let link = item.link;
+      if (typeof item.link === 'object' && item.link !== null) {
+        const linkText =
+          typeof item.link.text === 'object' && item.link.text !== null
+            ? (item.link.text as Record<string, string>)[lang] ?? (item.link.text as Record<string, string>).fi
+            : item.link.text;
+        link = { ...item.link, text: linkText };
+      }
+
+      return {
+        ...item,
+        text,
+        link,
+      };
+    });
+
+    bannerResolved = {
+      enabled: bannerSource.enabled,
+      items: localizedItems,
+    };
+  }
+}
+
+const rawSvgs = import.meta.glob<string>('/src/assets/**/*.svg', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+});
+
+function resolveLogo(pathOrSvg: string): string | null {
+  if (!pathOrSvg) return null;
+  const trimmed = pathOrSvg.trim();
+  if (trimmed.startsWith('<svg') || trimmed.startsWith('<?xml')) {
+    return trimmed;
+  }
+  const normalized = trimmed
+    .replace(/^@assets\//, '/src/assets/')
+    .replace(/^@src\//, '/src/')
+    .replace(/^\/?assets\//, '/src/assets/');
+
+  if (rawSvgs[normalized]) {
+    return rawSvgs[normalized];
+  }
+
+  const filename = trimmed.split('/').pop()?.toLowerCase();
+  for (const [key, content] of Object.entries(rawSvgs)) {
+    if (key === normalized || (filename && key.toLowerCase().endsWith('/' + filename))) {
+      return content;
+    }
+  }
+
+  return trimmed;
+}
+
+function parseThemeDate(dateVal: string | Date | null | undefined, isEnd = false): Date | null {
+  if (!dateVal) return null;
+  if (dateVal instanceof Date) return dateVal;
+  if (typeof dateVal === 'string') {
+    const trimmed = dateVal.trim();
+    if (!trimmed) return null;
+    if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
+      return new Date(trimmed + (isEnd ? 'T23:59:59.999Z' : 'T00:00:00.000Z'));
+    }
+    const d = new Date(trimmed);
+    return isNaN(d.getTime()) ? null : d;
+  }
+  return null;
+}
+
+function isThemeActive(themeData: ThemeConfig, now: Date): boolean {
+  const start = parseThemeDate(themeData.startDate, false);
+  const end = parseThemeDate(themeData.endDate, true);
+
+  if (!start && !end) return false;
+
+  if (start && now.getTime() < start.getTime()) {
+    return false;
+  }
+  if (end && now.getTime() > end.getTime()) {
+    return false;
+  }
+  return true;
+}
+
+function extractLogos(themeData?: ThemeConfig | null): string[] {
+  if (!themeData?.logos) return [];
+  if (typeof themeData.logos === 'string') {
+    return [themeData.logos];
+  }
+  if (Array.isArray(themeData.logos)) {
+    return themeData.logos.filter((item): item is string => typeof item === 'string');
+  }
+  return [];
+}
+
+const now = new Date();
+let activeThemeData: ThemeConfig | null = null;
+
+if (theme && typeof theme === 'string') {
+  const requestedEntry = await getEntry('theme', theme);
+  if (requestedEntry) {
+    activeThemeData = (requestedEntry.data as ThemeConfig) ?? null;
+  }
+} else {
+  const allThemes = await getCollection('theme');
+  const activeScheduledThemes = allThemes.filter((entry) => {
+    return isThemeActive((entry.data as ThemeConfig) ?? {}, now);
+  });
+
+  if (activeScheduledThemes.length === 1) {
+    activeThemeData = (activeScheduledThemes[0].data as ThemeConfig) ?? null;
+  } else if (activeScheduledThemes.length > 1) {
+    console.warn(
+      `[Theme] Scheduling conflict: ${activeScheduledThemes.length} themes active (${activeScheduledThemes.map((t) => t.id).join(', ')}). Using default theme.`
+    );
+    activeThemeData = null;
+  }
+}
+
+const mergedColors = { ...DEFAULT_THEME.colors };
+if (activeThemeData?.colors) {
+  for (const [key, val] of Object.entries(activeThemeData.colors)) {
+    if (typeof val === 'string' && val.trim()) {
+      mergedColors[key] = val.trim();
+    }
+  }
+  if (activeThemeData.colors['as-violet'] && !activeThemeData.colors['as-violet-1']) {
+    mergedColors['as-violet-1'] = activeThemeData.colors['as-violet'];
+  }
+}
+
+const themeCssVariables = Object.entries(mergedColors)
+  .map(([key, val]) => {
+    const prop = key.startsWith('--') ? key : `--${key}`;
+    return `${prop}: ${val};`;
+  })
+  .join(' ');
+
+const themeCarouselName =
+  activeThemeData?.carousel !== undefined && activeThemeData?.carousel !== null
+    ? activeThemeData.carousel
+    : DEFAULT_THEME.carousel;
+
+let logoList = extractLogos(activeThemeData);
+if (logoList.length === 0) {
+  logoList = [...DEFAULT_THEME.logos];
+}
+
+const themeLogos = logoList
+  .map(resolveLogo)
+  .filter((logo): logo is string => typeof logo === 'string' && logo.length > 0);
+
+let carouselResolved: CarouselConfig | null = null;
+if (carousel && (typeof carousel !== 'boolean' || themeCarouselName !== false)) {
+  const assetImages = import.meta.glob<{ default: ImageMetadata }>(
+    '/src/assets/**/*.{jpeg,jpg,png,gif,webp,avif,svg}',
+    { eager: true }
+  );
+  const resolvedCarouselName = typeof themeCarouselName === 'string' ? themeCarouselName : 'default';
+  const entryName = typeof carousel === 'string' ? carousel : resolvedCarouselName;
+  let carouselEntry = await getEntry('carousel', entryName);
+  if (!carouselEntry && entryName !== 'default') {
+    carouselEntry = await getEntry('carousel', 'default');
+  }
+  const source = typeof carousel === 'object' && !Array.isArray(carousel) ? carousel : carouselEntry?.data;
+  const rawItems = (Array.isArray(carousel) ? carousel : source?.items ?? []) as CarouselSlide[];
+
+  if (rawItems.length > 0) {
+    const items = rawItems.map((item) => {
+      const slide = { ...item };
+
+      if (typeof slide.title === 'object' && slide.title !== null) {
+        slide.title = (slide.title as Record<string, string>)[lang] ?? (slide.title as Record<string, string>).fi;
+      }
+      if (typeof slide.lead === 'object' && slide.lead !== null) {
+        slide.lead = (slide.lead as Record<string, string>)[lang] ?? (slide.lead as Record<string, string>).fi;
+      }
+
+      if (typeof slide.src === 'string') {
+        const normalized = slide.src
+          .replace(/^@assets\//, '/src/assets/')
+          .replace(/^@src\//, '/src/')
+          .replace(/^\/?images\//, '/src/assets/images/');
+
+        for (const [key, asset] of Object.entries(assetImages)) {
+          if (
+            key === normalized ||
+            key.endsWith(slide.src.replace(/^@assets\//, '')) ||
+            key.endsWith('/' + slide.src.split('/').pop())
+          ) {
+            slide.src = asset.default.src;
+            break;
+          }
+        }
+      }
+
+      if (slide.src && typeof slide.src !== 'string') {
+        const extracted =
+          (slide.src as { src?: string })?.src ??
+          (slide.src as { default?: { src?: string } })?.default?.src ??
+          (slide.src as { default?: string })?.default;
+        slide.src = typeof extracted === 'string' ? extracted : String(slide.src);
+      }
+
+      return slide;
+    });
+
+    carouselResolved = {
+      items,
+      autoplay: typeof source?.autoplay === 'boolean' ? source.autoplay : true,
+      interval: typeof source?.interval === 'number' ? source.interval : 6000,
+    };
+  }
+}
 
 const naviEntry = await getEntry('navigation', 'navi');
 const naviData = naviEntry?.data ?? [];
@@ -74,11 +324,31 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
           'opsz' 24;
       }
     </style>
+    <!-- Theme CSS Variables -->
+    <style id="theme-colors" set:html={`:root { ${themeCssVariables} }`}></style>
   </head>
   <body>
     <div id="layout-container">
-      <Navbar client:load lang={lang} slug={slug} translation={translation} naviData={naviData} />
-      <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
+      {
+        bannerResolved && Array.isArray(bannerResolved.items) && bannerResolved.items.length > 0 && (
+          <TopBanner client:load {...bannerResolved} />
+        )
+      }
+      <Navbar
+        client:load
+        lang={lang}
+        slug={slug}
+        translation={translation}
+        naviData={naviData}
+        logos={themeLogos.length > 0 ? themeLogos : undefined}
+      />
+      {
+        carouselResolved && carouselResolved.items.length > 0 ? (
+          <HeroCarousel client:load {...carouselResolved} />
+        ) : (
+          <Hero title={title} lead={lead} background={background} heroHeight={heroHeight} />
+        )
+      }
       <main id="layout-content" class={documentStyle}>
         <slot />
       </main>

@@ -12,6 +12,9 @@ const pages = defineCollection({
     layout: z.string().optional(),
     description: z.string().optional(),
     background: z.string().optional(),
+    carousel: z.union([z.boolean(), z.string()]).optional(),
+    banner: z.union([z.boolean(), z.string()]).optional(),
+    theme: z.union([z.boolean(), z.string()]).optional(),
     heroHeight: z.string().optional(),
     documentStyle: z.string().optional(),
     robots: z.string().optional(),
@@ -186,6 +189,64 @@ const minors = defineCollection({
   }),
 });
 
+const carouselItemSchema = ({ image }: SchemaContext) =>
+  z.object({
+    src: z.union([image(), z.string()]),
+    alt: z.string().optional(),
+    title: z.union([z.string(), z.record(z.string(), z.string())]).optional(),
+    lead: z.union([z.string(), z.record(z.string(), z.string())]).optional(),
+    overlay: z.boolean().optional(),
+  });
+
+const carousel = defineCollection({
+  loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/carousel' }),
+  schema: ({ image }: SchemaContext) =>
+    z.object({
+      autoplay: z.boolean().optional(),
+      interval: z.number().optional(),
+      items: z.array(carouselItemSchema({ image })),
+    }),
+});
+
+const bannerItemSchema = z.object({
+  text: z.union([z.string(), z.record(z.string(), z.string())]),
+  link: z
+    .union([
+      z.string(),
+      z.object({
+        url: z.string(),
+        text: z.union([z.string(), z.record(z.string(), z.string())]).optional(),
+      }),
+    ])
+    .optional(),
+  startDate: z.union([z.string(), z.date()]).optional(),
+  endDate: z.union([z.string(), z.date()]).optional(),
+  countdown: z.union([z.string(), z.date()]).optional(),
+});
+
+const banner = defineCollection({
+  loader: glob({ pattern: 'banner.yaml', base: './src/data' }),
+  schema: z.union([
+    z.array(bannerItemSchema),
+    z.object({
+      enabled: z.boolean().optional(),
+      items: z.array(bannerItemSchema).optional(),
+    }),
+    z.record(z.string(), z.any()),
+  ]),
+});
+
+const theme = defineCollection({
+  loader: glob({ pattern: '**/*.{yaml,yml}', base: './src/data/theme' }),
+  schema: z.object({
+    startDate: z.union([z.string(), z.date()]).optional(),
+    endDate: z.union([z.string(), z.date()]).optional(),
+    colors: z.record(z.string(), z.string()).optional(),
+    carousel: z.union([z.string(), z.boolean()]).optional(),
+    logos: z.union([z.string(), z.array(z.string())]).optional(),
+  }),
+});
+
 export const collections = {
   pages: pages,
   navigation: navigation,
@@ -195,4 +256,7 @@ export const collections = {
   sponsors: sponsors,
   archive: archive,
   minors: minors,
+  carousel: carousel,
+  banner: banner,
+  theme: theme,
 };

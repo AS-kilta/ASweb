@@ -1,0 +1,387 @@
+.heroCarousel {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: $as-violet-1;
+  color: $natural-white;
+  padding-block: 2rem;
+  padding-inline: 1.5rem;
+  box-sizing: border-box;
+  min-height: min(600px, 60vh);
+  flex-basis: min(600px, 60vh);
+
+  /* When paused, halt all CSS animations within the carousel */
+  &.isPaused {
+    *,
+    *::before,
+    *::after {
+      animation-play-state: paused !important;
+    }
+  }
+}
+
+/* Slides container */
+.slidesContainer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background-color: $as-violet-1;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.6s ease-in-out,
+    visibility 0.6s ease-in-out;
+  pointer-events: none;
+  overflow: hidden;
+  background-color: $as-violet-1;
+
+  &.activeSlide {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  /* Pause animations on inactive slides to save GPU and CPU resources */
+  &:not(.activeSlide) {
+    *,
+    *::before,
+    *::after {
+      animation-play-state: paused !important;
+    }
+  }
+}
+
+/* Slide media: image or SVG */
+.imageSlide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: $as-violet-1;
+  background-size: cover;
+  background-position: center;
+
+  &.hasOverlay {
+    background-color: $background-violet;
+    background-blend-mode: soft-light;
+  }
+}
+
+.slideMedia {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.svgWrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  :global(svg),
+  svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+/* Hero overlay matching normal hero filter color ($background-violet) */
+.slideOverlay {
+  position: absolute;
+  inset: 0;
+  background-color: $background-violet;
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Hero Title and Lead overlay */
+.contentOverlay {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  pointer-events: none;
+
+  .mainTitle {
+    margin: 0 8%;
+    max-width: 1200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: clamp(2rem, 4vw, 4.25rem);
+    color: $natural-white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    pointer-events: auto;
+  }
+
+  .lead {
+    font-family: $font-heading;
+    font-weight: 500;
+    max-width: 50ch;
+    margin: 1.5rem auto 0;
+    color: $natural-white;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    pointer-events: auto;
+  }
+}
+
+/* Controls layer - hidden on desktop until hover/focus; always visible on mobile */
+.controlsLayer {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.25s ease-in-out,
+    visibility 0.25s ease-in-out;
+}
+
+// Reveal controls when hovering over carousel or when an element inside is focused (keyboard accessibility)
+.heroCarousel:hover .controlsLayer,
+.heroCarousel:focus-within .controlsLayer {
+  opacity: 1;
+  visibility: visible;
+}
+
+// Carousel Controls (Prev / Next) - Pixelated Stepped Buttons
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: auto;
+  z-index: 6;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $natural-black;
+  clip-path: polygon(
+    0 4px,
+    4px 4px,
+    4px 0,
+    calc(100% - 4px) 0,
+    calc(100% - 4px) 4px,
+    100% 4px,
+    100% calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) 100%,
+    4px 100%,
+    4px calc(100% - 4px),
+    0 calc(100% - 4px)
+  );
+  border: 2px solid $natural-white;
+  box-shadow: 3px 3px 0px $natural-black;
+  color: $natural-white;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    background: $natural-white;
+    color: $natural-black;
+    border-color: $natural-white;
+    transform: translateY(-50%) translate(2px, 2px);
+    box-shadow: 1px 1px 0px $natural-black;
+    outline: none;
+  }
+
+  &:active {
+    transform: translateY(-50%) translate(3px, 3px);
+    box-shadow: 0px 0px 0px $natural-black;
+  }
+
+  &.prevButton {
+    left: 1.25rem;
+  }
+
+  &.nextButton {
+    right: 1.25rem;
+  }
+}
+
+// Indicators - Pixelated Square Dots
+.indicators {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 6;
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+    background: $natural-black;
+    border: 2px solid $natural-white;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+
+    &:hover,
+    &:focus-visible {
+      background: $natural-white;
+      border-color: $natural-white;
+      transform: translate(1px, 1px);
+      outline: none;
+    }
+
+    &.activeDot {
+      width: 26px;
+      height: 10px;
+      background: $natural-white;
+      border-color: $natural-white;
+    }
+
+    &:focus-visible {
+      outline: 2px dashed $natural-white;
+      outline-offset: 2px;
+    }
+  }
+}
+
+// Play / Pause Button - Pixelated Stepped Button
+.playPauseButton {
+  position: absolute;
+  bottom: 0.9rem;
+  right: 1.25rem;
+  pointer-events: auto;
+  z-index: 6;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $natural-black;
+  clip-path: polygon(
+    0 3px,
+    3px 3px,
+    3px 0,
+    calc(100% - 3px) 0,
+    calc(100% - 3px) 3px,
+    100% 3px,
+    100% calc(100% - 3px),
+    calc(100% - 3px) calc(100% - 3px),
+    calc(100% - 3px) 100%,
+    3px 100%,
+    3px calc(100% - 3px),
+    0 calc(100% - 3px)
+  );
+  border: 2px solid $natural-white;
+  box-shadow: 2px 2px 0px $natural-black;
+  color: $natural-white;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    background: $natural-white;
+    color: $natural-black;
+    border-color: $natural-white;
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px $natural-black;
+    outline: none;
+  }
+
+  &:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px $natural-black;
+  }
+}
+
+.svgIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  pointer-events: none;
+
+  svg {
+    display: block;
+    fill: currentColor;
+    pointer-events: none;
+  }
+}
+
+// Media Queries & Accessibility
+@media (max-width: $breakpoint-mobile), (hover: none) {
+  .controlsLayer {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navButton {
+    width: 36px;
+    height: 36px;
+
+    &.prevButton {
+      left: 0.5rem;
+    }
+
+    &.nextButton {
+      right: 0.5rem;
+    }
+  }
+
+  .playPauseButton {
+    right: 0.6rem;
+    bottom: 0.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide {
+    transition: none !important;
+  }
+}

@@ -1,0 +1,10 @@
+autoplay: true
+interval: 6000
+
+items:
+  - title:
+      fi: 'Automaatio- ja systeemitekniikan kilta'
+      en: 'Guild of Automation and Systems Technology'
+    src: '@assets/images/20201029195159-eef0d345-xx.jpg'
+    alt: ''
+    overlay: true
