@@ -16,12 +16,12 @@ endDate: '2099-01-31'
 
 # Named color variables to override (optional)
 # Available theme variables:
-#   - as-violet-1
-#   - as-violet-2
+#   - as-violet-1 (navbar & title backgrounds, official AS violet)
+#   - as-violet-2 (lighter, muted violet, official secondary AS violet)
 #   - natural-white
 #   - natural-black
-#   - accent-violet-1
-#   - background-violet
+#   - accent-violet-1 (lighter version of as-violet-1)
+#   - background-violet (tints, overlays)
 #   - arduino-blue
 colors:
   as-violet-1: '#e02888'
