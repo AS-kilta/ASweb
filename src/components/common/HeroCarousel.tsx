@@ -32,6 +32,61 @@ const isSvgSource = (src?: string): boolean =>
 const isSlideAnimated = (slide?: CarouselSlide): boolean =>
   Boolean(slide?.svg || isSvgSource(slide?.src) || slide?.src?.includes('/animations/'));
 
+function getLocalizedSlideText(text: string | Record<string, string> | undefined, isEn: boolean): string | undefined {
+  if (!text) return undefined;
+  if (typeof text === 'string') return text;
+  return text[isEn ? 'en' : 'fi'] ?? text.fi;
+}
+
+interface SlideMediaProps {
+  slide: CarouselSlide;
+  inlinedSvg: string | null;
+  isSvg: boolean;
+}
+
+const SlideMedia: React.FC<SlideMediaProps> = ({ slide, inlinedSvg, isSvg }) => {
+  const slideSrc = slide.src;
+  const hasOverlay = Boolean(slide.overlay);
+
+  if (isSvg && inlinedSvg) {
+    return (
+      <>
+        <div className={style.svgWrapper} dangerouslySetInnerHTML={{ __html: inlinedSvg }} />
+        {hasOverlay && <div className={style.slideOverlay} aria-hidden="true" />}
+      </>
+    );
+  }
+
+  if (isSvg && slideSrc) {
+    return (
+      <>
+        <div className={style.svgWrapper}>
+          <img src={slideSrc} alt={slide.alt ?? ''} className={style.slideMedia} />
+        </div>
+        {hasOverlay && <div className={style.slideOverlay} aria-hidden="true" />}
+      </>
+    );
+  }
+
+  if (slideSrc) {
+    return (
+      <div
+        className={`${style.imageSlide} ${hasOverlay ? style.hasOverlay : ''}`}
+        style={{ backgroundImage: `url(${slideSrc})` }}
+        role="img"
+        aria-label={slide.alt ?? ''}
+      />
+    );
+  }
+
+  return null;
+};
+
+interface PreparedSlide {
+  slide: CarouselSlide;
+  key: string;
+}
+
 const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true, interval = 6000 }) => {
   const numSlides = items.length;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,7 +108,7 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
     return initial;
   });
 
-  const carouselRef = useRef<HTMLDivElement>(null);
+  const carouselRef = useRef<HTMLElement>(null);
   const touchCoordsRef = useRef<{ x: number; y: number } | null>(null);
 
   // Respect system prefers-reduced-motion
@@ -102,13 +157,18 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
         );
       }
 
-      pendingFetches.get(src)!.then((svgText) => {
-        if (!svgText) return;
-        svgCache.set(src, svgText);
-        if (isMounted) {
-          setSvgMap((prev) => ({ ...prev, [src]: svgText }));
-        }
-      });
+      void pendingFetches
+        .get(src)!
+        .then((svgText) => {
+          if (!svgText) return;
+          svgCache.set(src, svgText);
+          if (isMounted) {
+            setSvgMap((prev) => ({ ...prev, [src]: svgText }));
+          }
+        })
+        .catch(() => {
+          /* ignore fetch rejection */
+        });
     });
 
     return () => {
@@ -161,18 +221,27 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
     return () => clearInterval(timer);
   }, [isPlaying, autoplay, numSlides, interval, nextSlide, isHovered, isDocumentVisible, currentIndex]);
 
-  // Keyboard navigation
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'ArrowLeft') {
-      prevSlide();
-    } else if (e.key === 'ArrowRight') {
-      nextSlide();
-    } else if (e.key === 'Home') {
-      setCurrentIndex(0);
-    } else if (e.key === 'End') {
-      setCurrentIndex(numSlides - 1);
-    }
-  };
+  // Keyboard navigation when user is focused inside carousel
+  useEffect(() => {
+    const container = carouselRef.current;
+    if (!container) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!container.contains(document.activeElement)) return;
+      if (e.key === 'ArrowLeft') {
+        prevSlide();
+      } else if (e.key === 'ArrowRight') {
+        nextSlide();
+      } else if (e.key === 'Home') {
+        setCurrentIndex(0);
+      } else if (e.key === 'End') {
+        setCurrentIndex(numSlides - 1);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [nextSlide, prevSlide, numSlides]);
 
   // Touch swipe support (directionally aware to avoid intercepting vertical page scrolling)
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -198,14 +267,8 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
   };
 
   const currentSlide = items[currentIndex];
-  const activeTitle =
-    typeof currentSlide?.title === 'object' && currentSlide?.title !== null
-      ? currentSlide.title[isEn ? 'en' : 'fi'] ?? currentSlide.title.fi
-      : currentSlide?.title;
-  const activeLead =
-    typeof currentSlide?.lead === 'object' && currentSlide?.lead !== null
-      ? currentSlide.lead[isEn ? 'en' : 'fi'] ?? currentSlide.lead.fi
-      : currentSlide?.lead;
+  const activeTitle = getLocalizedSlideText(currentSlide?.title, isEn);
+  const activeLead = getLocalizedSlideText(currentSlide?.lead, isEn);
 
   const showControls = numSlides > 1;
   const currentSlideHasAnimation = isSlideAnimated(currentSlide);
@@ -214,16 +277,19 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
   const pauseLabel = isEn ? 'Pause' : 'Pysäytä toisto';
   const playLabel = isEn ? 'Resume' : 'Jatka toistoa';
 
+  const preparedSlides: PreparedSlide[] = items.map((slide, idx) => {
+    const titleKey = typeof slide.title === 'string' ? slide.title : slide.title?.fi ?? '';
+    const key = slide.src ? `slide-${slide.src}` : `slide-${titleKey}-${idx}`;
+    return { slide, key };
+  });
+
   return (
-    <div
+    <section
       ref={carouselRef}
       className={`${style.heroCarousel} ${!isPlaying ? style.isPaused : ''}`}
-      role="region"
       aria-roledescription="carousel"
       aria-label={isEn ? 'Image and animation carousel' : 'Kuva- ja animaatiokaruselli'}
       aria-live={isPlaying ? 'off' : 'polite'}
-      tabIndex={0}
-      onKeyDown={handleKeyDown}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
       onMouseEnter={() => setIsHovered(true)}
@@ -231,37 +297,21 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
     >
       {/* Slides Container */}
       <div className={style.slidesContainer}>
-        {items.map((slide, index) => {
+        {preparedSlides.map(({ slide, key: sKey }, index) => {
           const isActive = index === currentIndex;
           const slideSrc = slide.src;
           const isSvg = Boolean(slide.svg) || isSvgSource(slideSrc);
           const inlinedSvg = slide.svg ?? (slideSrc ? svgMap[slideSrc] : null);
-          const hasOverlay = Boolean(slide.overlay);
 
           return (
             <div
-              key={index}
+              key={sKey}
               className={`${style.slide} ${isActive ? style.activeSlide : ''}`}
-              role="group"
               aria-roledescription="slide"
               aria-label={`${index + 1} / ${numSlides}`}
               aria-hidden={!isActive}
             >
-              {isSvg && inlinedSvg ? (
-                <div className={style.svgWrapper} dangerouslySetInnerHTML={{ __html: inlinedSvg }} />
-              ) : isSvg && slideSrc ? (
-                <div className={style.svgWrapper}>
-                  <img src={slideSrc} alt={slide.alt ?? ''} className={style.slideMedia} />
-                </div>
-              ) : slideSrc ? (
-                <div
-                  className={`${style.imageSlide} ${hasOverlay ? style.hasOverlay : ''}`}
-                  style={{ backgroundImage: `url(${slideSrc})` }}
-                  role="img"
-                  aria-label={slide.alt ?? ''}
-                />
-              ) : null}
-              {isSvg && hasOverlay && <div className={style.slideOverlay} aria-hidden="true" />}
+              <SlideMedia slide={slide} inlinedSvg={inlinedSvg} isSvg={isSvg} />
             </div>
           );
         })}
@@ -299,9 +349,9 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
 
         {showControls && (
           <div className={style.indicators} role="tablist" aria-label={isEn ? 'Select slide' : 'Valitse dia'}>
-            {items.map((_, idx) => (
+            {preparedSlides.map(({ key: sKey }, idx) => (
               <button
-                key={idx}
+                key={`dot-${sKey}`}
                 type="button"
                 role="tab"
                 aria-selected={idx === currentIndex}
@@ -325,7 +375,7 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
           </button>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

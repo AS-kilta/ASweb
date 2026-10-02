@@ -172,7 +172,6 @@ const slug = '/studies';
 </BaseLayout>
 
 <style lang="scss">
-  @use 'sass:color';
   @use '@styles/_variables.scss';
 
   .studies-container {
@@ -191,7 +190,7 @@ const slug = '/studies';
 
   .side-panel {
     flex: 1;
-    background-color: color.adjust($as-violet-2, $lightness: 20%);
+    background-color: color-mix(in srgb, $as-violet-2 80%, white);
     padding: 2rem;
     margin-block-start: 1em;
     height: fit-content;

@@ -1,6 +1,4 @@
-@use 'sass:color';
-
-$not-focused: color.adjust($natural-white, $alpha: -0.2);
+$not-focused: color-mix(in srgb, $natural-white 80%, transparent);
 
 .naviLink {
   font-size: 1rem;
@@ -207,7 +205,7 @@ $not-focused: color.adjust($natural-white, $alpha: -0.2);
     flex-grow: 0;
     flex-basis: 75px;
     padding-inline: 1rem;
-    border-left: solid 2px color.adjust($natural-white, $alpha: -0.5);
+    border-left: solid 2px color-mix(in srgb, $natural-white 50%, transparent);
 
     svg {
       width: 2rem;

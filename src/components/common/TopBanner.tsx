@@ -25,14 +25,14 @@ export type TopBannerProps = BannerConfig;
 function isBannerItemActive(item: BannerItem, now: Date): boolean {
   if (item.startDate) {
     const start = new Date(item.startDate);
-    if (!isNaN(start.getTime()) && now.getTime() < start.getTime()) {
+    if (!Number.isNaN(start.getTime()) && now.getTime() < start.getTime()) {
       return false;
     }
   }
 
   if (item.endDate) {
     const end = new Date(item.endDate);
-    if (!isNaN(end.getTime()) && now.getTime() > end.getTime()) {
+    if (!Number.isNaN(end.getTime()) && now.getTime() > end.getTime()) {
       return false;
     }
   }
@@ -40,25 +40,20 @@ function isBannerItemActive(item: BannerItem, now: Date): boolean {
   return true;
 }
 
+function parseDate(dateVal: string | Date): Date {
+  if (dateVal instanceof Date) return dateVal;
+  const sanitized = dateVal.includes(' ') && !dateVal.includes('T') ? dateVal.replace(' ', 'T') : dateVal;
+  const parsed = new Date(sanitized);
+  return Number.isNaN(parsed.getTime()) ? new Date(dateVal) : parsed;
+}
+
 function formatCountdown(
   targetDate: string | Date,
   now: Date,
   isEn: boolean
 ): { formatted: string; isEnded: boolean } | null {
-  let target: Date;
-  if (targetDate instanceof Date) {
-    target = targetDate;
-  } else if (typeof targetDate === 'string') {
-    const sanitized = targetDate.includes(' ') && !targetDate.includes('T') ? targetDate.replace(' ', 'T') : targetDate;
-    target = new Date(sanitized);
-    if (isNaN(target.getTime())) {
-      target = new Date(targetDate);
-    }
-  } else {
-    target = new Date(targetDate);
-  }
-
-  if (isNaN(target.getTime())) return null;
+  const target = parseDate(targetDate);
+  if (Number.isNaN(target.getTime())) return null;
 
   const diff = target.getTime() - now.getTime();
   if (diff <= 0) {
@@ -75,20 +70,90 @@ function formatCountdown(
   const seconds = totalSeconds % 60;
   const pad = (n: number) => n.toString().padStart(2, '0');
 
-  const formatted = isEn
-    ? `${days > 0 ? `${days}d ` : ''}${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`
-    : `${days > 0 ? `${days}pv ` : ''}${pad(hours)}t ${pad(minutes)}m ${pad(seconds)}s`;
+  const dayPrefix = days > 0 ? (isEn ? `${days}d ` : `${days}pv `) : '';
+  const timeUnit = isEn ? 'h' : 't';
+  const formatted = `${dayPrefix}${pad(hours)}${timeUnit} ${pad(minutes)}m ${pad(seconds)}s`;
 
   return { formatted, isEnded: false };
 }
 
-/* Star / Plus differentiation marker */
+function getLocalizedText(text: string | Record<string, string> | undefined, isEn: boolean): string {
+  if (!text) return '';
+  if (typeof text === 'string') return text;
+  return text[isEn ? 'en' : 'fi'] ?? text.fi ?? '';
+}
+
+/* Star differentiation marker */
 const StarMarker: React.FC = () => <span className={style.starMarker} dangerouslySetInnerHTML={{ __html: starSvg }} />;
+
+interface BannerItemContentProps {
+  item: BannerItem;
+  now: Date;
+  isEn: boolean;
+  isDuplicate?: boolean;
+}
+
+const BannerItemContent: React.FC<BannerItemContentProps> = ({ item, now, isEn, isDuplicate = false }) => {
+  const text = getLocalizedText(item.text, isEn);
+  const linkUrl = typeof item.link === 'string' ? item.link : item.link?.url;
+  const linkLabel = typeof item.link === 'object' && item.link?.text ? getLocalizedText(item.link.text, isEn) : null;
+  const countdownData = item.countdown ? formatCountdown(item.countdown, now, isEn) : null;
+  const isExternal = Boolean(linkUrl?.startsWith('http'));
+
+  return (
+    <div className={style.bannerItemContent}>
+      {/* Main Text */}
+      {linkUrl && !linkLabel ? (
+        <a
+          href={linkUrl}
+          className={style.itemLink}
+          target={isExternal ? '_blank' : undefined}
+          rel={isExternal ? 'noopener noreferrer' : undefined}
+          tabIndex={isDuplicate ? -1 : undefined}
+          aria-hidden={isDuplicate ? 'true' : undefined}
+        >
+          <span className={style.itemText}>{text}</span>
+        </a>
+      ) : (
+        <span className={style.itemText}>{text}</span>
+      )}
+
+      {/* Optional Countdown */}
+      {countdownData && (
+        <span
+          className={`${style.countdownBadge} ${countdownData.isEnded ? style.countdownEnded : ''}`}
+          aria-live="polite"
+          suppressHydrationWarning
+        >
+          {countdownData.formatted}
+        </span>
+      )}
+
+      {/* Optional Action Link */}
+      {linkUrl && linkLabel && (
+        <a
+          href={linkUrl}
+          className={style.itemLink}
+          target={isExternal ? '_blank' : undefined}
+          rel={isExternal ? 'noopener noreferrer' : undefined}
+          tabIndex={isDuplicate ? -1 : undefined}
+          aria-hidden={isDuplicate ? 'true' : undefined}
+        >
+          {linkLabel}
+        </a>
+      )}
+    </div>
+  );
+};
+
+interface PreparedBannerItem {
+  item: BannerItem;
+  key: string;
+}
 
 const TopBanner: React.FC<TopBannerProps> = ({ enabled = true, items = [] }) => {
   const [now, setNow] = useState<Date>(() => new Date());
 
-  // Detect language from document element set by Astro SSR layout
   const isEn = typeof document !== 'undefined' && document.documentElement.lang.startsWith('en');
 
   // Filter active items based on current time
@@ -136,72 +201,18 @@ const TopBanner: React.FC<TopBannerProps> = ({ enabled = true, items = [] }) => 
     return null;
   }
 
-  // Render a single banner item content (text, link, countdown)
-  const renderItemContent = (item: BannerItem, isDuplicate = false) => {
-    const text =
-      typeof item.text === 'object' && item.text !== null
-        ? item.text[isEn ? 'en' : 'fi'] ?? item.text.fi ?? ''
-        : item.text ?? '';
-    const linkUrl = typeof item.link === 'string' ? item.link : item.link?.url;
-    const linkLabel =
-      typeof item.link === 'object' && item.link?.text
-        ? typeof item.link.text === 'object' && item.link.text !== null
-          ? item.link.text[isEn ? 'en' : 'fi'] ?? item.link.text.fi
-          : item.link.text
-        : null;
-    const countdownData = item.countdown ? formatCountdown(item.countdown, now, isEn) : null;
-
-    return (
-      <div className={style.bannerItemContent}>
-        {/* Main Text */}
-        {linkUrl && !linkLabel ? (
-          <a
-            href={linkUrl}
-            className={style.itemLink}
-            target={linkUrl.startsWith('http') ? '_blank' : undefined}
-            rel={linkUrl.startsWith('http') ? 'noopener noreferrer' : undefined}
-            tabIndex={isDuplicate ? -1 : undefined}
-            aria-hidden={isDuplicate ? 'true' : undefined}
-          >
-            <span className={style.itemText}>{text}</span>
-          </a>
-        ) : (
-          <span className={style.itemText}>{text}</span>
-        )}
-
-        {/* Optional Countdown */}
-        {countdownData && (
-          <span
-            className={`${style.countdownBadge} ${countdownData.isEnded ? style.countdownEnded : ''}`}
-            aria-live="polite"
-            suppressHydrationWarning
-          >
-            {countdownData.formatted}
-          </span>
-        )}
-
-        {/* Optional Action Link */}
-        {linkUrl && linkLabel && (
-          <a
-            href={linkUrl}
-            className={style.itemLink}
-            target={linkUrl.startsWith('http') ? '_blank' : undefined}
-            rel={linkUrl.startsWith('http') ? 'noopener noreferrer' : undefined}
-            tabIndex={isDuplicate ? -1 : undefined}
-            aria-hidden={isDuplicate ? 'true' : undefined}
-          >
-            {linkLabel}
-          </a>
-        )}
-      </div>
-    );
-  };
-
   // Ensure enough items in each group to smoothly span wide viewports
-  const multiplier = numItems === 1 ? 4 : numItems === 2 ? 2 : 2;
-  const repeatedItems: BannerItem[] = [];
-  for (let i = 0; i < multiplier; i++) {
-    repeatedItems.push(...activeItems);
+  const multiplier = numItems === 1 ? 4 : 2;
+  const repeatedItems: PreparedBannerItem[] = [];
+  for (let cycle = 0; cycle < multiplier; cycle++) {
+    for (let i = 0; i < activeItems.length; i++) {
+      const it = activeItems[i];
+      const textKey = typeof it.text === 'string' ? it.text : it.text.fi ?? it.text.en ?? '';
+      repeatedItems.push({
+        item: it,
+        key: `c${cycle}-i${i}-${textKey}`,
+      });
+    }
   }
 
   return (
@@ -210,9 +221,9 @@ const TopBanner: React.FC<TopBannerProps> = ({ enabled = true, items = [] }) => 
         <div className={style.marqueeTrack}>
           {/* Primary item group */}
           <div className={style.marqueeGroup}>
-            {repeatedItems.map((item, idx) => (
-              <React.Fragment key={`orig-${idx}`}>
-                {renderItemContent(item, false)}
+            {repeatedItems.map(({ item, key }) => (
+              <React.Fragment key={`orig-${key}`}>
+                <BannerItemContent item={item} now={now} isEn={isEn} isDuplicate={false} />
                 <span className={style.itemSeparator} aria-hidden="true">
                   <StarMarker />
                 </span>
@@ -222,9 +233,9 @@ const TopBanner: React.FC<TopBannerProps> = ({ enabled = true, items = [] }) => 
 
           {/* Duplicate item group for infinite seamless continuous rolling */}
           <div className={style.marqueeGroup} aria-hidden="true">
-            {repeatedItems.map((item, idx) => (
-              <React.Fragment key={`dup-${idx}`}>
-                {renderItemContent(item, true)}
+            {repeatedItems.map(({ item, key }) => (
+              <React.Fragment key={`dup-${key}`}>
+                <BannerItemContent item={item} now={now} isEn={isEn} isDuplicate={true} />
                 <span className={style.itemSeparator} aria-hidden="true">
                   <StarMarker />
                 </span>
