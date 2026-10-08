@@ -65,7 +65,6 @@ items:
     startDate: '2026-09-15T00:00:00Z'
     endDate: '2026-10-21T23:59:59Z'
     countdown: '2026-10-21T18:00:00+03:00'
-
 #  - text:
 #      fi: 'Kiltahuoneen kahvinkeitin on huollettu ja tuoretta kahvia tarjolla!'
 #      en: 'The guild room coffee machine has been serviced and fresh coffee is served!'
