@@ -51,23 +51,22 @@
 #     The badge shows remaining days and hours (e.g. "12 pv 4 t") until the event.
 # ==============================================================================
 
-enabled: false
+enabled: true
 
 items:
   - text:
-      fi: 'AS:n 56. vuosijuhla Stimulaatio lähestyy!'
-      en: 'AS 56th Annual Ball Stimulaatio is approaching!'
+      fi: 'AS:n 1. vaalikokous lähestyy!'
+      en: 'AS 1st election meeting is nigh!'
     link:
-      url: '/guild/stimu'
+      url: '/guild/docs'
       text:
         fi: 'Lue lisää →'
         en: 'Read more →'
-    startDate: '2026-08-15T00:00:00Z'
-    endDate: '2026-11-20T23:59:59Z'
-    countdown: '2026-11-14T18:00:00+03:00'
-
-  - text:
-      fi: 'Kiltahuoneen kahvinkeitin on huollettu ja tuoretta kahvia tarjolla!'
-      en: 'The guild room coffee machine has been serviced and fresh coffee is served!'
-    startDate: '2026-09-10T00:00:00Z'
-    endDate: '2026-10-15T00:00:00Z'
+    startDate: '2026-09-15T00:00:00Z'
+    endDate: '2026-10-21T23:59:59Z'
+    countdown: '2026-10-21T18:00:00+03:00'
+#  - text:
+#      fi: 'Kiltahuoneen kahvinkeitin on huollettu ja tuoretta kahvia tarjolla!'
+#      en: 'The guild room coffee machine has been serviced and fresh coffee is served!'
+#    startDate: '2026-09-10T00:00:00Z'
+#    endDate: '2026-10-15T00:00:00Z'
