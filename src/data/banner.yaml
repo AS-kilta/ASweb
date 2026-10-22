@@ -38,7 +38,7 @@
 #
 #   startDate: (ISO string or YYYY-MM-DD, optional)
 #     When this announcement starts appearing on the website.
-#     Supports ISO timestamps (e.g. '2026-08-15T00:00:00Z').
+#     Supports ISO timestamps (e.g. '2026-08-15T00:00:00').
 #     If omitted, the item is shown immediately.
 #
 #   endDate: (ISO string or YYYY-MM-DD, optional)
@@ -47,11 +47,11 @@
 #
 #   countdown: (ISO timestamp, optional)
 #     Enables a live ticking countdown badge next to the announcement.
-#     Format: ISO 8601 string, e.g. '2026-11-14T18:00:00+03:00'.
+#     Format: ISO 8601 string, e.g. '2026-11-14T18:00:00'.
 #     The badge shows remaining days and hours (e.g. "12 pv 4 t") until the event.
 # ==============================================================================
 
-enabled: true
+enabled: false
 
 items:
   - text:
@@ -62,11 +62,11 @@ items:
       text:
         fi: 'Lue lisää →'
         en: 'Read more →'
-    startDate: '2026-09-15T00:00:00Z'
-    endDate: '2026-10-21T23:59:59Z'
-    countdown: '2026-10-21T18:00:00+03:00'
+    startDate: '2026-09-15T00:00:00'
+    endDate: '2026-10-21T23:59:59'
+    countdown: '2026-10-21T18:00:00'
 #  - text:
 #      fi: 'Kiltahuoneen kahvinkeitin on huollettu ja tuoretta kahvia tarjolla!'
 #      en: 'The guild room coffee machine has been serviced and fresh coffee is served!'
-#    startDate: '2026-09-10T00:00:00Z'
-#    endDate: '2026-10-15T00:00:00Z'
+#    startDate: '2026-09-10T00:00:00'
+#    endDate: '2026-10-15T00:00:00'

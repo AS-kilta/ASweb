@@ -22,29 +22,50 @@ export interface BannerConfig {
 
 export type TopBannerProps = BannerConfig;
 
+function parseDate(dateVal: string | Date): Date {
+  if (dateVal instanceof Date) {
+    if (
+      dateVal.getUTCHours() === 0 &&
+      dateVal.getUTCMinutes() === 0 &&
+      dateVal.getUTCSeconds() === 0 &&
+      dateVal.getUTCMilliseconds() === 0
+    ) {
+      return new Date(dateVal.getUTCFullYear(), dateVal.getUTCMonth(), dateVal.getUTCDate(), 0, 0, 0, 0);
+    }
+    return dateVal;
+  }
+  if (typeof dateVal !== 'string') return new Date(NaN);
+  const trimmed = dateVal.trim();
+  if (!trimmed) return new Date(NaN);
+
+  // If there's only a date without time (e.g. YYYY-MM-DD), interpret as 00:00:00 of localtime
+  const dateOnlyMatch = /^(\d{4})[-/](\d{2})[-/](\d{2})$/.exec(trimmed);
+  if (dateOnlyMatch) {
+    const [, year, month, day] = dateOnlyMatch;
+    return new Date(Number(year), Number(month) - 1, Number(day), 0, 0, 0, 0);
+  }
+
+  const sanitized = trimmed.includes(' ') && !trimmed.includes('T') ? trimmed.replace(' ', 'T') : trimmed;
+  const parsed = new Date(sanitized);
+  return Number.isNaN(parsed.getTime()) ? new Date(trimmed) : parsed;
+}
+
 function isBannerItemActive(item: BannerItem, now: Date): boolean {
   if (item.startDate) {
-    const start = new Date(item.startDate);
+    const start = parseDate(item.startDate);
     if (!Number.isNaN(start.getTime()) && now.getTime() < start.getTime()) {
       return false;
     }
   }
 
   if (item.endDate) {
-    const end = new Date(item.endDate);
+    const end = parseDate(item.endDate);
     if (!Number.isNaN(end.getTime()) && now.getTime() > end.getTime()) {
       return false;
     }
   }
 
   return true;
-}
-
-function parseDate(dateVal: string | Date): Date {
-  if (dateVal instanceof Date) return dateVal;
-  const sanitized = dateVal.includes(' ') && !dateVal.includes('T') ? dateVal.replace(' ', 'T') : dateVal;
-  const parsed = new Date(sanitized);
-  return Number.isNaN(parsed.getTime()) ? new Date(dateVal) : parsed;
 }
 
 function formatCountdown(
@@ -56,25 +77,22 @@ function formatCountdown(
   if (Number.isNaN(target.getTime())) return null;
 
   const diff = target.getTime() - now.getTime();
-  if (diff <= 0) {
-    return {
-      formatted: isEn ? 'Ended' : 'Päättynyt',
-      isEnded: true,
-    };
-  }
+  const isNegative = diff < 0;
+  const absDiff = Math.abs(diff);
 
-  const totalSeconds = Math.floor(diff / 1000);
+  const totalSeconds = Math.floor(absDiff / 1000);
   const days = Math.floor(totalSeconds / 86400);
   const hours = Math.floor((totalSeconds % 86400) / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
   const pad = (n: number) => n.toString().padStart(2, '0');
 
+  const sign = isNegative ? '-' : '';
   const dayPrefix = days > 0 ? (isEn ? `${days}d ` : `${days}pv `) : '';
   const timeUnit = isEn ? 'h' : 't';
-  const formatted = `${dayPrefix}${pad(hours)}${timeUnit} ${pad(minutes)}m ${pad(seconds)}s`;
+  const formatted = `${sign}${dayPrefix}${pad(hours)}${timeUnit} ${pad(minutes)}m ${pad(seconds)}s`;
 
-  return { formatted, isEnded: false };
+  return { formatted, isEnded: isNegative };
 }
 
 function getLocalizedText(text: string | Record<string, string> | undefined, isEn: boolean): string {
@@ -160,11 +178,11 @@ const TopBanner: React.FC<TopBannerProps> = ({ enabled = true, items = [] }) => 
   const activeItems = items.filter((item) => isBannerItemActive(item, now));
   const numItems = activeItems.length;
 
-  const hasCountdown = activeItems.some((item) => Boolean(item.countdown));
+  const hasExpiringItems = items.some((item) => Boolean(item.countdown || item.endDate || item.startDate));
 
-  // Live timer tick for countdowns every second, throttled when tab is inactive
+  // Live timer tick for countdowns and auto-disappearing every second, throttled when tab is inactive
   useEffect(() => {
-    if (!hasCountdown) return;
+    if (!hasExpiringItems) return;
 
     let timer: NodeJS.Timeout | null = null;
     const startTimer = () => {
@@ -195,7 +213,7 @@ const TopBanner: React.FC<TopBannerProps> = ({ enabled = true, items = [] }) => 
       stopTimer();
       document.removeEventListener('visibilitychange', handleVisibility);
     };
-  }, [hasCountdown]);
+  }, [hasExpiringItems]);
 
   if (numItems === 0 || !enabled) {
     return null;

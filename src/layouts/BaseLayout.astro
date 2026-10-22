@@ -331,7 +331,7 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
     <div id="layout-container">
       {
         bannerResolved && Array.isArray(bannerResolved.items) && bannerResolved.items.length > 0 && (
-          <TopBanner client:load {...bannerResolved} />
+          <TopBanner client:only="react" {...bannerResolved} />
         )
       }
       <Navbar
