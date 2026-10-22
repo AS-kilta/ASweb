@@ -243,7 +243,7 @@ const theme = defineCollection({
     endDate: z.union([z.string(), z.date()]).optional(),
     colors: z.record(z.string(), z.string()).optional(),
     carousel: z.union([z.string(), z.boolean()]).optional(),
-    logos: z.union([z.string(), z.array(z.string())]).optional(),
+    logo: z.string().optional(),
   }),
 });
 

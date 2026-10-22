@@ -128,14 +128,26 @@ function resolveLogo(pathOrSvg: string): string | null {
   return trimmed;
 }
 
-function parseThemeDate(dateVal: string | Date | null | undefined, isEnd = false): Date | null {
+function parseThemeDate(dateVal: string | Date | null | undefined): Date | null {
   if (!dateVal) return null;
-  if (dateVal instanceof Date) return dateVal;
+  if (dateVal instanceof Date) {
+    if (
+      dateVal.getUTCHours() === 0 &&
+      dateVal.getUTCMinutes() === 0 &&
+      dateVal.getUTCSeconds() === 0 &&
+      dateVal.getUTCMilliseconds() === 0
+    ) {
+      return new Date(dateVal.getUTCFullYear(), dateVal.getUTCMonth(), dateVal.getUTCDate(), 0, 0, 0, 0);
+    }
+    return dateVal;
+  }
   if (typeof dateVal === 'string') {
     const trimmed = dateVal.trim();
     if (!trimmed) return null;
-    if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
-      return new Date(trimmed + (isEnd ? 'T23:59:59.999Z' : 'T00:00:00.000Z'));
+    const dateOnlyMatch = /^(\d{4})[-/](\d{2})[-/](\d{2})$/.exec(trimmed);
+    if (dateOnlyMatch) {
+      const [, year, month, day] = dateOnlyMatch;
+      return new Date(Number(year), Number(month) - 1, Number(day), 0, 0, 0, 0);
     }
     const d = new Date(trimmed);
     return isNaN(d.getTime()) ? null : d;
@@ -144,8 +156,8 @@ function parseThemeDate(dateVal: string | Date | null | undefined, isEnd = false
 }
 
 function isThemeActive(themeData: ThemeConfig, now: Date): boolean {
-  const start = parseThemeDate(themeData.startDate, false);
-  const end = parseThemeDate(themeData.endDate, true);
+  const start = parseThemeDate(themeData.startDate);
+  const end = parseThemeDate(themeData.endDate);
 
   if (!start && !end) return false;
 
@@ -156,17 +168,6 @@ function isThemeActive(themeData: ThemeConfig, now: Date): boolean {
     return false;
   }
   return true;
-}
-
-function extractLogos(themeData?: ThemeConfig | null): string[] {
-  if (!themeData?.logos) return [];
-  if (typeof themeData.logos === 'string') {
-    return [themeData.logos];
-  }
-  if (Array.isArray(themeData.logos)) {
-    return themeData.logos.filter((item): item is string => typeof item === 'string');
-  }
-  return [];
 }
 
 const now = new Date();
@@ -217,14 +218,11 @@ const themeCarouselName =
     ? activeThemeData.carousel
     : DEFAULT_THEME.carousel;
 
-let logoList = extractLogos(activeThemeData);
-if (logoList.length === 0) {
-  logoList = [...DEFAULT_THEME.logos];
-}
-
-const themeLogos = logoList
-  .map(resolveLogo)
-  .filter((logo): logo is string => typeof logo === 'string' && logo.length > 0);
+const rawLogo =
+  typeof activeThemeData?.logo === 'string' && activeThemeData.logo.trim()
+    ? activeThemeData.logo.trim()
+    : DEFAULT_THEME.logo;
+const themeLogo = resolveLogo(rawLogo);
 
 let carouselResolved: CarouselConfig | null = null;
 if (carousel && (typeof carousel !== 'boolean' || themeCarouselName !== false)) {
@@ -340,7 +338,7 @@ const metaDescription = description ?? lead ?? SITE_METADATA.description[lang];
         slug={slug}
         translation={translation}
         naviData={naviData}
-        logos={themeLogos.length > 0 ? themeLogos : undefined}
+        logo={themeLogo ?? undefined}
       />
       {
         carouselResolved && carouselResolved.items.length > 0 ? (
