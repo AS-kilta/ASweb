@@ -204,6 +204,7 @@ const carousel = defineCollection({
     z.object({
       autoplay: z.boolean().optional(),
       interval: z.number().optional(),
+      overlay: z.boolean().optional(),
       items: z.array(carouselItemSchema({ image })),
     }),
 });

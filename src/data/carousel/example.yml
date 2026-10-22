@@ -27,5 +27,5 @@ items:
       en: 'Example description text shown on top of the slide image.'
     src: '@assets/images/20201029195159-eef0d345-xx.jpg'
     alt: 'Esimerkkikuva'
-    # overlay: adds a subtle dark gradient backdrop to keep text legible (default: false)
+    # overlay: whether to apply guild violet blend to the image (default: true, set false to remove blending)
     overlay: true

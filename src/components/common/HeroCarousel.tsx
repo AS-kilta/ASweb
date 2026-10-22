@@ -18,6 +18,7 @@ export interface CarouselConfig {
   items: CarouselSlide[];
   autoplay?: boolean;
   interval?: number;
+  overlay?: boolean;
 }
 
 export type HeroCarouselProps = Partial<CarouselConfig>;
@@ -42,29 +43,22 @@ interface SlideMediaProps {
   slide: CarouselSlide;
   inlinedSvg: string | null;
   isSvg: boolean;
+  carouselOverlay: boolean;
 }
 
-const SlideMedia: React.FC<SlideMediaProps> = ({ slide, inlinedSvg, isSvg }) => {
+const SlideMedia: React.FC<SlideMediaProps> = ({ slide, inlinedSvg, isSvg, carouselOverlay }) => {
   const slideSrc = slide.src;
-  const hasOverlay = Boolean(slide.overlay);
+  const hasOverlay = slide.overlay !== undefined ? slide.overlay : carouselOverlay;
 
   if (isSvg && inlinedSvg) {
-    return (
-      <>
-        <div className={style.svgWrapper} dangerouslySetInnerHTML={{ __html: inlinedSvg }} />
-        {hasOverlay && <div className={style.slideOverlay} aria-hidden="true" />}
-      </>
-    );
+    return <div className={style.svgWrapper} dangerouslySetInnerHTML={{ __html: inlinedSvg }} />;
   }
 
   if (isSvg && slideSrc) {
     return (
-      <>
-        <div className={style.svgWrapper}>
-          <img src={slideSrc} alt={slide.alt ?? ''} className={style.slideMedia} />
-        </div>
-        {hasOverlay && <div className={style.slideOverlay} aria-hidden="true" />}
-      </>
+      <div className={style.svgWrapper}>
+        <img src={slideSrc} alt={slide.alt ?? ''} className={style.slideMedia} />
+      </div>
     );
   }
 
@@ -87,7 +81,12 @@ interface PreparedSlide {
   key: string;
 }
 
-const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true, interval = 6000 }) => {
+const HeroCarousel: React.FC<HeroCarouselProps> = ({
+  items = [],
+  autoplay = true,
+  interval = 6000,
+  overlay = true,
+}) => {
   const numSlides = items.length;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(Boolean(autoplay));
@@ -311,7 +310,7 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ items = [], autoplay = true
               aria-label={`${index + 1} / ${numSlides}`}
               aria-hidden={!isActive}
             >
-              <SlideMedia slide={slide} inlinedSvg={inlinedSvg} isSvg={isSvg} />
+              <SlideMedia slide={slide} inlinedSvg={inlinedSvg} isSvg={isSvg} carouselOverlay={overlay} />
             </div>
           );
         })}

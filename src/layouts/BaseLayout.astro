@@ -21,6 +21,7 @@ interface Props {
   description?: string;
   background?: string | ImageMetadata;
   heroHeight?: 'short' | 'tall';
+  overlay?: boolean;
   carousel?: boolean | string | CarouselSlide[] | CarouselConfig;
   banner?: boolean | string | BannerItem[] | BannerConfig;
   theme?: string;
@@ -283,6 +284,7 @@ if (carousel && (typeof carousel !== 'boolean' || themeCarouselName !== false)) 
       items,
       autoplay: typeof source?.autoplay === 'boolean' ? source.autoplay : true,
       interval: typeof source?.interval === 'number' ? source.interval : 6000,
+      overlay: typeof overlay === 'boolean' ? overlay : typeof source?.overlay === 'boolean' ? source.overlay : true,
     };
   }
 }
