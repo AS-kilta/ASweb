@@ -19,7 +19,7 @@ export interface ThemeConfig {
   endDate?: string | Date | null;
   colors?: Record<string, string> | null;
   carousel?: string | boolean | null;
-  logos?: string | string[] | null;
+  logo?: string | null;
 }
 
 export interface ResolvedTheme {
@@ -27,7 +27,7 @@ export interface ResolvedTheme {
   isConflict: boolean;
   colors: Record<string, string>;
   carousel: string | boolean;
-  logos: string[];
+  logo: string;
   cssVariables: string;
 }
 
@@ -44,9 +44,9 @@ export const DEFAULT_THEME_COLORS: Record<string, string> = {
 export const DEFAULT_THEME: {
   colors: Record<string, string>;
   carousel: string;
-  logos: string[];
+  logo: string;
 } = {
   colors: DEFAULT_THEME_COLORS,
   carousel: 'default',
-  logos: ['@assets/logos/as-pixel.svg', '@assets/logos/as-fourier.svg'],
+  logo: '@assets/logos/as-pixel.svg',
 };

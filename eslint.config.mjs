@@ -6,6 +6,15 @@ import eslintConfigPrettier from 'eslint-config-prettier';
 import eslintPluginAstro from 'eslint-plugin-astro';
 
 export default [
+  {
+    ignores: [
+      '.cache/**',
+      'node_modules/**',
+      'public/**',
+      'dist/**',
+      '.astro/**',
+    ],
+  },
   { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
   { languageOptions: { parserOptions: { ecmaFeatures: { jsx: true } } } },
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
@@ -16,7 +25,6 @@ export default [
       },
     },
   },
-  { ignores: ['.cache/*', 'node_modules/*', 'public/*', 'dist/*', '.astro/*'] },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReactConfig,

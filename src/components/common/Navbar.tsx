@@ -13,42 +13,25 @@ const NaviContext = createContext<INaviContext | undefined>(undefined);
 
 interface SiteLogoProps {
   lang: string;
-  logos: string[];
+  logo?: string;
 }
 
-const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logos }) => {
+const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logo }) => {
   const naviCtx = useContext(NaviContext);
-  const [activeVariant, setActiveVariant] = useState<number | null>(null);
   const [animKey, setAnimKey] = useState(0);
 
-  const hasMultiple = logos && logos.length > 1;
-
-  const triggerAnimation = () => {
-    if (hasMultiple) {
-      setActiveVariant(Math.floor(Math.random() * logos.length));
-    }
-    setAnimKey((prev) => prev + 1);
-  };
-
-  if (!logos || logos.length === 0) {
+  if (!logo) {
     return null;
   }
 
+  const triggerAnimation = () => {
+    setAnimKey((prev) => prev + 1);
+  };
+
+  const isSvg = logo.trim().startsWith('<svg');
+
   return (
-    <div
-      id="site-logo-container"
-      className={style.navbarLogo}
-      data-variant-count={hasMultiple ? logos.length : undefined}
-      data-anim-variant={activeVariant !== null ? String(activeVariant) : undefined}
-      suppressHydrationWarning
-    >
-      {hasMultiple && (
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var el=document.getElementById('site-logo-container');if(el&&!el.hasAttribute('data-anim-variant')){var c=parseInt(el.getAttribute('data-variant-count')||'1',10);el.setAttribute('data-anim-variant',Math.floor(Math.random()*c).toString());}})();`,
-          }}
-        />
-      )}
+    <div className={style.navbarLogo}>
       <a
         onClick={naviCtx?.hideNav}
         href={lang === 'fi' ? '/' : '/en'}
@@ -56,29 +39,18 @@ const SiteLogo: React.FC<SiteLogoProps> = ({ lang, logos }) => {
         onMouseEnter={triggerAnimation}
         onFocus={triggerAnimation}
       >
-        <span className={style.navbarLogoImg}>
-          {logos.map((logoItem, idx) => {
-            const isSvg = logoItem.trim().startsWith('<svg');
-            return isSvg ? (
-              <span
-                key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
-                className={style.logoVariant}
-                data-variant={idx}
-                dangerouslySetInnerHTML={{ __html: logoItem }}
-                aria-hidden="true"
-              />
-            ) : (
-              <span
-                key={`variant-${idx}-${activeVariant === idx ? animKey : 'init'}`}
-                className={style.logoVariant}
-                data-variant={idx}
-                aria-hidden="true"
-              >
-                <img src={logoItem} alt="Logo" />
-              </span>
-            );
-          })}
-        </span>
+        {isSvg ? (
+          <span
+            key={animKey}
+            className={style.navbarLogoImg}
+            dangerouslySetInnerHTML={{ __html: logo }}
+            aria-hidden="true"
+          />
+        ) : (
+          <span key={animKey} className={style.navbarLogoImg} aria-hidden="true">
+            <img src={logo} alt="Logo" />
+          </span>
+        )}
       </a>
     </div>
   );
@@ -237,15 +209,18 @@ export interface NavbarProps {
   slug: string;
   translation?: string;
   naviData: NaviData[];
-  logoAnimations?: string[];
+  logo?: string;
   logos?: string[];
+  logoAnimations?: string[];
 }
 
-const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logoAnimations, logos }) => {
+const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logo, logos, logoAnimations }) => {
   const [navExpanded, expandNav] = useState(false);
 
-  const activeLogos =
-    logos && logos.length > 0 ? logos : logoAnimations && logoAnimations.length > 0 ? logoAnimations : [];
+  const activeLogo =
+    logo ||
+    (logos && logos.length > 0 ? logos[0] : undefined) ||
+    (logoAnimations && logoAnimations.length > 0 ? logoAnimations[0] : undefined);
 
   const toggleNav = (): void => {
     if (navExpanded) {
@@ -270,7 +245,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logo
   return (
     <nav id={style.navbarTop} className={navExpanded ? style.expanded : ''} aria-label="Main Navigation">
       <NaviContext.Provider value={ctx}>
-        <SiteLogo lang={lang} logos={activeLogos} />
+        <SiteLogo lang={lang} logo={activeLogo} />
         <NavCollapse lang={lang} slug={slug} translation={translation} isExpanded={navExpanded} naviData={naviData} />
         <button
           className={`${style.menuToggle} button-reset`}
