@@ -1,33 +1,82 @@
 .button {
-  background: $as-violet-1;
-  color: #fff;
-  opacity: 0;
-  border: 0;
-  border-radius: 50%;
-  box-shadow: 0 0 0.3rem $as-violet-2;
-  width: clamp(2.5rem, 3.5vw, 3.5rem);
-  height: clamp(2.5rem, 3.5vw, 3.5rem);
   position: fixed;
+  z-index: 90;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background: $natural-black;
+  clip-path: polygon(
+    0 4px,
+    4px 4px,
+    4px 0,
+    calc(100% - 4px) 0,
+    calc(100% - 4px) 4px,
+    100% 4px,
+    100% calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) 100%,
+    4px 100%,
+    4px calc(100% - 4px),
+    0 calc(100% - 4px)
+  );
+  border: 2px solid $natural-white;
+  box-shadow: 3px 3px 0px $natural-black;
+  filter: drop-shadow(3px 3px 0px $natural-black);
+  color: $natural-white;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
   visibility: hidden;
+  pointer-events: none;
   transition:
-    visibility 0.15s linear,
-    opacity 0.15s linear;
+    background 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    filter 0.15s ease,
+    opacity 0.2s ease,
+    visibility 0.2s ease;
 
-  svg {
-    width: clamp(2rem, 3vw, 3rem);
-    height: clamp(2rem, 3vw, 3rem);
+  &:hover,
+  &:focus-visible {
+    background: $natural-white;
+    color: $natural-black;
+    border-color: $natural-black;
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0px $natural-black;
+    filter: drop-shadow(1px 1px 0px $natural-black);
+    outline: none;
+  }
+
+  &:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 0px $natural-black;
+    filter: drop-shadow(0px 0px 0px $natural-black);
   }
 }
 
-.button:hover {
-  box-shadow: 0 0 0.15rem 0.15rem $as-violet-2;
+.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
-.visible {
-  visibility: visible;
-  opacity: 1;
+.svgIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  pointer-events: none;
+
+  svg {
+    display: block;
+    fill: currentColor;
+    pointer-events: none;
+  }
 }
 
 @media all and (min-width: $breakpoint-mobile) {
@@ -41,5 +90,23 @@
   .button {
     bottom: 1rem;
     right: 1rem;
+    width: 36px;
+    height: 36px;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition:
+      opacity 0.15s linear,
+      visibility 0.15s linear !important;
+    transform: none !important;
+
+    &:hover,
+    &:focus-visible,
+    &:active {
+      transform: none !important;
+    }
+  }
+}
+
