@@ -1,5 +1,6 @@
-import React, { useState, useContext, createContext } from 'react';
+import React, { useState, useContext, createContext, useEffect } from 'react';
 import { BsList, BsX, BsPlus, BsDash } from 'react-icons/bs';
+import { observeThemeSchedule, type ScheduledThemeLogo } from '@src/utils/theme';
 
 import style from './Navbar.module.scss';
 
@@ -204,6 +205,13 @@ const NavCollapse: React.FC<NavCollapseProps> = ({ lang, slug, translation, isEx
   );
 };
 
+export interface ThemeLogoSchedule {
+  logos: Record<string, string>;
+  defaultLogoKey: string;
+  initialLogoKey: string;
+  themes: ScheduledThemeLogo[];
+}
+
 export interface NavbarProps {
   lang: string;
   slug: string;
@@ -212,15 +220,43 @@ export interface NavbarProps {
   logo?: string;
   logos?: string[];
   logoAnimations?: string[];
+  themeLogoSchedule?: ThemeLogoSchedule;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logo, logos, logoAnimations }) => {
+const Navbar: React.FC<NavbarProps> = ({
+  lang,
+  slug,
+  translation,
+  naviData,
+  logo,
+  logos,
+  logoAnimations,
+  themeLogoSchedule,
+}) => {
   const [navExpanded, expandNav] = useState(false);
 
   const activeLogo =
     logo ||
     (logos && logos.length > 0 ? logos[0] : undefined) ||
     (logoAnimations && logoAnimations.length > 0 ? logoAnimations[0] : undefined);
+
+  const [runtimeLogo, setRuntimeLogo] = useState<string | undefined>(activeLogo);
+
+  useEffect(() => {
+    if (!themeLogoSchedule) {
+      setRuntimeLogo(activeLogo);
+      return;
+    }
+
+    let currentKey = themeLogoSchedule.initialLogoKey;
+    return observeThemeSchedule(themeLogoSchedule.themes, (activeThemeId) => {
+      const activeEntry = activeThemeId ? themeLogoSchedule.themes.find((t) => t.id === activeThemeId) : undefined;
+      const nextKey = activeEntry?.logoKey ?? themeLogoSchedule.defaultLogoKey;
+      if (nextKey === currentKey) return;
+      currentKey = nextKey;
+      setRuntimeLogo(themeLogoSchedule.logos[nextKey] ?? activeLogo);
+    });
+  }, [themeLogoSchedule, activeLogo]);
 
   const toggleNav = (): void => {
     if (navExpanded) {
@@ -245,7 +281,7 @@ const Navbar: React.FC<NavbarProps> = ({ lang, slug, translation, naviData, logo
   return (
     <nav id={style.navbarTop} className={navExpanded ? style.expanded : ''} aria-label="Main Navigation">
       <NaviContext.Provider value={ctx}>
-        <SiteLogo lang={lang} logo={activeLogo} />
+        <SiteLogo lang={lang} logo={runtimeLogo} />
         <NavCollapse lang={lang} slug={slug} translation={translation} isExpanded={navExpanded} naviData={naviData} />
         <button
           className={`${style.menuToggle} button-reset`}
