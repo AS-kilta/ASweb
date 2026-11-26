@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import style from './HeroCarousel.module.scss';
+import { observeThemeSchedule, type ScheduledThemeCarousel } from '@src/utils/theme';
 import arrowLeftSvg from '@src/assets/icons/arrow-left.svg?raw';
 import arrowRightSvg from '@src/assets/icons/arrow-right.svg?raw';
 import pauseSvg from '@src/assets/icons/pause.svg?raw';
@@ -21,7 +22,16 @@ export interface CarouselConfig {
   overlay?: boolean;
 }
 
-export type HeroCarouselProps = Partial<CarouselConfig>;
+export interface ThemeCarouselSchedule {
+  carousels: Record<string, CarouselConfig | null>;
+  defaultCarouselKey: string;
+  initialCarouselKey: string;
+  themes: ScheduledThemeCarousel[];
+}
+
+export type HeroCarouselProps = Partial<CarouselConfig> & {
+  themeCarouselSchedule?: ThemeCarouselSchedule;
+};
 
 // Module-level caches to prevent duplicate requests across renders and navigations
 const svgCache = new Map<string, string>();
@@ -86,10 +96,24 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
   autoplay = true,
   interval = 6000,
   overlay = true,
+  themeCarouselSchedule,
 }) => {
-  const numSlides = items.length;
+  const [resolvedConfig, setResolvedConfig] = useState<CarouselConfig | null>(() => ({
+    items,
+    autoplay,
+    interval,
+    overlay,
+  }));
+  const activeKeyRef = useRef<string | null>(themeCarouselSchedule?.initialCarouselKey ?? null);
+
+  const activeItems = resolvedConfig?.items ?? [];
+  const activeAutoplay = resolvedConfig?.autoplay ?? true;
+  const activeInterval = resolvedConfig?.interval ?? 6000;
+  const activeOverlay = resolvedConfig?.overlay ?? true;
+
+  const numSlides = activeItems.length;
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(Boolean(autoplay));
+  const [isPlaying, setIsPlaying] = useState(Boolean(activeAutoplay));
   const [isHovered, setIsHovered] = useState(false);
   const [isDocumentVisible, setIsDocumentVisible] = useState(true);
 
@@ -109,6 +133,32 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
 
   const carouselRef = useRef<HTMLElement>(null);
   const touchCoordsRef = useRef<{ x: number; y: number } | null>(null);
+
+  useEffect(() => {
+    if (!themeCarouselSchedule) {
+      setResolvedConfig({ items, autoplay, interval, overlay });
+      return;
+    }
+
+    return observeThemeSchedule(themeCarouselSchedule.themes, (activeThemeId) => {
+      const activeEntry = activeThemeId ? themeCarouselSchedule.themes.find((t) => t.id === activeThemeId) : undefined;
+      const nextKey = activeEntry?.carouselKey ?? themeCarouselSchedule.defaultCarouselKey;
+      if (nextKey === activeKeyRef.current) return;
+      activeKeyRef.current = nextKey;
+
+      const nextConfig = themeCarouselSchedule.carousels[nextKey] ?? null;
+      setResolvedConfig(nextConfig);
+      setCurrentIndex(0);
+
+      if (nextConfig) {
+        const reducedMotion =
+          typeof window !== 'undefined' &&
+          typeof window.matchMedia === 'function' &&
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        setIsPlaying(Boolean(nextConfig.autoplay ?? true) && !reducedMotion);
+      }
+    });
+  }, [themeCarouselSchedule, items, autoplay, interval, overlay]);
 
   // Respect system prefers-reduced-motion
   useEffect(() => {
@@ -137,7 +187,7 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
   useEffect(() => {
     let isMounted = true;
 
-    items.forEach((item) => {
+    activeItems.forEach((item) => {
       if (item.svg || !item.src || !isSvgSource(item.src)) return;
 
       const src = item.src;
@@ -173,7 +223,7 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
     return () => {
       isMounted = false;
     };
-  }, [items]);
+  }, [activeItems]);
 
   // SMIL pause/unpause: pause animations for inactive slides or when playback is paused
   useEffect(() => {
@@ -208,17 +258,17 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
 
   // Autoplay timer
   useEffect(() => {
-    if (!isPlaying || !autoplay || numSlides <= 1 || isHovered || !isDocumentVisible) return;
+    if (!isPlaying || !activeAutoplay || numSlides <= 1 || isHovered || !isDocumentVisible) return;
 
     const timer = setInterval(
       () => {
         nextSlide();
       },
-      Math.max(interval, 2000)
+      Math.max(activeInterval, 2000)
     );
 
     return () => clearInterval(timer);
-  }, [isPlaying, autoplay, numSlides, interval, nextSlide, isHovered, isDocumentVisible, currentIndex]);
+  }, [isPlaying, activeAutoplay, numSlides, activeInterval, nextSlide, isHovered, isDocumentVisible, currentIndex]);
 
   // Keyboard navigation when user is focused inside carousel
   useEffect(() => {
@@ -265,18 +315,22 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
     touchCoordsRef.current = null;
   };
 
-  const currentSlide = items[currentIndex];
+  if (!resolvedConfig || numSlides === 0) {
+    return null;
+  }
+
+  const currentSlide = activeItems[currentIndex];
   const activeTitle = getLocalizedSlideText(currentSlide?.title, isEn);
   const activeLead = getLocalizedSlideText(currentSlide?.lead, isEn);
 
   const showControls = numSlides > 1;
   const currentSlideHasAnimation = isSlideAnimated(currentSlide);
-  const showPauseButton = (Boolean(autoplay) && showControls) || currentSlideHasAnimation;
+  const showPauseButton = (Boolean(activeAutoplay) && showControls) || currentSlideHasAnimation;
 
   const pauseLabel = isEn ? 'Pause' : 'Pysäytä toisto';
   const playLabel = isEn ? 'Resume' : 'Jatka toistoa';
 
-  const preparedSlides: PreparedSlide[] = items.map((slide, idx) => {
+  const preparedSlides: PreparedSlide[] = activeItems.map((slide, idx) => {
     const titleKey = typeof slide.title === 'string' ? slide.title : slide.title?.fi ?? '';
     const key = slide.src ? `slide-${slide.src}` : `slide-${titleKey}-${idx}`;
     return { slide, key };
@@ -310,7 +364,7 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({
               aria-label={`${index + 1} / ${numSlides}`}
               aria-hidden={!isActive}
             >
-              <SlideMedia slide={slide} inlinedSvg={inlinedSvg} isSvg={isSvg} carouselOverlay={overlay} />
+              <SlideMedia slide={slide} inlinedSvg={inlinedSvg} isSvg={isSvg} carouselOverlay={activeOverlay} />
             </div>
           );
         })}
