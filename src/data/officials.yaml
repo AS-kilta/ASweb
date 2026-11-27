@@ -1720,66 +1720,66 @@
           en: "Master's and International Student Captain (MISC)"
       picture: '../assets/officials/2026/Jere_Hasu.avif'
       leader: true
-    #Miscellaneous
+    #MISCellaneous
     - name: 'Anna Dukate'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/AnnaDukate.avif'
     - name: 'Violet Nevalainen'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/VioletNevalainen.avif'
     - name: 'Kiet Ta'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/aebaej_placeholder.png'
     - name: 'Eemil Taipale'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/aebaej_placeholder.png'
     - name: 'Valtteri Kanstrén'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/ValtteriKanstren.avif'
     - name: 'Sofia Elomaa'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/SofiaElomaa.avif'
     - name: 'Jianing Hu'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/JianingHu.avif'
     - name: 'Isla Kajoniemi'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/IslaKajoniemi.avif'
     - name: 'Minnea Orho'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/MinneaOrho.avif'
     - name: 'Alex Vu'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2026/AlexVu.avif'
     - name: 'Chloe Trang Nguyen'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/2025/chloe_trang_nguyen.avif'
     - name: 'Kunal Selvan'
       title:
-        - fi: 'Miscellaneous'
-          en: 'Miscellaneous'
+        - fi: 'MISCellaneous'
+          en: 'MISCellaneous'
       picture: '../assets/officials/aebaej_placeholder.png'
 
 #N-toimikunta
